@@ -1,0 +1,31 @@
+# Preserve exact bytes for hash-verified scientific outputs.
+#
+# Several run manifests record SHA-256 of Windows CRLF bytes, and the API
+# verifies files byte-for-byte (a mismatch returns 503). Git's default
+# end-of-line conversion would rewrite these files on checkout and break
+# those checks. Marking them "-text" keeps the working-tree bytes unchanged
+# on every platform.
+
+* text=auto
+
+# Never convert line endings in data files that are hash-verified
+*.csv   -text
+*.tsv   -text
+*.txt   -text
+*.json  -text
+*.jsonl -text
+*.rds   binary
+*.RData binary
+
+# Binary assets
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary
+*.gz    binary
+*.gctx  binary
+*.h5    binary
+*.parquet binary
+*.xlsx  binary
+*.docx  binary
+*.pptx  binary

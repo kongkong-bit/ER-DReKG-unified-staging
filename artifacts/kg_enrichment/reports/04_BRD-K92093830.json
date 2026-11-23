@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "rank": 4,
+  "pert_id": "BRD-K92093830",
+  "drug": "doxorubicin",
+  "identity": {
+    "status": "DOXORUBICIN",
+    "candidate_mapping_status": "see exact mapping in source GraphBundle"
+  },
+  "s2_overall": {
+    "wtcs": -0.46716938932002616,
+    "sig_id": "REP.A026_MCF7_24H:L19",
+    "cell_line": "MCF7",
+    "dose": "10.0 um",
+    "time": "24 h",
+    "n_signatures": 1,
+    "interpretation": "whole-signature expression reversal association; not efficacy or target engagement"
+  },
+  "known_graph_assertions_by_relation": {
+    "TRANSPORTER": [
+      "ENSG00000004809",
+      "ENSG00000017797",
+      "ENSG00000023839",
+      "ENSG00000073734",
+      "ENSG00000085563",
+      "ENSG00000091262",
+      "ENSG00000103222",
+      "ENSG00000108846",
+      "ENSG00000118777",
+      "ENSG00000124574",
+      "ENSG00000197150"
+    ],
+    "ENZYME": [
+      "ENSG00000007171",
+      "ENSG00000089250",
+      "ENSG00000100197",
+      "ENSG00000115286",
+      "ENSG00000117448",
+      "ENSG00000127948",
+      "ENSG00000138061",
+      "ENSG00000158125",
+      "ENSG00000158864",
+      "ENSG00000159228",
+      "ENSG00000159231",
+      "ENSG00000160868",
+      "ENSG00000164867",
+      "ENSG00000181019",
+      "ENSG00000196139",
+      "ENSG00000197408",
+      "ENSG00000213619"
+    ],
+    "INHIBITOR": [
+      "ENSG00000131747"
+    ],
+    "CARRIER": [
+      "ENSG00000163631"
+    ],
+    "TARGET": [
+      "ENSG00000166197"
+    ]
+  },
+  "gene_level_s1_s2": {
+    "rows": 2,
+    "s1_directional_target_rows": 1,
+    "same_expression_direction_rows": 0,
+    "opposite_expression_direction_rows": 1,
+    "caveat": "COMPZ is transcript response, not target binding/activity; expression direction alone does not determine protein activity"
+  },
+  "candidate_mechanism_paths": [
+    {
+      "nodes": [
+        "UNIPROT:Q14978",
+        "UNIPROT:P04637"
+      ],
+      "edge_ids": [
+        "d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349"
+      ],
+      "direction": "positive",
+      "cell_context": "unknown",
+      "context_compatible": true,
+      "terminal_gene": "TP53",
+      "terminal_gene_node_id": "ENSG00000141510",
+      "terminal_s1_direction": "up",
+      "terminal_s1_logFC": "0.376496370705441",
+      "s1_directionality_interpretation": "descriptive transcript direction only; not a proxy for protein activity",
+      "s1_gene_current_reactome_pathway_annotations": [
+        {
+          "pathway_id": "REACT:R-HSA-109581",
+          "pathway_name": "Apoptosis",
+          "evidence_code": "TAS",
+          "evidence_id": "7df3d08118bc7154553b018a21afe7d596308a42b18d50833b5eb7d09f1f6728"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-109582",
+          "pathway_name": "Hemostasis",
+          "evidence_code": "IEA",
+          "evidence_id": "8c403db8b97c5b69cd19e6dc12a69dddc48a5609b9d55860a7fe38cce172d63b"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-109606",
+          "pathway_name": "Intrinsic Pathway for Apoptosis",
+          "evidence_code": "TAS",
+          "evidence_id": "99a13e4092e9038609250d955414930321a066ef34196db355b3404aee921864"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-111448",
+          "pathway_name": "Activation of NOXA and translocation to mitochondria",
+          "evidence_code": "TAS",
+          "evidence_id": "8d1d64d75d5ea52e893da866a931093c54cfd0ff11302905d53b4315a75f191f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-114452",
+          "pathway_name": "Activation of BH3-only proteins",
+          "evidence_code": "TAS",
+          "evidence_id": "e8bd95d78d901a30c731e0962f7ec87d508d8938575eff12b145d4747bd2c6a3"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1169410",
+          "pathway_name": "Antimicrobial mechanism of IFN-stimulated genes",
+          "evidence_code": "TAS",
+          "evidence_id": "7e664523344f6d514ad7cc7839c82c822745bbf14862b0c4d4d74015e8dcb5a1"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1257604",
+          "pathway_name": "PIP3 activates AKT signaling",
+          "evidence_code": "IEA",
+          "evidence_id": "7f99ea619ff29cff1f6be1e56eea214eda605ab09f63ba9eb967080d48b19574"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1257604",
+          "pathway_name": "PIP3 activates AKT signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "17358eceb7223a4f8fdde6bd50fe15cdb660fffd13bad2c1e8bf92f4d647f800"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1266738",
+          "pathway_name": "Developmental Biology",
+          "evidence_code": "IEA",
+          "evidence_id": "d14ec97c5d15597bbbd84f7978e90ed23fb6dfe2f28a1929fac300078d4e89af"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1280215",
+          "pathway_name": "Cytokine Signaling in Immune system",
+          "evidence_code": "TAS",
+          "evidence_id": "8dab05fac3f36874d9e95d7d19152841e2db65d4d09873ec6132231392edc2fe"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-139915",
+          "pathway_name": "Activation of PUMA and translocation to mitochondria",
+          "evidence_code": "TAS",
+          "evidence_id": "4089259d84766b3028881002e12b771c1d6f9eea73d74a9494112a452f9112f0"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1430728",
+          "pathway_name": "Metabolism",
+          "evidence_code": "TAS",
+          "evidence_id": "fb2e1db8356f51efa3a98f6d539a5111c5f50e3b535061064487e2b11cfa3b4e"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-157118",
+          "pathway_name": "Signaling by NOTCH",
+          "evidence_code": "TAS",
+          "evidence_id": "9e85924874a449f9559f4ad131883a24e438825deccdc07fbcedaa82d6086861"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-162582",
+          "pathway_name": "Signal Transduction",
+          "evidence_code": "IEA",
+          "evidence_id": "ac2396d2d81bca8da2f8ddc723ff674bfefcbcb51e3687f9268b01b4f470ddd0"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-162582",
+          "pathway_name": "Signal Transduction",
+          "evidence_code": "TAS",
+          "evidence_id": "a9f9384d0748791f3b43b0d089b0b9a96a457049252e7a8572642c29f52278d7"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1640170",
+          "pathway_name": "Cell Cycle",
+          "evidence_code": "TAS",
+          "evidence_id": "075a0d8cce96bd85f5425d1c83c537abfa21229440992030aded86eb3360c110"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1643685",
+          "pathway_name": "Disease",
+          "evidence_code": "TAS",
+          "evidence_id": "728e322c23610bbce432bde54c1fe738886153674a494dee788e1d75e6013499"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-166016",
+          "pathway_name": "Toll Like Receptor 4 (TLR4) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "b711ec3136734bcabb1aaf797323edc000fc3dd5286fca26375f148913b5843d"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-166058",
+          "pathway_name": "MyD88:MAL(TIRAP) cascade initiated on plasma membrane",
+          "evidence_code": "TAS",
+          "evidence_id": "94e039a21eb9867f775c84acfa87bc4e2129eb2cb57eb3df48dcd0dfe74ca065"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-166166",
+          "pathway_name": "MyD88-independent TLR4 cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "df054b4b824acf8e11a64a9e2186ca078dd8a267e0d850e2d5c05814a171338f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168138",
+          "pathway_name": "Toll Like Receptor 9 (TLR9) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "8eea13bd78b70ee76ed55f3bf38efa54a167a8ce1ec0daf23a1f614970b74338"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168142",
+          "pathway_name": "Toll Like Receptor 10 (TLR10) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "3cb6229d2c19de5f976eeb3e51dfbfaa969e8e0ce11e2c66dc934abed54f4f01"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168164",
+          "pathway_name": "Toll Like Receptor 3 (TLR3) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "cad67f59f2e38f3a16cc6ae1399f40e3f85ac5982eec0f5127d2b00736c9e3f6"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168176",
+          "pathway_name": "Toll Like Receptor 5 (TLR5) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "890dc0696de34436bb475669d5375b17ccea8eecfec52dc5e0c0352f19af7476"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168179",
+          "pathway_name": "Toll Like Receptor TLR1:TLR2 Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "5e748ab0155069a1529cd020fe7616093426d4d63aae5dfbd3bdaf3fa48f7aa0"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168181",
+          "pathway_name": "Toll Like Receptor 7/8 (TLR7/8) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "f176b772c70c75b847dc277684e3ab93b301be0f8f57170aa85ab396ed34ed43"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168188",
+          "pathway_name": "Toll Like Receptor TLR6:TLR2 Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "1bfbbbbe5cf8fe05e6f75e8736183261233070d146342544381d68ed13d4fc3e"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168249",
+          "pathway_name": "Innate Immune System",
+          "evidence_code": "TAS",
+          "evidence_id": "eb529ceb19029d1b8abe13d21b2ab79ef56f604d840c065e8420527694707dba"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168256",
+          "pathway_name": "Immune System",
+          "evidence_code": "TAS",
+          "evidence_id": "da33e32b100ab4e1e40bd08f71ee12d73e192d1b1d4864692cc1dd54d01f8972"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-168898",
+          "pathway_name": "Toll-like Receptor Cascades",
+          "evidence_code": "TAS",
+          "evidence_id": "0404cedda56bb8d3c3bda9510b600312332211abacd65ad19cfc5a695f31c172"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-181438",
+          "pathway_name": "Toll Like Receptor 2 (TLR2) Cascade",
+          "evidence_code": "TAS",
+          "evidence_id": "1390e8d48f0dc0a7e5744e48ac9326b1820b16838cea562fe26e4c7926c34a6f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1912408",
+          "pathway_name": "Pre-NOTCH Transcription and Translation",
+          "evidence_code": "TAS",
+          "evidence_id": "75b090a9ae3096128c36deda87d9d3ba3af3b4bccff58fcf58c90a27c08d55d8"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-1912422",
+          "pathway_name": "Pre-NOTCH Expression and Processing",
+          "evidence_code": "TAS",
+          "evidence_id": "5eaee90417f938c1907fd3facaeeb89266fe3ed820031721e5dea9d2c481462f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-212436",
+          "pathway_name": "Generic Transcription Pathway",
+          "evidence_code": "TAS",
+          "evidence_id": "691bd16c4611345906edc4d38816d25b2aeb3f1dd2918df77a3f2f8a8fb4b23d"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2262752",
+          "pathway_name": "Cellular responses to stress",
+          "evidence_code": "TAS",
+          "evidence_id": "de8e434b74a00f034cb067c054cf3e43b5bbed0ac6b4dba471b58229825bf0df"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2559580",
+          "pathway_name": "Oxidative Stress Induced Senescence",
+          "evidence_code": "TAS",
+          "evidence_id": "9ac714640b2a67408dd82008649603e6320f33f73c9faa982d53110850e8bc55"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2559583",
+          "pathway_name": "Cellular Senescence",
+          "evidence_code": "TAS",
+          "evidence_id": "847943b04f9c541eaec32515e91e4ce5e13546399c5fd0785be981c3aab97479"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2559584",
+          "pathway_name": "Formation of Senescence-Associated Heterochromatin Foci (SAHF)",
+          "evidence_code": "TAS",
+          "evidence_id": "d5bf8a6cf6e7aac9090f0d8256d305a01f4cabefc6799740a2062f1b12244463"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2559585",
+          "pathway_name": "Oncogene Induced Senescence",
+          "evidence_code": "TAS",
+          "evidence_id": "7a87eb111a1a90f8f9c3e6e0788c5bb0df876ecf22dfac4b32eb70cf9428dcba"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2559586",
+          "pathway_name": "DNA Damage/Telomere Stress Induced Senescence",
+          "evidence_code": "TAS",
+          "evidence_id": "4111f92c6acd6d7346f144a7e5fba931f581700645bf64c1b6ab67e9632a7008"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-2990846",
+          "pathway_name": "SUMOylation",
+          "evidence_code": "TAS",
+          "evidence_id": "d8157a5c4ecfa1d6bf046125578731e5d911a1e66a373952d96c5dfe1b504dcf"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-3108232",
+          "pathway_name": "SUMO E3 ligases SUMOylate target proteins",
+          "evidence_code": "TAS",
+          "evidence_id": "583e65cfcacece4450e5c003d6fc38d7c880bff3b698e03588c85ae7cec64efb"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-3232118",
+          "pathway_name": "SUMOylation of transcription factors",
+          "evidence_code": "TAS",
+          "evidence_id": "12ed56cb225558012e52771e790dce6150b16f30895a11371c912c5a1ecd7997"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-349425",
+          "pathway_name": "Autodegradation of the E3 ubiquitin ligase COP1",
+          "evidence_code": "TAS",
+          "evidence_id": "af104a81aae7d186a154ffbc1484357d2402735385ea025bde5b68ae8dcaaa1e"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-3700989",
+          "pathway_name": "Transcriptional Regulation by TP53",
+          "evidence_code": "TAS",
+          "evidence_id": "495831621a225c15e1737e67f0f311ee1c098fa709fda439f8a05bc294cc7a57"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-390466",
+          "pathway_name": "Chaperonin-mediated protein folding",
+          "evidence_code": "IEA",
+          "evidence_id": "6e7c39d504226972140bdfc00a14b1ee492aca3124add5e9d27f2ba924b4ff53"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-390471",
+          "pathway_name": "Association of TriC/CCT with target proteins during biosynthesis",
+          "evidence_code": "IEA",
+          "evidence_id": "16a67bf8ccfbd77f5b1997514ab7610eb09064722b2f70f3bba34d311e6bd032"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-391251",
+          "pathway_name": "Protein folding",
+          "evidence_code": "IEA",
+          "evidence_id": "8de26c0d3968497889640acf324453285a513e81b9c4ccd91be768bbcd6eda6b"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-392499",
+          "pathway_name": "Metabolism of proteins",
+          "evidence_code": "IEA",
+          "evidence_id": "fe6e42c8fe89bc707856d5f1b91268c10e894cf83814bc769e0b3668a4bb0d3f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-392499",
+          "pathway_name": "Metabolism of proteins",
+          "evidence_code": "TAS",
+          "evidence_id": "0d85e77f33f2c00d543dfb28e5800e04eba2c7d8e880678832d564fe74642ba2"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-445989",
+          "pathway_name": "TAK1-dependent IKK and NF-kappa-B activation",
+          "evidence_code": "TAS",
+          "evidence_id": "a7b8d42f8a919d39f171aeca98d894a74f9fda91c5025013f667b2a23e4f270a"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-446652",
+          "pathway_name": "Interleukin-1 family signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "82130e3a4c4023b03cdb39621944cc15fb90a0270957d6a167ca800c22084fa6"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-449147",
+          "pathway_name": "Signaling by Interleukins",
+          "evidence_code": "TAS",
+          "evidence_id": "bcf0d15e71468c63f8abb2f8e03ba3f77a56f12c0d6c8915fab9bf3f91eed96c"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-453274",
+          "pathway_name": "Mitotic G2-G2/M phases",
+          "evidence_code": "TAS",
+          "evidence_id": "e708796758c8ac8ae9627d023a3625abb7c552303f0a37e86203c2e6346bb114"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5218859",
+          "pathway_name": "Regulated Necrosis",
+          "evidence_code": "TAS",
+          "evidence_id": "df95519de6a4320f772b8fe62b02557e7192cbafdc679f3600b734e4e22aa2a3"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5357801",
+          "pathway_name": "Programmed Cell Death",
+          "evidence_code": "TAS",
+          "evidence_id": "ab6b45259221466475a598ab52d1c7934e3c7322016bc92d06508c293d4eb142"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5620971",
+          "pathway_name": "Pyroptosis",
+          "evidence_code": "TAS",
+          "evidence_id": "4ddede95a767f948a43caf28d902e921b1f5b910c5eb548812e6e496e4e01b01"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5628897",
+          "pathway_name": "TP53 Regulates Metabolic Genes",
+          "evidence_code": "TAS",
+          "evidence_id": "f312639cc1230e1d6a1669739167d55c2fa6a7a6579289c0ddd1d1cd27dead97"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5633007",
+          "pathway_name": "Regulation of TP53 Activity",
+          "evidence_code": "TAS",
+          "evidence_id": "53eb31c8d02cb73f83038cc8afeb02eda0d38ddcf62660cfbf2cdb272017dc07"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5633008",
+          "pathway_name": "TP53 Regulates Transcription of Cell Death Genes",
+          "evidence_code": "TAS",
+          "evidence_id": "67cc0b55b7ac27d1eb138d81cbbcf1f1c6ee21dc493d17e06634827e531176ec"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5663202",
+          "pathway_name": "Diseases of signal transduction by growth factor receptors and second messengers",
+          "evidence_code": "TAS",
+          "evidence_id": "b908c14447d2a562399fddff2df5573fa672bbe02c507b3883503d1e1621d821"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5688426",
+          "pathway_name": "Deubiquitination",
+          "evidence_code": "TAS",
+          "evidence_id": "1112cce64919a551fa2bb12f8329f424677e88df437939d6a66fd127d31935da"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5689880",
+          "pathway_name": "Ub-specific processing proteases",
+          "evidence_code": "TAS",
+          "evidence_id": "87fb268508d69fddaa43c25c230aabc20efbf973a6e9bc7bd7fca0cedadcd6a5"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5689896",
+          "pathway_name": "Ovarian tumor domain proteases",
+          "evidence_code": "TAS",
+          "evidence_id": "69a335741b6f6da4f48a5be4d799158f4add4b070434acfd4b6e0f7dbcf97910"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5693532",
+          "pathway_name": "DNA Double-Strand Break Repair",
+          "evidence_code": "TAS",
+          "evidence_id": "d4ebc929f427f18c1e3f581b2ff21ae60b2dbf561beb6eeed4d8327965f1c5bc"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5693565",
+          "pathway_name": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+          "evidence_code": "TAS",
+          "evidence_id": "7caf7dc69aa042fe08eda9a04194590c7496667e5ea41a763d96cf30605de699"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-5693606",
+          "pathway_name": "DNA Double Strand Break Response",
+          "evidence_code": "TAS",
+          "evidence_id": "8ff82df0f4e775c24b1b0c67f7daa6f2cbeafbfd740b96b453b2f2866b892bed"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-597592",
+          "pathway_name": "Post-translational protein modification",
+          "evidence_code": "TAS",
+          "evidence_id": "5d0acd97a7e7012b1463ee0012f2765c3ed7a8c26cbcee322b7be0508ebbb4e6"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6785807",
+          "pathway_name": "Interleukin-4 and Interleukin-13 signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "25e2642d12183ec2b6392b136ccbd07cb744415d1df12d85ea5723c3cd55f540"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6791312",
+          "pathway_name": "TP53 Regulates Transcription of Cell Cycle Genes",
+          "evidence_code": "TAS",
+          "evidence_id": "06cf3d9493f85549f964ff7ef7faa756a3a956741f345838c138cf09d4b1e054"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6796648",
+          "pathway_name": "TP53 Regulates Transcription of DNA Repair Genes",
+          "evidence_code": "TAS",
+          "evidence_id": "14e36bc11c1fe188d721c566829edfd420d0458b4593a27dcaa66849837f3f4e"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6803204",
+          "pathway_name": "TP53 Regulates Transcription of Genes Involved in Cytochrome C Release",
+          "evidence_code": "TAS",
+          "evidence_id": "2eb2291f13d15dd6dcb0af7bfde2605a25bb0e63f5d4f47f850deb68c2286d9e"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6803205",
+          "pathway_name": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "evidence_code": "TAS",
+          "evidence_id": "149d6edd9e4f96eea44ec0deea1c13f931899294c04c850c2c90a0129026d1ec"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6803207",
+          "pathway_name": "TP53 Regulates Transcription of Caspase Activators and Caspases",
+          "evidence_code": "TAS",
+          "evidence_id": "803c755f7929691663ad7985df0a168be939949538d15bf54b8f3bc2f70015e0"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6803211",
+          "pathway_name": "TP53 Regulates Transcription of Death Receptors and Ligands",
+          "evidence_code": "TAS",
+          "evidence_id": "30a78e3b78961fadd8e55ff761ef9c6fceac37446644662491856fb876875dfd"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804114",
+          "pathway_name": "TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest",
+          "evidence_code": "TAS",
+          "evidence_id": "451a43591b4b9613e4d73d76a17fbec3c70f3ad6a6ebf9bb216c02c17c29c875"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804115",
+          "pathway_name": "TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain",
+          "evidence_code": "TAS",
+          "evidence_id": "818c03bcb634748d6d2c52556f95293ef68389ae4a831014bae27ae488a1879a"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804116",
+          "pathway_name": "TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest",
+          "evidence_code": "TAS",
+          "evidence_id": "1ad58640f9810bdb39d9ce7031e2daa1bc56cd356f204dde7dcbeb52e04678cf"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804754",
+          "pathway_name": "Regulation of TP53 Expression",
+          "evidence_code": "TAS",
+          "evidence_id": "47a46db53be02e8fbfae48e22247f4a999257b34c18b21a45fd57d7d7b4c5934"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804756",
+          "pathway_name": "Regulation of TP53 Activity through Phosphorylation",
+          "evidence_code": "TAS",
+          "evidence_id": "f9ab938862b77da8835acbf2ac510bfbe0c2648b089d67c15314eef310297415"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804757",
+          "pathway_name": "Regulation of TP53 Degradation",
+          "evidence_code": "TAS",
+          "evidence_id": "6fc4c16b6ce2796b16c8ab6e836ae8ab7c17b6e077f9c6a368a4d7aa3bb74fe2"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804758",
+          "pathway_name": "Regulation of TP53 Activity through Acetylation",
+          "evidence_code": "TAS",
+          "evidence_id": "657205f24720032505f44f7e104b598a0102ca80c03cdac8d3545d9bf3983013"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804759",
+          "pathway_name": "Regulation of TP53 Activity through Association with Co-factors",
+          "evidence_code": "TAS",
+          "evidence_id": "1da7ec84c27ba2fe81855b0b25da92e4168881f7962508426de18c2ef4246cba"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6804760",
+          "pathway_name": "Regulation of TP53 Activity through Methylation",
+          "evidence_code": "TAS",
+          "evidence_id": "56b737bf14f0177ddaf2f30446ff9149d1f1a39700aa7382fddc3d4b80bebd52"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6806003",
+          "pathway_name": "Regulation of TP53 Expression and Degradation",
+          "evidence_code": "TAS",
+          "evidence_id": "d833f2071e575c54bd9ab324e583763f1715d4721c9bec19743281c7ada30be8"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6807070",
+          "pathway_name": "PTEN Regulation",
+          "evidence_code": "IEA",
+          "evidence_id": "85c45aa17dc392154028df857b7ed8d44481f01a9cd740d2c52813467aea7150"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6807070",
+          "pathway_name": "PTEN Regulation",
+          "evidence_code": "TAS",
+          "evidence_id": "337faab137c475ee9cb15d6906105d1ed7adc93f3c2209fcfec70f1ce87ce331"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-6811555",
+          "pathway_name": "PI5P Regulates TP53 Acetylation",
+          "evidence_code": "TAS",
+          "evidence_id": "10988a95823571de735ef26ec9b1d6338490b8e3d64c099f1a4089167e562e0c"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69275",
+          "pathway_name": "G2/M Transition",
+          "evidence_code": "TAS",
+          "evidence_id": "5b614d9db194169d5902f8fd1e1fa7231a4336f0a1a97dcb627ab3388f7b6ca4"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69278",
+          "pathway_name": "Cell Cycle, Mitotic",
+          "evidence_code": "TAS",
+          "evidence_id": "ce65ee91461ffa06b21c5c81cbe9fdf3e2ff0846067e51655d483466c06d12a2"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69473",
+          "pathway_name": "G2/M DNA damage checkpoint",
+          "evidence_code": "TAS",
+          "evidence_id": "7e22f6c5e0f3aed6b9dc39559e413e0a2840e5297f63b98169891a161f09e5fd"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69481",
+          "pathway_name": "G2/M Checkpoints",
+          "evidence_code": "TAS",
+          "evidence_id": "69dd0ac2d4a804e48eea0daedbfc1ea071341435217a3b8830edbc921a6b60c1"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69541",
+          "pathway_name": "Stabilization of p53",
+          "evidence_code": "TAS",
+          "evidence_id": "913487e53eca053a2d64ce94d309e5572d7da55c5a7c6f894a642a5ed4013e0a"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69560",
+          "pathway_name": "Transcriptional activation of p53 responsive genes",
+          "evidence_code": "TAS",
+          "evidence_id": "f0385db4acb7fc7326d332653d56b45edda1a1832ee30e9561220e9f9ce49466"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69563",
+          "pathway_name": "p53-Dependent G1 DNA Damage Response",
+          "evidence_code": "TAS",
+          "evidence_id": "c5fff358eabf24ce43bbb6c8f2ad3761c151b9603629302975d4602b9bb7aeda"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69580",
+          "pathway_name": "p53-Dependent G1/S DNA damage checkpoint",
+          "evidence_code": "TAS",
+          "evidence_id": "e8547335c16f850cb93ca922e87f608980359aef0366749ed25c8a821fe5a2ce"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69615",
+          "pathway_name": "G1/S DNA Damage Checkpoints",
+          "evidence_code": "TAS",
+          "evidence_id": "d03c4222804d041bfff0e758e1cc03169da995b48a3109bfcf4c5f5644720071"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69620",
+          "pathway_name": "Cell Cycle Checkpoints",
+          "evidence_code": "TAS",
+          "evidence_id": "d012a28f4103cd6c3bb38cbce4594a487ead4a6e591a9aab23a6e157aca3b3d3"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-69895",
+          "pathway_name": "Transcriptional  activation of  cell cycle inhibitor p21",
+          "evidence_code": "TAS",
+          "evidence_id": "dfce71104c2e2e546b128ee24f840781f91ba480dcf0222ab5027169b56c10b4"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-70635",
+          "pathway_name": "Urea cycle",
+          "evidence_code": "TAS",
+          "evidence_id": "9c48e023e736396e2144f3eabe16a3915efd7e3ea1b1714c0426cf93464fc3b0"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-71291",
+          "pathway_name": "Metabolism of amino acids and derivatives",
+          "evidence_code": "TAS",
+          "evidence_id": "3af713938df77a55a403aec48f4b136725f70c302b687d7b85c787cb92139cb5"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-73857",
+          "pathway_name": "RNA Polymerase II Transcription",
+          "evidence_code": "TAS",
+          "evidence_id": "7b7692b6ded810bae185964b6024509a2fcd1afd76c8d48cb28433c14033ee77"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-73894",
+          "pathway_name": "DNA Repair",
+          "evidence_code": "TAS",
+          "evidence_id": "6eac70a3479608db3118c455b58543e7f21a56eb39379a9df2b9c1aed4d23ba4"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-74160",
+          "pathway_name": "Gene expression (Transcription)",
+          "evidence_code": "TAS",
+          "evidence_id": "db0ddda48487b0ab195d36add46244e1525cee88295ac79fb7aadb006c89dd90"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8852276",
+          "pathway_name": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+          "evidence_code": "TAS",
+          "evidence_id": "5c3db6ac15c6853c83b5ce58b808f841afa87e443ce03dcc9ff5f7bc0a333223"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8853884",
+          "pathway_name": "Transcriptional Regulation by VENTX",
+          "evidence_code": "TAS",
+          "evidence_id": "0ed84bb6ac59fcf26cc573516077f9c8ac6fa7aba901d5ef7ab9f83bf4926213"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8878159",
+          "pathway_name": "Transcriptional regulation by RUNX3",
+          "evidence_code": "TAS",
+          "evidence_id": "e6e542718477cd83813fbc0438098b4d2340c4f1e1ff4e2ce4c00cb129a816b6"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8941855",
+          "pathway_name": "RUNX3 regulates CDKN1A transcription",
+          "evidence_code": "TAS",
+          "evidence_id": "f58caa6e072f3323dcca9ed9cd55f8e263dafa42e2c8a2188e93f05be0365e64"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8943724",
+          "pathway_name": "Regulation of PTEN gene transcription",
+          "evidence_code": "IEA",
+          "evidence_id": "7aa5b06355625e3a40aad2a7319854a701e55a83392d251ccdde02c1f8502ba1"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8943724",
+          "pathway_name": "Regulation of PTEN gene transcription",
+          "evidence_code": "TAS",
+          "evidence_id": "b231c6b3ed2c50d9acdb8dea8f56b91f3f41e1464f8ef69ded92b60cd5f7271a"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-8953897",
+          "pathway_name": "Cellular responses to stimuli",
+          "evidence_code": "TAS",
+          "evidence_id": "53609a25c5ffaf58faac57f5a1031a927582ef97884cf6a6117e100801aad2aa"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9006925",
+          "pathway_name": "Intracellular signaling by second messengers",
+          "evidence_code": "IEA",
+          "evidence_id": "df862462c3009236a7a54eac9cd1e80d9e4ce8faee6f9e5a34eecd6e716d4b49"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9006925",
+          "pathway_name": "Intracellular signaling by second messengers",
+          "evidence_code": "TAS",
+          "evidence_id": "4d2420537495ac957425bec2a8796e5b5d8ddd75d67a11b40e5617416b584f1d"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9020702",
+          "pathway_name": "Interleukin-1 signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "f4b544391564d2d0fffc845acb7077f434d872f4b6facb72d942042150d6b1d4"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-913531",
+          "pathway_name": "Interferon Signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "c531bf8e43ca8a048b336a76a9eac9976bdab1fd79cdea268d1bcc58b8dc022f"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-937061",
+          "pathway_name": "TRIF (TICAM1)-mediated TLR4 signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "95905798e8dcb9e4073e33f7bfcd4a8e2f14c0cfc8502e70d576223c290b7122"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9645723",
+          "pathway_name": "Diseases of programmed cell death",
+          "evidence_code": "TAS",
+          "evidence_id": "aa4917ae40dbe8f116677088dccbd602465365cc54a01a972a2af8df56adc4e9"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9700206",
+          "pathway_name": "Signaling by ALK in cancer",
+          "evidence_code": "TAS",
+          "evidence_id": "65775fce10fe2abe53fe695cdea0f39881b03d701a7fc5eb1917a4a8c358a16c"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9723905",
+          "pathway_name": "Loss of function of TP53 in cancer due to loss of tetramerization ability",
+          "evidence_code": "TAS",
+          "evidence_id": "bee15bc5f4ad624b7be9f59aeaa9bf2404b28f80edc459ed225679653d1bac40"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9723907",
+          "pathway_name": "Loss of Function of TP53 in Cancer",
+          "evidence_code": "TAS",
+          "evidence_id": "1b84a549493cb9d4711a7c5049ce4f36f20b9f705a0907f01789fe19ca475e7b"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9725370",
+          "pathway_name": "Signaling by ALK fusions and activated point mutants",
+          "evidence_code": "TAS",
+          "evidence_id": "0f9e24d0080adf86eb283fb16168394aadb9bbf1bf27bc34a87b92bb95a5b7f9"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9734009",
+          "pathway_name": "Defective Intrinsic Pathway for Apoptosis",
+          "evidence_code": "TAS",
+          "evidence_id": "d1adea446237df4ce3b008d9e582ae969768c6b7c7c513d9b862b0f6a63d1e9a"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-975138",
+          "pathway_name": "TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",
+          "evidence_code": "TAS",
+          "evidence_id": "365be00de35285345e5b4a42cd3df3e936aa6b04d08ccefe35e8ea1ba714a087"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-975155",
+          "pathway_name": "MyD88 dependent cascade initiated on endosome",
+          "evidence_code": "TAS",
+          "evidence_id": "be292b5408916e40811da02321a963163efc3b1338c2eb71deb01e21c3674d9c"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9758274",
+          "pathway_name": "Regulation of NF-kappa B signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "e655d5f1311f42b6c5b530cabb0341aca680f69a76ad4a9010fcbbbcfd297e70"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-975871",
+          "pathway_name": "MyD88 cascade initiated on plasma membrane",
+          "evidence_code": "TAS",
+          "evidence_id": "43349ccdd0632aa3838ab54e5ec2a564647cc06327b6e3b8737c3f108e59f34b"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9816359",
+          "pathway_name": "Maternal to zygotic transition (MZT)",
+          "evidence_code": "IEA",
+          "evidence_id": "ee273bb126f941b7f10493976552315a461a73bff63c49bd1189468c80ea1e10"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9819196",
+          "pathway_name": "Zygotic genome activation (ZGA)",
+          "evidence_code": "IEA",
+          "evidence_id": "882cf507177c08b778b51209d99d5cd130276d55ff9da38233b38a996955a8a8"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-983231",
+          "pathway_name": "Factors involved in megakaryocyte development and platelet production",
+          "evidence_code": "IEA",
+          "evidence_id": "abc916ef31547d65dd422b095da1259e3394ebf7f83588201043c00c026fd954"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9833482",
+          "pathway_name": "PKR-mediated signaling",
+          "evidence_code": "TAS",
+          "evidence_id": "8b36423720caf5c7d41a8a3faf876d79bb60903015903c9af2d9c67848176154"
+        },
+        {
+          "pathway_id": "REACT:R-HSA-9988426",
+          "pathway_name": "Negative transcriptional regulation of urea cycle enzymes",
+          "evidence_code": "TAS",
+          "evidence_id": "7d96c04e5d2a959f785d9613d21a9ad8c855895cca068c47a725eff8727e3ce2"
+        }
+      ],
+      "pathway_annotation_semantics": "independent Reactome membership annotation for the terminal S1 gene; does not extend or sign the candidate regulatory path",
+      "target_gene_mapping": {
+        "gene_id": "ENSG00000166197",
+        "protein_id": "UNIPROT:Q14978",
+        "ambiguity": "unique_gene"
+      },
+      "mapping_evidence_ids": [
+        "02f2ee75ed544ac65ab4cfb290ee36e67abbe5c2289fa850fe1a53a5ae4f1fdc",
+        "9b74e93ab132e3f9e23e29c62a9acace1006c4a5688e3bca763fe3b1b19950ca"
+      ],
+      "evidence_ids": [
+        "02f2ee75ed544ac65ab4cfb290ee36e67abbe5c2289fa850fe1a53a5ae4f1fdc",
+        "9b74e93ab132e3f9e23e29c62a9acace1006c4a5688e3bca763fe3b1b19950ca",
+        "d7c42225a47d3987c1053c62a9efd375f520a19427471d1804afe8b0ab174207",
+        "d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349"
+      ],
+      "drug_target_evidence_ids": [
+        "d7c42225a47d3987c1053c62a9efd375f520a19427471d1804afe8b0ab174207"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "02f2ee75ed544ac65ab4cfb290ee36e67abbe5c2289fa850fe1a53a5ae4f1fdc",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG:associated_protein:Q14978:ENSG00000166197",
+          "subject_id": "UNIPROT:Q14978",
+          "predicate": "ASSOCIATED_WITH_GENE",
+          "object_id": "ENSG00000166197",
+          "source_assertion_json": "{\"uniprot_accession\": \"Q14978\", \"gene_id\": \"ENSG00000166197\", \"gene_symbol\": \"NOLC1\", \"mapping_source\": \"uniprot_swissprot\", \"source_release\": \"OptimusKG 3.2\", \"license\": \"CC BY-NC-SA 4.0\", \"source_file_sha256\": \"d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a\", \"mapping_method\": \"exact associated_proteins xref; no fuzzy name matching\", \"mapping_ambiguity\": \"unique_gene\"}"
+        },
+        {
+          "evidence_id": "9b74e93ab132e3f9e23e29c62a9acace1006c4a5688e3bca763fe3b1b19950ca",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG:associated_protein:P04637:ENSG00000141510",
+          "subject_id": "UNIPROT:P04637",
+          "predicate": "ASSOCIATED_WITH_GENE",
+          "object_id": "ENSG00000141510",
+          "source_assertion_json": "{\"uniprot_accession\": \"P04637\", \"gene_id\": \"ENSG00000141510\", \"gene_symbol\": \"TP53\", \"mapping_source\": \"uniprot_swissprot\", \"source_release\": \"OptimusKG 3.2\", \"license\": \"CC BY-NC-SA 4.0\", \"source_file_sha256\": \"d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a\", \"mapping_method\": \"exact associated_proteins xref; no fuzzy name matching\", \"mapping_ambiguity\": \"unique_gene\"}"
+        },
+        {
+          "evidence_id": "d7c42225a47d3987c1053c62a9efd375f520a19427471d1804afe8b0ab174207",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL53463:ENSG00000166197",
+          "subject_id": "CHEMBL53463",
+          "predicate": "TARGET",
+          "object_id": "ENSG00000166197",
+          "source_assertion_json": "{\"mechanisms_of_action\":null,\"relation_assertions\":[{\"relation\":\"TARGET\",\"source\":\"DRUG_BANK\"}],\"relation_conflict\":false,\"source_ids\":null,\"source_record_id\":\"OptimusKG 3.2:drug_gene:CHEMBL53463:ENSG00000166197\",\"source_urls\":null,\"sources\":{\"direct\":[\"DRUG_BANK\"],\"indirect\":[]}}"
+        },
+        {
+          "evidence_id": "d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349",
+          "source_release": "API-current-2026-11-22",
+          "source_record_id": "OmniPath:SPIKE:d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349",
+          "subject_id": "UNIPROT:Q14978",
+          "predicate": "REGULATES",
+          "object_id": "UNIPROT:P04637",
+          "source_assertion_json": "{\"id\": \"d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349\", \"source\": \"UNIPROT:Q14978\", \"target\": \"UNIPROT:P04637\", \"from\": \"UNIPROT:Q14978\", \"to\": \"UNIPROT:P04637\", \"label\": \"REGULATES\", \"relation\": \"REGULATES\", \"undirected\": \"false\", \"sign\": \"positive\", \"directed\": true, \"organism\": \"Homo sapiens\", \"cell_context\": \"unknown\", \"tissue_context\": \"unknown\", \"source_database\": \"OmniPath\", \"source_record_id\": \"OmniPath:SPIKE:d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349\", \"source_release\": \"API-current-2026-11-22\", \"license\": \"CC BY 4.0\", \"properties_json\": \"{\\\"assertion_id\\\": \\\"d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349\\\", \\\"source_record_id\\\": \\\"OmniPath:SPIKE:d997ae13812c8166c647e3906d0e95b24cb1621766abbeaa7fb3044f95ee3349\\\", \\\"sign\\\": \\\"positive\\\", \\\"organism\\\": \\\"Homo sapiens\\\", \\\"cell_context\\\": \\\"unknown\\\", \\\"tissue_context\\\": \\\"unknown\\\", \\\"mechanism\\\": \\\"\\\\\\\"Transcription Regulation\\\\\\\"\\\", \\\"source_database\\\": \\\"OmniPath\\\", \\\"source_release\\\": \\\"API-current-2026-11-22\\\", \\\"evidence_ids\\\": \\\"PMID:19541936\\\", \\\"source_file_sha256\\\": \\\"1092e4ee04f02bac0da89d0ea8d93570b2c54178be69656bf2a6780f8d6977e5\\\", \\\"license\\\": \\\"CC BY 4.0\\\"}\"}"
+        }
+      ],
+      "s2_terminal_response": []
+    }
+  ],
+  "candidate_context_paths": [],
+  "literature": [
+    {
+      "rank": "4",
+      "pert_id": "BRD-K92093830",
+      "pert_iname": "doxorubicin",
+      "evidence_scope": "ER_positive_preclinical",
+      "claim_type": "mixed_response",
+      "context": "MCF-7 and T47-D with estrogen and doxorubicin",
+      "curated_finding": "Study found estrogen altered molecular responses to doxorubicin in ER-positive cells; low-dose co-treatment showed pro-growth signaling changes and estrogen could modify cytotoxic response.",
+      "direction": "mixed_or_counter_signal",
+      "source_type": "primary_study",
+      "source_id": "PMID:22964943",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22964943/",
+      "limitations": "Cell models and specific concentration/schedule; doxorubicin is a cytotoxic comparator, not a novel targeted mechanism or proof of benefit for this candidate ranking.",
+      "review_status": "reviewed"
+    }
+  ],
+  "literature_review_status": "manual focused review records only; not systematic review",
+  "human_mechanism_grade": {
+    "rank": "4",
+    "pert_id": "BRD-K92093830",
+    "drug_name": "doxorubicin",
+    "grade": "A",
+    "grade_label": "较强",
+    "grade_rationale": "Established breast-cancer pharmacology and source-supported TOP2A target evidence are accompanied by ER-positive cell-model studies.",
+    "target_evidence_basis": "审阅 03_drug_target_report.md、冻结 bundle 与 external identity/mechanism claims；未按关系条数打分。",
+    "target_evidence_ids": "5d997674034af750148403cb1ed2dc913d2b6f0494a2d893b0f755a65e480c89; d7c42225a47d3987c1053c62a9efd375f520a19427471d1804afe8b0ab174207",
+    "target_source_records": "OptimusKG 3.2:drug_gene:CHEMBL53463:ENSG00000131747; OptimusKG 3.2:drug_gene:CHEMBL53463:ENSG00000166197",
+    "target_source_urls": "",
+    "disease_evidence_scope": "ER_positive_preclinical",
+    "disease_evidence_summary": "Study found estrogen altered molecular responses to doxorubicin in ER-positive cells; low-dose co-treatment showed pro-growth signaling changes and estrogen could modify cytotoxic response.",
+    "disease_source_id": "PMID:22964943",
+    "disease_source_url": "https://pubmed.ncbi.nlm.nih.gov/22964943/",
+    "limitations": "Doxorubicin is an existing breast-cancer treatment, not a newly discovered therapy; reviewed estrogen-response evidence is mixed and does not establish the frozen dose mechanism. 定向检索不是系统综述；等级描述机制证据，不表示疗效概率。原始疾病记录限制：Cell models and specific concentration/schedule; doxorubicin is a cytotoxic comparator, not a novel targeted mechanism or proof of benefit for this candidate ranking.",
+    "mechanism_source_refs": "",
+    "assessment_type": "human_curated_focused_review_v1"
+  },
+  "rule_based_dimensions": {
+    "EvidenceQuality": {
+      "value": "A",
+      "basis": "existing human-curated A/B/C/U mechanism evidence grade",
+      "missing": false
+    },
+    "DirectionConsistency": {
+      "value": "not_assessable_at_S1_transcript_vs_protein_activity_level",
+      "basis": "signed path effect is retained, but S1 mRNA direction alone is not treated as protein activity or drug action direction",
+      "missing": true
+    },
+    "DiseaseRelevance": {
+      "value": "S1 DEG endpoints and/or ER+ literature present",
+      "record_count": 1,
+      "s1_terminal_path_count": 1,
+      "missing": false
+    },
+    "DrugPerturbationSupport": {
+      "value": "WTCS available; gene-level target response is descriptive and does not validate a signed regulatory path",
+      "wtcs": -0.46716938932002616,
+      "gene_response_rows": 2,
+      "path_terminal_S2_response_rows": 0,
+      "missing": false
+    },
+    "ContextMatch": {
+      "value": "SIGNOR contexts are source labels; OmniPath context unspecified; no normalization to MCF7",
+      "cell_line": "MCF7",
+      "er_positive_literature_records": 1,
+      "missing": true
+    },
+    "PathSpecificity": {
+      "value": "1 signed target-to-S1 paths",
+      "basis": "path edges are directed regulatory assertions; exact UniProt-to-gene mappings and drug target assertions remain separately evidenced",
+      "missing": false
+    },
+    "ContradictionPenalty": {
+      "value": "no conflict record in reviewed subset",
+      "limitation_or_conflict_record_count": 0,
+      "regulatory_conflict_pair_count": 0,
+      "missing": false
+    },
+    "ranking_policy": "No aggregate score is emitted: key dimensions are missing or not comparable; WTCS and literature context remain separate evidence channels."
+  },
+  "historical_external_reproducibility": {
+    "rank": "4",
+    "pert_id": "BRD-K92093830",
+    "drug_name": "doxorubicin",
+    "main_condition": "MCF7 trt_cp 10.0 um 24 h",
+    "WTCS_median": "-0.46716938932002616",
+    "n_signatures": "1",
+    "CC_median": "0.58",
+    "TAS_median": "0.616557",
+    "exp006_dose_count": "6.0",
+    "exp006_negative_dose_fraction": "0.8333333333333334",
+    "exp006_dose_stability": "multi_dose_negative",
+    "exp006_qc_sensitivity_range": "0.0",
+    "exp006_stability_grade": "low",
+    "exp006_limitations": "single signature",
+    "exp007_rank_A_original": "39.0",
+    "exp007_rank_B100": "29.0",
+    "exp007_rank_B150": "11.0",
+    "exp007_rank_B200": "11.0",
+    "exp007_rank_B300": "3.0",
+    "exp007_rank_B_matched125": "39.0",
+    "exp008_empirical_pvalue_B200_historical": "0.0004997501249375312",
+    "exp008_BH_FDR_B200_historical": "0.0039334146486079",
+    "exp008_permutation_count_B200_historical": "2000.0",
+    "exp008_scope": "Historical Exp008 B200 permutation table (2,000 permutations); NA means this pert_id-condition was not tested there; not recomputed for the corrected 5,861-signature set.",
+    "exp009_status": "available",
+    "exp009_rank_CC02": "20.0",
+    "exp009_rank_CC01": "23.0",
+    "exp009_rank_CC03": "18.0",
+    "exp009_rank_CC02_TAS02": "20.0",
+    "exp010_status": "available",
+    "exp010_external_S1_rank": "352.0",
+    "exp010_external_S1_WTCS": "-0.42027812726382596",
+    "exp011_status": "available",
+    "exp011_ERpos_mean_sensitivity": "3.1106043918433333",
+    "exp011_ERpos_median_sensitivity": "2.94052173452",
+    "exp011_ERpos_cell_lines": "9",
+    "exp011_ERneg_mean_sensitivity": "4.002560441606077",
+    "exp011_ERneg_median_sensitivity": "4.26563850386",
+    "exp011_ERneg_cell_lines": "13",
+    "exp011_MCF7_sensitivity": "4.47203472621",
+    "exp011_ERpos_minus_ERneg": "-0.8919560497627437",
+    "interpretation_limits": "Historical sensitivity analyses are not re-estimates of the frozen primary result. PRISM viability sensitivity is a different endpoint from WTCS; missing candidate rows mean unavailable/unmatched in that experiment output, not a negative result."
+  },
+  "evidence_gaps": [
+    "directional_mechanisms_require_context_compatibility_review",
+    "path_search_is_offline_bundle_derived"
+  ],
+  "interpretation": "The current local bundle supports source-traceable drug-target/pathway assertions and disease-context records. ChEMBL direct mechanism, target components, and Reactome protein participation are contextual annotation only, not a causal chain or ER+ effect. It does not contain the signed directed regulatory layer required to infer a causal molecular path. ER+ literature context and LINCS WTCS remain separate evidence channels."
+}

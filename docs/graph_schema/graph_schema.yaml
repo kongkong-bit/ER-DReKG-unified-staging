@@ -1,0 +1,47 @@
+schema_version: "1.0"
+id_policy:
+  internal: UUID
+  biomedical: "CURIE or validated stable source identifier; preserve original identifiers and xrefs"
+  compound_merge: "Never merge salt forms/stereoisomers without audited structure policy"
+public_entities:
+  Drug: {key: compound_id, identifiers: [ChEMBL, InChIKey, LINCS_pert_id]}
+  Gene: {key: ensembl_gene_id, identifiers: [Ensembl, Entrez, HGNC_Symbol]}
+  ProteinTarget: {key: protein_id, identifiers: [UniProt, Ensembl_Protein]}
+  Disease: {key: disease_id, identifiers: [MONDO, EFO, DOID]}
+  Pathway: {key: pathway_id, identifiers: [Reactome, GO]}
+  GeneSet: {key: gene_set_id, identifiers: [GO, MSigDB, Reactome]}
+  EvidenceSource: {key: source_record_id, required: [source_name, source_release, source_url, license]}
+project_entities:
+  Project: {key: project_id, internal_id: UUID}
+  Study: {key: study_id, internal_id: UUID}
+  Dataset: {key: dataset_id, required: [source, version, sha256, license_status]}
+  AnalysisRun: {key: analysis_run_id, required: [run_type, created_at, parameters, software_versions, input_hashes]}
+  DiseaseContext: {key: disease_context_id, required: [disease_id, context_label]}
+  Candidate: {key: candidate_id, required: [project_id, analysis_run_id, compound_id, rank, raw_score]}
+  S2Condition: {key: condition_id, required: [project_id, analysis_run_id, pert_id, cell_id, pert_type, dose, time, WTCS_median]}
+  EvidenceRecord: {key: evidence_id, required: [source_id, source_release, source_record_id, assertion, provenance]}
+  GraphBuild: {key: graph_build_id, required: [project_id, source_release, seed_hash, config_hash]}
+edges:
+  - {type: HAS_STUDY, from: Project, to: Study}
+  - {type: USES_DATASET, from: AnalysisRun, to: Dataset}
+  - {type: HAS_RUN, from: Project, to: AnalysisRun}
+  - {type: IN_CONTEXT, from: Candidate, to: DiseaseContext}
+  - {type: ABOUT_DISEASE, from: DiseaseContext, to: Disease, properties: [analysis_run_id]}
+  - {type: HAS_S2_CONDITION, from: Candidate, to: S2Condition, properties: [analysis_run_id, pert_id, condition_key, dose, time, WTCS_median]}
+  - {type: TARGETS, from: Drug, to: ProteinTarget, evidence_required: true}
+  - {type: ENCODES, from: Gene, to: ProteinTarget, evidence_required: true}
+  - {type: MEMBER_OF, from: Gene, to: Pathway, evidence_required: true}
+  - {type: HAS_DEG, from: DiseaseContext, to: Gene, properties: [direction, logFC, adj_p_value, analysis_run_id]}
+  - {type: HAS_CANDIDATE, from: DiseaseContext, to: Candidate, properties: [analysis_run_id]}
+  - {type: HAS_ENRICHED_PATHWAY, from: DiseaseContext, to: "Pathway or GeneSet", properties: [analysis_run_id, graph_build_id, analysis_assertions, input_sha256]}
+  - {type: HAS_ENRICHED_GENE, from: "Pathway or GeneSet", to: Gene, properties: [analysis_run_id, graph_build_id, analysis_assertions]}
+evidence_record_storage:
+  system_of_record: PostgreSQL
+  key: [graph_build_id, evidence_id]
+  neo4j_relationship_properties: [evidence_ids, source_release, source_assertion_json, graph_build_ids]
+invariants:
+  - "Disease expression direction belongs to a DiseaseContext/AnalysisRun, never a global Gene property."
+  - "WTCS belongs to a Candidate/AnalysisRun/condition, never a global Drug property."
+  - "Every source assertion retains source release and source record provenance."
+  - "Enrichment is an association result, not a causal relation or treatment efficacy claim; direction and adjusted P values remain attached to each analysis assertion."
+  - "Unresolved mappings remain explicit; they do not create guessed nodes or relations."

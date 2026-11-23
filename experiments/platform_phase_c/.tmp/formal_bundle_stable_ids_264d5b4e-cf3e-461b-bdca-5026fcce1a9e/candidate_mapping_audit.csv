@@ -1,0 +1,51 @@
+﻿pert_id,pert_iname,inchi_key,graph_drug_id,mapping_status,mapping_method,condition_rows
+BRD-A00147595,balaglitazone,IETKPTYAGKZLKY-UHFFFAOYSA-N,CHEMBL2103991,matched_exact_inchikey,exact InChIKey,3
+BRD-A06935312,fusidic-acid,IECPWNUMDGFDKC-FRVBXGIOSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-A28787076,inosine,UGQMRVRMYYASKQ-VTHZCTBJSA-N,,unmatched_no_exact_inchikey,none,1
+BRD-A44448661,pentobarbital,WEXRUCMBJFQVBZ-UHFFFAOYSA-N,CHEMBL448,matched_exact_inchikey,exact InChIKey,6
+BRD-A68009927,daunorubicin,STQGQHZAVUOBTE-JYZNYWJRSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-A77216878,manumycin-a,XIZGHTZLVCHYJN-YCWSEAROSA-N,,unmatched_no_exact_inchikey,none,2
+BRD-K02265150,amoxapine,QWGDMFLQWFTERH-UHFFFAOYSA-N,CHEMBL1113,matched_exact_inchikey,exact InChIKey,5
+BRD-K06569345,HG-5-88-01,IMEGLYUXMGWVQA-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K07859598,GW-5074,LMXYVLFTZRPNRV-KMKOMSMNSA-N,,unmatched_no_exact_inchikey,none,3
+BRD-K09951645,dabrafenib,BFSMGDJOXZAERB-UHFFFAOYSA-N,CHEMBL2028663,matched_exact_inchikey,exact InChIKey,5
+BRD-K11153516,iniparib,MDOJTZQKHMAPBK-UHFFFAOYSA-N,CHEMBL1170047,matched_exact_inchikey,exact InChIKey,4
+BRD-K13390322,AT-7519,OVPNQJVDAFNBDN-UHFFFAOYSA-N,CHEMBL445813,matched_exact_inchikey,exact InChIKey,6
+BRD-K13566078,BMS-345541,PSPFQEBFYXJZEV-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K13646352,midostaurin,BMGQWWVMWDBQGC-IIFHNQTCSA-N,CHEMBL608533,matched_exact_inchikey,exact InChIKey,3
+BRD-K13662825,dinaciclib,PIMQWRZWLQKKBJ-SFHVURJKSA-N,CHEMBL2103840,matched_exact_inchikey,exact InChIKey,6
+BRD-K15010214,emedastine,KBUZBQVCBVDWKX-UHFFFAOYSA-N,CHEMBL594,matched_exact_inchikey,exact InChIKey,4
+BRD-K15179879,carfilzomib,BLMPQMFVWMYDKT-NZTKNTHTSA-N,CHEMBL451887,matched_exact_inchikey,exact InChIKey,6
+BRD-K16485616,mocetinostat,HRNLUBSXIHFDHP-UHFFFAOYSA-N,CHEMBL272980,matched_exact_inchikey,exact InChIKey,6
+BRD-K17743125,belinostat,NCNRHFGMJRPRSK-MDZDMXLPSA-N,CHEMBL408513,matched_exact_inchikey,exact InChIKey,6
+BRD-K19220233,JNK-9L,VCUNSUCAAIMDKU-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K21680192,mitoxantrone,KKZJGLLVHKMTCM-UHFFFAOYSA-N,CHEMBL58,matched_exact_inchikey,exact InChIKey,6
+BRD-K28822270,resminostat,FECGNJPYVFEKOD-VMPITWQZSA-N,CHEMBL4296717,matched_exact_inchikey,exact InChIKey,5
+BRD-K29983336,rondual-kinase-inhibitor,UYMSIPINLJNNOU-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K42495768,tasisulam,WWONFUQGBVOKOF-UHFFFAOYSA-N,CHEMBL2110587,matched_exact_inchikey,exact InChIKey,3
+BRD-K43389698,BMS-387032,OUSFTKFNBAZUKL-UHFFFAOYSA-N,CHEMBL296468,matched_exact_inchikey,exact InChIKey,6
+BRD-K43586850,lacidipine,GKQPCPXONLDCMU-CCEZHUSRSA-N,CHEMBL460291,matched_exact_inchikey,exact InChIKey,6
+BRD-K44227013,ponatinib,PHXJVRSECIGDHY-UHFFFAOYSA-N,CHEMBL1171837,matched_exact_inchikey,exact InChIKey,5
+BRD-K51575138,TPCA-1,SAYGKHKXGCPTLX-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K56844688,epirubicin,AOJJSUZBOXZQNB-SQGPBGNMSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K56957086,dacinostat,BWDQBBCUWLSASG-MDZDMXLPSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K64800655,PHA-793887,HUXYBQXJVXOMKX-UHFFFAOYSA-N,CHEMBL1230607,matched_exact_inchikey,exact InChIKey,5
+BRD-K66847579,WZ-7043,NHOUHWHGHAFDOP-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K67578145,GDC-0879,DEZZLWQELQORIU-RELWKKBWSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K69932463,AZD-8055,KVLFRAWTRWDEDF-IRXDYDNUSA-N,CHEMBL1801204,matched_exact_inchikey,exact InChIKey,6
+BRD-K71058253,luliconazole,YTAOBBFIOAEMLL-REQDGWNSSA-N,CHEMBL2105689,matched_exact_inchikey,exact InChIKey,3
+BRD-K77908580,entinostat,INVTYAOGFAGBOE-UHFFFAOYSA-N,CHEMBL27759,matched_exact_inchikey,exact InChIKey,6
+BRD-K78096648,oxiperomide,NVDBBGBUTKLRSN-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,3
+BRD-K79090631,CGP-60474,IYNDTACKOAXKBJ-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K81258678,triptolide,DFBIRQPKNDILPW-LKUXBXJISA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K81418486,vorinostat,WAEXFXRVDQXREF-UHFFFAOYSA-N,CHEMBL98,matched_exact_inchikey,exact InChIKey,6
+BRD-K82941592,rosuvastatin,BPRHUIZQVSMCRT-VEUZHWNKSA-N,CHEMBL1496,matched_exact_inchikey,exact InChIKey,4
+BRD-K87909389,alvocidib,BIIVYFLTOXDAOV-YVEFUNNKSA-N,CHEMBL428690,matched_exact_inchikey,exact InChIKey,6
+BRD-K88510285,bortezomib,GXJABQQUPOEUTA-RDJZCZTQSA-N,CHEMBL325041,matched_exact_inchikey,exact InChIKey,6
+BRD-K88560311,rucaparib,HMABYWSNWIZPAG-UHFFFAOYSA-N,CHEMBL1173055,matched_exact_inchikey,exact InChIKey,4
+BRD-K88789588,letrozole,HPJKCIUCZWXJDR-UHFFFAOYSA-N,CHEMBL1444,matched_exact_inchikey,exact InChIKey,1
+BRD-K90382497,GW-843682X,JSKUWFIZUALZLX-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,5
+BRD-K92093830,doxorubicin,AOJJSUZBOXZQNB-TZSSRYMLSA-N,CHEMBL53463,matched_exact_inchikey,exact InChIKey,6
+BRD-K92571446,WZ-3105,DGEBYERMQBTMHV-IRJFHVNHSA-N,,unmatched_no_exact_inchikey,none,6
+BRD-K93788137,PF-431396,POJZIZBONPAWIV-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,2
+BRD-K96550715,linagliptin,LTXREWYXXSTFRX-QGZVFWFLSA-N,CHEMBL237500,matched_exact_inchikey,exact InChIKey,2

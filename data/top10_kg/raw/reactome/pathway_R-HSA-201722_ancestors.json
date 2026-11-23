@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:47.963118+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-201722/ancestors",
+    "response_sha256": "4c00cd7a355ff5eb154cf0bafb3ea197beac9936ea95dfda6bd0f7aba4428f04",
+    "response_bytes": 1628
+  },
+  "payload": [
+    [
+      {
+        "dbId": 201722,
+        "displayName": "Formation of the beta-catenin:TCF transactivating complex",
+        "stId": "R-HSA-201722",
+        "name": [
+          "Formation of the beta-catenin:TCF transactivating complex"
+        ],
+        "stIdVersion": "R-HSA-201722.8",
+        "oldStId": "REACT_264242",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 201681,
+        "displayName": "TCF dependent signaling in response to WNT",
+        "stId": "R-HSA-201681",
+        "name": [
+          "TCF dependent signaling in response to WNT"
+        ],
+        "stIdVersion": "R-HSA-201681.3",
+        "oldStId": "REACT_264596",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_200777.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4161,
+        "diagramHeight": 2022,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 195721,
+        "displayName": "Signaling by WNT",
+        "stId": "R-HSA-195721",
+        "name": [
+          "Signaling by WNT"
+        ],
+        "stIdVersion": "R-HSA-195721.7",
+        "oldStId": "REACT_11045",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_11045.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2007-05-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 944,
+        "diagramHeight": 386,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+--- backend/app/main.py (working tree, mixed)
++++ backend/app/main.py (KG-only derived)
+@@ -31,7 +31,6 @@
+ from app.s1_pathways import COLLECTIONS, pathway_items, pathway_summary
+ from app.s1_precomputed import standardize_precomputed_deg
+ from app.s2_stability import summarize_condition_stability
+-from app.routers.collab import router as collab_router
+ 
+ 
+ @asynccontextmanager
+@@ -43,7 +42,6 @@
+ 
+ app = FastAPI(title="DiseaseGraph Lab API", version="0.1.0", lifespan=lifespan)
+ API = "/api/v1"
+-app.include_router(collab_router)
+ 
+ 
+ @app.get("/health")

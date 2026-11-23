@@ -1,0 +1,50 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S1_LIMMA:9b9000e2-b35d-42de-82d7-1451ed69db84",
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "run_type": "s1_limma_microarray",
+  "status": "completed",
+  "parameters": {
+    "dataset_id": "50ae7853-4d23-4aa2-a289-7cb87c2399fe",
+    "sample_metadata_dataset_id": "b3a200d8-e08f-4bbd-a2ea-b077928fe482",
+    "positive_group": "Tumor",
+    "negative_group": "Normal",
+    "contrast": "Tumor - Normal",
+    "fdr_threshold": 0.05,
+    "identifier_type": "symbol",
+    "measurement_type": "normalized_log2_microarray",
+    "tested_features": 3,
+    "significant_features": 2,
+    "up": 1,
+    "down": 1,
+    "sample_count": 4,
+    "group_counts": {
+      "Normal": 2,
+      "Tumor": 2
+    },
+    "method": "limma lmFit + contrasts.fit + eBayes(robust=TRUE), BH adjustment",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "limma": "3.62.2",
+    "analysis_run_id": "ANALYSIS_RUN:S1_LIMMA:9b9000e2-b35d-42de-82d7-1451ed69db84",
+    "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+    "input_hashes": {
+      "50ae7853-4d23-4aa2-a289-7cb87c2399fe": "f92f47757da5ff5482e8d7af30ddef89c6baf133757aaea52f62f872979111f5",
+      "b3a200d8-e08f-4bbd-a2ea-b077928fe482": "9223e8ee463c367fc37bffa3bf5bacc9d4df5593ef104653546c6e9a92fa4c71"
+    },
+    "output_sha256": "f401731db2c8d373dc301a968323d303d2e29428ac98defb0cd3c9fa5484fc4c",
+    "test_only": true,
+    "unique_genes": 3,
+    "significant_genes": 2,
+    "gene_identifier_column": "gene_id",
+    "duplicate_rows_removed": 0,
+    "output_path": "data/processed/projects/89aa18d8-e1ca-4eb4-8046-634cd2911207/s1/9b9000e2-b35d-42de-82d7-1451ed69db84/limma_all_genes.csv"
+  },
+  "software_versions": {
+    "pipeline": "limma microarray plugin 1.0",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "limma": "3.62.2"
+  },
+  "input_hashes": {
+    "50ae7853-4d23-4aa2-a289-7cb87c2399fe": "f92f47757da5ff5482e8d7af30ddef89c6baf133757aaea52f62f872979111f5",
+    "b3a200d8-e08f-4bbd-a2ea-b077928fe482": "9223e8ee463c367fc37bffa3bf5bacc9d4df5593ef104653546c6e9a92fa4c71"
+  }
+}

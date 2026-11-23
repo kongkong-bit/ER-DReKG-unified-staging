@@ -1,0 +1,20 @@
+{
+  "bundle_version": "1",
+  "status": "validated",
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "analysis_run_id": "RUN:TEST_GRAPH_ISOLATION_20261113",
+  "test_only": true,
+  "source_release": "OptimusKG 3.2 public assertions plus clearly marked software-only project links",
+  "public_entities_reused": {
+    "drug_id": "CHEMBL1113",
+    "gene_id": "ENSG00000145864",
+    "pathway_id": "REACT:R-HSA-1236394"
+  },
+  "test_assertion": {
+    "test_only": true,
+    "purpose": "Verify public entity reuse and project/GraphBuild isolation",
+    "interpretation": "Synthetic project-specific links; not a biomedical assertion."
+  },
+  "node_count": 5,
+  "edge_count": 7
+}

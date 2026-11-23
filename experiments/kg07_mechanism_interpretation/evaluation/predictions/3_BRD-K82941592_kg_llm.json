@@ -1,0 +1,178 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K82941592",
+    "drug_name": "rosuvastatin",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1496",
+    "rank": "25"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 15,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 17,
+    "verified_evidence_count": 17,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 10µM 24h WTCS=-0.406，排序25",
+        "relation": "association",
+        "evidence_ids": [
+          "814781daa9ae285a247a6cf81c4a0c465628df0cfb3eb6788b21e4fbd16d309b"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "ENSG00000113161 具 INHIBITOR+TARGET 动作",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "87005007cb44a423861d573ab158b6863d1654b4a97a203c3dfeb10d12396314"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：多个转运蛋白类直接靶点关联",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "2ee0683e2525cfc3b80367816326fb2d60fa9ef73b1fbcd96287c47ded1d65e2",
+          "24458b6fb73c17c546fc79683ec1a8de209617bbd2bf035eefa94aba38b8bafc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：ENSG00000005844 标记为 TARGET",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "4336cea176fe6435db6a7fcbbbc5e585c971b617fde1871553736ceeca239b44"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      }
+    ],
+    "limitations": [
+      "WTCS与PRISM为计算信号，非临床疗效证据",
+      "部分靶点断言缺源URL，仅保留source_record_id"
+    ],
+    "uncited_or_uncertain": [
+      "Exp006 summary数值未引用",
+      "Phase F/PRISM数值未引用"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 7.696,
+  "usage": {
+    "completion_tokens": 520,
+    "completion_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "prompt_tokens": 3011,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3531
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

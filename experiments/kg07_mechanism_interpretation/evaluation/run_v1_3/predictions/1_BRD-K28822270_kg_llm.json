@@ -1,0 +1,205 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K28822270",
+    "drug_name": "resminostat",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL4296717",
+    "rank": "12"
+  },
+  "evidence_gaps": [
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "resminostat (BRD-K28822270) 在 S2 LINCS 分析（ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57）中综合 WTCS 得分为 -0.42391028653557394，排名 12；该分数来自 5 个 MCF7|trt_cp 条件，仅为转录特征关联证据，不构成临床疗效证据。",
+        "relation": "association",
+        "evidence_ids": [
+          "7db2a60573a5d4eeefeb0af98995b419e2ea69ff5d0eea2c196291155ab4de7d",
+          "95de4c06031e6a2cc3e394c17bf9591e3b8389efa1f34e9ae7ac1527cdcd3ea8",
+          "ab366d7c75cd1aa0d6cf748b5f434d31a0c34e175c952e9e07fbd219315a6356",
+          "c577c2e6d979518ad6028b6785768ade2c8a99e316c75dcb064e858143b507c3",
+          "4a66e9a33fb9f7760772c5dc70b37d6922075ac5811c54b22cc0eedd18a77550"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 中 0.12 µM、24 h 处理条件下 WTCS 为 0.0（rank_within_condition 1970.5，TAS 0.178611，quality_cc_median 0.2），低剂量下未见明显负相关转录特征。",
+        "relation": "association",
+        "evidence_ids": [
+          "7db2a60573a5d4eeefeb0af98995b419e2ea69ff5d0eea2c196291155ab4de7d"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 中 0.37 µM、24 h 处理条件下 WTCS 为 -0.3716（rank_within_condition 229.0，TAS 0.19361，quality_cc_median 0.26）。",
+        "relation": "association",
+        "evidence_ids": [
+          "95de4c06031e6a2cc3e394c17bf9591e3b8389efa1f34e9ae7ac1527cdcd3ea8"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 中 1.11 µM、24 h 处理条件下 WTCS 为 0.0（rank_within_condition 1970.5，TAS 0.390846，quality_cc_median 0.45）。",
+        "relation": "association",
+        "evidence_ids": [
+          "ab366d7c75cd1aa0d6cf748b5f434d31a0c34e175c952e9e07fbd219315a6356"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 中 3.33 µM、24 h 处理条件下 WTCS 为 -0.3158（rank_within_condition 530.0，TAS 0.580195，quality_cc_median 0.59）。",
+        "relation": "association",
+        "evidence_ids": [
+          "4a66e9a33fb9f7760772c5dc70b37d6922075ac5811c54b22cc0eedd18a77550"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 中 10.0 µM、24 h 处理条件下 WTCS 为 -0.4239（rank_within_condition 63.0，TAS 0.682381，quality_cc_median 0.66），为最高剂量下的最强负相关条件。",
+        "relation": "association",
+        "evidence_ids": [
+          "c577c2e6d979518ad6028b6785768ade2c8a99e316c75dcb064e858143b507c3"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no curated Drug-to-Gene target assertion was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03"
+      },
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03"
+      }
+    ],
+    "limitations": [
+      "S2 WTCS 分数及各条件的转录特征关联仅为数据层面的关联，不代表临床疗效。",
+      "各条件 n_signatures=1、WTCS_mad=0，仅有单一特征支持，稳健性有限；部分低剂量条件（0.12 µM、1.11 µM）WTCS 为 0，且低剂量条件下质量指标（quality_cc_median 0.2–0.26）偏低。",
+      "候选排名（rank 12）仅基于 S2 打分，在无靶点、通路和独立验证证据的情况下，整体证据链不完整。",
+      "图数据中 direct_target_path_count、public_pathway_path_count、s1_enrichment_overlap_path_count、s1_deg_overlap_path_count 均为 0。",
+      "唯一可核验的 EvidenceRecord 均来自 Project S2 LINCS 结果（ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57），证据来源单一。"
+    ],
+    "uncited_or_uncertain": [
+      "化合物名称 resminostat、CHEMBL4296717、mapping_status（exact InChIKey 匹配）等候选元信息来自候选标识字段本身，未附独立 EvidenceRecord/Path ID。",
+      "Exp006 汇总数值（见 evidence_gaps/说明字段）无可引用 ID，已按要求排除在可引用断言之外。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 4,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 5,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 22.198,
+  "usage": {
+    "completion_tokens": 1740,
+    "completion_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "prompt_tokens": 6968,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 8708
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true
+}

@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:02:49.215738+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL272980&limit=1000&offset=0",
+    "response_sha256": "fa4532720166eee7f62e7ff3722461b4132c7481cbe416a3ec5409e78138637a",
+    "response_bytes": 3944
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5651,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase 1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18413790",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18413790"
+          },
+          {
+            "ref_id": "27551526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27551526"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL272980",
+        "parent_molecule_chembl_id": "CHEMBL272980",
+        "record_id": 1702503,
+        "selectivity_comment": "Isotype-selective Class I (HDAC1, -2, -3, and -8) and IV (HDAC11) HDAC inhibitor.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL325",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5846,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase 2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18413790",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18413790"
+          },
+          {
+            "ref_id": "27551526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27551526"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL272980",
+        "parent_molecule_chembl_id": "CHEMBL272980",
+        "record_id": 1702503,
+        "selectivity_comment": "Isotype-selective Class I (HDAC1, -2, -3, and -8) and IV (HDAC11) HDAC inhibitor.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1937",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5847,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase 3 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18413790",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18413790"
+          },
+          {
+            "ref_id": "27551526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27551526"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL272980",
+        "parent_molecule_chembl_id": "CHEMBL272980",
+        "record_id": 1702503,
+        "selectivity_comment": "Isotype-selective Class I (HDAC1, -2, -3, and -8) and IV (HDAC11) HDAC inhibitor.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1829",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5848,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase 11 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18413790",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18413790"
+          },
+          {
+            "ref_id": "27551526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27551526"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL272980",
+        "parent_molecule_chembl_id": "CHEMBL272980",
+        "record_id": 1702503,
+        "selectivity_comment": "Isotype-selective Class I (HDAC1, -2, -3, and -8) and IV (HDAC11) HDAC inhibitor.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3310",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5849,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase 8 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "18413790",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18413790"
+          },
+          {
+            "ref_id": "27551526",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27551526"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL272980",
+        "parent_molecule_chembl_id": "CHEMBL272980",
+        "record_id": 1702503,
+        "selectivity_comment": "Isotype-selective Class I (HDAC1, -2, -3, and -8) and IV (HDAC11) HDAC inhibitor.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3192",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 5
+    }
+  }
+}

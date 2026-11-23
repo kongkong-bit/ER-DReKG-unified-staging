@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "target": "temporary Neo4j/PostgreSQL instances restored from the staging volume backup",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+  "dry_run": {
+    "status": "PASS",
+    "neo4j_relationships": 39351,
+    "evidence_records": 39218,
+    "disease_contexts": 1,
+    "shared_nodes_deleted": 0
+  },
+  "apply": {
+    "status": "PASS",
+    "deleted_relationships": 39351,
+    "updated_shared_relationships": 0,
+    "deleted_evidence_records": 39218,
+    "deleted_disease_contexts": 1,
+    "shared_nodes_deleted": 0,
+    "analysis_run_preserved": true
+  },
+  "post_rollback_validation": {
+    "old_graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:5bb1e749e1caa6e2",
+    "old_graph_build_relationships": 38890,
+    "old_graph_build_preserved": true,
+    "postgres_graph_build_count": 1,
+    "postgres_evidence_record_count": 38890,
+    "node_count": 6985,
+    "retained_orphan_nodes_from_rolled_back_build": 119,
+    "orphan_policy": "Rollback removes build-scoped relationships and SQL evidence/context, but intentionally does not delete Neo4j nodes; 119 new Protein nodes therefore remain isolated in the disposable rehearsal clone."
+  },
+  "temporary_containers_and_volumes_cleaned": true,
+  "production_or_primary_project_database_touched": false
+}

@@ -1,0 +1,180 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K42495768",
+    "drug_name": "tasisulam",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2110587",
+    "rank": "14"
+  },
+  "evidence_gaps": [
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "tasisulam（BRD-K42495768）在 S2 LINCS 分析中总 WTCS 得分为 -0.4199，条件数 3，排名 14（排名基于逆转分数，非临床疗效证据）",
+        "relation": "association",
+        "evidence_ids": [
+          "d40b3f99f476f62e147e59fa99abdcf1b4a36afc3f72e026d8e84273ef686019"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "tasisulam 在 MCF7 细胞 0.04 µM、24 h 处理条件下 WTCS_median = 0.0，rank_within_condition = 1970.5",
+        "relation": "association",
+        "evidence_ids": [
+          "2510149f3e53429a27931f7ac0d683013df624d5950070f6d41ae8abcd4fa030"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "tasisulam 在 MCF7 细胞 0.12 µM、24 h 处理条件下 WTCS_median = -0.2575，rank_within_condition = 930.0",
+        "relation": "association",
+        "evidence_ids": [
+          "8a615e159fb0c3f043653b9b8f9bdf5656f24aa9795fc9746cdb3d2b72706e33"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "tasisulam 在 MCF7 细胞 10.0 µM、24 h 处理条件下 WTCS_median = -0.4199，rank_within_condition = 71.0，为三个条件中逆转分数最强者",
+        "relation": "association",
+        "evidence_ids": [
+          "d40b3f99f476f62e147e59fa99abdcf1b4a36afc3f72e026d8e84273ef686019"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no curated Drug-to-Gene target assertion was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b"
+      },
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b"
+      }
+    ],
+    "limitations": [
+      "所有可引用证据仅限于 3 条 S2 LINCS 条件水平的 WTCS 逆转分数记录，均为 MCF7 细胞、24 h 的计算签名关联，不代表临床疗效",
+      "WTCS 条件记录的 n_signatures = 1，WTCS_mad = 0.0，单一签名，稳健性有限",
+      "10.0 µM 条件 quality_cc_median = 0.29，0.04/0.12 µM 为 0.37，签名质量中等",
+      "无靶点、通路、DEG 重叠或图谱路径证据（path_count 均为 0），机制推断证据不足"
+    ],
+    "uncited_or_uncertain": [
+      "Exp006 汇总数值未提供可核验 EvidenceRecord/Path ID，未纳入任何 claim",
+      "Phase F/PRISM 独立验证值未提供可核验 EvidenceRecord/Path ID，未纳入任何 claim"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 4,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 5,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 12.79,
+  "usage": {
+    "completion_tokens": 894,
+    "completion_tokens_details": {
+      "reasoning_tokens": 12
+    },
+    "prompt_tokens": 4610,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 5504
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

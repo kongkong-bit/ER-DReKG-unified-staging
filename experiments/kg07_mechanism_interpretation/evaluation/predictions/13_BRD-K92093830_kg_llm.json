@@ -1,0 +1,161 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K92093830",
+    "drug_name": "doxorubicin",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL53463",
+    "rank": "3"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 31,
+    "public_pathway_path_count": 1,
+    "s1_enrichment_overlap_path_count": 105,
+    "s1_deg_overlap_path_count": 9,
+    "unique_evidence_count": 236,
+    "verified_evidence_count": 236,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "00728e394e18d13b81b29040ccc00b4c77c55050a8976b24a54d62fa21de1e60",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7多剂量24h处理WTCS负分，10uM最强-0.467",
+        "relation": "association",
+        "evidence_ids": [
+          "58ed5c65b7dedf5d2ebf8025ff449145a9a8a61a63d069c556f10e844ba1676e"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选药物总排名3，WTCS得分为-0.467",
+        "relation": "association",
+        "evidence_ids": [
+          "8910096f89a9ddcb6a28b1cf34a6627a6d9f23d5136c75dd9afc6e65cd9e04bc"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录直接靶向ENSG00000127948（酶类）",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "059c0f51e15d2bc753adab4a797fabec2e751de255811a3d3d540c0ac1973737"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录直接靶向ENSG00000160868（酶类）",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0b7a20664e4eb4c03c61332076fa874fe07083f441be07cd3d85582df94f55be"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录转运蛋白ENSG00000004809为直接靶点",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "29dae4621502c1a1ff32444f63a978e4d0c0b97e0760f9f1d45dad4b67b3822b"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "00728e394e18d13b81b29040ccc00b4c77c55050a8976b24a54d62fa21de1e60"
+      }
+    ],
+    "limitations": [
+      "逆转分数与图谱路径不构成临床疗效证据",
+      "部分上游断言缺少来源URL，仅保留source_record_id与release",
+      "条件签名数均为1，TAS质量中等"
+    ],
+    "uncited_or_uncertain": [
+      "Exp006与Phase F/PRISM数值未通过EvidenceRecord引用"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 0,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 8.14,
+  "usage": {
+    "completion_tokens": 534,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 3307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3841
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

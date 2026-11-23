@@ -1,0 +1,562 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "f93ac8eed4e987a63d34e5ec1793a3abc4b337f416ef126f01a237fce3987c59",
+  "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc",
+  "latency_seconds": 62.87031079999997,
+  "usage": {
+    "completion_tokens": 5225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 167
+    },
+    "prompt_tokens": 102586,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 107811
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "4条S2条件（MCF7 0.04/0.12/0.37/10.0 um, 24h）均有evidence_id且verified；WTCS作为关联分数、非疗效的限定表述与包内coverage一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 1580234ab7...记录TARGETS/ENZYME至ENSG00000138115，claim仅断言关联，无方向推断"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 1a0981bf9...记录TRANSPORTER关系至ENSG00000085563，association表述与source_reported_relation_only一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 3c5cfae0...记录ENZYME关系至ENSG00000165841"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 3d136107...记录ENZYME关系至ENSG00000160870"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 407738aa...记录ENZYME关系至ENSG00000140505"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 4899b732...记录TRANSPORTER关系至ENSG00000142494"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 4ba71523...记录TRANSPORTER关系至ENSG00000197901"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 63413374...记录TRANSPORTER关系至ENSG00000125257"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 63d04b1f...记录TRANSPORTER关系至ENSG00000149452"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 732dfd29...记录TRANSPORTER关系至ENSG00000111700"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 89aa49c7...记录ENZYME关系至ENSG00000100197"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 8c75c2cc...记录INHIBITOR/TARGET至ENSG00000143799，OptimusKG含'PARP inhibitor' MoA及source_urls，inhibition方向有来源支持"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path acb8eb55...记录ENZYME关系至ENSG00000138109"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path af987edb...记录INHIBITOR/TARGET至ENSG00000129484，含MoA与source_urls，inhibition方向有来源支持"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path b6cc2b7e...记录TRANSPORTER关系至ENSG00000175003"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path c7f39bc3...记录ENZYME关系至ENSG00000160868"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path cefb7df5...记录TRANSPORTER关系至ENSG00000180638"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path d3dd92b8...记录TRANSPORTER关系至ENSG00000134538"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path d7face87...记录ENZYME关系至ENSG00000021461"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path dec69d64...记录ENZYME关系至ENSG00000241635"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path e91c1ca3...记录INHIBITOR/TARGET至ENSG00000041880，含MoA与source_urls，inhibition方向有来源支持"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path f9636e86...记录TRANSPORTER关系至ENSG00000118777"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path fed3ed63...记录ENZYME关系至ENSG00000106258"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 05eb05c7...（GO:0034243）found_in_package=true，含HAS_ENRICHED_PATHWAY及adjusted_p，关联表述准确"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 07c180fb...（REACT:R-HSA-73933）found_in_package=true，含富集证据，关联表述准确"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 0ce968ef...（GO:0051052）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 14d9f804...（GO:0032785）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 175299b2...（GO:0051054）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 175d24f5...（GO:0080135）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 1940faaf...（GO:0008202）found_in_package=true，adjusted_p≈0.043边缘显著但claim仅断言关联，无过度声明"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 1be0c89a...（REACT:R-HSA-73884）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 1e8c010e...（GO:0034244）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 20f043a5...（GO:0000725）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 25d6c721...（GO:0006260）found_in_package=true，含富集证据"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 29441f68...（GO:0098754）found_in_package=true，含富集证据"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "0aea8728d8fd988448862bddc0cd7e5fc72200f95065cb325113bcf22d758654",
+        "supports_claim": true,
+        "reason": "verified S2条件记录（MCF7|10.0 um|24h, WTCS=-0.4287）"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "3fa80611134954ef0ae33a5d06bfee66490b820035cc7550bd60602286d4cca5",
+        "supports_claim": true,
+        "reason": "verified S2条件记录（0.12 um）"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "7201adad44bd88c5bfd9e5c29e912eacff20e0dd3b42996654a5c0813eb77048",
+        "supports_claim": true,
+        "reason": "verified S2条件记录（0.04 um）"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c39939975d74c8dc556fdea448bfba19efe6972dcafc8a2d161c11eed379f5c1",
+        "supports_claim": true,
+        "reason": "verified S2条件记录（0.37 um）"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "1580234ab7fa7e349ffe843479a91d6401c2bfd89bffb73062863e666615a6ea",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000138115，关联表述被支持"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "1a0981bf931a0c1643ae603e28f6da1f263adc00b6c4b9d4c0919d574b482995",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000085563"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "3c5cfae091eec4e88bfa342b81603cf8728f8f1dbe49aabcfd8a547a4cbe7b52",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000165841"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "3d136107a59d702a6cf7b1264d6b5e0a62883f83166fe7751158e0074a0b92d3",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000160870"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "407738aab2beeb4c081e4203afb249c7fa1bdcf6f47b02b770bdef0705af6ffb",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000140505"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "4899b732a8cc9c1688a7312edd14815c23120a629f1e7ffc9e864417f2c27e06",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000142494"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "4ba715239e079b3f0ec56a8b9234d5233b9b0544b15b93f169057d3cce9f376b",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000197901"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "63413374a1bb0ee1681fa297648bdfdaab64552d0960fd24b207c47269bbc781",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000125257"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "63d04b1f558ef40c9d31dc72ff82bfb354a6be782020d471efe7b6bd537ca2a3",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000149452"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "732dfd293bfe9ae9e23b58f8efd597155d9fce06e875a6225c89615306c4cf1c",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000111700"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "89aa49c70fbe8eaab8a93dc87e50cf0c075b9f91341b22cf2d1a2364fb7e6fd6",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000100197"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "8c75c2ccf0cd5863f85a8ca724e9d32ebd12b3f8a3a3dbe7cb9bf02b413e3f38",
+        "supports_claim": true,
+        "reason": "INHIBITOR/TARGET至ENSG00000143799，MoA与source_urls支持inhibition方向"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "acb8eb55644695ad523de51e4c7f084c96ad1db2e27e788b03f07c5f56987dc9",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000138109"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "af987edb46c72eebc0922699502dcba9d5be5f8b07ace75e7a22f64fd8aad005",
+        "supports_claim": true,
+        "reason": "INHIBITOR/TARGET至ENSG00000129484，含MoA与source_urls"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "b6cc2b7e6b7ddf68d76ec6375ac6183b5964cf966f5ed191b4e38bc6820f4d33",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000175003"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "c7f39bc3b7d9e2b9338c0970294ffee1bb9600af42bdaaf4d6f5b3165aece5a2",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000160868"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "cefb7df5ed9e6d518391b4ac41404105f2269d100e844093f787649cf2177efd",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000180638"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "d3dd92b827640cd187697c0579d1b65eb9a586b26e6ca18598b3805b7f9e6480",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000134538"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "d7face87ab4fbdbe6e2387188a40c810d469a45ad0ba2e499eb429d3bd8b282e",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000021461"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "dec69d64bd76bc4649fc7c91840db42f83f0c56cc9d244556e859b9e47e29620",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000241635"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "e91c1ca322883cdfec5b5a7e505644257a2a53fe7bd9b2652d53ee0be4ab3419",
+        "supports_claim": true,
+        "reason": "INHIBITOR/TARGET至ENSG00000041880，含MoA与source_urls"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "f9636e8659fa7af8fb6f6912cc67c87f9bea987028676854f5a10beb81032666",
+        "supports_claim": true,
+        "reason": "TARGETS/TRANSPORTER至ENSG00000118777"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "fed3ed63ac968fd8095063f8dc905da62b9bc5984ae8f2558909bc62f135fc5b",
+        "supports_claim": true,
+        "reason": "TARGETS/ENZYME至ENSG00000106258"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "05eb05c7a2235b1c6a0441cae59c88bb95a0765da5614c47d1eed37875d4b666",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0034243富集证据，found_in_package=true"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "07c180fb990c830098837cf85024298a38b72b453fa7e51d7fdc7c712c7a5609",
+        "supports_claim": true,
+        "reason": "snapshot含R-HSA-73933富集证据"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "0ce968ef5ae4afa57720cb5756b50a228646597c3c4d3de0b58b388f610996e6",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0051052富集证据"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "14d9f80402d69b61f3e3ea8860a4e57efb5e8591353c437bda6fa3be9e3ca997",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0032785富集证据"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "175299b2ef47e6f154c8b8d4f241dcdc850b533c6a76826a28fba31a48d4db33",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0051054富集证据"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "175d24f53524ca019c90fe982e33d7dc1d633dd55b260605528d8dbc82d499a2",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0080135富集证据"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "1940faaf9f0db21f8cfe0f93bd4d87f0fc8373e764fd65c3550bfbae532c7897",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0008202富集证据（adjusted_p≈0.043，仍支持关联表述）"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "1be0c89aa962095e4a8ba692b9456c47e924170e35150c46b71be1b38f648609",
+        "supports_claim": true,
+        "reason": "snapshot含R-HSA-73884富集证据"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "1e8c010e5eb66fb7f8fb9761d470b0206bd3415a19b3098d95f84dfd6a6900aa",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0034244富集证据"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "20f043a58579867886bbbe97ac02ce62259eae4e9dd8472ca0b045ac94cced3a",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0000725富集证据"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "25d6c721ece1de0b087b67b35c72e23de89ee0aca5a03c6f2a952158475533d5",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0006260富集证据"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "29441f6836e846151c1a3e801360c40dfcf25259864f3c017484bb57367476c3",
+        "supports_claim": true,
+        "reason": "snapshot含GO:0098754富集证据"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "无target-to-public-pathway路由（public_pathway_path_count=0），通路联系均依赖S1富集重叠",
+      "每条件仅1个signature（n_signatures=1），证据基础薄弱",
+      "WTCS score_value在10.0 um剂量处取值，0.04 um剂量WTCS=0.0，剂量间不一致",
+      "部分上游assertion缺少source URL，仅保留source_record_id与source_release",
+      "S1富集证据部分通路的NES为null且部分adjusted_p边缘显著（如GO:0008202≈0.043）",
+      "所有known_targets来源为OptimusKG/DRUG_BANK关系断言，非独立实验验证"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:00:13.425265+00:00"
+}

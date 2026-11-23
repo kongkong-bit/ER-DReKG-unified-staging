@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "191436c53e1212eff1a8db8b660bbd390d2bfa4f8ffffc4d79a0ae3ca11ffacf",
+  "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b",
+  "latency_seconds": 14.778883599999972,
+  "usage": {
+    "completion_tokens": 1395,
+    "completion_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "prompt_tokens": 16961,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 18356
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "S2 condition记录确认MCF7|trt_cp|10.0 um|24 h一条条件观测，WTCS=-0.3902；claim将WTCS限定为关联分数、不推断疗效，与来源一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径09eb…记录CHEMBL1444 TARGETS ENSG00000163631（CARRIER，DrugBank）；claim仅称靶点关系/association，未强加方向。"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径1cf5…记录CHEMBL1444 TARGETS ENSG00000171234（ENZYME）；claim仅作association表述，方向无过度推断。"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径3d50…记录CHEMBL1444 TARGETS ENSG00000160868（ENZYME）；claim为association，与来源一致。"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径9ce8…记录CHEMBL1444 TARGETS ENSG00000255974（ENZYME）；claim为association，无方向错误。"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径a9d8…报告ENZYME/INHIBITOR/TARGET，且source_assertion含MOA 'Cytochrome P450 19A1 inhibitor'（OPEN_TARGETS，有source_url）；inhibition方向有直接支持。"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径dd6c…记录CHEMBL1444 TARGETS ENSG00000165841（ENZYME）；claim为association。"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径ebb0…记录CHEMBL1444 TARGETS ENSG00000085563（TRANSPORTER，DrugBank）；claim为association，与来源一致。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "12d47921701d7b7eca5c0adea32efafcefb636a78748a4510c4e6b4edf898729",
+        "supports_claim": true,
+        "reason": "verified_in_postgres=true，HAS_S2_CONDITION断言与MCF7条件、WTCS值及单一条件计数相符。"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "09eb273f160859b3bd12e73b3470f208d2a187acffb19762ff923ffe834797ae",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000163631，证据完整、无冲突，支持靶点关系claim。"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "1cf5f3f9ecc222a3b1911d95328265a485199a776129a41888a0225d5722a0bc",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000171234，evidence_complete=true。"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "3d506107cf17eeb21027cc094d7ae96badc28053f00594d675cf742098b0f50e",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000160868，evidence_complete=true。"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "9ce878d0641b159419bcd6b946a043addb5779e51d3b543b69cd4fce6979eb1e",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000255974，evidence_complete=true。"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "a9d8f7b6ea92e3bcb0137d79ecbef789321d56cb7d833017a27a9c313cfbaa01",
+        "supports_claim": true,
+        "reason": "reported_actions含INHIBITOR，MOA注明aromatase抑制剂，支持inhibition方向。"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "dd6c68674dc562f7a6810959660899f76ee52d03cdead83fcdb8eb6775397a2f",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000165841，evidence_complete=true。"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "ebb0ff8f4d3722a29bb908b8667de1e741e6f60e117dab9b0691b0127c1b3f3d",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000085563（TRANSPORTER），evidence_complete=true。"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "无靶点到公共通路或S1富集/DEG通路的路径（public_pathway、S1 overlap路径数均为0），机制通路层面缺乏支持",
+      "S2证据仅单一条件、单signature、单剂量，stability_grade=low，剂量稳定性证据有限",
+      "部分上游来源记录缺少source URL，仅保留source_record_id和source_release",
+      "仅path a9d8…（ENSG00000137869）有inhibition方向及MOA来源；其余靶点为泛化TARGET/ENZYME/TRANSPORTER断言，无方向证据",
+      "无独立验证类证据；本评审为AI自动评审，仅基于提供的EvidencePackage快照"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:47:50.601824+00:00"
+}

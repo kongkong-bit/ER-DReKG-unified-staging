@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:51.655866+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/Q9UBN7/pathways?species=Homo%20sapiens",
+    "response_sha256": "eaf8c1ddcc5061969d58271d433f2602d29065264b709a178f070ff2e8d994af",
+    "response_bytes": 5281
+  },
+  "payload": [
+    {
+      "dbId": 2122947,
+      "displayName": "NOTCH1 Intracellular Domain Regulates Transcription",
+      "stId": "R-HSA-2122947",
+      "stIdVersion": "R-HSA-2122947.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH1 Intracellular Domain Regulates Transcription"
+      ],
+      "releaseDate": "2012-03-13",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2020-03-16",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2644606,
+      "displayName": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+      "stId": "R-HSA-2644606",
+      "stIdVersion": "R-HSA-2644606.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2894862,
+      "displayName": "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",
+      "stId": "R-HSA-2894862",
+      "stIdVersion": "R-HSA-2894862.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 3371511,
+      "displayName": "HSF1 activation",
+      "stId": "R-HSA-3371511",
+      "stIdVersion": "R-HSA-3371511.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "HSF1 activation"
+      ],
+      "releaseDate": "2014-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2014-07-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 350054,
+      "displayName": "Notch-HLH transcription pathway",
+      "stId": "R-HSA-350054",
+      "stIdVersion": "R-HSA-350054.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Notch-HLH transcription pathway"
+      ],
+      "releaseDate": "2008-06-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 5620920,
+      "displayName": "Cargo trafficking to the periciliary membrane",
+      "stId": "R-HSA-5620920",
+      "stIdVersion": "R-HSA-5620920.6",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Cargo trafficking to the periciliary membrane"
+      ],
+      "releaseDate": "2014-12-11",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2016-12-21",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8878166,
+      "displayName": "Transcriptional regulation by RUNX2",
+      "stId": "R-HSA-8878166",
+      "stIdVersion": "R-HSA-8878166.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 4,
+      "name": [
+        "Transcriptional regulation by RUNX2"
+      ],
+      "releaseDate": "2017-09-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-8878166.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8940973,
+      "displayName": "RUNX2 regulates osteoblast differentiation",
+      "stId": "R-HSA-8940973",
+      "stIdVersion": "R-HSA-8940973.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX2 regulates osteoblast differentiation"
+      ],
+      "releaseDate": "2017-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9613829,
+      "displayName": "Chaperone Mediated Autophagy",
+      "stId": "R-HSA-9613829",
+      "stIdVersion": "R-HSA-9613829.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Chaperone Mediated Autophagy"
+      ],
+      "releaseDate": "2019-06-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9613829.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2020-03-16",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9615710,
+      "displayName": "Late endosomal microautophagy",
+      "stId": "R-HSA-9615710",
+      "stIdVersion": "R-HSA-9615710.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Late endosomal microautophagy"
+      ],
+      "releaseDate": "2019-06-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9615710.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-09-09",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9646399,
+      "displayName": "Aggrephagy",
+      "stId": "R-HSA-9646399",
+      "stIdVersion": "R-HSA-9646399.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Aggrephagy"
+      ],
+      "releaseDate": "2019-12-10",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9646399.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9976102,
+      "displayName": "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)",
+      "stId": "R-HSA-9976102",
+      "stIdVersion": "R-HSA-9976102.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9976102.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9981845,
+      "displayName": "NOTCH signaling regulates gene expression in endothelial stalk cells",
+      "stId": "R-HSA-9981845",
+      "stIdVersion": "R-HSA-9981845.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH signaling regulates gene expression in endothelial stalk cells"
+      ],
+      "releaseDate": "2026-09-16",
+      "releaseStatus": "NEW",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

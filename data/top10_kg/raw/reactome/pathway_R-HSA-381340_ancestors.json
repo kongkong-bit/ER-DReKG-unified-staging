@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:51.996116+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-381340/ancestors",
+    "response_sha256": "23edd971c35ec1f3814a3869dc82b5ba7903bb6e1ea813e25c690144316669fe",
+    "response_bytes": 1139
+  },
+  "payload": [
+    [
+      {
+        "dbId": 381340,
+        "displayName": "Transcriptional regulation of white adipocyte differentiation",
+        "stId": "R-HSA-381340",
+        "name": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "stIdVersion": "R-HSA-381340.5",
+        "oldStId": "REACT_27161",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-03-15",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1433,
+        "diagramHeight": 1365,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9843745,
+        "displayName": "Adipogenesis",
+        "stId": "R-HSA-9843745",
+        "name": [
+          "Adipogenesis"
+        ],
+        "stIdVersion": "R-HSA-9843745.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 554,
+        "diagramHeight": 144,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

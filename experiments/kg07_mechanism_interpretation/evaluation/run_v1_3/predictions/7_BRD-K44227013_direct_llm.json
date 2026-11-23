@@ -1,0 +1,229 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013",
+    "drug_name": "ponatinib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1171837",
+    "rank": "1"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 21,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 131,
+    "s1_deg_overlap_path_count": 5,
+    "unique_evidence_count": 258,
+    "verified_evidence_count": 258,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "Ponatinib (BRD-K44227013) ranked first by WTCS score (-0.5167) in the S2 expression reversal screen, based on 5 conditions from the exact S2 AnalysisRun.",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "In EXP006 (source dataset GSE70138), ponatinib at 10.0 uM for 24 h in MCF7 cells showed WTCS median B of -0.5167 (rank 1, n_signatures=1).",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "Dose stability was graded low (direction_flip, negative_dose_fraction 0.2, qc_sensitivity_range ~0.098), indicating WTCS direction was not stable across available doses (5 doses).",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "External S1 validation ranks were weak: external_s1_median_rank 3439.0 (5 conditions) and external_s1_B200_median_rank 2879.0; Q2 condition median rank 4271.0 (5 conditions).",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM cell viability endpoint (distinct from expression reversal): ER-positive mean sensitivity 1.033 (9 lines) vs ER-negative mean 1.723 (13 lines); sensitivity rank 54 for ER-positive lines and 94 for MCF7 (n_mcf7_conditions=1). These are cell-line sensitivity measurements, not clinical efficacy evidence.",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "No curated target assertions, knowledge graph paths, or disease pathway overlaps were provided for ponatinib; no binding, inhibition, or activation relationships can be stated.",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "Only a single signature supported the top WTCS result (stability_grade low, evidence_limitations: single signature); no replicated expression-reversal evidence is available.",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "Mapping is by exact InChIKey match (CHEMBL1171837); compound identity itself is verified, but the note states no knowledge graph paths, curated target assertions, or disease pathway overlaps are provided.",
+      "WTCS reversal score and PRISM sensitivity are computational/in vitro observations, not clinical efficacy evidence.",
+      "WTCS_PRISM agreement interpretation notes the endpoints are independent; PRISM sensitivity values do not confirm the expression-reversal finding.",
+      "Dose stability was low (direction_flip), so the negative WTCS direction may not hold across doses."
+    ],
+    "uncited_or_uncertain": [
+      "Any mechanism of action for ponatinib (binding/inhibition/activation of specific targets) cannot be assessed from the provided data.",
+      "The biological condition/disease being reversed is not identified in the provided data beyond condition_count=5."
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 16.114,
+  "usage": {
+    "completion_tokens": 1255,
+    "completion_tokens_details": {
+      "reasoning_tokens": 11
+    },
+    "prompt_tokens": 951,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2206
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

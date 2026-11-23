@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "6b74e380c5e0fb2888d53b17bf03c107715e6eac29e1b234fb41847cc60c6593",
+  "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+  "latency_seconds": 17.616822900001353,
+  "usage": {
+    "completion_tokens": 1071,
+    "completion_tokens_details": {
+      "reasoning_tokens": 312
+    },
+    "prompt_tokens": 5937,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 7008
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6条S2分条件（MCF7|trt_cp各剂量|24h）在screening_evidence.s2_conditions中一一对应且各evidence_id均verified_in_postgres，计数事实直接成立；'WTCS为表达逆转关联分数、不代表临床疗效'属解释性限定，与包内仅有关联筛选分数、无临床证据的情况一致，未作因果或方向性声明。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "423299986e31428cfe5d7b87612e99cd3cf6560ed495f5953e488bae4b30c13c",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|0.12um|24h条件，HAS_S2_CONDITION记录已验证。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "928542581b37d2fd1bebc275c945c7a92bfb9051cd4846928f2ed339419a3700",
+        "supports_claim": true,
+        "reason": "对应0.37um|24h条件，已验证。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "a0acf6f72112e6f19a5928b5c8c2e7f3278873c8c023cfca1420e2b816da67d4",
+        "supports_claim": true,
+        "reason": "对应1.11um|24h条件，已验证。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b332d6ca7acfc4699e5314b1220bb32ec80c15097e92fdb1a22e182fdfc03315",
+        "supports_claim": true,
+        "reason": "对应10.0um|24h条件（WTCS_median即报告的主分数），已验证。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b853b680c69e61ec1dfa13c93c41cc2357d8fe236873ef39dece468399ed25d4",
+        "supports_claim": true,
+        "reason": "对应3.33um|24h条件，已验证。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb",
+        "supports_claim": true,
+        "reason": "对应0.04um|24h条件，已验证。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 2,
+        "accurate": true,
+        "reason": "coverage显示direct/public/S1路径数均为0，compound_mapped=false，evidence_gaps明确列出无靶点断言、无通路路由；该'机制证据不足'表述与包内覆盖完全一致。"
+      }
+    ],
+    "limitations": [
+      "WTCS分数的语义解释（'表达逆转关联分数'）未在来源快照中由数据直接定义，属审阅者层面的合理解释",
+      "该候选compound_mapped=false且无靶点/通路证据，机制层面仅有S2筛选分数可用",
+      "s2证据仅覆盖MCF7单细胞系、6个剂量、24h单一时间点"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:11:01.713191+00:00"
+}

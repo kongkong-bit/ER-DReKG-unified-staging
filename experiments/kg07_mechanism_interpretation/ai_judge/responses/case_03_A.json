@@ -1,0 +1,281 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "25679cf06bdf21fbf5393551d84c674c558e49606c727bcf02c359c6571618a3",
+  "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30",
+  "latency_seconds": 17.580849000000853,
+  "usage": {
+    "completion_tokens": 2167,
+    "completion_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "prompt_tokens": 36005,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 38172
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "4条S2条件记录（MCF7各剂量）均在包内且WTCS为逆转关联分数，与coverage的s2_condition_count=4一致；未推断临床疗效"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS关系经OptimusKG/DRUG_BANK TRANSPORTER断言支持；表述为association无方向错误"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系支持"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，reported_actions含INHIBITOR，来源OPEN_TARGETS/DRUG_BANK支持inhibition表述"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，ENZYME关系支持"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系支持"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，CARRIER关系支持"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "4e8a385541f287b5f6f09c7a08f7775b9cb76b9004e4a0407b0a0667ef40caed",
+        "supports_claim": true,
+        "reason": "对应MCF7|0.37um条件WTCS记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "814781daa9ae285a247a6cf81c4a0c465628df0cfb3eb6788b21e4fbd16d309b",
+        "supports_claim": true,
+        "reason": "对应MCF7|10um条件WTCS记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b620c7d4410c21ba6e6b31d5623e8ae4a11f8e4b71dd8cd8b638eeaf2100f09d",
+        "supports_claim": true,
+        "reason": "对应MCF7|3.33um条件WTCS记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c38e975efdc6f30b36eb11aad5dcf68398f317ed0df1a62cd15fdd2368b7741e",
+        "supports_claim": true,
+        "reason": "对应MCF7|0.12um条件WTCS记录"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "24458b6fb73c17c546fc79683ec1a8de209617bbd2bf035eefa94aba38b8bafc",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000125257，OptimusKG断言支持"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "2ee0683e2525cfc3b80367816326fb2d60fa9ef73b1fbcd96287c47ded1d65e2",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000073734"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "4336cea176fe6435db6a7fcbbbc5e585c971b617fde1871553736ceeca239b44",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000005844"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "5b7b99f78ba11a749b137e4ed3224fbe0362fba6bd7547305b3cfc4d7101c1e2",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000084453"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "87005007cb44a423861d573ab158b6863d1654b4a97a203c3dfeb10d12396314",
+        "supports_claim": true,
+        "reason": "路径至ENSG00000113161，含INHIBITOR断言，支持inhibition方向"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "8bbd1880499605dce3d2bf00fd5bd7f042376afaef645d2afe114ccacf11e17a",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000151012"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "988c09bd7d9258f5fbe19d2c70ddd983e9f4ce4e6314f035f8cb9526dc3b4808",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000138109"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "98d23537f30e900770ce02263af480fe4006de55ee7c17b257ffb1e54b132961",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000137491"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "bff9a26f958a5675ce19b55d1c7bcf47dceeeeecf22f34a9d2cfb51dde718bb8",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000134538"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "c1eafeeb3070b5360276ed27c8bd3f8d4f20d3c2a050ef0b55b48d3381b90d47",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000023839"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "ceea9f0d3fcf9ef6cc9b4667bdb9d40dbbfa5a218330ba9bbef58062b99738bc",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000118777"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "dd94ededf5916aabef3abf57b8e0757bd049383a3325aa73dd8c25a1b567a6da",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000111700"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "e6e9400e2626f9b06557909d16b520e6c10c9b73f5ea5f79361be579091969a6",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000149452"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "f77e11dd758fdf13ed92eeffb4fbe48f6f56cb65448f1ee9c27e7af446cbc3e8",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000100652"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "fb23ffdc673d93149dd38d724470a31dbf6ff5496b0aa1b875b42c6f0041795a",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000163631，CARRIER断言"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "无target-to-public-pathway通路证据，机制假设缺乏通路支持",
+      "无S1富集/DEG重叠通路证据",
+      "无independent_validation类证据；仅有S2筛选分数",
+      "部分上游断言缺source URL，仅保留source_record_id/source_release",
+      "仅单一MCF7细胞系、单一签名（n_signatures=1），QC阈值敏感性结果缺失，稳定性grade为low",
+      "多数靶点关系仅为source-reported relation（TRANSPORTER/ENZYME等），未提供结合/抑制方向证据（ENSG00000113161除外）"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:47:02.481261+00:00"
+}

@@ -1,0 +1,6 @@
+pert_id,drug_name,cell_id,pert_type,dose,time,n_signatures,WTCS_median,WTCS_mean,WTCS_sd,WTCS_mad,quality_cc_median,TAS_median,replicates_median,rank_within_condition
+BRD-A00147595,balaglitazone,MCF7,trt_cp,0.12 um,24 h,1,0.6742357220093027,0.6742357220093027,,0.0,0.25,0.18985,3.0,1.0
+BRD-A00147595,balaglitazone,MCF7,trt_cp,1.11 um,24 h,1,0.6356040499361386,0.6356040499361386,,0.0,0.37,0.277127,3.0,2.0
+BRD-A00147595,balaglitazone,MCF7,trt_cp,10.0 um,24 h,1,0.7307087388184567,0.7307087388184567,,0.0,0.28,0.219313,3.0,1.0
+BRD-A00218260,flutrimazole,MCF7,trt_cp,0.37 um,24 h,1,0.0,0.0,,0.0,0.25,0.209073,3.0,1.0
+BRD-A00218260,flutrimazole,MCF7,trt_cp,1.11 um,24 h,1,-0.7993217340018253,-0.7993217340018253,,0.0,0.21,0.142071,3.0,1.0

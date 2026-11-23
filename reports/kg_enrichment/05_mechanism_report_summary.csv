@@ -1,0 +1,11 @@
+rank,pert_id,drug,grade,target_relation_types,target_assertion_rows,context_route_count,gene_response_rows,er_literature_records,supportive_er_records,conflict_or_limitation_records,regulatory_paths,regulatory_conflict_pairs,signor_path_edges,omnipath_path_edges,external_s1_status,prism_status,report_file
+1,BRD-K44227013,ponatinib,A,4,21,0,15,2,2,0,181,2,77,104,available,available,artifacts\kg_enrichment\reports\01_BRD-K44227013.json
+2,BRD-K16485616,mocetinostat,A,2,10,111,4,1,1,0,21,0,9,12,available,available,artifacts\kg_enrichment\reports\02_BRD-K16485616.json
+3,BRD-K56405753,MK-2461,B,2,2,19,0,1,0,0,22,0,15,7,not_matched_in_exp010_output,not_matched_in_exp011_prism_output,artifacts\kg_enrichment\reports\03_BRD-K56405753.json
+4,BRD-K92093830,doxorubicin,A,5,31,0,2,1,0,0,1,0,0,1,available,available,artifacts\kg_enrichment\reports\04_BRD-K92093830.json
+5,BRD-K76694128,rebastinib,B,2,2,13,0,1,0,1,0,0,0,0,not_matched_in_exp010_output,not_matched_in_exp011_prism_output,artifacts\kg_enrichment\reports\05_BRD-K76694128.json
+6,BRD-K50000283,PHA-767491,B,1,2,0,0,1,1,0,61,0,45,16,not_matched_in_exp010_output,not_matched_in_exp011_prism_output,artifacts\kg_enrichment\reports\06_BRD-K50000283.json
+7,BRD-K11153516,iniparib,C,1,1,0,1,1,0,1,11,1,2,9,available,available,artifacts\kg_enrichment\reports\07_BRD-K11153516.json
+8,BRD-A00147595,balaglitazone,B,3,4,8,1,1,0,0,14,0,2,12,available,available,artifacts\kg_enrichment\reports\08_BRD-A00147595.json
+9,BRD-K13094524,PFI-1,B,1,2,0,0,1,0,0,7,0,3,4,not_matched_in_exp010_output,not_matched_in_exp011_prism_output,artifacts\kg_enrichment\reports\09_BRD-K13094524.json
+10,BRD-K83837640,JNJ-26481585,B,2,12,165,0,1,0,0,31,0,13,18,not_matched_in_exp010_output,not_matched_in_exp011_prism_output,artifacts\kg_enrichment\reports\10_BRD-K83837640.json

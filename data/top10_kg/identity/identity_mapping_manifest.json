@@ -1,0 +1,18 @@
+{
+  "status": "built_from_frozen_manifest_and_exact_identity_audits",
+  "candidate_count": 10,
+  "exactly_resolved_count": 10,
+  "unresolved_count": 0,
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "source_hashes": {
+    "reports\\top10_kg\\02_top10_frozen_manifest.json": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+    "reports\\top10_kg\\top10_graph_bundle\\3928c54d_external_v1\\candidate_mapping_audit.csv": "6b50096fca9218959271ce8c8a78bc63c3a27e9982ecf58711cff4d222f0fd83",
+    "reports\\top10_kg\\top10_graph_bundle\\3928c54d_external_v1\\subgraph_nodes.csv": "da8fe5315210b529f3acdb65fc6ff16b690325ec9f4efa567ea14c7dd71295ec",
+    "reports\\top10_kg\\external_identity_and_mechanism_evidence.csv": "bb486b2fee038afbe946f468379600385c3b5dc3ad2f7cb1916b9a36a3d2d5b0"
+  },
+  "outputs": {
+    "top10_identity_mapping.csv": "e070480b7008a50acc5f004ce4c29d3e0a487dc124643b3892d2ad0ca047f1c4",
+    "unresolved_identity_candidates.csv": "41f0f4ce6d5cac3e878356e066ea4e129035c2867dbdada8b8172b548dcbf047"
+  },
+  "policy": "No fuzzy name matching. Local exact graph mapping and external exact InChIKey resolution remain distinct statuses."
+}

@@ -1,0 +1,116 @@
+{
+  "audit": "Final05 scientific reliability audit",
+  "generated_utc": "2026-11-15T04:31:43.274535+00:00",
+  "top10_invariant": [
+    {
+      "rank": 1,
+      "drug_name": "ponatinib",
+      "pert_id": "BRD-K44227013"
+    },
+    {
+      "rank": 2,
+      "drug_name": "mocetinostat",
+      "pert_id": "BRD-K16485616"
+    },
+    {
+      "rank": 3,
+      "drug_name": "MK-2461",
+      "pert_id": "BRD-K56405753"
+    },
+    {
+      "rank": 4,
+      "drug_name": "doxorubicin",
+      "pert_id": "BRD-K92093830"
+    },
+    {
+      "rank": 5,
+      "drug_name": "rebastinib",
+      "pert_id": "BRD-K76694128"
+    },
+    {
+      "rank": 6,
+      "drug_name": "PHA-767491",
+      "pert_id": "BRD-K50000283"
+    },
+    {
+      "rank": 7,
+      "drug_name": "iniparib",
+      "pert_id": "BRD-K11153516"
+    },
+    {
+      "rank": 8,
+      "drug_name": "balaglitazone",
+      "pert_id": "BRD-A00147595"
+    },
+    {
+      "rank": 9,
+      "drug_name": "PFI-1",
+      "pert_id": "BRD-K13094524"
+    },
+    {
+      "rank": 10,
+      "drug_name": "JNJ-26481585",
+      "pert_id": "BRD-K83837640"
+    }
+  ],
+  "method": {
+    "primary_condition": "MCF7 trt_cp 10.0 um 24 h",
+    "fixed_scoring_input": "BING Top100 UP/DOWN; existing corrected 5,861 signature score run",
+    "replicate_definition": "distil_nsample and sig_info.distil_id list of underlying instance profiles; not independent cohorts",
+    "historical_permutation": "Exp008 B200, 2,000 permutations, reported as historical only and crosswalked against current score"
+  },
+  "input_sha256": {
+    "experiments\\final_results\\results\\final_top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+    "experiments\\final_results\\results\\final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+    "experiments\\final_results\\results\\final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_info_2017-03-06.txt.gz": "b78284478d62029f600d4397334c538d363123110affd2454bf0055bd0678e01",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_metrics_2017-03-06.txt.gz": "05dd9139f7db1caef03b534611c0bcf97dd071a764445688eaa7e6c47e50b04c",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_inst_info_2017-03-06.txt.gz": "84fb2ff891c7d97012c6d97356ce7a1ebc82da0f37d7da011415bddd70c90a6c",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+    "experiments\\exp008_scoring_statistics\\results\\empirical_pvalues.csv": "7819f9a149adcc7acc1eb1b65e89c558f368484d1282b26fc2958635f085f01c",
+    "experiments\\exp011_prism_validation\\results\\candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "experiments\\final_results\\mechanism\\final_neo4j_drug_mapping.csv": "8829367ad5c9b36d98841b53304bd82a9fdd8d09ff6924e2f9fd024c5029f024",
+    "experiments\\final_results\\mechanism\\final_neo4j_direct_targets.csv": "c7c42b60f6713b60f646747b9e2d4a5d1346cc6d490752f920057d7da4f10e0f",
+    "experiments\\final_results\\mechanism\\final_neo4j_s1_pathway_links.csv": "a5e5927b6b9e8e87e27c9db18b5ca2bcf45975e71eaafb2d8b70052e8a87edea"
+  },
+  "external_sources": {
+    "ponatinib": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/203469s038lbl.pdf",
+    "mocetinostat": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mocetinostat",
+    "MK-2461": "https://pubmed.ncbi.nlm.nih.gov/20145145/",
+    "doxorubicin": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=36924f82-6c05-4989-9f41-a398c0ad48e6",
+    "rebastinib": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/rebastinib-tosylate",
+    "PHA-767491": "https://pubmed.ncbi.nlm.nih.gov/21768328/",
+    "iniparib": "https://pubmed.ncbi.nlm.nih.gov/22291137/",
+    "balaglitazone": "https://pubmed.ncbi.nlm.nih.gov/21328517/",
+    "PFI-1": "https://pubmed.ncbi.nlm.nih.gov/23576556/",
+    "quisinostat": "https://pubchem.ncbi.nlm.nih.gov/compound/11538455",
+    "unmapped_identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=44137946",
+      "https://pubchem.ncbi.nlm.nih.gov/compound/25066467",
+      "https://pubchem.ncbi.nlm.nih.gov/compound/11715767",
+      "https://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=71271629",
+      "https://pubchem.ncbi.nlm.nih.gov/compound/11538455"
+    ]
+  },
+  "outputs": {
+    "all_candidate_signature_audit.csv": "ea5f48d1be1b8c5bb8df8bd632fb9e807a5fbd454e31051d87441a205f9c3a0b",
+    "dose_batch_support.csv": "9daf632f3a8e33dbab6db938149e03df4278ebb5253fcfacff8c5335043a8630",
+    "dose_metadata_qc_audit.csv": "8082c3e57aa7d59e315ebea2083c38416b683efadda89cfad69e06776a77c2f8",
+    "drug_mechanism_indication_audit.csv": "f893326118dbaef797a1718b9ed598305e1ef46c1eac0ff49edc16cb6c1ac982",
+    "evidence_grade_matrix.csv": "e7dcfab1584b4c7f2f62dc051b8e1ea50f1303c33bc2f6b09e2892014cd58138",
+    "historical_permutation_crosswalk.csv": "c18d4a5d046ab73dc4a420a7f454239b061827c8f42867739ca04a730a7be043",
+    "signature_level_audit.csv": "ea3090a48cb1e857b9c8c2c1128263b683e29bec78d6f25bba266edd3238bd20",
+    "time_metadata_coverage.csv": "c9bf408a46bcbfc4d4121490aedabc8c2131cebf7d7f46e079dc8f4afb9beae7",
+    "unmapped_drug_identifier_audit.csv": "52eff5c46aa39f5205bb313eb59ae24d4fa1e2186ac30e8e523d8eb8c3e4e126"
+  },
+  "frontend_payload_sha256": "6934091f6911c3be6d7989ea17000b212d6105157dc7d0c58eb4cfa7615e7238",
+  "frontend_report_sha256": "c4e3ee351d7ecfae376f960d1a182c40ce692c8cf7e33e1aec09707d52bce5fa",
+  "frontend_download_sha256": {
+    "final05-evidence-grade.csv": "e7dcfab1584b4c7f2f62dc051b8e1ea50f1303c33bc2f6b09e2892014cd58138",
+    "final05-dose-support.csv": "9daf632f3a8e33dbab6db938149e03df4278ebb5253fcfacff8c5335043a8630",
+    "final05-dose-metadata-qc.csv": "8082c3e57aa7d59e315ebea2083c38416b683efadda89cfad69e06776a77c2f8",
+    "final05-all-signatures.csv": "ea5f48d1be1b8c5bb8df8bd632fb9e807a5fbd454e31051d87441a205f9c3a0b",
+    "final05-identifier-audit.csv": "52eff5c46aa39f5205bb313eb59ae24d4fa1e2186ac30e8e523d8eb8c3e4e126"
+  },
+  "report_sha256": "c4e3ee351d7ecfae376f960d1a182c40ce692c8cf7e33e1aec09707d52bce5fa"
+}

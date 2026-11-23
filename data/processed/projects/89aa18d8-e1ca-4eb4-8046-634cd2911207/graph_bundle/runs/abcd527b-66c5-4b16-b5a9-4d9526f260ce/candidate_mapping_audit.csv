@@ -1,0 +1,11 @@
+﻿pert_id,pert_iname,inchi_key,graph_drug_id,mapping_status,mapping_method,condition_rows
+BRD-A00147595,balaglitazone,IETKPTYAGKZLKY-UHFFFAOYSA-N,CHEMBL2103991,matched_exact_inchikey,exact InChIKey,3
+BRD-A00218260,flutrimazole,QHMWCHQXCUNUAK-UHFFFAOYSA-N,,unmatched_no_exact_inchikey,none,3
+BRD-A00376169,KBG,FOLRUCXBTYDAQK-SFZUHQLGSA-N,,unmatched_no_exact_inchikey,none,1
+BRD-A01636364,bupivacaine,LEBVLXFERQHONN-UHFFFAOYSA-N,CHEMBL1098,matched_exact_inchikey,exact InChIKey,4
+BRD-A01645196,garcinol,QKACJXUOZWIRSN-RSNVXJODSA-N,,unmatched_no_exact_inchikey,none,3
+BRD-A01787639,naftopidil,HRRBJVNMSRJFHQ-UHFFFAOYSA-N,CHEMBL142635,matched_exact_inchikey,exact InChIKey,3
+BRD-A02367930,ethinyl-estradiol,BFPYWIDHMRZLRN-OQPPHWFISA-N,,unmatched_no_exact_inchikey,none,4
+BRD-A02710418,meptazinol,JLICHNCFTLFZJN-UHFFFAOYSA-N,CHEMBL314437,matched_exact_inchikey,exact InChIKey,5
+BRD-A02990301,lofexidine,KSMAGQUYOIHWFS-UHFFFAOYSA-N,CHEMBL17860,matched_exact_inchikey,exact InChIKey,2
+BRD-A03061970,alizapride,KSEYRUGYKHXGFW-UHFFFAOYSA-N,CHEMBL290194,matched_exact_inchikey,exact InChIKey,2

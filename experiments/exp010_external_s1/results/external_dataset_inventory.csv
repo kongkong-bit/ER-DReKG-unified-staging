@@ -1,0 +1,4 @@
+"dataset","role","platform","n_samples","ER_positive_n","normal_n","selected","selection_reason"
+"GSE139038","primary independent paired ER+ cohort","GPL27630 spotted two-color array",65,26,24,TRUE,"explicit per-sample ER status, paired normal tissue, independent GEO accession"
+"GSE65194","audited candidate; subtype-derived ER proxy, not primary","GPL570 Affymetrix",178,59,11,FALSE,"luminal subtype and healthy controls exist, but ER field is not explicit"
+"GSE42568","discovery reference","GPL570 Affymetrix",84,67,17,FALSE,"discovery cohort"

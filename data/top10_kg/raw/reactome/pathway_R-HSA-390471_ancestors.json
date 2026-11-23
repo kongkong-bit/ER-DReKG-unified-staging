@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:52.026122+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-390471/ancestors",
+    "response_sha256": "09842503f332f223a89096d7fca81af91c4a34ec982776b11051cb2a123523e9",
+    "response_bytes": 1575
+  },
+  "payload": [
+    [
+      {
+        "dbId": 390471,
+        "displayName": "Association of TriC/CCT with target proteins during biosynthesis",
+        "stId": "R-HSA-390471",
+        "name": [
+          "Association of TriC/CCT with target proteins during biosynthesis"
+        ],
+        "stIdVersion": "R-HSA-390471.3",
+        "oldStId": "REACT_16907",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-04-01",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 390466,
+        "displayName": "Chaperonin-mediated protein folding",
+        "stId": "R-HSA-390466",
+        "name": [
+          "Chaperonin-mediated protein folding"
+        ],
+        "stIdVersion": "R-HSA-390466.5",
+        "oldStId": "REACT_17004",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-04-01",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 391251,
+        "displayName": "Protein folding",
+        "stId": "R-HSA-391251",
+        "name": [
+          "Protein folding"
+        ],
+        "stIdVersion": "R-HSA-391251.3",
+        "oldStId": "REACT_16952",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_17004.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-04-01",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2068,
+        "diagramHeight": 1550,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 392499,
+        "displayName": "Metabolism of proteins",
+        "stId": "R-HSA-392499",
+        "name": [
+          "Metabolism of proteins"
+        ],
+        "stIdVersion": "R-HSA-392499.13",
+        "oldStId": "REACT_17015",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-04-01",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 571,
+        "diagramHeight": 322,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

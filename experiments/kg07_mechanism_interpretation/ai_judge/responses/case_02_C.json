@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "29f4a2efaadb9051f1e34daf73972ca68b2af149a0d531ad9c54ac69ca072184",
+  "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b",
+  "latency_seconds": 15.959281100000226,
+  "usage": {
+    "completion_tokens": 900,
+    "completion_tokens_details": {
+      "reasoning_tokens": 313
+    },
+    "prompt_tokens": 2467,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3367
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "screening_evidence 中 s2_candidate rank 14、WTCS -0.4199116、conditions_source 为 S2ConditionResult，均与声明一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 记录 MCF7、10.0 µM、24 h，WTCS median B -0.4199（rank 14）、median A -0.3897（rank 48）、source_dataset GSE70138，完全匹配。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中无任何来源定义 WTCS 为表达逆转分数或说明其证据边界；该解释性声明在包内无依据。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照无任何 S1/S1_B200/Q2 验证数据（s1 相关 path/evidence 计数均为 0，paths 为空），所引排名与条件数在包内不存在。"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中不存在 PRISM 敏感性数据或 ER 阳性/阴性分组结果，全部数值无来源支持。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "coverage 显示 direct_target_path_count=0，evidence_gaps 明确指出未找到 curated Drug-to-Gene target assertion 与图谱路径，声明准确。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "exp006 显示 negative_dose_fraction 0.667、dose_stability mixed_or_limited、stability_grade low、n_signatures=1，与声明一致。"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "快照不含 S1/Q2 验证数据，无法解释排名差异或确认可重复性，该保留意见与包内覆盖一致。"
+      },
+      {
+        "claim_index": 9,
+        "accurate": true,
+        "reason": "快照中无 PRISM 终点数据，WTCS 为表达相关分数，二者确实不可合并解读，表述与覆盖一致。"
+      }
+    ],
+    "limitations": [
+      "fact_claim_indices 3、4、5 引用了快照中不存在的数据（WTCS 定义、S1/Q2 验证排名、PRISM 敏感性结果），均判为无依据。",
+      "引用对（citation_reference_pairs）为空，无需逐ID引用核对。",
+      "独立验证与机制假设部分完全缺乏来源，候选仅基于单一细胞系、单一signature的S2筛选证据。"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:45:50.583235+00:00"
+}

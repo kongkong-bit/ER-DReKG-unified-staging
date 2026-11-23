@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:08.989208+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9933387/ancestors",
+    "response_sha256": "2eb7391a44069b4038585de11563d81912dbdbbf3770e7986022a891caec44d7",
+    "response_bytes": 785
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9933387,
+        "displayName": "RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression",
+        "stId": "R-HSA-9933387",
+        "name": [
+          "RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression"
+        ],
+        "stIdVersion": "R-HSA-9933387.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-03-26",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1508,
+        "diagramHeight": 836,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9909396,
+        "displayName": "Circadian clock",
+        "stId": "R-HSA-9909396",
+        "name": [
+          "Circadian clock"
+        ],
+        "stIdVersion": "R-HSA-9909396.3",
+        "schemaClass": "TopLevelPathway",
+        "doi": "10.3180/R-HSA-9909396.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-03-26",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 655,
+        "diagramHeight": 614,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

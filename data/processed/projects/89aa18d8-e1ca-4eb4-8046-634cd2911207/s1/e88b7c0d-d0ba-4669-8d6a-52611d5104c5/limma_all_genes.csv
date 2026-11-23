@@ -1,0 +1,3 @@
+gene_id,logFC,adj.P.Val,t,P.Value,source_row,direction
+TEST_UP,1.7,0.01,4.4,,2,up
+TEST_DOWN,-1.1,0.2,-2.1,,3,down

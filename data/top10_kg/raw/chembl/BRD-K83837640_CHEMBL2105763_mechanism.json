@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:03:30.859313+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL2105763&limit=1000&offset=0",
+    "response_sha256": "bdd0a4c268afd336162ebe4bc02bbdec43bb84bc7a4a504e46b4d5ff0bb1c82a",
+    "response_bytes": 696
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 9220,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Histone deacetylase inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "25085711",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/25085711/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2105763",
+        "parent_molecule_chembl_id": "CHEMBL2105763",
+        "record_id": 1702687,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2093865",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  }
+}

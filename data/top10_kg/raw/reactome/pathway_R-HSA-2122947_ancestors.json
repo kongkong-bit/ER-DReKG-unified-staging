@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:49.070974+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2122947/ancestors",
+    "response_sha256": "de5f2dc9d69b50f8e24a66295a4f34a77fa35250b3d20a01f5053676bc19245d",
+    "response_bytes": 1623
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2122947,
+        "displayName": "NOTCH1 Intracellular Domain Regulates Transcription",
+        "stId": "R-HSA-2122947",
+        "name": [
+          "NOTCH1 Intracellular Domain Regulates Transcription"
+        ],
+        "stIdVersion": "R-HSA-2122947.7",
+        "oldStId": "REACT_118780",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-03-13",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1980143,
+        "displayName": "Signaling by NOTCH1",
+        "stId": "R-HSA-1980143",
+        "name": [
+          "Signaling by NOTCH1"
+        ],
+        "stIdVersion": "R-HSA-1980143.6",
+        "oldStId": "REACT_118859",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_118859.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-03-13",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1845,
+        "diagramHeight": 1555,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 157118,
+        "displayName": "Signaling by NOTCH",
+        "stId": "R-HSA-157118",
+        "name": [
+          "Signaling by NOTCH",
+          "NOTCH Signaling Pathway"
+        ],
+        "stIdVersion": "R-HSA-157118.7",
+        "oldStId": "REACT_299",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_299.3 10.3180/REACT_2105.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2005-06-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 443,
+        "diagramHeight": 417,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

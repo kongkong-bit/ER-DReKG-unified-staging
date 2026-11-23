@@ -1,0 +1,567 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "d13cd053a701f6f81405da9e5d8b89c17de5b458479cea5d3bfdb6644e40d6ef",
+  "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+  "latency_seconds": 49.13305020000007,
+  "usage": {
+    "completion_tokens": 4574,
+    "completion_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "prompt_tokens": 104418,
+    "prompt_tokens_details": {
+      "cached_tokens": 104384
+    },
+    "total_tokens": 108992
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "5条S2条件证据ID均在包中且WTCS值与claim描述一致；claim明确WTCS为关联分数非疗效"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径含TARGETS关系，reported_actions含INHIBITOR，INHIBITOR predicate有OptimusKG来源支持"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系由DRUG_BANK来源支持，claim声明为association与来源一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，ENZYME关系有DRUG_BANK来源，claim声明association与source_reported_relation_only一致"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，ENZYME关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径含INHIBITOR predicate，OPEN_TARGETS来源支持inhibition表述"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，ENZYME关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGET关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TRANSPORTER关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，ENZYME关系有DRUG_BANK来源"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0016331 morphogenesis of embryonic epithelium存在，HAS_ENRICHED_GENE/HAS_ENRICHED_PATHWAY证据完整，claim声明为association"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:2000181存在，富集证据完整，adjusted_p记录在案"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0090109存在，富集证据完整"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0014074存在，富集证据完整"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0001523存在，富集证据完整"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0090100存在，富集证据完整"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0045446存在，富集证据完整"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0150117存在，富集证据完整"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0031589存在，富集证据完整"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0010595存在，富集证据完整"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0060541存在，富集证据完整"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0030509存在，富集证据完整"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0007160存在，富集证据完整"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径GO:0006721存在，富集证据完整"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "09966d956c90e3178ab35318acf81ec4509654735aae4d1a94cf5c09ed91d4e6",
+        "supports_claim": true,
+        "reason": "MCF7 3.33um条件WTCS=0.3316，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "16a277154473300b4d1057f35494cfd0624c8fb5c325a8a13009c536931820e9",
+        "supports_claim": true,
+        "reason": "MCF7 0.12um条件存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8fe7853d97f7b35486d181e8e032c574ce660cc1e7195d1165bbfd1bd53fc933",
+        "supports_claim": true,
+        "reason": "MCF7 0.37um条件WTCS=0.0存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "969d18312d44915f65afbfbdc96647b294294a9b23b2dcfea941dda8f4cb51fb",
+        "supports_claim": true,
+        "reason": "MCF7 1.11um条件存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b0cb5d8d92fc8e2b711af13e14214cbde9f8b7d89efb25e2189059898fceef68",
+        "supports_claim": true,
+        "reason": "MCF7 10um条件WTCS=-0.5167存在且verified"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "04e454c03d43153f617422cda58483118d98b2da0fdf025116b6dcd24f77d929",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000097007，INHIBITOR predicate有来源"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "0604f6bf265551157f2f7138bd50398af4e032bfddc96c750db9c8814a3c0f29",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000066468"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "089240dba8a0d9c45d2bbe417aa1ac053a82fbda648257bf6401857af2be20fe",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000160867"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "0bb032d3ff0b974da88fa0458a87d6e3b55dd4ba157f426ba66dc7370c110f32",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000197122"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "157dde200994db1e3c578b7de1af203ba70398c8454841928c71bca367390953",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000157404"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "194a0cf72f0ca0a9e5c192e9aa26a1c8bd7cc7e2c93e5717c16c770ce4ef9263",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000165731"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "329429f68a7ff2b0380715efae49b68251d6bdb7849e031c22538f27bf74adda",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000100197"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "374162920bedb8028e57ab823caea425e92f373581302357c5f7edc6c5031387",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000134853"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "3a4dff3ad8504bfb20e59e8a8214b93563768f7dde4bac03802d9db5a6d06fd3",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000120156"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "57d2c0e926e57078e38886a77ac666c3c5c4194c27d109181a5fa4f9c4778602",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000077782"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "5af2882178a6a21882b534b4c8ff7a646687c4964aa53a9d24fbb9f0a5a5afde",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000160868"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "815ccf9450647fe7fd279a3988027089bd7d0b023fff7b0405cd4e6f08b489e1",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000122025"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "9cbe0c39689c30ebbe6794686bc20f08d2b116b89e75538cbbf5aca97a978daf",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000085563"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "aac0493f45971323d5d6ed77575e9e7f8fa88c5680debe9c3665ad186e24f9f6",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000186716，含INHIBITOR predicate"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "b7a39a2959815e2f1ed0edf0904f1e49670c5abef467948a5df1bb031195a8c6",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000254087"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "cc75857c5652cd6b7acd83b65e4acd1d35f144608c693d854ca5a0fa17569fc1",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000182866"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "d9461999353b895b5b61b27e61f833b8b1c60b4379a9efd485006d6323dbe40a",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000068078"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "db24395936cc017e1b50a42f2690f0e6d3586c8734662dca93dee9f292048219",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000106258"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "e2bf1883eb98fce5cc8d7dd84c20c13c58006716930bb68ebe52c84f260df230",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000128052"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "f512554fa8ad2849dcf0090f6e05d4c15c506b1a59349575e675317b3bc7cfc9",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000118777"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "fb37004800e17714ddd85486120a07b65645d88336ef8343d260645d3eae902d",
+        "supports_claim": true,
+        "reason": "直接靶向路径至ENSG00000138115"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "015cdec1223173c586dad73a04f8c398f9f51eb98705a04ffc877f2773593a86",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0016331，证据完整"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "053b5b37c5358c836233102c89fd096a3831afe0e381b0a5e622446c8af99c79",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:2000181"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "0569cde52d33a3a7a54c929ab8604b214eeb4547923f750f7e636f7295986f3e",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0090109"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "068374d9401fa6d076dc7d233d5d51afc1256cd30cc5d58ba7514cbf6a779c9c",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0014074"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "0c59501d055864c6d61ad4923ef7c4baff4b8af8008ff2c00499047f7c572326",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0001523"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "0ec6fadc38d3a93269f1c47ef408aa5fd328bc29313c2c6e2a99d35d7c1378ea",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0090100"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "0ff5187c58a20fe844dae05643b7a09a472b292ac34fba553868f470e43badf4",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0045446"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "11a77ef025f49944868dc3948c0958f69ff6e1735fe5acc0594363b21a7c2394",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0150117"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "12e86c071c4854875f8ff8a42efaaa31c83b3450522bda432f13158e3c59b24e",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0031589"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "14d2b1ae543d6c96131782cd347750102278bc2fbcc34ded1eb1ac42ef47559b",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0010595"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "16f74af2816ea9be2bd8ea097a440220eb79494d8ed1eec4490fa242fe7a9c21",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0060541"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "189a866e0097f1d41be359880fa5ee74a1e2c2a41d85f7fadec5cb6e5b27c85e",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0030509"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "19268ebcdfc252fca00fbcd0148ebcff22ff9f6661b55fc8d76428c770a44604",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0007160"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "19b2b7779020c66fc8e807264df78be692d974418fd344273b757ec9740ea83a",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径连接GO:0006721"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "无target-to-public-pathway路由（coverage显示public_pathway_path_count=0），通路关联均基于S1富集重叠而非公共通路库",
+      "部分上游assertion缺少source URL，仅保留source_record_id与source_release",
+      "S2仅有5条MCF7单时间点条件，dose_stability为direction_flip、stability_grade为low、每条件n_signatures=1，表达逆转信号不稳健",
+      "通路claim均为关联/证据交汇，不构成因果或方向性机制主张"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:55:51.078208+00:00"
+}

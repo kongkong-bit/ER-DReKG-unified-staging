@@ -1,0 +1,22 @@
+{
+  "source_name": "SIGNOR",
+  "source_url": "https://signor.uniroma2.it/downloads.php",
+  "release_version": "Oct2026",
+  "retrieved_at": "2026-11-22T06:35:49.505040+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\signor\\2026-10\\Oct2026_release.txt",
+  "sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06",
+  "license": "CC BY 4.0",
+  "species": "Homo sapiens",
+  "schema_version": "SIGNOR 4.0 release TSV; verified header",
+  "records_raw": 43727,
+  "records_rejected": 25441,
+  "rejected:nonhuman_or_unspecified_taxon": 10233,
+  "records_valid": 18286,
+  "rejected:non_protein_endpoint": 12267,
+  "rejected:not_direct": 2489,
+  "rejected:effect_not_directional_regulation": 452,
+  "normalized_path": "data\\kg_enrichment\\normalized\\signor\\2026-10\\signor_human_protein_regulation.csv",
+  "normalized_sha256": "35e2af88db86352f9533f3f3f657498540f0ea2ca99f644641bb50d152d12935",
+  "rejected_path": "data\\kg_enrichment\\normalized\\signor\\2026-10\\signor_human_protein_regulation.csv.rejected.csv",
+  "rejected_sha256": "5333877845417a21976ca48c61e473051829c9d3fcc6d111876ba26f40f53386"
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "run_type": "s1_precomputed_deg",
+  "status": "completed",
+  "parameters": {
+    "input_rows": 21655,
+    "unique_genes": 21653,
+    "duplicate_rows_removed": 2,
+    "significant_genes": 7066,
+    "up": 3422,
+    "down": 3644,
+    "unchanged_significant": 0,
+    "fdr_threshold": 0.05,
+    "contrast": "Tumor - Normal",
+    "positive_group": "Tumor",
+    "negative_group": "Normal",
+    "gene_identifier_column": "gene_symbol",
+    "source_columns": [
+      "gene_symbol",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "duplicate_policy": "retain lowest adj.P.Val; ties retain largest absolute logFC; final ties retain first input row",
+    "dataset_id": "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+    "input_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "output_sha256": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+    "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "test_only": false
+  },
+  "software_versions": {
+    "pipeline": "DiseaseGraph precomputed DEG parser 1.0",
+    "python": "3.12.11"
+  },
+  "input_hashes": {
+    "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4"
+  }
+}

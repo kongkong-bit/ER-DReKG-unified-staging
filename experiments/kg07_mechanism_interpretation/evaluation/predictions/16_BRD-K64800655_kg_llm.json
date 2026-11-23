@@ -1,0 +1,152 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K64800655",
+    "drug_name": "PHA-793887",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1230607",
+    "rank": "10"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 20,
+    "public_pathway_path_count": 7,
+    "s1_enrichment_overlap_path_count": 134,
+    "s1_deg_overlap_path_count": 8,
+    "unique_evidence_count": 282,
+    "verified_evidence_count": 282,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "f72fb74275b6343b4d82a2a28657a8f2e95308b374f955f1bff408689d21a010",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 10 μM 24h WTCS=-0.428，负相关转录特征",
+        "relation": "association",
+        "evidence_ids": [
+          "05a2101d313e9b95b92d329651b6a9586e0aa39ff236f406774de10d3ae23321"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 0.12 μM 24h WTCS=-0.346",
+        "relation": "association",
+        "evidence_ids": [
+          "31a2925f87801e31b7606e76e9d736c539912bf5f801aff8b3cca07263c775af"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 3.33 μM 24h WTCS=-0.276",
+        "relation": "association",
+        "evidence_ids": [
+          "3128bd52723499fa43418eb70073ff06b77905a2f2dffe1798cdfe451e77c383"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱路径显示药物为ENSG00000167258的INHIBITOR",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "13c8d45937a51d58b541814291f88e8d7644f7c149f4d91572ae0a9804640488"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱路径显示药物为ENSG00000102225的INHIBITOR",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1b9c26c0534d0ff991fb5f30c9a7627bd40dc574b5ee0f38b2e5a0af855856f6"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱路径显示药物为ENSG00000138395的INHIBITOR",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "2bc7706540e0f3ed856620b03bfbc0a4e89b65fc4c8fc1192ff1623798a7093f"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "f72fb74275b6343b4d82a2a28657a8f2e95308b374f955f1bff408689d21a010"
+      }
+    ],
+    "limitations": [
+      "部分上游断言缺source URL",
+      "WTCS分数非临床疗效证据"
+    ],
+    "uncited_or_uncertain": [
+      "直接靶点INHIBITOR动作仅来自图谱reported_actions，未见原始来源记录"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 7.794,
+  "usage": {
+    "completion_tokens": 617,
+    "completion_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "prompt_tokens": 3172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3789
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "status": "curated_focused_search_reviewed",
+  "review_date": "2026-11-21",
+  "source_file": "reports/top10_kg/external_disease_evidence.csv",
+  "source_sha256": "e75b206905f0ecceab333fcdcbba7cab15165ede5dbb9980e690d97d651f710c",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "record_count": 11,
+  "candidate_count": 10,
+  "search_scope": "Focused PubMed/PMC, official journal, ClinicalTrials.gov and source-page review; PubMed candidate-scoped retrieval snapshots archived separately; not a systematic review.",
+  "modeling_policy": "Do not convert mixed, non-ER-positive, class-level, or evidence-gap records into direct ER-positive drug-disease graph relations; preserve reviewed records as qualified DiseaseEvidence nodes linked to Drug and Disease.",
+  "limitations": [
+    "Evidence absence in this focused search is not evidence that no study exists.",
+    "Preclinical models, mixed-subtype trials, and target pharmacology are kept distinct from ER-positive clinical efficacy.",
+    "DiseaseEvidence links record reviewed context and do not assert treatment effect or clinical efficacy."
+  ]
+}

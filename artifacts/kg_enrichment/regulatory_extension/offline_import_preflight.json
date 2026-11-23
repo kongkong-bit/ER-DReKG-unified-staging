@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "translation": "BioCypher rows prepared for importer; no database connection",
+  "node_count": 297,
+  "relationship_count": 461,
+  "node_labels": {
+    "Gene": 164,
+    "Protein": 133
+  },
+  "relationship_groups": {
+    "ENCODED_BY|Protein|Gene": 133,
+    "REGULATES|Protein|Protein": 328
+  },
+  "neo4j_write_performed": false
+}

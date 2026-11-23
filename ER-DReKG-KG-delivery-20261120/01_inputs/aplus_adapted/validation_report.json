@@ -1,0 +1,132 @@
+{
+  "generated": "2026-11-18T11:47:27.498041+00:00",
+  "inputs": {
+    "Aplus_condition_records.csv": {
+      "rows": 3943,
+      "columns": [
+        "pert_id",
+        "drug_name",
+        "cell_id",
+        "pert_type",
+        "dose",
+        "time",
+        "n_signatures",
+        "WTCS_median",
+        "WTCS_mean",
+        "WTCS_sd",
+        "WTCS_mad",
+        "CC_median",
+        "TAS_median",
+        "replicates_median",
+        "rank_within_condition",
+        "condition_record_id",
+        "candidate_id",
+        "source_row_number",
+        "source_file",
+        "source_sha256"
+      ]
+    },
+    "Aplus_candidate_drugs.csv": {
+      "rows": 1032,
+      "columns": [
+        "pert_id",
+        "drug_name",
+        "cell_id",
+        "pert_type",
+        "dose",
+        "time",
+        "n_signatures",
+        "WTCS_median",
+        "WTCS_mean",
+        "WTCS_sd",
+        "WTCS_mad",
+        "CC_median",
+        "TAS_median",
+        "replicates_median",
+        "rank_within_condition",
+        "rank",
+        "n_24h_dose_conditions",
+        "negative_dose_fraction",
+        "primary_dose_selection_rule",
+        "external_rank",
+        "WTCS_median_external",
+        "n_signatures_external",
+        "erpos_mean_sensitivity",
+        "erpos_median_sensitivity",
+        "n_erpos_lines",
+        "erneg_mean_sensitivity",
+        "n_erneg_lines",
+        "mcf7_sensitivity",
+        "n_mcf7_conditions",
+        "sensitivity_rank_erpos",
+        "candidate_id",
+        "n_condition_records",
+        "source_file",
+        "source_sha256",
+        "freeze_status"
+      ]
+    },
+    "Aplus_candidate_condition_links.csv": {
+      "rows": 3943
+    }
+  },
+  "outputs": {
+    "drug_condition_summary.csv": {
+      "rows": 3943,
+      "columns": [
+        "pert_id",
+        "drug_name",
+        "cell_id",
+        "pert_type",
+        "dose",
+        "time",
+        "n_signatures",
+        "WTCS_median",
+        "WTCS_mean",
+        "WTCS_sd",
+        "WTCS_mad",
+        "quality_cc_median",
+        "TAS_median",
+        "replicates_median",
+        "rank_within_condition"
+      ],
+      "unique_pert_id": 1032
+    },
+    "seed_provenance.csv": {
+      "rows": 3943,
+      "columns": [
+        "seed_row_number",
+        "pert_id",
+        "condition_record_id",
+        "candidate_id",
+        "source_row_number",
+        "source_file",
+        "source_sha256"
+      ]
+    },
+    "candidate_master.csv": {
+      "rows": 1032,
+      "unique_pert_id": 1032
+    },
+    "field_mapping.csv": {
+      "rows": 20
+    }
+  },
+  "checks": {
+    "condition_rows_equals_3943": true,
+    "candidate_rows_equals_1032": true,
+    "unique_pert_id_equals_1032": true,
+    "condition_record_id_unique": true,
+    "candidate_id_unique": true,
+    "candidate_pert_id_set_matches_condition": true,
+    "cc_median_renamed_value_unchanged": true,
+    "no_condition_merged": true,
+    "rank_within_condition_all_positive_finite": true
+  },
+  "sha256": {
+    "drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+    "seed_provenance.csv": "af58be45ed7f3260008db3505f9c11567d4729f08ca7c3cda9a8cd502ce0a083",
+    "candidate_master.csv": "d425cdb9ee01435474736b1a35bf757faa872a67145a6acac3f6b47b256d154e",
+    "field_mapping.csv": "f529aaa943eb76354aab40e0f870bcf13bd264791169fdf7fa9f80588b0e1cef"
+  }
+}

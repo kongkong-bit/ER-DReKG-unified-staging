@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-22T13:48:06.857153+00:00",
+  "protocol": "v4 discovery (reports/protocol_v4_discovery.md)",
+  "spec_sha256": "ffa4fe9bfcf0d9208e5ca68710c401d05969276ac7d05b2d1e0595a262f8558f",
+  "input_sha256": {
+    "method_signature_scores.csv": "677627cfe8e691b1cfe2d62717a50b6900eef6b2f6c528d79f2e3c2fd3660860",
+    "final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+    "candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "limma_significant_genes_FDR05.csv": "6f7952a1dfb0dad6e5493cc559ca983707fa0abe402cab3e9ce0dca2262814f1",
+    "limma_all_genes.csv": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "pathway_gene_links.csv": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+    "graph_bundle_manifest.json": "c2c9f0f54782af88fabbeb9cd1311d7643a4fa43cdd9aa0f583ba872eb860704",
+    "graph_subgraph_nodes.csv": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee",
+    "graph_subgraph_edges.csv": "10a345da91c9e462c8f561d439162194f306575f6d9ee514fe57c2c1049938f8",
+    "graph_evidence_records.csv": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70",
+    "graph_candidate_mapping_audit.csv": "f7291330df06eead8e53bcc588dedb8e964ed9371f81aec494ae148ba5502525"
+  },
+  "algorithms": [
+    "WTCS",
+    "Classic_KS",
+    "Zhang_signed_rank",
+    "XSum_zscore_adaptation"
+  ],
+  "seed": 20261120,
+  "bootstrap_replicates": 1000,
+  "stability_rung_used": "no_gate",
+  "stability_ladder_counts": {
+    "0.70": 11,
+    "0.60": 15,
+    "0.50": 17,
+    "no_gate": 84
+  },
+  "counts": {
+    "discovery_queue": 1471,
+    "four_algorithm_coverage": 1191,
+    "structural_pool": 652,
+    "dose_gates_passed": 91,
+    "eligible_after_consensus": 84,
+    "ranked_pool": 84,
+    "top20": 20,
+    "with_chain_top20": 5,
+    "mechanism_top10": 10,
+    "core_c": 6
+  },
+  "outputs": {
+    "v4_drug_scores.csv": "94cff4d0fba5e49255dcd3c7a78703e8fa40a96681f0773ba440f4dd06881e3c",
+    "v4_eligible.csv": "f068134a3241c9d44c519f3789f4d53c7c5f48102edd30d6e86f68da2f92208a",
+    "v4_ranked_pool.csv": "4be4d65201ee313815a3715d978cc9824cffdddc98c4f4ef3ffc67a0a3495c1a",
+    "v4_top20.csv": "c4c1bd5c868a96270a3d22101d5c08d316d12ada7e412f0d0006901260abdb8b",
+    "v4_mechanism_top10.csv": "ba57ac7b793509351c2dc9c2117388b915e0ada718b301765906e9183455a0ae",
+    "v4_core_c.csv": "0a427d20e6701d1e317d36352b4cbbd6dcf475205ea656f00d9a39d1d4d063ba",
+    "v4_chains.csv": "90227364329acbbd01cf5e40727a22d2cb4dc23aa674e001ad7da82ea4782794"
+  }
+}

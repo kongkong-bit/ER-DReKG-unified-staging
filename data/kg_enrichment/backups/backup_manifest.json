@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-22T07:38:00Z",
+  "scope": "isolated top10kg-staging-7e70628f Docker volumes only",
+  "neo4j": {
+    "container": "top10kg-staging-7e70628f-neo4j-1",
+    "image": "neo4j:5-community",
+    "server_version": "5.26.33 Community",
+    "archive": "top10kg-staging-neo4j-data-20261122.tar.gz",
+    "bytes": 43979402,
+    "sha256": "ed3e4532b309f6e4d87839748353c964611649cfd537300f540bd1d14a98e2ff",
+    "archive_readability": "PASS"
+  },
+  "postgresql": {
+    "container": "top10kg-staging-7e70628f-postgres-1",
+    "image": "postgres:17",
+    "archive": "top10kg-staging-postgres-data-20261122.tar.gz",
+    "bytes": 44696164,
+    "sha256": "e473ba41d37461e37a621ddbbeb7274226c9d7ef0c05242deee923334feb1e0e",
+    "archive_readability": "PASS"
+  },
+  "procedure": "Both staging services stopped before read-only volume archives were made, then restarted healthy.",
+  "restore_rehearsal": {
+    "status": "PASS",
+    "temporary_neo4j_nodes": 6866,
+    "temporary_neo4j_relationships": 38890,
+    "temporary_postgres_graph_builds": 1,
+    "temporary_postgres_ready": true,
+    "temporary_containers_and_volumes_cleaned": true
+  },
+  "rollback_rehearsal": {
+    "status": "PASS",
+    "target": "backup-restored temporary Neo4j/PostgreSQL pair",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+    "deleted_relationships": 39351,
+    "deleted_evidence_records": 39218,
+    "deleted_disease_contexts": 1,
+    "shared_nodes_deleted": 0,
+    "old_graph_build_relationships_after_rollback": 38890,
+    "old_graph_build_preserved": true,
+    "analysis_run_preserved": true,
+    "temporary_containers_and_volumes_cleaned": true
+  },
+  "staging_import_applied": true,
+  "rollback_drill_performed_on_restored_clone": true,
+  "main_project_database_touched": false,
+  "latest_snapshot": {
+    "created_at_utc": "2026-11-22T08:50:00Z",
+    "status": "PASS",
+    "scope": "isolated task-specific staging volumes immediately before Reactome/PrimeKG GraphBuild import",
+    "neo4j": {
+      "archive": "top10kg-staging-neo4j-pre-external-20261122.tar.gz",
+      "bytes": 63916646,
+      "sha256": "b971caa9bf10dd7a326f0e01ca1c352cd3682ad2e2e212201c7740612ee907a3",
+      "archive_readability": "PASS"
+    },
+    "postgresql": {
+      "archive": "top10kg-staging-postgres-pre-external-20261122.tar.gz",
+      "bytes": 53653000,
+      "sha256": "21c9cddaf74dce81e4eb64d3d2c696c5ab67b475a4649999113ab4b14759bfda",
+      "archive_readability": "PASS"
+    },
+    "services_stopped_during_archive": true,
+    "services_restarted_healthy": true
+  },
+  "latest_restore_rollback_rehearsal": {
+    "status": "PASS",
+    "target": "fresh temporary DB clone restored from the pre-import backup pair",
+    "restored_pre_import_relationships": 78241,
+    "cloned_graphbuild_import": "PASS",
+    "rollback_preview": {
+      "relationships": 91943,
+      "evidence_records": 91810,
+      "disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "rollback_applied": {
+      "deleted_relationships": 91943,
+      "deleted_evidence_records": 91810,
+      "deleted_disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "old_graphbuild_relationships_after_rollback": {
+      "5bb1e749e1caa6e2": 38890,
+      "c48926d9a9983865": 39351
+    },
+    "new_graphbuild_relationships_after_rollback": 0,
+    "analysis_run_preserved": true,
+    "temporary_containers_and_volumes_cleaned": true
+  },
+  "staging_imports": [
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:634be378-67ba-4b0c-b649-d61761b5b4dc",
+      "sources": "SIGNOR + OmniPath",
+      "status": "PASS"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:6ea657f0a3a95099",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:6b5e4d6e-40c4-4cfb-9a72-692dafe2b4e6",
+      "sources": "Reactome current-2026-10 + PrimeKG Dataverse v2",
+      "status": "PASS"
+    }
+  ]
+}

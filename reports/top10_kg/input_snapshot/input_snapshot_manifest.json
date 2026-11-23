@@ -1,0 +1,22 @@
+{
+  "source_bundle_manifest_sha256": "c2c9f0f54782af88fabbeb9cd1311d7643a4fa43cdd9aa0f583ba872eb860704",
+  "source_bundle_checksums_sha256": "7566293aafd138f7145df65452dbe8c3069b55a48d2fd087577f3c483c829bce",
+  "source_input_hashes": {
+    "limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+    "gene_mapping_audit.csv": "2b3b879ea13bd755d9f05d2864370dfc0663b95cf878ba0bebc96d9642c769fd",
+    "pathway_gene_links.csv": "0bdc974e4f03002616ab50885003dc0ed5d0ca430cc89a3f72d6e9d4dc96a103",
+    "go_up.csv": "36e37e0e6bb303ea722112aee7aeb6b44377e8174776953616ea3df76e9331c8",
+    "go_down.csv": "b26c998096d11dd56598b0a22304cff76c595d6792e6a82e1c284f2a12acb63f",
+    "reactome_up.csv": "f604dbb9d9bf5cd691113e39384f8f522574368f4628d517913c7f3791731b8b",
+    "reactome_down.csv": "bb8eb94fba3179bc37de02db3ad4670e27f9c7db758211a188665571df5aa2c2",
+    "hallmark_gsea.csv": "0bfbdfbc620dd4a50bc08ed5774d88c45e911f47df44a10b6f2e73fecc0da6a3",
+    "drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745"
+  },
+  "top10_source_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "derived_top10_conditions_sha256": "f416d6eefb5888b3d3988509daff8c365b0cf609e27a6a949ecd64cd46cf644c",
+  "derived_rows": 51,
+  "expected_top10": 10,
+  "unique_perturbagens": 10,
+  "selection_policy": "all exact-condition rows for frozen Top 10 perturbagens; no dose/time aggregation",
+  "input_authority": "delivered formal GraphBundle and A+ adapted S2 snapshot"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETED_WITH_ERRORS",
+  "phase": "evaluation",
+  "created_at_utc": "2026-11-15T00:23:21.573233+00:00",
+  "n_cases": 20,
+  "n_model_calls_expected": 40,
+  "n_errors": 9,
+  "model": "configured Zhipu model",
+  "api_key_recorded": false,
+  "errors": [
+    {
+      "case": "7",
+      "pert_id": "BRD-K44227013",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 6761 (char 6760)"
+    },
+    {
+      "case": "8",
+      "pert_id": "BRD-K11153516",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 7169 (char 7168)"
+    },
+    {
+      "case": "9",
+      "pert_id": "BRD-A00147595",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 140 column 15 (char 7927)"
+    },
+    {
+      "case": "10",
+      "pert_id": "BRD-K88560311",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 7943 (char 7942)"
+    },
+    {
+      "case": "11",
+      "pert_id": "BRD-K43586850",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 7660 (char 7659)"
+    },
+    {
+      "case": "12",
+      "pert_id": "BRD-K16485616",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 7895 (char 7894)"
+    },
+    {
+      "case": "13",
+      "pert_id": "BRD-K92093830",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 1 column 6790 (char 6789)"
+    },
+    {
+      "case": "14",
+      "pert_id": "BRD-K88510285",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 16 column 3773 (char 6918)"
+    },
+    {
+      "case": "16",
+      "pert_id": "BRD-K64800655",
+      "mode": "kg_llm",
+      "error_type": "JSONDecodeError",
+      "message": "Unterminated string starting at: line 34 column 384 (char 8204)"
+    }
+  ],
+  "output_csv_sha256": "9e33ff301bd8369ad9673fc7863f3705fa45e9d08f4a56c741f027278ec49783"
+}

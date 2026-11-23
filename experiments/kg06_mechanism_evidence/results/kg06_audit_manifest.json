@@ -1,0 +1,885 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-11-14T11:01:58.751870+00:00",
+  "inputs": {
+    "top50_path": "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv",
+    "top50_sha256": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+    "phase_f_matrix_path": "experiments/phase_f_integrated_evidence/candidate_evidence_with_kg.csv",
+    "phase_f_matrix_sha256": "adbf617d6b79a6f1d2f8e0ee3b78677600d6a2695bef0a9d2e5f3236e1322363",
+    "graph_bundle_manifest_sha256": "5d1e0aaa287cc1b2b3f8b72178ea657229bd36168b80c3ca7874c4cc64778257"
+  },
+  "schema": {
+    "audited_at_utc": "2026-11-14T11:01:55.289768+00:00",
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "project_slug": "erpos-gse42568",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+    "graph_bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+    "graph_bundle_manifest_sha256": "5d1e0aaa287cc1b2b3f8b72178ea657229bd36168b80c3ca7874c4cc64778257",
+    "neo4j_database": "neo4j",
+    "labels": [
+      "Candidate",
+      "Disease",
+      "DiseaseContext",
+      "Drug",
+      "Gene",
+      "GeneSet",
+      "Pathway",
+      "S2Condition"
+    ],
+    "relationship_types": [
+      "ABOUT_DISEASE",
+      "CONTAINS_GENE",
+      "HAS_CANDIDATE",
+      "HAS_DEG",
+      "HAS_ENRICHED_GENE",
+      "HAS_ENRICHED_PATHWAY",
+      "HAS_S2_CONDITION",
+      "REFERENCES_DRUG",
+      "TARGETS"
+    ],
+    "constraints": [
+      {
+        "name": "candidate_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Candidate"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "disease_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Disease"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "diseasecontext_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "DiseaseContext"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "drug_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Drug"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "gene_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Gene"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "geneset_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "GeneSet"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "pathway_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Pathway"
+        ],
+        "properties": [
+          "id"
+        ]
+      },
+      {
+        "name": "s2condition_id_unique",
+        "type": "UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "S2Condition"
+        ],
+        "properties": [
+          "id"
+        ]
+      }
+    ],
+    "build_node_profile": [
+      {
+        "labels": [
+          "Candidate"
+        ],
+        "property_sets": [
+          [
+            "inchi_key",
+            "mapping_status",
+            "pert_id",
+            "preferred_id",
+            "label",
+            "condition_count",
+            "score_interpretation",
+            "project_id",
+            "project_slug",
+            "test_only",
+            "condition_scores",
+            "id",
+            "type",
+            "analysis_run_id"
+          ],
+          [
+            "inchi_key",
+            "mapping_status",
+            "preferred_id",
+            "pert_id",
+            "score_interpretation",
+            "label",
+            "condition_count",
+            "project_id",
+            "project_slug",
+            "test_only",
+            "condition_scores",
+            "id",
+            "type",
+            "analysis_run_id"
+          ]
+        ],
+        "node_count": 50
+      },
+      {
+        "labels": [
+          "Disease"
+        ],
+        "property_sets": [
+          [
+            "type",
+            "id",
+            "label",
+            "preferred_id",
+            "test_only",
+            "source",
+            "id_namespace"
+          ]
+        ],
+        "node_count": 1
+      },
+      {
+        "labels": [
+          "Gene"
+        ],
+        "property_sets": [
+          [
+            "type",
+            "preferred_id",
+            "id",
+            "name",
+            "xrefs",
+            "label",
+            "sources",
+            "biotype",
+            "symbol"
+          ],
+          [
+            "name",
+            "sources",
+            "type",
+            "preferred_id",
+            "label",
+            "id",
+            "biotype",
+            "symbol",
+            "xrefs"
+          ],
+          [
+            "sources",
+            "name",
+            "type",
+            "preferred_id",
+            "label",
+            "id",
+            "biotype",
+            "symbol",
+            "xrefs"
+          ],
+          [
+            "name",
+            "preferred_id",
+            "id",
+            "type",
+            "xrefs",
+            "label",
+            "sources",
+            "biotype",
+            "symbol"
+          ],
+          [
+            "preferred_id",
+            "name",
+            "id",
+            "type",
+            "xrefs",
+            "label",
+            "sources",
+            "biotype",
+            "symbol"
+          ],
+          [
+            "type",
+            "preferred_id",
+            "sources",
+            "name",
+            "label",
+            "id",
+            "biotype",
+            "symbol",
+            "xrefs"
+          ],
+          [
+            "preferred_id",
+            "sources",
+            "name",
+            "type",
+            "label",
+            "id",
+            "biotype",
+            "symbol",
+            "xrefs"
+          ],
+          [
+            "name",
+            "id",
+            "label",
+            "symbol",
+            "preferred_id",
+            "biotype",
+            "sources",
+            "type"
+          ],
+          [
+            "preferred_id",
+            "id",
+            "type",
+            "label",
+            "sources",
+            "name",
+            "biotype",
+            "symbol",
+            "xrefs"
+          ],
+          [
+            "name",
+            "type",
+            "preferred_id",
+            "id",
+            "sources",
+            "symbol",
+            "label",
+            "biotype",
+            "xrefs"
+          ],
+          [
+            "id",
+            "preferred_id",
+            "label",
+            "name",
+            "type",
+            "symbol",
+            "xrefs",
+            "sources",
+            "biotype"
+          ],
+          [
+            "name",
+            "id",
+            "preferred_id",
+            "label",
+            "sources",
+            "type",
+            "biotype",
+            "symbol"
+          ],
+          [
+            "ensembl_gene_id",
+            "preferred_id",
+            "id",
+            "type",
+            "source",
+            "label"
+          ],
+          [
+            "preferred_id",
+            "id",
+            "type",
+            "label",
+            "sources",
+            "name",
+            "biotype",
+            "symbol"
+          ],
+          [
+            "type",
+            "preferred_id",
+            "source",
+            "label",
+            "id",
+            "ensembl_gene_id"
+          ],
+          [
+            "preferred_id",
+            "name",
+            "type",
+            "id",
+            "sources",
+            "symbol",
+            "label",
+            "biotype",
+            "xrefs"
+          ],
+          [
+            "id",
+            "label",
+            "preferred_id",
+            "symbol",
+            "type",
+            "biotype",
+            "sources",
+            "name"
+          ],
+          [
+            "type",
+            "preferred_id",
+            "id",
+            "sources",
+            "symbol",
+            "label"
+          ],
+          [
+            "type",
+            "preferred_id",
+            "id",
+            "name",
+            "label",
+            "symbol",
+            "biotype",
+            "xrefs",
+            "sources"
+          ],
+          [
+            "name",
+            "id",
+            "label",
+            "type",
+            "preferred_id",
+            "symbol",
+            "xrefs",
+            "sources",
+            "biotype"
+          ]
+        ],
+        "node_count": 5698
+      },
+      {
+        "labels": [
+          "GeneSet"
+        ],
+        "property_sets": [
+          [
+            "type",
+            "name",
+            "source_release",
+            "source_pathway_id",
+            "preferred_id",
+            "analysis_run_id",
+            "label",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "name",
+            "source_release",
+            "preferred_id",
+            "source_pathway_id",
+            "label",
+            "id",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "type",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "name",
+            "source_release",
+            "source_pathway_id",
+            "label",
+            "gene_universe_entrez",
+            "id",
+            "analysis_run_id",
+            "preferred_id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "name",
+            "source_release",
+            "source_pathway_id",
+            "label",
+            "preferred_id",
+            "id",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "type",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "source_pathway_id",
+            "name",
+            "analysis_run_id",
+            "label",
+            "preferred_id",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ]
+        ],
+        "node_count": 29
+      },
+      {
+        "labels": [
+          "Pathway"
+        ],
+        "property_sets": [
+          [
+            "name",
+            "source_release",
+            "preferred_id",
+            "source_pathway_id",
+            "type",
+            "label",
+            "gene_universe_entrez",
+            "id",
+            "analysis_run_id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "name",
+            "source_release",
+            "source_pathway_id",
+            "type",
+            "label",
+            "preferred_id",
+            "gene_universe_entrez",
+            "id",
+            "analysis_run_id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "source_pathway_id",
+            "preferred_id",
+            "analysis_run_id",
+            "label",
+            "sources",
+            "name",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "preferred_id",
+            "label",
+            "source_pathway_id",
+            "name",
+            "gene_universe_entrez",
+            "id",
+            "analysis_run_id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "name",
+            "source_release",
+            "preferred_id",
+            "source_pathway_id",
+            "sources",
+            "analysis_run_id",
+            "label",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "name",
+            "type",
+            "preferred_id",
+            "sources",
+            "source_release",
+            "analysis_run_id",
+            "label",
+            "source_pathway_id",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "preferred_id",
+            "name",
+            "sources",
+            "source_release",
+            "label",
+            "analysis_run_id",
+            "source_pathway_id",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "preferred_id",
+            "sources",
+            "name",
+            "source_pathway_id",
+            "id",
+            "label",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "species",
+            "collections",
+            "graph_build_id",
+            "source"
+          ],
+          [
+            "name",
+            "type",
+            "source_release",
+            "preferred_id",
+            "label",
+            "source_pathway_id",
+            "gene_universe_entrez",
+            "id",
+            "analysis_run_id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "source_release",
+            "source_pathway_id",
+            "preferred_id",
+            "sources",
+            "name",
+            "type",
+            "id",
+            "label",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "species",
+            "collections",
+            "graph_build_id",
+            "source"
+          ],
+          [
+            "type",
+            "name",
+            "source_release",
+            "source_pathway_id",
+            "sources",
+            "preferred_id",
+            "analysis_run_id",
+            "label",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "name",
+            "source_release",
+            "preferred_id",
+            "label",
+            "analysis_run_id",
+            "source_pathway_id",
+            "sources",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "preferred_id",
+            "source_pathway_id",
+            "name",
+            "analysis_run_id",
+            "label",
+            "sources",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "name",
+            "type",
+            "source_release",
+            "source_pathway_id",
+            "preferred_id",
+            "analysis_run_id",
+            "label",
+            "sources",
+            "gene_universe_entrez",
+            "id",
+            "collections",
+            "graph_build_id",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "source"
+          ],
+          [
+            "source_release",
+            "source_pathway_id",
+            "type",
+            "name",
+            "label",
+            "preferred_id",
+            "id",
+            "sources",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "species",
+            "collections",
+            "graph_build_id",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "source_pathway_id",
+            "preferred_id",
+            "name",
+            "label",
+            "id",
+            "sources",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "species",
+            "collections",
+            "graph_build_id",
+            "source"
+          ],
+          [
+            "type",
+            "source_release",
+            "source_pathway_id",
+            "name",
+            "label",
+            "preferred_id",
+            "id",
+            "sources",
+            "analysis_assertions",
+            "mapped_gene_count",
+            "gene_universe_entrez",
+            "analysis_run_id",
+            "species",
+            "collections",
+            "graph_build_id",
+            "source"
+          ]
+        ],
+        "node_count": 709
+      }
+    ],
+    "build_relationship_profile": [
+      {
+        "relationship_type": "ABOUT_DISEASE",
+        "relationship_count": 1,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "CONTAINS_GENE",
+        "relationship_count": 1458,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "HAS_CANDIDATE",
+        "relationship_count": 50,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "HAS_DEG",
+        "relationship_count": 5698,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "HAS_ENRICHED_GENE",
+        "relationship_count": 30350,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "HAS_ENRICHED_PATHWAY",
+        "relationship_count": 738,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "HAS_S2_CONDITION",
+        "relationship_count": 240,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "REFERENCES_DRUG",
+        "relationship_count": 30,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      },
+      {
+        "relationship_type": "TARGETS",
+        "relationship_count": 433,
+        "missing_evidence_ids": 0,
+        "missing_source_release": 0,
+        "missing_source_assertion": 0
+      }
+    ],
+    "postgres_evidence_record_count": 38998,
+    "neo4j_build_evidence_id_count": 38998,
+    "neo4j_evidence_ids_missing_in_postgres": 0,
+    "protein_target_label_present": false,
+    "evidence_record_node_label_present": false,
+    "storage_note": "EvidenceRecord is persisted in PostgreSQL and also copied to Neo4j relationship properties; no EvidenceRecord node label is present."
+  },
+  "coverage": {
+    "top50_count": 50,
+    "candidate_nodes_present": 50,
+    "exact_compound_mappings": 30,
+    "candidates_with_direct_targets": 28,
+    "candidates_with_public_pathway_routes": 13,
+    "candidates_with_s1_enrichment_overlap": 24,
+    "candidates_with_s1_deg_overlap": 24,
+    "direct_target_path_rows": 433,
+    "public_pathway_path_rows": 95,
+    "s1_enrichment_overlap_path_rows": 1494,
+    "s1_deg_overlap_path_rows": 89,
+    "all_neo4j_build_evidence_ids_found_in_postgres": true,
+    "paths_with_any_asserted_conflict": 0,
+    "all_relation_rows_have_evidence_ids": true,
+    "all_relation_rows_have_source_release": true,
+    "all_relation_rows_have_source_assertion": true
+  },
+  "outputs": {
+    "top50_mechanism_coverage.csv": "b1e47fd768adc5a1f8f590a18442d39e436397e0cac956bf797bc6bf43e5b399",
+    "kg06_mechanism_paths.jsonl": "097247b45cdefb0cf2f098308b6aaff5301e71b56b3e98769a134392f8f19029",
+    "neo4j_schema_audit.json": "937e22c355af898cfe8b6e897a85c6a9a4155b28a624b3b2844d3aaf66f8fa24"
+  }
+}

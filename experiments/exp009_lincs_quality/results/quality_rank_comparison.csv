@@ -1,0 +1,4 @@
+comparison,common_conditions,spearman,top10_overlap
+CC>=0.2 vs CC>=0.1,4748,0.993037316830775,10
+CC>=0.2 vs CC>=0.3,2743,0.989346137435684,10
+CC>=0.2 vs CC>=0.2 and TAS>=0.2,3019,0.9925194779654866,10

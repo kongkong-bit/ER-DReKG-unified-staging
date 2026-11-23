@@ -1,0 +1,27 @@
+{
+  "source_directory": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9",
+  "files": {
+    "subgraph_nodes.csv": {
+      "sha256": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee",
+      "bytes": 13586530
+    },
+    "subgraph_edges.csv": {
+      "sha256": "10a345da91c9e462c8f561d439162194f306575f6d9ee514fe57c2c1049938f8",
+      "bytes": 31016279
+    },
+    "evidence_records.csv": {
+      "sha256": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70",
+      "bytes": 37024206
+    },
+    "candidate_mapping_audit.csv": {
+      "sha256": "f7291330df06eead8e53bcc588dedb8e964ed9371f81aec494ae148ba5502525",
+      "bytes": 104063
+    }
+  },
+  "drug_nodes_with_inchikey": 666,
+  "drg_gen_edges": 4841,
+  "s1_deg_genes": 7066,
+  "s1_pathway_genes": 3544,
+  "prism_anti_erplus_margin": 0.1,
+  "item_5_status": "NOT_AVAILABLE_IN_WORKSPACE"
+}

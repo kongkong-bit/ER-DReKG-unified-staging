@@ -1,0 +1,444 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K82941592",
+    "drug_name": "rosuvastatin",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1496",
+    "rank": "25"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 15,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 17,
+    "verified_evidence_count": 17,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "rosuvastatin (BRD-K82941592, CHEMBL1496, exact InChIKey匹配) 在 S2 LINCS 分析中的候选排名为 25，WTCS 得分为 -0.4062053158739659，基于 4 个条件。",
+        "relation": "association",
+        "evidence_ids": [
+          "c9fae3c33a590078abb353da47aaea1085689e59c7a79e004ce4ae746a3c960a",
+          "bae954a83ace2b49f521b6d373699c5a871543f3494d9567eb108e56a5d74563"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 0.37 µM / 24 h 处理条件下 WTCS_median 为 -0.29315311614388534，rank_within_condition 为 672.0，n_signatures=1（来源仅给出分数，未断言方向性含义）。",
+        "relation": "association",
+        "evidence_ids": [
+          "4e8a385541f287b5f6f09c7a08f7775b9cb76b9004e4a0407b0a0667ef40caed"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 10.0 µM / 24 h 处理条件下 WTCS_median 为 -0.4062053158739659，rank_within_condition 为 114.0，n_signatures=1（分数本身不构成疗效证据）。",
+        "relation": "association",
+        "evidence_ids": [
+          "814781daa9ae285a247a6cf81c4a0c465628df0cfb3eb6788b21e4fbd16d309b"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 3.33 µM / 24 h 处理条件下 WTCS_median 为 -0.31293438398408335，rank_within_condition 为 549.0，n_signatures=1。",
+        "relation": "association",
+        "evidence_ids": [
+          "b620c7d4410c21ba6e6b31d5623e8ae4a11f8e4b71dd8cd8b638eeaf2100f09d"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 0.12 µM / 24 h 处理条件下 WTCS_median 为 0.0，rank_within_condition 为 1970.5，n_signatures=1。",
+        "relation": "association",
+        "evidence_ids": [
+          "c38e975efdc6f30b36eb11aad5dcf68398f317ed0df1a62cd15fdd2368b7741e"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "来源（DrugBank 经 OptimusKG 3.2，Open Targets 的 INHIBITOR 断言及 DailyMed 的 HMG-CoA reductase inhibitor 机制描述）报告 rosuvastatin 为 ENSG00000113161（HMGCR）的抑制剂/靶点。",
+        "relation": "inhibition",
+        "evidence_ids": [
+          "ed4a88b695f337c631076886a9d1dabf1edd5ae8316f9d8d25083d9f68bd0203"
+        ],
+        "path_ids": [
+          "87005007cb44a423861d573ab158b6863d1654b4a97a203c3dfeb10d12396314"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 rosuvastatin 的靶点关系：ENSG00000005844（TARGET）。",
+        "relation": "association",
+        "evidence_ids": [
+          "73abc64ac85e79ed559bf0f6e4dd00e48f1a35d41ee15334e270cd790811644d"
+        ],
+        "path_ids": [
+          "4336cea176fe6435db6a7fcbbbc5e585c971b617fde1871553736ceeca239b44"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "来源（DrugBank 经 OptimusKG 3.2）报告 rosuvastatin 的 ENZYME 关系：ENSG00000138109。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "751480d3858ccb301c2955f38750445121c2b0744fea550efe92ef8f157d5c89"
+        ],
+        "path_ids": [
+          "fb23ffdc673d93149dd38d724470a31dbf6ff5496b0aa1b875b42c6f0041795a"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000125257。",
+        "relation": "association",
+        "evidence_ids": [
+          "680acc3d21e5601284447d3ece9f5bc6877ed78372f23f728a4fc2ec16672735"
+        ],
+        "path_ids": [
+          "24458b6fb73c17c546fc79683ec1a8de209617bbd2bf035eefa94aba38b8bafc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000073734。",
+        "relation": "association",
+        "evidence_ids": [
+          "2c32ba92d9d09b6660b98bcacaaf53819d3f76ce15f068c34c40ddf4eb63db3b"
+        ],
+        "path_ids": [
+          "2ee0683e2525cfc3b80367816326fb2d60fa9ef73b1fbcd96287c47ded1d65e2"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000084453。",
+        "relation": "association",
+        "evidence_ids": [
+          "4bc57c7434fb0953e66fee4f65fc11895441ffcdd466108011594ee6f9865429"
+        ],
+        "path_ids": [
+          "5b7b99f78ba11a749b137e4ed3224fbe0362fba6bd7547305b3cfc4d7101c1e2"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000151012。",
+        "relation": "association",
+        "evidence_ids": [
+          "daf5deea9355cf28ac8425a8cc2a3336377a44405e0ea552bd69be40b841e826"
+        ],
+        "path_ids": [
+          "988c09bd7d9258f5fbe19d2c70ddd983e9f4ce4e6314f035f8cb9526dc3b4808"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000137491。",
+        "relation": "association",
+        "evidence_ids": [
+          "def8e9a8ea6bc3a8bb2fb490bdab36cb5bb5e239556cc4fab83254ff27e894f0"
+        ],
+        "path_ids": [
+          "98d23537f30e900770ce02263af480fe4006de55ee7c17b257ffb1e54b132961"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000134538。",
+        "relation": "association",
+        "evidence_ids": [
+          "1b3b021f6ebd856fe37395fe8421d19baa59a461be98d12c29b40a5299aeb2b8"
+        ],
+        "path_ids": [
+          "bff9a26f958a5675ce19b55d1c7bcf47dceeeeecf22f34a9d2cfb51dde718bb8"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000023839。",
+        "relation": "association",
+        "evidence_ids": [
+          "fb741c21c52fdc27650213bbe8663c712422aae9d1cc8df898270e1d8388909d"
+        ],
+        "path_ids": [
+          "c1eafeeb3070b5360276ed27c8bd3f8d4f20d3c2a050ef0b55b48d3381b90d47"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000118777。",
+        "relation": "association",
+        "evidence_ids": [
+          "5aa7d5ff92a691aeece43446468ba5adb8df4474c7826f50eb16b335b7034f3c"
+        ],
+        "path_ids": [
+          "ceea9f0d3fcf9ef6cc9b4667bdb9d40dbbfa5a218330ba9bbef58062b99738bc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000111700。",
+        "relation": "association",
+        "evidence_ids": [
+          "9e2e31b6b2a491f670f2877202a72d9b27b220fabff433dfa4077f964d622703"
+        ],
+        "path_ids": [
+          "dd94ededf5916aabef3abf57b8e0757bd049383a3325aa73dd8c25a1b567a6da"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000149452。",
+        "relation": "association",
+        "evidence_ids": [
+          "cce385dbde2cda5c677440355a0a4bffac455fcaf11c6dede666f442fb8adce0"
+        ],
+        "path_ids": [
+          "e6e9400e2626f9b06557909d16b520e6c10c9b73f5ea5f79361be579091969a6"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 TRANSPORTER 关系：ENSG00000100652。",
+        "relation": "association",
+        "evidence_ids": [
+          "5cd7a7211dd3f59c2a1e7f2d92feba259174f4168d446e3a2f30b12ebeee3bf5"
+        ],
+        "path_ids": [
+          "f77e11dd758fdf13ed92eeffb4fbe48f6f56cb65448f1ee9c27e7af446cbc3e8"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：来源（DrugBank 经 OptimusKG 3.2）报告 CARRIER 关系：ENSG00000163631。",
+        "relation": "association",
+        "evidence_ids": [
+          "ca31fc5fa58dd2d0297eaaedb9cbcb64754ab38c7655c5666cc898fd210dbed0"
+        ],
+        "path_ids": [
+          "fb23ffdc673d93149dd38d724470a31dbf6ff5496b0aa1b875b42c6f0041795a"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30"
+      }
+    ],
+    "limitations": [
+      "WTCS 逆转分数、条件排名等数据关联结果不构成临床疗效证据。",
+      "全部 S2 条件均仅限 MCF7 细胞系、24 h 处理，条件间 WTCS_mad 均为 0 且 n_signatures=1，稳健性有限。",
+      "除 ENSG00000113161（HMGCR，INHIBITOR）外，其余靶点断言为 TRANSPORTER/TARGET/ENZYME/CARRIER 等通用关系，来源未给出抑制或激活方向，action_interpretation 均为 source_reported_relation_only。",
+      "部分上游断言无 source URL，仅保留 source_record_id 与 source_release。"
+    ],
+    "uncited_or_uncertain": [
+      "部分 TRANSPORTER/TARGET/ENZYME 断言的 source_urls 为 null，仅可通过 evidence_id 与 source_record_id 核验。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 3,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 4,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 5,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 6,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 7,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 8,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 9,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 10,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 11,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 12,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 13,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 14,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 4,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 35.883,
+  "usage": {
+    "completion_tokens": 3058,
+    "completion_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "prompt_tokens": 37999,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 41057
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

@@ -1,0 +1,21 @@
+{
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "project_slug": "software-test-graph-isolation",
+  "project_name": "软件测试项目：跨项目图谱隔离（无科研数据）",
+  "disease_id": "",
+  "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:abcd527b-66c5-4b16-b5a9-4d9526f260ce",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:253cae29-a63b-4648-a06c-8fd3e3f7dcdb",
+  "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:86438aee-0fb6-4980-9eb2-7c96dbf5eb0a",
+  "enrichment_analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:148b37ae-1c40-471d-900c-a26b4bf76e80",
+  "test_only": true,
+  "s1_fdr_threshold": 0.05,
+  "s1_source_release": "9b13a23a-d1b4-46a0-aec6-fc82e2c69ce2",
+  "s1_table": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s1\\253cae29-a63b-4648-a06c-8fd3e3f7dcdb\\limma_all_genes.csv",
+  "s1_mapping_audit": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s1_enrichment\\148b37ae-1c40-471d-900c-a26b4bf76e80\\gene_mapping_audit.csv",
+  "s2_conditions": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s2\\86438aee-0fb6-4980-9eb2-7c96dbf5eb0a\\drug_condition_summary.csv",
+  "pert_info_path": "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz",
+  "enrichment_dir": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s1_enrichment\\148b37ae-1c40-471d-900c-a26b4bf76e80",
+  "public_kg_dir": "D:\\CLASS\\syh\\data\\optimuskg\\3.2",
+  "output_dir": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\graph_bundle\\runs\\abcd527b-66c5-4b16-b5a9-4d9526f260ce",
+  "config_path": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\graph_bundle\\runs\\abcd527b-66c5-4b16-b5a9-4d9526f260ce\\build_config.json"
+}

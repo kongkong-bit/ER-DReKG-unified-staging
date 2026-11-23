@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:30.232504+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/P00519/pathways?species=Homo%20sapiens",
+    "response_sha256": "54f28708fdeb06a1f75b78e0cc6090ffe4d7f167346b8eb792999639c3fcabf2",
+    "response_bytes": 5619
+  },
+  "payload": [
+    {
+      "dbId": 2029482,
+      "displayName": "Regulation of actin dynamics for phagocytic cup formation",
+      "stId": "R-HSA-2029482",
+      "stIdVersion": "R-HSA-2029482.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of actin dynamics for phagocytic cup formation"
+      ],
+      "releaseDate": "2013-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2017-06-22",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 428890,
+      "displayName": "Role of ABL in ROBO-SLIT signaling",
+      "stId": "R-HSA-428890",
+      "stIdVersion": "R-HSA-428890.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Role of ABL in ROBO-SLIT signaling"
+      ],
+      "releaseDate": "2009-09-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2017-09-27",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 525793,
+      "displayName": "Myogenesis",
+      "stId": "R-HSA-525793",
+      "stIdVersion": "R-HSA-525793.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Myogenesis"
+      ],
+      "releaseDate": "2010-03-16",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/REACT_21303.2",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 5663213,
+      "displayName": "RHO GTPases Activate WASPs and WAVEs",
+      "stId": "R-HSA-5663213",
+      "stIdVersion": "R-HSA-5663213.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RHO GTPases Activate WASPs and WAVEs"
+      ],
+      "releaseDate": "2015-03-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2017-04-20",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 5685938,
+      "displayName": "HDR through Single Strand Annealing (SSA)",
+      "stId": "R-HSA-5685938",
+      "stIdVersion": "R-HSA-5685938.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "HDR through Single Strand Annealing (SSA)"
+      ],
+      "releaseDate": "2015-09-22",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 5693565,
+      "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+      "stId": "R-HSA-5693565",
+      "stIdVersion": "R-HSA-5693565.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+      ],
+      "releaseDate": "2015-09-22",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-5693565.7",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2023-03-29",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 69231,
+      "displayName": "Cyclin D associated events in G1",
+      "stId": "R-HSA-69231",
+      "stIdVersion": "R-HSA-69231.11",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Cyclin D associated events in G1"
+      ],
+      "releaseDate": "2004-07-06",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-69231.8",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-12-08",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8939236,
+      "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+      "stId": "R-HSA-8939236",
+      "stIdVersion": "R-HSA-8939236.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+      ],
+      "releaseDate": "2017-06-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8940973,
+      "displayName": "RUNX2 regulates osteoblast differentiation",
+      "stId": "R-HSA-8940973",
+      "stIdVersion": "R-HSA-8940973.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX2 regulates osteoblast differentiation"
+      ],
+      "releaseDate": "2017-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9664422,
+      "displayName": "FCGR3A-mediated phagocytosis",
+      "stId": "R-HSA-9664422",
+      "stIdVersion": "R-HSA-9664422.2",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "FCGR3A-mediated phagocytosis"
+      ],
+      "releaseDate": "2020-03-17",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 983231,
+      "displayName": "Factors involved in megakaryocyte development and platelet production",
+      "stId": "R-HSA-983231",
+      "stIdVersion": "R-HSA-983231.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Factors involved in megakaryocyte development and platelet production"
+      ],
+      "releaseDate": "2010-12-14",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2018-06-13",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9841922,
+      "displayName": "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis",
+      "stId": "R-HSA-9841922",
+      "stIdVersion": "R-HSA-9841922.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis"
+      ],
+      "releaseDate": "2024-09-11",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9860927,
+      "displayName": "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells",
+      "stId": "R-HSA-9860927",
+      "stIdVersion": "R-HSA-9860927.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells"
+      ],
+      "releaseDate": "2024-09-11",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9860927.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

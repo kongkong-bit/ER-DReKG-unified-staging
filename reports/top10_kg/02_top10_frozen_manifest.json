@@ -1,0 +1,199 @@
+{
+  "manifest_version": 1,
+  "status": "frozen_from_existing_formal_result",
+  "source_file": "experiments/final_results/results/final_top10.csv",
+  "source_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "source_manifest": "experiments/final_results/results/final_results_manifest.json",
+  "analysis_version": "final_results_manifest status PASS; created 2026-11-15T03:03:12.434674+00:00",
+  "selection_scope": "正式 ER+ Top 10；本专项不得按机制覆盖替换或重排",
+  "items": [
+    {
+      "rank": 1,
+      "pert_id": "BRD-K44227013",
+      "pert_iname": "ponatinib",
+      "sig_id": "LJP009_MCF7_24H:E19",
+      "wtcs": -0.5166541987270137,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.63,
+        "TAS_median": 0.54376,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 2,
+      "pert_id": "BRD-K16485616",
+      "pert_iname": "mocetinostat",
+      "sig_id": "LJP008_MCF7_24H:I07",
+      "wtcs": -0.5059000597374851,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.74,
+        "TAS_median": 0.600766,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 3,
+      "pert_id": "BRD-K56405753",
+      "pert_iname": "MK-2461",
+      "sig_id": "REP.A015_MCF7_24H:D19",
+      "wtcs": -0.48409208472176235,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.6,
+        "TAS_median": 0.530655,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 4,
+      "pert_id": "BRD-K92093830",
+      "pert_iname": "doxorubicin",
+      "sig_id": "REP.A026_MCF7_24H:L19",
+      "wtcs": -0.46716938932002616,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.58,
+        "TAS_median": 0.616557,
+        "replicates_median": 2
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 5,
+      "pert_id": "BRD-K76694128",
+      "pert_iname": "rebastinib",
+      "sig_id": "LJP007_MCF7_24H:I19",
+      "wtcs": -0.4578457223071144,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.77,
+        "TAS_median": 0.73008,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 6,
+      "pert_id": "BRD-K50000283",
+      "pert_iname": "PHA-767491",
+      "sig_id": "LJP007_MCF7_24H:J01",
+      "wtcs": -0.45641915537856553,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.69,
+        "TAS_median": 0.639689,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 7,
+      "pert_id": "BRD-K11153516",
+      "pert_iname": "iniparib",
+      "sig_id": "REP.A005_MCF7_24H:P01",
+      "wtcs": -0.4552728740394625,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.42,
+        "TAS_median": 0.529961,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 8,
+      "pert_id": "BRD-A00147595",
+      "pert_iname": "balaglitazone",
+      "sig_id": "REP.A012_MCF7_24H:B07",
+      "wtcs": -0.45273824135333623,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.28,
+        "TAS_median": 0.219313,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 9,
+      "pert_id": "BRD-K13094524",
+      "pert_iname": "PFI-1",
+      "sig_id": "LJP008_MCF7_24H:G01",
+      "wtcs": -0.45137618549292147,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.6,
+        "TAS_median": 0.453345,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    },
+    {
+      "rank": 10,
+      "pert_id": "BRD-K83837640",
+      "pert_iname": "JNJ-26481585",
+      "sig_id": "REP.A021_MCF7_24H:J07",
+      "wtcs": -0.4466023835944845,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.83,
+        "TAS_median": 0.773507,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest"
+    }
+  ],
+  "notes": [
+    "The source result does not preserve a per-row sig_id; null is intentional and is not inferred.",
+    "The hash identifies the exact source bytes used for this freeze.",
+    "This manifest freezes current scope; it does not assert that all scientific audits are complete."
+  ],
+  "sig_id_resolution": {
+    "source_file": "experiments/final_results/results/final_signature_scores.csv",
+    "match_key": [
+      "pert_id",
+      "cell_id",
+      "pert_type",
+      "dose",
+      "time"
+    ],
+    "match_count_per_candidate": 1,
+    "wtcs_match_tolerance": 1e-12,
+    "status": "verified"
+  }
+}

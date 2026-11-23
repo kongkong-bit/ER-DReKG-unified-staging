@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "38c7207fbfcc6cd9c5494da387ef16c2ae1f7a60113b7c7620942901ce99d0bf",
+  "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f",
+  "latency_seconds": 14.338965799999642,
+  "usage": {
+    "completion_tokens": 928,
+    "completion_tokens_details": {
+      "reasoning_tokens": 347
+    },
+    "prompt_tokens": 2922,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3850
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "coverage/s2_candidate 证实 rank 42、WTCS -0.389531198441624、condition_count 6；CHEMBL1801204 与 mapping_status matched_exact_inchikey 一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 字段完全匹配：MCF7、10.0 um、24 h、wtcs_median_B -0.389531198441624、rank_B 42、source_dataset GSE70138、n_signatures 1、negative_dose_fraction 1.0、dose_stability multi_dose_negative。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "S1/B200/Q2 中位排名（615.5/862.0/565.5）在快照中无任何数据；coverage 显示 S1 相关路径计数均为 0，且无对应 evidence_ids。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "PRISM 敏感性数据（4.14、2.14、2.61、排名 19/29 等）在包内完全不存在，无证据ID或来源记录。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "accurate": false,
+        "reason": "『无经过整理的靶点断言』与包内数据矛盾：存在 1 条 direct_target 路径（TARGETS，reported_actions INHIBITOR，evidence_complete true）；『无公共通路/S1重叠』部分属实。复合表述整体不准确。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "exp006 确为 n_signatures 1、stability_grade low、qc_sensitivity_range 0.0，且 evidence_limitations 注明 single signature，表述与包内一致。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "包内未提供 WTCS 与细胞活力终点之间的关系数据（PRISM 数据甚至不在快照中），『不能据此推断药效或机制』的保留意见与覆盖情况相符。"
+      }
+    ],
+    "limitations": [
+      "claim 3 与 claim 4 引用的 S1/PRISM 数据在证据快照中不存在，属无依据陈述",
+      "uncertainty claim 5 与包内 direct_target 路径（MTOR/ENSG00000198793，INHIBITOR）矛盾",
+      "输入未提供 citation_reference_pairs，无法逐引用核对",
+      "部分上游 source 记录缺少 source URL（包内 evidence_gaps 已注明）"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:52:07.029957+00:00"
+}

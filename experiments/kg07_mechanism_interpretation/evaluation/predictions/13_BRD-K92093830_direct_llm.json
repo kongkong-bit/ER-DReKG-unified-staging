@@ -1,0 +1,193 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K92093830",
+    "drug_name": "doxorubicin",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL53463",
+    "rank": "3"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 31,
+    "public_pathway_path_count": 1,
+    "s1_enrichment_overlap_path_count": 105,
+    "s1_deg_overlap_path_count": 9,
+    "unique_evidence_count": 236,
+    "verified_evidence_count": 236,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "00728e394e18d13b81b29040ccc00b4c77c55050a8976b24a54d62fa21de1e60",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "Doxorubicin (BRD-K92093830) 在 WTCS 筛选中排名 3（score -0.4671693893200386，6 个条件，来源 S2ConditionResult）",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "Exp006：MCF7 细胞、10.0 µM、24 h，WTCS median_B -0.4671693893200386（rank_B 3）、median_A -0.4538192893695284（rank_A 5）；负剂量比例 0.833，multi_dose_negative，但 stability_grade 为 low、单一 signature；数据集 GSE70138",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "外部 S1 中位排名 498.0（B200：530.5，6 个条件）；Q2 条件中位排名 659.5（6 个条件）——外部转录组复现中排名明显靠后",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 细胞活力敏感性（-log2 fold change）：ER 阳性 9 系平均 3.11 / 中位 2.94（rank 6），ER 阴性 13 系平均 4.00；MCF7 4.47（1 个条件，rank 16）；该端点为细胞活力降低，不等同于 S2 表达逆转",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无知识图谱路径、无策展靶点断言、无疾病通路重叠数据，无法提出任何靶点结合/抑制/激活或通路机制假设",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "无独立临床或体外疗效验证；表达逆转分数、PRISM 敏感性排名和图谱路径均不构成临床疗效证据",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "S2 证据基于单一 signature，stability_grade 为 low，qc_sensitivity_range 0.0",
+      "WTCS 为表达逆转分数，仅是筛选观察，不代表临床疗效",
+      "PRISM 端点为细胞活力降低，与 S2 表达逆转是不同端点；两者不一致本身不能否定任一测定",
+      "外部 S1/Q2 复现排名（498/530.5/659.5）显著差于主筛选排名 3",
+      "MCF7 PRISM 敏感性仅基于 1 个条件"
+    ],
+    "uncited_or_uncertain": [
+      "输入数据的摘要字段（如 ranking、mapping_status）未附可核验证据 ID，不据此作机制断言"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K92093830"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-K92093830"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank",
+        "Q2_condition_median_rank"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "erpos_mean_sensitivity",
+        "mcf7_sensitivity",
+        "sensitivity_rank_erpos",
+        "sensitivity_rank_mcf7"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 8.956,
+  "usage": {
+    "completion_tokens": 730,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 954,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1684
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true,
+  "citation_reference_status": "no_or_invalid_retained_claim_citations"
+}

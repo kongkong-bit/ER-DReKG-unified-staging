@@ -1,0 +1,72 @@
+{
+  "experiment": "Exp008 scoring-method and random-query validation",
+  "created_utc": "2026-11-12T07:32:25.781602+00:00",
+  "status": "PARTIAL",
+  "reason": "Random-query empirical p-values completed; NCS/Tau unavailable due missing matched reference queries; Zhang/XSum are COMPZ input adaptations.",
+  "permutation_manifest": {
+    "seed": 8008,
+    "permutation_count": 2000,
+    "signature_count": 4761,
+    "status": "PASS",
+    "gene_background": "all BING GCTX rows in historical Exp007 scoring background",
+    "query_counts": {
+      "A_original": {
+        "up_symbols": 70,
+        "down_symbols": 55
+      },
+      "B200": {
+        "up_symbols": 100,
+        "down_symbols": 100
+      }
+    },
+    "disjoint_within_query": true,
+    "random_query_shared_across_signatures": true,
+    "statistic": "median WTCS within perturbagen × dose × time; one-sided lower tail",
+    "runtime_seconds": 213.58,
+    "input_sha256": {
+      "s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e",
+      "s2_lincs\\data\\GSE70138_Broad_LINCS_gene_info_2017-03-06.txt.gz": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a",
+      "s2_lincs\\s1_original_bing_up.txt": "43494659014732e920b03d65146875d231039fc8fcfa5d26c43b0764debf1da0",
+      "s2_lincs\\s1_original_bing_down.txt": "09b0efda9e1e3d8062fad93716dbbe7c1ac1895d03ca2063f016b2a96a07b8a0",
+      "s2_lincs\\s1_bing_top100_up.txt": "841acdd87fac47e58411891308ea4e5cc19536afbb3e76e50f5b63182b081753",
+      "s2_lincs\\s1_bing_top100_down.txt": "0a441209e9c76bf39594b35195eb101a037e3062d1d14f88f432553e4a3d9b11",
+      "experiments\\exp007_signature_sensitivity\\results\\signature_scores.csv": "711ac7eae3afe506f7bc82294b9d7032d3d10e59714b09225303779b31876e52"
+    }
+  },
+  "method_manifest": {
+    "seed": 42,
+    "signature_ids": 4761,
+    "scheme_list_counts": {
+      "A_original": [
+        70,
+        55
+      ],
+      "B200": [
+        100,
+        100
+      ]
+    },
+    "source_format": "GSE70138 Level 5 COMPZ normalized z-like scores, not raw log fold changes",
+    "WTCS": "Broad weighted KS raw WTCS",
+    "Classic_KS": "unweighted KS pair, zero if same-signed ES, otherwise ES_UP-ES_DOWN",
+    "Zhang": "signed absolute-rank dot product normalized by sum of top ranks; adapted to COMPZ input",
+    "XSum": "signed sum over top 150 absolute COMPZ values; adapted to COMPZ input",
+    "Tau": "NOT_AVAILABLE: no independent disease-query reference set",
+    "NCS": "NOT_CALCULATED: reference distribution must be audited separately"
+  },
+  "tests": {
+    "command": "python -m pytest experiments/exp008_scoring_statistics/tests -q",
+    "status": "PASS; 6 tests"
+  },
+  "outputs_sha256": {
+    "results/empirical_pvalues.csv": "7819f9a149adcc7acc1eb1b65e89c558f368484d1282b26fc2958635f085f01c",
+    "results/statistical_significance.csv": "7819f9a149adcc7acc1eb1b65e89c558f368484d1282b26fc2958635f085f01c",
+    "results/permutation_null_summary.csv": "a54cada35f6d42f11e4331299970d0eb599e064278843e4f47a5fc7717ba6713",
+    "results/candidate_null_distribution_top10.csv": "194d08a3d8cc98f46a4e0bd32f225dbc8f84d2eb11c3d10f8b0fea92d5f4f7b9",
+    "results/scoring_algorithm_audit.csv": "201a15328d6a2b909c3ed1b026e3cff1c54fe3a444df2193fe8b9b823fcd1988",
+    "results/algorithm_topk_overlap.csv": "bea3d060b40b115b1bf0a992d3c8c2f98f606df7a0d2b4f9c43154b6c90c51d5",
+    "reports/exp008_report.md": "6ad46bc3b87a5d19603c211de8aac188a3ad6a84b12129feccf94247ff073194",
+    "figures/wtcs_random_null_top_condition.png": "8bed3a5771dd8499255579ff475295ee10defc66872ad59250495098abc2e98b",
+    "figures/permutation_fdr_distribution.png": "eca9993f4d5da32cf11d770fa479be6b1d9f46e01e730b1f3b8183e5ccd59eff"
+  }
+}

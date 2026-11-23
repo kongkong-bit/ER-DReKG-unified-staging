@@ -1,0 +1,8 @@
+biocypher:
+  dbms: neo4j
+  offline: true
+  strict_mode: false
+  head_ontology: null
+  log_to_disk: false
+neo4j:
+  wipe: false

@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "a6cac97dbe817d32eeade3feb2088afa715790ef17723d0a37e8638be8b1ac0d",
+  "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438",
+  "latency_seconds": 20.07744129999992,
+  "usage": {
+    "completion_tokens": 1198,
+    "completion_tokens_details": {
+      "reasoning_tokens": 369
+    },
+    "prompt_tokens": 7971,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 9169
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "coverage/exp006 显示 rank=5、WTCS=-0.4527382…、condition_count=3、来源为 S2ConditionResult/GraphBundle 的 S2 AnalysisRun，数值与文本一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "reason": "screening_evidence.exp006 逐项匹配：GSE70138、MCF7、10.0 um、24h、wtcs_median_B=-0.4527(rank_B=5)、wtcs_median_A=-0.4693(rank_A=3)、n_signatures=1、stability_grade=low、single signature。",
+        "direction_error": false,
+        "direction_error_normalized_non_directional": true
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "reason": "S1 中位排名 1187.0、B200 1970.5、Q2_condition_median_rank 2482.0 在来源快照中均未出现，属于无依据的具体数值。",
+        "direction_error": false,
+        "direction_error_normalized_non_directional": true
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "reason": "包内无任何 PRISM 敏感性数据（ER 阳性/阴性统计、MCF7 -0.0180、sensitivity_rank 等），全部数值无来源支持。",
+        "direction_error": false,
+        "direction_error_normalized_non_directional": true
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 3,
+        "accurate": false,
+        "reason": "其中引用的 S1/B200/Q2 排名数值在包内不存在，无法核实'证据不足'的表述基础是否属实。"
+      },
+      {
+        "claim_index": 5,
+        "accurate": false,
+        "reason": "包内明确存在 3 条直接靶点路径及 PARTIAL_AGONIST 行动断言和 82 条 S1 富集通路重叠，'无靶点断言/无通路重叠'与覆盖数据矛盾，不确定性表述不准确。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "与 exp006 的 dose_stability、stability_grade、qc_sensitivity_range、n_signatures=1 完全一致，是准确的证据局限表述。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": false,
+        "reason": "'逆转分数排名不能作为临床疗效证据'这一定性正确，但所列外部排名数值不在包内，整体不确定性声明依赖不可核实的数字。"
+      }
+    ],
+    "limitations": [
+      "快照仅提供 86 条路径中的约 40 条列表，未见 S1/B200/Q2 外部验证数据，无法核实 claim 3/4/7 的具体数值",
+      "部分来源记录缺少 source URL（coverage.evidence_gaps 已注明），仅有 source_record_id 与 source_release",
+      "cited_paths 为空且无 citation_reference_pairs，无需逐引用核对",
+      "S2 筛选基于 MCF7 单一细胞、单一签名，dose_stability 为 mixed_or_limited，条件覆盖有限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:57:47.404014+00:00"
+}

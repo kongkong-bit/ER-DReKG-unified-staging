@@ -1,0 +1,201 @@
+﻿direction,gene_symbol,entrez_id,match_type,reason,LM,BING,AIG,logFC,t,adj.P.Val
+UP,PRKCZ,5590,exact_symbol,exact symbol,False,True,False,2.67534979918963,15.6604211930894,1.28234378534927e-23
+UP,SPINT2,10653,exact_symbol,exact symbol,False,True,False,4.19999085771289,13.6825973781455,1.48209072748529e-20
+UP,DSP,1832,exact_symbol,exact symbol,False,True,False,5.0248203294021,13.5887579929109,2.11163291680412e-20
+UP,ESRP1,54845,exact_symbol,exact symbol,False,True,False,3.91795384788937,13.3892917543324,4.64845446194326e-20
+UP,SOX4,6659,exact_symbol,exact symbol,True,True,False,3.19370022738059,13.3231839685111,5.95853232506902e-20
+UP,PAFAH1B3,5050,exact_symbol,exact symbol,True,True,False,3.99696454352413,12.9820500062691,2.10854853664271e-19
+UP,SDC1,6382,exact_symbol,exact symbol,False,True,False,4.292510053687,12.7593931606184,4.81030888351542e-19
+UP,FAM83H,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.97921205784855,12.7019246027568,5.99920437882125e-19
+UP,UHRF1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.66439436802809,12.4509478840896,1.68772891835054e-18
+UP,HOOK1,51361,exact_symbol,exact symbol,False,True,False,3.01730597249648,12.3742686790854,2.32716647165211e-18
+UP,KRT8,3856,exact_symbol,exact symbol,False,True,False,4.21593578159788,12.3438060659448,2.60380871600674e-18
+UP,OVOL2,58495,exact_symbol,exact symbol,False,True,False,1.95530419003292,12.2599386503413,3.58701123716217e-18
+UP,KRT18,3875,exact_symbol,exact symbol,False,True,False,5.27359019848462,12.209411140956,4.33484254576533e-18
+UP,EPCAM,4072,exact_symbol,exact symbol,False,True,False,5.15232656802896,12.0240034783842,9.11231543505035e-18
+UP,PKM,5315,exact_symbol,exact symbol,False,True,False,1.89319922710052,12.0081628265013,9.714983543856e-18
+UP,DLG3,1741,exact_symbol,exact symbol,False,True,False,1.45281159783406,11.9987588820467,1.00674821533484e-17
+UP,GRHL2,79977,exact_symbol,exact symbol,False,True,False,2.66994812459437,11.9761187375419,1.09336726772338e-17
+UP,ZNF692,55657,exact_symbol,exact symbol,False,True,False,2.43732973951272,11.8954629835795,1.50158613363262e-17
+UP,RAB25,57111,exact_symbol,exact symbol,False,True,False,4.21193944739682,11.8328897431774,1.90731751906464e-17
+UP,LOC100272216,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.47526394869798,11.7939079020566,2.23177382262941e-17
+UP,WDR34,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.32692986271904,11.7489412778214,2.71117736897028e-17
+UP,FLVCR1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.99316685855794,11.6559153961886,3.91654214657346e-17
+UP,PRSS8,5652,exact_symbol,exact symbol,False,True,False,3.92136801612291,11.590136290576,5.09791016391873e-17
+UP,MARVELD2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.06751544494775,11.57061729555,5.50822553807695e-17
+UP,ANKRD10-IT1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.54084279966681,11.3774781461606,1.21312233530781e-16
+UP,INHBA,3624,exact_symbol,exact symbol,False,True,False,3.93671980818963,11.1849623906459,2.63215741303492e-16
+UP,EZH2,2146,exact_symbol,exact symbol,True,True,False,3.61138306294732,11.1797683990332,2.68340346344898e-16
+UP,TMC4,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,4.38892910851359,11.1707325445292,2.7721446326262e-16
+UP,COL11A1,1301,exact_symbol,exact symbol,False,False,True,5.53186101406145,11.1045590652871,3.66052295141625e-16
+UP,SUGP2,10147,exact_symbol,exact symbol,False,True,False,1.78448231448199,10.9651710788584,6.48025334253782e-16
+UP,PDCD6,10016,exact_symbol,exact symbol,False,True,False,2.21734440341351,10.9468283763912,6.9108679198159e-16
+UP,KRT19,3880,exact_symbol,exact symbol,False,True,False,2.98596907425943,10.9382740724993,7.12192069056661e-16
+UP,LOC100190986,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.41604141963783,10.8269409230119,1.10736561774507e-15
+UP,KIAA1522,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.66087998254521,10.7051615486674,1.85361139980936e-15
+UP,STIL,6491,exact_symbol,exact symbol,False,True,False,2.01233127851096,10.7010744892402,1.87959405852875e-15
+UP,CASZ1,54897,exact_symbol,exact symbol,False,True,False,1.77028597160491,10.6856296073259,2.00559893929224e-15
+UP,CGN,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.07209904571202,10.6267334293578,2.57033241441987e-15
+UP,RASEF,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.87421613681211,10.6229244410958,2.60685522205479e-15
+UP,CHTF18,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.5618034720316,10.6085962741656,2.76460194337075e-15
+UP,LSR,51599,exact_symbol,exact symbol,True,True,False,3.01459188810359,10.5249674815679,3.94401775318176e-15
+UP,MARCKSL1,65108,exact_symbol,exact symbol,False,True,False,2.92895074165057,10.3567029590309,8.09009466962783e-15
+UP,CDC20,991,exact_symbol,exact symbol,True,True,False,3.60499428722739,10.3487904856846,8.33831388974868e-15
+UP,EFNA1,1942,exact_symbol,exact symbol,False,True,False,2.64919259067339,10.3434524264561,8.49100003929172e-15
+UP,RCC2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.89249401050394,10.3193146221947,9.32033435383461e-15
+UP,CYTH2,9266,exact_symbol,exact symbol,False,True,False,2.60661901792625,10.2939845268309,1.03738505049317e-14
+UP,CDH1,999,exact_symbol,exact symbol,False,True,False,2.50703177434898,10.2845393050113,1.08004232424577e-14
+UP,CCDC85C,317762,exact_symbol,exact symbol,False,False,True,0.883150383125983,10.2629406417644,1.18198309327056e-14
+UP,STAP2,55620,exact_symbol,exact symbol,True,True,False,2.70356139477084,10.2128060764846,1.45765458557689e-14
+UP,LRRC15,131578,exact_symbol,exact symbol,False,True,False,1.98729883001887,10.2060401029838,1.49931522183443e-14
+UP,GATA3,2625,exact_symbol,exact symbol,True,True,False,4.65046014504213,10.2044652192133,1.50189707359181e-14
+UP,SLC38A1,81539,exact_symbol,exact symbol,False,True,False,3.34484712062554,10.1940232768545,1.56253189743066e-14
+UP,TPD52,7163,exact_symbol,exact symbol,False,True,False,2.96152696383933,10.1508147419474,1.87849251208913e-14
+UP,LRRC1,55227,exact_symbol,exact symbol,False,True,False,1.63989343170281,10.1461936171642,1.90842443277148e-14
+UP,POLR2J4,84820,exact_symbol,exact symbol,False,False,True,1.2919136458863,10.1092076699347,2.21328761268155e-14
+UP,SYNE4,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.76754364429762,10.083403959484,2.47149024208787e-14
+UP,CDS1,1040,exact_symbol,exact symbol,False,True,False,2.19055672413871,10.0681674632731,2.62970068675109e-14
+UP,KIAA0101,9768,exact_symbol,exact symbol,False,True,False,2.69917169675196,10.0531991482806,2.78064589101725e-14
+UP,BSPRY,54836,exact_symbol,exact symbol,False,True,False,2.89291781809218,10.0104051269893,3.3157580430874e-14
+UP,CYB561,1534,exact_symbol,exact symbol,True,True,False,2.10641561438454,9.99722659892534,3.50478804949701e-14
+UP,VGLL4,9686,exact_symbol,exact symbol,True,True,False,1.40463359532967,9.99391598140949,3.54960798516575e-14
+UP,ARF1,375,exact_symbol,exact symbol,False,True,False,1.2494734293266,9.98438342088026,3.69902712270543e-14
+UP,FAM84B,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.4394381587704,9.98312657076513,3.70394722179475e-14
+UP,GINS1,9837,exact_symbol,exact symbol,False,True,False,3.17533274548287,9.95967313975525,4.07266801119629e-14
+UP,SLC20A1,6574,exact_symbol,exact symbol,False,True,False,1.9911301885237,9.92767250783661,4.6490231856622e-14
+UP,KNOP1,400506,exact_symbol,exact symbol,False,True,False,1.69349975267866,9.91343058708265,4.9393442443346e-14
+UP,COL10A1,1300,exact_symbol,exact symbol,False,False,True,3.94421387059086,9.87720246579219,5.77775874144839e-14
+UP,C11ORF80,79703,exact_symbol,exact symbol,False,True,False,2.6387580477489,9.85014907974006,6.4656884514859e-14
+UP,ST14,6768,exact_symbol,exact symbol,False,True,False,2.74217258152502,9.82742653871651,7.1599518391002e-14
+UP,HES1,3280,exact_symbol,exact symbol,True,True,False,2.47128779318348,9.82584265175268,7.19555186852746e-14
+UP,CBX4,8535,exact_symbol,exact symbol,False,True,False,1.36800290809569,9.82255761699318,7.28807025013139e-14
+UP,AP1M2,10053,exact_symbol,exact symbol,False,True,False,3.6361825983323,9.81427822784456,7.53573450304773e-14
+UP,GALNT6,11226,exact_symbol,exact symbol,False,True,False,4.01717557941176,9.7557223734172,9.77149536393402e-14
+UP,TRPS1,7227,exact_symbol,exact symbol,False,True,False,2.93492099493414,9.72283442198386,1.11875489295971e-13
+UP,CTB-31O20.2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.14174686821158,9.69639518400938,1.25767911924639e-13
+UP,LIG1,3978,exact_symbol,exact symbol,True,True,False,1.76219284056892,9.69297979998645,1.27474046983322e-13
+UP,TMEM125,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.17739944670588,9.67812489201054,1.35879144801593e-13
+UP,ZCCHC7,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.00592616078138,9.66681533501153,1.42187408262752e-13
+UP,LLGL2,3993,exact_symbol,exact symbol,False,True,False,1.74819864916286,9.66246660781156,1.44740862703212e-13
+UP,LOC100134445,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.65597771556804,9.65344884473073,1.49882455260653e-13
+UP,CHD4,1108,exact_symbol,exact symbol,False,True,False,1.2181351415575,9.64949911892846,1.52297660144619e-13
+UP,XPO1,7514,exact_symbol,exact symbol,False,True,False,1.5220627761747,9.58079516572202,2.05766234986538e-13
+UP,SVIP,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.19426279788015,9.57959505902809,2.06463386299298e-13
+UP,CLDN4,1364,exact_symbol,exact symbol,False,True,False,1.12791687295522,9.5729324919772,2.1243631952225e-13
+UP,PAQR4,124222,exact_symbol,exact symbol,False,True,False,2.46927316798595,9.52953021452137,2.55048192385092e-13
+UP,RP11-532F12.5,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,3.42968569848551,9.51561558538842,2.70781408893529e-13
+UP,RTKN,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,1.24433233134109,9.49780908293168,2.92688834087885e-13
+UP,CD24,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,4.06669297730245,9.47942283307305,3.1656727148541e-13
+UP,MYO6,4646,exact_symbol,exact symbol,False,True,False,2.51653320574362,9.45809903074902,3.46361919159771e-13
+UP,DNMT1,1786,exact_symbol,exact symbol,True,True,False,1.85406285859526,9.41246715643045,4.17938277899067e-13
+UP,SFN,2810,exact_symbol,exact symbol,True,True,False,3.86785845649517,9.38506212587489,4.70398042254058e-13
+UP,CENPF,1063,exact_symbol,exact symbol,False,True,False,2.14358573263037,9.31952419147887,6.22592014304028e-13
+UP,BGN,633,exact_symbol,exact symbol,False,True,False,2.8994264492625,9.31190013310636,6.41111559199236e-13
+UP,FOXA1,3169,exact_symbol,exact symbol,False,True,False,4.12238553924319,9.23513805065827,9.01030149061368e-13
+UP,MYB,4602,exact_symbol,exact symbol,False,True,False,2.20821923939201,9.22418033501175,9.44107782817853e-13
+UP,LAMA5,3911,exact_symbol,exact symbol,False,True,False,2.11719900328884,9.22047221692608,9.58562296582236e-13
+UP,DTL,51514,exact_symbol,exact symbol,False,True,False,2.29453035275197,9.17105913321647,1.19248539004767e-12
+UP,NAT14,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.41449141149692,9.14682813849378,1.32348870727645e-12
+UP,CDC42SE1,56882,exact_symbol,exact symbol,False,True,False,1.57705860389288,9.14356147055603,1.34107232694109e-12
+UP,ELF3,1999,exact_symbol,exact symbol,False,True,False,2.56454118995083,9.14211375715391,1.34754493352834e-12
+UP,BC041025,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,2.43511600828709,9.13648885276743,1.3778303409676e-12
+DOWN,IGSF10,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.62921063321774,-19.6913277041312,1.02889339489077e-28
+DOWN,MME,4311,exact_symbol,exact symbol,False,True,False,-4.591920074295,-18.2058068365629,1.03778775744696e-26
+DOWN,LOC284825,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-4.16435242428797,-17.8756360734494,2.33294348643933e-26
+DOWN,ACVR1C,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.29073982497805,-17.0742239317017,3.53650507400843e-25
+DOWN,TMEM132C,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.79725413237928,-16.9634946513232,4.03556672918188e-25
+DOWN,PGM5-AS1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.58757085388235,-16.9156013358195,4.03556672918188e-25
+DOWN,ALDH1L1,10840,exact_symbol,exact symbol,False,True,False,-1.77762308290387,-16.8928145657309,4.03556672918188e-25
+DOWN,AQPEP,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-4.14066023224846,-16.6231196718273,9.25685455232971e-25
+DOWN,GPD1,2819,exact_symbol,exact symbol,False,True,False,-3.08649453155049,-16.6112848890824,9.25685455232971e-25
+DOWN,FHL1,2273,exact_symbol,exact symbol,False,True,False,-5.3982605015698,-16.5117896478083,1.22389114394472e-24
+DOWN,ASPA,443,exact_symbol,exact symbol,False,True,False,-2.90847338935953,-16.483221795264,1.24282946609239e-24
+DOWN,GLYAT,10249,exact_symbol,exact symbol,False,True,False,-4.51132240649781,-16.3893257524992,1.514063641282e-24
+DOWN,CCDC178,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.19289441827393,-16.4018040812293,1.514063641282e-24
+DOWN,ACSM5,54988,exact_symbol,exact symbol,False,True,False,-3.98795304624232,-16.2846488682702,2.11343306264196e-24
+DOWN,HSPB2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.65309452188148,-16.2460841384211,2.29296794069779e-24
+DOWN,SLC16A7,9194,exact_symbol,exact symbol,False,True,False,-3.71781153992186,-16.2139743695877,2.43703891902572e-24
+DOWN,MAGI2-AS3,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.73884790528973,-16.1243295140849,3.07713512100889e-24
+DOWN,HSPB7,27129,exact_symbol,exact symbol,False,True,False,-1.92269465030202,-16.1375787958653,3.07713512100889e-24
+DOWN,ACADL,33,exact_symbol,exact symbol,False,True,False,-3.64363632874934,-16.1051493143353,3.14295426899322e-24
+DOWN,SCARA5,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.88556313528885,-16.044918224853,3.78263690107936e-24
+DOWN,MEDAG,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-1.6400406121734,-15.9342836403816,5.56969267924919e-24
+DOWN,CIDEA,1149,exact_symbol,exact symbol,False,True,False,-3.9014542056734,-15.9186745037381,5.65431095671893e-24
+DOWN,PDE3B,5140,exact_symbol,exact symbol,False,True,False,-4.30708114175066,-15.8029936645277,8.54584638878982e-24
+DOWN,RP11-736K20.5,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.60048712692098,-15.7231122543892,1.1243441914808e-23
+DOWN,ADH1C,126,exact_symbol,exact symbol,False,True,False,-4.5780543273187,-15.6762878861723,1.25349494095927e-23
+DOWN,SDPR,8436,exact_symbol,exact symbol,False,True,False,-3.99490911968877,-15.6756236746549,1.25349494095927e-23
+DOWN,STX11,8676,exact_symbol,exact symbol,False,True,False,-2.05721139980641,-15.6017841624613,1.56193926407643e-23
+DOWN,LYVE1,10894,exact_symbol,exact symbol,False,True,False,-3.54352890198815,-15.5174408563567,2.04157676122067e-23
+DOWN,NPR1,4881,exact_symbol,exact symbol,False,True,False,-2.57584063715058,-15.518550180801,2.04157676122067e-23
+DOWN,KLB,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.16182154614092,-15.4451562542894,2.63871031427964e-23
+DOWN,PCDH9,5101,exact_symbol,exact symbol,False,True,False,-3.64257712484021,-15.4151767245252,2.88275378371447e-23
+DOWN,SLC19A3,80704,exact_symbol,exact symbol,False,False,True,-4.86043488941747,-15.3740997532601,3.19954159832102e-23
+DOWN,C3ORF55,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.76450915488323,-15.3795981910915,3.19954159832102e-23
+DOWN,PLA2G4A,5321,exact_symbol,exact symbol,True,True,False,-3.81278176089728,-15.30425980229,4.11589585057551e-23
+DOWN,PLAC9,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.60080063289728,-15.2564945538068,4.85065800862204e-23
+DOWN,PVRL3,25945,exact_symbol,exact symbol,False,True,False,-2.33213835821422,-15.1522951652323,6.99948452347191e-23
+DOWN,TSPAN3,10099,exact_symbol,exact symbol,True,True,False,-2.26712288166198,-15.1538496276708,6.99948452347191e-23
+DOWN,PCK1,5105,exact_symbol,exact symbol,False,True,False,-6.09903678278842,-15.0175048310235,1.17780240142737e-22
+DOWN,PLXNA4,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.46948840760404,-15.0075822832758,1.19559620826864e-22
+DOWN,TYRO3,7301,exact_symbol,exact symbol,False,True,False,-1.59801446689245,-14.9397936998592,1.53678488159843e-22
+DOWN,HABP4,22927,exact_symbol,exact symbol,False,True,False,-1.62281496564882,-14.819322095892,2.4524081035995e-22
+DOWN,MT1M,4499,exact_symbol,exact symbol,False,True,False,-3.30152666205707,-14.7864898734235,2.73957075589558e-22
+DOWN,CLMP,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.59436294484504,-14.7705668043707,2.79407889297229e-22
+DOWN,CA4,762,exact_symbol,exact symbol,False,True,False,-3.22352542025022,-14.7747654360417,2.79407889297229e-22
+DOWN,ARHGAP20,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-1.91541400621993,-14.7000799019276,3.64869640598868e-22
+DOWN,GPATCH11,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.19441465819799,-14.6890582286237,3.7362633048326e-22
+DOWN,C14ORF180,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-4.88025014913521,-14.5718337177898,5.92368049828518e-22
+DOWN,EGFLAM,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.8667964046295,-14.5106104298129,7.46873000264621e-22
+DOWN,FGF14-AS2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.30401181086567,-14.5020003288328,7.58410299792844e-22
+DOWN,MRAP,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.92726318139245,-14.4589482471028,8.88228319676141e-22
+DOWN,AKAP12,9590,exact_symbol,exact symbol,False,True,False,-4.53084266463302,-14.3980042831929,1.11689009416445e-21
+DOWN,CPM,1368,exact_symbol,exact symbol,False,True,False,-3.51709704776602,-14.3942751266686,1.11689009416445e-21
+DOWN,FXYD1,5348,exact_symbol,exact symbol,False,True,False,-3.84417648943371,-14.3695981528797,1.21419172249503e-21
+DOWN,LINC01140,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.46372947897279,-14.343674083667,1.32737114183973e-21
+DOWN,LOC101930114,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.47668220317209,-14.312380739888,1.48441978627544e-21
+DOWN,ANKRD35,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.76627120330905,-14.2582696209079,1.82600631874041e-21
+DOWN,NIPSNAP3B,55335,exact_symbol,exact symbol,False,True,False,-2.95316659939245,-14.2060074165063,2.23047068579217e-21
+DOWN,BHMT2,23743,exact_symbol,exact symbol,False,True,False,-4.08886192848902,-14.1481089741897,2.7911201302823e-21
+DOWN,VGLL3,389136,exact_symbol,exact symbol,False,True,False,-3.51208008947498,-14.1289813507797,2.97264761419863e-21
+DOWN,MMP28,79148,exact_symbol,exact symbol,False,True,False,-2.5440994121712,-14.1002551389585,3.29656201166312e-21
+DOWN,C1QTNF7,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.29394617925768,-14.0735272590912,3.62670113274495e-21
+DOWN,ZEB2,9839,exact_symbol,exact symbol,False,True,False,-2.79565613413521,-14.0562195015214,3.83705374865575e-21
+DOWN,TBX15,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.89638039260667,-14.0062642790379,4.65564144986313e-21
+DOWN,PPARG,5468,exact_symbol,exact symbol,True,True,False,-4.84089870604829,-13.9989340074624,4.71136367105938e-21
+DOWN,ANGPTL1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.8660711050237,-13.9889574388041,4.71136367105938e-21
+DOWN,SLC9A9,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-1.43422745553951,-13.9900845089398,4.71136367105938e-21
+DOWN,DMGDH,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-1.33581491729456,-13.9953248910469,4.71136367105938e-21
+DOWN,FGF2,2247,exact_symbol,exact symbol,False,True,False,-3.12067501484021,-13.9586367308721,5.27259920571916e-21
+DOWN,TUSC5,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.11802736141616,-13.9451575049381,5.4997032649813e-21
+DOWN,NPR3,4883,exact_symbol,exact symbol,False,True,False,-3.87648536482529,-13.9289307605418,5.80446495895436e-21
+DOWN,EMP1,2012,exact_symbol,exact symbol,False,True,False,-3.43072043103249,-13.9234452128851,5.85722671523796e-21
+DOWN,RBPMS-AS1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.12077392147673,-13.8900407562284,6.64746694019476e-21
+DOWN,TRHDE,29953,exact_symbol,exact symbol,False,True,False,-2.76097552704302,-13.8769498689022,6.92868995814106e-21
+DOWN,FLJ36848,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.48022703865233,-13.7616626958886,1.1110412715533e-20
+DOWN,GPIHBP1,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.8001051017928,-13.7071019860157,1.38050918147829e-20
+DOWN,NMB,4828,exact_symbol,exact symbol,False,True,False,-3.74051007451185,-13.7018198275863,1.39334211828225e-20
+DOWN,WASF3,10810,exact_symbol,exact symbol,True,True,False,-3.87407889513872,-13.6811505914318,1.48209072748529e-20
+DOWN,ABCA6,23460,exact_symbol,exact symbol,False,True,False,-3.1422291982748,-13.6418414703241,1.72844210620691e-20
+DOWN,TNMD,64102,exact_symbol,exact symbol,False,True,False,-4.12374629343986,-13.6187822721471,1.88224628840816e-20
+DOWN,TWIST2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.38693522702985,-13.5681973926641,2.27630805651164e-20
+DOWN,CDKN2C,1031,exact_symbol,exact symbol,False,True,False,-3.61319409746006,-13.4771085094771,3.31208901234404e-20
+DOWN,ALDH1A1,216,exact_symbol,exact symbol,False,True,False,-4.41236271687797,-13.4440588360393,3.76748453888077e-20
+DOWN,LRRN3,54674,exact_symbol,exact symbol,False,True,False,-3.85228379534504,-13.4173490382894,4.17238327697704e-20
+DOWN,ACACB,32,exact_symbol,exact symbol,False,True,False,-3.17905778401098,-13.37604077453,4.86286563634425e-20
+DOWN,GPR34,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-4.23415339212029,-13.3709163033289,4.91451136649805e-20
+DOWN,DKFZP779M0652,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.23782300469184,-13.2879078684728,6.85219886002987e-20
+DOWN,ITIH5,80760,exact_symbol,exact symbol,False,True,False,-4.3310677632195,-13.2781727332659,7.06590848798808e-20
+DOWN,KLHL31,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.39644121735733,-13.2693470669279,7.25892211033018e-20
+DOWN,LOC102723493,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.98127870547849,-13.2639499439332,7.34949978384668e-20
+DOWN,ATP1A2,477,exact_symbol,exact symbol,False,True,False,-3.49276243627524,-13.259793415877,7.4026627053312e-20
+DOWN,CCDC69,26112,exact_symbol,exact symbol,False,True,False,-3.93546447423135,-13.25221503916,7.56709024567141e-20
+DOWN,DEFB132,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-5.25801653714135,-13.2006195434833,9.34169744662347e-20
+DOWN,FAM162B,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.70865161356541,-13.1844689452537,9.90943903709936e-20
+DOWN,SLC7A10,56301,exact_symbol,exact symbol,False,True,False,-2.65288241729061,-13.1725400601991,1.03243801645696e-19
+DOWN,TSLP,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-2.59332393961633,-13.1514026823355,1.11917240200685e-19
+DOWN,LIPE,3991,exact_symbol,exact symbol,False,True,False,-2.70548423903468,-13.1465232217238,1.13154978743224e-19
+DOWN,S100B,6285,exact_symbol,exact symbol,False,True,False,-2.82891138359482,-13.1371782870803,1.16633275179548e-19
+DOWN,S1PR1,1901,exact_symbol,exact symbol,False,True,False,-1.72311814001142,-13.103623271848,1.33413523201055e-19
+DOWN,RBPMS2,,unmatched,no exact symbol; LINCS gene_info has no alias field,False,False,False,-3.10464651395786,-13.0261734480358,1.8439378884524e-19
+DOWN,NRN1,51299,exact_symbol,exact symbol,False,True,False,-3.44814019305619,-13.0165651670879,1.90356668628933e-19

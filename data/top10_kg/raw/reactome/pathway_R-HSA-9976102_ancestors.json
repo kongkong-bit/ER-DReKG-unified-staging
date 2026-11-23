@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:09.274200+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9976102/ancestors",
+    "response_sha256": "e02ae827bab53c921521a69f50417365126ee46ed7b1d0b7c1f1c769ed817178",
+    "response_bytes": 1194
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9976102,
+        "displayName": "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)",
+        "stId": "R-HSA-9976102",
+        "name": [
+          "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)"
+        ],
+        "stIdVersion": "R-HSA-9976102.2",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9976102.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-03-25",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1232,
+        "diagramHeight": 1191,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9945266,
+        "displayName": "Differentiation of T cells",
+        "stId": "R-HSA-9945266",
+        "name": [
+          "Differentiation of T cells"
+        ],
+        "stIdVersion": "R-HSA-9945266.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-09-18",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 532,
+        "diagramHeight": 199,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

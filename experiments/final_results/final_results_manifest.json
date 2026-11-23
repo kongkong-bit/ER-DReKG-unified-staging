@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-15T03:03:12.434674+00:00",
+  "project": "ER-positive breast cancer drug repositioning",
+  "protocol": {
+    "s1": "BING-restricted Top100 UP/DOWN from GSE42568, FDR<0.05",
+    "s2": "GSE70138 Level 5, MCF7, trt_cp, 24 h, distil_cc_q75>=0.2",
+    "primary_dose_rule": "select 24 h dose with maximum distinct pert_id coverage; do not choose per-drug best dose",
+    "score": "Broad-style two-sided weighted KS WTCS; negative indicates inverse expression association",
+    "drug_aggregation": "median WTCS across qualifying signatures within exact pert_id/cell/type/dose/time",
+    "ranking": "ascending condition median WTCS; deterministic tie break pert_id ascending",
+    "kg_or_prism_in_rank": false
+  },
+  "counts": {
+    "stable_id_q2_signatures_rescored": 5861,
+    "stable_id_q2_compounds": 1471,
+    "primary_dose": "10.0 um",
+    "primary_dose_compounds": 1032,
+    "historical_common_ids_reproduced": 4761,
+    "exp009_order_bug_common_ids": 4761,
+    "exp009_wtcs_values_mismatching_corrected": 3870
+  },
+  "validation": {
+    "historical_max_abs_difference": {
+      "ES_UP": 1.2989609388114332e-13,
+      "ES_DOWN": 1.0180745135812685e-13,
+      "WTCS": 6.650235917504688e-14
+    },
+    "historical_match_tolerance": 1e-09,
+    "exp009_max_abs_difference": 0.4719196134738437,
+    "old_new_top10_overlap": 5,
+    "dose_coverage": {
+      "10.0 um": 1032,
+      "3.33 um": 828,
+      "1.11 um": 746,
+      "0.04 um": 704,
+      "0.37 um": 702,
+      "0.12 um": 698,
+      "0.33 um": 4,
+      "1.0 um": 3,
+      "20.0 um": 2,
+      "0.11 um": 2,
+      "0.14 um": 2,
+      "0.0 um": 1,
+      "0.03 um": 1,
+      "0.02 um": 1,
+      "0.01 um": 1,
+      "0.3 um": 1,
+      "0.18 um": 1,
+      "0.05 um": 1,
+      "0.06 um": 1,
+      "0.1 um": 1,
+      "0.9 um": 1,
+      "0.46 um": 1,
+      "0.43 um": 1,
+      "0.41 um": 1,
+      "1.39 um": 1,
+      "10.05 um": 1,
+      "1.28 um": 1,
+      "1.12 um": 1,
+      "11.2 um": 1,
+      "10.72 um": 1,
+      "2.7 um": 1,
+      "11.55 um": 1,
+      "3.73 um": 1,
+      "4.17 um": 1,
+      "6.79 um": 1,
+      "8.11 um": 1
+    }
+  },
+  "input_sha256": {
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_info_2017-03-06.txt.gz": "b78284478d62029f600d4397334c538d363123110affd2454bf0055bd0678e01",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_metrics_2017-03-06.txt.gz": "05dd9139f7db1caef03b534611c0bcf97dd071a764445688eaa7e6c47e50b04c",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_gene_info_2017-03-06.txt.gz": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+    "s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e",
+    "s2_lincs\\s1_bing_top100_up.txt": "841acdd87fac47e58411891308ea4e5cc19536afbb3e76e50f5b63182b081753",
+    "s2_lincs\\s1_bing_top100_down.txt": "0a441209e9c76bf39594b35195eb101a037e3062d1d14f88f432553e4a3d9b11",
+    "s2_lincs\\results\\formal_signature_scores.csv": "1556f7cbd51a58e47007dfc3963e97424e5699889b6a920dc0ef600574d09327",
+    "experiments\\exp010_external_s1\\results\\external_s1_drug_ranking.csv": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+    "experiments\\exp011_prism_validation\\results\\candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "experiments\\exp009_lincs_quality\\results\\metadata_join_sensitivity.csv": "612ea265549c5201a39e63102c0843bdaca23bef9d509d1cccd2666903ab8718",
+    "experiments\\exp009_lincs_quality\\results\\B200_signature_scores_stable_id.csv": "cd33bd3d32c7c22a86ecf81b7e6b93fcbe7ee226b9288029e03aae9c9c4e41bc"
+  },
+  "output_sha256": {
+    "experiments\\final_results\\results\\final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+    "experiments\\final_results\\results\\final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+    "experiments\\final_results\\results\\final_corrected_condition_ranking.csv": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+    "experiments\\final_results\\results\\final_top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf"
+  },
+  "mechanism_query": {
+    "status": "PASS",
+    "query_time_utc": "2026-11-15T03:07:34.944520+00:00",
+    "connection": "local Neo4j read-only MATCH queries; exact LINCS InChIKey only",
+    "project_slug": "erpos-gse42568",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+    "top10": 10,
+    "exact_graph_drug_mappings": 5,
+    "candidates_with_direct_targets": 5,
+    "candidates_with_s1_pathways": 5,
+    "direct_target_rows": 61,
+    "target_pathway_link_rows": 395,
+    "ppi_expansion": "not used; current Neo4j relationship type audit has no supported PPI relation",
+    "mapping_rows": [
+      {
+        "rank": "1",
+        "pert_id": "BRD-K44227013",
+        "drug_name": "ponatinib",
+        "inchi_key": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+        "neo4j_mapping": "exact InChIKey",
+        "graph_drug_ids": "CHEMBL1171837",
+        "graph_names": "PONATINIB"
+      },
+      {
+        "rank": "2",
+        "pert_id": "BRD-K16485616",
+        "drug_name": "mocetinostat",
+        "inchi_key": "HRNLUBSXIHFDHP-UHFFFAOYSA-N",
+        "neo4j_mapping": "exact InChIKey",
+        "graph_drug_ids": "CHEMBL272980",
+        "graph_names": "MOCETINOSTAT"
+      },
+      {
+        "rank": "3",
+        "pert_id": "BRD-K56405753",
+        "drug_name": "MK-2461",
+        "inchi_key": "JGEBLDKNWBUGRZ-HXUWFJFHSA-N",
+        "neo4j_mapping": "no exact InChIKey node in current graph"
+      },
+      {
+        "rank": "4",
+        "pert_id": "BRD-K92093830",
+        "drug_name": "doxorubicin",
+        "inchi_key": "AOJJSUZBOXZQNB-TZSSRYMLSA-N",
+        "neo4j_mapping": "exact InChIKey",
+        "graph_drug_ids": "CHEMBL53463",
+        "graph_names": "DOXORUBICIN"
+      },
+      {
+        "rank": "5",
+        "pert_id": "BRD-K76694128",
+        "drug_name": "rebastinib",
+        "inchi_key": "WVXNSAVVKYZVOE-UHFFFAOYSA-N",
+        "neo4j_mapping": "no exact InChIKey node in current graph"
+      },
+      {
+        "rank": "6",
+        "pert_id": "BRD-K50000283",
+        "drug_name": "PHA-767491",
+        "inchi_key": "DKXHSOUZPMHNIZ-UHFFFAOYSA-N",
+        "neo4j_mapping": "no exact InChIKey node in current graph"
+      },
+      {
+        "rank": "7",
+        "pert_id": "BRD-K11153516",
+        "drug_name": "iniparib",
+        "inchi_key": "MDOJTZQKHMAPBK-UHFFFAOYSA-N",
+        "neo4j_mapping": "exact InChIKey",
+        "graph_drug_ids": "CHEMBL1170047",
+        "graph_names": "INIPARIB"
+      },
+      {
+        "rank": "8",
+        "pert_id": "BRD-A00147595",
+        "drug_name": "balaglitazone",
+        "inchi_key": "IETKPTYAGKZLKY-UHFFFAOYSA-N",
+        "neo4j_mapping": "exact InChIKey",
+        "graph_drug_ids": "CHEMBL2103991",
+        "graph_names": "BALAGLITAZONE"
+      },
+      {
+        "rank": "9",
+        "pert_id": "BRD-K13094524",
+        "drug_name": "PFI-1",
+        "inchi_key": "TXZPMHLMPKIUGK-UHFFFAOYSA-N",
+        "neo4j_mapping": "no exact InChIKey node in current graph"
+      },
+      {
+        "rank": "10",
+        "pert_id": "BRD-K83837640",
+        "drug_name": "JNJ-26481585",
+        "inchi_key": "PAWIYAYFNXQGAP-UHFFFAOYSA-N",
+        "neo4j_mapping": "no exact InChIKey node in current graph"
+      }
+    ]
+  },
+  "final_evidence_counts": {
+    "top10": 10,
+    "neo4j_exact_drug_nodes": 5,
+    "top10_with_direct_targets": 5,
+    "top10_with_s1_pathways": 5,
+    "prism_with_ERpos_result": 5,
+    "external_s1_rank_available": 5
+  },
+  "supplemental_input_sha256": {
+    "experiments\\final_results\\results\\final_top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+    "experiments\\final_results\\results\\final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+    "experiments\\final_results\\results\\final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+    "experiments\\exp010_external_s1\\results\\external_s1_drug_ranking.csv": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+    "experiments\\exp011_prism_validation\\results\\candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "experiments\\final_results\\mechanism\\final_neo4j_drug_mapping.csv": "8829367ad5c9b36d98841b53304bd82a9fdd8d09ff6924e2f9fd024c5029f024",
+    "experiments\\final_results\\mechanism\\final_neo4j_direct_targets.csv": "c7c42b60f6713b60f646747b9e2d4a5d1346cc6d490752f920057d7da4f10e0f",
+    "experiments\\final_results\\mechanism\\final_neo4j_s1_pathway_links.csv": "a5e5927b6b9e8e87e27c9db18b5ca2bcf45975e71eaafb2d8b70052e8a87edea",
+    "experiments\\final_results\\mechanism\\final_top10_target_s2_expression.csv": "03560b77fcc2a898833fa157e4d8e5bcfd503c54ea7eea822e7548f764d7d951"
+  },
+  "final_output_sha256": {
+    "experiments\\final_results\\results\\final_top10_evidence_matrix.csv": "28655a38c0d48d60947e96e671e6b8b10fd3c744c3df6ae44e53a27e4beb7f95",
+    "experiments\\final_results\\results\\evidence_priority_candidates.csv": "856aa0f433b7e71ccdd35a2b2aea27fb7ab27e4b2b6392e7a41fc49b30588611",
+    "experiments\\final_results\\reports\\final_top10_mechanism_report.md": "9ed0a3c4a0284b0e20df3ffa9e09c953f5665730619d76e34b5b65f1e94fe146",
+    "experiments\\final_results\\figures\\final_top10_wtcs.png": "ab4ecb32d8dc0e60b6d08bc0562fe0fa67baa93d962d98b9503907aa336d64c6",
+    "experiments\\final_results\\figures\\final_top10_dose_sensitivity.png": "0d56551c4d73e9d4782a31da889f0668eefc3dfb81f31062ab7a4285e779afa6",
+    "experiments\\final_results\\figures\\final_evidence_coverage.png": "4934f75defb1e5ad5d33abe7ee026991d0f296895f5eae2c05b10a328ceee2ba",
+    "frontend\\public\\final-results.json": "96cd08c4ddd2a54ee1fecff276822a40ceccce91a4ea8075a202ee7421c6a484",
+    "frontend\\public\\final-top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+    "frontend\\public\\final-evidence-matrix.csv": "28655a38c0d48d60947e96e671e6b8b10fd3c744c3df6ae44e53a27e4beb7f95",
+    "frontend\\public\\final_top10_wtcs.png": "ab4ecb32d8dc0e60b6d08bc0562fe0fa67baa93d962d98b9503907aa336d64c6",
+    "frontend\\public\\final_top10_dose_sensitivity.png": "0d56551c4d73e9d4782a31da889f0668eefc3dfb81f31062ab7a4285e779afa6",
+    "frontend\\public\\final_evidence_coverage.png": "4934f75defb1e5ad5d33abe7ee026991d0f296895f5eae2c05b10a328ceee2ba"
+  },
+  "code_sha256": {
+    "experiments\\final_results\\scripts\\build_final_results.py": "b56ada22d444281f02c5f81db94535fafd2ef36619c9270a6c27546bf25b7975",
+    "experiments\\final_results\\scripts\\assemble_final_evidence.py": "e01718fa81e795aad4d055b9038b15c13d2392e8019a841b78cbc43b89e89af8",
+    "experiments\\final_results\\scripts\\extract_top10_target_s2.py": "7177eb9609da9d53cf6c3f61fe0e0cdb1fc580755044e288aed28eb88db1bb86",
+    "experiments\\final_results\\scripts\\query_final_neo4j_evidence.py": "cde203184a321fb02fda3bda1852f1d70441ccacf8f1fd06bb96b93a7fc9f24d",
+    "experiments\\final_results\\scripts\\write_final_acceptance.py": "b4b867f3ce0d3e0f0de187b1a47e3f3cca7e187707e15c56367e333c1d4e56a0",
+    "experiments\\final_results\\tests\\test_final_results.py": "d68ad2b13d9cd7b84ca864c6103d55f4c42a135beca3b1eb914fc112f141bd64",
+    "frontend/src/App.tsx": "64a140482e666a73508985f94c9a05bef2728efc65124e616950433ac3d7c2b1",
+    "frontend/src/pages/FinalResultsPage.tsx": "ba18b84f1a993415c1066390b745ef89f8b899ebcc4a6dd41d1daac9c7353eb6",
+    "experiments/final_results/scripts/complete_final_deliverables.py": "6e309033b6ec12f42ceac8a0a2c80afbfa20a192dc5cf7d10586041436fa130f",
+    "experiments/final_results/tests/test_final_results.py": "d68ad2b13d9cd7b84ca864c6103d55f4c42a135beca3b1eb914fc112f141bd64"
+  },
+  "final_acceptance": {
+    "generated_utc": "2026-11-15T03:33:48.857841+00:00",
+    "statuses": {
+      "Final01 数据与算法审计": "PASS",
+      "Final02 固定规则与 Top10": "PASS",
+      "Final03 机制证据": "PARTIAL",
+      "Final04 页面与交付": "PASS",
+      "疗效验证": "NOT_PERFORMED"
+    },
+    "pytest": "8 passed",
+    "frontend_build": "PASS",
+    "ranked_candidates": 10,
+    "all_primary_candidates_single_signature": true,
+    "deliverable_sha256": {
+      "experiments\\final_results\\reports\\final_research_report.md": "7632a0d39a848dae4f46966a8899ea6fd8da9aeff47cdc749a3d9fc697e3f81b",
+      "experiments\\final_results\\reports\\final_status.csv": "105ea513f446bde61721add0d1cf8743080da0a7212c16651281add5afadea0b",
+      "experiments\\final_results\\results\\final_top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "experiments\\final_results\\results\\final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "experiments\\final_results\\results\\final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "experiments\\final_results\\results\\final_top10_evidence_matrix.csv": "61cc59de60e88b3696758b1de7aa3b4e7912132e7c5d11c9024ab517515c8338",
+      "experiments\\final_results\\reports\\final_top10_mechanism_report.md": "9ed0a3c4a0284b0e20df3ffa9e09c953f5665730619d76e34b5b65f1e94fe146",
+      "experiments\\final_results\\figures\\final_top10_wtcs.png": "ab4ecb32d8dc0e60b6d08bc0562fe0fa67baa93d962d98b9503907aa336d64c6",
+      "experiments\\final_results\\figures\\final_top10_dose_sensitivity.png": "0d56551c4d73e9d4782a31da889f0668eefc3dfb81f31062ab7a4285e779afa6",
+      "experiments\\final_results\\figures\\final_evidence_coverage.png": "4934f75defb1e5ad5d33abe7ee026991d0f296895f5eae2c05b10a328ceee2ba",
+      "frontend\\public\\final-results.json": "576d796b3eb03fb6bf34e1bca968489cc7d5106dc943ee9365c0887b5ccf3970",
+      "frontend\\public\\final-top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "frontend\\public\\final-evidence-matrix.csv": "28655a38c0d48d60947e96e671e6b8b10fd3c744c3df6ae44e53a27e4beb7f95",
+      "experiments/final_results/reports/final_top10_selection_report.md": "7836b19340431062af61ed9baca28dc725d59d5e81be475b582453d96c640a87"
+    },
+    "extended_evidence_matrix_sha256": "61cc59de60e88b3696758b1de7aa3b4e7912132e7c5d11c9024ab517515c8338",
+    "mechanism_artifact_sha256": {
+      "experiments\\final_results\\mechanism\\top10_mechanism_paths.csv": "c9bf4a747937a4b9923b542ba798cd459860d366e4664d8f3018851142f0da50",
+      "experiments\\final_results\\mechanism\\top10_evidence_citations.csv": "c44b5c08faa675af1c53bc127a57f31979ca73edb935dd807cf4cf894437e299",
+      "experiments\\final_results\\reports\\mechanism_audit.md": "12f866532c41639edaab01a74392193324b65a3f331a2e6c1a3bca7fa54596aa",
+      "experiments\\final_results\\reports\\top10_mechanism_summary.md": "393e4000f339d42ae2bad2e08c830e3adce1f61987e9c4f4d3e9d1a273fdbb92",
+      "experiments\\final_results\\reports\\final_project_status.md": "adfb4202bd467135cb3e620b8499c407d4c311da9e65c67d9aa1d802d7b34385",
+      "experiments\\final_results\\reports\\final_research_report.md": "2c3c50bd67fde3cbffaf7a7ce0e9d5593a043ab687403cb6ed3d5c9a8dbaebe9",
+      "frontend\\public\\final-results.json": "576d796b3eb03fb6bf34e1bca968489cc7d5106dc943ee9365c0887b5ccf3970",
+      "frontend\\public\\final-evidence-records.json": "dafce0d057fe5650f941fb2099efffef866398cf3796831b109f923ee7108b69",
+      "frontend\\public\\final-pathways.json": "7c3f11824548f256d859709d7d089be40e73c90faddc8e772bbd3478d5f2d246"
+    }
+  },
+  "mechanism_deliverables": {
+    "individual_reports": [
+      "experiments\\final_results\\top10_mechanism_reports\\01_ponatinib.md",
+      "experiments\\final_results\\top10_mechanism_reports\\02_mocetinostat.md",
+      "experiments\\final_results\\top10_mechanism_reports\\03_MK-2461.md",
+      "experiments\\final_results\\top10_mechanism_reports\\04_doxorubicin.md",
+      "experiments\\final_results\\top10_mechanism_reports\\05_rebastinib.md",
+      "experiments\\final_results\\top10_mechanism_reports\\06_PHA-767491.md",
+      "experiments\\final_results\\top10_mechanism_reports\\07_iniparib.md",
+      "experiments\\final_results\\top10_mechanism_reports\\08_balaglitazone.md",
+      "experiments\\final_results\\top10_mechanism_reports\\09_PFI-1.md",
+      "experiments\\final_results\\top10_mechanism_reports\\10_JNJ-26481585.md"
+    ],
+    "paths_csv": "experiments\\final_results\\mechanism\\top10_mechanism_paths.csv",
+    "citations_csv": "experiments\\final_results\\mechanism\\top10_evidence_citations.csv",
+    "mechanism_audit": "experiments\\final_results\\reports\\mechanism_audit.md",
+    "mechanism_summary": "experiments\\final_results\\reports\\top10_mechanism_summary.md",
+    "llm_status": "not used; deterministic evidence template"
+  },
+  "requested_final_artifacts": {
+    "final_research_report": "experiments\\final_results\\reports\\final_research_report.md",
+    "final_project_status": "experiments\\final_results\\reports\\final_project_status.md",
+    "final_results_manifest_alias": "experiments\\final_results\\final_results_manifest.json",
+    "frontend_route": "/final-results",
+    "frontend_payload": "frontend\\public\\final-results.json",
+    "frontend_evidence_fallback": "frontend\\public\\final-evidence-records.json",
+    "pathway_payload": "frontend\\public\\final-pathways.json"
+  }
+}

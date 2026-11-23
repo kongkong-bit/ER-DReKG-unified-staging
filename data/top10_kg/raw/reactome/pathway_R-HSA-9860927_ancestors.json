@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:08.503492+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9860927/ancestors",
+    "response_sha256": "af48759215dc47ccc259da32698764ef4c7762d0a7df39e5a9ca083d94df0028",
+    "response_bytes": 1660
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9860927,
+        "displayName": "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells",
+        "stId": "R-HSA-9860927",
+        "name": [
+          "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells"
+        ],
+        "stIdVersion": "R-HSA-9860927.2",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9860927.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1306,
+        "diagramHeight": 1039,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9860931,
+        "displayName": "Response of endothelial cells to shear stress",
+        "stId": "R-HSA-9860931",
+        "name": [
+          "Response of endothelial cells to shear stress"
+        ],
+        "stIdVersion": "R-HSA-9860931.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 485,
+        "diagramHeight": 190,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9855142,
+        "displayName": "Cellular responses to mechanical stimuli",
+        "stId": "R-HSA-9855142",
+        "name": [
+          "Cellular responses to mechanical stimuli"
+        ],
+        "stIdVersion": "R-HSA-9855142.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 359,
+        "diagramHeight": 184,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8953897,
+        "displayName": "Cellular responses to stimuli",
+        "stId": "R-HSA-8953897",
+        "name": [
+          "Cellular responses to stimuli"
+        ],
+        "stIdVersion": "R-HSA-8953897.9",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-03-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 639,
+        "diagramHeight": 132,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+﻿aplus_field,adapted_field,transform,destination
+pert_id,pert_id,UNCHANGED,drug_condition_summary.csv
+drug_name,drug_name,UNCHANGED,drug_condition_summary.csv
+cell_id,cell_id,UNCHANGED,drug_condition_summary.csv
+pert_type,pert_type,UNCHANGED,drug_condition_summary.csv
+dose,dose,UNCHANGED,drug_condition_summary.csv
+time,time,UNCHANGED,drug_condition_summary.csv
+n_signatures,n_signatures,UNCHANGED,drug_condition_summary.csv
+WTCS_median,WTCS_median,UNCHANGED,drug_condition_summary.csv
+WTCS_mean,WTCS_mean,UNCHANGED,drug_condition_summary.csv
+WTCS_sd,WTCS_sd,UNCHANGED,drug_condition_summary.csv
+WTCS_mad,WTCS_mad,UNCHANGED,drug_condition_summary.csv
+CC_median,quality_cc_median,RENAME (value unchanged),drug_condition_summary.csv
+TAS_median,TAS_median,UNCHANGED,drug_condition_summary.csv
+replicates_median,replicates_median,UNCHANGED,drug_condition_summary.csv
+rank_within_condition,rank_within_condition,UNCHANGED,drug_condition_summary.csv
+condition_record_id,condition_record_id,PRESERVED,seed_provenance.csv
+candidate_id,candidate_id,PRESERVED,seed_provenance.csv
+source_row_number,source_row_number,PRESERVED,seed_provenance.csv
+source_file,source_file,PRESERVED,seed_provenance.csv
+source_sha256,source_sha256,PRESERVED,seed_provenance.csv

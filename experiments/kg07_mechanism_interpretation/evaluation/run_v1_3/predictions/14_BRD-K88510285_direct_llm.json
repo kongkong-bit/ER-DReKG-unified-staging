@@ -1,0 +1,224 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88510285",
+    "drug_name": "bortezomib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL325041",
+    "rank": "7"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 45,
+    "public_pathway_path_count": 8,
+    "s1_enrichment_overlap_path_count": 55,
+    "s1_deg_overlap_path_count": 9,
+    "unique_evidence_count": 134,
+    "verified_evidence_count": 134,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1416b8f4163580beecf81e729885184af95ad1f0831982b3e1adc3be7eec3b11",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "bortezomib (BRD-K88510285) 在 S2 分析中排名 7（WTCS = -0.441），条件数为 6，来源为 S2ConditionResult",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "GSE70138 中 BRD-K88510285（bortezomib）在 MCF7 细胞、10.0 µM、24 h 下 WTCS median B = -0.441，rank_B = 7，rank_A = 14；有 6 个可用剂量，negative_dose_fraction = 0.833，dose_stability 标注为 multi_dose_negative 但 stability_grade 为 low，且仅有单一签名（single signature）",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "外部 S1 验证中 B200 median rank = 84.0（6 个条件），但整体 external_s1_median_rank = 2000.5；Q2 条件 median rank = 287.0（6 个条件）；这些为转录组排名指标，非临床疗效证据",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 细胞敏感性：MCF7 敏感性 = 5.61（rank 1），ER+ 平均敏感性 = 3.36（9 株，rank 2），ER- 平均 = 4.15（13 株）；PRISM 终点为细胞活力下降，与 S2 表达逆转为独立终点，不构成临床疗效证据",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无知识图谱路径、无 curated 靶点断言、无疾病通路重叠数据，故无法断言 bortezomib 的已知靶点或作用机制",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "外部 S1 整体 median rank = 2000.5 与 B200 median rank = 84.0 差异较大，且 Q2 median rank = 287，独立验证信号不一致",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "筛选证据仅有单一签名且 stability_grade = low，qc_sensitivity_range = 0.0，稳健性有限",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "仅有转录组逆转（WTCS）与细胞活力敏感性数据，均为体外/计算终点，不构成临床疗效证据",
+      "无靶点结合、抑制或激活关系的来源数据，不能提出机制结论",
+      "S2 证据基于单一签名（n_signatures=1），稳定性评级为 low",
+      "PRISM 敏感性数值为细胞系活力终点，与 S2 表达逆转 endpoint 不同，两者一致性仅为解释性说明"
+    ],
+    "uncited_or_uncertain": [
+      "ER+ 与 ER- 敏感性差异的临床或生物学意义未提供来源支持"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88510285"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-K88510285"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_B200_median_rank",
+        "Q2_condition_median_rank"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "mcf7_sensitivity",
+        "erpos_mean_sensitivity",
+        "erneg_mean_sensitivity"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank",
+        "external_s1_B200_median_rank",
+        "Q2_condition_median_rank"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "stability_grade",
+        "qc_sensitivity_range",
+        "n_signatures"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 11.935,
+  "usage": {
+    "completion_tokens": 779,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 951,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1730
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

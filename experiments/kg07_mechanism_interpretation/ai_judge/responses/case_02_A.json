@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "e50dce7c8ce922fc0b8bf5df0d14eebb72aebf826fe1bc3aef2a8e5f2ca8ff85",
+  "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b",
+  "latency_seconds": 7.905617400000665,
+  "usage": {
+    "completion_tokens": 654,
+    "completion_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "prompt_tokens": 3598,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4252
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "coverage与s2_conditions确认3条S2分条件观测（0.04/0.12/10.0 μM，MCF7 24h），WTCS为分数名称，claim对其解释为关联性描述且明确排除临床疗效含义，与来源一致，无方向性声明。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "2510149f3e53429a27931f7ac0d683013df624d5950070f6d41ae8abcd4fa030",
+        "supports_claim": true,
+        "reason": "S2条件记录MCF7|0.04um|24h，WTCS_median=0.0，verified_in_postgres=true，直接支持3条观测之一。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8a615e159fb0c3f043653b9b8f9bdf5656f24aa9795fc9746cdb3d2b72706e33",
+        "supports_claim": true,
+        "reason": "S2条件记录MCF7|0.12um|24h，WTCS_median=-0.2575，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "d40b3f99f476f62e147e59fa99abdcf1b4a36afc3f72e026d8e84273ef686019",
+        "supports_claim": true,
+        "reason": "S2条件记录MCF7|10.0um|24h，WTCS_median=-0.4199，verified_in_postgres=true，对应主剂量。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 2,
+        "accurate": true,
+        "reason": "coverage显示direct_target_path_count、public_pathway_path_count、S1重叠路径均为0，path_count=0，evidence_gaps明确列出未找到药物靶点断言和通路路径，'机制证据不足'的表述与包内覆盖一致。"
+      }
+    ],
+    "limitations": [
+      "证据仅限S2筛选层面的分条件WTCS分数，无已知靶点、通路或独立验证证据（verified_evidence_count=0）。",
+      "每条件n_signatures=1，dose_stability为mixed_or_limited，stability_grade为low，单签名且剂量稳定性差。",
+      "WTCS分数本身不提供任何结合、抑制或因果方向信息，机制假设无任何路径支持。"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:51:52.486461+00:00"
+}

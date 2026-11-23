@@ -1,0 +1,16 @@
+{
+  "source_name": "DrugMechDB dataset license",
+  "source_url": "https://raw.githubusercontent.com/SuLab/DrugMechDB/2.0.1/LICENSE",
+  "release_version": "2.0.1",
+  "retrieved_at": "2026-11-22T07:07:30.787328+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\drugmechdb\\2.0.1\\LICENSE",
+  "license": "CC0 1.0 Universal",
+  "species": "dataset license",
+  "schema_version": "Creative Commons license text",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "content_length_header": "7048",
+  "status": "downloaded",
+  "bytes": 7048,
+  "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+}

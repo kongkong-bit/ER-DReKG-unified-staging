@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "b1f5115a0fcefd85e3860e87a5a9e0ceddb821558fd4d8d6802bfba6b596a626",
+  "evidence_input_sha256": "0ee560d5228f08db5e0d2082a6304261ab88bd6cfcce542ecb2e982cf298ce30",
+  "latency_seconds": 13.93272799999977,
+  "usage": {
+    "completion_tokens": 950,
+    "completion_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "prompt_tokens": 12210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 13160
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "MCF7|trt_cp|10.0 um|24h WTCS_median=-0.4062053158739659且rank=25，与claim完全一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "OptimusKG记录中CHEMBL1496对ENSG00000113161同时有DRUG_BANK的TARGET和OPEN_TARGETS的INHIBITOR断言，reported_actions含INHIBITOR+TARGET，无冲突"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两个path（ENSG00000073734、ENSG00000125257）均reported_actions=TRANSPORTER且evidence_complete；claim已按关联降级，未作方向表述"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 4336cea1显示ENSG00000005844 reported_actions=[TARGET]，来源DRUG_BANK relation=TARGET；claim已按关联降级，无不实方向"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "814781daa9ae285a247a6cf81c4a0c465628df0cfb3eb6788b21e4fbd16d309b",
+        "supports_claim": true,
+        "reason": "快照中该evidence对应10.0 um条件，WTCS_median=-0.4062，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "87005007cb44a423861d573ab158b6863d1654b4a97a203c3dfeb10d12396314",
+        "supports_claim": true,
+        "reason": "path目标基因ENSG00000113161，reported_actions=[INHIBITOR,TARGET]，含OptimusKG/DrugBank/OpenTargets断言"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "2ee0683e2525cfc3b80367816326fb2d60fa9ef73b1fbcd96287c47ded1d65e2",
+        "supports_claim": true,
+        "reason": "direct_target路径，ENSG00000073734 reported_actions=[TRANSPORTER]，支持转运蛋白类直接靶点关联"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "24458b6fb73c17c546fc79683ec1a8de209617bbd2bf035eefa94aba38b8bafc",
+        "supports_claim": true,
+        "reason": "direct_target路径，ENSG00000125257 reported_actions=[TRANSPORTER]，evidence_complete=true"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "4336cea176fe6435db6a7fcbbbc5e585c971b617fde1871553736ceeca239b44",
+        "supports_claim": true,
+        "reason": "path显示ENSG00000005844 reported_actions=[TARGET]，与claim一致"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "coverage显示public_pathway_path_count=0，evidence_gaps列明该缺口"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "s1_enrichment_overlap_path_count=0，与gap描述一致"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "s1_deg_overlap_path_count=0，与gap描述一致"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "evidence_gaps中明确记录部分来源无URL但保留source_record_id和source_release"
+      }
+    ],
+    "limitations": [
+      "单signature、stability_grade=low且QC敏感性信息缺失（evidence_limitations: single signature; QC threshold sensitivity），S2筛选依据强度有限",
+      "缺乏公共通路和S1重叠证据，机制假设无通路层面支持",
+      "该解释不构成独立实验验证，仅为已知靶点+转录组富集的关联性证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:47:16.616107+00:00"
+}

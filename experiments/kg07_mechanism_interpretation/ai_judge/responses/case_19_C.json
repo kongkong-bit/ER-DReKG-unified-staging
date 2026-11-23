@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "526c4d3b5b4ef5c364fa5e0dfb16635611595d6774335de776ece1c8e9f1bce4",
+  "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7",
+  "latency_seconds": 14.795312700000068,
+  "usage": {
+    "completion_tokens": 934,
+    "completion_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "prompt_tokens": 5085,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 6019
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "包内恰好有5条MCF7|trt_cp条件观测（0.12/0.37/1.11/3.33/10.0 um，24h），均HAS_S2_CONDITION且verified_in_postgres=true，WTCS为分数名称；'不代表临床疗效'为对筛选分数性质的合理限定而非额外事实声明。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "11af886293d736ccdd5c2e80489ef367b39375299444bf619faa00d7d4b507fb",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|10.0um|24h条件，WTCS -0.4155，支持5条分条件观测的计数。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "48964cd4efe4d0be93cd8dae8bf1640b39040ff68851db7a0a4377b33ab522b3",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|3.33um|24h条件，WTCS -0.3944，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "d3def38b6f16d1a5d16067151bc0829d238e8d20431c3129eb9d9558e3cd51b5",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|1.11um|24h条件，WTCS 0.0，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "dd23df05a0c3653443e06b40aa0e62bc6e77dadd5a0466f995c2c1b86758788c",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|0.37um|24h条件，WTCS 0.0，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "fb9336a684891cdea12069438e31fa85f4f10bab654e1bc2d7c6b96cf2a48884",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|0.12um|24h条件，WTCS -0.3505，verified_in_postgres=true。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 2,
+        "accurate": true,
+        "reason": "coverage中所有target/pathway路径计数为0且evidence_gaps逐条列出缺失项，'机制证据不足'与包内覆盖一致。"
+      }
+    ],
+    "limitations": [
+      "compound映射为unmatched_no_exact_inchikey，无已验证化合物身份",
+      "每条件n_signatures=1，dose_stability为mixed_or_limited，stability_grade为low，筛选信号稳健性有限",
+      "仅MCF7细胞、24h、trt_cp条件的S2筛选证据，无独立验证或机制通路证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:12:10.729837+00:00"
+}

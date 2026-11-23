@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:56.896761+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-69231/ancestors",
+    "response_sha256": "7479bbc6576855a84a46352c0aca1f6f7e83b67b9bb8dfdd5f3943bc587a6754",
+    "response_bytes": 2151
+  },
+  "payload": [
+    [
+      {
+        "dbId": 69231,
+        "displayName": "Cyclin D associated events in G1",
+        "stId": "R-HSA-69231",
+        "name": [
+          "Cyclin D associated events in G1"
+        ],
+        "stIdVersion": "R-HSA-69231.11",
+        "oldStId": "REACT_821",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-69231.8",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 69236,
+        "displayName": "G1 Phase",
+        "stId": "R-HSA-69236",
+        "name": [
+          "G1 Phase"
+        ],
+        "stIdVersion": "R-HSA-69236.6",
+        "oldStId": "REACT_1590",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1590.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "definition": "One of two 'gap' phases in the standard eukaryotic mitotic cell cycle; the interval between the completion of mitosis and the beginning of DNA synthesis.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 453279,
+        "displayName": "Mitotic G1 phase and G1/S transition",
+        "stId": "R-HSA-453279",
+        "name": [
+          "Mitotic G1 phase and G1/S transition"
+        ],
+        "stIdVersion": "R-HSA-453279.6",
+        "oldStId": "REACT_21267",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2010-03-16",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3231,
+        "diagramHeight": 2517,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 69278,
+        "displayName": "Cell Cycle, Mitotic",
+        "stId": "R-HSA-69278",
+        "name": [
+          "Cell Cycle, Mitotic"
+        ],
+        "stIdVersion": "R-HSA-69278.6",
+        "oldStId": "REACT_152",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 515,
+        "diagramHeight": 441,
+        "definition": "The most common eukaryotic cell cycle, in which a cell is duplicated without changing ploidy; comprises four successive phases called G1, S, G2, and M.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1640170,
+        "displayName": "Cell Cycle",
+        "stId": "R-HSA-1640170",
+        "name": [
+          "Cell Cycle"
+        ],
+        "stIdVersion": "R-HSA-1640170.5",
+        "oldStId": "REACT_115566",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 651,
+        "diagramHeight": 136,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

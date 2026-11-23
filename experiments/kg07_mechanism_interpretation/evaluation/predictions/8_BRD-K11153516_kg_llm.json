@@ -1,0 +1,175 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K11153516",
+    "drug_name": "iniparib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1170047",
+    "rank": "4"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 1,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 40,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 84,
+    "verified_evidence_count": 84,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "3e5186b8b778a0f35223b17871b55ae23ee95b5037a4012e7f60cdb148e5e641",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 10μM 24h WTCS为-0.456，为最负分数条件",
+        "relation": "association",
+        "evidence_ids": [
+          "8ea81161d046d8ac21a1ec78b5106fbf48e2b66a426181ae90cbda12dba301a5"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 低剂量条件WTCS接近零，浓度依赖趋势可见",
+        "relation": "association",
+        "evidence_ids": [
+          "5ee16d32ef9dc59fc1162814cdfce4aeadd94453eff7ba41bdcc4ae52dea8e5a",
+          "bd6f862c55ce0638a5f34bf33ed240691a6967d1380096a8ee6684121950a5a3"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "0.12μM条件WTCS为正(0.282)",
+        "relation": "association",
+        "evidence_ids": [
+          "2233972d24750218f90645b48e31ca51fb0b4f11fc19021ff2908c089bb0de8d"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "数据库标注iniparib靶向ENSG00000143799",
+        "relation": "unknown",
+        "evidence_ids": [],
+        "path_ids": [
+          "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "富集通路：DNA复制(GO:0006260)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "富集通路：碱基切除修复(GO:0006284)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "富集通路：同源重组双链断裂修复(GO:0000724)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "18e29b3026da53fc56f5721adcea5796da79bcfc68e5245e780eaec3c54408eb"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "经S1富集重叠，或涉及DNA修复与复制相关通路",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761",
+          "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "未提供抑制/激活等直接作用方向证据",
+        "relation": "unknown",
+        "evidence_ids": [],
+        "path_ids": [
+          "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "WTCS为计算转录相似性分数，非临床疗效证据",
+      "部分上游断言缺少来源URL，仅保留source_record_id与release"
+    ],
+    "uncited_or_uncertain": [
+      "无靶点到公共通路路由，通路关联均来自S1富集重叠路径",
+      "未提供外部独立验证记录"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 17.667,
+  "usage": {
+    "completion_tokens": 1163,
+    "completion_tokens_details": {
+      "reasoning_tokens": 175
+    },
+    "prompt_tokens": 3322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4485
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

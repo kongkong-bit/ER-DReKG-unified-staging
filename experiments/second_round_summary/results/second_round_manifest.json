@@ -1,0 +1,70 @@
+{
+  "built_utc": "2026-11-12T07:37:55.474114+00:00",
+  "experiment_status": [
+    {
+      "experiment": "Exp006",
+      "status": "PASS",
+      "what_it_means": "原有排序可靠性、质量阈值与剂量敏感性结果已作为基线复核；旧结果保持只读。",
+      "remaining": "单药证据仍以计算结果为主。"
+    },
+    {
+      "experiment": "Exp007",
+      "status": "PASS",
+      "what_it_means": "比较六种 S1 签名大小/组成，4,761 signatures 成对重算并复现历史 WTCS。",
+      "remaining": "稳定性不是疗效验证。"
+    },
+    {
+      "experiment": "Exp008",
+      "status": "PARTIAL",
+      "what_it_means": "算法排名比较及随机基因集置换状态：completed。NCS/Tau 按官方定义审计为不可用。",
+      "remaining": "Zhang/XSum 用 COMPZ 做输入适配，非原始 logFC 论文输入的逐字复刻；NCS/Tau 未计算。"
+    },
+    {
+      "experiment": "Exp009",
+      "status": "PASS",
+      "what_it_means": "正式 ID 联结后比较 CC/TAS 质量门槛；门槛间整体排名高度相关。",
+      "remaining": "项目阈值敏感性，不是普适筛选标准。"
+    },
+    {
+      "experiment": "Exp010",
+      "status": "PASS",
+      "what_it_means": "独立 GSE139038 14 个 ER+ 肿瘤/配对正常样本完成外部 S1 和 S2 排名对照。",
+      "remaining": "外部药物 Top10 重合很低，外推支持有限。"
+    },
+    {
+      "experiment": "Exp011",
+      "status": "PASS",
+      "what_it_means": "PRISM Primary 与 DepMap 模型表按结构/ACH ID 对齐，完成候选敏感性、ER 特异性和覆盖匹配随机背景对照。",
+      "remaining": "Top50 有37个结构匹配；体外细胞活力不等同患者获益。"
+    }
+  ],
+  "source_sha256": {
+    "experiments/second_round_summary/results/input_audit.csv": "98923d2d2ca88c83ad526cd13d7c4797b15cd9ba63170b0fc998a22a1fd54c4c",
+    "experiments/exp006_ranking_reliability/results/candidate_drugs_all.csv": "2e934e1bdb78aec7157395ce3a8eb5a42ddcff650a1ff05160a0e484d7d4c3ee",
+    "experiments/exp006_ranking_reliability/results/candidate_evidence_matrix.csv": "a7714fb647f119d606d3516bcb5f225c08c2edf5f9cf384541d627ef5dc8d4bd",
+    "experiments/exp007_signature_sensitivity/results/ranking_comparison.csv": "853d43ac2283d7d9967dd8a0c7f772c3a6def1fea48f5573252dd9082e2cc1f8",
+    "experiments/exp007_signature_sensitivity/results/historical_reproduction_check.csv": "ce5b18ffa07f167ed1466e4b748d5d1c88d314340e0534e431af7219f0c6ab90",
+    "experiments/exp008_scoring_statistics/results/method_comparison.csv": "e9f6f8f8fcb966e193ecbaac3971de5f26fb956aab839e811d53b1d7e7bc2b98",
+    "experiments/exp008_scoring_statistics/results/empirical_pvalues.csv": "7819f9a149adcc7acc1eb1b65e89c558f368484d1282b26fc2958635f085f01c",
+    "experiments/exp008_scoring_statistics/results/permutation_manifest.json": "901ec99c672508e41ca298232f9e72525d270704249aabbdca381d7352730575",
+    "experiments/exp009_lincs_quality/results/quality_rank_comparison.csv": "66cd1281949f8e159a4d273c1d612fa7e396f948c516eb79f2bd7c772f5a8e05",
+    "experiments/exp009_lincs_quality/results/run_manifest.json": "8877732f71a1dcd9f64780c123f25dcd29ad588e41cb92cd7c5faf29148e8eac",
+    "experiments/exp010_external_s1/results/cross_cohort_summary.json": "ab6847a459f8b71d613151aa243eeb9b68b4e93a0b74941c4ee5c6707cfb60c3",
+    "experiments/exp010_external_s1/results/external_s1_drug_ranking.csv": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+    "experiments/exp011_prism_validation/results/candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "experiments/exp011_prism_validation/results/s2_prism_rank_correlation.csv": "215241a30600253eb39541b052f94859f5f46d21630c3d876cf54e71365b34b6",
+    "experiments/exp011_prism_validation/results/candidate_vs_random_test.csv": "caad12ed089c8971519fb76d9829023b74192aa8a94cbbf98a63d64bec2d0049",
+    "experiments/exp011_prism_validation/results/er_specificity_random_test.csv": "9c3ce9b8769acd8aa9f28d434124edd75eefb59dbb3fa77154166c462f0b3b98",
+    "experiments/exp011_prism_validation/results/run_manifest.json": "5ce358db5fd84d3fad1e66ed0805af4ab95eec3bc6008bf9235941ef3a1ef6c9"
+  },
+  "permutation_status": "completed",
+  "permutation_count": 2000,
+  "outputs": {
+    "experiment_status.csv": "6a8e55235d26c46707b6842eafcd4db054162b8c0f9e9f5eeebbc7b408746573",
+    "methodology_comparison.csv": "69c1419ab2640414201c6a951ba4d6e36ccd45e4aca73d9937a1f09fdab2a706",
+    "parameter_sensitivity_summary.csv": "2a6af0b72b8bd47e355ffc0e5a7c9cbd3701e265613f354703d434c0dd26fd53",
+    "candidate_evidence_integrated.csv": "7f6fa3fa0360493e218b52912f0552079549e13b3ab28cd596d701bf56506840",
+    "second_round_master_report.md": "b328551210fe7e3e93f3cce28171b3aa631f6b7c72d542b59895b4f1d68b219c",
+    "cross_experiment_summary.png": "8b25778c60090839e8c999772b4264ee88c5fe319ae465ae7589756a09471a30"
+  }
+}

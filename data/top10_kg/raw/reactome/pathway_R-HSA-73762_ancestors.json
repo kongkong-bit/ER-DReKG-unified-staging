@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:56.907601+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-73762/ancestors",
+    "response_sha256": "34d8a445894ed72958ab201f29e7f806e39588342ce39b25e34d13705664e398",
+    "response_bytes": 1185
+  },
+  "payload": [
+    [
+      {
+        "dbId": 73762,
+        "displayName": "RNA Polymerase I Transcription Initiation",
+        "stId": "R-HSA-73762",
+        "name": [
+          "RNA Polymerase I Transcription Initiation"
+        ],
+        "stIdVersion": "R-HSA-73762.6",
+        "oldStId": "REACT_953",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73864,
+        "displayName": "RNA Polymerase I Transcription",
+        "stId": "R-HSA-73864",
+        "name": [
+          "RNA Polymerase I Transcription"
+        ],
+        "stIdVersion": "R-HSA-73864.6",
+        "oldStId": "REACT_1309",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-73864.6",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2003-09-05",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2372,
+        "diagramHeight": 826,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

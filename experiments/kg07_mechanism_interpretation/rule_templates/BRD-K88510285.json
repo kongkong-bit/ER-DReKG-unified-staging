@@ -1,0 +1,384 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88510285",
+    "drug_name": "bortezomib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL325041",
+    "rank": "7"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1416b8f4163580beecf81e729885184af95ad1f0831982b3e1adc3be7eec3b11",
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 45,
+    "public_pathway_path_count": 8,
+    "s1_enrichment_overlap_path_count": 55,
+    "s1_deg_overlap_path_count": 9,
+    "unique_evidence_count": 134,
+    "verified_evidence_count": 134,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 6 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "69d66c1d8195127fe569655b55a03b2cf3d89b117fd27cdaa58733204e114a93",
+          "7d8d634b4228b7a21104645b3781f513487a10d30e20bc8ee0f0e3968f79ac21",
+          "894a7deb920bdfb2dfdf33c53151df5836a9b755898887fdb63779e705ac6507",
+          "8e9333a035c68d1814203d25b165c875f45827b325cc8ba56ea4686bdc3ab2c0",
+          "ced766a8076a7ff047e229106a3d327006e182d2a45b6c59cbe3946943b529de",
+          "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录药物与基因 ENSG00000173692 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000161057 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "0410c9b9cad59697dd69416372763faaa7b1453a108c845f0c977fabb49cc034"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000085563 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "056c3c5b60d5d51a28fe2563fb392daa6c24c72309407165851aaee6afd0e365"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000008018 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "05e26a0baa4428cab6e8fd8e68e3eb4633d0dd12f1c0793e57c6a8e90b481524"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100567 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1092ea3f71e07a6076ed6955e26e26912f7540fd2d88161f36ab27b30381f442"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000013275 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "14b091f98622f4af2728d3c59131200dfe1c3832bfdc4b891d98a09b46afb0f1"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000099341 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "14d1e2b25a8944d600e277e91bdd3453485d5b9dfdf3b0b2f3d51f904a5a37e1"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000222028 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "14fc3fe33dbab3b35afc2bac78931c21f85b77b13e6f73d5175f14a84e43a7ce"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000101182 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "18529d8ad97008881119edd64b319d4a4d03e7667bf605204f23c55f35a92a00"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000115233 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1cbdac070815c32d58ef254ec1a1cc8ff0f26b2e7e6e5c1acc4b9c99a2ae306d"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000142507 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1d64acd4599ffc6f93343b3229b0726954c556689dd66a78c7b0f97494880184"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000159352 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1e01f663a2e1a1661a26d0c4f4634be02477d57132577604e323ba879dfcfd99"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000159377 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "215bc302200f988f924166aa5f33abe1e4e47c27f7d8b44ba55064dfac9f7d95"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000175166 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "2495378d870f3f37cbd6fb6f61489d48b0e0730538149306b529e4862e80ed48"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000106588 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "2e28bb0c7373586db262d21250a27175c8ad71281a7f39214e71dee479095684"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000111700 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "2fabe9788cee379e4c7c094ff5a301f15d90444ff63ca3d973357f2fd495c7aa"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000163636 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "339c987e02269969523f358e42485e831a7da9bd972b18f8aab7b629e009fea7"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000160868 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "367d4c1e495efc59ec03c9ab505d74f8882a6c61259c2a7c2d984a8fdf2872f4"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000108671 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "3b2301bede90c2caa474b8320c1f626b245a9ff3cb1835ad75115f25a2dce164"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000138109 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "3ce7a78b48eb509acbd1a3fc3876c5fd2f8dd003a806c7fc8d1e20761b741820"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100197 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "44caa9c3edf6602bdd6e7b8b0b1bcf6746fc9bd3fc7e2a3f9c636aebeef54825"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100519 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "454a0eb85a13b1828d585789875a7273b6fa831ed9a0a96964b3faf6ac77b9bb"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000129084 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "60897efe8f53d2ac1a9eabb07e39c93efde840ce1d0aea22ab81de1f4391a03c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100764 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "64fb5f551da8870dd3f96a3363627737fb4590db1a6633197a7363f0495adbca"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000205220 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "6851ba0b3924b71488daaba18f07bda122b3063c47eabf029bbacd2909425f30"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000140505 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "6d77068d698f6edf2d0e4882728bec94099eb7f75637473e370c903dc216493d"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000165916 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7207eb7c97e3c274e10b3b9958c3aa4c01533b0fcd8ca9e1644af7876a7478b2"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000108344 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "768bfea2d8430a67b9a0bdd13e42ce8763f4d078f2844140e0df9c5ede1dd969"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000127922 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7a2c8c2d6fd0b97a906e48fad11ac90bdb1ad0546ca3ad2b0b191d966e0623df"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000204264 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7c007a1b72af48b68c5f705939b16d7bc9c94d8f74f6355d3457b69fbedb8b4a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100902 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "89b3fa3d65f19a9409f2064b28d960df590914f5e5b71d92c2caaf0371143a06"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000240065 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "8f3f285ca9c07b87d73b264accb723129425e96645ddee26b90e0c2397f7c803"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000197170 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "904e2f1a1ddcfa0392f9fba4bef68c2c17c150f3c3b65acfd8a21b5959de7604"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000136930 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "9e8285a66ddb4a0aae780698a5b775640f1954144f3996a0ba68b021232b4660"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000100804 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "a1d70abbaa14a934168fc20520fc4a9d3e8b1f89d225654075d1dc119b0a6bcc"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [],
+    "limitations": [
+      "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

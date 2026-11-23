@@ -1,0 +1,65 @@
+{
+  "audit_time_utc": "2026-11-12T04:46:48Z",
+  "input_file_count": 28,
+  "missing_inputs": [],
+  "s1_counts": {
+    "limma_rows": 21655,
+    "significant_rows": 7066,
+    "up_rows": 3422,
+    "down_rows": 3644,
+    "unique_symbols_case_sensitive": 21655,
+    "unique_symbols_upper": 21653
+  },
+  "lincs": {
+    "sig_info_rows": 118050,
+    "sig_metrics_rows": 118050,
+    "strict_join_rows": 92723,
+    "id_join_rows": 118050,
+    "pert_iname_mismatch_rows": 25327,
+    "sig_info_sig_ids_unique": true,
+    "sig_metrics_sig_ids_unique": true,
+    "gene_info_rows": 12328,
+    "gctx_shape": [
+      118050,
+      12328
+    ],
+    "gctx_col_ids": 118050,
+    "gctx_row_ids": 12328,
+    "gctx_col_mismatch_n": 0,
+    "gctx_row_mismatch_n": 0,
+    "mcf7_trt_cp_signatures_strict": 10581,
+    "mcf7_trt_cp_drugs_strict": 1460,
+    "mcf7_24h_signatures_strict": 9843,
+    "q2_signatures_historical_strict": 4761,
+    "q2_drugs_historical_strict": 1191,
+    "q2_signatures_by_stable_ids": 5861,
+    "q2_drugs_by_stable_ids": 1471,
+    "formal_score_rows": 9522,
+    "formal_condition_rows": 7430,
+    "q2_unmatched_score_signature_ids": 0,
+    "q2_id_only_extra_signature_ids": 1100
+  },
+  "exp006": {
+    "top50_rows": 50,
+    "all_candidates_rows": 819,
+    "distinct_top50_pert_id": 50
+  },
+  "checks": {
+    "S1_expected": true,
+    "GCTX_expected_shape": true,
+    "GCTX_COL_equals_sig_info_ids": true,
+    "GCTX_ROW_equals_gene_info_ids": true,
+    "Q2_historical_strict_join_expected": true,
+    "Q2_id_based_join_count": 5861,
+    "Q2_historical_ids_in_GCTX": true,
+    "formal_scores_A_B_rows": true,
+    "formal_scores_sig_ids_equal_historical_strict_Q2": true,
+    "condition_count_expected": true,
+    "condition_keys_unique": true,
+    "Exp006_Top50_rows": true,
+    "Exp006_all_rows": true,
+    "dose_conditions_expected": true
+  },
+  "all_checks_pass": true,
+  "hash_and_metadata_seconds": 11.5
+}

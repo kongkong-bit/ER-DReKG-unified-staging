@@ -1,0 +1,31 @@
+{
+  "source": "A+ frozen candidate set (1,032 perturbagens / 3,943 conditions)",
+  "scheme": "B",
+  "cell_id": "MCF7",
+  "pert_type": "trt_cp",
+  "time": "24 h",
+  "project_seed_perturbagens": 1032,
+  "project_seed_signatures": 4385,
+  "project_seed_condition_rows": 3943,
+  "signature_rows": 4385,
+  "unique_sig_id": 4385,
+  "n_up_values_observed": [
+    "100"
+  ],
+  "n_down_values_observed": [
+    "100"
+  ],
+  "effective_background_genes_observed": [
+    "10174"
+  ],
+  "quality_threshold": "distil_cc_q75 >= 0.2",
+  "seed_rule": "A+ candidate_drugs (1,032 unique perturbagens); retain all dose-specific condition rows; no per-drug best-dose selection",
+  "cross_dose_policy": "dose strata kept separate; no per-drug optimum or cross-dose rank",
+  "verified_input_sha256": {
+    "signature_scores.csv": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e",
+    "drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+    "s1_standardized_limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888"
+  },
+  "historical_import": false,
+  "build_note": "Derived by filtering Final01 final_signature_scores.csv to A+ condition keys; WTCS not recomputed"
+}

@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "60c94aaf3809d4ba8724aad349a53177455fcece7939e16987c8d6ab03265316",
+  "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438",
+  "latency_seconds": 19.445625600000312,
+  "usage": {
+    "completion_tokens": 2158,
+    "completion_tokens_details": {
+      "reasoning_tokens": 330
+    },
+    "prompt_tokens": 36531,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 38689
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "S2条件快照MCF7|trt_cp|10.0 um|24 h的WTCS_median=-0.4527，与claim数值一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.12与1.11 μM两条件快照n_signatures=1，加上claim1的10 μM共三个剂量条件均有签名记录"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "直接靶点路径c36d64… reported_actions含PARTIAL_AGONIST，OptimusKG来源MoA为PPARγ partial agonist；claim已按关联降级表述，方向与来源一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径5ee466… target_gene_id=ENSG00000160868，reported_actions=ENZYME（DRUG_BANK），证据完整"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径7a685a… target_gene_id=ENSG00000138115，reported_actions=ENZYME（DRUG_BANK），证据完整"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径快照含GO:0032370 positive regulation of lipid transport，adjusted_p≈0.0364"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径快照含GO:0032869 cellular response to insulin stimulus，adjusted_p≈0.00715"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径快照found_in_package=true，GO:0033344 cholesterol efflux，adjusted_p≈0.0312（该路径未列入coverage.paths数组，仅凭source_snapshot快照支持）"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两路径分别支持PPARG部分激动（c36d64…）与lipid storage富集（040c4c…，adjusted_p≈0.0112）；claim为假设性关联表述，未引入来源不支持的方向"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径快照GO:0045600 positive regulation of fat cell differentiation，与ENSG00000132170有HAS_ENRICHED_GENE链"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "6c7a3fc288c334e225bbefa8eda50131e7b59b4113dc86ea7053169ab40d142c",
+        "supports_claim": true,
+        "reason": "S2条件记录WTCS=-0.452738…，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "2cfeaaa2b83e494b63fd450c4e19efaeb2cd350d6ad8375feeb725beb6866684",
+        "supports_claim": true,
+        "reason": "0.12 μM条件记录，n_signatures=1"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "d6e4ae2bab249983481e566ab1d9e42077ae3cb40c3c5a2f3c8319bf3b102050",
+        "supports_claim": true,
+        "reason": "1.11 μM条件记录，n_signatures=1"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "c36d64800e4881122c756af86b5d328878fadff713bf0e3dd4361174f40e72ed",
+        "supports_claim": true,
+        "reason": "直接靶点路径含PARTIAL_AGONIST来源断言（Open Targets/PMID 22404217）"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "5ee466a47cc5ec996c0b7922eb03390bb20419e7c6b6d2650caf382b3442a309",
+        "supports_claim": true,
+        "reason": "ENSG00000160868的ENZYME关系断言存在"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "7a685a6606e4554e2cec8efe3157588636878064afbd4fc76e0f5a01c8dadbaf",
+        "supports_claim": true,
+        "reason": "ENSG00000138115的ENZYME关系断言存在"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "01e80a21fa049306aad14ad78979585b159fd9c43d8feb0499d07346f732f4cc",
+        "supports_claim": true,
+        "reason": "GO:0032370富集通路记录含HAS_ENRICHED_GENE/HAS_ENRICHED_PATHWAY边"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "13d9770e449e141f28c416c6ac5c69bb0463e05add9937ddbb6d437652798a0b",
+        "supports_claim": true,
+        "reason": "GO:0032869富集通路记录完整"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "0884051951f24caa6f249fba9a53afea5f5145a93a910b9ca4c7a0e5e31adb30",
+        "supports_claim": true,
+        "reason": "GO:0033344富集通路快照完整；注意该path_id未出现在coverage.paths数组中"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "040c4c8acaf0d3b466eb924884b9d1ef2d71e89519717e8f3bbcb13124167627",
+        "supports_claim": true,
+        "reason": "GO:0010883 regulation of lipid storage富集记录"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "c36d64800e4881122c756af86b5d328878fadff713bf0e3dd4361174f40e72ed",
+        "supports_claim": true,
+        "reason": "PPARG部分激动剂靶点路径"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "08fc6da435015fd370c8a15488a6f1a1a42314d4542208b49625db548e06bb27",
+        "supports_claim": true,
+        "reason": "GO:0045600 positive regulation of fat cell differentiation富集快照完整；该path_id未出现在coverage.paths数组中"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 11,
+        "accurate": true,
+        "reason": "coverage显示public_pathway_path_count=0且evidence_gaps含该表述"
+      },
+      {
+        "claim_index": 12,
+        "accurate": true,
+        "reason": "多条source_urls为空的记录同时保留source_record_id与source_release，表述与包内一致"
+      }
+    ],
+    "limitations": [
+      "GO:0033344与GO:0045600两条引用路径未列入coverage.paths数组，仅由source_snapshots支持",
+      "S2仅3个条件、每条件n_signatures=1，且WTCS在0.12/1.11 μM为0，dose_stability=low，支持集中于单一剂量",
+      "无独立验证证据（independent_validation类claim缺失）",
+      "ENZYME关系来源为DRUG_BANK通用断言，action_interpretation标注不推断方向",
+      "部分来源记录缺source URL"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:58:52.213704+00:00"
+}

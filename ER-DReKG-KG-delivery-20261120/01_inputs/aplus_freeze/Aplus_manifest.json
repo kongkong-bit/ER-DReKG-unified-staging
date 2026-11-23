@@ -1,0 +1,475 @@
+{
+  "phase": "0-3",
+  "title": "A+ 候选输入冻结与 Final01 原始数据恢复",
+  "run_utc": "2026-11-18T10:06:43.983652+00:00",
+  "run_local": "2026-11-18T18:06:43.983652+08:00",
+  "script": {
+    "file": "build_phase0_3_a_plus.py",
+    "version": "1.0.0",
+    "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\build_phase0_3_a_plus.py",
+    "sha256": "9afe9f2be234a675976f95766f47dd219b8732b065e31623e4ae755375382297"
+  },
+  "python": "3.13.14",
+  "execution_mode": "strictly read-only sources; new files only inside this output directory",
+  "output_directory": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze",
+  "candidate_set_definition": {
+    "scale": "A+",
+    "candidate_source": "experiments/final_results/results/final_corrected_condition_ranking.csv",
+    "candidate_unit": "pert_id",
+    "candidate_count": 1032,
+    "primary_dose": "10.0 um",
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "excluded_scales": [
+      "A (1,032 主剂量条件)",
+      "B (1,471 化合物)",
+      "C 行级视作 4,748 个药物"
+    ],
+    "rule": "Final01 主剂量排名的 1,032 个唯一 pert_id 作为候选身份集合"
+  },
+  "condition_filter_rule": {
+    "condition_source": "experiments/final_results/results/final_drug_condition_summary.csv",
+    "all_condition_rows": 4748,
+    "filter": "keep all rows whose pert_id is in the A+ candidate set; no dose filter, no dedup, no score aggregation",
+    "selected_rows": 3943,
+    "excluded_rows": 805,
+    "excluded_unique_pert_id": 439,
+    "expected_rows": 3943,
+    "matches_expected": true
+  },
+  "counts": {
+    "candidates": 1032,
+    "unique_candidate_pert_id": 1032,
+    "condition_records": 3943,
+    "links": 3943,
+    "conditions_per_candidate_min": 1,
+    "conditions_per_candidate_max": 6,
+    "conditions_per_candidate_mean": 3.8207,
+    "original_ranking_columns": 30,
+    "original_condition_columns": 15
+  },
+  "original_file_recovery": {
+    "physical_original_found": false,
+    "search_scope": [
+      "E:\\ full drive",
+      "<USER_HOME> full tree",
+      "GSE139038_archive/original_repo_main",
+      "GSE139038_archive/local_cache",
+      "GSE139038_archive/records",
+      "erdrekg_cache",
+      "backups / renamed copies / archives"
+    ],
+    "entries_scanned": 639468,
+    "recovery_rule": "LF -> CRLF byte restoration (project-established, archived and independently verified)",
+    "recovery_rule_evidence": {
+      "file": "<LOCAL_TEMP_CACHE>\\experiments\\exp010_external_s1\\results\\external_s1_drug_ranking.csv",
+      "expected_from_final_data_manifest": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+      "exists": true,
+      "bytes_lf": 481638,
+      "sha256_lf": "75e87b10fd7ae83b08fd94bb0568b34d98bbbef1df96526da76110eaf68f1b93",
+      "sha256_after_crlf_restore": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+      "match": true,
+      "archived_rule_evidence": "E:\\生物医学信息\\S1_优化工作\\GSE139038_archive\\records\\missing_or_incomplete_files.csv",
+      "archived_rule_text": "manifest 中的 SHA-256 对应 Windows CRLF 字节；把 LF 还原为 CRLF 后 21 项哈希精确一致"
+    },
+    "authority_file": "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\final_data_manifest.json",
+    "authority_cross_check": {
+      "final_corrected_condition_ranking.csv": {
+        "output_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+        "final_acceptance.deliverable_sha256": null,
+        "supplemental_input_sha256": null,
+        "cross_consistent": true
+      },
+      "final_drug_condition_summary.csv": {
+        "output_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+        "final_acceptance.deliverable_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+        "supplemental_input_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+        "cross_consistent": true
+      },
+      "final_signature_scores.csv": {
+        "output_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+        "final_acceptance.deliverable_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+        "supplemental_input_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+        "cross_consistent": true
+      },
+      "final_top10.csv": {
+        "output_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+        "final_acceptance.deliverable_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+        "supplemental_input_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+        "cross_consistent": true
+      }
+    },
+    "files": {
+      "final_corrected_condition_ranking.csv": {
+        "source_copy": "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\results\\final_corrected_condition_ranking.csv",
+        "source_copy_bytes": 309794,
+        "source_copy_sha256": "a71dc5dbbfdbbdc75ff1d0e1a717a085e76d7eebea55465ce64da5386e629210",
+        "source_copy_line_ending": "LF",
+        "source_copy_bom": false,
+        "recovered_path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_corrected_condition_ranking.csv",
+        "recovered_bytes": 310827,
+        "recovered_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+        "recovered_line_ending": "CRLF",
+        "recovered_bom": false,
+        "authority_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+        "sha256_match": true,
+        "raw_line_count_including_header": 1033,
+        "data_rows": 1032,
+        "columns": 30,
+        "transformation": "normalize CRLF->LF then LF->CRLF; no BOM, no encoding, no content change"
+      },
+      "final_drug_condition_summary.csv": {
+        "source_copy": "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\results\\final_drug_condition_summary.csv",
+        "source_copy_bytes": 536889,
+        "source_copy_sha256": "d82e868129525419d1df8c25f0f1726efa133de8c0f1fa7c7fd7e1cad9ee9351",
+        "source_copy_line_ending": "LF",
+        "source_copy_bom": false,
+        "recovered_path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_drug_condition_summary.csv",
+        "recovered_bytes": 541638,
+        "recovered_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+        "recovered_line_ending": "CRLF",
+        "recovered_bom": false,
+        "authority_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+        "sha256_match": true,
+        "raw_line_count_including_header": 4749,
+        "data_rows": 4748,
+        "columns": 15,
+        "transformation": "normalize CRLF->LF then LF->CRLF; no BOM, no encoding, no content change"
+      },
+      "final_signature_scores.csv": {
+        "source_copy": "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\results\\final_signature_scores.csv",
+        "source_copy_bytes": 1052130,
+        "source_copy_sha256": "6d9e7decdf8b17900537ef76153dc05773dfd98d5be70d0696a9d8f6c8303728",
+        "source_copy_line_ending": "LF",
+        "source_copy_bom": false,
+        "recovered_path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_signature_scores.csv",
+        "recovered_bytes": 1057992,
+        "recovered_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+        "recovered_line_ending": "CRLF",
+        "recovered_bom": false,
+        "authority_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+        "sha256_match": true,
+        "raw_line_count_including_header": 5862,
+        "data_rows": 5861,
+        "columns": 18,
+        "transformation": "normalize CRLF->LF then LF->CRLF; no BOM, no encoding, no content change"
+      },
+      "final_top10.csv": {
+        "source_copy": "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\results\\final_top10.csv",
+        "source_copy_bytes": 3330,
+        "source_copy_sha256": "44c2c2ed369e6557fb7b901d98c545556b63c7c2de299d36921b9f8d9adf4682",
+        "source_copy_line_ending": "LF",
+        "source_copy_bom": false,
+        "recovered_path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_top10.csv",
+        "recovered_bytes": 3341,
+        "recovered_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+        "recovered_line_ending": "CRLF",
+        "recovered_bom": false,
+        "authority_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+        "sha256_match": true,
+        "raw_line_count_including_header": 11,
+        "data_rows": 10,
+        "columns": 30,
+        "transformation": "normalize CRLF->LF then LF->CRLF; no BOM, no encoding, no content change"
+      }
+    },
+    "other_copies_registered": {
+      "final_top10.csv": [
+        {
+          "path": "<LOCAL_TEMP_CACHE>\\frontend\\public\\final-top10.csv",
+          "note": "与 results/final_top10.csv 字节完全相同（同一 LF 重新序列化副本的另一份拷贝），不是独立原始版本"
+        }
+      ]
+    },
+    "manifest_copies": [
+      "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\final_data_manifest.json",
+      "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\final_results_manifest.json",
+      "<LOCAL_TEMP_CACHE>\\experiments\\final_results\\results\\final_data_manifest.json"
+    ],
+    "all_four_sha256_match": true,
+    "identity_confirmed": true,
+    "no_score_or_rerank_recomputation": true,
+    "freeze_status": "FROZEN_CONDITIONAL",
+    "human_arbitration_required": true,
+    "arbitration_note": "物理原始 CRLF 文件未在磁盘找到；是否接受按既有项目规则恢复出的字节一致文件作为『找回原始文件』，需人工裁决",
+    "phase0_2_correction": "阶段 0-2 的『字节级不可复现』结论应修正为『行尾 LF/CRLF 差异，经既有规则还原后可精确复现』"
+  },
+  "inputs": [
+    {
+      "file": "phase0_2_diagnostic_report.md",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\phase0_2_diagnostic_report.md",
+      "exists": true,
+      "bytes": 35985,
+      "sha256": "c031a6be8be459fd18f7ac4aed33caa4bd9191d136e2facaeb8674c7aae07d9e"
+    },
+    {
+      "file": "final01_input_inventory.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\final01_input_inventory.csv",
+      "exists": true,
+      "bytes": 30536,
+      "sha256": "b7b8ce8444b103f6ae34c6951ea877d8e27ff50a99512ee45d2e73a4ec1e73f9"
+    },
+    {
+      "file": "candidate_input_validation.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\candidate_input_validation.csv",
+      "exists": true,
+      "bytes": 226144,
+      "sha256": "7e65b881284eb8a6997f39d41ff444dedf3ec7ddf0025730ac9423312c0e6561"
+    },
+    {
+      "file": "candidate_identity_coverage.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\candidate_identity_coverage.csv",
+      "exists": true,
+      "bytes": 392659,
+      "sha256": "5ee4473073c81e47142ad4b5eb335e7b10a180a4f51f4bae0e970a4df753c495"
+    },
+    {
+      "file": "input_scale_comparison.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\input_scale_comparison.csv",
+      "exists": true,
+      "bytes": 3375,
+      "sha256": "6eb3b908f46a025246ef1197d8806ea303cc27a93150444c9caf43b377222420"
+    },
+    {
+      "file": "local_data_availability.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\local_data_availability.csv",
+      "exists": true,
+      "bytes": 14699,
+      "sha256": "174cc795da63cc737418b87310ba10294435e01d87afd602046cac992b6c22df"
+    },
+    {
+      "file": "manifest.json",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\manifest.json",
+      "exists": true,
+      "bytes": 38019,
+      "sha256": "1b3a55e0828beb4a44c21576d0002fe2aeb9335d8ae1e2d2b88fc8354946ef34"
+    },
+    {
+      "file": "sha256.txt",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_2_candidate_input_diagnostic\\sha256.txt",
+      "exists": true,
+      "bytes": 1124,
+      "sha256": "51ceee18a0181280e97c6b25f6257c2cc1ba1c2a44dbfd0126dc7517b393f2aa"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "Aplus_candidate_drugs.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_candidate_drugs.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 453316,
+      "sha256": "814581b92d01cc48c6a80080c02bd3a3da35fb405d32514aab56d11e056ac106",
+      "rows": 1032
+    },
+    {
+      "file": "Aplus_condition_records.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_condition_records.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 968056,
+      "sha256": "c87dfe92648025fd038d32ecc76d32f05d8c65e0a9e0473f7d8663955707b74f",
+      "rows": 3943
+    },
+    {
+      "file": "Aplus_candidate_condition_links.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_candidate_condition_links.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 665820,
+      "sha256": "936ec508d15c400482a998f0b94dac540e8ba66949360f453f925dfa8d11eb09",
+      "rows": 3943
+    },
+    {
+      "file": "Aplus_input_lineage.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_input_lineage.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 16701,
+      "sha256": "48d35f0719bd1f6c687d3e398e70a64f3a82568bff368f146e7b4b3f3b86c997",
+      "rows": 36
+    },
+    {
+      "file": "Aplus_validation_report.md",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_validation_report.md",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 13278,
+      "sha256": "35a54ec7c0667b81146dbe3b775a70c79b8cf20bb7c0ac2c54ab5fc3fa5e46ea",
+      "rows": "n/a"
+    },
+    {
+      "file": "Aplus_manifest.json",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_manifest.json",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "exists_at_manifest_write_time": false,
+      "sha256": "RECORDED_IN_Aplus_sha256.txt",
+      "bytes": "NOT_RECORDED (self-reference)",
+      "rows": "n/a",
+      "generation_order": "written before Aplus_sha256.txt so its hash can be included there",
+      "note": "manifest 不记录自身哈希以避免循环；其哈希在 Aplus_sha256.txt 中实算记录"
+    },
+    {
+      "file": "Aplus_sha256.txt",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\Aplus_sha256.txt",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "exists_at_manifest_write_time": false,
+      "sha256": "SELF_EXCLUDED_BY_DEFINITION",
+      "bytes": "NOT_RECORDED (would be a predicted value)",
+      "rows": "n/a",
+      "generation_order": "written immediately after Aplus_manifest.json",
+      "note": "SHA-256 清单按惯例不含自身哈希；其内容所有条目均为最终落盘文件的实算值"
+    },
+    {
+      "file": "build_phase0_3_a_plus.py",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\build_phase0_3_a_plus.py",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 48848,
+      "sha256": "9afe9f2be234a675976f95766f47dd219b8732b065e31623e4ae755375382297",
+      "rows": "n/a"
+    },
+    {
+      "file": "recovered_originals/final_corrected_condition_ranking.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_corrected_condition_ranking.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 310827,
+      "sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "rows": 1032
+    },
+    {
+      "file": "recovered_originals/final_drug_condition_summary.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_drug_condition_summary.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 541638,
+      "sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "rows": 4748
+    },
+    {
+      "file": "recovered_originals/final_signature_scores.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_signature_scores.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 1057992,
+      "sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "rows": 5861
+    },
+    {
+      "file": "recovered_originals/final_top10.csv",
+      "path": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze\\recovered_originals\\final_top10.csv",
+      "exists": true,
+      "exists_in_final_delivery": true,
+      "exists_verified_by_read_only_final_check": true,
+      "bytes": 3341,
+      "sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "rows": 10
+    }
+  ],
+  "validation": {
+    "candidate_rows_equals_1032": true,
+    "candidate_pert_id_count": 1032,
+    "candidate_pert_id_unique": true,
+    "candidate_pert_id_nonempty": true,
+    "condition_rows_equals_3943": true,
+    "all_condition_pert_id_in_candidate_set": true,
+    "condition_pert_id_outside_list": [],
+    "all_1032_candidates_have_condition": true,
+    "candidates_with_zero_conditions": [],
+    "no_extra_candidates": true,
+    "extra_candidates_list": [],
+    "link_rows_equals_3943": true,
+    "link_bidirectional_traceable": true,
+    "original_ranking_fields_intact": true,
+    "original_condition_fields_intact": true,
+    "original_ranking_column_count": 30,
+    "original_condition_column_count": 15,
+    "no_duplicate_condition_keys_in_selection": true,
+    "duplicate_condition_keys": 0,
+    "empty_required_field_rows": 0,
+    "no_score_merging": true,
+    "no_score_merging_note": "条件表逐行保留各自 WTCS_median；主表仅携带 Final01 主剂量排名字段，未把多条件评分合并为单一药物分",
+    "before_filter": {
+      "condition_rows": 4748,
+      "unique_pert_id": 1471,
+      "duplicate_condition_keys": 0
+    },
+    "after_filter": {
+      "condition_rows": 3943,
+      "unique_pert_id": 1032,
+      "excluded_rows": 805,
+      "excluded_unique_pert_id": 439,
+      "duplicate_condition_keys": 0,
+      "conditions_per_candidate_min": 1,
+      "conditions_per_candidate_max": 6,
+      "conditions_per_candidate_mean": 3.8207,
+      "dose_distribution": {
+        "10.0 um": 1032,
+        "3.33 um": 681,
+        "1.11 um": 611,
+        "0.37 um": 550,
+        "0.12 um": 549,
+        "0.04 um": 520
+      }
+    },
+    "missing_values_per_column": {
+      "pert_id": 0,
+      "drug_name": 0,
+      "cell_id": 0,
+      "pert_type": 0,
+      "dose": 0,
+      "time": 0,
+      "n_signatures": 0,
+      "WTCS_median": 0,
+      "WTCS_mean": 0,
+      "WTCS_sd": 3592,
+      "WTCS_mad": 0,
+      "CC_median": 0,
+      "TAS_median": 0,
+      "replicates_median": 0,
+      "rank_within_condition": 0
+    },
+    "all_required_checks_passed": true,
+    "failed_checks": []
+  },
+  "database_probe": {
+    "postgresql_5432": "CLOSED (TimeoutError)",
+    "neo4j_bolt_7687": "CLOSED (TimeoutError)",
+    "neo4j_http_7474": "CLOSED (TimeoutError)",
+    "note": "仅记录，不尝试修复服务；本阶段不连接、不写入任何数据库"
+  },
+  "unresolved_items": [
+    "物理意义上的原始 CRLF 文件未在磁盘上找到；本次是通过项目既有 CRLF 还原规则确定性恢复出字节一致的原始文件。是否接受该方式等同于『找回原始文件』，需人工裁决。",
+    "阶段 0-2 判定的『字节级不可复现』结论应据此修正：差异仅为 LF/CRLF 行尾，内容未变。",
+    "缓存仓库与工作区均无 .git，git_commit 仍为 UNKNOWN；以 SHA-256 为唯一锚点。",
+    "实时 PostgreSQL/Neo4j 不可达，图内状态与 GraphBuild 基线仍沿用阶段 0-1 的 NOT_SELECTED。"
+  ],
+  "blockers_for_next_phase": [
+    "GraphBuild 入口 main.py:1552-1553 绑定文件名与 condition_summary_sha256；需生成平台 S2 条件摘要并登记溯源（本阶段禁止注册 AnalysisRun）。",
+    "字段契约不一致：本阶段条件表沿用 Final01 的 CC_median，GraphBuild 期望 quality_cc_median。",
+    "本地缺 GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz、data/optimuskg/3.2 下 5 个 parquet + source_manifest.json、pathway_gene_links.csv / go_up.csv / go_down.csv。",
+    "208 个候选在本地可用产物中无任何身份记录（不等于外部不存在）；136 个待定身份需 drug.parquet 才能判定。",
+    "50 / 240 / 1494 / 206 / Top50 等硬编码断言与 KG06 覆盖审计仍绑定历史 Top50。",
+    "人工裁决：若不接受字节恢复作为原始身份确认，则本冻结产物应视为条件性冻结，需在取得物理原件后重新确认。"
+  ],
+  "write_boundary_check": {
+    "allowed_output_dir": "E:\\生物医学信息\\S3_机制解释能力诊断\\phase0_3_a_plus_seed_freeze",
+    "note": "所有写入目标均为 OUT 或其 recovered_originals/ 子目录；未向其它目录写入任何文件"
+  },
+  "stop_condition": "阶段 0-3 完成，立即停止；未进入阶段 0-4，未修改代码/数据库/图谱"
+}

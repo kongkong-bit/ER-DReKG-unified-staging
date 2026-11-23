@@ -1,0 +1,216 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K21680192",
+    "drug_name": "mitoxantrone",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL58",
+    "rank": "8"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 7,
+    "public_pathway_path_count": 1,
+    "s1_enrichment_overlap_path_count": 24,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 59,
+    "verified_evidence_count": 59,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 细胞 0.37–10 µM 处理24h WTCS 中位数为负，最大约 -0.44",
+        "relation": "association",
+        "evidence_ids": [
+          "7c62b9d7a2e4bbd590d7401233f4ee29c383cf6d63f27b5a48d9ddfb64a7c425",
+          "c6f53d07c855e78e44d9133603ad9f7328e94b0603deb4f7fe93fe2b2897ab86",
+          "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "低剂量 0.04 与 0.12 µM 条件 WTCS 接近 0",
+        "relation": "association",
+        "evidence_ids": [
+          "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68",
+          "81ac147cd7b8c252c9fcb95e14986ce680934c1a5b8a430faa1e5693df2a68dd"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选药 mitoxantrone 在 S2 分析中排名 8（WTCS -0.438）",
+        "relation": "association",
+        "evidence_ids": [
+          "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱断言作用于 ENSG00000131747，报告动作 INHIBITOR/TARGET",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱断言与 ENSG00000138061 存在 ENZYME 类作用",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱断言与多个转运蛋白基因相关（ENSG00000118777 等）",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769",
+          "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482",
+          "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "靶点关联 REACT:R-HSA-4615885 DNA 复制蛋白 SUMO 化通路",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "S1 富集重叠：REACT:R-HSA-69278 细胞周期，有丝分裂",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "16b9299e2947bb7f4e3327e9f5974581f756a2929a3071138957dd8c79d3cd87"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "S1 富集重叠：GO:0000280 核分裂、GO:0007059 染色体分离",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "051fd5b7999bd81a3e66a1a59e9b1934ecf8ce3f12ada4305d7ea378e49a6e9e",
+          "20061e1acee2ec22fa9fcb4c2a5acd7d124488e0d4d5060df5637a39a4e00a91"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "抑制 ENSG00000131747 可能影响 DNA 复制与细胞周期通路",
+        "relation": "unknown",
+        "evidence_ids": [],
+        "path_ids": [
+          "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0",
+          "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "WTCS 分数为计算关联，非临床疗效证据",
+        "relation": "unknown",
+        "evidence_ids": [
+          "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "S2 筛选仅限 MCF7 单细胞系、trt_cp 扰动类型",
+      "部分上游断言缺 source URL，仅保留 source_record_id 与 source_release",
+      "通路标签为富集重叠，仅示关联非因果"
+    ],
+    "uncited_or_uncertain": [
+      "各靶点基因的基因符号未在输入中提供，仅给出 ENSG ID"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 18.476,
+  "usage": {
+    "completion_tokens": 1454,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 3480,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4934
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

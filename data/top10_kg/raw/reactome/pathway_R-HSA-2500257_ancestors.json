@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:50.204667+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2500257/ancestors",
+    "response_sha256": "05b600532cb9c01e31305206d79fab2e5ea8601945949e1ee5c2ef478faf79f9",
+    "response_bytes": 2475
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2500257,
+        "displayName": "Resolution of Sister Chromatid Cohesion",
+        "stId": "R-HSA-2500257",
+        "name": [
+          "Resolution of Sister Chromatid Cohesion"
+        ],
+        "stIdVersion": "R-HSA-2500257.7",
+        "oldStId": "REACT_150425",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-2500257.6",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-12-04",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 68877,
+        "displayName": "Mitotic Prometaphase",
+        "stId": "R-HSA-68877",
+        "name": [
+          "Mitotic Prometaphase"
+        ],
+        "stIdVersion": "R-HSA-68877.8",
+        "oldStId": "REACT_682",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1901,
+        "diagramHeight": 930,
+        "definition": "The stage in mitosis (in higher eukaryotes), following prophase, during which the nuclear envelope is disrupted and breaks into membrane vesicles, and the spindle microtubules enter the nuclear region. Kinetochores mature on each centromere and attach to some of the spindle microtubules. Kinetochore microtubules begin the process of aligning chromosomes in one plane halfway between the poles.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 68886,
+        "displayName": "M Phase",
+        "stId": "R-HSA-68886",
+        "name": [
+          "M Phase"
+        ],
+        "stIdVersion": "R-HSA-68886.5",
+        "oldStId": "REACT_910",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_910.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 288,
+        "diagramHeight": 364,
+        "definition": "The part of a standard cell cycle during which mitosis and cytokinesis take place.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 69278,
+        "displayName": "Cell Cycle, Mitotic",
+        "stId": "R-HSA-69278",
+        "name": [
+          "Cell Cycle, Mitotic"
+        ],
+        "stIdVersion": "R-HSA-69278.6",
+        "oldStId": "REACT_152",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 515,
+        "diagramHeight": 441,
+        "definition": "The most common eukaryotic cell cycle, in which a cell is duplicated without changing ploidy; comprises four successive phases called G1, S, G2, and M.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1640170,
+        "displayName": "Cell Cycle",
+        "stId": "R-HSA-1640170",
+        "name": [
+          "Cell Cycle"
+        ],
+        "stIdVersion": "R-HSA-1640170.5",
+        "oldStId": "REACT_115566",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 651,
+        "diagramHeight": 136,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

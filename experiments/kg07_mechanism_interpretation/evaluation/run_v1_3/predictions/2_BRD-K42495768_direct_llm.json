@@ -1,0 +1,268 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K42495768",
+    "drug_name": "tasisulam",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2110587",
+    "rank": "14"
+  },
+  "evidence_gaps": [
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "tasisulam (BRD-K42495768) 在 S2 表达逆转筛选中 ranked 14（WTCS score -0.4199），条件来源为 S2ConditionResult。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "EXP006 中该化合物在 MCF7 细胞、10.0 µM、24 h 条件下 WTCS median B 为 -0.4199（rank 14），median A 为 -0.3897（rank 48），数据集为 GSE70138。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "WTCS 分数为转录组表达逆转关联分数，仅反映与疾病特征的表达反向相关，不构成临床疗效证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "独立 S1 验证中位排名为 975（3 个条件），S1_B200 中位排名 930，Q2 条件中位排名 2482（3 个条件）；排名明显弱于原始 S2 筛选。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 细胞活性终点（-log2 fold change，与 S2 表达逆转为不同终点）显示 ER 阳性 8 株细胞系平均敏感性 0.0067、ER 阴性 12 株平均 0.2868，MCF7 敏感性 0.0207（1 个条件），敏感性排名 erpos 380 / mcf7 410。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无已知的化合物-靶点结合或抑制/激活断言：输入中未提供任何 curated target assertions 或知识图谱路径，因此无法陈述任何靶点或机制关系。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "剂量稳定性有限：3 个可用剂量中负向剂量比例 0.667，stability_grade 为 low、dose_stability 为 mixed_or_limited，且仅有单一 signature（n_signatures=1）。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "独立验证（S1 rank 975、Q2 rank 2482）与原始 S2 筛选排名（14）之间的不一致原因不明，无法据此确认或否定表达逆转的可重复性。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 敏感性数值与 WTCS 分数分别来自不同终点，二者不能合并解释为一致或不一致的疗效证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "输入未提供任何知识图谱路径、curated 靶点断言或疾病通路重叠数据，机制层面完全无证据。",
+      "S2 证据基于单一剂量-细胞-时间条件（MCF7, 10 µM, 24 h）的单 signature，稳定性评级为 low。",
+      "WTCS 分数、PRISM 细胞敏感性和外部验证排名均为筛选/关联观察，不代表临床疗效。"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K42495768"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-K42495768",
+        "GSE70138"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "WTCS"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank",
+        "Q2_condition_median_rank"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "erpos_mean_sensitivity",
+        "erneg_mean_sensitivity",
+        "mcf7_sensitivity",
+        "PRISM_endpoint"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "dose_stability",
+        "stability_grade",
+        "n_signatures"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank",
+        "Q2_condition_median_rank"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "WTCS_PRISM_agreement_interpretation"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 9.918,
+  "usage": {
+    "completion_tokens": 853,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 979,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1832
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true
+}

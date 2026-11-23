@@ -1,0 +1,22 @@
+[project]
+name = "diseasegraph-kg-etl"
+version = "0.1.0"
+description = "Audited graph bundle build and BioCypher normalization for DiseaseGraph Lab"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "biocypher==0.17.0",
+  "duckdb>=1.1,<2",
+  "neo4j==6.4.1",
+  "polars==2.1.0",
+  "pyarrow==26.0.1",
+]
+
+[dependency-groups]
+test = ["pytest==8.4.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

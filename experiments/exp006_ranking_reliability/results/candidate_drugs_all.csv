@@ -1,0 +1,820 @@
+rank,pert_id,drug_name,primary_dose,cell_id,pert_time,wtcs_median_B,wtcs_median_A,rank_A,rank_B,n_signatures,n_available_doses,negative_dose_fraction,dose_stability,qc_sensitivity_range,stability_grade,evidence_limitations,source_dataset
+1,BRD-K44227013,ponatinib,10.0 um,MCF7,24 h,-0.516654198727056,-0.5233035450881234,1.0,1.0,1,5,0.2,direction_flip,0.09830939185914711,low,single signature,GSE70138
+2,BRD-K16485616,mocetinostat,10.0 um,MCF7,24 h,-0.5059000597375047,-0.45255301556509353,7.0,2.0,1,6,0.6666666666666666,direction_flip,0.0076377252572466525,low,single signature,GSE70138
+3,BRD-K92093830,doxorubicin,10.0 um,MCF7,24 h,-0.4671693893200386,-0.4538192893695284,5.0,3.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+4,BRD-K11153516,iniparib,10.0 um,MCF7,24 h,-0.4552728740394695,-0.38011293984184713,58.0,4.0,1,4,0.75,direction_flip,0.3616502196256237,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+5,BRD-A00147595,balaglitazone,10.0 um,MCF7,24 h,-0.4527382413533389,-0.4693362466849389,3.0,5.0,1,3,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+6,BRD-K79090631,CGP-60474,10.0 um,MCF7,24 h,-0.4445168193756497,-0.4594325175838767,4.0,6.0,5,6,1.0,multi_dose_negative,0.0,high,,GSE70138
+7,BRD-K88510285,bortezomib,10.0 um,MCF7,24 h,-0.4412983304007251,-0.429475553533623,14.0,7.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+8,BRD-K21680192,mitoxantrone,10.0 um,MCF7,24 h,-0.4377026941807087,-0.452847285848555,6.0,8.0,6,6,0.6666666666666666,mixed_or_limited,0.0,medium,,GSE70138
+9,BRD-K88560311,rucaparib,10.0 um,MCF7,24 h,-0.42873065438280306,-0.4341705530838265,12.0,9.0,1,4,0.75,multi_dose_negative,0.03317629379073406,low,single signature,GSE70138
+10,BRD-K64800655,PHA-793887,10.0 um,MCF7,24 h,-0.428011667800888,-0.4513964150832711,8.0,10.0,2,5,0.6,direction_flip,0.12580586918422132,medium,,GSE70138
+11,BRD-K43586850,lacidipine,10.0 um,MCF7,24 h,-0.4244290597436198,-0.47448557594591323,2.0,11.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+12,BRD-K28822270,resminostat,10.0 um,MCF7,24 h,-0.42391028653557394,-0.420660591292255,21.0,12.0,1,5,0.6,mixed_or_limited,0.15787676340289436,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+13,BRD-K77908580,entinostat,10.0 um,MCF7,24 h,-0.4235389095222558,-0.4110830959086904,30.0,13.0,2,6,0.6666666666666666,direction_flip,0.023238349998587482,medium,,GSE70138
+14,BRD-K42495768,tasisulam,10.0 um,MCF7,24 h,-0.4199116227646095,-0.3897178196941081,48.0,14.0,1,3,0.6666666666666666,mixed_or_limited,0.12873924959531635,low,single signature,GSE70138
+15,BRD-A44448661,pentobarbital,10.0 um,MCF7,24 h,-0.41941035137617444,-0.43620252949364985,10.0,15.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+16,BRD-K13390322,AT-7519,10.0 um,MCF7,24 h,-0.41817790341297634,-0.436408459784246,9.0,16.0,2,6,0.6666666666666666,direction_flip,0.0,medium,,GSE70138
+17,BRD-K15010214,emedastine,10.0 um,MCF7,24 h,-0.4174132866706828,-0.3665975440475565,73.0,17.0,1,4,1.0,multi_dose_negative,0.0010015326606894193,low,single signature,GSE70138
+18,BRD-K93788137,PF-431396,10.0 um,MCF7,24 h,-0.4159166099812144,-0.4281811935774918,15.0,18.0,1,2,0.5,mixed_or_limited,0.255970782972347,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+19,BRD-K43389698,BMS-387032,10.0 um,MCF7,24 h,-0.4155559239037407,-0.42795820409520896,16.0,19.0,1,6,0.8333333333333334,direction_flip,0.0,low,single signature,GSE70138
+20,BRD-K67578145,GDC-0879,10.0 um,MCF7,24 h,-0.4155094450031725,-0.4338070392714515,13.0,20.0,1,5,0.6,mixed_or_limited,0.1971799588494364,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+21,BRD-K87909389,alvocidib,10.0 um,MCF7,24 h,-0.41521070227429957,-0.41299658183342425,28.0,21.0,2,6,1.0,multi_dose_negative,0.0,medium,,GSE70138
+22,BRD-K81418486,vorinostat,10.0 um,MCF7,24 h,-0.4144581445056414,-0.38654123921218997,53.0,22.0,4,6,0.3333333333333333,direction_flip,0.3146374504502553,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+23,BRD-K56844688,epirubicin,10.0 um,MCF7,24 h,-0.4141898207121921,-0.4272968810573563,17.0,23.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+24,BRD-A77216878,manumycin-a,10.0 um,MCF7,24 h,-0.41121492406095483,-0.39011510912928016,47.0,24.0,1,2,1.0,multi_dose_negative,0.12614757225023127,low,single signature,GSE70138
+25,BRD-K82941592,rosuvastatin,10.0 um,MCF7,24 h,-0.4062053158739659,-0.393449160660616,40.0,25.0,1,4,0.75,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+26,BRD-K78096648,oxiperomide,10.0 um,MCF7,24 h,-0.4046572904888693,-0.41630878699963325,25.0,26.0,1,3,0.3333333333333333,mixed_or_limited,0.4046572904888693,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+27,BRD-K81258678,triptolide,10.0 um,MCF7,24 h,-0.40172414666345124,-0.4006269038120454,34.0,27.0,1,5,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+28,BRD-A06935312,fusidic-acid,10.0 um,MCF7,24 h,-0.40052272860032145,-0.3732296793840404,65.0,28.0,1,5,0.6,direction_flip,0.4899720213508356,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+29,BRD-K19220233,JNK-9L,10.0 um,MCF7,24 h,-0.4004261325746542,-0.4107033779974386,31.0,29.0,1,6,0.6666666666666666,direction_flip,0.048003529168845205,low,single signature,GSE70138
+30,BRD-K02265150,amoxapine,10.0 um,MCF7,24 h,-0.4001466006170048,-0.39733744025384726,38.0,30.0,1,5,0.6,direction_flip,0.014083771285321012,low,single signature,GSE70138
+31,BRD-K09951645,dabrafenib,10.0 um,MCF7,24 h,-0.39552874862766557,-0.39931582959236006,35.0,31.0,2,5,0.6,mixed_or_limited,0.07644357288753628,medium,,GSE70138
+32,BRD-A68009927,daunorubicin,10.0 um,MCF7,24 h,-0.39487638590282886,-0.423177038279728,20.0,32.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+33,BRD-K96550715,linagliptin,10.0 um,MCF7,24 h,-0.3943910564100536,-0.37607091611012733,63.0,33.0,1,2,0.5,direction_flip,0.5361743349237625,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+34,BRD-K13646352,midostaurin,10.0 um,MCF7,24 h,-0.394189440920264,-0.4202699410211458,23.0,34.0,1,3,0.6666666666666666,mixed_or_limited,0.03151634710221596,low,single signature,GSE70138
+35,BRD-K17743125,belinostat,10.0 um,MCF7,24 h,-0.39355156644757633,-0.3931748281873708,41.0,35.0,2,6,0.8333333333333334,direction_flip,0.07767274306046834,medium,,GSE70138
+36,BRD-K56957086,dacinostat,10.0 um,MCF7,24 h,-0.39309925980953575,-0.3635958214703733,76.0,36.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+37,BRD-A28787076,inosine,10.0 um,MCF7,24 h,-0.3924045295517229,-0.3450622436316927,101.0,37.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+38,BRD-K15179879,carfilzomib,10.0 um,MCF7,24 h,-0.3921863950964627,-0.40906790893546763,32.0,38.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+39,BRD-K88789588,letrozole,10.0 um,MCF7,24 h,-0.39019682371901054,-0.4204169124268408,22.0,39.0,1,1,1.0,single_dose,0.10779056952726196,low,single signature; limited dose evidence,GSE70138
+40,BRD-K51575138,TPCA-1,10.0 um,MCF7,24 h,-0.39007244874224634,-0.37697890098702125,62.0,40.0,1,6,1.0,multi_dose_negative,0.022853388505030603,low,single signature,GSE70138
+41,BRD-K92571446,WZ-3105,10.0 um,MCF7,24 h,-0.389919576494854,-0.42334218083347763,19.0,41.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+42,BRD-K69932463,AZD-8055,10.0 um,MCF7,24 h,-0.389531198441624,-0.36133054913999185,78.0,42.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+43,BRD-K90382497,GW-843682X,10.0 um,MCF7,24 h,-0.38946924767664415,-0.34958266946704003,89.0,43.0,1,5,0.8,multi_dose_negative,0.13941616471158308,low,single signature,GSE70138
+44,BRD-K06569345,HG-5-88-01,10.0 um,MCF7,24 h,-0.38893730267806415,-0.35318648005226483,85.0,44.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+45,BRD-K29983336,rondual-kinase-inhibitor,10.0 um,MCF7,24 h,-0.38844860333740505,-0.4185325247502286,24.0,45.0,1,5,0.2,direction_flip,0.006199507225203071,low,single signature,GSE70138
+46,BRD-K07859598,GW-5074,10.0 um,MCF7,24 h,-0.38837292858252753,-0.4090578480722733,33.0,46.0,1,3,0.6666666666666666,direction_flip,0.044067599502448096,low,single signature,GSE70138
+47,BRD-K13662825,dinaciclib,10.0 um,MCF7,24 h,-0.3875995393798011,-0.41601641560470737,26.0,47.0,1,6,0.8333333333333334,direction_flip,0.0,low,single signature,GSE70138
+48,BRD-K71058253,luliconazole,10.0 um,MCF7,24 h,-0.3873704389269087,-0.4148846635520806,27.0,48.0,1,3,0.6666666666666666,mixed_or_limited,0.212218631223621,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+49,BRD-K13566078,BMS-345541,10.0 um,MCF7,24 h,-0.38544923187035196,-0.3707820815081122,69.0,49.0,1,5,0.6,direction_flip,0.09175642023923752,low,single signature,GSE70138
+50,BRD-K66847579,WZ-7043,10.0 um,MCF7,24 h,-0.3854281701557726,-0.35613531744793414,82.0,50.0,1,5,0.2,direction_flip,0.03151294923761361,low,single signature,GSE70138
+51,BRD-K72414522,AZD-5438,10.0 um,MCF7,24 h,-0.38369614277077746,-0.3906096873680768,46.0,51.0,2,6,0.6666666666666666,direction_flip,0.06036439241192168,medium,,GSE70138
+52,BRD-K67102207,phenylbutyrate,10.0 um,MCF7,24 h,-0.3818715616634298,-0.4354498712196214,11.0,52.0,1,4,0.75,multi_dose_negative,0.3061355334811823,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+53,BRD-K89704198,vincamine,10.0 um,MCF7,24 h,-0.380437162326162,-0.3452813640302988,100.0,53.0,1,2,1.0,multi_dose_negative,0.01679958699918571,low,single signature,GSE70138
+54,BRD-A39996500,radicicol,10.0 um,MCF7,24 h,-0.3744112431700014,-0.399201761535004,36.0,54.0,2,6,1.0,multi_dose_negative,0.0,medium,,GSE70138
+55,BRD-K99545815,PF-562271,10.0 um,MCF7,24 h,-0.3735454822071824,-0.37991190695719756,60.0,55.0,2,6,0.16666666666666666,direction_flip,0.21025323944056887,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+56,BRD-K14619660,altrenogest,10.0 um,MCF7,24 h,-0.37346607405627874,-0.38625409412964923,54.0,56.0,1,4,0.5,direction_flip,0.33464991623200724,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+57,BRD-A24396574,celastrol,10.0 um,MCF7,24 h,-0.37286803855856276,-0.38601564196591354,55.0,57.0,1,5,0.4,direction_flip,0.0,low,single signature,GSE70138
+58,BRD-K15318383,ammonium-glycyrrhizinate,10.0 um,MCF7,24 h,-0.37173775028005834,-0.4242592520053442,18.0,58.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+59,BRD-K01567962,pyrazolanthrone,10.0 um,MCF7,24 h,-0.37085339096837344,-0.3978120057451554,37.0,59.0,1,4,0.5,direction_flip,0.3434206519078047,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+60,BRD-K50387473,XMD-892,10.0 um,MCF7,24 h,-0.37083068213561055,-0.30073872762900467,149.0,60.0,1,6,0.3333333333333333,direction_flip,0.09596987671330998,low,single signature,GSE70138
+61,BRD-K64857848,XMD-885,10.0 um,MCF7,24 h,-0.3693390778782367,0.0,426.0,61.0,1,5,0.8,multi_dose_negative,0.11560931945132746,low,single signature,GSE70138
+62,BRD-K68392338,ZK-93426,10.0 um,MCF7,24 h,-0.3688662200904181,-0.38698184834389915,51.0,62.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+63,BRD-K28456624,seocalcitol,10.0 um,MCF7,24 h,-0.36846311856326164,-0.39097715945464395,44.0,63.0,1,6,0.6666666666666666,mixed_or_limited,0.06431482361823646,low,single signature,GSE70138
+64,BRD-A36331462,oprozomib,10.0 um,MCF7,24 h,-0.36749539988135577,-0.41284503085155927,29.0,64.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+65,BRD-A10070317,propranolol,10.0 um,MCF7,24 h,-0.3662337904102692,-0.39656027172676567,39.0,65.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+66,BRD-A02990301,lofexidine,10.0 um,MCF7,24 h,-0.3661860551153,-0.3908169206409392,45.0,66.0,1,2,1.0,multi_dose_negative,0.08461105507865002,low,single signature,GSE70138
+67,BRD-K25340465,OSI-930,10.0 um,MCF7,24 h,-0.3648682133653989,-0.3621497280119561,77.0,67.0,1,5,0.4,direction_flip,0.12934087384254753,low,single signature,GSE70138
+68,BRD-K26619122,thiocolchicoside,10.0 um,MCF7,24 h,-0.36321439300387426,-0.35629509604674553,81.0,68.0,1,2,1.0,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+69,BRD-K97643133,amiprilose,10.0 um,MCF7,24 h,-0.36301158411422285,-0.3417345443024409,107.0,69.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+70,BRD-K14529030,meisoindigo,10.0 um,MCF7,24 h,-0.361811924638247,-0.36939967917927513,71.0,70.0,1,6,0.5,mixed_or_limited,0.17743822364176437,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+71,BRD-K26818574,BIX-01294,10.0 um,MCF7,24 h,-0.3593432958116012,-0.2935529610234243,159.0,71.0,1,5,0.8,multi_dose_negative,0.0,low,single signature,GSE70138
+72,BRD-K25837718,josamycin,10.0 um,MCF7,24 h,-0.35723941424322136,-0.387344577344702,50.0,72.0,1,2,1.0,multi_dose_negative,0.22937376177470964,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+73,BRD-A27376179,lestaurtinib,10.0 um,MCF7,24 h,-0.35699139475585373,-0.38667246887348394,52.0,73.0,1,5,0.8,multi_dose_negative,0.056035532332629145,low,single signature,GSE70138
+74,BRD-K51313569,palbociclib,10.0 um,MCF7,24 h,-0.35597462923158785,-0.30451847354263606,147.0,74.0,2,6,1.0,multi_dose_negative,0.0,insufficient,,GSE70138
+75,BRD-K09549677,mibefradil,10.0 um,MCF7,24 h,-0.35544509271685254,-0.3418282967074008,106.0,75.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+76,BRD-K83972459,JWE-035,10.0 um,MCF7,24 h,-0.355187415143294,-0.2785500434711698,177.0,76.0,1,6,0.6666666666666666,direction_flip,0.014291107820226912,low,single signature,GSE70138
+77,BRD-K54472332,elvitegravir,10.0 um,MCF7,24 h,-0.35495169685011985,-0.38762356530490993,49.0,77.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+78,BRD-A95939040,sertaconazole,10.0 um,MCF7,24 h,-0.3545571051343707,0.0,426.0,78.0,1,3,0.6666666666666666,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+79,BRD-K07667918,linsitinib,10.0 um,MCF7,24 h,-0.3543869297938482,-0.385911905123743,56.0,79.0,1,6,0.6666666666666666,direction_flip,0.2528139357933768,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+80,BRD-K89997465,chlorpromazine,10.0 um,MCF7,24 h,-0.3537637151109251,-0.3692688022026638,72.0,80.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+81,BRD-A60245366,AS-601245,10.0 um,MCF7,24 h,-0.35073938230335366,-0.3464396760735721,95.0,81.0,1,5,0.2,direction_flip,0.06546045555315907,low,single signature,GSE70138
+82,BRD-K68870568,flumatinib,10.0 um,MCF7,24 h,-0.3500233877410996,-0.34432666226074665,102.0,82.0,1,5,0.8,multi_dose_negative,0.14222376987910337,low,single signature,GSE70138
+83,BRD-K24576554,AT-9283,10.0 um,MCF7,24 h,-0.34948834999420986,-0.3750042833369125,64.0,83.0,1,6,0.8333333333333334,direction_flip,0.0002746971664222553,low,single signature,GSE70138
+84,BRD-A33084557,tioconazole,10.0 um,MCF7,24 h,-0.34685844327370097,-0.3711224558857797,68.0,84.0,1,5,0.8,multi_dose_negative,0.006247790356008087,low,single signature,GSE70138
+85,BRD-K01436366,XMD-1150,10.0 um,MCF7,24 h,-0.3459725611826938,-0.29596950385233745,156.0,85.0,1,5,0.2,direction_flip,0.13065822402516714,low,single signature,GSE70138
+86,BRD-K61250553,loperamide,10.0 um,MCF7,24 h,-0.3457753189429503,-0.28103403676612315,174.0,86.0,1,3,0.6666666666666666,mixed_or_limited,0.1531978231205654,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+87,BRD-K73440166,cinaciguat,10.0 um,MCF7,24 h,-0.3445082615592642,-0.35350582243407563,83.0,87.0,1,5,0.4,direction_flip,0.2560650180570928,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+88,BRD-K57282030,JW-7-24-1,10.0 um,MCF7,24 h,-0.3436488716584687,-0.36462242017527363,75.0,88.0,1,5,0.4,direction_flip,0.3436488716584687,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+89,BRD-K85402309,dovitinib,10.0 um,MCF7,24 h,-0.34285843736467875,-0.353400048523528,84.0,89.0,1,4,0.75,multi_dose_negative,0.014505298031341207,low,single signature,GSE70138
+90,BRD-K95921201,reserpine,10.0 um,MCF7,24 h,-0.3417826837485711,-0.34717232392171304,94.0,90.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+91,BRD-K06240250,rilpivirine,10.0 um,MCF7,24 h,-0.341719097124475,-0.34626606668996207,96.0,91.0,1,5,0.6,mixed_or_limited,0.0,low,single signature,GSE70138
+92,BRD-A91699651,chloroquine,10.0 um,MCF7,24 h,-0.3395627417904853,-0.3799976403797767,59.0,92.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+93,BRD-K37890730,camptothecin,10.0 um,MCF7,24 h,-0.3384712616243154,-0.3461421745712048,97.0,93.0,1,6,0.16666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+94,BRD-K24515980,QL-XI-92,10.0 um,MCF7,24 h,-0.3380227704658535,-0.3481193250565703,92.0,94.0,1,4,0.25,direction_flip,0.3060987892401048,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+95,BRD-K22936972,diphenylpyraline,10.0 um,MCF7,24 h,-0.33780343577207433,-0.34607693472285583,98.0,95.0,1,3,0.3333333333333333,direction_flip,0.5898721593081939,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+96,BRD-A31159102,fluoxetine,10.0 um,MCF7,24 h,-0.3375589772228409,-0.3409591587822598,108.0,96.0,1,2,1.0,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+97,BRD-K49404994,levetiracetam,10.0 um,MCF7,24 h,-0.3375091819548297,-0.32728542126488575,128.0,97.0,1,2,0.5,direction_flip,0.2988640885513496,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+98,BRD-A61221616,medroxyprogesterone-acetate,10.0 um,MCF7,24 h,-0.3369492686736073,-0.37315187341908546,66.0,98.0,1,4,0.5,mixed_or_limited,0.13335126313070356,low,single signature,GSE70138
+99,BRD-K93747373,HG-5-113-01,10.0 um,MCF7,24 h,-0.336732450795472,-0.3383437764737758,115.0,99.0,1,5,0.8,multi_dose_negative,0.03584978405858025,low,single signature,GSE70138
+100,BRD-K97010173,deferasirox,10.0 um,MCF7,24 h,-0.336680152811712,-0.32507338671996366,130.0,100.0,1,4,0.25,direction_flip,0.336680152811712,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+101,BRD-K11399644,phenformin,10.0 um,MCF7,24 h,-0.33654904020704507,-0.34767000085506145,93.0,101.0,1,2,1.0,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+102,BRD-K07572174,curcumin,10.0 um,MCF7,24 h,-0.3359601397173051,-0.3405627004488586,109.0,102.0,1,1,1.0,single_dose,0.20389050232807276,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+103,BRD-K18895904,olanzapine,10.0 um,MCF7,24 h,-0.3349936652406732,-0.3388380775463765,114.0,103.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+104,BRD-K18922609,neostigmine,10.0 um,MCF7,24 h,-0.3340163423422722,-0.3841607777745214,57.0,104.0,1,3,0.6666666666666666,mixed_or_limited,0.20586226333463298,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+105,BRD-K99964838,bosutinib,10.0 um,MCF7,24 h,-0.33345388388054714,-0.31222544310941325,140.0,105.0,2,6,0.6666666666666666,direction_flip,0.10678894314681558,insufficient,,GSE70138
+106,BRD-K04853698,LDN-193189,10.0 um,MCF7,24 h,-0.3333002100206283,-0.3660148047186118,74.0,106.0,1,6,0.16666666666666666,direction_flip,0.009228640179292646,low,single signature,GSE70138
+107,BRD-K59369769,tozasertib,10.0 um,MCF7,24 h,-0.3332454496406335,-0.19476556908534515,257.0,107.0,2,6,0.8333333333333334,direction_flip,0.004941113070140113,insufficient,,GSE70138
+108,BRD-A98702003,carbenoxolone,10.0 um,MCF7,24 h,-0.3317853013419808,-0.34376043444905857,103.0,108.0,1,4,0.75,direction_flip,0.08611145676109208,low,single signature,GSE70138
+109,BRD-A19952358,closantel,10.0 um,MCF7,24 h,-0.3296729438618433,-0.34968781994132697,88.0,109.0,1,3,0.6666666666666666,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+110,BRD-K53281329,SYK-inhibitor,10.0 um,MCF7,24 h,-0.3292999430300625,-0.3570701293150996,80.0,110.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+111,BRD-K02992638,lamivudine,10.0 um,MCF7,24 h,-0.32926047315727713,-0.2903216786123307,164.0,111.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+112,BRD-K99749624,linifanib,10.0 um,MCF7,24 h,-0.32903256860071856,-0.3605475042856846,79.0,112.0,2,6,0.16666666666666666,direction_flip,0.08118958396988618,insufficient,,GSE70138
+113,BRD-K76841105,tazarotene,10.0 um,MCF7,24 h,-0.3275419890227764,-0.3404102921925377,110.0,113.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+114,BRD-A19500257,geldanamycin,10.0 um,MCF7,24 h,-0.3270510627618414,-0.2941382128981821,158.0,114.0,2,6,0.16666666666666666,direction_flip,0.0,insufficient,,GSE70138
+115,BRD-K70642949,GSK-2334470,10.0 um,MCF7,24 h,-0.3270075978633691,-0.3396219990079572,112.0,115.0,1,6,0.3333333333333333,direction_flip,0.039216766619735305,low,single signature,GSE70138
+116,BRD-K07220430,cinnarizine,10.0 um,MCF7,24 h,-0.32685929455265944,-0.2808771177621782,175.0,116.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+117,BRD-K22096725,ALW-II-49-7,10.0 um,MCF7,24 h,-0.32599969315057,-0.3703171139193645,70.0,117.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+118,BRD-K38183498,clonazepam,10.0 um,MCF7,24 h,-0.32569507592645774,-0.3419984837853738,105.0,118.0,1,3,0.3333333333333333,direction_flip,0.29759849118957393,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+119,BRD-A12994259,pomalidomide,10.0 um,MCF7,24 h,-0.32549171163566326,-0.37884097651792015,61.0,119.0,1,6,0.5,direction_flip,0.13153860638978387,low,single signature,GSE70138
+120,BRD-K13296708,rimonabant,10.0 um,MCF7,24 h,-0.3252388528670821,-0.3187119761313867,135.0,120.0,1,4,0.75,multi_dose_negative,0.036277134979642384,low,single signature,GSE70138
+121,BRD-K42098891,protriptyline,10.0 um,MCF7,24 h,-0.32372375425251987,-0.30021694628276074,150.0,121.0,1,1,1.0,single_dose,0.16186187712625993,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+122,BRD-K06858286,cabazitaxel,10.0 um,MCF7,24 h,-0.3231068817500147,-0.34865308964505753,90.0,122.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+123,BRD-K51033547,tramadol,10.0 um,MCF7,24 h,-0.3227859245823197,-0.3513007463145804,86.0,123.0,1,4,0.5,mixed_or_limited,0.310593914772912,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+124,BRD-K59058766,chlorprothixene,10.0 um,MCF7,24 h,-0.322249287841584,-0.2778420764188191,178.0,124.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+125,BRD-A75479906,rimantadine,10.0 um,MCF7,24 h,-0.320113706730894,-0.39294206793699843,42.0,125.0,1,5,0.4,mixed_or_limited,0.13801347571184758,low,single signature,GSE70138
+126,BRD-K36740062,GSK-1070916,10.0 um,MCF7,24 h,-0.3180370252510487,-0.14506812995080065,267.0,126.0,2,6,0.6666666666666666,direction_flip,0.0,insufficient,,GSE70138
+127,BRD-K09132007,D-4476,10.0 um,MCF7,24 h,-0.3179474924687908,-0.34575618678105224,99.0,127.0,1,5,0.4,direction_flip,0.3997034894589916,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+128,BRD-K15916496,clotrimazole,10.0 um,MCF7,24 h,-0.31784898272355844,-0.3713152361479347,67.0,128.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+129,BRD-A61304759,tanespimycin,10.0 um,MCF7,24 h,-0.31684628825420147,-0.323578776339835,132.0,129.0,3,1,1.0,single_dose,0.0,low,; limited dose evidence,GSE70138
+130,BRD-A62525898,prednisone,10.0 um,MCF7,24 h,-0.3166803052621084,-0.33214288454182234,124.0,130.0,1,3,0.6666666666666666,direction_flip,0.028235444702489454,low,single signature,GSE70138
+131,BRD-A19195498,trimipramine,10.0 um,MCF7,24 h,-0.3164669978314271,-0.33407126971624135,122.0,131.0,1,3,0.6666666666666666,mixed_or_limited,0.24369409091402128,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+132,BRD-K03194791,roflumilast,10.0 um,MCF7,24 h,-0.3161272881078905,-0.29420318062497597,157.0,132.0,1,4,0.5,direction_flip,0.050396694309026574,low,single signature,GSE70138
+133,BRD-K47983010,BX-795,10.0 um,MCF7,24 h,-0.3145016380262483,-0.34814487096174423,91.0,133.0,1,5,0.8,direction_flip,0.050374090393369375,low,single signature,GSE70138
+134,BRD-K76908866,CP-724714,10.0 um,MCF7,24 h,-0.31371414845233503,0.0,426.0,134.0,1,2,1.0,multi_dose_negative,0.0633833572233991,low,single signature,GSE70138
+135,BRD-K09078998,deforolimus,10.0 um,MCF7,24 h,-0.31361324853919303,-0.3914992344579622,43.0,135.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+136,BRD-K55748775,SCH-28080,10.0 um,MCF7,24 h,-0.31278769932268186,0.0,426.0,136.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+137,BRD-K52313696,tacedinaline,10.0 um,MCF7,24 h,-0.312237468948045,-0.26766894375908756,193.0,137.0,1,4,0.5,direction_flip,0.312237468948045,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+138,BRD-K43578482,defactinib,10.0 um,MCF7,24 h,-0.31176333855426586,-0.3197198795792501,134.0,138.0,1,4,0.75,multi_dose_negative,0.0,low,single signature,GSE70138
+139,BRD-K76703230,YM-155,10.0 um,MCF7,24 h,-0.3110038310607771,-0.350300223897552,87.0,139.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+140,BRD-K56614220,clofazimine,10.0 um,MCF7,24 h,-0.31045806871164816,-0.3250655627554095,131.0,140.0,1,2,0.5,mixed_or_limited,0.15522903435582408,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+141,BRD-K13356952,methazolamide,10.0 um,MCF7,24 h,-0.3101748939173303,-0.29705494026496637,155.0,141.0,1,4,0.25,direction_flip,0.15508744695866514,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+142,BRD-A00218260,flutrimazole,10.0 um,MCF7,24 h,-0.3087644791921801,-0.3379140313683482,117.0,142.0,1,3,0.3333333333333333,direction_flip,0.3087644791921801,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+143,BRD-A37780065,triamcinolone,10.0 um,MCF7,24 h,-0.30803294624760047,-0.26914027300934856,189.0,143.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+144,BRD-A97808748,spironolactone,10.0 um,MCF7,24 h,-0.3071506939440608,-0.3171891244993671,137.0,144.0,1,2,1.0,multi_dose_negative,0.027531883762834497,low,single signature,GSE70138
+145,BRD-K85606544,neratinib,10.0 um,MCF7,24 h,-0.30665122835046255,-0.16382249791378245,266.0,145.0,2,4,1.0,multi_dose_negative,0.18243204666865664,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+146,BRD-K71221037,birinapant,10.0 um,MCF7,24 h,-0.3060847441463373,-0.26727708126911043,194.0,146.0,1,5,0.4,direction_flip,0.0,low,single signature,GSE70138
+147,BRD-A68493689,simeprevir,10.0 um,MCF7,24 h,-0.30340723488986393,-0.30722871341296887,143.0,147.0,1,2,0.5,mixed_or_limited,0.30340723488986393,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+148,BRD-A33692381,zidovudine,10.0 um,MCF7,24 h,-0.30301078701901574,-0.2856251013688241,167.0,148.0,1,2,1.0,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+149,BRD-K88025533,fingolimod,10.0 um,MCF7,24 h,-0.3018602006139008,-0.34003859071368736,111.0,149.0,1,2,0.5,direction_flip,0.567146801402354,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+150,BRD-K03406345,azacitidine,10.0 um,MCF7,24 h,-0.30125400442772016,-0.32141889930887935,133.0,150.0,1,6,1.0,multi_dose_negative,0.0,low,single signature,GSE70138
+151,BRD-A62879835,rifaximin,10.0 um,MCF7,24 h,-0.30084890579983875,-0.3382811452804518,116.0,151.0,1,3,1.0,multi_dose_negative,0.009048345754080644,low,single signature,GSE70138
+152,BRD-A05821830,docetaxel,10.0 um,MCF7,24 h,-0.300794063941041,-0.27455507686167646,182.0,152.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+153,BRD-K68548958,BRD-K68548958,10.0 um,MCF7,24 h,-0.30063991033175086,-0.3093420471008742,142.0,153.0,1,6,1.0,multi_dose_negative,0.02596013967485722,low,single signature,GSE70138
+154,BRD-K15426076,iguratimod,10.0 um,MCF7,24 h,-0.3001633652220915,-0.29928721654705914,152.0,154.0,1,6,0.8333333333333334,multi_dose_negative,0.043074779222050025,low,single signature,GSE70138
+155,BRD-K29359156,ebselen,10.0 um,MCF7,24 h,-0.2999826033948363,-0.33407565856235,121.0,155.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+156,BRD-K43457670,acetazolamide,10.0 um,MCF7,24 h,-0.29957610296583514,-0.3355731255196697,120.0,156.0,1,4,0.75,multi_dose_negative,0.015894526765467654,low,single signature,GSE70138
+157,BRD-K76022557,r(-)-apomorphine,10.0 um,MCF7,24 h,-0.299545289978142,-0.3283395997728311,127.0,157.0,1,6,0.5,direction_flip,0.149772644989071,low,single signature,GSE70138
+158,BRD-K21283037,riluzole,10.0 um,MCF7,24 h,-0.2965443244652083,0.0,426.0,158.0,1,6,0.5,mixed_or_limited,0.05397095801924073,low,single signature,GSE70138
+159,BRD-A51964809,halofantrine,10.0 um,MCF7,24 h,-0.29555683344858974,-0.3388930432732422,113.0,159.0,1,5,0.2,direction_flip,0.14777841672429487,low,single signature,GSE70138
+160,BRD-K75037734,carbachol,10.0 um,MCF7,24 h,-0.29536227433169976,-0.31094120250468377,141.0,160.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+161,BRD-K41731458,triclosan,10.0 um,MCF7,24 h,-0.2949669607983046,-0.2656453773993618,196.0,161.0,1,3,0.3333333333333333,mixed_or_limited,0.2949669607983046,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+162,BRD-A24560335,efatutazone,10.0 um,MCF7,24 h,-0.29487037585251513,-0.2906686178603377,163.0,162.0,1,4,0.75,multi_dose_negative,0.01012101852562397,low,single signature,GSE70138
+163,BRD-K78010432,furosemide,10.0 um,MCF7,24 h,-0.29473984903043615,-0.32942650225740594,126.0,163.0,1,6,0.6666666666666666,direction_flip,0.022631403134248163,low,single signature,GSE70138
+164,BRD-A50675702,fipronil,10.0 um,MCF7,24 h,-0.29292954652990133,-0.2974106383047346,154.0,164.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+165,BRD-K56343971,vemurafenib,10.0 um,MCF7,24 h,-0.2912300240937937,-0.2901420698073099,165.0,165.0,2,4,0.75,multi_dose_negative,0.007764919793370129,insufficient,,GSE70138
+166,BRD-K72703948,ZM-447439,10.0 um,MCF7,24 h,-0.29061660641831355,-0.28341675893907037,170.0,166.0,1,6,0.6666666666666666,direction_flip,0.0,low,single signature,GSE70138
+167,BRD-K03095347,levosimendan,10.0 um,MCF7,24 h,-0.2898770371878232,-0.27251618916972414,185.0,167.0,1,1,1.0,single_dose,0.2898770371878232,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+168,BRD-A12230535,nutlin-3,10.0 um,MCF7,24 h,-0.2883740887522395,0.0,426.0,168.0,1,3,0.6666666666666666,mixed_or_limited,0.0022250417273477763,low,single signature,GSE70138
+169,BRD-K00152668,adarotene,10.0 um,MCF7,24 h,-0.2879486238244474,-0.33767253502126765,118.0,169.0,1,5,0.8,multi_dose_negative,0.03742779184993639,low,single signature,GSE70138
+170,BRD-A28746609,paclitaxel,10.0 um,MCF7,24 h,-0.2873382872549377,0.0,426.0,170.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+171,BRD-K53737926,amitriptyline,10.0 um,MCF7,24 h,-0.2866185200775103,-0.32630301151745633,129.0,171.0,1,3,0.6666666666666666,mixed_or_limited,0.2689502265395939,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+172,BRD-K49456274,pilaralisib,10.0 um,MCF7,24 h,-0.2864080582859711,-0.2352127043349589,228.0,172.0,1,3,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+173,BRD-K04801023,SAR-245408,10.0 um,MCF7,24 h,-0.28433314061544257,-0.27136204761620436,187.0,173.0,1,4,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+174,BRD-K73088654,floxuridine,10.0 um,MCF7,24 h,-0.28410839675421473,-0.27663398223291724,180.0,174.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+175,BRD-K88429204,pyrimethamine,10.0 um,MCF7,24 h,-0.2835047975116488,0.0,426.0,175.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+176,BRD-K28936863,ketotifen,10.0 um,MCF7,24 h,-0.2821818296708709,-0.28200398499776314,173.0,176.0,1,2,0.5,direction_flip,0.29602252918188376,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+177,BRD-K68232413,etizolam,10.0 um,MCF7,24 h,-0.28217843221627653,0.0,426.0,177.0,1,3,0.6666666666666666,direction_flip,0.28217843221627653,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+178,BRD-K64890080,BI-2536,10.0 um,MCF7,24 h,-0.28192466305252656,-0.274104426357926,183.0,178.0,2,6,1.0,multi_dose_negative,0.0,insufficient,,GSE70138
+179,BRD-K00603606,ticlopidine,10.0 um,MCF7,24 h,-0.2818274539729274,-0.31344629504152577,139.0,179.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+180,BRD-K12502280,TG-101348,10.0 um,MCF7,24 h,-0.2806288184296387,0.0,426.0,180.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+181,BRD-A37704979,SB-203580,10.0 um,MCF7,24 h,-0.279209746993997,-0.2502263515577836,219.0,181.0,1,4,0.75,direction_flip,0.3069637468058429,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+182,BRD-A52660433,tetrindole,10.0 um,MCF7,24 h,-0.278841016414934,0.0,426.0,182.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+183,BRD-K30466858,ellagic-acid,10.0 um,MCF7,24 h,-0.2780914402423162,-0.3372446019991473,119.0,183.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+184,BRD-A68739437,NPK76-II-72-1,10.0 um,MCF7,24 h,-0.2776891551535192,-0.27353182935168163,184.0,184.0,1,5,0.4,mixed_or_limited,0.10930293018386328,low,single signature,GSE70138
+185,BRD-K85925969,zalcitabine,10.0 um,MCF7,24 h,-0.27672673346157706,0.0,426.0,185.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+186,BRD-A33697453,fenticonazole,10.0 um,MCF7,24 h,-0.2756636723899177,-0.24838997226320808,220.0,186.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+187,BRD-K85833139,dehydroepiandrosterone,10.0 um,MCF7,24 h,-0.2740629187943643,-0.31420779532654197,138.0,187.0,1,2,1.0,multi_dose_negative,0.006950285258367883,low,single signature,GSE70138
+188,BRD-K05236810,luteolin,10.0 um,MCF7,24 h,-0.2729655263148933,0.0,426.0,188.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+189,BRD-K52911425,GDC-0941,10.0 um,MCF7,24 h,-0.27296220656786807,-0.16446096648949105,265.0,189.0,2,6,0.5,direction_flip,0.05659105132591874,insufficient,,GSE70138
+190,BRD-K19085898,darapladib,10.0 um,MCF7,24 h,-0.2705442463300557,0.0,426.0,190.0,1,1,1.0,single_dose,0.4001776618897893,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+191,BRD-K24844714,fluorouracil,10.0 um,MCF7,24 h,-0.27026873584442807,0.0,426.0,191.0,1,2,0.5,direction_flip,0.27555093733469893,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+192,BRD-K26011976,licochalcone-a,10.0 um,MCF7,24 h,-0.26977238388143965,-0.3179021124354944,136.0,192.0,1,2,1.0,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+193,BRD-K77987382,mebendazole,10.0 um,MCF7,24 h,-0.26743683477206126,-0.29234548494259166,162.0,193.0,1,5,0.4,mixed_or_limited,0.13371841738603063,low,single signature,GSE70138
+194,BRD-K68191783,ALW-II-38-3,10.0 um,MCF7,24 h,-0.2662179596016078,-0.28205789157253547,172.0,194.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+195,BRD-A90451247,KU-60019,10.0 um,MCF7,24 h,-0.26620495766197505,-0.25322398779481403,217.0,195.0,1,6,0.8333333333333334,direction_flip,0.036328554328103,low,single signature,GSE70138
+196,BRD-A07563059,bopindolol,10.0 um,MCF7,24 h,-0.265512105534761,-0.25356016213035515,216.0,196.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+197,BRD-K04264130,favipiravir,10.0 um,MCF7,24 h,-0.2649590994992164,-0.2643517310739848,197.0,197.0,1,3,0.3333333333333333,mixed_or_limited,0.2649590994992164,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+198,BRD-K42728290,NVP-BGJ398,10.0 um,MCF7,24 h,-0.2629880997521826,0.0,426.0,198.0,1,6,0.8333333333333334,direction_flip,0.0,low,single signature,GSE70138
+199,BRD-K63675182,triflupromazine,10.0 um,MCF7,24 h,-0.2629472038976114,-0.2572541043029787,212.0,199.0,1,2,0.5,direction_flip,0.2916047759362403,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+200,BRD-A43082555,loxoprofen,10.0 um,MCF7,24 h,-0.2626745920015434,0.0,426.0,200.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+201,BRD-K49468759,KIN001-266,10.0 um,MCF7,24 h,-0.2620818169627653,0.0,426.0,201.0,1,5,0.4,direction_flip,0.0,low,single signature,GSE70138
+202,BRD-K70490179,rimcazole,10.0 um,MCF7,24 h,-0.2620496523756393,-0.2622820644298959,199.0,202.0,1,3,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+203,BRD-K92241597,tosedostat,10.0 um,MCF7,24 h,-0.26144281986855716,0.0,426.0,203.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+204,BRD-A97674275,ranolazine,10.0 um,MCF7,24 h,-0.2610823995291194,-0.25918489048453375,207.0,204.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+205,BRD-A97701745,pindolol,10.0 um,MCF7,24 h,-0.25841353362385766,-0.30264195336183797,148.0,205.0,1,4,1.0,multi_dose_negative,0.10739149216924807,low,single signature,GSE70138
+206,BRD-A84481105,thioridazine,10.0 um,MCF7,24 h,-0.25815622644957537,0.0,426.0,206.0,1,2,0.5,mixed_or_limited,0.25815622644957537,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+207,BRD-A82396632,miconazole,10.0 um,MCF7,24 h,-0.2572857813082006,-0.23918093835438542,227.0,207.0,1,3,0.6666666666666666,direction_flip,0.05432540538219077,low,single signature,GSE70138
+208,BRD-K02314383,epitiostanol,10.0 um,MCF7,24 h,-0.2561481980405436,0.0,426.0,208.0,1,5,0.2,direction_flip,0.10751008597403758,low,single signature,GSE70138
+209,BRD-K07881437,danusertib,10.0 um,MCF7,24 h,-0.2551075552308396,0.0,426.0,209.0,1,6,0.5,mixed_or_limited,0.09931771721998149,low,single signature,GSE70138
+210,BRD-K97688263,benzamil,10.0 um,MCF7,24 h,-0.25500367004670965,0.0,426.0,210.0,1,5,0.4,direction_flip,0.12750183502335483,low,single signature,GSE70138
+211,BRD-K82967685,mirodenafil,10.0 um,MCF7,24 h,-0.25458605202012835,-0.2587891898804098,208.0,211.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+212,BRD-K84091759,candesartan,10.0 um,MCF7,24 h,-0.2539682765932076,0.0,426.0,212.0,1,1,1.0,single_dose,0.2539682765932076,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+213,BRD-A19795905,atovaquone,10.0 um,MCF7,24 h,-0.25290026187369163,-0.30485435026433705,146.0,213.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+214,BRD-A02367930,ethinyl-estradiol,10.0 um,MCF7,24 h,-0.2525602636147345,0.0,426.0,214.0,1,4,0.75,direction_flip,0.009541599078095653,low,single signature,GSE70138
+215,BRD-A29623586,anisodamine,10.0 um,MCF7,24 h,-0.2523968559289313,-0.2873155416161849,166.0,215.0,1,2,1.0,multi_dose_negative,0.01576150141886501,low,single signature,GSE70138
+216,BRD-K51143828,lurasidone,10.0 um,MCF7,24 h,-0.25174764620498924,-0.30510541956740267,145.0,216.0,1,1,1.0,single_dose,0.003345964685771974,low,single signature; limited dose evidence,GSE70138
+217,BRD-K43966364,penicillin-v-potassium,10.0 um,MCF7,24 h,-0.25133807867238345,0.0,426.0,217.0,1,5,0.2,direction_flip,0.25133807867238345,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+218,BRD-A29520968,acifran,10.0 um,MCF7,24 h,-0.25065103970565705,-0.2600909341830765,205.0,218.0,1,1,1.0,single_dose,0.3776607493880095,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+219,BRD-K33127281,adapalene,10.0 um,MCF7,24 h,-0.2464651520954625,0.0,426.0,219.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+220,BRD-K63504947,semaxanib,10.0 um,MCF7,24 h,-0.24449332239402732,-0.26886359723123404,190.0,220.0,1,4,0.75,direction_flip,0.04110259366727126,low,single signature,GSE70138
+221,BRD-K43797669,genistein,10.0 um,MCF7,24 h,-0.24437006631799563,-0.2836237104475984,169.0,221.0,1,3,0.6666666666666666,mixed_or_limited,0.14264702506491378,low,single signature,GSE70138
+222,BRD-K74141488,naftifine,10.0 um,MCF7,24 h,-0.24355889507209627,-0.2772825927036696,179.0,222.0,1,3,0.3333333333333333,direction_flip,0.15692231281599045,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+223,BRD-K96720755,relcovaptan,10.0 um,MCF7,24 h,-0.24180785210858297,-0.2621025080130865,200.0,223.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+224,BRD-K68867920,quetiapine,10.0 um,MCF7,24 h,-0.24143829467726832,0.0,426.0,224.0,1,2,1.0,multi_dose_negative,0.12774832221218507,low,single signature,GSE70138
+225,BRD-K31627533,rimexolone,10.0 um,MCF7,24 h,-0.24089776904169324,-0.28395721635085536,168.0,225.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+226,BRD-K89917372,retigabine,10.0 um,MCF7,24 h,-0.2389701821043323,-0.255817424835381,213.0,226.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+227,BRD-K44309363,dexniguldipine,10.0 um,MCF7,24 h,-0.23893086592815524,0.0,426.0,227.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+228,BRD-A69815203,cyclosporin-a,10.0 um,MCF7,24 h,-0.23892597044699454,0.0,426.0,228.0,1,3,0.6666666666666666,mixed_or_limited,0.19935975976625941,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+229,BRD-K03449891,foretinib,10.0 um,MCF7,24 h,-0.23856822903413405,-0.12292601574960152,268.0,229.0,2,6,0.5,direction_flip,0.07926651224110481,insufficient,,GSE70138
+230,BRD-K62734952,arglabin,10.0 um,MCF7,24 h,-0.23665065348344283,-0.2722479315133055,186.0,230.0,1,3,0.3333333333333333,mixed_or_limited,0.23665065348344283,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+231,BRD-A16296925,indobufen,10.0 um,MCF7,24 h,-0.2365129070351857,0.0,426.0,231.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+232,BRD-K49075727,nintedanib,10.0 um,MCF7,24 h,-0.23600271599946465,0.04158949372316327,579.0,232.0,2,5,0.6,direction_flip,0.13485839249690396,insufficient,,GSE70138
+233,BRD-K57569181,pentoxifylline,10.0 um,MCF7,24 h,-0.23595101963254858,-0.2467328762577559,223.0,233.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+234,BRD-K89732114,trifluoperazine,10.0 um,MCF7,24 h,-0.2354794861935846,-0.25761964344696114,211.0,234.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+235,BRD-K00610438,altanserin,10.0 um,MCF7,24 h,-0.2352102756719448,-0.2595253453658202,206.0,235.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+236,BRD-A30051119,amikacin,10.0 um,MCF7,24 h,-0.23463978983020606,-0.2578429912982316,210.0,236.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+237,BRD-A84575140,pimobendan,10.0 um,MCF7,24 h,-0.23447287487250779,-0.20123468055525104,252.0,237.0,1,3,0.6666666666666666,mixed_or_limited,5.925011357005294e-05,low,single signature,GSE70138
+238,BRD-K76964878,EX-527,10.0 um,MCF7,24 h,-0.23387202842465704,-0.24825547980595483,222.0,238.0,1,4,1.0,multi_dose_negative,0.01666044647983561,low,single signature,GSE70138
+239,BRD-K91290917,amodiaquine,10.0 um,MCF7,24 h,-0.23364103895344118,0.0,426.0,239.0,1,4,0.5,direction_flip,0.11682051947672059,low,single signature,GSE70138
+240,BRD-K41524689,paracetamol,10.0 um,MCF7,24 h,-0.23274750946757106,-0.2934940682208086,160.0,240.0,1,3,0.6666666666666666,direction_flip,0.6534902706797361,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+241,BRD-A15202882,milnacipran,10.0 um,MCF7,24 h,-0.23256377160272862,0.0,426.0,241.0,1,5,1.0,multi_dose_negative,0.018881294540503413,low,single signature,GSE70138
+242,BRD-A14886633,norgestrel,10.0 um,MCF7,24 h,-0.23245639286984598,0.0,426.0,242.0,1,4,0.75,multi_dose_negative,0.11622819643492299,low,single signature,GSE70138
+243,BRD-A36010170,amcinonide,10.0 um,MCF7,24 h,-0.23220211237828003,-0.2605481605480196,204.0,243.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+244,BRD-K41170226,deoxycholic-acid,10.0 um,MCF7,24 h,-0.2303393904403531,0.0,426.0,244.0,1,6,0.8333333333333334,multi_dose_negative,0.01163687741769387,low,single signature,GSE70138
+245,BRD-K25114078,aminoguanidine,10.0 um,MCF7,24 h,-0.22772938863757322,-0.22792784565894963,231.0,245.0,1,3,0.3333333333333333,mixed_or_limited,0.22772938863757322,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+246,BRD-K03289534,lersivirine,10.0 um,MCF7,24 h,-0.22744805364714504,0.0,426.0,246.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+247,BRD-K67783091,haloperidol,10.0 um,MCF7,24 h,-0.2266882922802626,0.0,426.0,247.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+248,BRD-K05870596,XMD-1499,10.0 um,MCF7,24 h,-0.22665454776656102,0.0,426.0,248.0,1,6,0.6666666666666666,mixed_or_limited,0.051618742150618346,low,single signature,GSE70138
+249,BRD-A97437073,rosiglitazone,10.0 um,MCF7,24 h,-0.22622077984016017,-0.2547557222865714,215.0,249.0,1,1,1.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+250,BRD-K99475619,genz-644282,10.0 um,MCF7,24 h,-0.22548462399530764,0.0,426.0,250.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+251,BRD-K24219278,amineptine,10.0 um,MCF7,24 h,-0.22431323606795428,0.0,426.0,251.0,1,6,0.3333333333333333,direction_flip,0.11215661803397714,low,single signature,GSE70138
+252,BRD-A92826379,lupanine,10.0 um,MCF7,24 h,-0.22257109971167371,0.0,426.0,252.0,1,3,0.3333333333333333,direction_flip,0.22257109971167371,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+253,BRD-K68488863,ENMD-2076,10.0 um,MCF7,24 h,-0.2212224367736746,0.0,426.0,253.0,1,4,0.5,mixed_or_limited,0.12446544365215911,low,single signature,GSE70138
+254,BRD-A72390365,choline-alfoscerate,10.0 um,MCF7,24 h,-0.22071922896534,0.0,426.0,254.0,1,4,0.25,direction_flip,0.3775864769747009,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+255,BRD-K35169477,taranabant,10.0 um,MCF7,24 h,-0.21972570972203154,0.1727288546576603,587.0,255.0,1,5,0.8,direction_flip,0.029405639347497403,low,single signature,GSE70138
+256,BRD-K44353683,nateglinide,10.0 um,MCF7,24 h,-0.2144475818090148,0.0,426.0,256.0,1,5,0.6,mixed_or_limited,0.10598493830817576,low,single signature,GSE70138
+257,BRD-K72951360,valrubicin,10.0 um,MCF7,24 h,-0.2115354085577939,-0.20727268664102869,249.0,257.0,1,5,1.0,multi_dose_negative,0.041606993734058295,low,single signature,GSE70138
+258,BRD-K64504314,dienogest,10.0 um,MCF7,24 h,-0.20962473457480305,-0.2607842774021248,203.0,258.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+259,BRD-K03384561,roquinimex,10.0 um,MCF7,24 h,-0.2081632858350328,0.0,426.0,259.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+260,BRD-K32536677,AGK-2,10.0 um,MCF7,24 h,-0.20733012753422916,0.0,426.0,260.0,1,6,0.6666666666666666,direction_flip,0.049176843246598045,low,single signature,GSE70138
+261,BRD-K61567297,resatorvid,10.0 um,MCF7,24 h,-0.20697696377276587,0.23365764976388745,620.0,261.0,1,6,0.8333333333333334,multi_dose_negative,0.06453472955106831,low,single signature,GSE70138
+262,BRD-K32977963,eugenol,10.0 um,MCF7,24 h,-0.2061106424614986,-0.22201420076115558,239.0,262.0,1,2,1.0,multi_dose_negative,0.13145772883135776,low,single signature,GSE70138
+263,BRD-K13926615,vardenafil,10.0 um,MCF7,24 h,-0.2032429358050105,0.0,426.0,263.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+264,BRD-K99252563,QL-XII-47,10.0 um,MCF7,24 h,-0.20129156229940748,-0.26294379753785785,198.0,264.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+265,BRD-K91900765,VX-745,10.0 um,MCF7,24 h,-0.20081067924522503,0.0,426.0,265.0,1,5,0.6,direction_flip,0.19403439163453745,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+266,BRD-K20745393,olprinone,10.0 um,MCF7,24 h,-0.19968448162033553,-0.2683106610702132,192.0,266.0,1,5,0.6,direction_flip,0.2535320213200624,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+267,BRD-K56301217,ABT-737,10.0 um,MCF7,24 h,-0.19906392793606065,0.22260863576706819,608.0,267.0,2,4,0.25,direction_flip,0.5075184792226213,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+268,BRD-K33379087,tivantinib,10.0 um,MCF7,24 h,-0.19851112472877927,-0.18026649275202655,261.0,268.0,2,6,0.8333333333333334,multi_dose_negative,0.0,insufficient,,GSE70138
+269,BRD-K52751261,TAK-715,10.0 um,MCF7,24 h,-0.1979074702362021,-0.1958428044730552,256.0,269.0,2,6,0.3333333333333333,direction_flip,0.20689548082206813,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+270,BRD-K75295174,alisertib,10.0 um,MCF7,24 h,-0.1974252464479997,0.0,426.0,270.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+271,BRD-K69001009,golvatinib,10.0 um,MCF7,24 h,-0.19473250040647055,0.0,426.0,271.0,1,4,0.5,direction_flip,0.30265869093793163,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+272,BRD-K06900071,tebipenem,10.0 um,MCF7,24 h,-0.19372190957599983,-0.2616173250830817,201.0,272.0,1,2,1.0,multi_dose_negative,0.1760671304028645,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+273,BRD-K30563334,rifabutin,10.0 um,MCF7,24 h,-0.19338182563528666,-0.1673612790530313,264.0,273.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+274,BRD-K54256913,MK-1775,10.0 um,MCF7,24 h,-0.1896980327684088,-0.19338569120711027,258.0,274.0,2,6,1.0,multi_dose_negative,0.013234301861978881,insufficient,,GSE70138
+275,BRD-K22822991,odanacatib,10.0 um,MCF7,24 h,-0.18907061529580926,0.0,426.0,275.0,1,1,1.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+276,BRD-K88378636,withaferin-a,10.0 um,MCF7,24 h,-0.188763820322927,-0.21208650714525015,247.0,276.0,2,5,1.0,multi_dose_negative,0.07694820122165796,insufficient,,GSE70138
+277,BRD-K41599323,lonafarnib,10.0 um,MCF7,24 h,-0.1847614912801907,-0.18171090998090403,259.0,277.0,1,6,0.5,direction_flip,0.09238074564009535,low,single signature,GSE70138
+278,BRD-K70924353,amtolmetin-guacil,10.0 um,MCF7,24 h,-0.18006734803228872,0.0,426.0,278.0,1,3,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+279,BRD-K19687926,lapatinib,10.0 um,MCF7,24 h,-0.16905012217191007,-0.18128493326057304,260.0,279.0,1,5,0.4,direction_flip,0.09845829130002555,low,single signature,GSE70138
+280,BRD-K23984367,sorafenib,10.0 um,MCF7,24 h,-0.15674322837756866,-0.016474918613905765,275.0,280.0,2,6,0.5,direction_flip,0.09945829320624484,insufficient,,GSE70138
+281,BRD-K87737963,CYT387,10.0 um,MCF7,24 h,-0.1512686257715451,-0.16993110154227944,263.0,281.0,2,5,0.2,direction_flip,0.1173080587338283,insufficient,,GSE70138
+282,BRD-K53414658,tivozanib,10.0 um,MCF7,24 h,-0.14751394092517653,-0.09956094003856229,273.0,282.0,2,6,0.6666666666666666,direction_flip,0.06679357317391107,insufficient,,GSE70138
+283,BRD-K78431006,crizotinib,10.0 um,MCF7,24 h,-0.13752023050491807,-0.11603440943641354,269.0,283.0,2,6,0.6666666666666666,direction_flip,0.10470479382763306,insufficient,,GSE70138
+284,BRD-K50168500,canertinib,10.0 um,MCF7,24 h,-0.12734388348626485,-0.10005387594859723,272.0,284.0,2,5,0.2,direction_flip,0.0075239195575188544,insufficient,,GSE70138
+285,BRD-K42191735,buparlisib,10.0 um,MCF7,24 h,-0.1250452357848421,0.0,426.0,285.0,2,5,1.0,multi_dose_negative,0.0011106093378246418,insufficient,,GSE70138
+286,BRD-K08799216,pelitinib,10.0 um,MCF7,24 h,-0.12297131122967747,-0.1079625791743734,270.0,286.0,2,4,0.5,direction_flip,0.13307336966026875,insufficient,,GSE70138
+287,BRD-K67868012,PI-103,10.0 um,MCF7,24 h,-0.11601703270371763,-0.22720969333390884,234.0,287.0,2,6,0.8333333333333334,direction_flip,0.0,insufficient,,GSE70138
+288,BRD-K68065987,MK-2206,10.0 um,MCF7,24 h,-0.11333188894154714,0.01850844648741104,577.0,288.0,2,6,0.5,direction_flip,0.2333333222626205,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+289,BRD-K19540840,saracatinib,10.0 um,MCF7,24 h,-0.10854730040815604,0.0,426.0,289.0,2,5,0.2,direction_flip,0.0,insufficient,,GSE70138
+290,BRD-K66538826,amuvatinib,10.0 um,MCF7,24 h,-0.043609938348392885,-0.004179053303567215,277.0,290.0,2,6,0.6666666666666666,direction_flip,0.1637329454321962,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+291,BRD-K92723993,imatinib,10.0 um,MCF7,24 h,-0.026398740765515807,0.1235480156802048,581.0,291.0,2,6,0.3333333333333333,direction_flip,0.20666690978142196,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+292,BRD-K04887706,AKT-inhibitor-1-2,10.0 um,MCF7,24 h,-0.00961380693787564,0.01093592091487497,576.0,292.0,2,3,1.0,multi_dose_negative,0.19851393269568135,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+293,BRD-K74065929,doramapimod,10.0 um,MCF7,24 h,-0.0021750815543731816,0.13747996979674962,583.0,293.0,2,6,0.6666666666666666,direction_flip,0.06446541687300468,insufficient,,GSE70138
+294,BRD-K05104363,PD-184352,10.0 um,MCF7,24 h,-0.0007514736303858294,-0.017989353564933058,274.0,294.0,2,6,0.16666666666666666,direction_flip,0.1973979110249391,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+295,BRD-K97746869,chlorpropamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+296,BRD-M80207679,nemonapride,10.0 um,MCF7,24 h,0.0,0.2828657822903924,681.0,442.0,1,4,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+297,BRD-A07815743,kakonein,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+298,BRD-A01636364,bupivacaine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+299,BRD-K91601245,mercaptopurine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.1919185024139102,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+300,BRD-K91822704,torcitabine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.1099788347963058,low,single signature,GSE70138
+301,BRD-K92213669,lomitapide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.17752158471898366,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+302,BRD-K96029467,alagebrium,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.15740620422118518,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+303,BRD-K96342952,tobramycin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+304,BRD-K97428065,netupitant,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+305,BRD-K19388745,colforsin-daproate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+306,BRD-K19416115,sitagliptin,10.0 um,MCF7,24 h,0.0,-0.2177012950026024,244.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+307,BRD-K17705806,JTC-801,10.0 um,MCF7,24 h,0.0,-0.21882202651878857,243.0,442.0,1,1,0.0,single_dose,0.14596924683088242,low,single signature; limited dose evidence,GSE70138
+308,BRD-K20897876,castanospermine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.1214129790277749,low,single signature,GSE70138
+309,BRD-K16478699,PLX-4720,10.0 um,MCF7,24 h,0.0,0.21771895221408893,606.0,442.0,1,5,0.0,mixed_or_limited,0.1067674835844554,low,single signature,GSE70138
+310,BRD-K93767137,oseltamivir-carboxylate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+311,BRD-K93461745,buspirone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.15151255627973248,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+312,BRD-K73368362,BIX-02189,10.0 um,MCF7,24 h,0.0,0.23212181894156073,617.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+313,BRD-K73691377,alprostadil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+314,BRD-K70401845,erlotinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.12346146988070268,low,single signature,GSE70138
+315,BRD-K70557564,zosuquidar,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.16117489850411876,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+316,BRD-K70778732,trazodone,10.0 um,MCF7,24 h,0.0,0.2745506717675478,668.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.22242533119640992,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+317,BRD-K70914287,BIBX-1382,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.11237690390761754,low,single signature,GSE70138
+318,BRD-K75699339,rizatriptan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+319,BRD-A51078674,diclofensine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+320,BRD-A55272860,sulpiride,10.0 um,MCF7,24 h,0.0,-0.22737345769840808,233.0,442.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+321,BRD-A55579717,cytisine,10.0 um,MCF7,24 h,0.0,-0.21730725751807473,245.0,442.0,1,4,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+322,BRD-A12077521,cefepime,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+323,BRD-K99451608,lopinavir,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+324,BRD-K99504665,goserelin-acetate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+325,BRD-K99604664,tanaproget,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.1200303847128784,low,single signature,GSE70138
+326,BRD-K93918653,quizartinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,2,6,0.8333333333333334,multi_dose_negative,0.22838248803399103,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+327,BRD-K27182532,metatinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+328,BRD-A22081593,sulmazole,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,direction_flip,0.2531752665956477,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+329,BRD-A22642447,licarbazepine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,direction_flip,0.3230007407066461,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+330,BRD-A23067620,itraconazole,10.0 um,MCF7,24 h,0.0,0.2986213242805619,703.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+331,BRD-A24191444,ifenprodil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+332,BRD-K88807631,elacridar,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.2469586654713788,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+333,BRD-K89014967,AS-703026,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.04153992777287985,low,single signature,GSE70138
+334,BRD-K89104321,gaboxadol,10.0 um,MCF7,24 h,0.0,0.2583697475068294,646.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+335,BRD-K94176593,TWS-119,10.0 um,MCF7,24 h,0.0,0.3753456273562514,780.0,442.0,1,5,0.2,direction_flip,0.3421386622118494,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+336,BRD-K95142244,talazoparib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+337,BRD-K95412502,istaroxime,10.0 um,MCF7,24 h,0.0,-0.2330351470741415,229.0,442.0,1,4,0.0,mixed_or_limited,0.11067522677001952,low,single signature,GSE70138
+338,BRD-K95435023,PHA-665752,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,mixed_or_limited,0.14507617324400662,low,single signature,GSE70138
+339,BRD-K21548250,moracizine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+340,BRD-K22848513,bardoxolone-methyl,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.5,mixed_or_limited,0.11297840707794846,low,single signature,GSE70138
+341,BRD-K23363278,CYT-997,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+342,BRD-K23499943,alvespimycin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+343,BRD-K30685142,levothyroxine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+344,BRD-K12040459,AT7867,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.1516869605620501,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+345,BRD-K12184916,NVP-BEZ235,10.0 um,MCF7,24 h,0.0,-0.10310196925894022,271.0,442.0,2,6,0.3333333333333333,direction_flip,0.0,insufficient,,GSE70138
+346,BRD-K12423485,griseofulvin,10.0 um,MCF7,24 h,0.0,-0.19619951282351455,255.0,442.0,1,3,0.0,mixed_or_limited,0.12214601035591233,low,single signature,GSE70138
+347,BRD-K12932420,YM-976,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,direction_flip,0.1475148484779347,low,single signature,GSE70138
+348,BRD-K12994359,valdecoxib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,mixed_or_limited,0.13359728071157534,low,single signature,GSE70138
+349,BRD-K24723746,solifenacin-succinate,10.0 um,MCF7,24 h,0.0,0.21551895271503566,604.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+350,BRD-K25204779,pritelivir,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+351,BRD-K08037784,arbutin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+352,BRD-K08547377,irinotecan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.1578968248144904,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+353,BRD-K09186807,KIN001-244,10.0 um,MCF7,24 h,0.0,-0.22016514813976762,242.0,442.0,1,2,0.0,mixed_or_limited,0.1409006325994684,low,single signature,GSE70138
+354,BRD-K09372874,merimepodib,10.0 um,MCF7,24 h,0.0,-0.22021939823523207,241.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+355,BRD-K09537769,NU-7026,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.5,mixed_or_limited,0.1963693184679808,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+356,BRD-K09991945,GSK-3-inhibitor-II,10.0 um,MCF7,24 h,0.0,-0.19951439956218905,254.0,442.0,1,6,0.16666666666666666,direction_flip,0.11976598163995014,low,single signature,GSE70138
+357,BRD-K11717138,benzbromarone,10.0 um,MCF7,24 h,0.0,-0.29265651857008956,161.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+358,BRD-K28428262,brivanib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+359,BRD-K28984613,dutasteride,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+360,BRD-K29582115,ziprasidone,10.0 um,MCF7,24 h,0.0,0.24617115763367187,632.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+361,BRD-K37385792,conivaptan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+362,BRD-K37561857,zardaverine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+363,BRD-K37694030,doxepin,10.0 um,MCF7,24 h,0.0,-0.28340216016075725,171.0,442.0,1,3,0.6666666666666666,mixed_or_limited,0.16598364753523537,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+364,BRD-K31092604,donitriptan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.6,mixed_or_limited,0.15608681799964066,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+365,BRD-A31095847,mozavaptan,10.0 um,MCF7,24 h,0.0,0.2514528183055072,639.0,442.0,1,1,0.0,single_dose,0.1430724236492455,low,single signature; limited dose evidence,GSE70138
+366,BRD-K85337334,otilonium,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+367,BRD-K85751432,refametinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+368,BRD-K86930074,cediranib,10.0 um,MCF7,24 h,0.0,0.3968869067075277,793.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+369,BRD-A19633847,perhexiline,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+370,BRD-A20119038,mecamylamine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+371,BRD-A20126139,medrysone,10.0 um,MCF7,24 h,0.0,-0.3424273286666265,104.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+372,BRD-A21584801,brivanib,10.0 um,MCF7,24 h,0.0,0.3032038130410172,708.0,442.0,1,5,0.0,mixed_or_limited,0.19653394934702578,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+373,BRD-A22032524,amlodipine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+374,BRD-K31111078,dimethyl-fumarate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+375,BRD-K31342827,bisindolylmaleimide,10.0 um,MCF7,24 h,0.0,0.27048869492375627,662.0,442.0,1,4,0.5,mixed_or_limited,0.10223681226565187,low,single signature,GSE70138
+376,BRD-K31385749,ivabradine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+377,BRD-K31447894,pravastatin,10.0 um,MCF7,24 h,0.0,-0.22742417182609737,232.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+378,BRD-K68132782,terbinafine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+379,BRD-K68164687,epothilone-b,10.0 um,MCF7,24 h,0.0,-0.27045224149151625,188.0,442.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+380,BRD-K68174511,torin-2,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+381,BRD-K68232650,lacosamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.1436133797032326,low,single signature,GSE70138
+382,BRD-K71035033,masitinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,2,4,0.25,direction_flip,0.011834613812621936,insufficient,,GSE70138
+383,BRD-K71075609,dorzolamide,10.0 um,MCF7,24 h,0.0,-0.2613912407461188,202.0,442.0,1,5,0.6,mixed_or_limited,0.2462106019759971,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+384,BRD-K71103788,duloxetine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+385,BRD-A63236097,andrographolide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.6,direction_flip,0.021132272437141386,low,single signature,GSE70138
+386,BRD-A64485570,trifluridine,10.0 um,MCF7,24 h,0.0,-0.22107406229957766,240.0,442.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+387,BRD-A67616246,levomequitazine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.6666666666666666,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+388,BRD-A67862938,naftidrofuryl,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,direction_flip,0.11196928800506027,low,single signature,GSE70138
+389,BRD-A70858459,estramustine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.13156274896544456,low,single signature,GSE70138
+390,BRD-K68346641,amsacrine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,mixed_or_limited,0.0,low,single signature,GSE70138
+391,BRD-K69116396,sertindole,10.0 um,MCF7,24 h,0.0,0.32788559769269404,739.0,442.0,1,3,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+392,BRD-K72636697,QL-X-138,10.0 um,MCF7,24 h,0.0,-0.24835408306242973,221.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+393,BRD-K73196317,urapidil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+394,BRD-K31928526,barasertib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+395,BRD-K32164935,tolazamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.6666666666666666,mixed_or_limited,0.14184815030941683,low,single signature,GSE70138
+396,BRD-K41438959,perampanel,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.8333333333333334,multi_dose_negative,0.0,low,single signature,GSE70138
+397,BRD-K05524748,dronedarone,10.0 um,MCF7,24 h,0.0,0.283798689417748,682.0,442.0,1,4,0.25,mixed_or_limited,0.0,low,single signature,GSE70138
+398,BRD-K06557128,voriconazole,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.6666666666666666,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+399,BRD-K33882852,ZK-93423,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.11113712173237797,low,single signature,GSE70138
+400,BRD-K34022604,clofarabine,10.0 um,MCF7,24 h,0.0,-0.2686554208702865,191.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+401,BRD-K35189033,levonorgestrel,10.0 um,MCF7,24 h,0.0,0.20310991009882687,599.0,442.0,1,5,0.0,mixed_or_limited,0.23468526959038166,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+402,BRD-K35245662,ciclesonide,10.0 um,MCF7,24 h,0.0,-0.21125118927541986,248.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+403,BRD-K35629949,SR-27897,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+404,BRD-K35960502,niclosamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+405,BRD-K36627727,tamibarotene,10.0 um,MCF7,24 h,0.0,-0.2785936853620262,176.0,442.0,1,6,0.0,mixed_or_limited,0.14450666679757654,low,single signature,GSE70138
+406,BRD-K03816923,rottlerin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.75,multi_dose_negative,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+407,BRD-K04185004,oxybuprocaine,10.0 um,MCF7,24 h,0.0,-0.22554486972801963,235.0,442.0,1,2,0.5,mixed_or_limited,0.2282011578698743,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+408,BRD-K04956647,nebivolol,10.0 um,MCF7,24 h,0.0,0.3914656167663835,790.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+409,BRD-A37288617,amfepramone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+410,BRD-A37959677,estrone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+411,BRD-A39390670,rabeprazole,10.0 um,MCF7,24 h,0.0,0.2651651311576497,653.0,442.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+412,BRD-K83720053,avagacestat,10.0 um,MCF7,24 h,0.0,-0.22473199274539551,236.0,442.0,1,2,0.5,mixed_or_limited,0.1254729898729432,low,single signature,GSE70138
+413,BRD-K83794243,palovarotene,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+414,BRD-K90195324,bazedoxifene,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+415,BRD-A26423207,sparfloxacin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+416,BRD-A29485665,bicalutamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+417,BRD-A29731977,17-hydroxyprogesterone-caproate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+418,BRD-A29901043,KIN001-127,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.09665478996011717,low,single signature,GSE70138
+419,BRD-K37720887,SB-525334,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.0010559609959569782,low,single signature,GSE70138
+420,BRD-K37991163,paroxetine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+421,BRD-K38436528,imipramine,10.0 um,MCF7,24 h,0.0,-0.33193496487881885,125.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+422,BRD-K39974922,lenvatinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+423,BRD-K40738845,BMS-777607,10.0 um,MCF7,24 h,0.0,0.2539941650331723,642.0,442.0,2,6,0.0,mixed_or_limited,0.07337379760398276,insufficient,,GSE70138
+424,BRD-K44827188,vismodegib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+425,BRD-K45071273,tetracaine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+426,BRD-K45158365,valsartan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.27097975082313597,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+427,BRD-K45275534,betrixaban,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+428,BRD-K46056750,AZD-7762,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+429,BRD-K42898655,temsirolimus,10.0 um,MCF7,24 h,0.0,-0.25276434776440804,218.0,442.0,1,6,0.0,mixed_or_limited,0.13624730882751707,low,single signature,GSE70138
+430,BRD-K42918627,GSK-2126458,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+431,BRD-K03601870,ixabepilone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,mixed_or_limited,0.0,low,single signature,GSE70138
+432,BRD-K17944737,artesunate,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+433,BRD-K49350383,thioguanine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.13207559725100546,low,single signature,GSE70138
+434,BRD-K49669041,BX-912,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,direction_flip,0.0,low,single signature,GSE70138
+435,BRD-K02292852,cefoperazone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+436,BRD-K02637541,celecoxib,10.0 um,MCF7,24 h,0.0,0.28649690533895067,685.0,442.0,1,6,0.16666666666666666,direction_flip,0.11879721365115457,low,single signature,GSE70138
+437,BRD-K02708799,GSK-1059615,10.0 um,MCF7,24 h,0.0,-0.20503670001082097,251.0,442.0,5,6,0.16666666666666666,direction_flip,0.0,insufficient,,GSE70138
+438,BRD-K02867583,minaprine,10.0 um,MCF7,24 h,0.0,0.25930260916205405,648.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+439,BRD-K02943813,dasabuvir,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.6,mixed_or_limited,0.0,low,single signature,GSE70138
+440,BRD-K02965346,SU-11274,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+441,BRD-K03063480,PF-477736,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+442,BRD-K03390685,cobimetinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+443,BRD-K50140147,NVP-TAE684,10.0 um,MCF7,24 h,0.0,-0.29924250814168946,153.0,442.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+444,BRD-K50398167,meclofenamic-acid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,direction_flip,0.12979065511737042,low,single signature,GSE70138
+445,BRD-K50938287,sumatriptan,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.21862345653618537,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+446,BRD-K51040301,cobicistat,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.12492118637868549,low,single signature,GSE70138
+447,BRD-K51324732,meglitinide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+448,BRD-K85119730,tolbutamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+449,BRD-K85140930,aphidicolin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+450,BRD-K80608265,erteberel,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.003234755505975684,low,single signature,GSE70138
+451,BRD-K80738081,resveratrol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.16666666666666666,direction_flip,0.06669039371396124,low,single signature,GSE70138
+452,BRD-K81332461,maxacalcitol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+453,BRD-K81473089,tacrine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+454,BRD-K81795818,exherin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+455,BRD-K88052444,urea,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+456,BRD-K88358234,xaliproden,10.0 um,MCF7,24 h,0.0,-0.2406060808237804,225.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+457,BRD-A33280134,etoposide,10.0 um,MCF7,24 h,0.0,0.27123928691725296,663.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+458,BRD-K47029922,tranylcypromine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.10512273268639444,low,single signature,GSE70138
+459,BRD-K47095176,talnetant,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+460,BRD-K47869605,podophyllotoxin,10.0 um,MCF7,24 h,0.0,0.33491294156537366,749.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+461,BRD-K48168960,propylthiouracil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.6666666666666666,mixed_or_limited,0.0983677118353225,low,single signature,GSE70138
+462,BRD-K48195801,tecastemizole,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+463,BRD-K48722258,dilazep,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+464,BRD-K00259736,colchicine,10.0 um,MCF7,24 h,0.0,0.2931089281960037,693.0,442.0,1,6,0.5,mixed_or_limited,0.0,low,single signature,GSE70138
+465,BRD-K00337317,NU-7441,10.0 um,MCF7,24 h,0.0,0.2552468034345744,644.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+466,BRD-K00494077,trovafloxacin,10.0 um,MCF7,24 h,0.0,0.24977328267698065,635.0,442.0,1,4,0.5,mixed_or_limited,0.3291405545492141,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+467,BRD-K01621533,acarbose,10.0 um,MCF7,24 h,0.0,0.26823338780755457,658.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+468,BRD-K01638814,rilmenidine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.8,multi_dose_negative,0.026282426719074325,low,single signature,GSE70138
+469,BRD-K01674964,histamine,10.0 um,MCF7,24 h,0.0,-0.26697290323644274,195.0,442.0,1,5,0.6,direction_flip,0.3839315748234995,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+470,BRD-K02113016,olaparib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,direction_flip,0.0,low,single signature,GSE70138
+471,BRD-K49865102,PD-0325901,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,6,6,0.0,mixed_or_limited,0.05963357441455319,insufficient,,GSE70138
+472,BRD-K70301465,ibrutinib,10.0 um,MCF7,24 h,0.0,0.2740945845965941,667.0,442.0,1,6,0.16666666666666666,direction_flip,0.015362042908580675,low,single signature,GSE70138
+473,BRD-K67121414,apixaban,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+474,BRD-A55913614,primaquine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,direction_flip,0.12401512621200284,low,single signature,GSE70138
+475,BRD-A56592690,PX-12,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+476,BRD-A58564983,selamectin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+477,BRD-A58767537,afatinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.3205300397984082,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+478,BRD-A58955223,sulforaphane,10.0 um,MCF7,24 h,0.0,-0.22454841402193623,237.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+479,BRD-K72166146,dihydroergotamine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+480,BRD-K67966701,lisinopril,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+481,BRD-K68095457,palmitoylethanolamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,direction_flip,0.38218004232031644,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+482,BRD-K68103045,CGS-20625,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.11396127143973442,low,single signature,GSE70138
+483,BRD-K56291712,voxtalisib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+484,BRD-A90799790,isradipine,10.0 um,MCF7,24 h,0.0,0.26294409230452837,650.0,442.0,1,4,0.5,direction_flip,0.13356481382172763,low,single signature,GSE70138
+485,BRD-A94543220,bifonazole,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+486,BRD-A94756469,digoxin,10.0 um,MCF7,24 h,0.0,-0.1736368591556382,262.0,442.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+487,BRD-K52818472,ivacaftor,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+488,BRD-K53581288,baricitinib,10.0 um,MCF7,24 h,0.0,0.24566327075270145,631.0,442.0,1,4,0.5,direction_flip,0.1617311883285676,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+489,BRD-K57371763,fidaxomicin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+490,BRD-K58010567,vilazodone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+491,BRD-K58550667,FK-866,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+492,BRD-K58626373,dexfenfluramine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+493,BRD-K53765467,empagliflozin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+494,BRD-K78692225,leflunomide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,mixed_or_limited,0.129307950334541,low,single signature,GSE70138
+495,BRD-K79095980,broxuridine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.10249012623093656,low,single signature,GSE70138
+496,BRD-K79102359,idalopirdine,10.0 um,MCF7,24 h,0.0,0.20078926171133066,598.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+497,BRD-K79131256,albendazole,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.8,multi_dose_negative,0.00234399673672564,low,single signature,GSE70138
+498,BRD-K79989959,nesbuvir,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+499,BRD-K84011460,nizofenone,10.0 um,MCF7,24 h,0.0,0.3021173211797269,707.0,442.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+500,BRD-K84163249,ercalcitriol,10.0 um,MCF7,24 h,0.0,0.21442353887290028,603.0,442.0,1,2,0.5,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+501,BRD-K84683831,radezolid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.1452202281009698,low,single signature,GSE70138
+502,BRD-K84698278,agomelatine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+503,BRD-K84748119,vicriviroc,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.1851773516788705,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+504,BRD-K85090592,pilocarpine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+505,BRD-K53814070,ripasudil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+506,BRD-K53963539,vortioxetine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0978039567573073,low,single signature,GSE70138
+507,BRD-K53972329,ruxolitinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,direction_flip,0.11704642689852918,low,single signature,GSE70138
+508,BRD-K55026842,azacitidine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+509,BRD-K56104152,oxiconazole,10.0 um,MCF7,24 h,0.0,0.2438308419659237,629.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+510,BRD-K59184148,SB-216763,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.6666666666666666,direction_flip,0.02893074506775556,low,single signature,GSE70138
+511,BRD-K59325863,delanzomib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+512,BRD-K59436580,tedizolid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,direction_flip,0.21280000667817134,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+513,BRD-K59506194,targinine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+514,BRD-K60623809,SU-11652,10.0 um,MCF7,24 h,0.0,-0.24043184372732945,226.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+515,BRD-K56751279,Y-39983,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,2,6,0.0,mixed_or_limited,0.047208100701405714,insufficient,,GSE70138
+516,BRD-K57080016,selumetinib,10.0 um,MCF7,24 h,0.0,0.026061532811104793,578.0,442.0,2,6,0.0,mixed_or_limited,0.026881283901804498,insufficient,,GSE70138
+517,BRD-K57169635,dacomitinib,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+518,BRD-A80151636,bromocriptine,10.0 um,MCF7,24 h,0.0,0.20951282486142347,601.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+519,BRD-A82522119,tibolone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+520,BRD-A85439007,idoxuridin,10.0 um,MCF7,24 h,0.0,0.2927137881529811,690.0,442.0,1,5,0.4,mixed_or_limited,0.0,low,single signature,GSE70138
+521,BRD-A48570745,ivermectin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.2924414746934898,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+522,BRD-A50033377,rivaroxaban,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+523,BRD-A50998626,palomid-529,10.0 um,MCF7,24 h,0.0,0.18389554159247096,592.0,442.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+524,BRD-K76210423,resiquimod,10.0 um,MCF7,24 h,0.0,0.2168199190578846,605.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+525,BRD-K76617868,fasudil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+526,BRD-K82603084,ethylenediaminetetraacetic-acid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+527,BRD-K82746043,navitoclax,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+528,BRD-K78126613,menadione,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.21198038501321342,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+529,BRD-K78567475,dolastatin-10,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+530,BRD-A87130939,masoprocol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.2101786848413179,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+531,BRD-A87137733,GSK-690693,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.03937236006126188,low,single signature,GSE70138
+532,BRD-A88138582,halcinonide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+533,BRD-K66175015,afatinib,10.0 um,MCF7,24 h,0.0,-0.23101741836546316,230.0,442.0,1,3,0.6666666666666666,mixed_or_limited,0.20042210204355382,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+534,BRD-K66937583,lodoxamide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+535,BRD-K67043667,altretamine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+536,BRD-K74057757,indibulin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.16666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+537,BRD-K74305673,IKK-2-inhibitor-V,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+538,BRD-K74363950,aclidinium,10.0 um,MCF7,24 h,0.0,0.2315325098741091,615.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+539,BRD-K74717603,etravirine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+540,BRD-K75649340,tioguanine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,direction_flip,0.09555756872836998,low,single signature,GSE70138
+541,BRD-A39935389,teroxirone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+542,BRD-A43882281,pinacidil,10.0 um,MCF7,24 h,0.0,-0.2761701230117897,181.0,442.0,1,5,0.6,direction_flip,0.0019034343005325804,low,single signature,GSE70138
+543,BRD-A44863528,proglumide,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.0,mixed_or_limited,0.01565829079921749,low,single signature,GSE70138
+544,BRD-A45153512,bimatoprost,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+545,BRD-A48237631,mitomycin-c,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+546,BRD-K62965247,tipifarnib-P2,10.0 um,MCF7,24 h,0.0,0.23160017159336657,616.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+547,BRD-K62996583,lidoflazine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.13813891929836697,low,single signature,GSE70138
+548,BRD-K63068307,ZSTK-474,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+549,BRD-K63126190,epinephrine,10.0 um,MCF7,24 h,0.0,-0.3056683822883995,144.0,442.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+550,BRD-K63630713,etacrynic-acid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.27178417132891985,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+551,BRD-K63736853,acipimox,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+552,BRD-A70998768,pinaverium,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+553,BRD-A72711497,lasalocid,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+554,BRD-A73741725,exemestane,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.2768736890348118,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+555,BRD-A76747559,rutin,10.0 um,MCF7,24 h,0.0,-0.22448110620151224,238.0,442.0,1,2,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+556,BRD-A78341343,regadenoson,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+557,BRD-A78723049,cefotetan,10.0 um,MCF7,24 h,0.0,-0.2051008939934808,250.0,442.0,1,5,0.4,mixed_or_limited,0.0,low,single signature,GSE70138
+558,BRD-A79768653,sirolimus,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,5,6,0.0,mixed_or_limited,0.03450866428704179,insufficient,,GSE70138
+559,BRD-K69122748,diacerein,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+560,BRD-K69726595,mericitabine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.5,direction_flip,0.25386582808320807,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+561,BRD-K93779381,ingenol-mebutate,10.0 um,MCF7,24 h,0.0,-0.3335460708666752,123.0,442.0,1,6,0.16666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+562,BRD-K97764662,PD-173074,10.0 um,MCF7,24 h,0.0,-0.21383703350958955,246.0,442.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+563,BRD-A10523515,GSK-429286A,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.4,mixed_or_limited,0.13805076386740267,low,single signature,GSE70138
+564,BRD-K18157228,fdcyd,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+565,BRD-K18324993,budipine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+566,BRD-M89827113,levcromakalim,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+567,BRD-A01787639,naftopidil,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+568,BRD-A03216249,mepivacaine,10.0 um,MCF7,24 h,0.0,-0.29934985877750164,151.0,442.0,1,6,0.3333333333333333,direction_flip,0.12012852873963026,low,single signature,GSE70138
+569,BRD-A03249105,fulvestrant,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+570,BRD-K14993104,bemegride,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+571,BRD-K15108141,gemcitabine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+572,BRD-K15409150,penfluridol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.6666666666666666,mixed_or_limited,0.015635036371630995,low,single signature,GSE70138
+573,BRD-K15502390,nevirapine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.0,mixed_or_limited,0.13868869583565546,low,single signature,GSE70138
+574,BRD-K19061412,mubritinib,10.0 um,MCF7,24 h,0.0,0.25112463526602985,637.0,442.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+575,BRD-K91263825,nortriptyline,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,2,0.5,mixed_or_limited,0.15524235108556572,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+576,BRD-K93034159,cladribine,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.2,direction_flip,0.2490316986528932,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+577,BRD-A15435692,BMY-14802,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.6666666666666666,mixed_or_limited,0.0,low,single signature,GSE70138
+578,BRD-A14798026,mestranol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.18885947203348863,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+579,BRD-A14262390,guanadrel,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.25,direction_flip,0.28346286515525915,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+580,BRD-A07440155,labetalol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+581,BRD-K91301684,noscapine,10.0 um,MCF7,24 h,0.0,-0.24081645634860652,224.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+582,BRD-K25433859,maprotiline,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+583,BRD-K25311561,KU-55933,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,6,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+584,BRD-A13084692,troglitazone,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+585,BRD-K99792991,hexachlorophene,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.3333333333333333,mixed_or_limited,0.0,low,single signature,GSE70138
+586,BRD-K96123349,brequinar,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,4,0.0,mixed_or_limited,0.12530917295495206,low,single signature,GSE70138
+587,BRD-K16761703,sotrastaurin,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+588,BRD-K17026858,pibenzimol,10.0 um,MCF7,24 h,0.0,0.0,426.0,442.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+589,BRD-K17498618,atracurium,10.0 um,MCF7,24 h,0.0,-0.25840126252984563,209.0,442.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+590,BRD-K81528515,nilotinib,10.0 um,MCF7,24 h,0.009820051026327659,0.010339839964653486,575.0,590.0,2,5,0.2,direction_flip,0.004910025513163829,insufficient,,GSE70138
+591,BRD-K49328571,dasatinib,10.0 um,MCF7,24 h,0.010444076984878675,0.0,426.0,591.0,6,6,0.0,mixed_or_limited,0.03829604247346523,insufficient,,GSE70138
+592,BRD-K79404599,enzastaurin,10.0 um,MCF7,24 h,0.015006463451323171,-0.004311730653593859,276.0,592.0,2,5,0.4,direction_flip,0.10844054826195879,insufficient,,GSE70138
+593,BRD-K74514084,pazopanib,10.0 um,MCF7,24 h,0.02943977717147933,0.0,426.0,593.0,2,4,0.25,direction_flip,0.2096746297146414,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+594,BRD-K20285085,fostamatinib,10.0 um,MCF7,24 h,0.04265929057451172,0.0,426.0,594.0,2,6,0.6666666666666666,direction_flip,0.22574660429191484,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+595,BRD-K64052750,gefitinib,10.0 um,MCF7,24 h,0.044502605325160094,0.20486800759247226,600.0,595.0,2,6,0.0,mixed_or_limited,0.31406000873505724,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+596,BRD-A58280226,Y-27632,10.0 um,MCF7,24 h,0.12110368150128108,0.13276995185424287,582.0,596.0,2,5,0.0,mixed_or_limited,0.06914244729777747,insufficient,,GSE70138
+597,BRD-K79254416,decitabine,10.0 um,MCF7,24 h,0.12448881439228929,0.2671895612832742,656.0,597.0,2,6,0.6666666666666666,direction_flip,0.1332322686777556,insufficient,,GSE70138
+598,BRD-K87142802,veliparib,10.0 um,MCF7,24 h,0.13192309378207434,0.17846012119846602,590.0,598.0,2,6,0.5,direction_flip,0.18101079716457993,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+599,BRD-K83963101,MLN-8054,10.0 um,MCF7,24 h,0.13957762388946443,0.17050490272220004,585.0,599.0,2,6,0.5,direction_flip,0.04521916045921307,insufficient,,GSE70138
+600,BRD-K05804044,AZ-628,10.0 um,MCF7,24 h,0.14413812108637164,0.1194514843229065,580.0,600.0,2,6,0.3333333333333333,direction_flip,0.013528435580744215,insufficient,,GSE70138
+601,BRD-K92428232,GSK-461364,10.0 um,MCF7,24 h,0.14597679806196306,0.1758764994648958,588.0,601.0,2,6,0.8333333333333334,direction_flip,0.0,insufficient,,GSE70138
+602,BRD-K60866521,idelalisib,10.0 um,MCF7,24 h,0.14894922753058562,0.14487978387645972,584.0,602.0,2,6,0.5,direction_flip,0.11163976020573604,insufficient,,GSE70138
+603,BRD-K07691486,roscovitine,10.0 um,MCF7,24 h,0.1611286556963102,0.21099917979408317,602.0,603.0,2,6,0.0,mixed_or_limited,0.1757225038501956,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+604,BRD-K02123250,JNJ-38877605,10.0 um,MCF7,24 h,0.1699408847744635,0.18645494006096092,593.0,604.0,1,5,0.4,direction_flip,0.1699408847744635,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+605,BRD-K71106091,fludarabine-phosphate,10.0 um,MCF7,24 h,0.17622562705141648,0.186775012113097,594.0,605.0,1,4,0.0,mixed_or_limited,0.17622562705141648,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+606,BRD-K67789209,adatanserin,10.0 um,MCF7,24 h,0.17702973465389168,0.23795648379813567,625.0,606.0,1,5,0.2,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+607,BRD-K60240222,carglumic-acid,10.0 um,MCF7,24 h,0.17980627308500055,0.0,426.0,607.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+608,BRD-K40175214,torin-1,10.0 um,MCF7,24 h,0.18202180051195127,0.19130394760510888,596.0,608.0,2,6,0.3333333333333333,direction_flip,0.07042771732661508,insufficient,,GSE70138
+609,BRD-K44771174,ibutamoren,10.0 um,MCF7,24 h,0.18607819355122596,0.25040301222046224,636.0,609.0,1,1,0.0,single_dose,0.18607819355122596,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+610,BRD-K11973162,tipiracil,10.0 um,MCF7,24 h,0.19062233238963955,0.17152017111227802,586.0,610.0,1,2,0.0,mixed_or_limited,0.32857350830442855,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+611,BRD-K86118762,linsitinib,10.0 um,MCF7,24 h,0.19259113562956692,0.0,426.0,611.0,1,5,0.0,mixed_or_limited,0.09629556781478346,low,single signature,GSE70138
+612,BRD-K28143534,cyproheptadine,10.0 um,MCF7,24 h,0.19816294304102783,0.22827573054148748,612.0,612.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+613,BRD-K22134346,simvastatin,10.0 um,MCF7,24 h,0.20106856199138987,0.2665180375869511,655.0,613.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+614,BRD-K52020312,metronidazole,10.0 um,MCF7,24 h,0.20255432652907396,0.0,426.0,614.0,1,5,0.4,direction_flip,0.3786714798578036,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+615,BRD-K46937689,phenazone,10.0 um,MCF7,24 h,0.20489668005206763,0.1889379827691255,595.0,615.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+616,BRD-K66989831,anacardic-acid,10.0 um,MCF7,24 h,0.20551769994064914,0.0,426.0,616.0,1,5,0.0,mixed_or_limited,0.00676908925080022,low,single signature,GSE70138
+617,BRD-K38287497,narlaprevir,10.0 um,MCF7,24 h,0.2058529724004865,0.0,426.0,617.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+618,BRD-K38852836,ganetespib,10.0 um,MCF7,24 h,0.20681813180456385,0.2206318258978657,607.0,618.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+619,BRD-K14653796,tasquinimod,10.0 um,MCF7,24 h,0.20765931996857878,0.22332802145132585,609.0,619.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+620,BRD-K59574735,ubenimex,10.0 um,MCF7,24 h,0.20907106509761092,0.0,426.0,620.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+621,BRD-K00911143,brexpiprazole,10.0 um,MCF7,24 h,0.20914397213630326,0.0,426.0,621.0,1,2,0.0,mixed_or_limited,0.24433173016640902,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+622,BRD-A12896037,cisapride,10.0 um,MCF7,24 h,0.2093771258447794,0.22811151052130466,611.0,622.0,1,4,0.25,direction_flip,0.1046885629223897,low,single signature,GSE70138
+623,BRD-K31309378,lucitanib,10.0 um,MCF7,24 h,0.20991724240785908,0.0,426.0,623.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+624,BRD-A22769835,homochlorcyclizine,10.0 um,MCF7,24 h,0.2105388459561387,0.0,426.0,624.0,1,3,0.6666666666666666,direction_flip,0.4901769561439232,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+625,BRD-K57252450,cilengitide,10.0 um,MCF7,24 h,0.211898937424199,0.2682663682900124,659.0,625.0,1,3,0.0,mixed_or_limited,0.1059494687120995,low,single signature,GSE70138
+626,BRD-K22482860,dalfampridine,10.0 um,MCF7,24 h,0.21244466410674093,0.2928972339231081,691.0,626.0,1,5,0.0,mixed_or_limited,0.036259208291500145,low,single signature,GSE70138
+627,BRD-K77947974,fluspirilene,10.0 um,MCF7,24 h,0.2135687682312765,0.24193915281045908,627.0,627.0,1,3,0.6666666666666666,direction_flip,0.241604918195217,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+628,BRD-K12539416,sulbutiamine,10.0 um,MCF7,24 h,0.2137145060803775,0.0,426.0,628.0,1,4,0.0,mixed_or_limited,0.04085717699129188,low,single signature,GSE70138
+629,BRD-K97309399,thiothixene,10.0 um,MCF7,24 h,0.2141533465242347,0.3081331567354234,719.0,629.0,1,4,0.0,mixed_or_limited,0.10707667326211735,low,single signature,GSE70138
+630,BRD-A32172948,methiopril,10.0 um,MCF7,24 h,0.21443829675543097,0.23043704675495078,614.0,630.0,1,5,0.2,direction_flip,0.1337077499435653,low,single signature,GSE70138
+631,BRD-K75958547,pitavastatin,10.0 um,MCF7,24 h,0.21523291321116578,0.22945057140190628,613.0,631.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+632,BRD-A14941520,dofequidar,10.0 um,MCF7,24 h,0.21547024206291734,-0.20055343222144562,253.0,632.0,1,6,0.5,direction_flip,0.22102122961750637,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+633,BRD-K76775527,nimesulide,10.0 um,MCF7,24 h,0.21558505118337384,0.2643108730641838,652.0,633.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+634,BRD-K82677201,almitrine,10.0 um,MCF7,24 h,0.21962180304467419,0.27231311375030165,664.0,634.0,1,1,0.0,single_dose,0.10981090152233709,low,single signature; limited dose evidence,GSE70138
+635,BRD-K13183738,pentamidine,10.0 um,MCF7,24 h,0.22014794510179347,0.0,426.0,635.0,1,4,0.0,mixed_or_limited,0.29423563908651884,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+636,BRD-A79431551,3-deazaadenosine,10.0 um,MCF7,24 h,0.22260029778062515,0.17770447199880213,589.0,636.0,1,2,0.0,mixed_or_limited,0.22260029778062515,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+637,BRD-K43887077,dopamine,10.0 um,MCF7,24 h,0.22289924754972962,0.0,426.0,637.0,1,3,0.6666666666666666,direction_flip,0.525867103367614,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+638,BRD-A38350138,ketoconazole,10.0 um,MCF7,24 h,0.22310908128447354,0.28087338111640403,678.0,638.0,1,1,0.0,single_dose,0.11155454064223677,low,single signature; limited dose evidence,GSE70138
+639,BRD-A87983072,benzotript,10.0 um,MCF7,24 h,0.22683149386533724,-0.25508208025054174,214.0,639.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+640,BRD-A09472452,flecainide,10.0 um,MCF7,24 h,0.22729946446526045,0.240766354709985,626.0,640.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+641,BRD-K69776681,volasertib,10.0 um,MCF7,24 h,0.22817594499063346,0.26111335343860653,649.0,641.0,1,6,0.6666666666666666,direction_flip,0.0,low,single signature,GSE70138
+642,BRD-K19761926,eplerenone,10.0 um,MCF7,24 h,0.22948922234588776,0.0,426.0,642.0,1,3,0.3333333333333333,direction_flip,0.22948922234588776,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+643,BRD-K04833372,GSK-1904529A,10.0 um,MCF7,24 h,0.2307076228389362,0.23653793856457253,622.0,643.0,1,6,0.16666666666666666,direction_flip,0.012207892889655847,low,single signature,GSE70138
+644,BRD-K02950022,BMS-299897,10.0 um,MCF7,24 h,0.23167514364253988,0.2452820813873221,630.0,644.0,1,4,0.25,direction_flip,0.0003766998538386468,low,single signature,GSE70138
+645,BRD-K64755930,etazolate,10.0 um,MCF7,24 h,0.23175771931292666,0.19591139991155795,597.0,645.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+646,BRD-A36057565,bruceantin,10.0 um,MCF7,24 h,0.23185969794794573,0.23255448359469238,619.0,646.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+647,BRD-K86892782,edoxudine,10.0 um,MCF7,24 h,0.23509553677519826,0.0,426.0,647.0,1,5,0.0,mixed_or_limited,0.10334766902445847,low,single signature,GSE70138
+648,BRD-K76197012,ulipristal,10.0 um,MCF7,24 h,0.23579957460241047,0.24301614431335067,628.0,648.0,1,2,0.0,mixed_or_limited,0.18379812847487198,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+649,BRD-K58772419,AZD-6482,10.0 um,MCF7,24 h,0.235888140914847,0.23743927051647873,623.0,649.0,1,3,0.0,mixed_or_limited,0.12554404789990087,low,single signature,GSE70138
+650,BRD-K94830329,ataluren,10.0 um,MCF7,24 h,0.23660704739729826,0.23229333063170943,618.0,650.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+651,BRD-K44408410,2-methoxyestradiol,10.0 um,MCF7,24 h,0.23750060534497314,0.305273081479125,712.0,651.0,1,2,0.5,direction_flip,0.2423487407311264,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+652,BRD-K55127134,fluphenazine,10.0 um,MCF7,24 h,0.2375972894528345,0.2881540573509371,686.0,652.0,1,2,0.0,mixed_or_limited,0.12582707525547632,low,single signature,GSE70138
+653,BRD-A05523972,telmesteine,10.0 um,MCF7,24 h,0.23781681414841088,0.22501246639279887,610.0,653.0,1,4,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+654,BRD-K60585088,paricalcitol,10.0 um,MCF7,24 h,0.23887941341467145,0.2476895233796796,634.0,654.0,1,4,0.75,direction_flip,0.4894782960036327,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+655,BRD-K63750851,mycophenolic-acid,10.0 um,MCF7,24 h,0.23931086006930913,0.29919062985630346,706.0,655.0,1,5,0.6,direction_flip,0.14474133791440832,low,single signature,GSE70138
+656,BRD-K32821942,azathioprine,10.0 um,MCF7,24 h,0.2396692657650022,0.0,426.0,656.0,1,3,0.6666666666666666,direction_flip,0.46715020900070914,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+657,BRD-K70507123,doxofylline,10.0 um,MCF7,24 h,0.23987345195064852,0.2749335352863187,669.0,657.0,1,4,0.0,mixed_or_limited,0.23987345195064852,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+658,BRD-K69726342,atorvastatin,10.0 um,MCF7,24 h,0.24083411079440847,0.28137450392084595,679.0,658.0,1,4,0.0,mixed_or_limited,0.13189601745549692,low,single signature,GSE70138
+659,BRD-A21607826,medetomidine,10.0 um,MCF7,24 h,0.24084557084500038,0.2653263593585863,654.0,659.0,1,6,0.16666666666666666,direction_flip,0.0,low,single signature,GSE70138
+660,BRD-A89585551,mefloquine,10.0 um,MCF7,24 h,0.24112153373578848,0.0,426.0,660.0,1,5,0.2,direction_flip,0.12056076686789424,low,single signature,GSE70138
+661,BRD-K81272440,dantrolene,10.0 um,MCF7,24 h,0.24308699174257908,0.28193657539122635,680.0,661.0,1,3,0.0,mixed_or_limited,0.12154349587128954,low,single signature,GSE70138
+662,BRD-K67901620,avasimibe,10.0 um,MCF7,24 h,0.24418521986034414,0.2591160474869655,647.0,662.0,1,4,0.25,direction_flip,0.12460699039426776,low,single signature,GSE70138
+663,BRD-K56334280,amonafide,10.0 um,MCF7,24 h,0.24672783528879078,0.2476155669611738,633.0,663.0,1,3,0.0,mixed_or_limited,0.24672783528879078,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+664,BRD-K70358946,aripiprazole,10.0 um,MCF7,24 h,0.24820634750576218,0.3417917353152288,755.0,664.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+665,BRD-K12737986,veliparib,10.0 um,MCF7,24 h,0.2485811003985514,0.2698312034896881,661.0,665.0,1,4,0.25,direction_flip,0.27647884568488557,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+666,BRD-K63828191,raloxifene,10.0 um,MCF7,24 h,0.24864163754633165,0.33730844601577537,750.0,666.0,1,6,0.5,direction_flip,0.0,low,single signature,GSE70138
+667,BRD-K73319509,PF-04217903,10.0 um,MCF7,24 h,0.24901019022579798,0.2379428778242153,624.0,667.0,1,6,0.16666666666666666,direction_flip,0.129618593164203,low,single signature,GSE70138
+668,BRD-K96194081,cepharanthine,10.0 um,MCF7,24 h,0.24979626473422584,0.3189205680956912,730.0,668.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+669,BRD-K00674894,orteronel,10.0 um,MCF7,24 h,0.24980329776012325,0.0,426.0,669.0,1,2,0.5,direction_flip,0.27935553294296406,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+670,BRD-K42981054,mibampator,10.0 um,MCF7,24 h,0.25039663387176736,0.32568318861323176,737.0,670.0,1,2,0.0,mixed_or_limited,0.458412414125275,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+671,BRD-A84174393,meloxicam,10.0 um,MCF7,24 h,0.2507386453280583,0.29313177476735397,694.0,671.0,1,2,0.5,direction_flip,0.26508936196719557,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+672,BRD-A73556557,tagatose,10.0 um,MCF7,24 h,0.2515589010300634,0.0,426.0,672.0,1,4,0.25,direction_flip,0.14602167592864612,low,single signature,GSE70138
+673,BRD-A62025033,temsirolimus,10.0 um,MCF7,24 h,0.25176181999745584,0.0,426.0,673.0,1,6,0.0,mixed_or_limited,0.12588090999872792,low,single signature,GSE70138
+674,BRD-A86216746,varenicline,10.0 um,MCF7,24 h,0.25188323290755915,0.23385958454301908,621.0,674.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+675,BRD-K22031190,diflunisal,10.0 um,MCF7,24 h,0.2518852120312598,0.2915501952622744,689.0,675.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+676,BRD-K12343256,trametinib,10.0 um,MCF7,24 h,0.25329922887222023,0.2729417298888524,665.0,676.0,1,5,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+677,BRD-A69636825,diltiazem,10.0 um,MCF7,24 h,0.25371958304452824,0.31449538485481987,727.0,677.0,1,5,0.2,direction_flip,0.10815430577729238,low,single signature,GSE70138
+678,BRD-K33610132,rociletinib,10.0 um,MCF7,24 h,0.2539256267675999,0.3330572256677444,747.0,678.0,1,2,0.0,mixed_or_limited,0.12696281338379994,low,single signature,GSE70138
+679,BRD-K76674262,homoharringtonine,10.0 um,MCF7,24 h,0.2542943369431839,0.27594692149149763,670.0,679.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+680,BRD-K80267133,aminosalicylic-acid,10.0 um,MCF7,24 h,0.2543533101973734,0.0,426.0,680.0,1,5,0.0,mixed_or_limited,0.2543533101973734,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+681,BRD-A48430263,pioglitazone,10.0 um,MCF7,24 h,0.2547163557912292,0.3060476856214302,714.0,681.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+682,BRD-K16730910,regorafenib,10.0 um,MCF7,24 h,0.2551686870182845,0.29496028631148075,696.0,682.0,1,1,0.0,single_dose,0.021858374214360876,low,single signature; limited dose evidence,GSE70138
+683,BRD-K82135108,elesclomol,10.0 um,MCF7,24 h,0.2558469853088692,0.2679423311254471,657.0,683.0,1,5,0.2,direction_flip,0.0,low,single signature,GSE70138
+684,BRD-K93754473,tamoxifen,10.0 um,MCF7,24 h,0.255858391930291,0.33402517259109543,748.0,684.0,1,3,0.3333333333333333,direction_flip,0.5328367284420825,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+685,BRD-K57041787,dabigatran-etexilate,10.0 um,MCF7,24 h,0.25586295036408185,0.3516093089297027,761.0,685.0,1,3,0.6666666666666666,direction_flip,0.25839404411691946,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+686,BRD-K77771411,moxonidine,10.0 um,MCF7,24 h,0.2563070813540376,0.29144386348970364,688.0,686.0,1,4,0.25,direction_flip,0.0209617858339054,low,single signature,GSE70138
+687,BRD-K83405785,pimavanserin,10.0 um,MCF7,24 h,0.2571858828086667,0.25316406439177663,641.0,687.0,1,5,0.0,mixed_or_limited,0.0019404944788891654,low,single signature,GSE70138
+688,BRD-K59273480,propentofylline,10.0 um,MCF7,24 h,0.2608146707953999,0.0,426.0,688.0,1,5,0.0,mixed_or_limited,0.23962712188830576,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+689,BRD-K67080878,milrinone,10.0 um,MCF7,24 h,0.26160749344890777,0.27350920220432634,666.0,689.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+690,BRD-K26701552,tegobuvir,10.0 um,MCF7,24 h,0.2620197093210791,0.2851075324107363,683.0,690.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+691,BRD-K37687095,AZD-8330,10.0 um,MCF7,24 h,0.2621262899603382,0.18168502051309215,591.0,691.0,2,6,0.3333333333333333,direction_flip,0.05364245007560252,insufficient,,GSE70138
+692,BRD-A45498368,WYE-125132,10.0 um,MCF7,24 h,0.263184995933895,0.31353358373291385,725.0,692.0,1,6,0.3333333333333333,direction_flip,0.0,low,single signature,GSE70138
+693,BRD-K54770957,etoricoxib,10.0 um,MCF7,24 h,0.26319442800478693,0.0,426.0,693.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+694,BRD-A07704283,isofloxythepin,10.0 um,MCF7,24 h,0.26353049013569324,0.30684642491425607,715.0,694.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+695,BRD-K62387885,basimglurant,10.0 um,MCF7,24 h,0.2640050724532169,0.2983038495447532,702.0,695.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+696,BRD-K90948141,indiplon,10.0 um,MCF7,24 h,0.26583613279310114,0.27793764927113607,673.0,696.0,1,1,0.0,single_dose,0.13291806639655057,low,single signature; limited dose evidence,GSE70138
+697,BRD-K42348709,cyclobenzaprine,10.0 um,MCF7,24 h,0.26609479895779753,0.3573153786441199,769.0,697.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+698,BRD-K05446112,ledipasvir,10.0 um,MCF7,24 h,0.26615629123282214,0.3268315288806767,738.0,698.0,1,5,0.0,mixed_or_limited,0.13307814561641107,low,single signature,GSE70138
+699,BRD-K74763371,bosentan,10.0 um,MCF7,24 h,0.26738699254942644,0.0,426.0,699.0,1,2,0.5,direction_flip,0.2366499526239435,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+700,BRD-K23875128,RHO-kinase-inhibitor-III[rockout],10.0 um,MCF7,24 h,0.2690777235265637,0.3532586599447247,765.0,700.0,1,5,0.6,direction_flip,0.5328205606700511,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+701,BRD-K73237276,tacalcitol,10.0 um,MCF7,24 h,0.27105601039130783,0.2780525104184892,675.0,701.0,1,6,0.5,direction_flip,0.2402791238046796,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+702,BRD-K69688083,mestinon,10.0 um,MCF7,24 h,0.27321403246800824,0.29437735306741064,695.0,702.0,1,3,0.3333333333333333,direction_flip,0.27321403246800824,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+703,BRD-A75726477,clenbuterol,10.0 um,MCF7,24 h,0.2740681702210814,0.27858043997901394,676.0,703.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+704,BRD-K98624455,bepotastine,10.0 um,MCF7,24 h,0.2753958461612717,0.268915092518098,660.0,704.0,1,4,0.25,direction_flip,0.13769792308063586,low,single signature,GSE70138
+705,BRD-A30815329,felodipine,10.0 um,MCF7,24 h,0.27560660803919346,0.2959919959320714,700.0,705.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+706,BRD-K29458283,chlorambucil,10.0 um,MCF7,24 h,0.2757172510282333,0.263172579796661,651.0,706.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+707,BRD-K07609981,dexloxiglumide,10.0 um,MCF7,24 h,0.2767512686305663,0.2954981562170669,697.0,707.0,1,2,0.0,mixed_or_limited,0.13837563431528316,low,single signature,GSE70138
+708,BRD-K65678996,nefiracetam,10.0 um,MCF7,24 h,0.2786756350516632,0.0,426.0,708.0,1,3,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+709,BRD-A83081521,finasteride,10.0 um,MCF7,24 h,0.2800185710068799,0.3098941065039899,720.0,709.0,1,3,0.3333333333333333,direction_flip,0.11761980347479437,low,single signature,GSE70138
+710,BRD-K09602097,forskolin,10.0 um,MCF7,24 h,0.2801175602801016,0.298929845232037,705.0,710.0,1,3,0.3333333333333333,direction_flip,0.25469485516644963,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+711,BRD-K82767007,dazoxiben,10.0 um,MCF7,24 h,0.2803332103031311,0.0,426.0,711.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+712,BRD-K48488978,YM-201636,10.0 um,MCF7,24 h,0.2809398016252533,0.352486898704541,763.0,712.0,1,4,0.0,mixed_or_limited,0.01163126438956602,low,single signature,GSE70138
+713,BRD-K68407802,KIN001-055,10.0 um,MCF7,24 h,0.2817522390178513,0.3077803386310456,718.0,713.0,1,6,0.8333333333333334,direction_flip,0.0657522034154524,low,single signature,GSE70138
+714,BRD-A45889380,mepacrine,10.0 um,MCF7,24 h,0.2822724965209976,0.30393242521663066,710.0,714.0,1,2,0.5,direction_flip,0.26925127456197745,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+715,BRD-A29009894,AZD-1480,10.0 um,MCF7,24 h,0.28275471789194845,0.25180911729460276,640.0,715.0,1,5,0.2,direction_flip,0.1413773589459742,low,single signature,GSE70138
+716,BRD-K01663662,diphenidol,10.0 um,MCF7,24 h,0.2834686812347822,0.35719425755104806,768.0,716.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+717,BRD-K63150726,JTE-907,10.0 um,MCF7,24 h,0.2839411923657442,0.31856665011591867,729.0,717.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+718,BRD-K85307935,novobiocin,10.0 um,MCF7,24 h,0.28543541500411584,0.2931016598997649,692.0,718.0,1,4,0.25,direction_flip,0.11840852024245763,low,single signature,GSE70138
+719,BRD-K41185545,ambrisentan,10.0 um,MCF7,24 h,0.28761029264973775,0.31354052410649214,726.0,719.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+720,BRD-K49685476,TTNPB,10.0 um,MCF7,24 h,0.2877315533095932,0.2511317110398671,638.0,720.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+721,BRD-K31339321,lirimilast,10.0 um,MCF7,24 h,0.28809026209899524,0.2807178746655832,677.0,721.0,1,5,0.0,mixed_or_limited,0.32932991291922187,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+722,BRD-K25394294,oxaprozin,10.0 um,MCF7,24 h,0.28824143794267715,0.3211101167812611,734.0,722.0,1,3,0.0,mixed_or_limited,0.1269323115380586,low,single signature,GSE70138
+723,BRD-A04352665,maraviroc,10.0 um,MCF7,24 h,0.28889473465741505,0.32092504936619715,732.0,723.0,1,5,0.0,mixed_or_limited,0.2690404281393084,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+724,BRD-K44442813,pidotimod,10.0 um,MCF7,24 h,0.28972282192213966,0.29673222121603005,701.0,724.0,1,2,0.0,mixed_or_limited,0.14486141096106983,low,single signature,GSE70138
+725,BRD-K29950728,clomifene,10.0 um,MCF7,24 h,0.2900243590441181,0.3290981145186369,740.0,725.0,1,4,0.0,mixed_or_limited,0.11238821654090059,low,single signature,GSE70138
+726,BRD-A18611368,tazobactam,10.0 um,MCF7,24 h,0.29007822404255246,0.2780436511785187,674.0,726.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+727,BRD-K51350053,toremifene,10.0 um,MCF7,24 h,0.2901826100719326,0.37956520834762525,782.0,727.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+728,BRD-K14796088,berberine,10.0 um,MCF7,24 h,0.2903261323427486,0.33103226106505956,744.0,728.0,1,5,0.0,mixed_or_limited,0.041952477421362794,low,single signature,GSE70138
+729,BRD-K77685957,dequalinium,10.0 um,MCF7,24 h,0.2924762617724817,0.35684098316303325,767.0,729.0,1,5,0.2,direction_flip,0.19211943130785644,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+730,BRD-K99616396,motesanib,10.0 um,MCF7,24 h,0.29273164445280564,0.2889801399893398,687.0,730.0,1,5,0.0,mixed_or_limited,0.007209215028954052,low,single signature,GSE70138
+731,BRD-K18779551,bifemelane,10.0 um,MCF7,24 h,0.2929130673356291,0.3059381756332797,713.0,731.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+732,BRD-K98143437,SB-239063,10.0 um,MCF7,24 h,0.29299614461067786,0.27792269720440743,672.0,732.0,1,5,0.6,direction_flip,0.16577245843310595,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+733,BRD-A13133631,fluorometholone,10.0 um,MCF7,24 h,0.29317938661928994,0.2855344256911335,684.0,733.0,1,4,0.0,mixed_or_limited,0.29317938661928994,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+734,BRD-K36862742,hydroflumethiazide,10.0 um,MCF7,24 h,0.2932982282586869,0.3132127832981454,724.0,734.0,1,4,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+735,BRD-A74914197,pralatrexate,10.0 um,MCF7,24 h,0.2939884847524157,0.25751062131111285,645.0,735.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+736,BRD-K79759585,sildenafil,10.0 um,MCF7,24 h,0.29430582961907736,0.29579961090687623,699.0,736.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+737,BRD-K44273375,tolnaftate,10.0 um,MCF7,24 h,0.29477252273743565,0.0,426.0,737.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+738,BRD-K25650355,physostigmine,10.0 um,MCF7,24 h,0.29490736868799244,0.3073917641935702,716.0,738.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+739,BRD-K77625799,vandetanib,10.0 um,MCF7,24 h,0.2950031183218541,0.35067076607590036,760.0,739.0,1,4,0.25,direction_flip,0.2950031183218541,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+740,BRD-K70330367,amantadine,10.0 um,MCF7,24 h,0.2963464417844713,0.33203912199498736,746.0,740.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+741,BRD-K60219430,serdemetan,10.0 um,MCF7,24 h,0.29637869808594663,0.276231449830497,671.0,741.0,1,5,0.2,direction_flip,0.00039616788864194064,low,single signature,GSE70138
+742,BRD-K83508485,FK-888,10.0 um,MCF7,24 h,0.29772136054861387,0.25446267803391376,643.0,742.0,1,6,0.0,mixed_or_limited,0.021222270521240094,low,single signature,GSE70138
+743,BRD-K93618743,ipriflavone,10.0 um,MCF7,24 h,0.30118799898269444,0.31489369079223595,728.0,743.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+744,BRD-K50498985,taladegib,10.0 um,MCF7,24 h,0.30156100205377334,0.0,426.0,744.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+745,BRD-K04112579,nepafenac,10.0 um,MCF7,24 h,0.3019352568991236,0.39724515565143775,795.0,745.0,1,2,0.5,direction_flip,0.6602006318912873,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+746,BRD-A07986123,galeterone,10.0 um,MCF7,24 h,0.3025544307977365,0.30359723825014473,709.0,746.0,1,2,0.0,mixed_or_limited,0.03514852380355682,low,single signature,GSE70138
+747,BRD-K51662849,ilomastat,10.0 um,MCF7,24 h,0.3038224263117141,0.3209410205899135,733.0,747.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+748,BRD-A74667430,etodolac,10.0 um,MCF7,24 h,0.30579409125075974,0.32340905523575497,735.0,748.0,1,4,0.0,mixed_or_limited,0.15845941252070922,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+749,BRD-A61676498,climbazole,10.0 um,MCF7,24 h,0.30893336886935857,0.31161574725839025,721.0,749.0,1,2,0.0,mixed_or_limited,0.046980214423598676,low,single signature,GSE70138
+750,BRD-K25361343,batimastat,10.0 um,MCF7,24 h,0.309817735353198,0.304523693623446,711.0,750.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+751,BRD-A86248581,tetrahydrouridine,10.0 um,MCF7,24 h,0.3099444948867193,0.3409290756812055,754.0,751.0,1,3,0.3333333333333333,direction_flip,0.3099444948867193,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+752,BRD-K70464547,sertraline,10.0 um,MCF7,24 h,0.31183687566491136,0.3833756044685669,784.0,752.0,1,2,0.0,mixed_or_limited,0.3094245999767681,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+753,BRD-K73999723,telmisartan,10.0 um,MCF7,24 h,0.31210973737327996,0.3604368765740275,770.0,753.0,1,4,0.0,mixed_or_limited,0.15605486868663998,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+754,BRD-K72093121,vidarabine,10.0 um,MCF7,24 h,0.313217627057107,0.30746480931201187,717.0,754.0,1,2,0.0,mixed_or_limited,0.20265724739635582,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+755,BRD-A64977602,mirtazapine,10.0 um,MCF7,24 h,0.3157004075844458,0.3130765450669398,723.0,755.0,1,3,0.0,mixed_or_limited,0.002152904938724276,low,single signature,GSE70138
+756,BRD-K12219985,glipizide,10.0 um,MCF7,24 h,0.31790940390459027,0.36677416086769876,775.0,756.0,1,3,0.3333333333333333,direction_flip,0.1755619973386079,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+757,BRD-K52989797,clomipramine,10.0 um,MCF7,24 h,0.3214032997264178,0.3304671985427282,743.0,757.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+758,BRD-K97399794,quercetin,10.0 um,MCF7,24 h,0.32217724689049826,0.35255649722258897,764.0,758.0,1,4,0.75,direction_flip,0.1332416174726478,low,single signature,GSE70138
+759,BRD-K77695569,tiabendazole,10.0 um,MCF7,24 h,0.3223159705424401,0.36826752367170185,776.0,759.0,1,3,0.0,mixed_or_limited,0.3223159705424401,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+760,BRD-K57545991,enalapril,10.0 um,MCF7,24 h,0.3224050431596056,0.3946172996394104,792.0,760.0,1,4,0.25,direction_flip,0.0,low,single signature,GSE70138
+761,BRD-K36970462,tonabersat,10.0 um,MCF7,24 h,0.3255527560922823,0.33974186869650636,753.0,761.0,1,2,0.0,mixed_or_limited,0.3985307830720566,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+762,BRD-K06878038,deferiprone,10.0 um,MCF7,24 h,0.3272373509949287,0.3522321671000114,762.0,762.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+763,BRD-K56277358,MGCD-265,10.0 um,MCF7,24 h,0.3288740125468719,0.3808753665596042,783.0,763.0,1,6,0.16666666666666666,direction_flip,0.16615390638670335,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+764,BRD-K97729603,pimecrolimus,10.0 um,MCF7,24 h,0.3313360383559753,0.39301178378715407,791.0,764.0,1,4,0.25,direction_flip,0.13272484286391514,low,single signature,GSE70138
+765,BRD-K32318651,acyclovir,10.0 um,MCF7,24 h,0.3340712724874726,0.33967487716966865,752.0,765.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+766,BRD-A20131130,"2',5'-dideoxyadenosine",10.0 um,MCF7,24 h,0.3341663678457757,0.35033975961137076,758.0,766.0,1,4,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+767,BRD-K89162000,tandutinib,10.0 um,MCF7,24 h,0.3348733690930194,0.0,426.0,767.0,1,1,0.0,single_dose,0.0,low,single signature; limited dose evidence,GSE70138
+768,BRD-K97158071,droperidol,10.0 um,MCF7,24 h,0.33652184997561335,0.3625997457244123,771.0,768.0,1,3,0.6666666666666666,direction_flip,0.5980439665656943,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+769,BRD-K70792160,10-DEBC,10.0 um,MCF7,24 h,0.33658303966576086,0.4164867954726449,800.0,769.0,1,4,0.5,direction_flip,0.11398045901446008,low,single signature,GSE70138
+770,BRD-A72309220,metergoline,10.0 um,MCF7,24 h,0.33871854645795063,0.4459169095420831,811.0,770.0,1,3,0.3333333333333333,direction_flip,0.07005452689114777,low,single signature,GSE70138
+771,BRD-K49671696,ketanserin,10.0 um,MCF7,24 h,0.3389985880305858,0.31243575505293725,722.0,771.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+772,BRD-K44844162,taselisib,10.0 um,MCF7,24 h,0.33952496843206603,0.3297437263139649,741.0,772.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+773,BRD-K98004573,rupatadine,10.0 um,MCF7,24 h,0.34000608863098614,0.4412488300870733,808.0,773.0,1,3,0.6666666666666666,direction_flip,0.30127019283534,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+774,BRD-K64622987,torcetrapib,10.0 um,MCF7,24 h,0.3408501016552442,0.2955157986329532,698.0,774.0,1,3,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+775,BRD-A51820102,econazole,10.0 um,MCF7,24 h,0.34145603487513443,0.324948950215476,736.0,775.0,1,1,0.0,single_dose,0.34145603487513443,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+776,BRD-K51333959,siramesine,10.0 um,MCF7,24 h,0.34425531462292636,0.3474239912261141,757.0,776.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+777,BRD-K75308783,SAR-245409,10.0 um,MCF7,24 h,0.34441711717643186,0.31919530516159156,731.0,777.0,1,4,0.0,mixed_or_limited,0.045410395360196476,low,single signature,GSE70138
+778,BRD-K72420232,WZ-4002,10.0 um,MCF7,24 h,0.34475259499500177,0.3452444764290943,756.0,778.0,1,6,0.3333333333333333,direction_flip,0.11081851900027506,low,single signature,GSE70138
+779,BRD-A50737080,CGK-733,10.0 um,MCF7,24 h,0.3465625247814807,0.3564139203130773,766.0,779.0,1,4,0.0,mixed_or_limited,0.03609834261119038,low,single signature,GSE70138
+780,BRD-A95869247,indapamide,10.0 um,MCF7,24 h,0.3467875320524831,0.36380886867125173,772.0,780.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+781,BRD-K52172416,anastrozole,10.0 um,MCF7,24 h,0.34708392957323553,0.2986755582975509,704.0,781.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+782,BRD-K63712959,temoporfin,10.0 um,MCF7,24 h,0.34746541177614654,0.39709154942327574,794.0,782.0,1,2,0.0,mixed_or_limited,0.34746541177614654,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+783,BRD-K02079473,oxatomide,10.0 um,MCF7,24 h,0.350299570313682,0.3299321708184425,742.0,783.0,1,3,0.3333333333333333,direction_flip,0.350299570313682,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+784,BRD-K28542495,benzydamine,10.0 um,MCF7,24 h,0.35036002407836997,0.3909163358179216,789.0,784.0,1,2,0.0,mixed_or_limited,0.17518001203918498,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+785,BRD-K16189898,CHIR-99021,10.0 um,MCF7,24 h,0.35081082820240195,0.0,426.0,785.0,1,5,0.0,mixed_or_limited,0.145580732308147,low,single signature,GSE70138
+786,BRD-A87479750,tenidap,10.0 um,MCF7,24 h,0.3510218631384785,0.35042306377138177,759.0,786.0,1,2,0.5,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+787,BRD-K62363391,dapsone,10.0 um,MCF7,24 h,0.3564518691482529,0.3313694880839253,745.0,787.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+788,BRD-K84466663,nelarabine,10.0 um,MCF7,24 h,0.3570466376126751,0.3667497208481092,774.0,788.0,1,1,0.0,single_dose,0.25995986306308017,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+789,BRD-K28307902,flutamide,10.0 um,MCF7,24 h,0.3601019897938991,0.3647697842266466,773.0,789.0,1,3,0.6666666666666666,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+790,BRD-K51544265,cabozantinib,10.0 um,MCF7,24 h,0.3602084198988589,0.38625201205425164,786.0,790.0,1,4,0.25,direction_flip,0.07269086582476053,low,single signature,GSE70138
+791,BRD-A98845662,desvenlafaxine,10.0 um,MCF7,24 h,0.36075089914876063,0.3980244127266851,796.0,791.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+792,BRD-K58736316,cianidanol,10.0 um,MCF7,24 h,0.36168268125803604,0.3396182795517829,751.0,792.0,1,3,0.3333333333333333,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+793,BRD-K91111634,rotigotine,10.0 um,MCF7,24 h,0.3628279804371892,0.368321458338301,777.0,793.0,1,1,0.0,single_dose,0.0455323872794674,low,single signature; limited dose evidence,GSE70138
+794,BRD-K90789829,nefazodone,10.0 um,MCF7,24 h,0.36620377187894493,0.38548803439559576,785.0,794.0,1,4,0.0,mixed_or_limited,0.029386008989481516,low,single signature,GSE70138
+795,BRD-K41895714,AS-605240,10.0 um,MCF7,24 h,0.36642397807234234,0.4331320409786018,807.0,795.0,2,6,0.0,mixed_or_limited,0.22064160391593982,insufficient,; QC threshold sensitivity or missing threshold result,GSE70138
+796,BRD-K15567136,papaverine,10.0 um,MCF7,24 h,0.36791836489980945,0.3905761165523727,788.0,796.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+797,BRD-K06674495,nafamostat,10.0 um,MCF7,24 h,0.37046459823841127,0.4422338287869253,810.0,797.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+798,BRD-A53176877,methylprednisolone,10.0 um,MCF7,24 h,0.3739308260338048,0.3716858477103281,779.0,798.0,1,4,0.25,direction_flip,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+799,BRD-K44942188,fomocaine,10.0 um,MCF7,24 h,0.37490761727757804,0.37574702362746787,781.0,799.0,1,4,0.0,mixed_or_limited,0.05675423237706434,low,single signature,GSE70138
+800,BRD-A67097164,ifosfamide,10.0 um,MCF7,24 h,0.3751155533393043,0.46431123987779604,814.0,800.0,1,3,0.0,mixed_or_limited,0.08455410268888108,low,single signature,GSE70138
+801,BRD-K19352500,prochlorperazine,10.0 um,MCF7,24 h,0.38108519135140606,0.412453340388526,799.0,801.0,1,1,0.0,single_dose,0.38108519135140606,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+802,BRD-A33711280,metixene,10.0 um,MCF7,24 h,0.3855780070304028,0.40030162674765396,797.0,802.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+803,BRD-K16508793,diazepam,10.0 um,MCF7,24 h,0.3856866445952095,0.40035531604766483,798.0,803.0,1,3,0.3333333333333333,direction_flip,0.25508684274057514,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+804,BRD-K04804440,ciprofloxacin,10.0 um,MCF7,24 h,0.39097502615680485,0.41662485100816504,801.0,804.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+805,BRD-K21547160,sufentanil,10.0 um,MCF7,24 h,0.3924753237745613,0.42372201493732187,803.0,805.0,1,5,0.0,mixed_or_limited,0.024730322204355504,low,single signature,GSE70138
+806,BRD-K43806473,camostat-mesilate,10.0 um,MCF7,24 h,0.3964204644986895,0.3865475780456888,787.0,806.0,1,1,0.0,single_dose,,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+807,BRD-K53665955,MK-5108,10.0 um,MCF7,24 h,0.39721297516142984,0.4267964107618349,804.0,807.0,1,4,0.0,mixed_or_limited,0.0109986573849844,low,single signature,GSE70138
+808,BRD-K75641298,metoclopramide,10.0 um,MCF7,24 h,0.39872094182370177,0.4318180669664665,806.0,808.0,1,2,0.0,mixed_or_limited,0.1387263369329591,low,single signature,GSE70138
+809,BRD-K92441787,bexarotene,10.0 um,MCF7,24 h,0.399207596491195,0.4176670729120453,802.0,809.0,1,5,0.0,mixed_or_limited,0.0992490099248367,low,single signature,GSE70138
+810,BRD-K93208532,apremilast,10.0 um,MCF7,24 h,0.4037559882856354,0.36864194927666966,778.0,810.0,1,2,0.0,mixed_or_limited,0.4037559882856354,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+811,BRD-K98453471,salirasib,10.0 um,MCF7,24 h,0.4164026730493248,0.44998800206432454,812.0,811.0,1,1,0.0,single_dose,0.1936568655236678,low,single signature; limited dose evidence; QC threshold sensitivity or missing threshold result,GSE70138
+812,BRD-K95901403,XL-147,10.0 um,MCF7,24 h,0.4214156538851353,0.4961924750923432,816.0,812.0,1,2,0.0,mixed_or_limited,0.21070782694256765,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+813,BRD-A92537424,danazol,10.0 um,MCF7,24 h,0.4215559501108417,0.45515100774529915,813.0,813.0,1,2,0.5,direction_flip,0.5569008395339495,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+814,BRD-A35869383,ibrutinib,10.0 um,MCF7,24 h,0.4296445072152955,0.4416343995635488,809.0,814.0,1,4,0.0,mixed_or_limited,0.09623921437854238,low,single signature,GSE70138
+815,BRD-K53979406,ALX-5407,10.0 um,MCF7,24 h,0.4304503101306501,0.42773230924165373,805.0,815.0,1,3,0.0,mixed_or_limited,0.19747670423386338,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+816,BRD-K92428153,mycophenolate-mofetil,10.0 um,MCF7,24 h,0.45728519473749674,0.5239720119910123,818.0,816.0,1,4,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+817,BRD-K13154216,everolimus,10.0 um,MCF7,24 h,0.4689363650454003,0.4770755493075256,815.0,817.0,1,6,0.0,mixed_or_limited,0.0,low,single signature,GSE70138
+818,BRD-K45033733,famciclovir,10.0 um,MCF7,24 h,0.4787368721379905,0.5200608308316543,817.0,818.0,1,5,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138
+819,BRD-K53061490,ozagrel,10.0 um,MCF7,24 h,0.49647624980079835,0.5399397127059331,819.0,819.0,1,2,0.0,mixed_or_limited,,low,single signature; QC threshold sensitivity or missing threshold result,GSE70138

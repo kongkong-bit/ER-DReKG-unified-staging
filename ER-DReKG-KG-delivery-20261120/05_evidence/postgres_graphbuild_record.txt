@@ -1,0 +1,17 @@
+# PostgreSQL graph_builds record — read-only result transcribed from the audit
+# Source: read-only SELECT executed during the 2026-11-20 audit, before packaging.
+# No database connection was opened during packaging.
+#
+graph_build_id  | GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea
+project_id      | 3f18f4c1-713d-58c5-8a53-38eca5a5aaf9
+analysis_run_id | ANALYSIS_RUN:KG_GRAPH_BUNDLE:e0421796-2aff-47e2-9228-d683eab05fa9
+build_key       | d570eb8deb3e5eea94d4f939e7b4c2cb15ca418b1e1b1a13284322229ba4e3f7
+status          | materialized
+graph_source    | neo4j
+created_at      | 2026-11-19 10:44:37.228794+00
+
+summary_json:
+{"node_count": 12171, "edge_count": 44932, "nodes_by_type": {"DiseaseContext": 1, "Pathway": 709, "Gene": 5790, "GeneSet": 29, "Drug": 666, "Candidate": 1032, "S2Condition": 3943, "Disease": 1}, "source": "neo4j", "snapshot_kind": "按 GraphBuild ID 标记的 Neo4j 图谱版本", "neo4j_membership": "registered", "import_status": "PASS", "test_only": false, "neo4j_importer_sha256": "72953d3c3c35d38fda9e23e836ad39b10cbd630084d0de176ba93f2b5ee61cb2", "evidence_record_count": 48729, "evidence_records_sha256": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70", "evidence_records_status": "persisted", "disease_context_count": 1, "disease_contexts_sha256": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee", "disease_contexts_status": "persisted"}
+
+input_hashes:
+{"analysis_run_manifest.json": "b6c20c0fc9bc523087e85f88223445bbc4564425d5809da65d4bb643d59ccd68", "biocypher_validation.json": "5d69f9f295cddf9188fba1fedafe0cec5628bd0a3fa6381e8f47032dafbe9f5d", "bundle_checksums.json": "7566293aafd138f7145df65452dbe8c3069b55a48d2fd087577f3c483c829bce", "bundle_manifest.json": "c2c9f0f54782af88fabbeb9cd1311d7643a4fa43cdd9aa0f583ba872eb860704", "candidate_mapping_audit.csv": "f7291330df06eead8e53bcc588dedb8e964ed9371f81aec494ae148ba5502525", "candidate_target_pathway_routes.csv": "9c60e42c417c0eaa81905f77e98b99bea7efa058fce31db0ed4ea006b7e5711e", "evidence_records.csv": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70", "pathway_gene_mapping_audit.csv": "d1bad56bb1497899ee872e12cd4ef1146c55e166e9be87c049d07b9f269489d8", "relation_conflicts.csv": "2378daad2198408411034354fce5854ce0727fdd7a2198f4c1ce765ba13c8108", "s1_gene_mapping_audit.csv": "a7613ab0b74ed8fc6a934e3f5e17612e6ab186b8cf34aa42a3fe55d050312d35", "subgraph_edges.csv": "10a345da91c9e462c8f561d439162194f306575f6d9ee514fe57c2c1049938f8", "subgraph_nodes.csv": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee", "unmatched_entities.csv": "be90da4fdb217240e9af589033cf7714f91e4996a433fdfd3fc12cede9088f83"}

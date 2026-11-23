@@ -1,0 +1,28 @@
+{
+  "contrast": "Tumor - Normal",
+  "identifier_type": "symbol",
+  "fdr_threshold": 0.05,
+  "input_genes": 21653,
+  "mapped_rows": 17649,
+  "mapped_universe": 17649,
+  "unmapped_genes": 4007,
+  "one_to_many_genes": 6,
+  "unique_ensembl_genes": 15977,
+  "ambiguous_ensembl_genes": 1148,
+  "unmapped_ensembl_genes": 4531,
+  "up_genes": 2991,
+  "down_genes": 3164,
+  "go_up_significant": 206,
+  "go_down_significant": 343,
+  "reactome_up_significant": 135,
+  "reactome_down_significant": 26,
+  "hallmark_significant": 29,
+  "r_version": "R version 4.4.3 (2025-02-28 ucrt)",
+  "packages": {
+    "clusterProfiler": "4.14.6",
+    "ReactomePA": "1.50.0",
+    "org.Hs.eg.db": "3.20.0",
+    "fgsea": "1.32.4",
+    "ggplot2": "4.0.3"
+  }
+}

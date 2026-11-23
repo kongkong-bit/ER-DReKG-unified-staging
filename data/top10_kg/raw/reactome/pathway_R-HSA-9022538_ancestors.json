@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:02.782364+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9022538/ancestors",
+    "response_sha256": "40f4096e8bcdd0b0ecc2911b2dc33f471df9166a9eaeae44e7145b9e52d2195b",
+    "response_bytes": 2210
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9022538,
+        "displayName": "Loss of MECP2 binding ability to 5mC-DNA",
+        "stId": "R-HSA-9022538",
+        "name": [
+          "Loss of MECP2 binding ability to 5mC-DNA"
+        ],
+        "stIdVersion": "R-HSA-9022538.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-09-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2402,
+        "diagramHeight": 1641,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9005891,
+        "displayName": "Loss of function of MECP2 in Rett syndrome",
+        "stId": "R-HSA-9005891",
+        "name": [
+          "Loss of function of MECP2 in Rett syndrome"
+        ],
+        "stIdVersion": "R-HSA-9005891.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9005891.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 517,
+        "diagramHeight": 439,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9005895,
+        "displayName": "Pervasive developmental disorders",
+        "stId": "R-HSA-9005895",
+        "name": [
+          "Pervasive developmental disorders"
+        ],
+        "stIdVersion": "R-HSA-9005895.4",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 171,
+        "diagramHeight": 137,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9697154,
+        "displayName": "Disorders of Nervous System Development",
+        "stId": "R-HSA-9697154",
+        "name": [
+          "Disorders of Nervous System Development"
+        ],
+        "stIdVersion": "R-HSA-9697154.4",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-09-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 304,
+        "diagramHeight": 100,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9675151,
+        "displayName": "Disorders of Developmental Biology",
+        "stId": "R-HSA-9675151",
+        "name": [
+          "Disorders of Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-9675151.5",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 642,
+        "diagramHeight": 286,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 1643685,
+        "displayName": "Disease",
+        "stId": "R-HSA-1643685",
+        "name": [
+          "Disease"
+        ],
+        "stIdVersion": "R-HSA-1643685.19",
+        "oldStId": "REACT_116125",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 817,
+        "diagramHeight": 361,
+        "inferred": false,
+        "inDisease": true
+      }
+    ]
+  ]
+}

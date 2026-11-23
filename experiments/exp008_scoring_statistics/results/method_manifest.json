@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "signature_ids": 4761,
+  "scheme_list_counts": {
+    "A_original": [
+      70,
+      55
+    ],
+    "B200": [
+      100,
+      100
+    ]
+  },
+  "source_format": "GSE70138 Level 5 COMPZ normalized z-like scores, not raw log fold changes",
+  "WTCS": "Broad weighted KS raw WTCS",
+  "Classic_KS": "unweighted KS pair, zero if same-signed ES, otherwise ES_UP-ES_DOWN",
+  "Zhang": "signed absolute-rank dot product normalized by sum of top ranks; adapted to COMPZ input",
+  "XSum": "signed sum over top 150 absolute COMPZ values; adapted to COMPZ input",
+  "Tau": "NOT_AVAILABLE: no independent disease-query reference set",
+  "NCS": "NOT_CALCULATED: reference distribution must be audited separately"
+}

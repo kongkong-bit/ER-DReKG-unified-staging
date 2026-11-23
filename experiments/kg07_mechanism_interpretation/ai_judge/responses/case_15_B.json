@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "e02b0be14dabab885c99f82da765e0d96d0c1e16e8906ccb82d65418c0256788",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "latency_seconds": 17.306970399999955,
+  "usage": {
+    "completion_tokens": 904,
+    "completion_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "prompt_tokens": 7184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 8088
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006记录rank=8、WTCS median_B=-0.4377026941807087、MCF7/10.0um/24h、source_dataset=GSE70138，均与声明一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006字段逐项匹配：rank_A=6.0、rank_B=8.0、median_A=-0.452847…、median_B=-0.4377…、negative_dose_fraction=0.6667、dose_stability=mixed_or_limited、stability_grade=medium。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中不存在任何S1/B200/Q2外部验证数据（coverage仅有s1_enrichment/s1_deg_overlap路径计数，无排名数值）；这些数值无来源支持。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无PRISM敏感性数据（sensitivity=4.2579、ER+/ER-均值、各排名均无来源记录），复合claim整体不成立。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "accurate": false,
+        "reason": "包内明确存在33条路径（含7条直接靶点路径、通路重叠与SUMOylation等通路标签），靶点/通路机制结论并非完全无法提出，该‘证据不足’表述不准确。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "包内仅表达逆转评分与筛选结果，确无临床疗效证据；外部验证排名数据未在包内提供，‘外部验证未支持’作为数据缺失陈述可接受。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "与exp006字段一致：dose_stability=mixed_or_limited、qc_sensitivity_range=0.0，稳健性有限的表述准确。"
+      }
+    ],
+    "limitations": [
+      "claim 3、4引用的外部验证数据（S1/B200/Q2、PRISM）在EvidencePackage中不存在，无法核对来源",
+      "claim 5的不足证据声明与包内路径/靶点数据直接矛盾",
+      "部分上游断言缺少source URL（evidence_gaps注明），来源可溯性有限",
+      "S2条件中两个低剂量组（0.04、0.12 µM）WTCS中位数为0或接近0，声明仅报告最佳剂量，剂量一致性有限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:07:45.310668+00:00"
+}

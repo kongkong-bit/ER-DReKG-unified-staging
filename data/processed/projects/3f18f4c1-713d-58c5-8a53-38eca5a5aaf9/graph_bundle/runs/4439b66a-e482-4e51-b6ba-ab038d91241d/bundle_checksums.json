@@ -1,0 +1,13 @@
+{
+  "subgraph_nodes.csv": "d94b93ea60f13edc48eae93b788371ff85ae9fea1a2d10f9fb001ea5ef91a07b",
+  "subgraph_edges.csv": "5efc02a2eaf41f16f6706db87b115996207cf030c589766e4ae1f1ef943e4eac",
+  "candidate_mapping_audit.csv": "3b30f7cf6b7082f381dffc03dc1ae40aa235bb1df5034b7999e9dbf75a3eda89",
+  "s1_gene_mapping_audit.csv": "a7613ab0b74ed8fc6a934e3f5e17612e6ab186b8cf34aa42a3fe55d050312d35",
+  "pathway_gene_mapping_audit.csv": "d1bad56bb1497899ee872e12cd4ef1146c55e166e9be87c049d07b9f269489d8",
+  "unmatched_entities.csv": "6b0a3dd39ea92eacb0b884315afdcd19cdd4b8afa0c907c5f5f1233c080ecb25",
+  "relation_conflicts.csv": "2378daad2198408411034354fce5854ce0727fdd7a2198f4c1ce765ba13c8108",
+  "evidence_records.csv": "73880b2c3e68a18e2b165171c93f7925f52c8c88cc371e1f70f005e04d49d1ae",
+  "candidate_target_pathway_routes.csv": "3d2c64a2645ca1819a102f32de83d3295b7debd53f90aa8fede95db2088f780a",
+  "biocypher_validation.json": "9e732171647ad25b8776a73539f8327711b0ea9d1fb109517837ab1e752b5d9d",
+  "bundle_manifest.json": "b4bbde80a0430bbdee60dfab40bfef80bcb4721b69c24f981c5d412d5fbca979"
+}

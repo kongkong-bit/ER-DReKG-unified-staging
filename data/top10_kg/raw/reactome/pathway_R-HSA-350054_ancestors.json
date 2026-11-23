@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:51.779740+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-350054/ancestors",
+    "response_sha256": "bd2351ca69dd887e8f8260f4c73dfa66f75b3b70dbaa5c9093c2af3109a73e9e",
+    "response_bytes": 1625
+  },
+  "payload": [
+    [
+      {
+        "dbId": 350054,
+        "displayName": "Notch-HLH transcription pathway",
+        "stId": "R-HSA-350054",
+        "name": [
+          "Notch-HLH transcription pathway"
+        ],
+        "stIdVersion": "R-HSA-350054.5",
+        "oldStId": "REACT_14835",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-06-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212436,
+        "displayName": "Generic Transcription Pathway",
+        "stId": "R-HSA-212436",
+        "name": [
+          "Generic Transcription Pathway"
+        ],
+        "stIdVersion": "R-HSA-212436.15",
+        "oldStId": "REACT_12627",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_12627.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2027,
+        "diagramHeight": 1176,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73857,
+        "displayName": "RNA Polymerase II Transcription",
+        "stId": "R-HSA-73857",
+        "name": [
+          "RNA Polymerase II Transcription"
+        ],
+        "stIdVersion": "R-HSA-73857.7",
+        "oldStId": "REACT_1366",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1366.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2900,
+        "diagramHeight": 1308,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

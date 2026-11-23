@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.759550+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-4641265/ancestors",
+    "response_sha256": "06b3080ee9e3a8e32976a239f83990cbd329710e2da7183ebe5a1fd6dafad8fe",
+    "response_bytes": 1630
+  },
+  "payload": [
+    [
+      {
+        "dbId": 4641265,
+        "displayName": "Repression of WNT target genes",
+        "stId": "R-HSA-4641265",
+        "name": [
+          "Repression of WNT target genes"
+        ],
+        "stIdVersion": "R-HSA-4641265.5",
+        "oldStId": "REACT_264567",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_228106.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-06-10",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 195253,
+        "displayName": "Degradation of beta-catenin by the destruction complex",
+        "stId": "R-HSA-195253",
+        "name": [
+          "Degradation of beta-catenin by the destruction complex"
+        ],
+        "stIdVersion": "R-HSA-195253.4",
+        "oldStId": "REACT_11063",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_11063.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2007-05-15",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1507,
+        "diagramHeight": 1488,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 195721,
+        "displayName": "Signaling by WNT",
+        "stId": "R-HSA-195721",
+        "name": [
+          "Signaling by WNT"
+        ],
+        "stIdVersion": "R-HSA-195721.7",
+        "oldStId": "REACT_11045",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_11045.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2007-05-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 944,
+        "diagramHeight": 386,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

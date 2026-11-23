@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "023fd21f00688f32032c30efe5275fd1dda97e246c11647b7167d439d5e9b3f3",
+  "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc",
+  "latency_seconds": 32.97433000000001,
+  "usage": {
+    "completion_tokens": 2042,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    },
+    "prompt_tokens": 14638,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 16680
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "所引证据仅覆盖0.37uM单剂量（WTCS=-0.452，负向）；0.04uM剂量WTCS=0.0并非负向，'多剂量扰动下WTCS为负'的泛化未被所引证据直接支持（负向仅3/4剂量）"
+      },
+      {
+        "claim_index": 2,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "排名9仅出现在exp006/s2_candidate汇总记录中；所引证据ID对应0.04uM条件快照（WTCS=0.0），快照内容不含rank=9或'基于S2 WTCS综合'的依据，复合claim未获直接支持"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照显示MCF7|trt_cp|10.0um|24h的WTCS_median=-0.4287，与'约-0.429'一致且已验证"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径快照显示CHEMBL1173055→ENSG00000143799 reported_actions含INHIBITOR/TARGET，OptimusKG来源断言'PARP 1,2,3 inhibitor'支持抑制方向，无冲突"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径记录ENSG00000138115为ENZYME/TARGETS关系；claim已按association表述并声明方向未确认，与来源一致"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径记录ENSG00000085563 reported_actions为TRANSPORTER，'转运蛋白类靶点关联'与来源一致且为关联性表述"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c39939975d74c8dc556fdea448bfba19efe6972dcafc8a2d161c11eed379f5c1",
+        "supports_claim": false,
+        "reason": "该证据仅证明0.37uM单剂量WTCS为负，不足以支持'多剂量下WTCS为负'的完整claim（0.04uM为0.0）"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "7201adad44bd88c5bfd9e5c29e912eacff20e0dd3b42996654a5c0813eb77048",
+        "supports_claim": false,
+        "reason": "该证据为0.04uM条件记录（WTCS=0.0），快照不含rank=9或综合排名信息"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "0aea8728d8fd988448862bddc0cd7e5fc72200f95065cb325113bcf22d758654",
+        "supports_claim": true,
+        "reason": "快照直接给出10.0um/24h的WTCS_median=-0.42873065，与claim数值一致"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "8c75c2ccf0cd5863f85a8ca724e9d32ebd12b3f8a3a3dbe7cb9bf02b413e3f38",
+        "supports_claim": true,
+        "reason": "路径含TARGETS边且reported_actions=[INHIBITOR,TARGET]，来源断言PARP inhibitor支持抑制方向"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "1580234ab7fa7e349ffe843479a91d6401c2bfd89bffb73062863e666615a6ea",
+        "supports_claim": true,
+        "reason": "路径含ENSG00000138115的TARGETS边与ENZYME动作，关联性表述获支持"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "1a0981bf931a0c1643ae603e28f6da1f263adc00b6c4b9d4c0919d574b482995",
+        "supports_claim": true,
+        "reason": "路径含ENSG00000085563的TARGETS边与TRANSPORTER动作，关联性表述获支持"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "coverage显示public_pathway_path_count=0，evidence_gaps明确记录无target-to-public-pathway通路，表述与包内覆盖一致"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "evidence_gaps明确列出'部分上游断言缺source URL但保留source_record_id与source_release'，多条来源快照确无source_urls字段，表述准确"
+      }
+    ],
+    "limitations": [
+      "无靶点到公共通路的路线（public_pathway_path_count=0），通路层面机制不可用",
+      "部分来源记录缺少source URL，可追溯性受限",
+      "S2证据仅有单一signature（n_signatures=1），稳定性等级为low",
+      "负向WTCS仅出现在4个剂量中的3个（0.04uM为0.0），'多剂量负向'应谨慎解读",
+      "rank=9的排名依据在所引条件级证据快照中未直接呈现，仅存在于汇总记录"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:00:46.602044+00:00"
+}

@@ -1,0 +1,22 @@
+# PostgreSQL counts — read-only results transcribed from the audit
+# Source: read-only SELECTs executed during the 2026-11-20 audit, before packaging.
+# No database connection was opened during packaging.
+
+analysis_runs:
+  ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c | s1_precomputed_deg          | completed
+  PHASEB_OPTIMUSKG32_20261113                                      | knowledge_graph_seed_subgraph | completed
+  ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5      | s2_lincs                    | completed
+  ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea   | s1_pathway_enrichment       | completed
+  ANALYSIS_RUN:KG_GRAPH_BUNDLE:e0421796-2aff-47e2-9228-d683eab05fa9 | kg_graph_bundle             | completed
+
+evidence_records:
+  GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea | 48729
+
+disease_contexts:
+  GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea | 1
+
+s2_condition_results:
+  ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5 | rows=3943 | unique_pert_id=1032
+
+candidates (legacy table, not the A+ set):
+  PHASEB_OPTIMUSKG32_20261113 | 50

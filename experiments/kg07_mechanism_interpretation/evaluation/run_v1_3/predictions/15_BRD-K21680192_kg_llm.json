@@ -1,0 +1,352 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K21680192",
+    "drug_name": "mitoxantrone",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL58",
+    "rank": "8"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 7,
+    "public_pathway_path_count": 1,
+    "s1_enrichment_overlap_path_count": 24,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 59,
+    "verified_evidence_count": 59,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "mitoxantrone (BRD-K21680192, CHEMBL58, exact InChIKey match) 在 S2 LINCS 筛选中排名 8，总 WTCS 为 -0.4377026941807087（6 个条件），属于数据关联而非临床疗效证据",
+        "relation": "association",
+        "evidence_ids": [
+          "b3befe8e71f15cce8a1f0bfa0c5aaf589fd234a8a862d62e9de8aa89bdcb1a72"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 10.0 µM、24 h 条件 WTCS_median=-0.4377026941807087（rank 38，n_signatures=6），是支撑候选总分的剂量条件",
+        "relation": "association",
+        "evidence_ids": [
+          "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 3.33 µM、24 h 条件 WTCS_median=-0.35646973514905655",
+        "relation": "association",
+        "evidence_ids": [
+          "d4752d997a9f9c82799a2eb5f5e5322e4d195448fcba0c1fca71b9f3b9b04a05"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 1.11 µM、24 h 条件 WTCS_median=-0.3119992651296377",
+        "relation": "association",
+        "evidence_ids": [
+          "c6f53d07c855e78e44d9133603ad9f7328e94b0603deb4f7fe93fe2b2897ab86"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 0.37 µM、24 h 条件 WTCS_median=-0.3646305022653124",
+        "relation": "association",
+        "evidence_ids": [
+          "7c62b9d7a2e4bbd590d7401233f4ee29c383cf6d63f27b5a48d9ddfb64a7c425"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞 0.04 µM 与 0.12 µM 条件的 WTCS 接近 0（-0.0033 与 0.0），负向关联主要出现在较高剂量",
+        "relation": "association",
+        "evidence_ids": [
+          "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68",
+          "81ac147cd7b8c252c9fcb95e14986ce680934c1a5b8a430faa1e5693df2a68dd"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "OptimusKG 3.2（来源 DrugBank 与 Open Targets，机制注释为 DNA topoisomerase II alpha inhibitor）报告 mitoxantrone 为 TOP2A (ENSG00000131747) 的抑制剂",
+        "relation": "inhibition",
+        "evidence_ids": [
+          "4716b638a3eeca6aa06a4e9b1852f33c12ea7d95c0e1542abdba113b4610dd2e"
+        ],
+        "path_ids": [
+          "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 靶向 ENSG00000138061（ENZYME 关系，无方向性动作推断）",
+        "relation": "association",
+        "evidence_ids": [
+          "81bfaab98282aa6014a804dbec1a1595567647e9ba28c9cc047a51701635667b"
+        ],
+        "path_ids": [
+          "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 靶向 ENSG00000130649（ENZYME 关系，无方向性动作推断）",
+        "relation": "association",
+        "evidence_ids": [
+          "6655a11900d2b4d2f7f820c75df921fea9ac0e7a1e5f3339009ea1ee13b1df1c"
+        ],
+        "path_ids": [
+          "059d86d1e8dd5cab89b92b798ac9ef4c75f267399ab520142f6a1c730ce727cd"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 靶向 ENSG00000160868（ENZYME 关系，无方向性动作推断）",
+        "relation": "association",
+        "evidence_ids": [
+          "702d52650c4ce8c800b222e141dc99f6d70f36777aef4ae290dd06dcc650744d"
+        ],
+        "path_ids": [
+          "9b85b542abbcc67eca79e82186668c7a923773097bb09e392cf168c6af5f86fd"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 与 ENSG00000118777（TRANSPORTER 关系）相关",
+        "relation": "association",
+        "evidence_ids": [
+          "cebc118031e090e6a94561b30bc194afbd15f29089a6914dec3ef51b483886f8"
+        ],
+        "path_ids": [
+          "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 与 ENSG00000103222（TRANSPORTER 关系）相关",
+        "relation": "association",
+        "evidence_ids": [
+          "dad7c635aa66be7c6eb172ea5eeb4c1e6061b18587874c7a2be7c04f53d42a80"
+        ],
+        "path_ids": [
+          "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：OptimusKG 3.2（DrugBank）报告 mitoxantrone 与 ENSG00000085563（TRANSPORTER 关系）相关",
+        "relation": "association",
+        "evidence_ids": [
+          "a40c6f401b9bb0dac420c80419fcf8c2cbab7c308430a4a348f83306cf5119e9"
+        ],
+        "path_ids": [
+          "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "TOP2A (ENSG00000131747) 属于 Reactome 通路 SUMOylation of DNA replication proteins (REACT:R-HSA-4615885)；这是通路成员关系，不构成 mitoxantrone 对该通路作用的疗效证据",
+        "relation": "association",
+        "evidence_ids": [
+          "4716b638a3eeca6aa06a4e9b1852f33c12ea7d95c0e1542abdba113b4610dd2e",
+          "d8648fd5107655898f2e4dfbb17cfd2d54bb44e1c5940a41808843e0c8a91923"
+        ],
+        "path_ids": [
+          "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "疾病上下文的富集分析显示 TOP2A 在 nuclear division (GO:0000280, adjusted_p≈4.14e-07)、chromosome segregation (GO:0007059, adjusted_p≈7.36e-11)、Cell Cycle Mitotic (REACT:R-HSA-69278, adjusted_p≈4.54e-10)、HALLMARK_G2M_CHECKPOINT (adjusted_p=1e-09, NES=2.597)、HALLMARK_E2F_TARGETS (adjusted_p=1e-09, NES=2.771) 等通路中富集",
+        "relation": "association",
+        "evidence_ids": [
+          "a1267889756da90d6630b6fadbf7e4c965235ee8519ee35239d75e5034359619",
+          "4dce73959cb17cbf92f33838dba1817764a3de7b88c2b98a5ec80756c0a3b15e",
+          "5e601fe02758c39c9a63c5c8d6a10e94948ed75330689ee78cfd62f59683502a",
+          "ba7fe0b5abb62be1ac3eba3a3c28f39eaf91a0f1d951f98a1e48004b591ea32a",
+          "5fae77bea5c64635e03129a19553b133f8f69e94ca4d055bf6627f79eb9a8be6"
+        ],
+        "path_ids": [
+          "051fd5b7999bd81a3e66a1a59e9b1934ecf8ce3f12ada4305d7ea378e49a6e9e",
+          "20061e1acee2ec22fa9fcb4c2a5acd7d124488e0d4d5060df5637a39a4e00a91",
+          "16b9299e2947bb7f4e3327e9f5974581f756a2929a3071138957dd8c79d3cd87",
+          "44c93876fd4d8d32c365756a87cc8de06a5d8bde3684c8a920ff1a47f2fcc7d1",
+          "fc72136647850141a7aa7f9609380c1da427aa284a08e3f62f691247e2f96eb5"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "假设（仅整合可引用来源）：mitoxantrone 通过抑制 TOP2A 干扰 DNA 拓扑与细胞分裂，这与 S1 富集中核分裂/染色体分离及 HALLMARK_G2M_CHECKPOINT、HALLMARK_E2F_TARGETS 显著富集的方向一致；该假设为机制推断，非临床疗效证据",
+        "relation": "association",
+        "evidence_ids": [
+          "4716b638a3eeca6aa06a4e9b1852f33c12ea7d95c0e1542abdba113b4610dd2e",
+          "a1267889756da90d6630b6fadbf7e4c965235ee8519ee35239d75e5034359619",
+          "ba7fe0b5abb62be1ac3eba3a3c28f39eaf91a0f1d951f98a1e48004b591ea32a"
+        ],
+        "path_ids": [
+          "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0",
+          "44c93876fd4d8d32c365756a87cc8de06a5d8bde3684c8a920ff1a47f2fcc7d1"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "除 TOP2A 外的其他靶点（ENSG00000138061、ENSG00000130649、ENSG00000160868、ENSG00000118777、ENSG00000103222、ENSG00000085563）仅有数据库 generic 关系断言，无方向性动作或机制注释，不能判定为抑制或激活",
+        "relation": "unknown",
+        "evidence_ids": [
+          "81bfaab98282aa6014a804dbec1a1595567647e9ba28c9cc047a51701635667b",
+          "6655a11900d2b4d2f7f820c75df921fea9ac0e7a1e5f3339009ea1ee13b1df1c",
+          "702d52650c4ce8c800b222e141dc99f6d70f36777aef4ae290dd06dcc650744d",
+          "cebc118031e090e6a94561b30bc194afbd15f29089a6914dec3ef51b483886f8",
+          "dad7c635aa66be7c6eb172ea5eeb4c1e6061b18587874c7a2be7c04f53d42a80",
+          "a40c6f401b9bb0dac420c80419fcf8c2cbab7c308430a4a348f83306cf5119e9"
+        ],
+        "path_ids": [
+          "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15",
+          "059d86d1e8dd5cab89b92b798ac9ef4c75f267399ab520142f6a1c730ce727cd",
+          "9b85b542abbcc67eca79e82186668c7a923773097bb09e392cf168c6af5f86fd",
+          "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769",
+          "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482",
+          "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "TOP2A 在疾病上下文中为差异表达基因（logFC=3.2295，UP，adj.P.Val≈2.54e-11），但这是疾病侧关联，不能单独证明 mitoxantrone 在该疾病中的疗效",
+        "relation": "unknown",
+        "evidence_ids": [
+          "d77a34a547c013a80a1e336a2d71d66d634f7c3113ee1e088aa1a25932773e95"
+        ],
+        "path_ids": [
+          "4dff98faf872dbaf99bb641589677ace75245c9ee6fe4f867ef2225a0c2b42ae"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "WTCS/逆转分数、S2 条件和图谱路径均为计算性或关联性证据，不构成临床疗效证据",
+      "多数靶点关系为 generic TARGET/ENZYME/TRANSPORTER 断言，来源本身未提供方向性动作；仅 TOP2A 有来源明确的 INHIBITOR 动作",
+      "部分上游断言缺少 source URL（仅保留 source_record_id 与 source_release）",
+      "独立验证（Exp006、Phase F/PRISM）缺乏可核验的 EvidenceRecord/Path ID，无法纳入",
+      "S2 条件仅覆盖 MCF7 单一细胞系、24 h 时点，普适性有限"
+    ],
+    "uncited_or_uncertain": [
+      "TOP2A 以外的基因符号在本 JSON 中未给出，不基于外部知识推断",
+      "GO:0016032 (viral process)、GO:0039694、GO:0032392 等 S1 富集通路与候选机制的联系较弱，仅作为富集事实列出未纳入机制假设"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 3,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 4,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 5,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 6,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 39.765,
+  "usage": {
+    "completion_tokens": 3944,
+    "completion_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "prompt_tokens": 133308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 137252
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

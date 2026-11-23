@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "1f699e0cd304e7bbcaeca7350c7c5702b11c4fb151bb7eba65e9e3f72736fdfc",
+  "evidence_input_sha256": "3e5186b8b778a0f35223b17871b55ae23ee95b5037a4012e7f60cdb148e5e641",
+  "latency_seconds": 22.30998720000025,
+  "usage": {
+    "completion_tokens": 1678,
+    "completion_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "prompt_tokens": 32686,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 34364
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "来源快照显示10μM 24h WTCS_median=-0.4552728740394695，且为四个条件中最负值，与声明一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.37μM WTCS=-0.0504、3.33μM WTCS=-0.0111均接近零；结合0.12μM为正、10μM为-0.456，'浓度依赖趋势可见'可由四个条件数值支持。"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "来源快照显示0.12μM WTCS_median=0.2817915，为正，一致。"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "direct_target路径中CHEMBL1170047→ENSG00000143799的TARGETS关系来自OptimusKG 3.2(DRUG_BANK来源)，即数据库标注，声明为'数据库标注'准确且无过度方向表述。"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006260 DNA replication富集路径存在，adjusted_p≈7.36e-11，HAS_ENRICHED_PATHWAY/HAS_ENRICHED_GENE均确认。"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006284 base-excision repair富集路径存在，adjusted_p≈0.0040，一致。"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0000724 double-strand break repair via homologous recombination富集路径存在，adjusted_p≈1.72e-05，一致。"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两条s1_enrichment_overlap路径(DNA复制、碱基切除修复)均存在；声明用'或涉及'为假设性表述，且富集关系本身即为关联，无方向错误。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8ea81161d046d8ac21a1ec78b5106fbf48e2b66a426181ae90cbda12dba301a5",
+        "supports_claim": true,
+        "reason": "该证据即MCF7 10μM 24h条件记录，WTCS_median=-0.4552728740394695，直接支持。"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "5ee16d32ef9dc59fc1162814cdfce4aeadd94453eff7ba41bdcc4ae52dea8e5a",
+        "supports_claim": true,
+        "reason": "0.37μM条件WTCS=-0.0504，接近零，支持低剂量描述及趋势的一半。"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "bd6f862c55ce0638a5f34bf33ed240691a6967d1380096a8ee6684121950a5a3",
+        "supports_claim": true,
+        "reason": "3.33μM条件WTCS=-0.0111，接近零，支持低剂量描述及浓度趋势。"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "2233972d24750218f90645b48e31ca51fb0b4f11fc19021ff2908c089bb0de8d",
+        "supports_claim": true,
+        "reason": "0.12μM条件WTCS=0.28179，为正，直接支持。"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad",
+        "supports_claim": true,
+        "reason": "direct_target路径含OptimusKG(DRUG_BANK)的CHEMBL1170047 TARGETS ENSG00000143799断言，支持'数据库标注靶向'。"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761",
+        "supports_claim": true,
+        "reason": "路径含GO:0006260 DNA replication富集及adjusted_p，直接支持。"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549",
+        "supports_claim": true,
+        "reason": "路径含GO:0006284 base-excision repair富集及adjusted_p，直接支持。"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "18e29b3026da53fc56f5721adcea5796da79bcfc68e5245e780eaec3c54408eb",
+        "supports_claim": true,
+        "reason": "路径含GO:0000724同源重组双链断裂修复富集及adjusted_p，直接支持。"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761",
+        "supports_claim": true,
+        "reason": "DNA复制富集路径支持'或涉及DNA复制相关通路'的假设性表述。"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549",
+        "supports_claim": true,
+        "reason": "碱基切除修复富集路径支持'或涉及DNA修复相关通路'的假设性表述。"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad",
+        "supports_claim": true,
+        "reason": "路径reported_actions仅为泛型TARGET，action_interpretation明确no direction inferred，支持'无方向证据'的声明。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 9,
+        "accurate": true,
+        "reason": "包内所有TARGETS关系的reported_actions均为泛型TARGET且明确未推断方向，确无抑制/激活等方向证据，'证据不足'表述准确。"
+      }
+    ],
+    "limitations": [
+      "no target-to-public-pathway route was found",
+      "部分上游断言无source URL，仅保留source_record_id和source_release",
+      "s2 10μM条件仅单签名(n_signatures=1)，且exp006标注dose_stability=direction_flip、stability_grade=low，浓度依赖趋势解释需谨慎",
+      "0.12μM条件quality_cc_median=0.27较低，正WTCS的可靠性有限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:57:27.122628+00:00"
+}

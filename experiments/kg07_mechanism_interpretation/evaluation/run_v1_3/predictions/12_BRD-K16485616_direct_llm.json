@@ -1,0 +1,208 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K16485616",
+    "drug_name": "mocetinostat",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL272980",
+    "rank": "2"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 5,
+    "public_pathway_path_count": 12,
+    "s1_enrichment_overlap_path_count": 37,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 94,
+    "verified_evidence_count": 94,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "Mocetinostat (BRD-K16485616) 在 S2 逆转筛选中排名 2（WTCS = -0.5059，基于 6 个条件，来自 GSE70138 的 exp006：MCF7，10 µM，24 h）。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "exp006 的剂量稳定性评级为低（方向翻转，negative_dose_fraction = 0.667），仅有单一 signature，且 WTCS median 在 A/B 之间不同（-0.4526 vs -0.5059）。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "独立 PRISM 数据集提供了独立的终点（细胞活力降低），而非表达逆转。S1 median rank = 499（B200：381），Q2 median rank = 205.5；这些是基于 PRISM 图谱的路径/排名观察结果，并非临床疗效证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 敏感性：MCF7 sensitivity = 3.971（rank 23），ER+ 平均敏感性 = 2.183（9 种细胞系）对比 ER- 平均 = 3.081（13 种细胞系）；这是细胞活力数据，不能作为疗效结论。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "输入数据中不提供 mocetinostat 的已知分子靶点；没有策划的靶点断言（例如，HDAC 类抑制），因此无法陈述任何靶点结合/抑制/激活关系。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "不存在知识图谱路径或疾病通路重叠数据；无法得出机制或通路相关的结论。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "S2 逆转分数和 PRISM 敏感性均不构成疾病临床疗效的证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "exp006 仅基于单一 signature（n_signatures=1），且剂量稳定性低（方向翻转），WTCS 逆转观察可靠性有限。",
+      "PRISM 终点与 S2 表达逆转是独立的端点，两者不一致（WTCS rank 2 vs PRISM ranks 205–499）不能相互否定，但也不构成相互验证。",
+      "没有提供知识图谱路径、策划靶点断言或通路重叠数据，无法进行机制解释。",
+      "数据映射仅为精确 InChIKey 匹配（CHEMBL272980），映射本身不提供生物学证据。"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K16485616",
+        "exp006"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "exp006"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "independent_validation_and_prism"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "independent_validation_and_prism"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "s2_candidate",
+        "independent_validation_and_prism"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 12.827,
+  "usage": {
+    "completion_tokens": 809,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 970,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1779
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

@@ -1,0 +1,5 @@
+metric,threshold,signatures,compounds,dose_strata,times
+distil_cc_q75,0.1,9404,1741,58,1
+distil_cc_q75,0.2,5861,1471,36,1
+distil_cc_q75,0.3,3717,969,26,1
+TAS,0.2,4137,1171,29,1

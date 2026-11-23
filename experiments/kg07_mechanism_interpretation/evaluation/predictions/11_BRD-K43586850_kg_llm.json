@@ -1,0 +1,146 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K43586850",
+    "drug_name": "lacidipine",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL460291",
+    "rank": "11"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 12,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 2,
+    "s1_deg_overlap_path_count": 2,
+    "unique_evidence_count": 20,
+    "verified_evidence_count": 20,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "拉西地平在MCF7多剂量处理显示负WTCS，排名第11",
+        "relation": "association",
+        "evidence_ids": [
+          "5cff9329ae11c22ef1abaceeca29b6a3fb3b3c8d4053365b5bd2b767a9f2530a",
+          "61e8b0750f1b0783e6fbef97fed2327acf7a8ca1732d4c31c7439c71840f620e"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录该药为ENSG00000157388的阻断剂/靶点",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "83d180ad4b430d470ead5dcda35f95ae7152c6cfbeaa325011d705065f99244d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录该药为ENSG00000102001的阻断剂/靶点",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "bdf532ee0a266a0ad4a89b581d9fe4685d1386ed88802cd8778449aea28f8f61"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录该药为ENSG00000182389的靶点",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "290447609253b43204fe85a6b18cb2c56f5d0657d8636ec64e6917e281f05b27"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56"
+      }
+    ],
+    "limitations": [
+      "逆转分数与细胞敏感性不构成临床疗效证据",
+      "部分上游断言缺source URL，仅保留source_record_id与release"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 6.914,
+  "usage": {
+    "completion_tokens": 483,
+    "completion_tokens_details": {
+      "reasoning_tokens": 5
+    },
+    "prompt_tokens": 3344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3827
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

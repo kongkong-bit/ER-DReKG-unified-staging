@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "offline_biocypher_validated_not_imported",
+  "scope": "union of unique signed regulatory assertions present in Top10-to-S1 candidate paths",
+  "candidate_count": 10,
+  "unique_regulatory_assertions": 328,
+  "protein_gene_mapping_assertions": 133,
+  "node_count": 297,
+  "edge_count": 461,
+  "source_files_sha256": {
+    "data/kg_enrichment/raw/signor/2026-10/Oct2026_release.txt": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06",
+    "data/kg_enrichment/raw/omnipath/2026-11-22/interactions.tsv": "1092e4ee04f02bac0da89d0ea8d93570b2c54178be69656bf2a6780f8d6977e5",
+    "data/kg_enrichment/normalized/optimuskg/3.2/uniprot_gene_crosswalk.csv": "f4071759c82a638cc259d32f44395e89fa6d1326afea4601b99150b60b0104d3",
+    "reports/top10_kg/02_top10_frozen_manifest.json": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+    "reports/top10_kg/top10_graph_bundle/3928c54d_external_v1/subgraph_nodes.csv": "da8fe5315210b529f3acdb65fc6ff16b690325ec9f4efa567ea14c7dd71295ec",
+    "artifacts/kg_enrichment/subgraphs/01_BRD-K44227013.json": "2220d25cd7d1c472c33ec8095daf4e9aedf9f62aad2346e30f4ebb78e1b7c9f6",
+    "artifacts/kg_enrichment/subgraphs/02_BRD-K16485616.json": "5319b66d8b80c7e7b4629dc80244ec855aa93f887bf87599e76d7388168123b6",
+    "artifacts/kg_enrichment/subgraphs/03_BRD-K56405753.json": "9aecb711c9d5608a3b39e53a2966b17adc7d5f8ad52c78ac2cd98e6c2acfeb13",
+    "artifacts/kg_enrichment/subgraphs/04_BRD-K92093830.json": "e627f8251a52e8dfbce45324321103e004ec110777430aaebfc3bef44600ec7e",
+    "artifacts/kg_enrichment/subgraphs/05_BRD-K76694128.json": "5095b7290967abd45cfd36a2ea8f3d6b09ca3fd531b17e3b9f0e038bfd96f3f8",
+    "artifacts/kg_enrichment/subgraphs/06_BRD-K50000283.json": "0b962e0add603ed61b6242e4167b9f24fb993b3fba8f47e1fd72a0af1feb0afb",
+    "artifacts/kg_enrichment/subgraphs/07_BRD-K11153516.json": "700f5362b2253c021102b894c2389a0d1ba39629db7c7f11204b33b4c979af86",
+    "artifacts/kg_enrichment/subgraphs/08_BRD-A00147595.json": "2579a08529da82ffdc97bd3d749ba74a0efaa86800d59005c1d98ee3d7cf693f",
+    "artifacts/kg_enrichment/subgraphs/09_BRD-K13094524.json": "b6dcb628d74f5f4efb73f2157929bc3241fc5bef6ee205223bd5fe5ded8b5440",
+    "artifacts/kg_enrichment/subgraphs/10_BRD-K83837640.json": "1917a44522bb1117d6e71a8ee1e4d807befe469f46b375c9e46e4bb10907e126"
+  },
+  "node_file_sha256": "77bfd1d5fba0399fcd32a14d388995edbb727d636493e84385cd3916277066b3",
+  "edge_file_sha256": "1a0220b5babf6714bcfff016c4fd3e7cb864a16a1cb0e506175cf60337fc17d4",
+  "neo4j_write_performed": false,
+  "biocypher_validation_sha256": "afd730c1c7a9b6d2fae3cc3be7f0be6d4bfc914b3de3654da5a0ed5310224268",
+  "offline_import_preflight_sha256": "27f880ffc00121d9f5cd7c970730c82ec289f36505e5b03eb4845cdcb3ddb7aa",
+  "offline_import_preflight_status": "PASS"
+}

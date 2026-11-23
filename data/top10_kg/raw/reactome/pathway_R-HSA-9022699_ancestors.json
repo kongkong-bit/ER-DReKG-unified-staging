@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:03.772542+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9022699/ancestors",
+    "response_sha256": "e4d9c0a3716225952512d33a032dc1e54d2cb9a49659fe53a09131c93efe13a4",
+    "response_bytes": 2029
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9022699,
+        "displayName": "MECP2 regulates neuronal receptors and channels",
+        "stId": "R-HSA-9022699",
+        "name": [
+          "MECP2 regulates neuronal receptors and channels"
+        ],
+        "stIdVersion": "R-HSA-9022699.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-09-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8986944,
+        "displayName": "Transcriptional Regulation by MECP2",
+        "stId": "R-HSA-8986944",
+        "name": [
+          "Transcriptional Regulation by MECP2"
+        ],
+        "stIdVersion": "R-HSA-8986944.4",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-8986944.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-09-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2402,
+        "diagramHeight": 1641,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212436,
+        "displayName": "Generic Transcription Pathway",
+        "stId": "R-HSA-212436",
+        "name": [
+          "Generic Transcription Pathway"
+        ],
+        "stIdVersion": "R-HSA-212436.15",
+        "oldStId": "REACT_12627",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_12627.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2027,
+        "diagramHeight": 1176,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73857,
+        "displayName": "RNA Polymerase II Transcription",
+        "stId": "R-HSA-73857",
+        "name": [
+          "RNA Polymerase II Transcription"
+        ],
+        "stIdVersion": "R-HSA-73857.7",
+        "oldStId": "REACT_1366",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1366.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2900,
+        "diagramHeight": 1308,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

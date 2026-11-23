@@ -1,0 +1,11 @@
+rank,pert_id,drug,status,node_count,edge_count,evidence_count,target_nodes,regulatory_path_count,signor_path_edge_count,omnipath_path_edge_count,conflicting_path_edge_count,context_path_count,gap_count,subgraph_file
+1,BRD-K44227013,ponatinib,offline_bundle_subgraph,800,2451,2521,91,181,77,104,4,0,2,artifacts\kg_enrichment\subgraphs\01_BRD-K44227013.json
+2,BRD-K16485616,mocetinostat,offline_bundle_subgraph,407,846,861,25,21,9,12,0,111,2,artifacts\kg_enrichment\subgraphs\02_BRD-K16485616.json
+3,BRD-K56405753,MK-2461,offline_bundle_subgraph,225,347,354,9,22,15,7,0,19,2,artifacts\kg_enrichment\subgraphs\03_BRD-K56405753.json
+4,BRD-K92093830,doxorubicin,offline_bundle_subgraph,160,164,166,33,1,0,1,0,0,2,artifacts\kg_enrichment\subgraphs\04_BRD-K92093830.json
+5,BRD-K76694128,rebastinib,offline_bundle_subgraph,18,17,17,3,0,0,0,0,13,3,artifacts\kg_enrichment\subgraphs\05_BRD-K76694128.json
+6,BRD-K50000283,PHA-767491,offline_bundle_subgraph,401,821,837,19,61,45,16,0,0,2,artifacts\kg_enrichment\subgraphs\06_BRD-K50000283.json
+7,BRD-K11153516,iniparib,offline_bundle_subgraph,217,303,312,10,11,2,9,3,0,2,artifacts\kg_enrichment\subgraphs\07_BRD-K11153516.json
+8,BRD-A00147595,balaglitazone,offline_bundle_subgraph,262,429,442,17,14,2,12,0,8,2,artifacts\kg_enrichment\subgraphs\08_BRD-A00147595.json
+9,BRD-K13094524,PFI-1,offline_bundle_subgraph,212,340,345,8,7,3,4,0,0,2,artifacts\kg_enrichment\subgraphs\09_BRD-K13094524.json
+10,BRD-K83837640,JNJ-26481585,offline_bundle_subgraph,438,974,998,36,31,13,18,0,165,2,artifacts\kg_enrichment\subgraphs\10_BRD-K83837640.json

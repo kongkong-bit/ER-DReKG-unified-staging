@@ -1,0 +1,173 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88560311",
+    "drug_name": "rucaparib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1173055",
+    "rank": "9"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 23,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 53,
+    "s1_deg_overlap_path_count": 3,
+    "unique_evidence_count": 134,
+    "verified_evidence_count": 134,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "rucaparib 在 MCF7 多剂量扰动下 WTCS 为负向连接分数",
+        "relation": "association",
+        "evidence_ids": [
+          "c39939975d74c8dc556fdea448bfba19efe6972dcafc8a2d161c11eed379f5c1"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选排名为 9，基于 S2 WTCS 综合",
+        "relation": "association",
+        "evidence_ids": [
+          "7201adad44bd88c5bfd9e5c29e912eacff20e0dd3b42996654a5c0813eb77048"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "最高剂量 10 uM 24h 的 WTCS 约为 -0.429",
+        "relation": "association",
+        "evidence_ids": [
+          "0aea8728d8fd988448862bddc0cd7e5fc72200f95065cb325113bcf22d758654"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录 rucaparib 对 ENSG00000143799 为 INHIBITOR/TARGET 关系",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "8c75c2ccf0cd5863f85a8ca724e9d32ebd12b3f8a3a3dbe7cb9bf02b413e3f38"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录对 ENSG00000138115 等酶类靶点有靶向关系",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "1580234ab7fa7e349ffe843479a91d6401c2bfd89bffb73062863e666615a6ea"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录多个转运蛋白类靶点关联",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "1a0981bf931a0c1643ae603e28f6da1f263adc00b6c4b9d4c0919d574b482995"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc"
+      }
+    ],
+    "limitations": [
+      "仅 MCF7 单细胞系、单时间点 S2 条件",
+      "逆转分数与图谱路径非临床疗效证据",
+      "部分来源记录缺 source URL"
+    ],
+    "uncited_or_uncertain": [
+      "各靶点具体作用方向（除一条 INHIBITOR 记录外）仅标注 ENZYME/TRANSPORTER 类别，未写明抑制或激活"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 9.63,
+  "usage": {
+    "completion_tokens": 673,
+    "completion_tokens_details": {
+      "reasoning_tokens": 6
+    },
+    "prompt_tokens": 3002,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3675
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

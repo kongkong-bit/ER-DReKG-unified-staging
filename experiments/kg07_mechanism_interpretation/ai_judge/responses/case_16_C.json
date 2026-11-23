@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "5c938f04a0cc52a32f8888cde20bae54f7363285f8c229be0d125ec105c399c2",
+  "evidence_input_sha256": "f72fb74275b6343b4d82a2a28657a8f2e95308b374f955f1bff408689d21a010",
+  "latency_seconds": 15.627493099998901,
+  "usage": {
+    "completion_tokens": 1099,
+    "completion_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "prompt_tokens": 14799,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 15898
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "包内S2条件记录WTCS_median=-0.428011667800888，MCF7|trt_cp|10.0 um|24 h，与声明一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "S2条件记录WTCS_median=-0.34626956438381745，MCF7|trt_cp|0.12 um|24 h，一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "S2条件记录WTCS_median=-0.27595165968119617，MCF7|trt_cp|3.33 um|24 h，一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径13c8d459…为direct_target，TARGETS边reported_actions=['INHIBITOR']指向ENSG00000167258，OptimusKG来源含INHIBITOR关系断言，方向支持"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径1b9c26c0…direct_target，ENSG00000102225，reported_actions INHIBITOR，OptimusKG来源支持"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径2bc77065…direct_target，ENSG00000138395，reported_actions INHIBITOR，OptimusKG来源支持"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "05a2101d313e9b95b92d329651b6a9586e0aa39ff236f406774de10d3ae23321",
+        "supports_claim": true,
+        "reason": "该evidence_id对应MCF7 10 μM 24h条件，WTCS=-0.428，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "31a2925f87801e31b7606e76e9d736c539912bf5f801aff8b3cca07263c775af",
+        "supports_claim": true,
+        "reason": "对应MCF7 0.12 μM 24h，WTCS=-0.346，一致"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "3128bd52723499fa43418eb70073ff06b77905a2f2dffe1798cdfe451e77c383",
+        "supports_claim": true,
+        "reason": "对应MCF7 3.33 μM 24h，WTCS=-0.276，一致"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "13c8d45937a51d58b541814291f88e8d7644f7c149f4d91572ae0a9804640488",
+        "supports_claim": true,
+        "reason": "路径存在，direct_target至ENSG00000167258，TARGETS+INHIBITOR，evidence_complete=true，无冲突"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "1b9c26c0534d0ff991fb5f30c9a7627bd40dc574b5ee0f38b2e5a0af855856f6",
+        "supports_claim": true,
+        "reason": "路径存在，direct_target至ENSG00000102225，TARGETS+INHIBITOR，无冲突"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "2bc7706540e0f3ed856620b03bfbc0a4e89b65fc4c8fc1192ff1623798a7093f",
+        "supports_claim": true,
+        "reason": "路径存在，direct_target至ENSG00000138395，TARGETS+INHIBITOR，无冲突"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "与coverage.evidence_gaps原文一致：部分上游断言无source URL但保留source_record_id和source_release；不影响已核验证据的支持"
+      }
+    ],
+    "limitations": [
+      "s2条件WTCS符号方向不一致：0.37 μM为正(+0.331)、1.11 μM为0，剂量稳定性标注direction_flip，稳健性中等，负相关特征解释需谨慎",
+      "INHIBITOR方向关系为来源报告（OPEN_TARGETS/OptimusKG），未在包内独立实验验证",
+      "筛选仅基于MCF7细胞、24h、n_signatures=2，外推性有限",
+      "仅审阅快照中直接呈现的引用，未覆盖全部169条路径"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:10:31.607154+00:00"
+}

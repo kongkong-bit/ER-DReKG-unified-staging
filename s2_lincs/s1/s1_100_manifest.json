@@ -1,0 +1,9 @@
+{
+  "input": "D:\\CLASS\\syh\\s1_\u521d\u6b65_gse42568_limma\\limma_all_genes.csv",
+  "sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "rule": "FDR<0.05, sort adj.P.Val ascending, tie-break abs(logFC) descending; select separately by sign; duplicate symbols removed",
+  "contrast": "ER+ Tumor - Normal",
+  "seed": 42,
+  "up_n": 100,
+  "down_n": 100
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mode": "offline external evidence overlay; no database writes",
+  "parent_bundle_manifest_sha256": "341806e6ecfe004381617148a4c61af5daf114e319a1eb32f629c2d32bf389a2",
+  "claims_added": 4,
+  "drugs_resolved": 2,
+  "claim_source_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/18469809/",
+    "https://pubmed.ncbi.nlm.nih.gov/31262335/",
+    "https://www.thesgc.org/chemical-probes/pfi-1"
+  ],
+  "unmodified_parent_bundle": true
+}

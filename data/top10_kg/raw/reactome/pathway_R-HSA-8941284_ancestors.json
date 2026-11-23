@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:01.638272+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-8941284/ancestors",
+    "response_sha256": "f377d0bdb76295331fa6cf0cda47ad1b4cf94e443149106ca24170c00c3b5849",
+    "response_bytes": 2361
+  },
+  "payload": [
+    [
+      {
+        "dbId": 8941284,
+        "displayName": "RUNX2 regulates chondrocyte maturation",
+        "stId": "R-HSA-8941284",
+        "name": [
+          "RUNX2 regulates chondrocyte maturation"
+        ],
+        "stIdVersion": "R-HSA-8941284.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8941326,
+        "displayName": "RUNX2 regulates bone development",
+        "stId": "R-HSA-8941326",
+        "name": [
+          "RUNX2 regulates bone development"
+        ],
+        "stIdVersion": "R-HSA-8941326.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8878166,
+        "displayName": "Transcriptional regulation by RUNX2",
+        "stId": "R-HSA-8878166",
+        "name": [
+          "Transcriptional regulation by RUNX2"
+        ],
+        "stIdVersion": "R-HSA-8878166.4",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-8878166.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2246,
+        "diagramHeight": 1684,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212436,
+        "displayName": "Generic Transcription Pathway",
+        "stId": "R-HSA-212436",
+        "name": [
+          "Generic Transcription Pathway"
+        ],
+        "stIdVersion": "R-HSA-212436.15",
+        "oldStId": "REACT_12627",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_12627.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2027,
+        "diagramHeight": 1176,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73857,
+        "displayName": "RNA Polymerase II Transcription",
+        "stId": "R-HSA-73857",
+        "name": [
+          "RNA Polymerase II Transcription"
+        ],
+        "stIdVersion": "R-HSA-73857.7",
+        "oldStId": "REACT_1366",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1366.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2900,
+        "diagramHeight": 1308,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

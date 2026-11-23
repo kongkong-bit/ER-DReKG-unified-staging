@@ -1,0 +1,113 @@
+{
+  "status": "all_registered_sources_downloaded_normalized_or_evaluation_only",
+  "attempts": [
+    {
+      "source_name": "Reactome pathways",
+      "release_version": "current-2026-10",
+      "status": "downloaded",
+      "bytes": 1596703,
+      "sha256": "b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f",
+      "manifest": "data/kg_enrichment/raw/reactome/2026-10/ReactomePathways.txt.manifest.json"
+    },
+    {
+      "source_name": "Reactome hierarchy",
+      "release_version": "current-2026-10",
+      "status": "downloaded",
+      "bytes": 635604,
+      "sha256": "aa3609ee852442899b400bf4817b36311d820883ecd75259ed77531d93d8f1dc",
+      "manifest": "data/kg_enrichment/raw/reactome/2026-10/ReactomePathwaysRelation.txt.manifest.json"
+    },
+    {
+      "source_name": "SIGNOR",
+      "release_version": "Oct2026",
+      "status": "downloaded",
+      "license": "CC BY 4.0",
+      "bytes": 21425930,
+      "sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06",
+      "manifest": "data/kg_enrichment/raw/signor/2026-10/Oct2026_release.txt.manifest.json"
+    },
+    {
+      "source_name": "OmniPath interactions",
+      "release_version": "API-current-2026-11-22",
+      "status": "downloaded",
+      "license": "academic filtered; resource-level licenses retained",
+      "bytes": 53095387,
+      "sha256": "1092e4ee04f02bac0da89d0ea8d93570b2c54178be69656bf2a6780f8d6977e5",
+      "manifest": "data/kg_enrichment/raw/omnipath/2026-11-22/interactions.tsv.manifest.json"
+    },
+    {
+      "source_name": "OmniPath resource metadata",
+      "release_version": "API-current-2026-11-22",
+      "status": "downloaded",
+      "bytes": 88433,
+      "sha256": "b750c02864512e5556e6195a7842f237ee9dab386c452c063a436941df7da471",
+      "manifest": "data/kg_enrichment/raw/omnipath/2026-11-22/resources.tsv.manifest.json"
+    },
+    {
+      "source_name": "DrugMechDB mechanism paths",
+      "release_version": "2.0.1",
+      "status": "downloaded",
+      "license": "CC0 1.0 Universal",
+      "bytes": 8274261,
+      "sha256": "b973118ff3a43450aac9facc9957ec5ce1310efa049ed11b6e94b42807050ee7",
+      "manifest": "data/kg_enrichment/raw/drugmechdb/2.0.1/indication_paths.yaml.manifest.json"
+    },
+    {
+      "source_name": "DrugMechDB dataset license",
+      "release_version": "2.0.1",
+      "status": "downloaded",
+      "license": "CC0 1.0 Universal",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "manifest": "data/kg_enrichment/raw/drugmechdb/2.0.1/LICENSE.manifest.json"
+    },
+    {
+      "source_name": "PrimeKG kg.csv",
+      "release_version": "Dataverse-v2-2022-05",
+      "status": "downloaded",
+      "bytes": 981751236,
+      "sha256": "0a5a010fcd88dcec572a573d98c26c1c244a11567092b6161d3ded611cfb5c69",
+      "local_path": "data/kg_enrichment/raw/primekg/2022-05/kg.csv",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/6180620",
+      "license": "CC0-1.0",
+      "official_md5": "aac8191d4fbc5bf09cdf8c3c78b4e75f",
+      "md5_verified": true
+    },
+    {
+      "source_name": "PrimeKG nodes.tab (original format)",
+      "release_version": "Dataverse-v2-2022-05",
+      "status": "downloaded",
+      "bytes": 7869553,
+      "sha256": "301644c421b436fb6d5f548954a5d77749d87ff8ecbf27d42f41c07a075a2ad3",
+      "local_path": "data/kg_enrichment/raw/primekg/2022-05/nodes.tab",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/6180617?format=original",
+      "license": "CC0-1.0",
+      "official_md5": "7f9ab4109c54049e819ecd14e15a6038",
+      "md5_verified": true
+    },
+    {
+      "source_name": "PrimeKG README",
+      "release_version": "Dataverse-v2-2022-05",
+      "status": "downloaded",
+      "bytes": 3137,
+      "sha256": "974bf811451c89c5ed9f4343d0ed0f855391d29f1ffa1e238065f61d0f46b927",
+      "local_path": "data/kg_enrichment/raw/primekg/2022-05/README.txt",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/6191270",
+      "license": "CC0-1.0",
+      "official_md5": "608e37d4808bb97643186a1b6dc8f307",
+      "md5_verified": true
+    },
+    {
+      "source_name": "Reactome UniProt2Reactome_All_Levels",
+      "release_version": "current-2026-10",
+      "status": "downloaded",
+      "bytes": 118295910,
+      "sha256": "b56bdfeeece937ff12de31ad637fe4b5443ec091915776044850f4c0f31235fb",
+      "local_path": "data/kg_enrichment/raw/reactome/2026-10/UniProt2Reactome_All_Levels.txt",
+      "source_url": "https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt",
+      "license": "CC0-1.0 Universal"
+    }
+  ],
+  "not_downloaded": [],
+  "note": "PrimeKG official Harvard Dataverse metadata confirms CC0-1.0 and original-format MD5 checksums were verified; target-specific normalized subset is separate. Reactome pathway hierarchy and gene membership are normalized. DrugMechDB remains evaluation-only."
+}

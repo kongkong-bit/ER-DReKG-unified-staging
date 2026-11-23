@@ -1,0 +1,745 @@
+{
+  "package_version": "kg06-evidence-package-1.0",
+  "package_id": "KG06:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f:BRD-K69932463:c325403af6b15074",
+  "generated_at_utc": "2026-11-14T11:40:53.401432+00:00",
+  "package_sha256": "4f2db7636b7c62354abb1bab12c26d3dac4a27ea97b123622d1931e063abd334",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "analysis_run_ids": {
+    "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+    "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+  },
+  "pert_id": "BRD-K69932463",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+    "drug_name": "AZD-8055",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1801204",
+    "rank": "42"
+  },
+  "screening_evidence": {
+    "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+    "s2_candidate": {
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+      "rank": "42",
+      "score_name": "WTCS",
+      "score_value": "-0.389531198441624",
+      "condition_count": 6,
+      "conditions_source": "S2ConditionResult for the GraphBundle's exact S2 AnalysisRun"
+    },
+    "s2_conditions": [
+      {
+        "condition_key": "MCF7|trt_cp|0.04 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.56,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 1246.0,
+          "WTCS_mean": -0.18982661111526,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.04 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.437318,
+          "label": "AZD-8055 · MCF7|trt_cp|0.04 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.04 um|24 h",
+          "dose": "0.04 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.18982661111526,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:bb41965f342b90f4",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.56,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 1246.0,
+          "WTCS_mean": -0.18982661111526,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.04 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.437318,
+          "label": "AZD-8055 · MCF7|trt_cp|0.04 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.04 um|24 h",
+          "dose": "0.04 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.18982661111526,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:bb41965f342b90f4",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "5353d9933dea1b0e71338adf01f770b07f970fd255e9663586998f68285b256a"
+        ],
+        "sources": [
+          {
+            "evidence_id": "5353d9933dea1b0e71338adf01f770b07f970fd255e9663586998f68285b256a",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.04 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:bb41965f342b90f4",
+            "source_url": null,
+            "assertion_sha256": "ea615ea51067dc3b4d89e8055c88803e36441c907cfc756c8209cc60a49662ea"
+          }
+        ],
+        "evidence_complete": true
+      },
+      {
+        "condition_key": "MCF7|trt_cp|0.12 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.5,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 826.0,
+          "WTCS_mean": -0.2708404285894257,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.12 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.427816,
+          "label": "AZD-8055 · MCF7|trt_cp|0.12 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.12 um|24 h",
+          "dose": "0.12 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.2708404285894257,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:5726c48bc8fe6a6d",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.5,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 826.0,
+          "WTCS_mean": -0.2708404285894257,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.12 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.427816,
+          "label": "AZD-8055 · MCF7|trt_cp|0.12 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.12 um|24 h",
+          "dose": "0.12 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.2708404285894257,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:5726c48bc8fe6a6d",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "975263e7791a2fb78798eaeeb9583343605cc7d3b710c8156df17dd236316978"
+        ],
+        "sources": [
+          {
+            "evidence_id": "975263e7791a2fb78798eaeeb9583343605cc7d3b710c8156df17dd236316978",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.12 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:5726c48bc8fe6a6d",
+            "source_url": null,
+            "assertion_sha256": "2ccc877d6181bfd8d563fb1c94b0eda2d54d640f34aa1c10797a48e9e83d07ea"
+          }
+        ],
+        "evidence_complete": true
+      },
+      {
+        "condition_key": "MCF7|trt_cp|0.37 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.59,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 898.0,
+          "WTCS_mean": -0.2611064690562853,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.37 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.382089,
+          "label": "AZD-8055 · MCF7|trt_cp|0.37 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.37 um|24 h",
+          "dose": "0.37 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.2611064690562853,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:352620f4375df51f",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.59,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 898.0,
+          "WTCS_mean": -0.2611064690562853,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.37 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.382089,
+          "label": "AZD-8055 · MCF7|trt_cp|0.37 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|0.37 um|24 h",
+          "dose": "0.37 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.2611064690562853,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:352620f4375df51f",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "e58be23fc0ef130a6c4503520c20195c70b5332278bb93fdb410ed6df3c06d31"
+        ],
+        "sources": [
+          {
+            "evidence_id": "e58be23fc0ef130a6c4503520c20195c70b5332278bb93fdb410ed6df3c06d31",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|0.37 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:352620f4375df51f",
+            "source_url": null,
+            "assertion_sha256": "e467c3e27c26617d05749d899093fa0ad8fceafa1f62474e0d6ebc4f4ea183b5"
+          }
+        ],
+        "evidence_complete": true
+      },
+      {
+        "condition_key": "MCF7|trt_cp|1.11 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.4,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 248.0,
+          "WTCS_mean": -0.3678850368248545,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|1.11 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.409499,
+          "label": "AZD-8055 · MCF7|trt_cp|1.11 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|1.11 um|24 h",
+          "dose": "1.11 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.3678850368248545,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:f79ca044d88d0294",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.4,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 248.0,
+          "WTCS_mean": -0.3678850368248545,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|1.11 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.409499,
+          "label": "AZD-8055 · MCF7|trt_cp|1.11 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|1.11 um|24 h",
+          "dose": "1.11 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.3678850368248545,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:f79ca044d88d0294",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "505c6b2dec87c4807a0cca7224eb7eba77658c4f1aff0e8432765f8dab7291fd"
+        ],
+        "sources": [
+          {
+            "evidence_id": "505c6b2dec87c4807a0cca7224eb7eba77658c4f1aff0e8432765f8dab7291fd",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|1.11 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:f79ca044d88d0294",
+            "source_url": null,
+            "assertion_sha256": "fde0b97f610c4df872e7d8e0866528ddaa08fb2cf5532ddc6934995485b76ec7"
+          }
+        ],
+        "evidence_complete": true
+      },
+      {
+        "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.52,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 169.0,
+          "WTCS_mean": -0.389531198441624,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|10.0 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.436897,
+          "label": "AZD-8055 · MCF7|trt_cp|10.0 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+          "dose": "10.0 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.389531198441624,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:e9689997fb79fdc3",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.52,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 169.0,
+          "WTCS_mean": -0.389531198441624,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|10.0 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.436897,
+          "label": "AZD-8055 · MCF7|trt_cp|10.0 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+          "dose": "10.0 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.389531198441624,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:e9689997fb79fdc3",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "839e052de85240d5025e45c4de21c1257eb533747147c89f57719e5c57d64b25"
+        ],
+        "sources": [
+          {
+            "evidence_id": "839e052de85240d5025e45c4de21c1257eb533747147c89f57719e5c57d64b25",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|10.0 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:e9689997fb79fdc3",
+            "source_url": null,
+            "assertion_sha256": "59bc0a736b263e2c95cda9b917b4608725cad8e5f67982035a08555d4dcb37d4"
+          }
+        ],
+        "evidence_complete": true
+      },
+      {
+        "condition_key": "MCF7|trt_cp|3.33 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.61,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 969.0,
+          "WTCS_mean": -0.25302410652780244,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|3.33 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.411889,
+          "label": "AZD-8055 · MCF7|trt_cp|3.33 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|3.33 um|24 h",
+          "dose": "3.33 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.25302410652780244,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:ec247892ebccc488",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.61,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 969.0,
+          "WTCS_mean": -0.25302410652780244,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|3.33 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.411889,
+          "label": "AZD-8055 · MCF7|trt_cp|3.33 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|3.33 um|24 h",
+          "dose": "3.33 um",
+          "pert_id": "BRD-K69932463",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.25302410652780244,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:ec247892ebccc488",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "578aedbad50c7c6b49739b368e70624f02462cea1f3828e4a8639c70ce74e425"
+        ],
+        "sources": [
+          {
+            "evidence_id": "578aedbad50c7c6b49739b368e70624f02462cea1f3828e4a8639c70ce74e425",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-K69932463:MCF7|trt_cp|3.33 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463:ec247892ebccc488",
+            "source_url": null,
+            "assertion_sha256": "f283484832f3939ee32550ff341c75a6080bba04bba946f790ae42aa15c1b3b8"
+          }
+        ],
+        "evidence_complete": true
+      }
+    ],
+    "exp006": {
+      "rank": "42",
+      "pert_id": "BRD-K69932463",
+      "drug_name": "AZD-8055",
+      "primary_dose": "10.0 um",
+      "cell_id": "MCF7",
+      "pert_time": "24 h",
+      "wtcs_median_B": "-0.389531198441624",
+      "wtcs_median_A": "-0.36133054913999185",
+      "rank_A": "78.0",
+      "rank_B": "42.0",
+      "n_signatures": "1",
+      "n_available_doses": "6",
+      "negative_dose_fraction": "1.0",
+      "dose_stability": "multi_dose_negative",
+      "qc_sensitivity_range": "0.0",
+      "stability_grade": "low",
+      "evidence_limitations": "single signature",
+      "source_dataset": "GSE70138"
+    },
+    "independent_validation_and_prism": {
+      "external_s1_median_rank": "615.5",
+      "external_s1_B200_median_rank": "862.0",
+      "external_s1_conditions": "6",
+      "Q2_condition_median_rank": "565.5",
+      "Q2_conditions": "6",
+      "erpos_mean_sensitivity": "2.1413095097726664",
+      "erpos_median_sensitivity": "1.85853334883",
+      "n_erpos_lines": "9.0",
+      "erneg_mean_sensitivity": "2.610074272299692",
+      "n_erneg_lines": "13.0",
+      "mcf7_sensitivity": "4.14191293023",
+      "n_mcf7_conditions": "1.0",
+      "sensitivity_rank_erpos": "29.0",
+      "sensitivity_rank_mcf7": "19.0",
+      "PRISM_endpoint": "cell viability reduction (-log2 fold change); distinct from S2 expression reversal",
+      "WTCS_PRISM_agreement_interpretation": "independent endpoints; disagreement does not by itself invalidate either assay"
+    },
+    "phase_f_joined_evidence": {
+      "mapping_method": "exact InChIKey from SMILES",
+      "kg_mapping_status": "matched_exact_inchikey_no_supported_path",
+      "kg_supported_route_count": "0",
+      "kg_unique_target_gene_count": "0",
+      "kg_unique_pathway_count": "0",
+      "kg_interpretation": "化合物精确映射成功，但当前受限子图中无支持的靶点—通路交汇路径"
+    }
+  },
+  "paths": [
+    {
+      "path_id": "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d",
+      "route_type": "direct_target",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+      "drug_id": "CHEMBL1801204",
+      "target_gene_id": "ENSG00000198793",
+      "pathway_id": null,
+      "pathway_label": null,
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463"
+        },
+        {
+          "id": "CHEMBL1801204",
+          "type": "Drug",
+          "label": "AZD-8055"
+        },
+        {
+          "id": "ENSG00000198793",
+          "type": "Gene",
+          "label": "MTOR"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+          "evidence_ids": [
+            "1d787de51e69743cc66fa871a13b255cd65622c77544efa2f494a7d6cc2b2958"
+          ],
+          "sources": [
+            {
+              "evidence_id": "1d787de51e69743cc66fa871a13b255cd65622c77544efa2f494a7d6cc2b2958",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+              "source_url": null,
+              "assertion_sha256": "022af79111e45343343c7968212a848181cdb7e244b4da920242d1535387db41"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 6,
+            "pert_id": "BRD-K69932463",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463|REFERENCES_DRUG|CHEMBL1801204|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+          "target_id": "CHEMBL1801204",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K69932463",
+          "evidence_ids": [
+            "f820bf76ae5a05567d6be32ccd90cd1186eaa7415ecdaea4cde5612ba17c3305"
+          ],
+          "sources": [
+            {
+              "evidence_id": "f820bf76ae5a05567d6be32ccd90cd1186eaa7415ecdaea4cde5612ba17c3305",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K69932463",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL1801204",
+              "source_url": null,
+              "assertion_sha256": "9059e5ad764e718fe22214ff286b9550b72aa7a9fb7cfea560f94f2d86d952e0"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KVLFRAWTRWDEDF-IRXDYDNUSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K69932463",
+            "source_record_id": "LINCS pert_info:BRD-K69932463"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL1801204|TARGETS|ENSG00000198793|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL1801204",
+          "target_id": "ENSG00000198793",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL1801204:ENSG00000198793",
+          "evidence_ids": [
+            "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0"
+          ],
+          "sources": [
+            {
+              "evidence_id": "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL1801204:ENSG00000198793",
+              "subject_id": "CHEMBL1801204",
+              "predicate": "INHIBITOR",
+              "object_id": "ENSG00000198793",
+              "source_url": [
+                "http://europepmc.org/abstract/MED/20028854"
+              ],
+              "assertion_sha256": "8bc54f2300055ebad9ce1adf244903215692bed3133b06d4ed1a7ff703ef0703"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Serine/threonine-protein kinase mTOR inhibitor"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "INHIBITOR",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "20028854"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL1801204:ENSG00000198793",
+            "source_urls": [
+              "http://europepmc.org/abstract/MED/20028854"
+            ],
+            "sources": {
+              "direct": [
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "PUBMED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "INHIBITOR"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://europepmc.org/abstract/MED/20028854"
+          ],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS"
+      ],
+      "evidence_ids": [
+        "1d787de51e69743cc66fa871a13b255cd65622c77544efa2f494a7d6cc2b2958",
+        "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0",
+        "f820bf76ae5a05567d6be32ccd90cd1186eaa7415ecdaea4cde5612ba17c3305"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "INHIBITOR"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [],
+      "relation_conflict": false,
+      "evidence_complete": true
+    }
+  ],
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 1,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 3,
+    "verified_evidence_count": 3,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "provenance": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+    "graph_bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+    "source_analysis_runs": {
+      "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+      "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+    },
+    "pert_id": "BRD-K69932463",
+    "path_ids": [
+      "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d"
+    ],
+    "evidence_ids": [
+      "1d787de51e69743cc66fa871a13b255cd65622c77544efa2f494a7d6cc2b2958",
+      "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0",
+      "f820bf76ae5a05567d6be32ccd90cd1186eaa7415ecdaea4cde5612ba17c3305"
+    ],
+    "bundle_manifest_sha256": "5d1e0aaa287cc1b2b3f8b72178ea657229bd36168b80c3ca7874c4cc64778257",
+    "phase_f": {
+      "available": true,
+      "manifest_sha256": "b64f48ac43ba83499f1f40e45a926aa1625d9512454002ecc3834ee0a20b9674",
+      "data_sha256": "adbf617d6b79a6f1d2f8e0ee3b78677600d6a2695bef0a9d2e5f3236e1322363",
+      "manifest_graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "source": "experiments/phase_f_integrated_evidence/candidate_evidence_with_kg.csv"
+    },
+    "exp006": {
+      "available": true,
+      "sha256": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+      "source": "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv"
+    },
+    "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f",
+    "graph_bundle_source_sha256": {
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1/9ebd6c43-9342-487e-a052-ae901461b58c/limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/gene_mapping_audit.csv": "77d4fc11341a5a824c2a514ab042e2404c53a672b7c0e6d8dc6b7444c0ec5a48",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/c922f2b0-242e-5991-9f76-dcbc8f66ce57/drug_condition_summary.csv": "00d2bc3023aef293cfb2e2234308aa45e6ca87f9fc3f666090d2d50e84c60f49",
+      "s2_lincs/data/GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+      "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71",
+      "data/optimuskg/3.2/nodes/drug.parquet": "2b0d221757f1de436dc74b21beb452082e43f3c7ec7e6630d2b0d20a25769c2b",
+      "data/optimuskg/3.2/nodes/gene.parquet": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a",
+      "data/optimuskg/3.2/nodes/pathway.parquet": "c27f5947c74965d0406bf818554d9d51ec859615594365f30e253e297f771682",
+      "data/optimuskg/3.2/edges/drug_gene.parquet": "5ccaeff1260081f55b9acf40f2a969cc38b76661b4ee66363e26f7ef79dc76bd",
+      "data/optimuskg/3.2/edges/pathway_gene.parquet": "80e8d10cd87fb10be6fc392221c4910e4b116a70a14f410dd75a4524da298493",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/pathway_gene_links.csv": "986daaa1573f2f54df3dda9ff9dcce42a904ab5d6f256e42c53ab85b31b04117",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_up.csv": "6dc3ee2ace7792d8b9bcb17c91a851e1961246561501c83701a1fdf4db9d758d",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_down.csv": "677652aaf7ef8eb525500f6f04c819d5ea1b7c9418584595acc5a8ae48954756",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_up.csv": "8ef2b30e45015f5395a154502c00c8a4d6e768920c8257916257eefb4fefd2fa",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_down.csv": "06d5d9852801a691cf71fc842290d9fac1d83631a06553702784c2e3d889ab57",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/hallmark_gsea.csv": "34ac4c1cbb92495eb2afaea262e992f9d3da72aa26c4fe1b57256d84d56ff3da",
+      "kg/scripts/build_project_graph_bundle.py": "16ee37ac4c550d3d6383e4104ed6041fb539e4755b1a7150b37c551459269ca9",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/54530b3e-efcd-4629-9345-d61f5c4363f7/build_config.json": "ba3191056dc3e52fac6fd0027d499c5c1ca8e3a2004561f8931a8be87143fa0e"
+    },
+    "package_source_policy": "all paths are fixed-template, GraphBuild-scoped Cypher results; no free-form Cypher is accepted"
+  }
+}

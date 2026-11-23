@@ -1,0 +1,77 @@
+{
+  "generated": "2026-11-18T11:45:13.839409+00:00",
+  "authoritative_manifest": {
+    "found": true,
+    "paths": [
+      "e:\\生物医学信息\\ER-DReKG\\experiments\\final_results\\final_data_manifest.json",
+      "e:\\生物医学信息\\ER-DReKG\\experiments\\final_results\\results\\final_data_manifest.json"
+    ],
+    "manifest_sha256": "960223ef52703f14698200105a729543ec1595ae689d3946254def66c1d4141f",
+    "four_output_sha256": {
+      "final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "final_corrected_condition_ranking.csv": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "final_top10.csv": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf"
+    }
+  },
+  "archive_rule": {
+    "crlf_rule_in_missing_or_incomplete": true,
+    "crlf_rule_in_manifest_hash_verification": true,
+    "archive_record_files_exist": true
+  },
+  "per_file": [
+    {
+      "file": "final_signature_scores.csv",
+      "authoritative_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "recovered_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "recovered_matches": true,
+      "repo_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "repo_matches": true,
+      "repo_line_ending": "CRLF",
+      "recovered_line_ending": "CRLF"
+    },
+    {
+      "file": "final_drug_condition_summary.csv",
+      "authoritative_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "recovered_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "recovered_matches": true,
+      "repo_sha256": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "repo_matches": true,
+      "repo_line_ending": "CRLF",
+      "recovered_line_ending": "CRLF"
+    },
+    {
+      "file": "final_corrected_condition_ranking.csv",
+      "authoritative_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "recovered_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "recovered_matches": true,
+      "repo_sha256": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "repo_matches": true,
+      "repo_line_ending": "CRLF",
+      "recovered_line_ending": "CRLF"
+    },
+    {
+      "file": "final_top10.csv",
+      "authoritative_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "recovered_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "recovered_matches": true,
+      "repo_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+      "repo_matches": true,
+      "repo_line_ending": "CRLF",
+      "recovered_line_ending": "CRLF"
+    }
+  ],
+  "all_recovered_match": true,
+  "all_repo_match": true,
+  "ruling": {
+    "decision": "ACCEPT",
+    "physical_original_found": false,
+    "byte_identity_verified": true,
+    "recovery_method": "LF_to_CRLF",
+    "freeze_status": "FROZEN",
+    "note": "physical_original_found=false (original work machine file not recovered); repository_copy_found=true and repository_copy_byte_identical=true (repo committed files CRLF, byte-identical to authoritative manifest); recovery files also match via LF_to_CRLF. Repo copy must NOT be described as the physical original.",
+    "repository_copy_found": true,
+    "repository_copy_byte_identical": true
+  },
+  "second_independent_confirmation": "cloned repo experiments/final_results/results/*.csv are CRLF and byte-identical to authoritative manifest (repo_matches=true for all 4)"
+}

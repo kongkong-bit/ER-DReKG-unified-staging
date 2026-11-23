@@ -1,0 +1,71 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "status": "completed",
+  "test_only": false,
+  "s1_input_sha256": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+  "parameters": {
+    "scheme": "B",
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "quality_filter": "distil_cc_q75 >= 0.2; -666 treated missing",
+    "candidate_set": "A+ 1,032 unique perturbagens; 3,943 dose/time conditions",
+    "cross_dose_policy": "dose strata kept separate; no per-drug optimum or cross-dose rank",
+    "signature_derivation": "filtered from Final01 final_signature_scores.csv; WTCS not recomputed"
+  },
+  "software_versions": {
+    "pipeline": "A+ frozen signature import; scoring not rerun"
+  },
+  "inputs": {},
+  "qc_summary": {
+    "source": "A+ frozen candidate set (1,032 perturbagens / 3,943 conditions)",
+    "scheme": "B",
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "project_seed_perturbagens": 1032,
+    "project_seed_signatures": 4385,
+    "project_seed_condition_rows": 3943,
+    "signature_rows": 4385,
+    "unique_sig_id": 4385,
+    "n_up_values_observed": [
+      "100"
+    ],
+    "n_down_values_observed": [
+      "100"
+    ],
+    "effective_background_genes_observed": [
+      "10174"
+    ],
+    "quality_threshold": "distil_cc_q75 >= 0.2",
+    "seed_rule": "A+ candidate_drugs (1,032 unique perturbagens); retain all dose-specific condition rows; no per-drug best-dose selection",
+    "cross_dose_policy": "dose strata kept separate; no per-drug optimum or cross-dose rank",
+    "verified_input_sha256": {
+      "signature_scores.csv": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e",
+      "drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+      "s1_standardized_limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888"
+    },
+    "historical_import": false,
+    "build_note": "Derived by filtering Final01 final_signature_scores.csv to A+ condition keys; WTCS not recomputed"
+  },
+  "outputs": {
+    "signature_scores.csv": {
+      "bytes": 787460,
+      "sha256": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e"
+    },
+    "drug_condition_summary.csv": {
+      "bytes": 452311,
+      "sha256": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745"
+    },
+    "s1_gene_mapping_audit.csv": {
+      "bytes": 25487,
+      "sha256": "4ad8d22961a5dc780f8f60b5d6ea31a093464d629b471f71d82c33c7567222e0"
+    },
+    "qc_summary.json": {
+      "bytes": 1269,
+      "sha256": "041f4cd295f780bd7289ad63cacbd3ed1ca59e66301f246a62c177a1b5e13141"
+    }
+  }
+}

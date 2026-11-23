@@ -1,0 +1,218 @@
+{
+  "package_version": "kg06-evidence-package-1.0",
+  "package_id": "KG06:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f:BRD-A28787076:7d7b4cf53550d013",
+  "generated_at_utc": "2026-11-14T11:40:53.017033+00:00",
+  "package_sha256": "3409820fae1060f601cfded96a0e2400d2ac142f2d7d3162f197f53002208f49",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "analysis_run_ids": {
+    "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+    "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+  },
+  "pert_id": "BRD-A28787076",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076",
+    "drug_name": "inosine",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "37"
+  },
+  "screening_evidence": {
+    "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+    "s2_candidate": {
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076",
+      "rank": "37",
+      "score_name": "WTCS",
+      "score_value": "-0.3924045295517229",
+      "condition_count": 1,
+      "conditions_source": "S2ConditionResult for the GraphBundle's exact S2 AnalysisRun"
+    },
+    "s2_conditions": [
+      {
+        "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+        "condition": {
+          "quality_cc_median": 0.28,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 152.0,
+          "WTCS_mean": -0.3924045295517229,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-A28787076:MCF7|trt_cp|10.0 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.231382,
+          "label": "inosine · MCF7|trt_cp|10.0 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+          "dose": "10.0 um",
+          "pert_id": "BRD-A28787076",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.3924045295517229,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076:988f36fef72d7b64",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "graph_condition_properties": {
+          "quality_cc_median": 0.28,
+          "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+          "rank_within_condition": 152.0,
+          "WTCS_mean": -0.3924045295517229,
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-A28787076:MCF7|trt_cp|10.0 um|24 h",
+          "n_signatures": 1.0,
+          "preferred_id": "id",
+          "TAS_median": 0.231382,
+          "label": "inosine · MCF7|trt_cp|10.0 um|24 h",
+          "type": "S2Condition",
+          "condition_key": "MCF7|trt_cp|10.0 um|24 h",
+          "dose": "10.0 um",
+          "pert_id": "BRD-A28787076",
+          "pert_type": "trt_cp",
+          "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+          "WTCS_median": -0.3924045295517229,
+          "WTCS_mad": 0.0,
+          "id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076:988f36fef72d7b64",
+          "time": "24 h",
+          "cell_id": "MCF7",
+          "test_only": false
+        },
+        "evidence_ids": [
+          "9b2887f563803c515ccdeb47139271becdd2ef6e7df83fdd3f3082f2537bd042"
+        ],
+        "sources": [
+          {
+            "evidence_id": "9b2887f563803c515ccdeb47139271becdd2ef6e7df83fdd3f3082f2537bd042",
+            "verified_in_postgres": true,
+            "source_release": "Project S2 LINCS results",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:condition:BRD-A28787076:MCF7|trt_cp|10.0 um|24 h",
+            "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076",
+            "predicate": "HAS_S2_CONDITION",
+            "object_id": "S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A28787076:988f36fef72d7b64",
+            "source_url": null,
+            "assertion_sha256": "907f5c8e9894e835474795e2eb055964982a4fdf50695d7a6793e36ebc147a8b"
+          }
+        ],
+        "evidence_complete": true
+      }
+    ],
+    "exp006": {
+      "rank": "37",
+      "pert_id": "BRD-A28787076",
+      "drug_name": "inosine",
+      "primary_dose": "10.0 um",
+      "cell_id": "MCF7",
+      "pert_time": "24 h",
+      "wtcs_median_B": "-0.3924045295517229",
+      "wtcs_median_A": "-0.3450622436316927",
+      "rank_A": "101.0",
+      "rank_B": "37.0",
+      "n_signatures": "1",
+      "n_available_doses": "1",
+      "negative_dose_fraction": "1.0",
+      "dose_stability": "single_dose",
+      "qc_sensitivity_range": "",
+      "stability_grade": "low",
+      "evidence_limitations": "single signature; limited dose evidence; QC threshold sensitivity or missing threshold result",
+      "source_dataset": "GSE70138"
+    },
+    "independent_validation_and_prism": {
+      "external_s1_median_rank": "2000.5",
+      "external_s1_B200_median_rank": "152.0",
+      "external_s1_conditions": "1",
+      "Q2_condition_median_rank": "248.0",
+      "Q2_conditions": "1",
+      "erpos_mean_sensitivity": "",
+      "erpos_median_sensitivity": "",
+      "n_erpos_lines": "",
+      "erneg_mean_sensitivity": "",
+      "n_erneg_lines": "",
+      "mcf7_sensitivity": "",
+      "n_mcf7_conditions": "",
+      "sensitivity_rank_erpos": "",
+      "sensitivity_rank_mcf7": "",
+      "PRISM_endpoint": "cell viability reduction (-log2 fold change); distinct from S2 expression reversal",
+      "WTCS_PRISM_agreement_interpretation": "independent endpoints; disagreement does not by itself invalidate either assay"
+    },
+    "phase_f_joined_evidence": {
+      "mapping_method": "exact normalized name only (not accepted)",
+      "kg_mapping_status": "unmatched_no_exact_inchikey",
+      "kg_supported_route_count": "0",
+      "kg_unique_target_gene_count": "0",
+      "kg_unique_pathway_count": "0",
+      "kg_interpretation": "候选已进入图谱种子，但没有精确 InChIKey 公共药物映射"
+    }
+  },
+  "paths": [],
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 1,
+    "verified_s2_condition_evidence_count": 1,
+    "s2_condition_count": 1,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "provenance": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+    "graph_bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+    "source_analysis_runs": {
+      "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+      "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+    },
+    "pert_id": "BRD-A28787076",
+    "path_ids": [],
+    "evidence_ids": [],
+    "bundle_manifest_sha256": "5d1e0aaa287cc1b2b3f8b72178ea657229bd36168b80c3ca7874c4cc64778257",
+    "phase_f": {
+      "available": true,
+      "manifest_sha256": "b64f48ac43ba83499f1f40e45a926aa1625d9512454002ecc3834ee0a20b9674",
+      "data_sha256": "adbf617d6b79a6f1d2f8e0ee3b78677600d6a2695bef0a9d2e5f3236e1322363",
+      "manifest_graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "source": "experiments/phase_f_integrated_evidence/candidate_evidence_with_kg.csv"
+    },
+    "exp006": {
+      "available": true,
+      "sha256": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+      "source": "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv"
+    },
+    "evidence_input_sha256": "7d7b4cf53550d0131f2e7fdcd19685e2cc8ca27ec260f58070f82fcba0944105",
+    "graph_bundle_source_sha256": {
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1/9ebd6c43-9342-487e-a052-ae901461b58c/limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/gene_mapping_audit.csv": "77d4fc11341a5a824c2a514ab042e2404c53a672b7c0e6d8dc6b7444c0ec5a48",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/c922f2b0-242e-5991-9f76-dcbc8f66ce57/drug_condition_summary.csv": "00d2bc3023aef293cfb2e2234308aa45e6ca87f9fc3f666090d2d50e84c60f49",
+      "s2_lincs/data/GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+      "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71",
+      "data/optimuskg/3.2/nodes/drug.parquet": "2b0d221757f1de436dc74b21beb452082e43f3c7ec7e6630d2b0d20a25769c2b",
+      "data/optimuskg/3.2/nodes/gene.parquet": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a",
+      "data/optimuskg/3.2/nodes/pathway.parquet": "c27f5947c74965d0406bf818554d9d51ec859615594365f30e253e297f771682",
+      "data/optimuskg/3.2/edges/drug_gene.parquet": "5ccaeff1260081f55b9acf40f2a969cc38b76661b4ee66363e26f7ef79dc76bd",
+      "data/optimuskg/3.2/edges/pathway_gene.parquet": "80e8d10cd87fb10be6fc392221c4910e4b116a70a14f410dd75a4524da298493",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/pathway_gene_links.csv": "986daaa1573f2f54df3dda9ff9dcce42a904ab5d6f256e42c53ab85b31b04117",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_up.csv": "6dc3ee2ace7792d8b9bcb17c91a851e1961246561501c83701a1fdf4db9d758d",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_down.csv": "677652aaf7ef8eb525500f6f04c819d5ea1b7c9418584595acc5a8ae48954756",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_up.csv": "8ef2b30e45015f5395a154502c00c8a4d6e768920c8257916257eefb4fefd2fa",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_down.csv": "06d5d9852801a691cf71fc842290d9fac1d83631a06553702784c2e3d889ab57",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/hallmark_gsea.csv": "34ac4c1cbb92495eb2afaea262e992f9d3da72aa26c4fe1b57256d84d56ff3da",
+      "kg/scripts/build_project_graph_bundle.py": "16ee37ac4c550d3d6383e4104ed6041fb539e4755b1a7150b37c551459269ca9",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/54530b3e-efcd-4629-9345-d61f5c4363f7/build_config.json": "ba3191056dc3e52fac6fd0027d499c5c1ca8e3a2004561f8931a8be87143fa0e"
+    },
+    "package_source_policy": "all paths are fixed-template, GraphBuild-scoped Cypher results; no free-form Cypher is accepted"
+  }
+}

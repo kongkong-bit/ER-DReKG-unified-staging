@@ -1,0 +1,3 @@
+gene_id,logFC,adj.P.Val,t
+A2M,2.0,0.001,5.0
+A4GALT,-2.0,0.001,-5.0

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "e2f9ac96f391451cc7fd2e0213b4a5fee8e395b7af5dce8d50f0bcec83d9704a",
+  "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72",
+  "latency_seconds": 13.338630199999898,
+  "usage": {
+    "completion_tokens": 756,
+    "completion_tokens_details": {
+      "reasoning_tokens": 187
+    },
+    "prompt_tokens": 2693,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3449
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "s2_candidate 显示 rank 23、WTCS -0.4141898、condition_count=6，来源 S2ConditionResult/AnalysisRun，数值一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 字段逐项核对一致：GSE70138、MCF7、10.0 um、24h、WTCS B -0.4141898(rank 23)、A -0.4272968(rank 17)、n_signatures=1、6 剂量、negative_dose_fraction=0.5、stability mixed_or_limited/low。"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照中 S1 各路径计数均为 0 且 evidence_gaps 明确无 S1 重叠/DEG 证据，无任何来源给出 median rank 1239.75、B200 1439.75 或 Q2 2482.0 等具体数值，该独立验证声明无依据。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 4,
+        "accurate": true,
+        "reason": "coverage 显示 path_count=0、paths=[]、cited_paths=[]，确无图谱路径支持靶点/通路断言。"
+      },
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "evidence_gaps 明确无 curated Drug-to-Gene 靶点断言，包内无任何结合/抑制/激活数据。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "包内不包含任何 PRISM 敏感性数据（各字段未出现），快照无法支持任何敏感性结论，该保留意见与包内覆盖一致。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "exp006 显示 n_signatures=1、stability_grade=low、dose_stability=mixed_or_limited，与表述一致；WTCS 逆转分数仅为筛选信号，不构成疗效/机制证据的说法合理。"
+      }
+    ],
+    "limitations": [
+      "候选化合物无精确 InChIKey 映射（unmatched_no_exact_inchikey），compound_id 为空",
+      "无 curated 靶点断言、无靶点-通路路径、无 S1 富集/DEG 重叠证据",
+      "S2 各条件均为单一 signature，QC 与 TAS 中等，证据强度有限",
+      "声明 3 中的具体外部验证数值（median rank 等）在快照中无来源支持",
+      "本审阅为 AI 自动评审，仅基于所提供的来源快照"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:12:41.930443+00:00"
+}

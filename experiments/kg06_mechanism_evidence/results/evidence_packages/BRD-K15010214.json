@@ -1,0 +1,2629 @@
+{
+  "package_version": "kg06-evidence-package-1.0",
+  "package_id": "KG06:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f:BRD-K15010214:75b245d7d45e4153",
+  "generated_at_utc": "2026-11-14T11:15:02.692153+00:00",
+  "package_sha256": "b07933fb7f27513f4060060161d803945b16e047fb79a8f714b5eec99cbfbe63",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "analysis_run_ids": {
+    "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+    "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+  },
+  "pert_id": "BRD-K15010214",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+    "drug_name": "emedastine",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL594",
+    "rank": "17"
+  },
+  "screening_evidence": {
+    "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+    "s2_candidate": {
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "rank": "17",
+      "score_name": "WTCS",
+      "score_value": "-0.4174132866706828",
+      "condition_count": 4,
+      "conditions_source": "S2ConditionResult for the GraphBundle's exact S2 AnalysisRun"
+    },
+    "s2_conditions": [
+      {
+        "pert_id": "BRD-K15010214",
+        "drug_name": "emedastine",
+        "cell_id": "MCF7",
+        "pert_type": "trt_cp",
+        "dose": "0.12 um",
+        "time": "24 h",
+        "n_signatures": "1",
+        "WTCS_median": "-0.4458880638622488",
+        "WTCS_mean": "-0.4458880638622488",
+        "WTCS_sd": "",
+        "WTCS_mad": "0.0",
+        "quality_cc_median": "0.32",
+        "TAS_median": "0.240654",
+        "replicates_median": "3.0",
+        "rank_within_condition": "25.0"
+      },
+      {
+        "pert_id": "BRD-K15010214",
+        "drug_name": "emedastine",
+        "cell_id": "MCF7",
+        "pert_type": "trt_cp",
+        "dose": "10.0 um",
+        "time": "24 h",
+        "n_signatures": "1",
+        "WTCS_median": "-0.4174132866706828",
+        "WTCS_mean": "-0.4174132866706828",
+        "WTCS_sd": "",
+        "WTCS_mad": "0.0",
+        "quality_cc_median": "0.44",
+        "TAS_median": "0.297708",
+        "replicates_median": "3.0",
+        "rank_within_condition": "77.0"
+      },
+      {
+        "pert_id": "BRD-K15010214",
+        "drug_name": "emedastine",
+        "cell_id": "MCF7",
+        "pert_type": "trt_cp",
+        "dose": "1.11 um",
+        "time": "24 h",
+        "n_signatures": "1",
+        "WTCS_median": "-0.39304095634566755",
+        "WTCS_mean": "-0.39304095634566755",
+        "WTCS_sd": "",
+        "WTCS_mad": "0.0",
+        "quality_cc_median": "0.41",
+        "TAS_median": "0.228917",
+        "replicates_median": "2.0",
+        "rank_within_condition": "149.0"
+      },
+      {
+        "pert_id": "BRD-K15010214",
+        "drug_name": "emedastine",
+        "cell_id": "MCF7",
+        "pert_type": "trt_cp",
+        "dose": "3.33 um",
+        "time": "24 h",
+        "n_signatures": "1",
+        "WTCS_median": "-0.4194163519920616",
+        "WTCS_mean": "-0.4194163519920616",
+        "WTCS_sd": "",
+        "WTCS_mad": "0.0",
+        "quality_cc_median": "0.36",
+        "TAS_median": "0.211915",
+        "replicates_median": "2.0",
+        "rank_within_condition": "72.0"
+      }
+    ],
+    "exp006": {
+      "rank": "17",
+      "pert_id": "BRD-K15010214",
+      "drug_name": "emedastine",
+      "primary_dose": "10.0 um",
+      "cell_id": "MCF7",
+      "pert_time": "24 h",
+      "wtcs_median_B": "-0.4174132866706828",
+      "wtcs_median_A": "-0.3665975440475565",
+      "rank_A": "73.0",
+      "rank_B": "17.0",
+      "n_signatures": "1",
+      "n_available_doses": "4",
+      "negative_dose_fraction": "1.0",
+      "dose_stability": "multi_dose_negative",
+      "qc_sensitivity_range": "0.0010015326606894193",
+      "stability_grade": "low",
+      "evidence_limitations": "single signature",
+      "source_dataset": "GSE70138"
+    },
+    "independent_validation_and_prism": {
+      "external_s1_median_rank": "1186.75",
+      "external_s1_B200_median_rank": "74.5",
+      "external_s1_conditions": "4",
+      "Q2_condition_median_rank": "310.5",
+      "Q2_conditions": "4",
+      "erpos_mean_sensitivity": "0.15035069929384445",
+      "erpos_median_sensitivity": "0.184284163835",
+      "n_erpos_lines": "9.0",
+      "erneg_mean_sensitivity": "0.2699438237656154",
+      "n_erneg_lines": "13.0",
+      "mcf7_sensitivity": "0.0790498686456",
+      "n_mcf7_conditions": "1.0",
+      "sensitivity_rank_erpos": "250.0",
+      "sensitivity_rank_mcf7": "379.0",
+      "PRISM_endpoint": "cell viability reduction (-log2 fold change); distinct from S2 expression reversal",
+      "WTCS_PRISM_agreement_interpretation": "independent endpoints; disagreement does not by itself invalidate either assay"
+    },
+    "phase_f_joined_evidence": {
+      "mapping_method": "exact InChIKey from SMILES",
+      "kg_mapping_status": "matched_exact_inchikey_with_supported_path",
+      "kg_supported_route_count": "6",
+      "kg_unique_target_gene_count": "1",
+      "kg_unique_pathway_count": "6",
+      "kg_interpretation": "精确结构映射且存在来源支持的靶点—S1 通路基因交汇；不是因果或疗效证据"
+    }
+  },
+  "paths": [
+    {
+      "path_id": "8130082478cf2cdc73e724e816685b47e7069bc9f1366810d607464ab55c2fed",
+      "route_type": "direct_target",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": null,
+      "pathway_label": null,
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "cc50fee165539370da284631f7a0a348162efb81ae96edbbfe2f289dc4950272",
+      "route_type": "s1_deg_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": null,
+      "pathway_label": null,
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_DEG|ENSG00000196639|8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+          "relation_type": "HAS_DEG",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "ENSG00000196639",
+          "source_release": "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+          "source_record_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c:HRH1",
+          "evidence_ids": [
+            "dba0fd3e5a7a4515f8365fdba58d1675d7b8eff2b44784221b1fe62bf045abd8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "dba0fd3e5a7a4515f8365fdba58d1675d7b8eff2b44784221b1fe62bf045abd8",
+              "verified_in_postgres": true,
+              "source_release": "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+              "source_record_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c:HRH1",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_DEG",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "acc08fc301ddd67060519ed17806fa8ce715e75e58ff1bb28ad080bfb338d931"
+            }
+          ],
+          "source_assertion": {
+            "adj.P.Val": 6.03019934446294e-05,
+            "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+            "direction": "DOWN",
+            "gene_id": "HRH1",
+            "gene_symbol": "HRH1",
+            "logFC": -0.805488678850311,
+            "source_record_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c:HRH1",
+            "t": -4.75906706453334
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_DEG"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+        "dba0fd3e5a7a4515f8365fdba58d1675d7b8eff2b44784221b1fe62bf045abd8"
+      ],
+      "source_releases": [
+        "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [
+        {
+          "adj.P.Val": 6.03019934446294e-05,
+          "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+          "direction": "DOWN",
+          "gene_id": "HRH1",
+          "gene_symbol": "HRH1",
+          "logFC": -0.805488678850311,
+          "source_record_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c:HRH1",
+          "t": -4.75906706453334
+        }
+      ],
+      "pathway_adjusted_p_values": [],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "e86e73852fc67f907ba933bfb602d60dcc1573f5e5679474655d871db80e5ee4",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0003018",
+      "pathway_label": "vascular process in circulatory system",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0003018",
+          "type": "PathwayOrGeneSet",
+          "label": "vascular process in circulatory system"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0003018|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0003018",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0003018:3269",
+          "evidence_ids": [
+            "e5797f2b00cd21fb5d83c2c33f2fbc8e770e1f7aa27892f39980b5902ec95dee"
+          ],
+          "sources": [
+            {
+              "evidence_id": "e5797f2b00cd21fb5d83c2c33f2fbc8e770e1f7aa27892f39980b5902ec95dee",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0003018:3269",
+              "subject_id": "GO:0003018",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "c508d42e874e89ab8d9dfb1dd6cfbc98867ea246c74490388124a8f7dadd262e"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 0.007085102827819038,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0003018",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0003018:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0003018:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 0.007085102827819038,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0003018",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0003018:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0003018|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0003018",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0003018",
+          "evidence_ids": [
+            "60ea92e218e4ca90505e24950fd6193767faba1aed960e720cf4ee23b2d4f5b5"
+          ],
+          "sources": [
+            {
+              "evidence_id": "60ea92e218e4ca90505e24950fd6193767faba1aed960e720cf4ee23b2d4f5b5",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0003018",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0003018",
+              "source_url": null,
+              "assertion_sha256": "61356873509d35f93bdadf7fef5355905cc65026b6d1037aa506d3d5c0fdee88"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 0.007085102827819038,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0003018",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0003018"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0003018"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 0.007085102827819038,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0003018",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0003018"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "60ea92e218e4ca90505e24950fd6193767faba1aed960e720cf4ee23b2d4f5b5",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+        "e5797f2b00cd21fb5d83c2c33f2fbc8e770e1f7aa27892f39980b5902ec95dee"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        0.007085102827819038,
+        0.007085102827819038
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "9dff7d27a000dc3204cdc36fefdf22c6ba772d3caa8d6899c50135ef11ff6564",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0008015",
+      "pathway_label": "blood circulation",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0008015",
+          "type": "PathwayOrGeneSet",
+          "label": "blood circulation"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0008015|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0008015",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0008015:3269",
+          "evidence_ids": [
+            "45c7a5858b363a6cdda3caca7fbecfdb114130e498ec20b3ac46e102aedbb554"
+          ],
+          "sources": [
+            {
+              "evidence_id": "45c7a5858b363a6cdda3caca7fbecfdb114130e498ec20b3ac46e102aedbb554",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0008015:3269",
+              "subject_id": "GO:0008015",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "20571e1df119a8a1cb4c56f45b116d9a9331f5fc593a85cda93ffe1d5247a184"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 7.600272497038816e-07,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0008015",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0008015:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0008015:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 7.600272497038816e-07,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0008015",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0008015:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0008015|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0008015",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0008015",
+          "evidence_ids": [
+            "23e58c5e632d263dab3ded5a6fc6fd7758149357be2f3d6925bffa821e34ca9a"
+          ],
+          "sources": [
+            {
+              "evidence_id": "23e58c5e632d263dab3ded5a6fc6fd7758149357be2f3d6925bffa821e34ca9a",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0008015",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0008015",
+              "source_url": null,
+              "assertion_sha256": "25011b0c1cdc191f1b4a3e0c462513a51ebb104a673278d8b4c2938b18d3693c"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 7.600272497038816e-07,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0008015",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0008015"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0008015"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 7.600272497038816e-07,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0008015",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0008015"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "23e58c5e632d263dab3ded5a6fc6fd7758149357be2f3d6925bffa821e34ca9a",
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "45c7a5858b363a6cdda3caca7fbecfdb114130e498ec20b3ac46e102aedbb554",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        7.600272497038816e-07,
+        7.600272497038816e-07
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "a6bcb1c8e48a20ec0af2f97aa7a7649b413001c11272d7c7c132d86feefdaf15",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0035150",
+      "pathway_label": "regulation of tube size",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0035150",
+          "type": "PathwayOrGeneSet",
+          "label": "regulation of tube size"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0035150|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0035150",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035150:3269",
+          "evidence_ids": [
+            "c53353742aefe09bc99da64ece1e6693ce09d2e21680ef6a1281b6ee0b3a5107"
+          ],
+          "sources": [
+            {
+              "evidence_id": "c53353742aefe09bc99da64ece1e6693ce09d2e21680ef6a1281b6ee0b3a5107",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035150:3269",
+              "subject_id": "GO:0035150",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "71b3e53a1cccc6b87674c4ebbea27136714c7928387d2b4657623acc860d645d"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 0.004218649116722476,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0035150",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035150:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035150:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 0.004218649116722476,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0035150",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035150:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0035150|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0035150",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035150",
+          "evidence_ids": [
+            "f7fa0fb1e866ad2ad7804c08f2bf69beff8cd12195aec33986cc73f87c5330fd"
+          ],
+          "sources": [
+            {
+              "evidence_id": "f7fa0fb1e866ad2ad7804c08f2bf69beff8cd12195aec33986cc73f87c5330fd",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035150",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0035150",
+              "source_url": null,
+              "assertion_sha256": "0411dcf3a64a18e0362a18509e094f6c3ab81d4c406816545f01ccf9eee6360d"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 0.004218649116722476,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0035150",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035150"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035150"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 0.004218649116722476,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0035150",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035150"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+        "c53353742aefe09bc99da64ece1e6693ce09d2e21680ef6a1281b6ee0b3a5107",
+        "f7fa0fb1e866ad2ad7804c08f2bf69beff8cd12195aec33986cc73f87c5330fd"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        0.004218649116722476,
+        0.004218649116722476
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "15fe308a59afc59cb519d40b900970e423bac217f187833cdff04ff3779b78aa",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0035296",
+      "pathway_label": "regulation of tube diameter",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0035296",
+          "type": "PathwayOrGeneSet",
+          "label": "regulation of tube diameter"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0035296|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0035296",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035296:3269",
+          "evidence_ids": [
+            "8524ec9b19e1988278fe4867531127a11e09cc259aa2a6c17e29e9f93a199675"
+          ],
+          "sources": [
+            {
+              "evidence_id": "8524ec9b19e1988278fe4867531127a11e09cc259aa2a6c17e29e9f93a199675",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035296:3269",
+              "subject_id": "GO:0035296",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "2e85433a466135d56388d699ce27f547c5a412439222ac60da81040b530e7259"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 0.0036802918439479792,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0035296",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035296:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035296:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 0.0036802918439479792,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0035296",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0035296:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0035296|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0035296",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035296",
+          "evidence_ids": [
+            "67ded3e6fc08e8c48c01548c7d62cb3237c128313e1178c2113da32d96aa9a74"
+          ],
+          "sources": [
+            {
+              "evidence_id": "67ded3e6fc08e8c48c01548c7d62cb3237c128313e1178c2113da32d96aa9a74",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035296",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0035296",
+              "source_url": null,
+              "assertion_sha256": "034f037816c0e101fc8f2d06bb1e41dbeb91fbb171a417dae4d64edac1f9c770"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 0.0036802918439479792,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0035296",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035296"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035296"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 0.0036802918439479792,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0035296",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0035296"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "67ded3e6fc08e8c48c01548c7d62cb3237c128313e1178c2113da32d96aa9a74",
+        "8524ec9b19e1988278fe4867531127a11e09cc259aa2a6c17e29e9f93a199675",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        0.0036802918439479792,
+        0.0036802918439479792
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "b02326d701ae742dc5d76a758b10b36851e1e70bf8737c2a0dbdb7705d256001",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0090066",
+      "pathway_label": "regulation of anatomical structure size",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0090066",
+          "type": "PathwayOrGeneSet",
+          "label": "regulation of anatomical structure size"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0090066|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0090066",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0090066:3269",
+          "evidence_ids": [
+            "ed163c8ba04f992d6fc04e38b144809d6b5f71a5e1462c74b648c9c0430f160a"
+          ],
+          "sources": [
+            {
+              "evidence_id": "ed163c8ba04f992d6fc04e38b144809d6b5f71a5e1462c74b648c9c0430f160a",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0090066:3269",
+              "subject_id": "GO:0090066",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "a4983c3fc531fb962ac18242f11b5d7f9f4460565e37ad690955a6db1c62b281"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 0.03341897602725209,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0090066",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0090066:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0090066:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 0.03341897602725209,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0090066",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0090066:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0090066|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0090066",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0090066",
+          "evidence_ids": [
+            "2797afe8ed59fb880579f32c4e27b8c399074f939a6acd635344a431d4f4db3e"
+          ],
+          "sources": [
+            {
+              "evidence_id": "2797afe8ed59fb880579f32c4e27b8c399074f939a6acd635344a431d4f4db3e",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0090066",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0090066",
+              "source_url": null,
+              "assertion_sha256": "148e929d9cc5f2ac005d57d29c26404ee0641a7842a42c1bd8540ff7c167645a"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 0.03341897602725209,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0090066",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0090066"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0090066"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 0.03341897602725209,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0090066",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0090066"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "2797afe8ed59fb880579f32c4e27b8c399074f939a6acd635344a431d4f4db3e",
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+        "ed163c8ba04f992d6fc04e38b144809d6b5f71a5e1462c74b648c9c0430f160a"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        0.03341897602725209,
+        0.03341897602725209
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    },
+    {
+      "path_id": "0e6d3727c15a460cc2407ecc58402912acb6807217507c9851fa75147b2a2da4",
+      "route_type": "s1_enrichment_overlap",
+      "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+      "drug_id": "CHEMBL594",
+      "target_gene_id": "ENSG00000196639",
+      "pathway_id": "GO:0097746",
+      "pathway_label": "blood vessel diameter maintenance",
+      "nodes": [
+        {
+          "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "type": "Candidate",
+          "label": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+        },
+        {
+          "id": "CHEMBL594",
+          "type": "Drug",
+          "label": "EMEDASTINE"
+        },
+        {
+          "id": "ENSG00000196639",
+          "type": "Gene",
+          "label": "HRH1"
+        },
+        {
+          "id": "GO:0097746",
+          "type": "PathwayOrGeneSet",
+          "label": "blood vessel diameter maintenance"
+        },
+        {
+          "id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "type": "DiseaseContext",
+          "label": "project disease context"
+        }
+      ],
+      "edges": [
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_CANDIDATE|CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|Project S2 LINCS results",
+          "relation_type": "HAS_CANDIDATE",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "source_release": "Project S2 LINCS results",
+          "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "evidence_ids": [
+            "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8"
+          ],
+          "sources": [
+            {
+              "evidence_id": "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+              "verified_in_postgres": true,
+              "source_release": "Project S2 LINCS results",
+              "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_CANDIDATE",
+              "object_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "source_url": null,
+              "assertion_sha256": "9e84980f3e73158f0636bff6b95f4e45b125bcd2cb68330ef2f8d0f36bc40191"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "condition_count": 4,
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214|REFERENCES_DRUG|CHEMBL594|GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "relation_type": "REFERENCES_DRUG",
+          "source_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+          "target_id": "CHEMBL594",
+          "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+          "source_record_id": "LINCS pert_info:BRD-K15010214",
+          "evidence_ids": [
+            "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f"
+          ],
+          "sources": [
+            {
+              "evidence_id": "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+              "verified_in_postgres": true,
+              "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+              "source_record_id": "LINCS pert_info:BRD-K15010214",
+              "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K15010214",
+              "predicate": "REFERENCES_DRUG",
+              "object_id": "CHEMBL594",
+              "source_url": null,
+              "assertion_sha256": "84ce35d6283b908e3fc6f40c87ec257970fbb00ad861891e62e5ae40223f0579"
+            }
+          ],
+          "source_assertion": {
+            "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+            "inchi_key": "KBUZBQVCBVDWKX-UHFFFAOYSA-N",
+            "mapping_method": "exact InChIKey",
+            "pert_id": "BRD-K15010214",
+            "source_record_id": "LINCS pert_info:BRD-K15010214"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "CHEMBL594|TARGETS|ENSG00000196639|OptimusKG 3.2",
+          "relation_type": "TARGETS",
+          "source_id": "CHEMBL594",
+          "target_id": "ENSG00000196639",
+          "source_release": "OptimusKG 3.2",
+          "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+          "evidence_ids": [
+            "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673"
+          ],
+          "sources": [
+            {
+              "evidence_id": "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+              "verified_in_postgres": true,
+              "source_release": "OptimusKG 3.2",
+              "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+              "subject_id": "CHEMBL594",
+              "predicate": "ANTAGONIST",
+              "object_id": "ENSG00000196639",
+              "source_url": [
+                "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+              ],
+              "assertion_sha256": "11f5cdc4a8a0ff61d18a7fb1c703bcabcc7e9e81d350f34114be3272366deadc"
+            }
+          ],
+          "source_assertion": {
+            "mechanisms_of_action": [
+              "Histamine H1 receptor antagonist"
+            ],
+            "relation_assertions": [
+              {
+                "relation": "TARGET",
+                "source": "DRUG_BANK"
+              },
+              {
+                "relation": "ANTAGONIST",
+                "source": "OPEN_TARGETS"
+              }
+            ],
+            "relation_conflict": false,
+            "source_ids": [
+              "setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL594:ENSG00000196639",
+            "source_urls": [
+              "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+            ],
+            "sources": {
+              "direct": [
+                "DRUG_BANK",
+                "OPEN_TARGETS"
+              ],
+              "indirect": [
+                "DAILY_MED"
+              ]
+            }
+          },
+          "reported_actions": [
+            "ANTAGONIST",
+            "TARGET"
+          ],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [],
+          "relation_conflict": false,
+          "source_urls": [
+            "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98a010d5-4905-4abf-a9d2-c85a07daa23b"
+          ],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "GO:0097746|HAS_ENRICHED_GENE|ENSG00000196639|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_GENE",
+          "source_id": "GO:0097746",
+          "target_id": "ENSG00000196639",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0097746:3269",
+          "evidence_ids": [
+            "961dbe7c3708d46f789ec9c5dcdd4a5d8953ce6822a8b00cc650e845e44b8024"
+          ],
+          "sources": [
+            {
+              "evidence_id": "961dbe7c3708d46f789ec9c5dcdd4a5d8953ce6822a8b00cc650e845e44b8024",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0097746:3269",
+              "subject_id": "GO:0097746",
+              "predicate": "HAS_ENRICHED_GENE",
+              "object_id": "ENSG00000196639",
+              "source_url": null,
+              "assertion_sha256": "0e23a056b24c284773f2fc8f1c4d9fb2d7b8a32a8309ff5396551e347bd68f14"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "adjusted_p": 0.0036802918439479792,
+                "analysis": "GO",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "ensembl_gene_id": "ENSG00000196639",
+                "entrez_id": "3269",
+                "gene_symbol": "HRH1",
+                "pathway_id": "GO:0097746",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0097746:3269"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0097746:3269"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "adjusted_p": 0.0036802918439479792,
+              "analysis": "GO",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "ensembl_gene_id": "ENSG00000196639",
+              "entrez_id": "3269",
+              "gene_symbol": "HRH1",
+              "pathway_id": "GO:0097746",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO:GO:0097746:3269"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        },
+        {
+          "edge_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7|HAS_ENRICHED_PATHWAY|GO:0097746|Project S1 pathway enrichment",
+          "relation_type": "HAS_ENRICHED_PATHWAY",
+          "source_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+          "target_id": "GO:0097746",
+          "source_release": "Project S1 pathway enrichment",
+          "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0097746",
+          "evidence_ids": [
+            "cbe4cf37378f0daf1f8030ba4b651947ea40efc25d65f6cd833bd572f94535aa"
+          ],
+          "sources": [
+            {
+              "evidence_id": "cbe4cf37378f0daf1f8030ba4b651947ea40efc25d65f6cd833bd572f94535aa",
+              "verified_in_postgres": true,
+              "source_release": "Project S1 pathway enrichment",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0097746",
+              "subject_id": "DISEASE_CONTEXT:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:54530b3e-efcd-4629-9345-d61f5c4363f7",
+              "predicate": "HAS_ENRICHED_PATHWAY",
+              "object_id": "GO:0097746",
+              "source_url": null,
+              "assertion_sha256": "bf953c2aaa6b2618ceb72b653822cafd30a2d07497c6e373a0206a64c1d4bc02"
+            }
+          ],
+          "source_assertion": {
+            "analysis_assertions": [
+              {
+                "NES": null,
+                "adjusted_p": 0.0036802918439479792,
+                "analysis": "GO_DOWN",
+                "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+                "pathway_id": "GO:0097746",
+                "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+                "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0097746"
+              }
+            ],
+            "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0097746"
+          },
+          "reported_actions": [],
+          "action_interpretation": "source_reported_relation_only; no direction inferred from generic TARGET/ENZYME/TRANSPORTER assertions",
+          "analysis_assertions": [
+            {
+              "NES": null,
+              "adjusted_p": 0.0036802918439479792,
+              "analysis": "GO_DOWN",
+              "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+              "pathway_id": "GO:0097746",
+              "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+              "source_record_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea:GO_DOWN:GO:0097746"
+            }
+          ],
+          "relation_conflict": false,
+          "source_urls": [],
+          "evidence_complete": true
+        }
+      ],
+      "relation_types": [
+        "HAS_CANDIDATE",
+        "REFERENCES_DRUG",
+        "TARGETS",
+        "HAS_ENRICHED_GENE",
+        "HAS_ENRICHED_PATHWAY"
+      ],
+      "evidence_ids": [
+        "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+        "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+        "961dbe7c3708d46f789ec9c5dcdd4a5d8953ce6822a8b00cc650e845e44b8024",
+        "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+        "cbe4cf37378f0daf1f8030ba4b651947ea40efc25d65f6cd833bd572f94535aa"
+      ],
+      "source_releases": [
+        "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+        "OptimusKG 3.2",
+        "Project S1 pathway enrichment",
+        "Project S2 LINCS results"
+      ],
+      "reported_actions": [
+        "ANTAGONIST",
+        "TARGET"
+      ],
+      "disease_expression_assertions": [],
+      "pathway_adjusted_p_values": [
+        0.0036802918439479792,
+        0.0036802918439479792
+      ],
+      "relation_conflict": false,
+      "evidence_complete": true
+    }
+  ],
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 1,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 6,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 16,
+    "verified_evidence_count": 16,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "provenance": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+    "graph_bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+    "source_analysis_runs": {
+      "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "s1_enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+      "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57"
+    },
+    "pert_id": "BRD-K15010214",
+    "path_ids": [
+      "8130082478cf2cdc73e724e816685b47e7069bc9f1366810d607464ab55c2fed",
+      "cc50fee165539370da284631f7a0a348162efb81ae96edbbfe2f289dc4950272",
+      "e86e73852fc67f907ba933bfb602d60dcc1573f5e5679474655d871db80e5ee4",
+      "9dff7d27a000dc3204cdc36fefdf22c6ba772d3caa8d6899c50135ef11ff6564",
+      "a6bcb1c8e48a20ec0af2f97aa7a7649b413001c11272d7c7c132d86feefdaf15",
+      "15fe308a59afc59cb519d40b900970e423bac217f187833cdff04ff3779b78aa",
+      "b02326d701ae742dc5d76a758b10b36851e1e70bf8737c2a0dbdb7705d256001",
+      "0e6d3727c15a460cc2407ecc58402912acb6807217507c9851fa75147b2a2da4"
+    ],
+    "evidence_ids": [
+      "23e58c5e632d263dab3ded5a6fc6fd7758149357be2f3d6925bffa821e34ca9a",
+      "2797afe8ed59fb880579f32c4e27b8c399074f939a6acd635344a431d4f4db3e",
+      "340162f3d62fddb0259aa65f46bfcad8510678be8ed5f44fe6a42b425ea3284f",
+      "45c7a5858b363a6cdda3caca7fbecfdb114130e498ec20b3ac46e102aedbb554",
+      "480437fd65fb2802074991a03f5aae07c30024594af0d52e83a7c8e0316e02c8",
+      "60ea92e218e4ca90505e24950fd6193767faba1aed960e720cf4ee23b2d4f5b5",
+      "67ded3e6fc08e8c48c01548c7d62cb3237c128313e1178c2113da32d96aa9a74",
+      "8524ec9b19e1988278fe4867531127a11e09cc259aa2a6c17e29e9f93a199675",
+      "961dbe7c3708d46f789ec9c5dcdd4a5d8953ce6822a8b00cc650e845e44b8024",
+      "b01220c55c90c322ec041ba8abf3814bc3a1376f08f45fe062892959739f3673",
+      "c53353742aefe09bc99da64ece1e6693ce09d2e21680ef6a1281b6ee0b3a5107",
+      "cbe4cf37378f0daf1f8030ba4b651947ea40efc25d65f6cd833bd572f94535aa",
+      "dba0fd3e5a7a4515f8365fdba58d1675d7b8eff2b44784221b1fe62bf045abd8",
+      "e5797f2b00cd21fb5d83c2c33f2fbc8e770e1f7aa27892f39980b5902ec95dee",
+      "ed163c8ba04f992d6fc04e38b144809d6b5f71a5e1462c74b648c9c0430f160a",
+      "f7fa0fb1e866ad2ad7804c08f2bf69beff8cd12195aec33986cc73f87c5330fd"
+    ],
+    "bundle_manifest_sha256": "5d1e0aaa287cc1b2b3f8b72178ea657229bd36168b80c3ca7874c4cc64778257",
+    "phase_f": {
+      "available": true,
+      "manifest_sha256": "b64f48ac43ba83499f1f40e45a926aa1625d9512454002ecc3834ee0a20b9674",
+      "data_sha256": "adbf617d6b79a6f1d2f8e0ee3b78677600d6a2695bef0a9d2e5f3236e1322363",
+      "manifest_graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "source": "experiments/phase_f_integrated_evidence/candidate_evidence_with_kg.csv"
+    },
+    "exp006": {
+      "available": true,
+      "sha256": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+      "source": "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv"
+    },
+    "evidence_input_sha256": "75b245d7d45e4153109e38cc14570118dbf40f3ade0391069fa89e8250e0610d",
+    "graph_bundle_source_sha256": {
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1/9ebd6c43-9342-487e-a052-ae901461b58c/limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/gene_mapping_audit.csv": "77d4fc11341a5a824c2a514ab042e2404c53a672b7c0e6d8dc6b7444c0ec5a48",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/c922f2b0-242e-5991-9f76-dcbc8f66ce57/drug_condition_summary.csv": "00d2bc3023aef293cfb2e2234308aa45e6ca87f9fc3f666090d2d50e84c60f49",
+      "s2_lincs/data/GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+      "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71",
+      "data/optimuskg/3.2/nodes/drug.parquet": "2b0d221757f1de436dc74b21beb452082e43f3c7ec7e6630d2b0d20a25769c2b",
+      "data/optimuskg/3.2/nodes/gene.parquet": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a",
+      "data/optimuskg/3.2/nodes/pathway.parquet": "c27f5947c74965d0406bf818554d9d51ec859615594365f30e253e297f771682",
+      "data/optimuskg/3.2/edges/drug_gene.parquet": "5ccaeff1260081f55b9acf40f2a969cc38b76661b4ee66363e26f7ef79dc76bd",
+      "data/optimuskg/3.2/edges/pathway_gene.parquet": "80e8d10cd87fb10be6fc392221c4910e4b116a70a14f410dd75a4524da298493",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/pathway_gene_links.csv": "986daaa1573f2f54df3dda9ff9dcce42a904ab5d6f256e42c53ab85b31b04117",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_up.csv": "6dc3ee2ace7792d8b9bcb17c91a851e1961246561501c83701a1fdf4db9d758d",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/go_down.csv": "677652aaf7ef8eb525500f6f04c819d5ea1b7c9418584595acc5a8ae48954756",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_up.csv": "8ef2b30e45015f5395a154502c00c8a4d6e768920c8257916257eefb4fefd2fa",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/reactome_down.csv": "06d5d9852801a691cf71fc842290d9fac1d83631a06553702784c2e3d889ab57",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/hallmark_gsea.csv": "34ac4c1cbb92495eb2afaea262e992f9d3da72aa26c4fe1b57256d84d56ff3da",
+      "kg/scripts/build_project_graph_bundle.py": "16ee37ac4c550d3d6383e4104ed6041fb539e4755b1a7150b37c551459269ca9",
+      "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/54530b3e-efcd-4629-9345-d61f5c4363f7/build_config.json": "ba3191056dc3e52fac6fd0027d499c5c1ca8e3a2004561f8931a8be87143fa0e"
+    },
+    "package_source_policy": "all paths are fixed-template, GraphBuild-scoped Cypher results; no free-form Cypher is accepted"
+  }
+}

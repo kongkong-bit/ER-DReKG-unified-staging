@@ -1,0 +1,94 @@
+# Git state at delivery preparation (read-only)
+# repo: e:/生物医学信息/ER-DReKG
+
+## git log -1
+commit 3f5618c6e32bcb3ca3c558c613f45ae1ff7782dd
+Author:     <redacted>
+AuthorDate: Mon Nov 16 10:22:20 2026 +0800
+Commit:     <redacted>
+CommitDate: Mon Nov 16 10:22:20 2026 +0800
+
+    初始化 ER-DReKG 项目与中文文档
+
+## git status --porcelain -uall
+ M .env.example
+ M .gitignore
+ M backend/.env.example
+ M backend/app/core/config.py
+ M backend/app/main.py
+ M backend/app/models.py
+ M backend/app/schemas.py
+ M backend/tests/test_api.py
+ M backend/uv.lock
+ M data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/run_manifest.json
+ M docs/api/api_contract.yaml
+ M frontend/src/api.ts
+ M frontend/src/locales/zh-CN.ts
+ M frontend/src/pages/DrugPage.tsx
+ M frontend/src/pages/GraphPage.tsx
+ M frontend/vite.config.ts
+ M kg/scripts/import_phase_b_to_neo4j.py
+ M kg/scripts/verify_neo4j_import.py
+ M kg/tests/test_neo4j_importer.py
+ M scripts/register_erpos_historical_project_runs.py
+ M scripts/verify_neo4j_multi_project.py
+?? backend/app/collab_auth.py
+?? backend/app/collab_service.py
+?? backend/app/routers/__init__.py
+?? backend/app/routers/collab.py
+?? backend/migrations/versions/7b2d91a4c6e8_add_collab_member.py
+?? backend/migrations/versions/9c4e2a71b3d5_add_collab_content.py
+?? backend/scripts/seed_collab_admin.py
+?? backend/tests/test_collab_auth.py
+?? backend/tests/test_collab_posts.py
+?? cloud_migration/er_drekg.dump
+?? cloud_migration/neo4j.dump
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/analysis_run_manifest.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/biocypher_validation.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/build_config.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/bundle_checksums.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/bundle_manifest.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/candidate_mapping_audit.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/candidate_target_pathway_routes.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/evidence_records.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/pathway_gene_mapping_audit.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/relation_conflicts.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/s1_gene_mapping_audit.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/subgraph_edges.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/subgraph_nodes.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/e0421796-2aff-47e2-9228-d683eab05fa9/unmatched_entities.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/run_manifest.pre_repair.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/run_manifest.r2.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5/drug_condition_summary.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5/qc_summary.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5/run_manifest.json
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5/s1_gene_mapping_audit.csv
+?? data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5/signature_scores.csv
+?? docs/architecture/collab_center_plan.md
+?? kg/scripts/compare_graph_build_snapshots.py
+?? kg/tests/test_graph_build_snapshots.py
+?? kg/tests/test_verify_neo4j_import.py
+
+## git diff --stat
+ .env.example                                       |    4 +
+ .gitignore                                         |    1 +
+ backend/.env.example                               |    4 +
+ backend/app/core/config.py                         |    8 +
+ backend/app/main.py                                |   73 +-
+ backend/app/models.py                              |   61 +-
+ backend/app/schemas.py                             |   80 ++
+ backend/tests/test_api.py                          |  107 +-
+ backend/uv.lock                                    | 1446 ++++++++++----------
+ .../run_manifest.json                              |   37 +-
+ docs/api/api_contract.yaml                         |    2 +-
+ frontend/src/api.ts                                |    4 +
+ frontend/src/locales/zh-CN.ts                      |    2 +-
+ frontend/src/pages/DrugPage.tsx                    |    4 +-
+ frontend/src/pages/GraphPage.tsx                   |    7 +-
+ frontend/vite.config.ts                            |    2 +-
+ kg/scripts/import_phase_b_to_neo4j.py              |  422 +++++-
+ kg/scripts/verify_neo4j_import.py                  |  197 ++-
+ kg/tests/test_neo4j_importer.py                    |  226 ++-
+ scripts/register_erpos_historical_project_runs.py  |  186 ++-
+ scripts/verify_neo4j_multi_project.py              |   16 +-
+ 21 files changed, 2046 insertions(+), 843 deletions(-)

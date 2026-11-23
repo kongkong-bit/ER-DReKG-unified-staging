@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:08.480930+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9856649/ancestors",
+    "response_sha256": "455bc994bce563b338803e1f45d58c8d85b34f37e19bb789cabcb17464d19f32",
+    "response_bytes": 1248
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9856649,
+        "displayName": "Transcriptional and post-translational regulation of MITF-M expression and activity",
+        "stId": "R-HSA-9856649",
+        "name": [
+          "Transcriptional and post-translational regulation of MITF-M expression and activity"
+        ],
+        "stIdVersion": "R-HSA-9856649.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3357,
+        "diagramHeight": 2079,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9730414,
+        "displayName": "MITF-M-regulated melanocyte development",
+        "stId": "R-HSA-9730414",
+        "name": [
+          "MITF-M-regulated melanocyte development"
+        ],
+        "stIdVersion": "R-HSA-9730414.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9730414.4",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 664,
+        "diagramHeight": 356,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

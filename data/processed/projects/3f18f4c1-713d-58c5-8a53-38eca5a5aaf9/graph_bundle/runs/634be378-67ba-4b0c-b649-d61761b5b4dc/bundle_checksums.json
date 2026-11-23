@@ -1,0 +1,19 @@
+{
+  "biocypher_validation.json": "42ff638179c836cb950c747a237211398ace8142b63b8988df079a5d3f45ca3d",
+  "candidate_mapping_audit.csv": "6b50096fca9218959271ce8c8a78bc63c3a27e9982ecf58711cff4d222f0fd83",
+  "candidate_target_pathway_routes.csv": "11d4586542f318c514f133d6204375adf33286bba31fea22eb7f095148a7316a",
+  "evidence_records.csv": "6a2013ba4a01becb2aa8709fffb61f2e3ef57eea9c2505e5ed57ad6e8ea2036b",
+  "external_evidence_overlay.csv": "fea0b0b6e2e7af8593dec0236aac47271e97e32fb9867c7605fda32993c4527a",
+  "external_overlay_validation.json": "6a18f2aec2275d6cac101e909b27afacaaab0e337ac3e8c02e73bf271f2d6a19",
+  "pathway_gene_mapping_audit.csv": "d1bad56bb1497899ee872e12cd4ef1146c55e166e9be87c049d07b9f269489d8",
+  "regulatory_extension_biocypher_validation.json": "5208167cae4989ee12584cf1e81dc966c5b256731ded545cba957e221bc380c3",
+  "regulatory_extension_manifest.json": "4c1d6e4788acd728397ba1ea08ccc4b3fd6786ac5809b691e715f2b5048b8da0",
+  "relation_conflicts.csv": "2378daad2198408411034354fce5854ce0727fdd7a2198f4c1ce765ba13c8108",
+  "s1_gene_mapping_audit.csv": "a7613ab0b74ed8fc6a934e3f5e17612e6ab186b8cf34aa42a3fe55d050312d35",
+  "subgraph_edges.csv": "40cffba4f487b2c9b5cbdec36c498264af0b49ed7103d104cd2447dcbaedaf63",
+  "subgraph_nodes.csv": "069d911d179fbaff32ebd260283f41954be02c85e6a147cb1be3e10f024a21b1",
+  "unmatched_entities.csv": "6d0b915d60091e3cb78e7c4b7b8ef5f724ce7d8f09dc39cfe6315be49038c944",
+  "unmatched_target_components.csv": "6befc641933631e48caef8346728e461ae54b463edde82ab3d2e773e5c93cc1d",
+  "bundle_manifest.json": "85582f047bc1068f5dbe636f2cd6abab5a965a0b2b0af2324a2f2ee416a7dda3",
+  "analysis_run_manifest.json": "266979516cd550b950d23644bef51c98adc5023168c8cc19b36b1b09731eaf27"
+}

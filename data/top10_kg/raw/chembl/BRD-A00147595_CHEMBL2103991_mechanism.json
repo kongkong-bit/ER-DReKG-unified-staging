@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:03:20.662450+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL2103991&limit=1000&offset=0",
+    "response_sha256": "7d7d8206f81bcd0653cdc6ce84a43ccd15c57aa46141ee1632752b5daabbce70",
+    "response_bytes": 766
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": "PARTIAL AGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5233,
+        "mechanism_comment": "Discontinueddue to safety concerns",
+        "mechanism_of_action": "Peroxisome proliferator-activated receptor gamma partial agonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "22404217",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22404217"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2103991",
+        "parent_molecule_chembl_id": "CHEMBL2103991",
+        "record_id": 2472764,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL235",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  }
+}

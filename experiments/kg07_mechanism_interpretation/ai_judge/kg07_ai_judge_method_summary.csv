@@ -1,0 +1,4 @@
+﻿method,display_name,n_cases,n_supported_claim_fraction_cases,supported_claim_fraction_macro_mean,n_citation_precision_cases,citation_precision_macro_mean,unsupported_assertion_count_total,unsupported_assertion_rate,relation_direction_error_count_total,relation_direction_error_rate,n_uncertainty_accuracy_cases,uncertainty_accuracy_macro_mean,mean_method_output_latency_seconds,total_method_output_tokens,method_provider_cost_reported_cases,mean_ai_judge_latency_seconds,ai_judge_prompt_tokens_reported,ai_judge_completion_tokens_reported,ai_judge_provider_cost_reported_cases
+direct_llm,Direct LLM,20,20,0.5369047619047619,0,,40,0.47058823529411764,0,,20,0.6041666666666666,13.31115,37574,0,14.890569625000126,98431,17392,0
+kg_rule,KG 规则模板,20,20,1.0,20,1.0,0,0.0,0,0.0,6,1.0,0.0,0,0,33.868230000000175,1143057,55891,0
+kg_llm,KG + LLM,20,20,0.9672222222222222,20,0.9306349206349206,5,0.05102040816326531,0,0.0,20,0.95,8.94255,65041,0,17.59107298500003,282483,25183,0

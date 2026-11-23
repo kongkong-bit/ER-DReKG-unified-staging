@@ -1,0 +1,90 @@
+{
+  "created_at_utc": "2026-11-14T08:13:25.488891+00:00",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "mode": "apply",
+  "graph_builds": [
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:28ac2382bd7f7ea9",
+      "status": "SKIP",
+      "reason": "no completed GraphBundle AnalysisRun"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:92ccf8669de7c697",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:a21e8df5-1244-4b5b-a25a-6055979b11f5",
+      "status": "PASS",
+      "evidence_record_count": 7680,
+      "previous_summary_count": 7680,
+      "evidence_records_sha256": "8839b2c62b558931a2983173c927c5373db916eda17705ac8d2db1370014c12f",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "1e7fd3c67e88155288070ccb7e0a0079e9b1794a87e7399d36c2b20a3d44b49d"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:89efd9796240c910",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:793e726d-910c-4202-9877-9d70305b8fa9",
+      "status": "PASS",
+      "evidence_record_count": 38240,
+      "previous_summary_count": 38240,
+      "evidence_records_sha256": "43da2c84d3425793628a3bb7b5afcb3072439a4dfcbfeaab318614aa0c5c73a2",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "275a14b299fd4831ecaa61d09bea74bc7408ab529097812b61d3413414b66e4f"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:8eda9601-2fd3-48cc-9a45-74809870a480",
+      "status": "PASS",
+      "evidence_record_count": 38998,
+      "previous_summary_count": 38998,
+      "evidence_records_sha256": "e71f21bfb45a92ed8c88c8c4106da3c9af4a4f656d6783cd00dca45855c03313",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "36e6e928ef86be8b2678f0287997e109d1ef5d88b13396915fd9c45f8a193c07"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:b874641cdb628d4e",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:d2a9cb1e-9853-4e41-88e6-70fb3c465ab3",
+      "status": "PASS",
+      "evidence_record_count": 38998,
+      "previous_summary_count": 38998,
+      "evidence_records_sha256": "7bedfbd3e87d623958cb2d9528a578011913692b8f9e5749dbdb7cc3e8bf8ffe",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "6a2e8a8917a840e3c5a8778b06bb52a9c5213872a6cc4c4d66b0539ba646f617"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:70bf5e7a5a024dfa",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:cdb26185-2f72-41ce-858e-5f7f5bb3c919",
+      "status": "PASS",
+      "evidence_record_count": 38998,
+      "previous_summary_count": 38998,
+      "evidence_records_sha256": "bc48c1824382bcc4ab55c9ffc9a4615fce15eefb725ebcda10e1ba2e7616d0c6",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "0a4e36a25423585612cb70e2cee4af2195bf47daaf675e76d5b47cf54ee75a8f"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:25e3b3f52aa5d6fb",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:fa1a993d-5a0c-48c0-81ab-834f85cfc174",
+      "status": "PASS",
+      "evidence_record_count": 38998,
+      "previous_summary_count": 38998,
+      "evidence_records_sha256": "9822cdfe1b84fd43e3d2883a857329b1258ad8394c32e370fe025f451fc26621",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "57e31a7ff43332d4795c4280bd2550fdb23a5be562581bfe5890aaf960adcef6"
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+      "status": "PASS",
+      "evidence_record_count": 38998,
+      "previous_summary_count": 38998,
+      "evidence_records_sha256": "4a1a3a5cf7ece3a8ef43cf3b950b2aa6a18442938e940f19ab263e8142ed91c6",
+      "disease_context_count": 1,
+      "disease_contexts_sha256": "16d3fdf3aae73e094811f3f9eea8f81ea930d026e772906892f7e14de09f23dc"
+    }
+  ],
+  "summary": {
+    "eligible_versions": 8,
+    "passed_or_ready": 7,
+    "blocked": 0,
+    "skipped": 1,
+    "total_evidence_records": 240910,
+    "total_disease_contexts": 7
+  }
+}

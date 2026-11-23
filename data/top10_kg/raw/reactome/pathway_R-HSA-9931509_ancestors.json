@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:08.943756+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9931509/ancestors",
+    "response_sha256": "1e034470a29d4f8292f6ec3a93f760d2dcff42e1fd3fec4df588f81c6854df1c",
+    "response_bytes": 766
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9931509,
+        "displayName": "Expression of BMAL (ARNTL), CLOCK, and NPAS2",
+        "stId": "R-HSA-9931509",
+        "name": [
+          "Expression of BMAL (ARNTL), CLOCK, and NPAS2"
+        ],
+        "stIdVersion": "R-HSA-9931509.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-03-26",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1170,
+        "diagramHeight": 1089,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9909396,
+        "displayName": "Circadian clock",
+        "stId": "R-HSA-9909396",
+        "name": [
+          "Circadian clock"
+        ],
+        "stIdVersion": "R-HSA-9909396.3",
+        "schemaClass": "TopLevelPathway",
+        "doi": "10.3180/R-HSA-9909396.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-03-26",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 655,
+        "diagramHeight": 614,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

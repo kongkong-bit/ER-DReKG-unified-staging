@@ -1,0 +1,13 @@
+{
+  "source_name": "OptimusKG gene-associated UniProt crosswalk",
+  "source_release": "OptimusKG 3.2",
+  "source_license": "CC BY-NC-SA 4.0",
+  "source_file": "data/optimuskg/3.2/nodes/gene.parquet",
+  "source_file_sha256": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a",
+  "bundle_gene_count": 5832,
+  "mapping_records": 27895,
+  "unique_accessions": 27895,
+  "ambiguous_accessions": 0,
+  "normalized_path": "data\\kg_enrichment\\normalized\\optimuskg\\3.2\\uniprot_gene_crosswalk.csv",
+  "normalized_sha256": "f4071759c82a638cc259d32f44395e89fa6d1326afea4601b99150b60b0104d3"
+}

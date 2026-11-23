@@ -1,0 +1,71 @@
+{
+  "experiment": "Exp009 LINCS quality and dose sensitivity",
+  "run_utc": "2026-11-12T07:36:18.962595+00:00",
+  "status": "PASS",
+  "seed": 42,
+  "primary_cohort": "MCF7 trt_cp 24h; CC thresholds 0.1/0.2/0.3; TAS>=0.2",
+  "signature_rows_scored": 11850,
+  "quality_threshold_counts": [
+    {
+      "metric": "distil_cc_q75",
+      "threshold": 0.1,
+      "signatures": 9404,
+      "compounds": 1741,
+      "dose_strata": 58,
+      "times": 1
+    },
+    {
+      "metric": "distil_cc_q75",
+      "threshold": 0.2,
+      "signatures": 5861,
+      "compounds": 1471,
+      "dose_strata": 36,
+      "times": 1
+    },
+    {
+      "metric": "distil_cc_q75",
+      "threshold": 0.3,
+      "signatures": 3717,
+      "compounds": 969,
+      "dose_strata": 26,
+      "times": 1
+    },
+    {
+      "metric": "TAS",
+      "threshold": 0.2,
+      "signatures": 4137,
+      "compounds": 1171,
+      "dose_strata": 29,
+      "times": 1
+    }
+  ],
+  "input_sha256": {
+    "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_sig_info_2017-03-06.txt.gz": "b78284478d62029f600d4397334c538d363123110affd2454bf0055bd0678e01",
+    "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_sig_metrics_2017-03-06.txt.gz": "05dd9139f7db1caef03b534611c0bcf97dd071a764445688eaa7e6c47e50b04c",
+    "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_gene_info_2017-03-06.txt.gz": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a",
+    "D:\\CLASS\\syh\\s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e",
+    "D:\\CLASS\\syh\\s2_lincs\\s1_bing_top100_up.txt": "841acdd87fac47e58411891308ea4e5cc19536afbb3e76e50f5b63182b081753",
+    "D:\\CLASS\\syh\\s2_lincs\\s1_bing_top100_down.txt": "0a441209e9c76bf39594b35195eb101a037e3062d1d14f88f432553e4a3d9b11"
+  },
+  "output_sha256": {
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\B200_signature_scores_stable_id.csv": "cd33bd3d32c7c22a86ecf81b7e6b93fcbe7ee226b9288029e03aae9c9c4e41bc",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\candidate_quality_comparison.csv": "684b6f21497934f8cb7ee62b5bfcc37295da19bbb52c90e57cf789c3968022df",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\dose_condition_summary.csv": "655a6d9b149ef06ef8085b1e46d84107cdc2101bc855ef9c7cce20d86a211601",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\dose_direction_stability.csv": "d8237b5a4e89cb34e795121665ad413f15ced2682fe363afa131f635ddb49ad6",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\dose_time_quality_summary.csv": "ab7e31166f40a3084695a5abaadd78e5f1428424127934886ce9de2a8f72e0fa",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\lincs_metric_audit.csv": "8a13092be75a8552943402fb75113bb57209062505debedf56370a56d119d831",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\metadata_join_sensitivity.csv": "612ea265549c5201a39e63102c0843bdaca23bef9d509d1cccd2666903ab8718",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\qc_threshold_comparison.csv": "58aa42926692848e992c26a6f0006d51d524f3611e45003c78dca7cf3402e53d",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\quality_rank_comparison.csv": "66cd1281949f8e159a4d273c1d612fa7e396f948c516eb79f2bd7c772f5a8e05",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\quality_sensitivity_condition_rankings.csv": "0b2d17e8607adc94c2ade637f6941bfd8acc81717d1d015a7cd1ae1ad67f34f8",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\quality_threshold_counts.csv": "58aa42926692848e992c26a6f0006d51d524f3611e45003c78dca7cf3402e53d",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\tas_calculation_audit.csv": "e241a98f8a9b51f6a92bf8c754db93bb3a5a4b5355f33d933bfe6f5105384151",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\results\\tas_field_audit.csv": "8e16b0c1c11cf649a6da3c81b2759f3ada63bcab88a15d623d5f12cb551acaf1",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\figures\\dose_wtcs_heatmap.png": "0bc98bbd0b9ed408ba01d44d66bf994e840ed3d553916d1a2d3656b422357483",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\figures\\quality_metric_distributions.png": "2462504a68a9f74bfd0bbf882280e0e3f57c102e3ea3452d67414e3c5ec65cb7",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\figures\\quality_threshold_counts.png": "7069dd5c153fec7cc225aab7ae37b65a4f521a227dcc8aa4e17c341ea66a379b",
+    "D:\\CLASS\\syh\\experiments\\exp009_lincs_quality\\reports\\exp009_report.md": "aacc7e559b45764511c2e56c0975b0f43fb0b6aaf3c3e64b4bc2e07c19190cc5"
+  },
+  "python": "3.12.10",
+  "runtime_seconds": 62.25
+}

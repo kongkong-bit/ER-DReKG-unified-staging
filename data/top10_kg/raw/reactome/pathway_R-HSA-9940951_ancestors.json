@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:09.063255+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9940951/ancestors",
+    "response_sha256": "a742b7f68cfb713c6342be92c2b8463e36ed7163e877e4f04f672882914618b6",
+    "response_bytes": 2159
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9940951,
+        "displayName": "Interaction of NuRD complexes with transcription factors",
+        "stId": "R-HSA-9940951",
+        "name": [
+          "Interaction of NuRD complexes with transcription factors"
+        ],
+        "stIdVersion": "R-HSA-9940951.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-03-25",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9937850,
+        "displayName": "NuRD complex assembly",
+        "stId": "R-HSA-9937850",
+        "name": [
+          "NuRD complex assembly"
+        ],
+        "stIdVersion": "R-HSA-9937850.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-03-25",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9943965,
+        "displayName": "CHD3, CHD4, CHD5 subfamily",
+        "stId": "R-HSA-9943965",
+        "name": [
+          "CHD3, CHD4, CHD5 subfamily"
+        ],
+        "stIdVersion": "R-HSA-9943965.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-03-25",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9937848,
+        "displayName": "CHD chromatin remodelers",
+        "stId": "R-HSA-9937848",
+        "name": [
+          "CHD chromatin remodelers"
+        ],
+        "stIdVersion": "R-HSA-9937848.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-03-25",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2612,
+        "diagramHeight": 1820,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9932444,
+        "displayName": "ATP-dependent chromatin remodelers",
+        "stId": "R-HSA-9932444",
+        "name": [
+          "ATP-dependent chromatin remodelers"
+        ],
+        "stIdVersion": "R-HSA-9932444.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9932444.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-03-26",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 443,
+        "diagramHeight": 137,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 4839726,
+        "displayName": "Chromatin organization",
+        "stId": "R-HSA-4839726",
+        "name": [
+          "Chromatin organization"
+        ],
+        "stIdVersion": "R-HSA-4839726.5",
+        "oldStId": "REACT_264155",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-12-04",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 533,
+        "diagramHeight": 200,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

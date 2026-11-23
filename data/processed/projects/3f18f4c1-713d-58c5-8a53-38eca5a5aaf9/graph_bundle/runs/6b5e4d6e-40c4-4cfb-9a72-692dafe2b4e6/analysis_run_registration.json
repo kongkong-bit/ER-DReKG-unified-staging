@@ -1,0 +1,73 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:6b5e4d6e-40c4-4cfb-9a72-692dafe2b4e6",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "run_type": "kg_graph_bundle",
+  "status": "completed",
+  "parameters": {
+    "bundle_dir": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/6b5e4d6e-40c4-4cfb-9a72-692dafe2b4e6",
+    "manifest_sha256": "b5eca21376002a13bef159dab20440388c6c48999ada5b5f5aecf125a8c1a036",
+    "output_hashes": {
+      "subgraph_nodes.csv": "91de7918f65bc312f89a9c5035d09a42fb69be7e9f743bf4e450eaf6e81cbc52",
+      "subgraph_edges.csv": "ab96fb54ba92fe7b8841866d66b4fe226b64356bb22147218ba3aa894fd114d5",
+      "evidence_records.csv": "48409e024825d5d70cb995f54b3f8ce73525b63580a8e52883ccb7c8c9bc8b50",
+      "biocypher_validation.json": "c56f2d8e82aaa4101023624ad3ab2a3625e23aabac90b0fceb64650fc9d95ae1",
+      "external_mapping_rejects.csv": "53d72d8cc7324cb10594ccda27374a4f0ac3cf711f7de73e48517159617204e2"
+    },
+    "counts": {
+      "nodes": 9526,
+      "edges": 91943,
+      "s1_significant_genes": 7066,
+      "s1_unique_ensembl_mapped": 6707,
+      "s1_ambiguous_or_unmatched": 359,
+      "pathway_gene_links": 31991,
+      "pathway_gene_unique_mapped": 30350,
+      "candidate_perturbagens": 10,
+      "exact_inchikey_mapped_drugs": 10,
+      "s2_condition_rows": 51,
+      "candidate_target_pathway_routes": 528,
+      "relation_conflicts": 0,
+      "unmatched_entities": 2000,
+      "externally_resolved_candidate_drugs": 2,
+      "optimuskg_exact_candidate_drugs": 8,
+      "evidence_records": 91810,
+      "proteins": 14,
+      "chembl_target_entities": 9,
+      "chembl_direct_target_edges": 9,
+      "protein_gene_edges": 14,
+      "reactome_protein_pathway_edges": 205,
+      "reactome_pathway_hierarchy_edges": 217,
+      "disease_evidence_nodes": 11,
+      "drug_disease_evidence_edges": 11,
+      "disease_evidence_disease_edges": 11,
+      "reactome_unique_pathways": 232,
+      "unmatched_target_components": 0,
+      "regulatory_assertions": 328,
+      "regulatory_extension_new_nodes": 119,
+      "regulatory_shared_nodes_reused": 178,
+      "reactome_current_gene_pathway_edges": 48709,
+      "reactome_current_hierarchy_edges": 2905,
+      "primekg_association_edges": 978,
+      "external_mapping_rejects": 92
+    },
+    "test_only": false,
+    "analysis_run_manifest_sha256": "45fc426f5f79e5f368d85578d182b7edcbb345f82b5d111cef24fee749b9e74e"
+  },
+  "software_versions": {
+    "python": "3.12.11",
+    "duckdb": "1.5.6",
+    "polars": "2.1.0",
+    "pyarrow": "26.0.1",
+    "biocypher": "0.17.0"
+  },
+  "input_hashes": {
+    "kg/scripts/package_reactome_primekg_graph_bundle.py": "7aa34b2dd495ff30eca752520271796810b2c98250ae6fd297aad7fe5bc29d97",
+    "kg/config/biocypher_schema.yaml": "3f000fc3eca897b0403ca61ceff2ca47182c483b5f9a556c13176d6f916520a2",
+    "kg/scripts/import_phase_b_to_neo4j.py": "eb1c0a38d510087bdd52e0c09e76158ba428834d7a97f3a2e8029cbee2486e0c",
+    "data/kg_enrichment/normalized/reactome/2026-10/reactome_gene_pathways.csv": "4f8599498d4b0554310c956681e216a3efe120fd442cfadffcb48cf1053bd403",
+    "data/kg_enrichment/normalized/reactome/2026-10/reactome_pathway_hierarchy.csv": "8072c9bb21bde5c33a55faa20c0680e27448036278a037e4abddf90431b7aa4d",
+    "data/kg_enrichment/normalized/reactome/2026-10/reactome_pathway_nodes.csv": "21a1b8c6e696f86b52f807250c793bf9943934acf9277db4a395a6ae7bf4edb3",
+    "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_nodes.csv": "dd3bc29781b835e8e10f1f394d0bb26330e037e2747a7ce607bb240ba068082d",
+    "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_edges.csv": "e7489bca2aac49834086e402acb80b2316e0302e56bc44437df4c606abde7ae1",
+    "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_manifest.json": "376a10ec70c183a5170340385b44539a81e55bf2fcba905513e128e601b48b54"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "audit_utc": "2026-11-14T07:11:35.391268+00:00",
+  "existing_platform": {
+    "backend": true,
+    "frontend": true,
+    "kg": true,
+    "infrastructure": false
+  },
+  "s1": {
+    "file": "s1_初步_gse42568_limma/limma_all_genes.csv",
+    "rows": 21655,
+    "columns": [
+      "gene_symbol",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "gene_identifier_columns": [
+      "gene_symbol"
+    ],
+    "contrast_assessment": "Tumor - Normal",
+    "mutated": false
+  },
+  "s2": {
+    "formal_pipeline": true,
+    "formal_signature_scores": 4761,
+    "note": "historical stable-ID issue investigated in Exp009; stable sig_id + perturbagen ID joins are used in the audited quality pipeline; original formal outputs are kept immutable"
+  },
+  "experiments": {
+    "Exp006": {
+      "directory_present": true,
+      "manifest_present": false
+    },
+    "Exp007": {
+      "directory_present": true,
+      "manifest_present": true
+    },
+    "Exp008": {
+      "directory_present": true,
+      "manifest_present": true
+    },
+    "Exp009": {
+      "directory_present": true,
+      "manifest_present": true
+    },
+    "Exp010": {
+      "directory_present": true,
+      "manifest_present": true
+    },
+    "Exp011": {
+      "directory_present": true,
+      "manifest_present": true
+    }
+  },
+  "s1_pathway_enrichment": {
+    "available": true,
+    "report": "experiments/s1_pathway_enrichment/enrichment_report.md",
+    "input_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "matches_limma_sha256": true,
+    "mapped_entrez_universe": 17649,
+    "significant_counts": {
+      "GO_UP_sig": 206,
+      "GO_DOWN_sig": 343,
+      "Reactome_UP_sig": 135,
+      "Reactome_DOWN_sig": 26,
+      "Hallmark_sig": 29
+    }
+  },
+  "optimuskg": {
+    "full_release_downloaded": false,
+    "phase_a_download": "none",
+    "dataset_license": "CC BY-NC-SA 4.0 per Harvard Dataverse record"
+  },
+  "decision": "S1 pathway enrichment outputs are present and their input SHA-256 matches the current full limma table. Continue platform development with these outputs and the bounded, source-traceable OptimusKG subgraph; keep public KG paths distinct from enriched S1 pathways and efficacy evidence."
+}

@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:36.977650+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/P56524/pathways?species=Homo%20sapiens",
+    "response_sha256": "a32c491726762552bad42778af3a08dadd523ea9866abce5c51fe475d1bf1d84",
+    "response_bytes": 4526
+  },
+  "payload": [
+    {
+      "dbId": 2122947,
+      "displayName": "NOTCH1 Intracellular Domain Regulates Transcription",
+      "stId": "R-HSA-2122947",
+      "stIdVersion": "R-HSA-2122947.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH1 Intracellular Domain Regulates Transcription"
+      ],
+      "releaseDate": "2012-03-13",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2020-03-16",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2644606,
+      "displayName": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+      "stId": "R-HSA-2644606",
+      "stIdVersion": "R-HSA-2644606.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2894862,
+      "displayName": "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",
+      "stId": "R-HSA-2894862",
+      "stIdVersion": "R-HSA-2894862.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 350054,
+      "displayName": "Notch-HLH transcription pathway",
+      "stId": "R-HSA-350054",
+      "stIdVersion": "R-HSA-350054.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Notch-HLH transcription pathway"
+      ],
+      "releaseDate": "2008-06-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 4090294,
+      "displayName": "SUMOylation of intracellular receptors",
+      "stId": "R-HSA-4090294",
+      "stIdVersion": "R-HSA-4090294.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "SUMOylation of intracellular receptors"
+      ],
+      "releaseDate": "2018-06-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-4090294.2",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-04-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 4551638,
+      "displayName": "SUMOylation of chromatin organization proteins",
+      "stId": "R-HSA-4551638",
+      "stIdVersion": "R-HSA-4551638.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "SUMOylation of chromatin organization proteins"
+      ],
+      "releaseDate": "2015-12-15",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-4551638.4",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-04-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8941284,
+      "displayName": "RUNX2 regulates chondrocyte maturation",
+      "stId": "R-HSA-8941284",
+      "stIdVersion": "R-HSA-8941284.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX2 regulates chondrocyte maturation"
+      ],
+      "releaseDate": "2017-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8951936,
+      "displayName": "RUNX3 regulates p14-ARF",
+      "stId": "R-HSA-8951936",
+      "stIdVersion": "R-HSA-8951936.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX3 regulates p14-ARF"
+      ],
+      "releaseDate": "2017-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9917416,
+      "displayName": "Sprouting angiogenesis",
+      "stId": "R-HSA-9917416",
+      "stIdVersion": "R-HSA-9917416.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Sprouting angiogenesis"
+      ],
+      "releaseDate": "2026-09-16",
+      "releaseStatus": "NEW",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9917416.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9976102,
+      "displayName": "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)",
+      "stId": "R-HSA-9976102",
+      "stIdVersion": "R-HSA-9976102.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9976102.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9981845,
+      "displayName": "NOTCH signaling regulates gene expression in endothelial stalk cells",
+      "stId": "R-HSA-9981845",
+      "stIdVersion": "R-HSA-9981845.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH signaling regulates gene expression in endothelial stalk cells"
+      ],
+      "releaseDate": "2026-09-16",
+      "releaseStatus": "NEW",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

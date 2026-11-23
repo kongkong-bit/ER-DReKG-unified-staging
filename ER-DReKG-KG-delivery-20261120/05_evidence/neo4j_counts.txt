@@ -1,0 +1,41 @@
+# Neo4j read-only results transcribed from the audit
+# Source: read-only MATCH queries executed during the 2026-11-20 audit, before packaging.
+# No database connection was opened during packaging.
+# build_id: GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea
+
+node labels (global):
+  Gene             6518
+  S2Condition      3943
+  Candidate        1032
+  Pathway           709
+  Drug              666
+  GeneSet            29
+  DiseaseContext      1
+  Disease             1
+  TOTAL            12899
+
+relationships tagged with this GraphBuild:
+  48729
+
+sample relationship (formal build):
+  type            = HAS_S2_CONDITION
+  id              = CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-A00147595|HAS_S2_CONDITION|S2_CONDITION:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-A00147595:4e55518759765318|Project S2 LINCS results
+  build_key       = NULL
+  graph_build_ids = ["GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea"]
+
+relationship id length distribution (top 5, formal build):
+  74 chars   -> 24127
+  150 chars  -> 5697
+  257 chars  -> 3943
+  83 chars   -> 2393
+  81 chars   -> 1421
+
+interface-scope counts recorded in graph_builds.summary_json (2-hop from DiseaseContext):
+  node_count = 12171
+  edge_count = 44932
+  nodes_by_type = DiseaseContext 1, Pathway 709, Gene 5790, GeneSet 29, Drug 666, Candidate 1032, S2Condition 3943, Disease 1
+
+NOTE: 12,171 / 44,932 and 12,899 / 48,729 are different query scopes.
+  - 12,899 / 48,729 = full GraphBundle and full build-tagged Neo4j content.
+  - 12,171 / 44,932 = the API's live 2-hop-from-DiseaseContext count.
+  They must not be mixed in reporting.

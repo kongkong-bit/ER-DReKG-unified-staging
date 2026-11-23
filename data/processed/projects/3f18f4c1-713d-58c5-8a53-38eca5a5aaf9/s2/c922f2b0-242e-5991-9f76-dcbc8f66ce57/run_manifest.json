@@ -1,0 +1,133 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "status": "completed",
+  "test_only": false,
+  "provenance_kind": "historical_output_import",
+  "historical_import": true,
+  "s1_input_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "source_s1_input_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "parameters": {
+    "scheme": "B",
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "quality_filter": "distil_cc_q75 >= 0.2; -666 treated missing",
+    "s1_query": "BING-restricted Top 100 UP and DOWN, FDR<0.05, adj.P.Val ascending then |logFC| descending",
+    "graph_seed_rule": "Exp006 Top 50 perturbagens; retain all scheme-B dose strata",
+    "cross_dose_policy": "dose strata kept separate; no per-drug optimum or cross-dose rank",
+    "source_script_version": "not retained in the formal S2 source manifest; imported without recomputation"
+  },
+  "software_versions": {
+    "pipeline": "historical formal S2 output import; scoring not rerun"
+  },
+  "inputs": {
+    "s1_初步_gse42568_limma/limma_all_genes.csv": {
+      "sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+      "bytes": 2577692
+    },
+    "experiments/s1_pathway_enrichment/environment_manifest.json": {
+      "sha256": "d18598c47dbe86a3253ca9aaadefdca68b03fabef981e146dd8b73382037f0e1",
+      "bytes": 1703
+    },
+    "experiments/s1_pathway_enrichment/gene_mapping_audit.csv": {
+      "sha256": "1e1364350420c35b27916cafc90e6f31ecb76689d9b20b15d090d0dba85c22b4",
+      "bytes": 2978552
+    },
+    "experiments/s1_pathway_enrichment/pathway_gene_links.csv": {
+      "sha256": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+      "bytes": 2785611
+    },
+    "experiments/s1_pathway_enrichment/go_up.csv": {
+      "sha256": "5ff57459b7b9c77788c1928602c791300979276aa52e930691515c5482e6be00",
+      "bytes": 1473983
+    },
+    "experiments/s1_pathway_enrichment/go_down.csv": {
+      "sha256": "dc278f4fc43ca32a3712479b5dc85af15da6df5e86e76aeca92cd6d0d30f445b",
+      "bytes": 1585023
+    },
+    "experiments/s1_pathway_enrichment/reactome_up.csv": {
+      "sha256": "cc391aa8a1fef7da334f9afd892df4c6a7e2fb6ccb0278cf7523da1979d7483c",
+      "bytes": 364111
+    },
+    "experiments/s1_pathway_enrichment/reactome_down.csv": {
+      "sha256": "c989dff6d0a05677bed157d17f36238fe3ca22a99da4515a9590db6855d44271",
+      "bytes": 374608
+    },
+    "experiments/s1_pathway_enrichment/hallmark_gsea.csv": {
+      "sha256": "234c73603d8f6e0168230ea4944b2ff50d9e36acea989ef2584e0af529d02b22",
+      "bytes": 31582
+    },
+    "s2_lincs/results/formal_signature_scores.csv": {
+      "sha256": "1556f7cbd51a58e47007dfc3963e97424e5699889b6a920dc0ef600574d09327",
+      "bytes": 1756443
+    },
+    "s2_lincs/results/formal_drug_condition_ranking.csv": {
+      "sha256": "db389f1c3b30965c394d8d677cac79fe61755f52f08fabca1ddf93fc8a5984cc",
+      "bytes": 870465
+    },
+    "s2_lincs/results/gene_mapping_audit.csv": {
+      "sha256": "01bc040fd6031512536879c878c2f45f0ef127a08a63c7dcbddb487f21bbf7cf",
+      "bytes": 25484
+    },
+    "s2_lincs/results/formal_qc_summary.csv": {
+      "sha256": "e0a41af76af3c0d19cd2eb3b4fcebcf050b05730d73c7786bc0f0a29c2c7655d",
+      "bytes": 97
+    },
+    "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv": {
+      "sha256": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+      "bytes": 9333
+    }
+  },
+  "qc_summary": {
+    "source_formal_qc_summary": [
+      {
+        "stage": "MCF7_trt_cp_all",
+        "signatures": "12737",
+        "drugs": "1785"
+      },
+      {
+        "stage": "24h",
+        "signatures": "11850",
+        "drugs": "1750"
+      },
+      {
+        "stage": "24h_cc_q75_ge_0.2",
+        "signatures": "4761",
+        "drugs": "1191"
+      }
+    ],
+    "source_eligible_signatures": 4761,
+    "source_eligible_perturbagens": 1191,
+    "project_seed_perturbagens": 50,
+    "project_seed_signatures": 315,
+    "project_seed_condition_rows": 240,
+    "scheme": "B",
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "quality_threshold": "distil_cc_q75 >= 0.2",
+    "seed_rule": "Exp006 candidate_drugs_top50.csv: 50 unique perturbagens; retain all scheme-B dose-specific condition rows; no per-drug best-dose selection",
+    "historical_import": true
+  },
+  "outputs": {
+    "signature_scores.csv": {
+      "bytes": 59473,
+      "sha256": "04468745a044eec12e08a0c6a533a03cc7eff56db2fc210012f74bbf25aee86b"
+    },
+    "drug_condition_summary.csv": {
+      "bytes": 29980,
+      "sha256": "00d2bc3023aef293cfb2e2234308aa45e6ca87f9fc3f666090d2d50e84c60f49"
+    },
+    "s1_gene_mapping_audit.csv": {
+      "bytes": 25487,
+      "sha256": "4ad8d22961a5dc780f8f60b5d6ea31a093464d629b471f71d82c33c7567222e0"
+    },
+    "qc_summary.json": {
+      "bytes": 851,
+      "sha256": "162e97a06de624ddc3715ebf18dd9422f6d9bc3b0ac3c0e74fa1a5406e6c5b16"
+    }
+  },
+  "interpretation": "WTCS is an expression association score; it is not a treatment efficacy claim."
+}

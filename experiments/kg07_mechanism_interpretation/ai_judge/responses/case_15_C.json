@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "9f8be621895e9ee7d3181713d991e821dce30ddc73a26fe7a0ed16b4b1e24a6e",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "latency_seconds": 19.729985200000556,
+  "usage": {
+    "completion_tokens": 2557,
+    "completion_tokens_details": {
+      "reasoning_tokens": 416
+    },
+    "prompt_tokens": 40458,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 43015
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.37/1.11/10 µM 条件 WTCS_median 分别约 -0.365/-0.312/-0.438，均为负且最大约 -0.44，与表述一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.04 与 0.12 µM 条件 WTCS_median 均为 0.0，支持接近 0 的表述"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "引用的 0.04 µM 条件证据只显示 WTCS_median 0.0，不直接支持排名8或WTCS -0.438；该信息在包内s2_candidate中但未由所引证据支持"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径显示 TARGETS 关系且 reported_actions 为 INHIBITOR/TARGET，与表述一致"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径报告 ENZYME 动作，claim已按关联降级表述，与来源一致"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "三条 direct_target 路径均报告 TRANSPORTER，含 ENSG00000118777 等，与关联表述一致"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "公共通路路径确认 REACT:R-HSA-4615885 'SUMOylation of DNA replication proteins' 关联该靶点"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "s1_enrichment_overlap 路径确认 REACT:R-HSA-69278 Cell Cycle, Mitotic，adjusted_p≈4.5e-10"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两条 s1_enrichment_overlap 路径分别确认 GO:0000280 与 GO:0007059 的富集重叠"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "INHIBITOR 动作有来源支持，'可能影响'为恰当保留的假设表述，通路关联有路径支持"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "7c62b9d7a2e4bbd590d7401233f4ee29c383cf6d63f27b5a48d9ddfb64a7c425",
+        "supports_claim": true,
+        "reason": "0.37 µM WTCS_median -0.365 支持负值表述"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c6f53d07c855e78e44d9133603ad9f7328e94b0603deb4f7fe93fe2b2897ab86",
+        "supports_claim": true,
+        "reason": "1.11 µM WTCS_median -0.312 支持负值表述"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07",
+        "supports_claim": true,
+        "reason": "10 µM WTCS_median -0.438 支持最大约 -0.44"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68",
+        "supports_claim": true,
+        "reason": "0.04 µM WTCS_median 0.0"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "81ac147cd7b8c252c9fcb95e14986ce680934c1a5b8a430faa1e5693df2a68dd",
+        "supports_claim": true,
+        "reason": "0.12 µM WTCS_median 0.0"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68",
+        "supports_claim": false,
+        "reason": "该证据为0.04 µM条件记录，不含排名8或WTCS -0.438信息"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0",
+        "supports_claim": true,
+        "reason": "路径确认 ENSG00000131747 及 INHIBITOR/TARGET 动作"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15",
+        "supports_claim": true,
+        "reason": "路径确认 ENSG00000138061 ENZYME 关联"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769",
+        "supports_claim": true,
+        "reason": "确认 ENSG00000118777 TRANSPORTER"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482",
+        "supports_claim": true,
+        "reason": "确认 ENSG00000103222 TRANSPORTER"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1",
+        "supports_claim": true,
+        "reason": "确认 ENSG00000085563 TRANSPORTER"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42",
+        "supports_claim": true,
+        "reason": "公共通路路径确认 REACT:R-HSA-4615885 与该靶点"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "16b9299e2947bb7f4e3327e9f5974581f756a2929a3071138957dd8c79d3cd87",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap 路径确认该通路富集"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "051fd5b7999bd81a3e66a1a59e9b1934ecf8ce3f12ada4305d7ea378e49a6e9e",
+        "supports_claim": true,
+        "reason": "确认 GO:0000280 富集重叠"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "20061e1acee2ec22fa9fcb4c2a5acd7d124488e0d4d5060df5637a39a4e00a91",
+        "supports_claim": true,
+        "reason": "确认 GO:0007059 富集重叠"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0",
+        "supports_claim": true,
+        "reason": "支持抑制动作与靶点"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42",
+        "supports_claim": true,
+        "reason": "支持 DNA 复制相关通路关联"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "evidence",
+        "reference_id": "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07",
+        "supports_claim": true,
+        "reason": "该证据确为计算得到的S2条件分数，支持其为关联而非临床证据的表述"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 10,
+        "accurate": true,
+        "reason": "'可能影响'为恰当的假设性限定，与来源仅报告关联、未推断方向的性质一致"
+      },
+      {
+        "claim_index": 11,
+        "accurate": true,
+        "reason": "WTCS确为计算关联分数，包内无独立临床疗效验证，该限定准确"
+      }
+    ],
+    "limitations": [
+      "claim 3 的排名与分数信息存在于包内s2_candidate记录，但所引证据ID不支持，存在引用错位",
+      "部分上游断言缺少source URL（包内已声明）",
+      "S2证据仅来自MCF7单细胞系24h条件，外推性有限",
+      "机制假设（claim 10）基于关联与富集重叠，无直接因果实验证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:09:04.331324+00:00"
+}

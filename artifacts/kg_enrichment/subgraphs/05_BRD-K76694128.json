@@ -1,0 +1,885 @@
+{
+  "rank": 5,
+  "pert_id": "BRD-K76694128",
+  "drug": "rebastinib",
+  "status": "offline_bundle_subgraph",
+  "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+  "wtcs": -0.4578457223071144,
+  "signature": "LJP007_MCF7_24H:I19",
+  "nodes": [
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+      "type": "Candidate",
+      "label": "rebastinib",
+      "properties_json": "{\"analysis_run_id\":\"ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5\",\"condition_count\":6,\"condition_scores\":[{\"TAS_median\":\"0.168901\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"0.0\",\"WTCS_median\":\"0.0\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"0.04 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.31\",\"rank_within_condition\":\"360.5\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"},{\"TAS_median\":\"0.211045\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"0.0\",\"WTCS_median\":\"0.0\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"0.12 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.36\",\"rank_within_condition\":\"368.5\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"},{\"TAS_median\":\"0.449062\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"-0.38078610151208775\",\"WTCS_median\":\"-0.38078610151208775\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"0.37 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.57\",\"rank_within_condition\":\"38.0\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"},{\"TAS_median\":\"0.510273\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"-0.31113275618068337\",\"WTCS_median\":\"-0.31113275618068337\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"1.11 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.55\",\"rank_within_condition\":\"126.0\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"},{\"TAS_median\":\"0.73008\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"-0.4578457223071144\",\"WTCS_median\":\"-0.4578457223071144\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"10.0 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.77\",\"rank_within_condition\":\"5.0\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"},{\"TAS_median\":\"0.290177\",\"WTCS_mad\":\"0.0\",\"WTCS_mean\":\"0.0\",\"WTCS_median\":\"0.0\",\"WTCS_sd\":\"\",\"cell_id\":\"MCF7\",\"dose\":\"3.33 um\",\"n_signatures\":\"1\",\"pert_type\":\"trt_cp\",\"quality_cc_median\":\"0.45\",\"rank_within_condition\":\"459.0\",\"replicates_median\":\"3.0\",\"time\":\"24 h\"}],\"inchi_key\":\"WVXNSAVVKYZVOE-UHFFFAOYSA-N\",\"mapping_status\":\"matched_exact_inchikey\",\"pert_id\":\"BRD-K76694128\",\"project_id\":\"3f18f4c1-713d-58c5-8a53-38eca5a5aaf9\",\"project_slug\":\"erpos-gse42568-top10\",\"score_interpretation\":\"condition-specific WTCS association; no cross-dose efficacy ranking\",\"test_only\":false}"
+    },
+    {
+      "id": "CHEMBL1738757",
+      "type": "Drug",
+      "label": "REBASTINIB",
+      "properties_json": "{\"canonical_smiles\":\"CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3cc(C(C)(C)C)nn3-c3ccc4ncccc4c3)c(F)c2)ccn1\",\"inchi_key\":\"WVXNSAVVKYZVOE-UHFFFAOYSA-N\",\"name\":\"REBASTINIB\",\"source_ids\":[\"62166\",\"DB13005\"],\"sources\":{\"direct\":[\"DRUG_BANK\",\"OPEN_TARGETS\"],\"indirect\":[]},\"synonyms\":[\"DCC-2036\",\"DCC-2036 FREE BASE\",\"DP-1919\",\"Dcc-2036\",\"Rebastinib\"]}"
+    },
+    {
+      "id": "CHEMBL_TARGET:CHEMBL1862",
+      "type": "ChEMBLTarget",
+      "label": "Tyrosine-protein kinase ABL inhibitor",
+      "properties_json": "{\"chembl_target_id\": \"CHEMBL1862\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"action_type\": \"INHIBITOR\", \"direct_interaction\": true, \"source_database\": \"ChEMBL\", \"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"source_version\": \"existing project evidence snapshot\"}"
+    },
+    {
+      "id": "ENSG00000097007",
+      "type": "Gene",
+      "label": "ABL1",
+      "properties_json": "{\"biotype\":\"protein_coding\",\"name\":\"ABL proto-oncogene 1, non-receptor tyrosine kinase\",\"sources\":{\"direct\":[\"OPEN_TARGETS\",\"BGEE\"],\"indirect\":[]},\"symbol\":\"ABL1\",\"xrefs\":[{\"id\":\"76\",\"source\":\"HGNC\"},{\"id\":\"1AB2\",\"source\":\"PDB\"},{\"id\":\"1AWO\",\"source\":\"PDB\"},{\"id\":\"1BBZ\",\"source\":\"PDB\"},{\"id\":\"1JU5\",\"source\":\"PDB\"},{\"id\":\"1OPL\",\"source\":\"PDB\"},{\"id\":\"1ZZP\",\"source\":\"PDB\"},{\"id\":\"2ABL\",\"source\":\"PDB\"},{\"id\":\"2E2B\",\"source\":\"PDB\"},{\"id\":\"2F4J\",\"source\":\"PDB\"},{\"id\":\"2FO0\",\"source\":\"PDB\"},{\"id\":\"2G1T\",\"source\":\"PDB\"},{\"id\":\"2G2F\",\"source\":\"PDB\"},{\"id\":\"2G2H\",\"source\":\"PDB\"},{\"id\":\"2G2I\",\"source\":\"PDB\"},{\"id\":\"2GQG\",\"source\":\"PDB\"},{\"id\":\"2HIW\",\"source\":\"PDB\"},{\"id\":\"2HYY\",\"source\":\"PDB\"},{\"id\":\"2HZ0\",\"source\":\"PDB\"},{\"id\":\"2HZ4\",\"source\":\"PDB\"},{\"id\":\"2HZI\",\"source\":\"PDB\"},{\"id\":\"2O88\",\"source\":\"PDB\"},{\"id\":\"2V7A\",\"source\":\"PDB\"},{\"id\":\"3CS9\",\"source\":\"PDB\"},{\"id\":\"3EG0\",\"source\":\"PDB\"},{\"id\":\"3EG1\",\"source\":\"PDB\"},{\"id\":\"3EG2\",\"source\":\"PDB\"},{\"id\":\"3EG3\",\"source\":\"PDB\"},{\"id\":\"3EGU\",\"source\":\"PDB\"},{\"id\":\"3K2M\",\"source\":\"PDB\"},{\"id\":\"3PYY\",\"source\":\"PDB\"},{\"id\":\"3QRI\",\"source\":\"PDB\"},{\"id\":\"3QRJ\",\"source\":\"PDB\"},{\"id\":\"3QRK\",\"source\":\"PDB\"},{\"id\":\"3T04\",\"source\":\"PDB\"},{\"id\":\"3UE4\",\"source\":\"PDB\"},{\"id\":\"3UYO\",\"source\":\"PDB\"},{\"id\":\"4J9B\",\"source\":\"PDB\"},{\"id\":\"4J9C\",\"source\":\"PDB\"},{\"id\":\"4J9D\",\"source\":\"PDB\"},{\"id\":\"4J9E\",\"source\":\"PDB\"},{\"id\":\"4J9F\",\"source\":\"PDB\"},{\"id\":\"4J9G\",\"source\":\"PDB\"},{\"id\":\"4J9H\",\"source\":\"PDB\"},{\"id\":\"4J9I\",\"source\":\"PDB\"},{\"id\":\"4JJB\",\"source\":\"PDB\"},{\"id\":\"4JJC\",\"source\":\"PDB\"},{\"id\":\"4JJD\",\"source\":\"PDB\"},{\"id\":\"4TWP\",\"source\":\"PDB\"},{\"id\":\"4WA9\",\"source\":\"PDB\"},{\"id\":\"4XEY\",\"source\":\"PDB\"},{\"id\":\"4YC8\",\"source\":\"PDB\"},{\"id\":\"4ZOG\",\"source\":\"PDB\"},{\"id\":\"5DC0\",\"source\":\"PDB\"},{\"id\":\"5DC4\",\"source\":\"PDB\"},{\"id\":\"5DC9\",\"source\":\"PDB\"},{\"id\":\"5HU9\",\"source\":\"PDB\"},{\"id\":\"5MO4\",\"source\":\"PDB\"},{\"id\":\"5NP2\",\"source\":\"PDB\"},{\"id\":\"5OAZ\",\"source\":\"PDB\"},{\"id\":\"6AMV\",\"source\":\"PDB\"},{\"id\":\"6AMW\",\"source\":\"PDB\"},{\"id\":\"6BL8\",\"source\":\"PDB\"},{\"id\":\"6NPE\",\"source\":\"PDB\"},{\"id\":\"6NPU\",\"source\":\"PDB\"},{\"id\":\"6NPV\",\"source\":\"PDB\"},{\"id\":\"6XR6\",\"source\":\"PDB\"},{\"id\":\"6XR7\",\"source\":\"PDB\"},{\"id\":\"6XRG\",\"source\":\"PDB\"},{\"id\":\"7CC2\",\"source\":\"PDB\"},{\"id\":\"7DT2\",\"source\":\"PDB\"},{\"id\":\"7N9G\",\"source\":\"PDB\"},{\"id\":\"7PVQ\",\"source\":\"PDB\"},{\"id\":\"7PVR\",\"source\":\"PDB\"},{\"id\":\"7PVS\",\"source\":\"PDB\"},{\"id\":\"7PVV\",\"source\":\"PDB\"},{\"id\":\"7PW2\",\"source\":\"PDB\"},{\"id\":\"7W7X\",\"source\":\"PDB\"},{\"id\":\"7W7Y\",\"source\":\"PDB\"},{\"id\":\"8H7F\",\"source\":\"PDB\"},{\"id\":\"8H7H\",\"source\":\"PDB\"},{\"id\":\"8I7S\",\"source\":\"PDB\"},{\"id\":\"8I7T\",\"source\":\"PDB\"},{\"id\":\"8I7Z\",\"source\":\"PDB\"},{\"id\":\"8SSN\",\"source\":\"PDB\"},{\"id\":\"CHEMBL1862\",\"source\":\"ChEMBL\"},{\"id\":\"DB08043\",\"source\":\"DrugBank\"},{\"id\":\"DB08583\",\"source\":\"DrugBank\"},{\"id\":\"DB07831\",\"source\":\"DrugBank\"},{\"id\":\"DB08350\",\"source\":\"DrugBank\"},{\"id\":\"DB12597\",\"source\":\"DrugBank\"},{\"id\":\"DB00171\",\"source\":\"DrugBank\"},{\"id\":\"DB06616\",\"source\":\"DrugBank\"},{\"id\":\"DB12267\",\"source\":\"DrugBank\"},{\"id\":\"DB01254\",\"source\":\"DrugBank\"},{\"id\":\"DB12010\",\"source\":\"DrugBank\"},{\"id\":\"DB00619\",\"source\":\"DrugBank\"},{\"id\":\"DB13749\",\"source\":\"DrugBank\"},{\"id\":\"DB08231\",\"source\":\"DrugBank\"},{\"id\":\"DB03878\",\"source\":\"DrugBank\"},{\"id\":\"DB04868\",\"source\":\"DrugBank\"},{\"id\":\"DB08339\",\"source\":\"DrugBank\"},{\"id\":\"DB08901\",\"source\":\"DrugBank\"},{\"id\":\"DB12323\",\"source\":\"DrugBank\"},{\"id\":\"DB08896\",\"source\":\"DrugBank\"},{\"id\":\"DB14989\",\"source\":\"DrugBank\"},{\"id\":\"DB05184\",\"source\":\"DrugBank\"},{\"id\":\"R-HSA-2029482\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-428890\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-525793\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-5663213\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-5685938\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-5693565\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-69231\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-8939236\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-8940973\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-9664422\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-983231\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-9841922\",\"source\":\"Reactome\"},{\"id\":\"R-HSA-9860927\",\"source\":\"Reactome\"},{\"id\":\"IPR035837\",\"source\":\"InterPro\"},{\"id\":\"IPR015015\",\"source\":\"InterPro\"},{\"id\":\"IPR011009\",\"source\":\"InterPro\"},{\"id\":\"IPR050198\",\"source\":\"InterPro\"},{\"id\":\"IPR000719\",\"source\":\"InterPro\"},{\"id\":\"IPR017441\",\"source\":\"InterPro\"},{\"id\":\"IPR001245\",\"source\":\"InterPro\"},{\"id\":\"IPR000980\",\"source\":\"InterPro\"},{\"id\":\"IPR036860\",\"source\":\"InterPro\"},{\"id\":\"IPR036028\",\"source\":\"InterPro\"},{\"id\":\"IPR001452\",\"source\":\"InterPro\"},{\"id\":\"IPR008266\",\"source\":\"InterPro\"},{\"id\":\"IPR020635\",\"source\":\"InterPro\"}]}"
+    },
+    {
+      "id": "REACT:R-HSA-2029482",
+      "type": "Pathway",
+      "label": "Regulation of actin dynamics for phagocytic cup formation",
+      "properties_json": "{\"stable_id\": \"R-HSA-2029482\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-428890",
+      "type": "Pathway",
+      "label": "Role of ABL in ROBO-SLIT signaling",
+      "properties_json": "{\"stable_id\": \"R-HSA-428890\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-525793",
+      "type": "Pathway",
+      "label": "Myogenesis",
+      "properties_json": "{\"stable_id\": \"R-HSA-525793\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-5663213",
+      "type": "Pathway",
+      "label": "RHO GTPases Activate WASPs and WAVEs",
+      "properties_json": "{\"stable_id\": \"R-HSA-5663213\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-5685938",
+      "type": "Pathway",
+      "label": "HDR through Single Strand Annealing (SSA)",
+      "properties_json": "{\"name\":\"HDR through Single Strand Annealing (SSA)\",\"source_pathway_id\":\"R-HSA-5685938\",\"source_release\":\"OptimusKG 3.2\",\"sources\":{\"direct\":[\"REACTOME\",\"OPEN_TARGETS\"],\"indirect\":[]}}"
+    },
+    {
+      "id": "REACT:R-HSA-5693565",
+      "type": "Pathway",
+      "label": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+      "properties_json": "{\"stable_id\": \"R-HSA-5693565\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-69231",
+      "type": "Pathway",
+      "label": "Cyclin D associated events in G1",
+      "properties_json": "{\"stable_id\": \"R-HSA-69231\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-8939236",
+      "type": "Pathway",
+      "label": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+      "properties_json": "{\"stable_id\": \"R-HSA-8939236\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-8940973",
+      "type": "Pathway",
+      "label": "RUNX2 regulates osteoblast differentiation",
+      "properties_json": "{\"stable_id\": \"R-HSA-8940973\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-9664422",
+      "type": "Pathway",
+      "label": "FCGR3A-mediated phagocytosis",
+      "properties_json": "{\"stable_id\": \"R-HSA-9664422\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-983231",
+      "type": "Pathway",
+      "label": "Factors involved in megakaryocyte development and platelet production",
+      "properties_json": "{\"name\":\"Factors involved in megakaryocyte development and platelet production\",\"source_pathway_id\":\"R-HSA-983231\",\"source_release\":\"OptimusKG 3.2\",\"sources\":{\"direct\":[\"REACTOME\",\"OPEN_TARGETS\"],\"indirect\":[]}}"
+    },
+    {
+      "id": "REACT:R-HSA-9841922",
+      "type": "Pathway",
+      "label": "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis",
+      "properties_json": "{\"stable_id\": \"R-HSA-9841922\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "REACT:R-HSA-9860927",
+      "type": "Pathway",
+      "label": "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells",
+      "properties_json": "{\"stable_id\": \"R-HSA-9860927\", \"species\": \"Homo sapiens\", \"source_database\": \"Reactome\", \"source_release\": \"current-2026-10\", \"license\": \"CC0 1.0 Universal\", \"source_file_sha256\": \"b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f\"}"
+    },
+    {
+      "id": "UNIPROT:P00519",
+      "type": "Protein",
+      "label": "P00519",
+      "properties_json": "{\"uniprot_accession\": \"P00519\", \"source_database\": \"OptimusKG\", \"source_release\": \"OptimusKG 3.2\", \"source_file_sha256\": \"d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a\", \"associated_gene_ids\": [\"ENSG00000097007\"]}"
+    }
+  ],
+  "edges": [
+    {
+      "from": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+      "label": "PROJECT-REFERENCES_DRUG",
+      "to": "CHEMBL1738757",
+      "relation": "REFERENCES_DRUG",
+      "undirected": "false",
+      "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+      "properties_json": "{\"analysis_run_id\":\"ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5\",\"inchi_key\":\"WVXNSAVVKYZVOE-UHFFFAOYSA-N\",\"mapping_method\":\"exact InChIKey\",\"pert_id\":\"BRD-K76694128\",\"source_record_id\":\"LINCS pert_info:BRD-K76694128\"}"
+    },
+    {
+      "from": "CHEMBL1738757",
+      "label": "DRG-GEN",
+      "to": "ENSG00000097007",
+      "relation": "INHIBITOR",
+      "undirected": "false",
+      "source_release": "OptimusKG 3.2",
+      "properties_json": "{\"mechanisms_of_action\":[\"Tyrosine-protein kinase ABL inhibitor\"],\"relation_assertions\":[{\"relation\":\"INHIBITOR\",\"source\":\"OPEN_TARGETS\"}],\"relation_conflict\":false,\"source_ids\":[\"21481795\"],\"source_record_id\":\"OptimusKG 3.2:drug_gene:CHEMBL1738757:ENSG00000097007\",\"source_urls\":[\"http://europepmc.org/abstract/MED/21481795\"],\"sources\":{\"direct\":[\"OPEN_TARGETS\"],\"indirect\":[\"PUBMED\"]}}"
+    },
+    {
+      "id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+      "from": "CHEMBL1738757",
+      "to": "CHEMBL_TARGET:CHEMBL1862",
+      "label": "DRG-TARGET",
+      "relation": "HAS_DIRECT_TARGET",
+      "undirected": "false",
+      "source_release": "ChEMBL existing project snapshot",
+      "properties_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+    },
+    {
+      "id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+      "from": "CHEMBL_TARGET:CHEMBL1862",
+      "to": "UNIPROT:P00519",
+      "label": "TARGET-COMPONENT",
+      "relation": "HAS_COMPONENT",
+      "undirected": "false",
+      "source_release": "ChEMBL existing project snapshot",
+      "properties_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+    },
+    {
+      "id": "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-2029482",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-2029482:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-2029482\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-428890",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-428890:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-428890\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-525793",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-525793:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-525793\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-5663213",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-5663213:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5663213\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-5685938",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-5685938:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5685938\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-5693565",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-5693565:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5693565\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-69231",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-69231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-69231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-8939236",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-8939236:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8939236\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-8940973",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-8940973:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8940973\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-9664422",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-9664422:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9664422\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-983231",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-983231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-983231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-9841922",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-9841922:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9841922\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "id": "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7",
+      "from": "UNIPROT:P00519",
+      "to": "REACT:R-HSA-9860927",
+      "label": "PROTEIN-PATHWAY",
+      "relation": "PARTICIPATES_IN",
+      "undirected": "false",
+      "source_release": "Reactome 98",
+      "properties_json": "{\"source_record_id\": \"R-HSA-9860927:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9860927\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    }
+  ],
+  "evidence_ids": [
+    "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584",
+    "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+    "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42",
+    "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+    "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1",
+    "6b82376286f46dca86678d0c84c168eda641288028acd3b50c64cd2ba6b5b7dc",
+    "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c",
+    "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba",
+    "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b",
+    "aeb6a673dcdf95f1e7925487f9faded53cca246ac34bf56acaa28797c7bb31b0",
+    "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7",
+    "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04",
+    "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c",
+    "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a",
+    "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73",
+    "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2",
+    "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e"
+  ],
+  "source_evidence": [
+    {
+      "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+      "source_release": "ChEMBL existing project snapshot",
+      "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+      "subject_id": "CHEMBL1738757",
+      "predicate": "HAS_DIRECT_TARGET",
+      "object_id": "CHEMBL_TARGET:CHEMBL1862",
+      "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+    },
+    {
+      "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+      "source_release": "ChEMBL existing project snapshot",
+      "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+      "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+      "predicate": "HAS_COMPONENT",
+      "object_id": "UNIPROT:P00519",
+      "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+    },
+    {
+      "evidence_id": "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-2029482:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-2029482",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-2029482:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-2029482\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-428890:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-428890",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-428890:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-428890\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-525793:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-525793",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-525793:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-525793\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-5663213:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-5663213",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-5663213:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5663213\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-5685938:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-5685938",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-5685938:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5685938\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-5693565:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-5693565",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-5693565:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5693565\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-69231:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-69231",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-69231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-69231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-8939236:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-8939236",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-8939236:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8939236\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-8940973:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-8940973",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-8940973:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8940973\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-9664422:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-9664422",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-9664422:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9664422\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-983231:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-983231",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-983231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-983231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-9841922:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-9841922",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-9841922:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9841922\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7",
+      "source_release": "Reactome 98",
+      "source_record_id": "R-HSA-9860927:P00519",
+      "subject_id": "UNIPROT:P00519",
+      "predicate": "PARTICIPATES_IN",
+      "object_id": "REACT:R-HSA-9860927",
+      "source_assertion_json": "{\"source_record_id\": \"R-HSA-9860927:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9860927\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+    },
+    {
+      "evidence_id": "6b82376286f46dca86678d0c84c168eda641288028acd3b50c64cd2ba6b5b7dc",
+      "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+      "source_record_id": "LINCS pert_info:BRD-K76694128",
+      "subject_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+      "predicate": "REFERENCES_DRUG",
+      "object_id": "CHEMBL1738757",
+      "source_assertion_json": "{\"analysis_run_id\":\"ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5\",\"inchi_key\":\"WVXNSAVVKYZVOE-UHFFFAOYSA-N\",\"mapping_method\":\"exact InChIKey\",\"pert_id\":\"BRD-K76694128\",\"source_record_id\":\"LINCS pert_info:BRD-K76694128\"}"
+    },
+    {
+      "evidence_id": "aeb6a673dcdf95f1e7925487f9faded53cca246ac34bf56acaa28797c7bb31b0",
+      "source_release": "OptimusKG 3.2",
+      "source_record_id": "OptimusKG 3.2:drug_gene:CHEMBL1738757:ENSG00000097007",
+      "subject_id": "CHEMBL1738757",
+      "predicate": "INHIBITOR",
+      "object_id": "ENSG00000097007",
+      "source_assertion_json": "{\"mechanisms_of_action\":[\"Tyrosine-protein kinase ABL inhibitor\"],\"relation_assertions\":[{\"relation\":\"INHIBITOR\",\"source\":\"OPEN_TARGETS\"}],\"relation_conflict\":false,\"source_ids\":[\"21481795\"],\"source_record_id\":\"OptimusKG 3.2:drug_gene:CHEMBL1738757:ENSG00000097007\",\"source_urls\":[\"http://europepmc.org/abstract/MED/21481795\"],\"sources\":{\"direct\":[\"OPEN_TARGETS\"],\"indirect\":[\"PUBMED\"]}}"
+    }
+  ],
+  "regulatory_edges": [],
+  "candidate_mechanism_paths": [],
+  "candidate_context_paths": [
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-2029482"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-428890"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-525793"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5663213"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5685938"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5693565"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-69231"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-8939236"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-8940973"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9664422"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-983231"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9841922"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b"
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9860927"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7"
+      ]
+    }
+  ],
+  "regulatory_conflicts": [],
+  "regulatory_mapping_reject_stats": {
+    "source_hub_outdegree_over_100": 1032,
+    "unmapped_or_ambiguous_endpoint": 84895
+  },
+  "regulatory_mapping_reject_sample": [
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P0DP24",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P0DP25",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P14416",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q99750",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q14571",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P29966",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q13255",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q13586",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q13507",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q13507",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q9UBN4",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q9UBN4",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q9UL62",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q9UL62",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q9Y210",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q9NZU7",
+      "target": "Q9UL62",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q9HBA0",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "Q9HBA0",
+      "target": "P48995",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P48995",
+      "target": "Q9H1D0",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    },
+    {
+      "file": "data\\kg_enrichment\\normalized\\omnipath\\2026-11-22\\omnipath_human_core_signed.csv",
+      "source": "P0DP24",
+      "target": "Q13507",
+      "reason": "unmapped_or_ambiguous_endpoint"
+    }
+  ],
+  "evidence_gaps": [
+    "no_directional_regulatory_path_to_S1_disease_gene",
+    "directional_mechanisms_require_context_compatibility_review",
+    "path_search_is_offline_bundle_derived"
+  ]
+}

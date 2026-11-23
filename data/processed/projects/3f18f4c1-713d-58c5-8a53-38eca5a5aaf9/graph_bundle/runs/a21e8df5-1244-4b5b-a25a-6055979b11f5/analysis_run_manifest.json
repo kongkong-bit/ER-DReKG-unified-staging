@@ -1,0 +1,68 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:a21e8df5-1244-4b5b-a25a-6055979b11f5",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "run_type": "kg_graph_bundle",
+  "status": "completed",
+  "parameters": {
+    "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+    "enrichment_analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:ec9cf17d-b006-5dc1-af32-b5b97ad3523e",
+    "test_only": false,
+    "bundle_dir": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/a21e8df5-1244-4b5b-a25a-6055979b11f5",
+    "manifest_sha256": "92a689f239d1396c3b0b4d82c5e0b73f3b1c247b7aa8539e6b821bb19bf81610",
+    "output_hashes": {
+      "subgraph_nodes.csv": "1e7fd3c67e88155288070ccb7e0a0079e9b1794a87e7399d36c2b20a3d44b49d",
+      "subgraph_edges.csv": "d95f3bdfc14561bb67caa4e4a76d9f357c9ada89b7d538a0193180e6a0758e4d",
+      "candidate_mapping_audit.csv": "3b30f7cf6b7082f381dffc03dc1ae40aa235bb1df5034b7999e9dbf75a3eda89",
+      "s1_gene_mapping_audit.csv": "a311638488953f629f59f8dcb98f2faea6c0b71baa312fdee32bcbae4c823fca",
+      "pathway_gene_mapping_audit.csv": "e60286a098de3c59af7b145bc1e258b89e592e0c438ceb608c82d518059b6013",
+      "unmatched_entities.csv": "40248ca1b5ad18a5cc5b56eb45bc2c043030ff920b3f7fa54133fe9fe60f3b77",
+      "relation_conflicts.csv": "2378daad2198408411034354fce5854ce0727fdd7a2198f4c1ce765ba13c8108",
+      "evidence_records.csv": "8839b2c62b558931a2983173c927c5373db916eda17705ac8d2db1370014c12f",
+      "candidate_target_pathway_routes.csv": "cfc640eb3dd6e9f7ba10242b79774f24bdf07383271032891fb8aed112962474"
+    },
+    "counts": {
+      "nodes": 7438,
+      "edges": 7680,
+      "s1_significant_genes": 7066,
+      "s1_unique_ensembl_mapped": 6192,
+      "s1_ambiguous_or_unmatched": 874,
+      "pathway_gene_links": 31991,
+      "pathway_gene_unique_mapped": 0,
+      "candidate_perturbagens": 50,
+      "exact_inchikey_mapped_drugs": 30,
+      "s2_condition_rows": 240,
+      "candidate_target_pathway_routes": 0,
+      "relation_conflicts": 0,
+      "unmatched_entities": 32885
+    },
+    "mapping_policy": "exact InChIKey for compounds; unique Ensembl gene mapping; unresolved or ambiguous entities are retained in audit only",
+    "cross_dose_policy": "retain every exact dose/time condition as its own S2Condition node; no per-drug best score or cross-condition rank"
+  },
+  "software_versions": {
+    "pipeline": "project graph bundle 1.0",
+    "python": "Python 3.12.11",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "input_hashes": {
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1/9ebd6c43-9342-487e-a052-ae901461b58c/limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/gene_mapping_audit.csv": "1e1364350420c35b27916cafc90e6f31ecb76689d9b20b15d090d0dba85c22b4",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/c922f2b0-242e-5991-9f76-dcbc8f66ce57/drug_condition_summary.csv": "00d2bc3023aef293cfb2e2234308aa45e6ca87f9fc3f666090d2d50e84c60f49",
+    "s2_lincs/data/GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz": "000171e8ce17cb00a3e80a907d97f0bc4218077eb4cb2ac03f4e0f9f4f2e5493",
+    "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71",
+    "data/optimuskg/3.2/nodes/drug.parquet": "2b0d221757f1de436dc74b21beb452082e43f3c7ec7e6630d2b0d20a25769c2b",
+    "data/optimuskg/3.2/nodes/gene.parquet": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a",
+    "data/optimuskg/3.2/nodes/pathway.parquet": "c27f5947c74965d0406bf818554d9d51ec859615594365f30e253e297f771682",
+    "data/optimuskg/3.2/edges/drug_gene.parquet": "5ccaeff1260081f55b9acf40f2a969cc38b76661b4ee66363e26f7ef79dc76bd",
+    "data/optimuskg/3.2/edges/pathway_gene.parquet": "80e8d10cd87fb10be6fc392221c4910e4b116a70a14f410dd75a4524da298493",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/pathway_gene_links.csv": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/go_up.csv": "5ff57459b7b9c77788c1928602c791300979276aa52e930691515c5482e6be00",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/go_down.csv": "dc278f4fc43ca32a3712479b5dc85af15da6df5e86e76aeca92cd6d0d30f445b",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/reactome_up.csv": "cc391aa8a1fef7da334f9afd892df4c6a7e2fb6ccb0278cf7523da1979d7483c",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/reactome_down.csv": "c989dff6d0a05677bed157d17f36238fe3ca22a99da4515a9590db6855d44271",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/ec9cf17d-b006-5dc1-af32-b5b97ad3523e/hallmark_gsea.csv": "234c73603d8f6e0168230ea4944b2ff50d9e36acea989ef2584e0af529d02b22",
+    "kg/scripts/build_project_graph_bundle.py": "99bc2b43941cdfc88af191a1ef4adde3565192413bdb7a8fc83befb3ead08ffd",
+    "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/a21e8df5-1244-4b5b-a25a-6055979b11f5/build_config.json": "54a4a147690ba726896ef6e0b16da73cd14a6f0de7d4be9b5a9aa7d02d971229",
+    "builder_script_sha256": "99bc2b43941cdfc88af191a1ef4adde3565192413bdb7a8fc83befb3ead08ffd"
+  }
+}

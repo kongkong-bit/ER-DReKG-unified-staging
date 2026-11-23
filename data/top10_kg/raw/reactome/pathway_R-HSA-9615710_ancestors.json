@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:04.869263+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9615710/ancestors",
+    "response_sha256": "da8e992b215f956b648e7b83da30a82661c17980a8c9598d8c5309100d6c751e",
+    "response_bytes": 697
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9615710,
+        "displayName": "Late endosomal microautophagy",
+        "stId": "R-HSA-9615710",
+        "name": [
+          "Late endosomal microautophagy"
+        ],
+        "stIdVersion": "R-HSA-9615710.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9615710.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2019-06-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1630,
+        "diagramHeight": 919,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9612973,
+        "displayName": "Autophagy",
+        "stId": "R-HSA-9612973",
+        "name": [
+          "Autophagy"
+        ],
+        "stIdVersion": "R-HSA-9612973.5",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2019-06-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 626,
+        "diagramHeight": 338,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:49.346634+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2151201/ancestors",
+    "response_sha256": "ae4e8d76d267dc9345051903a009e12bc9a2f46867b9cbb38103345563f69f79",
+    "response_bytes": 1210
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2151201,
+        "displayName": "Transcriptional activation of mitochondrial biogenesis",
+        "stId": "R-HSA-2151201",
+        "name": [
+          "Transcriptional activation of mitochondrial biogenesis"
+        ],
+        "stIdVersion": "R-HSA-2151201.4",
+        "oldStId": "REACT_264212",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1592230,
+        "displayName": "Mitochondrial biogenesis",
+        "stId": "R-HSA-1592230",
+        "name": [
+          "Mitochondrial biogenesis"
+        ],
+        "stIdVersion": "R-HSA-1592230.4",
+        "oldStId": "REACT_264351",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_200788.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2268,
+        "diagramHeight": 1564,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1852241,
+        "displayName": "Organelle biogenesis and maintenance",
+        "stId": "R-HSA-1852241",
+        "name": [
+          "Organelle biogenesis and maintenance"
+        ],
+        "stIdVersion": "R-HSA-1852241.7",
+        "oldStId": "REACT_264135",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 264,
+        "diagramHeight": 253,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "0b0d5f16109ecb614ea0db70c7043e548f819982dc64647b04979c40dca3e5ed",
+  "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc",
+  "latency_seconds": 11.26770580000084,
+  "usage": {
+    "completion_tokens": 765,
+    "completion_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "prompt_tokens": 6779,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 7544
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照MCF7|trt_cp|10.0 um|24 h显示WTCS_median=-0.3873704，exp006 rank=48，与声明一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径b0d2…显示CHEMBL2105689与ENSG00000165841有TARGETS关系，reported_actions为ENZYME；声明已自我降级为关联表述，方向一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径be6f…显示CHEMBL2105689与ENSG00000160868有TARGETS关系，reported_actions为ENZYME；声明为关联表述，来源支持"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "e68ed31e73db3bac11a2bc4574e1e2a7d770f496bc03a279ac179c15b3d9413f",
+        "supports_claim": true,
+        "reason": "对应S2 condition MCF7 10μM 24h，WTCS=-0.387，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "b0d2f079d810557236cb17305ea6691fd6eee26e40167010924582568d0377fe",
+        "supports_claim": true,
+        "reason": "direct_target路径终止于ENSG00000165841，OptimusKG/DRUG_BANK报ENZYME关系"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "be6f2cd6488788161e39721a0ae4a0ac31237a3c78362fbc77b5b0bd064ee8b4",
+        "supports_claim": true,
+        "reason": "direct_target路径终止于ENSG00000160868，OptimusKG/DRUG_BANK报ENZYME关系"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 4,
+        "accurate": true,
+        "reason": "coverage中public_pathway_path_count=0且evidence_gaps列明此缺失"
+      },
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "s1_enrichment_overlap_path_count=0且evidence_gaps列明"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "s1_deg_overlap_path_count=0且evidence_gaps列明"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "部分source记录source_urls为null但保留source_record_id与source_release，与声明一致"
+      }
+    ],
+    "limitations": [
+      "n_signatures=1，单一签名支持度有限",
+      "stability_grade=low，剂量稳定性弱（negative_dose_fraction仅2/3，qc敏感）",
+      "高剂量10μM下quality_cc_median仅0.23，签名质量偏低",
+      "无通路/DEG重叠证据，机制解释仅基于直接靶点与筛选信号",
+      "部分上游assertion缺source URL，可追溯性部分受限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:49:30.357382+00:00"
+}

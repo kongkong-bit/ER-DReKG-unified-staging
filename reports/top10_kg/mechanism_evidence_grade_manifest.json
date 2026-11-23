@@ -1,0 +1,51 @@
+{
+  "manifest_version": 1,
+  "status": "human_curated_focused_review",
+  "assessment_date": "2026-11-21",
+  "assessment_type": "human_curated_focused_review_v1",
+  "grade_definitions": {
+    "A": "较强机制证据：可信药理机制或直接实验支持，且存在相关疾病背景研究；仍须限定模型、条件和研究设计。",
+    "B": "部分机制证据：有来源支持的药物靶点/药理证据，但疾病或通路连接不完整。",
+    "C": "间接/争议机制线索：主要依据关联、亚型外推、计算或存在重要机制争议，缺少适用于本疾病背景的直接验证。",
+    "U": "暂无足够证据建立可信机制解释。"
+  },
+  "grading_policy": "Manual synthesis of source-supported drug pharmacology/target and disease-context evidence. Relation counts are not used. A grade is not efficacy probability. Focused search is not a systematic review.",
+  "source_file": "reports/top10_kg/mechanism_evidence_grade.csv",
+  "source_sha256": "d933fcc358a05cb0fd0efdcdb62b73c6e9a3ae0e86f160e3eb0fcdb15172c70e",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "record_count": 10,
+  "grade_counts": {
+    "A": 3,
+    "B": 6,
+    "C": 1,
+    "U": 0
+  },
+  "input_sha256": {
+    "02_top10_frozen_manifest.json": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+    "formal_top10_source": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+    "external_disease_evidence_manifest.json": "0db355ee67221b67254dfe18acd1ee8b99d06b089a3d881d60f4a65ea50ab8c7",
+    "external_disease_evidence.csv": "e75b206905f0ecceab333fcdcbba7cab15165ede5dbb9980e690d97d651f710c",
+    "top10_source_evidence_manifest.json": "fffe1d47db6ba7612fc2e5d1a2b1e04c6e9fe3c2c2e8d31f4e057add4f650ad1",
+    "chembl_mechanisms.csv": "6a01d18ef53f8627040a0ed0a6f6152530b33442f7edfe2fda0a614860a90a50",
+    "03_drug_target_report.md": "a71c09fa6a5172f1180528a53ac7e4803dc60e4d516c0f3cfd0898325bad8bb6",
+    "parent_external_bundle_manifest.json": "30ae77db16435419ea5aa9c4d4e4c9bb224e79d4cd9c15927668b6b183cb1821",
+    "external_identity_and_mechanism_evidence.csv": "bb486b2fee038afbe946f468379600385c3b5dc3ad2f7cb1916b9a36a3d2d5b0",
+    "drug_dossiers_sha256": {
+      "01_ponatinib.md": "a139b2e0a8aff041eb6f9b2815511598f6ef2b8e6cf50f78f2a9828dd4e1e887",
+      "02_mocetinostat.md": "a6a8f76e8ff252cf4380ca83e0f81cabacc984fadbb060a0c4b36c7ea59b4029",
+      "03_MK-2461.md": "27cc90abd8663a8f4b092065ce02233c22a78f5bda99a5a4e472fd2f6d7c8fe2",
+      "04_doxorubicin.md": "f3d8a4161888e6af8cec281cf7e14b36495248c995fe9d271ec6f12de07832ba",
+      "05_rebastinib.md": "ab9df9cd911186a7f903a4149939921858b2c32bf5ca4579dcaeb72e9f7e0df5",
+      "06_PHA-767491.md": "61fd425ff85b3ec5d5981232017e6677367a02ce9d21dc589d22fafc2e265b3e",
+      "07_iniparib.md": "b2e43677c6ca3b4acc9eccb0f3cb4fd4144575629d423f620e108f8b6ba6e25f",
+      "08_balaglitazone.md": "1bae4759d3105128a509b180006bb7d29a0d220b702ed4fd2b7db9692f918d14",
+      "09_PFI-1.md": "634d36b031c7611d828ce1cbbfaf595911d5378ae5d16243ea7c1adc16fc23a6",
+      "10_JNJ-26481585.md": "cffa2614b396136c429cdfcb4c411582ebc4d82273fb1580c28a96668a4cbc86"
+    }
+  },
+  "limitations": [
+    "Provisional focused evidence assessment; systematic review not performed.",
+    "Do not interpret as treatment efficacy or probability.",
+    "Disease evidence scope and contradictory context remain visible per candidate."
+  ]
+}

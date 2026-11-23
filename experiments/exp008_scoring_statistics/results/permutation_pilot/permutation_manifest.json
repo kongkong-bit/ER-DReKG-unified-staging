@@ -1,0 +1,21 @@
+{
+  "seed": 8008,
+  "permutation_count": 50,
+  "signature_count": 40,
+  "status": "PILOT_ONLY",
+  "gene_background": "all BING GCTX rows in historical Exp007 scoring background",
+  "query_counts": {
+    "A_original": {
+      "up_symbols": 70,
+      "down_symbols": 55
+    },
+    "B200": {
+      "up_symbols": 100,
+      "down_symbols": 100
+    }
+  },
+  "disjoint_within_query": true,
+  "random_query_shared_across_signatures": true,
+  "statistic": "median WTCS within perturbagen \u00d7 dose \u00d7 time; one-sided lower tail",
+  "runtime_seconds": 1.28
+}

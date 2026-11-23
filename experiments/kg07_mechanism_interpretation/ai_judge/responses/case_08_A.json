@@ -1,0 +1,561 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "ba3fd15617ccf7f3f030edf2da8036714c8c1176302f289d75070ea31ba587bd",
+  "evidence_input_sha256": "3e5186b8b778a0f35223b17871b55ae23ee95b5037a4012e7f60cdb148e5e641",
+  "latency_seconds": 56.39823679999972,
+  "usage": {
+    "completion_tokens": 4497,
+    "completion_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "prompt_tokens": 141513,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 146010
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "4条S2分条件观测均存在于包内（MCF7各剂量，WTCS为中位分数）；claim仅作关联表述，未推断疗效"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "direct_target路径存在CHEMBL1170047→ENSG00000143799的TARGETS关系（DRUG_BANK来源），claim明确仅作association"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径连接GO:0006260 DNA replication，包内快照一致，association表述准确"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0000723 telomere maintenance路径存在，证据完整"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006282 regulation of DNA repair路径存在，关联表述准确"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:2000781 positive regulation of double-strand break repair路径存在"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0000724 homologous recombination修复路径存在"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-2990846 SUMOylation路径存在"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0051054 positive regulation of DNA metabolic process路径存在"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006284 base-excision repair路径存在"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0045739 positive regulation of DNA repair路径存在"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0034243 regulation of transcription elongation by RNA pol II路径存在"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0045911 positive regulation of DNA recombination路径存在"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-110373 Resolution of AP sites路径存在"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-73933 Resolution of Abasic Sites路径在快照中found_in_package=true且证据完整"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0034502 protein localization to chromosome路径存在"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-5693538 Homology Directed Repair路径存在"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0032200 telomere organization路径存在"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006310 DNA recombination路径存在"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006302 double-strand break repair路径存在"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0032784 regulation of DNA-templated transcription elongation路径存在"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:1905168 positive regulation of DSB repair via HR路径存在"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0033044 regulation of chromosome organization路径存在"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0045005 replication fidelity maintenance路径存在"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006368 transcription elongation by RNA pol II路径存在"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-3108232 SUMO E3 ligases路径存在"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-5693532 DNA Double-Strand Break Repair路径存在"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:2000779 regulation of double-strand break repair路径存在"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0034244 negative regulation of transcription elongation by RNA pol II路径存在"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0010569 regulation of DSB repair via HR路径存在"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0051052 regulation of DNA metabolic process路径存在"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0034644 cellular response to UV路径存在"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "REACT:R-HSA-73884 Base Excision Repair路径存在"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0032785 negative regulation of DNA-templated transcription elongation路径存在"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0006354 DNA-templated transcription elongation路径存在"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "GO:0031297 replication fork processing路径存在"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "2233972d24750218f90645b48e31ca51fb0b4f11fc19021ff2908c089bb0de8d",
+        "supports_claim": true,
+        "reason": "MCF7 0.12um条件WTCS记录，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "5ee16d32ef9dc59fc1162814cdfce4aeadd94453eff7ba41bdcc4ae52dea8e5a",
+        "supports_claim": true,
+        "reason": "MCF7 0.37um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8ea81161d046d8ac21a1ec78b5106fbf48e2b66a426181ae90cbda12dba301a5",
+        "supports_claim": true,
+        "reason": "MCF7 10.0um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "bd6f862c55ce0638a5f34bf33ed240691a6967d1380096a8ee6684121950a5a3",
+        "supports_claim": true,
+        "reason": "MCF7 3.33um条件记录"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS边至ENSG00000143799，方向仅source_reported"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006260 DNA replication"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "0ab27cbfa4c188e8cbb4aab0172a99cd6a146b288f988d468cbcda78bca1fcdf",
+        "supports_claim": true,
+        "reason": "路径终点GO:0000723 telomere maintenance"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "0fb7d7118b2d6b0912e8f4f25b84d9e615c785cc2896defbc04545eb34d2b1a6",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006282"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "12148ec21ca5f6484f6004f735fd47200aeb049518799174008b9ea56f1cfdd9",
+        "supports_claim": true,
+        "reason": "路径终点GO:2000781"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "18e29b3026da53fc56f5721adcea5796da79bcfc68e5245e780eaec3c54408eb",
+        "supports_claim": true,
+        "reason": "路径终点GO:0000724"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "28044ed078b812d13045c65d7ffdd572a101fd77798e4bb4b24b043f9d85fff7",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-2990846 SUMOylation"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "2b409d82850f321f13f731b3b86840b23c3a702e0f7e38e793ad272bb4a5be54",
+        "supports_claim": true,
+        "reason": "路径终点GO:0051054"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006284"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "3725dab33f0a14c0081010713a76c2ea09bb6c1af7efabbee5e751536ab23a15",
+        "supports_claim": true,
+        "reason": "路径终点GO:0045739"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "3b72077eeb6fa322b5e485824c5dbdb8aab95a97bbf5b549129b24b84811ee84",
+        "supports_claim": true,
+        "reason": "路径终点GO:0034243"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "4d37b9dc3ade63cd6e6ba45c122b1d629eec41eb178d448092277c6cb3c9ecb8",
+        "supports_claim": true,
+        "reason": "路径终点GO:0045911"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "4f36cda88e332c50ff433d897ad000e90c034baa2eda26ad4ba80538c2ad2108",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-110373"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "5f379044760331a55fc185fa9a105980a0bd103f5cbe3a544a6e34bc0724a903",
+        "supports_claim": true,
+        "reason": "路径快照found_in_package=true，终点R-HSA-73933 Resolution of Abasic Sites"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "673fbf2417a6118e075fa493a42f3ab5c4b76f63bc9aa2ce92ebb74187c57926",
+        "supports_claim": true,
+        "reason": "路径终点GO:0034502"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "6e20fc8d11f5bc61d2e2a6bcafb3decae923362ea19764f20e3e3ce1f5b6cd0e",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-5693538"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "7328c488af85a24c115774d6e5641dc495c3d1827d91cad8476d700e0372b4db",
+        "supports_claim": true,
+        "reason": "路径终点GO:0032200"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "7aa6e48937b937b7d0d1daa81151a5f38875bccd2a90faed55bda77fc8c48f4a",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006310"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "7e1955dd749b8af9f414c5b526c4289176fa3436960b3db403254cb9aef5d3ad",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006302"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "7ece62aa3498e1a84bbed23041d8de8e40603aa58892803e72d3adf682108185",
+        "supports_claim": true,
+        "reason": "路径终点GO:0032784"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "7f96eeda6103bf16f1fac14d179e3533e5d6b21406d540d508fa1c2d2b6bf58b",
+        "supports_claim": true,
+        "reason": "路径终点GO:1905168"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "8680b5468e0c0e6d577efa98660fa2f84077b060d4ab931adba8bb15376c5762",
+        "supports_claim": true,
+        "reason": "路径终点GO:0033044"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "8884ab44481b1df58b1bd84d7bf2308b13ec85333b5e7422184ca3f6e84eb5a1",
+        "supports_claim": true,
+        "reason": "路径终点GO:0045005"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "8c485c1cbaa5d6ae47f078b81319a6e5da973b982586ea5c57286514bcfaf44a",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006368"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "9333072468651fa58bf06b8adcfe698175029572b5f5984ec6193ce71ed14988",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-3108232"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "a114f51670dfed0ecb85b67f12cda34cbc569ce17a3c6f919972db7c48de0d60",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-5693532"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "a2d856d6db81035ef4c2375c21f989a49c112fd94bad0c1d052b60509dc3d56d",
+        "supports_claim": true,
+        "reason": "路径终点GO:2000779"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "a460ae14bd0ee0e7a2d28611f7bec7d990e4b574fd8c2464fc7d6accf4a8e9f5",
+        "supports_claim": true,
+        "reason": "路径终点GO:0034244"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "a714ba2a06c2029e17f568935dbb1e47c9e8165050dc750774688518aaf26c59",
+        "supports_claim": true,
+        "reason": "路径终点GO:0010569"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "a8bf4497274b3defcf46745885e1f5562fdb474db71654e0a00d2cdcc94d4f3f",
+        "supports_claim": true,
+        "reason": "路径终点GO:0051052"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "c26e41de2d0426aab7d39688c2edded7f47ae37ce652fd4424ca367432c05d7a",
+        "supports_claim": true,
+        "reason": "路径终点GO:0034644"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "c7d6a90d2120b759416bc59d851b816c1ff2d364c76ee48e169d3f0093e7856a",
+        "supports_claim": true,
+        "reason": "路径终点R-HSA-73884"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "d1352c290264da1e85715113847f4ab71405153131f0bb05784578fc212f5555",
+        "supports_claim": true,
+        "reason": "路径终点GO:0032785"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "e9208ee30f94e5f7740382e7de517980617ba09d6dc87c04ecebb10d0b76e528",
+        "supports_claim": true,
+        "reason": "路径终点GO:0006354"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "ed199cfeebd965c60fb18c551dc884e3baa0a63512766db54a6e3f6a538593f2",
+        "supports_claim": true,
+        "reason": "路径终点GO:0031297"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "S2 WTCS分数基于MCF7单细胞系4个剂量，n_signatures为1或2，稳定性grade为low且存在direction_flip，证据强度有限",
+      "无target-to-public-pathway路由，所有通路连接均经S1富集overlap间接获得（关联而非直接通路归属）",
+      "部分上游assertion缺少source URL，仅有source_record_id与source_release可追溯",
+      "无独立验证(independent_validation)或机制假设类证据；iniparib的临床作用机制在包内未提供支持",
+      "路径15(REACT:R-HSA-73933)不在coverage.paths主列表中但出现在cited_paths并有source_snapshot，一致性依赖快照自述"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:57:04.601289+00:00"
+}

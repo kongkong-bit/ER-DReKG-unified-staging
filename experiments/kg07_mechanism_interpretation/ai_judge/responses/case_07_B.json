@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "c31f74670e72c6961f57ec9404233da2f1d06c244c33e52a45042de12a216069",
+  "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+  "latency_seconds": 9.768317899999602,
+  "usage": {
+    "completion_tokens": 731,
+    "completion_tokens_details": {
+      "reasoning_tokens": 227
+    },
+    "prompt_tokens": 7042,
+    "prompt_tokens_details": {
+      "cached_tokens": 7040
+    },
+    "total_tokens": 7773
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "screening_evidence.s2_candidate与s2_conditions一致：rank 1、WTCS -0.516654、condition_count=5（10.0 uM条件对应-0.5167）。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006字段逐项吻合：GSE70138、10.0 um、24 h、MCF7、WTCS_median_B -0.516654198727056、rank_B 1、n_signatures 1。"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006含dose_stability=direction_flip、negative_dose_fraction 0.2、qc_sensitivity_range 0.0983、n_available_doses 5、stability_grade low，声明为对数据的转述。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无external_s1_median_rank、external_s1_B200_median_rank或Q2条件rank的任何数据，属无依据声明。"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无PRISM、ER阳性/阴性敏感性均值或sensitivity rank数据，属无依据声明。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 6,
+        "accurate": false,
+        "reason": "与coverage矛盾：包内有21条direct_target路径、131条s1_enrichment_overlap路径、reported_actions含TARGET/INHIBITOR等，target-to-pathway覆盖与关系证据是存在的（仅缺public_pathway路径）。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "exp006显示n_signatures=1、evidence_limitations=single signature、stability_grade=low，且negative_dose_fraction仅0.2并伴随direction_flip，包内确无重复的表达反转证据。"
+      }
+    ],
+    "limitations": [
+      "external S1/Q2 rank与PRISM敏感性数据在快照中缺失，相关claim无法核验",
+      "部分上游source记录无source URL，溯源完整性受限",
+      "S1 enrichment overlap为相关性富集重叠，不构成因果或方向性机制证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:53:28.230228+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:08.662688+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9917416/ancestors",
+    "response_sha256": "f2c532b13537ec51fd4f5ee4a1b263de3badae2b5af5a90e25c85c49b361625d",
+    "response_bytes": 781
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9917416,
+        "displayName": "Sprouting angiogenesis",
+        "stId": "R-HSA-9917416",
+        "name": [
+          "Sprouting angiogenesis"
+        ],
+        "stIdVersion": "R-HSA-9917416.1",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9917416.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2026-09-16",
+        "releaseStatus": "NEW",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1357,
+        "diagramHeight": 834,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

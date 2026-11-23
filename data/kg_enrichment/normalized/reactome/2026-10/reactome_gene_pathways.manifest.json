@@ -1,0 +1,22 @@
+{
+  "source_name": "Reactome human pathway gene membership",
+  "source_url": "https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt",
+  "release_version": "current-2026-10",
+  "retrieved_at": "2026-11-22T08:29:09.559559+00:00",
+  "local_path": "data/kg_enrichment/raw/reactome/2026-10/UniProt2Reactome_All_Levels.txt",
+  "sha256": "b56bdfeeece937ff12de31ad637fe4b5443ec091915776044850f4c0f31235fb",
+  "license": "CC0 1.0 Universal",
+  "species": "Homo sapiens",
+  "schema_version": "six-column Reactome mapping TSV",
+  "records_raw": 946459,
+  "records_human": 162642,
+  "records_valid_before_dedup": 54361,
+  "records_valid": 54361,
+  "records_rejected": {
+    "unmapped_or_ambiguous_uniprot": 108281
+  },
+  "mapping": "exact one-to-one UniProt accession to OptimusKG 3.2 Ensembl gene crosswalk; ambiguous/unmapped excluded",
+  "sign_semantics": "unknown; pathway participation is not causal regulation",
+  "normalized_path": "data/kg_enrichment/normalized/reactome/2026-10/reactome_gene_pathways.csv",
+  "normalized_sha256": "4f8599498d4b0554310c956681e216a3efe120fd442cfadffcb48cf1053bd403"
+}

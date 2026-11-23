@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:54.795256+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-5617472/ancestors",
+    "response_sha256": "4f90b7bb40dc9607877cac65fa7e8a86573be642489b84a4ffbd7abcce6b8ddd",
+    "response_bytes": 1264
+  },
+  "payload": [
+    [
+      {
+        "dbId": 5617472,
+        "displayName": "Activation of anterior HOX genes in hindbrain development during early embryogenesis",
+        "stId": "R-HSA-5617472",
+        "name": [
+          "Activation of anterior HOX genes in hindbrain development during early embryogenesis"
+        ],
+        "stIdVersion": "R-HSA-5617472.4",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/r-hsa-5617472.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2015-12-15",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2050,
+        "diagramHeight": 1130,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 5619507,
+        "displayName": "Activation of HOX genes during differentiation",
+        "stId": "R-HSA-5619507",
+        "name": [
+          "Activation of HOX genes during differentiation"
+        ],
+        "stIdVersion": "R-HSA-5619507.5",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2015-12-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 420,
+        "diagramHeight": 103,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

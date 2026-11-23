@@ -1,0 +1,77 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K42495768",
+    "drug_name": "tasisulam",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2110587",
+    "rank": "14"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "be70e94ecb76bcd9028f1100dc9b0a7fa16fa15b85f90870e22a72219714c18b",
+  "evidence_gaps": [
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 3 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "2510149f3e53429a27931f7ac0d683013df624d5950070f6d41ae8abcd4fa030",
+          "8a615e159fb0c3f043653b9b8f9bdf5656f24aa9795fc9746cdb3d2b72706e33",
+          "d40b3f99f476f62e147e59fa99abdcf1b4a36afc3f72e026d8e84273ef686019"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "当前 GraphBuild 未检索到可用的药物靶点或疾病通路路径，机制证据不足。",
+        "evidence_ids": [],
+        "path_ids": []
+      }
+    ],
+    "limitations": [
+      "no curated Drug-to-Gene target assertion was found",
+      "no target-to-public-pathway route was found",
+      "no target-to-S1-enriched-pathway overlap was found",
+      "no target-to-S1-DEG overlap was found",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

@@ -1,0 +1,50 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S1_LIMMA:71c732b7-11ef-4ac8-9c82-a9787bf4c133",
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "run_type": "s1_limma_microarray",
+  "status": "completed",
+  "parameters": {
+    "dataset_id": "b399c097-2532-46d8-b2eb-90579ecc9029",
+    "sample_metadata_dataset_id": "931e3a57-2b2a-4742-855d-8d9df17df986",
+    "positive_group": "Tumor",
+    "negative_group": "Normal",
+    "contrast": "Tumor - Normal",
+    "fdr_threshold": 0.05,
+    "identifier_type": "symbol",
+    "measurement_type": "normalized_log2_microarray",
+    "tested_features": 3,
+    "significant_features": 2,
+    "up": 1,
+    "down": 1,
+    "sample_count": 4,
+    "group_counts": {
+      "Normal": 2,
+      "Tumor": 2
+    },
+    "method": "limma lmFit + contrasts.fit + eBayes(robust=TRUE), BH adjustment",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "limma": "3.62.2",
+    "analysis_run_id": "ANALYSIS_RUN:S1_LIMMA:71c732b7-11ef-4ac8-9c82-a9787bf4c133",
+    "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+    "input_hashes": {
+      "b399c097-2532-46d8-b2eb-90579ecc9029": "47a98d30fee916b7ce59b8eb12548b908a8c2d65fabb98cda1a8769df6e4972d",
+      "931e3a57-2b2a-4742-855d-8d9df17df986": "9223e8ee463c367fc37bffa3bf5bacc9d4df5593ef104653546c6e9a92fa4c71"
+    },
+    "output_sha256": "8cad14e717e4be407047a42561213866877fd32ac0699e1fbe0363f94788fa96",
+    "test_only": true,
+    "unique_genes": 3,
+    "significant_genes": 2,
+    "gene_identifier_column": "gene_id",
+    "duplicate_rows_removed": 0,
+    "output_path": "data/processed/projects/89aa18d8-e1ca-4eb4-8046-634cd2911207/s1/71c732b7-11ef-4ac8-9c82-a9787bf4c133/limma_all_genes.csv"
+  },
+  "software_versions": {
+    "pipeline": "limma microarray plugin 1.0",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "limma": "3.62.2"
+  },
+  "input_hashes": {
+    "b399c097-2532-46d8-b2eb-90579ecc9029": "47a98d30fee916b7ce59b8eb12548b908a8c2d65fabb98cda1a8769df6e4972d",
+    "931e3a57-2b2a-4742-855d-8d9df17df986": "9223e8ee463c367fc37bffa3bf5bacc9d4df5593ef104653546c6e9a92fa4c71"
+  }
+}

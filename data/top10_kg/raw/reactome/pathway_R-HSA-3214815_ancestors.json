@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:51.696394+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-3214815/ancestors",
+    "response_sha256": "e84f31014d1cf245d978f31a6b26ef3cf257a1b21bbb4d8692a81f60c91c1c37",
+    "response_bytes": 1163
+  },
+  "payload": [
+    [
+      {
+        "dbId": 3214815,
+        "displayName": "HDACs deacetylate histones",
+        "stId": "R-HSA-3214815",
+        "name": [
+          "HDACs deacetylate histones"
+        ],
+        "stIdVersion": "R-HSA-3214815.5",
+        "oldStId": "REACT_263923",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_228222.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-06-10",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 3247509,
+        "displayName": "Chromatin modifying enzymes",
+        "stId": "R-HSA-3247509",
+        "name": [
+          "Chromatin modifying enzymes"
+        ],
+        "stIdVersion": "R-HSA-3247509.6",
+        "oldStId": "REACT_264165",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_172633.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-12-04",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4270,
+        "diagramHeight": 2738,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 4839726,
+        "displayName": "Chromatin organization",
+        "stId": "R-HSA-4839726",
+        "name": [
+          "Chromatin organization"
+        ],
+        "stIdVersion": "R-HSA-4839726.5",
+        "oldStId": "REACT_264155",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-12-04",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 533,
+        "diagramHeight": 200,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

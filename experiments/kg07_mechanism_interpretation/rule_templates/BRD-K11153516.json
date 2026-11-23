@@ -1,0 +1,385 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K11153516",
+    "drug_name": "iniparib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1170047",
+    "rank": "4"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "3e5186b8b778a0f35223b17871b55ae23ee95b5037a4012e7f60cdb148e5e641",
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 1,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 40,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 84,
+    "verified_evidence_count": 84,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 4 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "2233972d24750218f90645b48e31ca51fb0b4f11fc19021ff2908c089bb0de8d",
+          "5ee16d32ef9dc59fc1162814cdfce4aeadd94453eff7ba41bdcc4ae52dea8e5a",
+          "8ea81161d046d8ac21a1ec78b5106fbf48e2b66a426181ae90cbda12dba301a5",
+          "bd6f862c55ce0638a5f34bf33ed240691a6967d1380096a8ee6684121950a5a3"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录药物与基因 ENSG00000143799 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "5b1167cfcf38c443444b9e9c5f07ac799d8b02de34b9e460c653069d81ef4bad"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "该路径连接到通路 DNA replication；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "008c4e28fa5e21dc37aa8fdb3bafcb94c3fb3745f3a4634df038de08d6960761"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 telomere maintenance；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0ab27cbfa4c188e8cbb4aab0172a99cd6a146b288f988d468cbcda78bca1fcdf"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of DNA repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0fb7d7118b2d6b0912e8f4f25b84d9e615c785cc2896defbc04545eb34d2b1a6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 positive regulation of double-strand break repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "12148ec21ca5f6484f6004f735fd47200aeb049518799174008b9ea56f1cfdd9"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 double-strand break repair via homologous recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "18e29b3026da53fc56f5721adcea5796da79bcfc68e5245e780eaec3c54408eb"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 SUMOylation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "28044ed078b812d13045c65d7ffdd572a101fd77798e4bb4b24b043f9d85fff7"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 positive regulation of DNA metabolic process；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "2b409d82850f321f13f731b3b86840b23c3a702e0f7e38e793ad272bb4a5be54"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 base-excision repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "30667ed7d85a4c6d1d600f14d87f592f28349539aeb3e5f9efc97cdec1149549"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 positive regulation of DNA repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "3725dab33f0a14c0081010713a76c2ea09bb6c1af7efabbee5e751536ab23a15"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of transcription elongation by RNA polymerase II；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "3b72077eeb6fa322b5e485824c5dbdb8aab95a97bbf5b549129b24b84811ee84"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 positive regulation of DNA recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "4d37b9dc3ade63cd6e6ba45c122b1d629eec41eb178d448092277c6cb3c9ecb8"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Resolution of AP sites via the multiple-nucleotide patch replacement pathway；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "4f36cda88e332c50ff433d897ad000e90c034baa2eda26ad4ba80538c2ad2108"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Resolution of Abasic Sites (AP sites)；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "5f379044760331a55fc185fa9a105980a0bd103f5cbe3a544a6e34bc0724a903"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 protein localization to chromosome；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "673fbf2417a6118e075fa493a42f3ab5c4b76f63bc9aa2ce92ebb74187c57926"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Homology Directed Repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "6e20fc8d11f5bc61d2e2a6bcafb3decae923362ea19764f20e3e3ce1f5b6cd0e"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 telomere organization；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7328c488af85a24c115774d6e5641dc495c3d1827d91cad8476d700e0372b4db"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7aa6e48937b937b7d0d1daa81151a5f38875bccd2a90faed55bda77fc8c48f4a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 double-strand break repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7e1955dd749b8af9f414c5b526c4289176fa3436960b3db403254cb9aef5d3ad"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of DNA-templated transcription elongation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7ece62aa3498e1a84bbed23041d8de8e40603aa58892803e72d3adf682108185"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 positive regulation of double-strand break repair via homologous recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7f96eeda6103bf16f1fac14d179e3533e5d6b21406d540d508fa1c2d2b6bf58b"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of chromosome organization；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "8680b5468e0c0e6d577efa98660fa2f84077b060d4ab931adba8bb15376c5762"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA-templated DNA replication maintenance of fidelity；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "8884ab44481b1df58b1bd84d7bf2308b13ec85333b5e7422184ca3f6e84eb5a1"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 transcription elongation by RNA polymerase II；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "8c485c1cbaa5d6ae47f078b81319a6e5da973b982586ea5c57286514bcfaf44a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 SUMO E3 ligases SUMOylate target proteins；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "9333072468651fa58bf06b8adcfe698175029572b5f5984ec6193ce71ed14988"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA Double-Strand Break Repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a114f51670dfed0ecb85b67f12cda34cbc569ce17a3c6f919972db7c48de0d60"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of double-strand break repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a2d856d6db81035ef4c2375c21f989a49c112fd94bad0c1d052b60509dc3d56d"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 negative regulation of transcription elongation by RNA polymerase II；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a460ae14bd0ee0e7a2d28611f7bec7d990e4b574fd8c2464fc7d6accf4a8e9f5"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of double-strand break repair via homologous recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a714ba2a06c2029e17f568935dbb1e47c9e8165050dc750774688518aaf26c59"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of DNA metabolic process；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a8bf4497274b3defcf46745885e1f5562fdb474db71654e0a00d2cdcc94d4f3f"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 cellular response to UV；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "c26e41de2d0426aab7d39688c2edded7f47ae37ce652fd4424ca367432c05d7a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Base Excision Repair；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "c7d6a90d2120b759416bc59d851b816c1ff2d364c76ee48e169d3f0093e7856a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 negative regulation of DNA-templated transcription, elongation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "d1352c290264da1e85715113847f4ab71405153131f0bb05784578fc212f5555"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA-templated transcription elongation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e9208ee30f94e5f7740382e7de517980617ba09d6dc87c04ecebb10d0b76e528"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 replication fork processing；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "ed199cfeebd965c60fb18c551dc884e3baa0a63512766db54a6e3f6a538593f2"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [],
+    "limitations": [
+      "no target-to-public-pathway route was found",
+      "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

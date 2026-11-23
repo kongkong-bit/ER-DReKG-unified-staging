@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:47.853813+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-193670/ancestors",
+    "response_sha256": "5788f4a745bacdd629f6c7d670789342d6fd4e7f6e968f99730557cde6e4bf6b",
+    "response_bytes": 1543
+  },
+  "payload": [
+    [
+      {
+        "dbId": 193670,
+        "displayName": "p75NTR negatively regulates cell cycle via SC1",
+        "stId": "R-HSA-193670",
+        "name": [
+          "p75NTR negatively regulates cell cycle via SC1"
+        ],
+        "stIdVersion": "R-HSA-193670.2",
+        "oldStId": "REACT_13695",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-06-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 193704,
+        "displayName": "p75 NTR receptor-mediated signalling",
+        "stId": "R-HSA-193704",
+        "name": [
+          "p75 NTR receptor-mediated signalling"
+        ],
+        "stIdVersion": "R-HSA-193704.3",
+        "oldStId": "REACT_13776",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-06-30",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4941,
+        "diagramHeight": 1320,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73887,
+        "displayName": "Death Receptor Signaling",
+        "stId": "R-HSA-73887",
+        "name": [
+          "Death Receptor Signaling"
+        ],
+        "stIdVersion": "R-HSA-73887.8",
+        "oldStId": "REACT_1619",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-10-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 737,
+        "diagramHeight": 173,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

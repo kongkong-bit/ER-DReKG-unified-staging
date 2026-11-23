@@ -1,0 +1,198 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K43586850",
+    "drug_name": "lacidipine",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL460291",
+    "rank": "11"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56",
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 12,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 2,
+    "s1_deg_overlap_path_count": 2,
+    "unique_evidence_count": 20,
+    "verified_evidence_count": 20,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 6 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "328da260e856c343615e769b326cf239c17ded104a7cc98fb906fe8eee30635a",
+          "5cff9329ae11c22ef1abaceeca29b6a3fb3b3c8d4053365b5bd2b767a9f2530a",
+          "61616302afd09aa3d5a540395cafbb154100164673a341f752f47a964c739402",
+          "61e8b0750f1b0783e6fbef97fed2327acf7a8ca1732d4c31c7439c71840f620e",
+          "a2c20c8536d974a0ea5dbd17b697508b808c01eccc81e20ac8bb008f45656d2a",
+          "e9dcaf35428f0d0d61a53ff123bae41c9db4e36fba0bb16006d1221a2188754a"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录药物与基因 ENSG00000165995 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "26c0b94f08b1b95e9b25de6b029bd946ad1a83fdce84d9bed6cb4375fdd10bbe"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000182389 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "290447609253b43204fe85a6b18cb2c56f5d0657d8636ec64e6917e281f05b27"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000157388 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "83d180ad4b430d470ead5dcda35f95ae7152c6cfbeaa325011d705065f99244d"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000141837 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "8b3ad7cb0e8190f8d6072f3a253c5e4d3c9db86f2ba2e790fbecd52d9b00db61"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000067191 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "9232d05d5cf3f8c10ead10bb6bd4e87637f10fd2fc0c000ca86f591184b92248"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000167535 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "a793b41b19045a35fa9bc6c2e15441c2c01c16fa7cd982aee0f2b4d73f2885e2"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000229314 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "afc1d866291258bf9c00537e10a0ca776f0dd41dac7e0e587287e4c9ac37d1bc"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000151067 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "b2d6557c3a2117eac70fe3b442560c491ac774b1c517348f90fe50457644e0d6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000102001 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "bdf532ee0a266a0ad4a89b581d9fe4685d1386ed88802cd8778449aea28f8f61"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000160868 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "c833d33bf510e7e160d8bca172c0f938e8839c62fb97b4a61dcbac597c3884f7"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000081248 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e3df63f5772fc8168a6e09b428ca7be889fcfe9d2aff3d8f3c4b43cb722fa4f4"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000163631 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "f84757fbfba2907d7712999f2df3a9c6c339d955a372fb6f9eeb00e9c52f5ced"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "该路径连接到通路 protein localization to plasma membrane；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "294de3a99ea8ae12061381c8d33c1658957a9f232580c9259b53f1e94fa2d69b"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 protein localization to cell periphery；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "3611147e2504cb07fc013fca6273e0a64303a83f9813c694762e19c542d4104b"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [],
+    "limitations": [
+      "no target-to-public-pathway route was found",
+      "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

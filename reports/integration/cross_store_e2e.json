@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:e0421796-2aff-47e2-9228-d683eab05fa9",
+  "s2_import": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5",
+    "status": "completed",
+    "idempotent": true,
+    "parameters": {
+      "result_directory": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s2/eab2f02a-2bdf-53c8-833b-fedab03070c5",
+      "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "condition_count": 3943,
+      "test_only": false,
+      "qc_summary": {
+        "source": "A+ frozen candidate set (1,032 perturbagens / 3,943 conditions)",
+        "scheme": "B",
+        "cell_id": "MCF7",
+        "pert_type": "trt_cp",
+        "time": "24 h",
+        "project_seed_perturbagens": 1032,
+        "project_seed_signatures": 4385,
+        "project_seed_condition_rows": 3943,
+        "signature_rows": 4385,
+        "unique_sig_id": 4385,
+        "n_up_values_observed": [
+          "100"
+        ],
+        "n_down_values_observed": [
+          "100"
+        ],
+        "effective_background_genes_observed": [
+          "10174"
+        ],
+        "quality_threshold": "distil_cc_q75 >= 0.2",
+        "seed_rule": "A+ candidate_drugs (1,032 unique perturbagens); retain all dose-specific condition rows; no per-drug best-dose selection",
+        "cross_dose_policy": "dose strata kept separate; no per-drug optimum or cross-dose rank",
+        "verified_input_sha256": {
+          "signature_scores.csv": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e",
+          "drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+          "s1_standardized_limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888"
+        },
+        "historical_import": false,
+        "build_note": "Derived by filtering Final01 final_signature_scores.csv to A+ condition keys; WTCS not recomputed"
+      },
+      "condition_summary_sha256": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+      "provenance_kind": "project_analysis",
+      "historical_source_verified": false,
+      "source_s1_input_sha256": null
+    },
+    "condition_count": 3943
+  },
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22",
+  "graph_summary": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22",
+    "node_count": 12171,
+    "edge_count": 44932,
+    "nodes_by_type": {
+      "DiseaseContext": 1,
+      "Pathway": 709,
+      "Gene": 5790,
+      "GeneSet": 29,
+      "Drug": 666,
+      "Candidate": 1032,
+      "S2Condition": 3943,
+      "Disease": 1
+    },
+    "source": "neo4j"
+  },
+  "top10_count": 10,
+  "top10_kg06_available": 10,
+  "top10_first_pert_id": "BRD-K44227013",
+  "top10_artifact_status": "validated_offline_bundle_not_registered_or_imported",
+  "evidence_package_id": "KG06:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22:BRD-K44227013:fc4a92159faaf455",
+  "path_count": 157,
+  "unique_evidence_count": 258,
+  "s2_condition_count": 5,
+  "explanation_candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K44227013",
+  "explanation_status": "rule_template",
+  "explanation_citation_validation": true,
+  "glm_without_key_status": 503,
+  "glm_without_key_message": "Zhipu API key is not configured (ZHIPU_API_KEY)"
+}

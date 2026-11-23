@@ -1,0 +1,202 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K56844688",
+    "drug_name": "epirubicin",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "23"
+  },
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "Epirubicin (BRD-K56844688) 在 S2 LINCS 分析中总体排名 23，WTCS 总分为 -0.4141898207121921（6 个条件）。",
+        "relation": "association",
+        "evidence_ids": [
+          "f54cc256708085f4137b11f4b92f72e0a38af73ca4ea1c45dbfe95df6d354b08",
+          "830fe1b150cdaeb57df7d7178f74e5bf852258b09fb9d19e683f1afff6095e4e",
+          "c9cfb2631961c3a35ee2cd28e5f7ce227cdd44ad5672d8f98c8dd199ea3809d8",
+          "5e21a69f3d3aa171f14bed28716f6d19b4f73b76b25cbfd2da48076712a3ec1a",
+          "263a0e77a199727624b3fc963d8a85bb665e1b18d5582bbe1d826d7400a50874",
+          "bbb7780cc6bc08e8f501337cb8554afff7e37c33109c82cc38da4384e2b5936f"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "在 MCF7 细胞、10.0 µM、24 h 条件下 WTCS 中位数为 -0.4141898207121921（条件内排名 89，quality_cc_median 0.82，TAS_median 0.79563）。",
+        "relation": "association",
+        "evidence_ids": [
+          "263a0e77a199727624b3fc963d8a85bb665e1b18d5582bbe1d826d7400a50874"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "在 MCF7 细胞、3.33 µM、24 h 条件下 WTCS 中位数为 -0.2794553368500564（条件内排名 764，quality_cc_median 0.88）。",
+        "relation": "association",
+        "evidence_ids": [
+          "bbb7780cc6bc08e8f501337cb8554afff7e37c33109c82cc38da4384e2b5936f"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "在 MCF7 细胞、0.04 µM、24 h 条件下 WTCS 中位数为 -0.2604029927051481（条件内排名 909，quality_cc_median 0.63）。",
+        "relation": "association",
+        "evidence_ids": [
+          "f54cc256708085f4137b11f4b92f72e0a38af73ca4ea1c45dbfe95df6d354b08"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "在 MCF7 细胞、0.12 µM、0.37 µM 和 1.11 µM、24 h 三个条件下 WTCS 中位数均为 0.0（无逆转信号）。",
+        "relation": "association",
+        "evidence_ids": [
+          "830fe1b150cdaeb57df7d7178f74e5bf852258b09fb9d19e683f1afff6095e4e",
+          "c9cfb2631961c3a35ee2cd28e5f7ce227cdd44ad5672d8f98c8dd199ea3809d8",
+          "5e21a69f3d3aa171f14bed28716f6d19b4f73b76b25cbfd2da48076712a3ec1a"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "perturbagen has no exact compound mapping in this GraphBuild",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72"
+      },
+      {
+        "text": "no curated Drug-to-Gene target assertion was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72"
+      },
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72"
+      }
+    ],
+    "limitations": [
+      "S2 WTCS 逆转分数是基于转录组特征的计算信号，不构成临床疗效证据。",
+      "所有 S2 条件均仅来自 MCF7 一个细胞系、24 h 时间点，每个条件 n_signatures = 1（WTCS_mad = 0.0），重复性有限。",
+      "候选药物未匹配到精确化合物映射，靶点与通路覆盖均为零（direct_target_path_count、public_pathway_path_count、S1 enrichment/DEG overlap 均=0）。",
+      "S2 条件证据已通过 Postgres 验证（6/6 verified），但证据完整性通过不代表生物学结论成立。"
+    ],
+    "uncited_or_uncertain": [
+      "Exp006 汇总（无 EvidenceRecord/Path ID，已排除于可引用断言之外）",
+      "Phase F/PRISM 细胞敏感性值（无 EvidenceRecord/Path ID，不作为独立验证）",
+      "rank 23 与总体 WTCS 值的排名语义（未提供对照分布，无法评估显著性）"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 4,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 18.3,
+  "usage": {
+    "completion_tokens": 1502,
+    "completion_tokens_details": {
+      "reasoning_tokens": 3
+    },
+    "prompt_tokens": 8196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 9698
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

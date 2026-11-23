@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "e6d654b7eb25dceb45664c07270c886768d0369bb2e62d9b675a3d9002655f15",
+  "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+  "latency_seconds": 17.30546719999984,
+  "usage": {
+    "completion_tokens": 1189,
+    "completion_tokens_details": {
+      "reasoning_tokens": 133
+    },
+    "prompt_tokens": 6811,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 8000
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "六条S2条件的WTCS_median分别为-0.4467/-0.4302/-0.4360/-0.4452/-0.4109/-0.4445，均落在约-0.41至-0.45区间，MCF7、24h、六剂量与来源一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "候选记录中rank为\"6\"，exp006亦显示rank_B=6.0，声明与包内一致"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb",
+        "supports_claim": true,
+        "reason": "MCF7|0.04um|24h的WTCS_median=-0.4467，在所述区间内"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "423299986e31428cfe5d7b87612e99cd3cf6560ed495f5953e488bae4b30c13c",
+        "supports_claim": true,
+        "reason": "MCF7|0.12um|24h的WTCS_median=-0.4302，在区间内"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "928542581b37d2fd1bebc275c945c7a92bfb9051cd4846928f2ed339419a3700",
+        "supports_claim": true,
+        "reason": "MCF7|0.37um|24h的WTCS_median=-0.4360，在区间内"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "a0acf6f72112e6f19a5928b5c8c2e7f3278873c8c023cfca1420e2b816da67d4",
+        "supports_claim": true,
+        "reason": "MCF7|1.11um|24h的WTCS_median=-0.4452，在区间内"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b853b680c69e61ec1dfa13c93c41cc2357d8fe236873ef39dece468399ed25d4",
+        "supports_claim": true,
+        "reason": "MCF7|3.33um|24h的WTCS_median=-0.4109，在区间内"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b332d6ca7acfc4699e5314b1220bb32ec80c15097e92fdb1a22e182fdfc03315",
+        "supports_claim": true,
+        "reason": "MCF7|10.0um|24h的WTCS_median=-0.4445，在区间内"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb",
+        "supports_claim": false,
+        "reason": "该条件证据快照仅含WTCS与质量指标，未包含排名字段；排名信息来自候选记录/exp006，非此证据ID本身"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 3,
+        "accurate": true,
+        "reason": "coverage.compound_mapped=false且mapping_status为unmatched_no_exact_inchikey，与表述一致"
+      },
+      {
+        "claim_index": 4,
+        "accurate": true,
+        "reason": "evidence_gaps明确列出\"no curated Drug-to-Gene target assertion was found\""
+      },
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "evidence_gaps列出\"no target-to-public-pathway route was found\"，且public_pathway_path_count=0"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "evidence_gaps列出该缺口，且s1_enrichment_overlap_path_count=0"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "evidence_gaps列出该缺口，且s1_deg_overlap_path_count=0"
+      }
+    ],
+    "limitations": [
+      "化合物无精确InChIKey匹配，身份映射不确定，可能影响候选归属",
+      "无curated靶点、公共通路、S1富集/DEG重叠证据，机制解释缺乏独立支持",
+      "全部S2证据仅来自MCF7单细胞系24h的6个剂量，外推性有限",
+      "claim 2的引用证据ID本身不含排名字段，排名依赖候选汇总记录而非该引用"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:11:19.221960+00:00"
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:47.969703+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2029482/ancestors",
+    "response_sha256": "8d275c74d117d954f4417de3a694237bc55065b99e002314add28a2282270e37",
+    "response_bytes": 1669
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2029482,
+        "displayName": "Regulation of actin dynamics for phagocytic cup formation",
+        "stId": "R-HSA-2029482",
+        "name": [
+          "Regulation of actin dynamics for phagocytic cup formation"
+        ],
+        "stIdVersion": "R-HSA-2029482.4",
+        "oldStId": "REACT_160086",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2029480,
+        "displayName": "Fcgamma receptor (FCGR) dependent phagocytosis",
+        "stId": "R-HSA-2029480",
+        "name": [
+          "Fcgamma receptor (FCGR) dependent phagocytosis"
+        ],
+        "stIdVersion": "R-HSA-2029480.4",
+        "oldStId": "REACT_160123",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_160123.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3100,
+        "diagramHeight": 1300,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 168249,
+        "displayName": "Innate Immune System",
+        "stId": "R-HSA-168249",
+        "name": [
+          "Innate Immune System"
+        ],
+        "stIdVersion": "R-HSA-168249.12",
+        "oldStId": "REACT_6802",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_6802.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2005-06-13",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1030,
+        "diagramHeight": 447,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 168256,
+        "displayName": "Immune System",
+        "stId": "R-HSA-168256",
+        "name": [
+          "Immune System",
+          "Signaling in Immune system",
+          "Immune System signaling"
+        ],
+        "stIdVersion": "R-HSA-168256.9",
+        "oldStId": "REACT_6900",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2006-04-24",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 739,
+        "diagramHeight": 153,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

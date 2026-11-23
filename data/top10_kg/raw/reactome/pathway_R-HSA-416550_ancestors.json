@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.629555+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-416550/ancestors",
+    "response_sha256": "d9a67940ffb07e08047dd1679c4eb4b994b238dbf2778be831fe5d26135cd809",
+    "response_bytes": 2248
+  },
+  "payload": [
+    [
+      {
+        "dbId": 416550,
+        "displayName": "Sema4D mediated inhibition of cell attachment and migration",
+        "stId": "R-HSA-416550",
+        "name": [
+          "Sema4D mediated inhibition of cell attachment and migration"
+        ],
+        "stIdVersion": "R-HSA-416550.4",
+        "oldStId": "REACT_19266",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 400685,
+        "displayName": "Sema4D in semaphorin signaling",
+        "stId": "R-HSA-400685",
+        "name": [
+          "Sema4D in semaphorin signaling"
+        ],
+        "stIdVersion": "R-HSA-400685.4",
+        "oldStId": "REACT_19259",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 373755,
+        "displayName": "Semaphorin interactions",
+        "stId": "R-HSA-373755",
+        "name": [
+          "Semaphorin interactions"
+        ],
+        "stIdVersion": "R-HSA-373755.3",
+        "oldStId": "REACT_19271",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 5721,
+        "diagramHeight": 1392,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 422475,
+        "displayName": "Axon guidance",
+        "stId": "R-HSA-422475",
+        "name": [
+          "Axon guidance"
+        ],
+        "stIdVersion": "R-HSA-422475.8",
+        "oldStId": "REACT_18266",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_18266.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-06-24",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 733,
+        "diagramHeight": 200,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9675108,
+        "displayName": "Nervous system development",
+        "stId": "R-HSA-9675108",
+        "name": [
+          "Nervous system development"
+        ],
+        "stIdVersion": "R-HSA-9675108.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 438,
+        "diagramHeight": 158,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

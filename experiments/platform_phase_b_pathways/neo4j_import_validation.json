@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-11-13T10:56:38.412887+00:00",
+  "graph_build_id": "GRAPH_BUILD:ERPOS_S1_PATHWAY_20261113",
+  "analysis_run_id": "ANALYSIS_RUN:S1_PATHWAY_ENRICHMENT_20261112",
+  "database": "Neo4j local Compose service",
+  "import_runs": [
+    "PASS",
+    "PASS"
+  ],
+  "idempotency": {
+    "status": "PASS",
+    "before": {
+      "nodes_by_type": {
+        "Candidate": 50,
+        "DiseaseContext": 1,
+        "Drug": 30,
+        "Gene": 6283,
+        "GeneSet": 29,
+        "Pathway": 921
+      },
+      "edges_by_type": {
+        "CONTAINS_GENE": 839,
+        "HAS_CANDIDATE": 50,
+        "HAS_DEG": 6188,
+        "HAS_ENRICHED_GENE": 29441,
+        "HAS_ENRICHED_PATHWAY": 738,
+        "REFERENCES_DRUG": 30,
+        "TARGETS": 83
+      },
+      "source_assertion_missing_edge_count": 0,
+      "candidate_target_pathway_routes": {
+        "route_count": 1422,
+        "candidate_count": 22,
+        "drug_count": 22,
+        "target_gene_count": 41
+      }
+    },
+    "after": {
+      "nodes_by_type": {
+        "Candidate": 50,
+        "DiseaseContext": 1,
+        "Drug": 30,
+        "Gene": 6283,
+        "GeneSet": 29,
+        "Pathway": 921
+      },
+      "edges_by_type": {
+        "CONTAINS_GENE": 839,
+        "HAS_CANDIDATE": 50,
+        "HAS_DEG": 6188,
+        "HAS_ENRICHED_GENE": 29441,
+        "HAS_ENRICHED_PATHWAY": 738,
+        "REFERENCES_DRUG": 30,
+        "TARGETS": 83
+      },
+      "source_assertion_missing_edge_count": 0,
+      "candidate_target_pathway_routes": {
+        "route_count": 1422,
+        "candidate_count": 22,
+        "drug_count": 22,
+        "target_gene_count": 41
+      }
+    },
+    "pre_refresh_state": {
+      "nodes_by_type": {
+        "Candidate": 50,
+        "DiseaseContext": 1,
+        "Drug": 30,
+        "Gene": 6283,
+        "GeneSet": 29,
+        "Pathway": 921
+      },
+      "edges_by_type": {
+        "CONTAINS_GENE": 839,
+        "HAS_CANDIDATE": 50,
+        "HAS_DEG": 6188,
+        "HAS_ENRICHED_GENE": 29441,
+        "HAS_ENRICHED_PATHWAY": 738,
+        "REFERENCES_DRUG": 30,
+        "TARGETS": 83
+      },
+      "source_assertion_missing_edge_count": 0,
+      "candidate_target_pathway_routes": {
+        "route_count": 1422,
+        "candidate_count": 22,
+        "drug_count": 22,
+        "target_gene_count": 41
+      }
+    }
+  },
+  "expected_unique_node_count": 7314,
+  "expected_counts": {
+    "nodes_by_type": {
+      "DiseaseContext": 1,
+      "Candidate": 50,
+      "Drug": 30,
+      "Gene": 6283,
+      "Pathway": 921,
+      "GeneSet": 29
+    },
+    "edges_by_type": {
+      "TARGETS": 83,
+      "CONTAINS_GENE": 839,
+      "HAS_CANDIDATE": 50,
+      "REFERENCES_DRUG": 30,
+      "HAS_DEG": 6188,
+      "HAS_ENRICHED_PATHWAY": 738,
+      "HAS_ENRICHED_GENE": 29441
+    }
+  },
+  "actual_counts": {
+    "nodes_by_type": {
+      "Candidate": 50,
+      "DiseaseContext": 1,
+      "Drug": 30,
+      "Gene": 6283,
+      "GeneSet": 29,
+      "Pathway": 921
+    },
+    "edges_by_type": {
+      "CONTAINS_GENE": 839,
+      "HAS_CANDIDATE": 50,
+      "HAS_DEG": 6188,
+      "HAS_ENRICHED_GENE": 29441,
+      "HAS_ENRICHED_PATHWAY": 738,
+      "REFERENCES_DRUG": 30,
+      "TARGETS": 83
+    },
+    "source_assertion_missing_edge_count": 0,
+    "candidate_target_pathway_routes": {
+      "route_count": 1422,
+      "candidate_count": 22,
+      "drug_count": 22,
+      "target_gene_count": 41
+    }
+  },
+  "input_sha256": {
+    "experiments/platform_phase_b/subgraph_nodes.csv": "bd8e30b6ed5ce71311253e4aecdc182733787472cb754571b4c836947f44e81e",
+    "experiments/platform_phase_b/subgraph_edges.csv": "1a07db430ae84d3454eeba7f87d173aa09768b1d7cf51ef9cff242685d8466e3",
+    "experiments/platform_phase_b_pathways/pathway_nodes.csv": "d5feff38168e1ba42553e1e6d41f9e872155d2cccdd1288d6a38488505889af5",
+    "experiments/platform_phase_b_pathways/gene_nodes.csv": "ae81bdf9c43a12040378cc3f73faaa2b9a71c74146f480de1f7d4affb1575587",
+    "experiments/platform_phase_b_pathways/pathway_edges.csv": "447ecddd68605de806475482060b8f6480330a406ccbbaa37eaf61abd47affc4"
+  },
+  "checks": {
+    "csv_expected_counts_match_database": true,
+    "all_imported_relationships_have_source_release_assertion_and_evidence_id": true,
+    "candidate_target_s1_pathway_route_count_matches_csv_audit": true
+  }
+}

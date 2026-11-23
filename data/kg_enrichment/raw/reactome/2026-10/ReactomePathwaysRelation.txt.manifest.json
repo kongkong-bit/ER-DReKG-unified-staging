@@ -1,0 +1,16 @@
+{
+  "source_name": "Reactome",
+  "source_url": "https://reactome.org/download/current/ReactomePathwaysRelation.txt",
+  "release_version": "current-2026-10",
+  "retrieved_at": "2026-11-22T06:16:06.226745+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\reactome\\2026-10\\ReactomePathwaysRelation.txt",
+  "license": "CC0 1.0 Universal",
+  "species": "Homo sapiens",
+  "schema_version": "Reactome pathway hierarchy two-column TSV",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "content_length_header": null,
+  "status": "downloaded",
+  "bytes": 635604,
+  "sha256": "aa3609ee852442899b400bf4817b36311d820883ecd75259ed77531d93d8f1dc"
+}

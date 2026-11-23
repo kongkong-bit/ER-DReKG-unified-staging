@@ -1,0 +1,16 @@
+{
+  "source_name": "DrugMechDB",
+  "source_url": "https://raw.githubusercontent.com/SuLab/DrugMechDB/2.0.1/indication_paths.yaml",
+  "release_version": "2.0.1",
+  "retrieved_at": "2026-11-22T07:02:59.798126+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\drugmechdb\\2.0.1\\indication_paths.yaml",
+  "license": "CC0 1.0 Universal (dataset license; verify repository data terms)",
+  "species": "human disease indications; source-specific context",
+  "schema_version": "DrugMechDB v2.0.1 indication_paths.yaml",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "content_length_header": "8274261",
+  "status": "downloaded",
+  "bytes": 8274261,
+  "sha256": "b973118ff3a43450aac9facc9957ec5ce1310efa049ed11b6e94b42807050ee7"
+}

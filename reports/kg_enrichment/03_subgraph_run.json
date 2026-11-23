@@ -1,0 +1,37 @@
+{
+  "status": "offline_signed_subgraphs_built",
+  "created_at": "2026-11-22T08:37:26.996942+00:00",
+  "input_bundle": "reports/top10_kg/top10_graph_bundle/3928c54d_external_v1",
+  "input_bundle_manifest_sha256": "30ae77db16435419ea5aa9c4d4e4c9bb224e79d4cd9c15927668b6b183cb1821",
+  "top10_candidate_count": 10,
+  "mapped_regulatory_assertions_before_hub_filter": 7306,
+  "hub_sources_excluded": 5,
+  "hub_assertions_excluded": 1032,
+  "regulatory_assertions_after_hub_filter": 6274,
+  "conflict_or_potential_conflict_pairs": 107,
+  "candidate_regulatory_path_count": 349,
+  "candidate_regulatory_path_coverage": "9/10",
+  "candidate_context_route_count": 316,
+  "regulatory_import_extension": {
+    "bundle_dir": "artifacts/kg_enrichment/regulatory_extension",
+    "nodes": 297,
+    "unique_regulatory_assertions": 328,
+    "protein_gene_mapping_assertions": 133,
+    "edges": 461,
+    "biocypher_validation": "PASS",
+    "manifest_sha256": "ad980cb670920dbaf5c368c471eeb111d8b60d3194e345a37ff57b83799aec99"
+  },
+  "summary_csv": "reports/kg_enrichment/03_top10_subgraph_summary.csv",
+  "per_candidate_subgraphs": [
+    "artifacts/kg_enrichment/subgraphs/01_BRD-K44227013.json",
+    "artifacts/kg_enrichment/subgraphs/02_BRD-K16485616.json",
+    "artifacts/kg_enrichment/subgraphs/03_BRD-K56405753.json",
+    "artifacts/kg_enrichment/subgraphs/04_BRD-K92093830.json",
+    "artifacts/kg_enrichment/subgraphs/05_BRD-K76694128.json",
+    "artifacts/kg_enrichment/subgraphs/06_BRD-K50000283.json",
+    "artifacts/kg_enrichment/subgraphs/07_BRD-K11153516.json",
+    "artifacts/kg_enrichment/subgraphs/08_BRD-A00147595.json",
+    "artifacts/kg_enrichment/subgraphs/09_BRD-K13094524.json",
+    "artifacts/kg_enrichment/subgraphs/10_BRD-K83837640.json"
+  ]
+}

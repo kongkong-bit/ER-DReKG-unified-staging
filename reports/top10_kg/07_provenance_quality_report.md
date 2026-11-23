@@ -1,0 +1,23 @@
+# 来源与质量审计
+
+- GraphBundle 状态：`validated`；BioCypher 0.17.0 离线 schema translation：PASS。
+- 输入范围：交付包内正式 A+ S2 适配表、S1/富集快照和当前本地 OptimusKG 3.2 五个 Parquet。完整哈希见 `input_snapshot/input_snapshot_manifest.json` 和 bundle manifest。
+- Bundle 输出哈希：11 个文件由 `bundle_checksums.json` 逐一核验通过。
+- 映射规则：精确 InChIKey；基因要求唯一 Ensembl 映射；未解决实体留在审计表。
+- 冻结榜单的签名 ID 由正式签名 CSV 按完整处理条件键解析，10/10 唯一匹配并复核 WTCS；不使用近似匹配。
+- 关系冲突：0（此结果是来源合并冲突检查，不表示文献无矛盾）。
+- 关系证据：每条图关系对应 evidence_id、source_release、source_record_id、原始断言 JSON。
+- 外部 overlay：仅添加有来源支持的 PHA-767491→CDC7/CDK9 和 PFI-1→BRD2/BRD4 关系；与 OptimusKG 边按 source_release 分开。来源和实验上下文记录于 overlay claim CSV 与 Evidence records。
+- 限制：当前五文件底图并非完整 OptimusKG；部分关系只有数据库来源标签/记录 ID，缺少逐条 PubMed 文献和 assay 级证据。
+- 定向疾病背景文献筛查：11 条人工记录覆盖 10/10 正式候选；ponatinib PMID 33732370 为摘要级审阅；mocetinostat PMID 42464636/DOI 10.1002/1878-0261.70307 完成全文重点段落复核，并标出该药结果属于 entinostat 为主论文的补充实验。另有 PubMed 候选检索快照 1,314 条候选—PMID 记录，均标为未人工筛选，不自动进入图边或机制等级。疾病 CSV/manifest 与检索结果/manifest 均有 SHA-256；不生成药物—疾病图边。非系统综述，证据缺失不代表不存在。
+- 身份解析文件：`data/top10_kg/identity/top10_identity_mapping.csv` 10/10，保留原图谱精确映射与外部 InChIKey 补充的不同状态，并有构建脚本和来源哈希 manifest。
+- 历史稳健性整合：`top10_reproducibility_evidence.csv` 按冻结榜单逐药呈现 Exp006–Exp011 中已有剂量/QC、签名基因集、置换、独立 S1、PRISM 结果；Exp009、Exp010、Exp011 均仅覆盖 5/10。未覆盖不作为负证据，历史分析不冒充按本轮冻结名单重算。
+- Top 10 API 新增历史稳健性文件 hash 与 10 个候选 ID/计数校验；返回细分实验覆盖状态。
+- 全基因 S1/S2 方向交叉引用已冻结的 Top 10、S1 limma 与 gene-mapping 快照、LINCS gene_info 和原始 GCTX；manifest 记录 5 个输入和 2 个输出的 SHA-256。每个药物限定其冻结主 `sig_id`，总计 123,280 条 gene-signature 行。
+- ChEMBL / DGIdb：按精确 identity map 的 ChEMBL molecule ID 和精确候选药名请求，原始 JSON、调用状态、返回总量/截断信息、规范化行和输出 SHA 全部保留。ChEMBL activity 部分查询触及 cap；DGIdb 的未解析盐型/制剂名称不并入冻结候选，也不自动加入图边。
+- Reactome：从 ChEMBL mechanism target components 的 UniProt accession 查询人类 pathways，并按 pathway ID 获取 event ancestors；release、请求响应、raw hash、source record ID 与 parent-child 层级均留档。API 在加载时校验原始快照和标准化输出哈希；Reactome 映射仅作为 component participation evidence，不改变直接靶点统计口径。
+- 新项目 GraphBundle run `66108369-35fe-44a4-bd44-5c8d97be5a11` 继承冻结 Top 10 bundle，新增 `ChEMBLTarget`、`Protein` 节点及五类标准化关系。ChEMBL protein-family 目标保持独立 target entity，不把直接关系散射到所有 components；Protein–Gene 仅通过唯一 canonical GENE_SYMBOL 建立，此次 14/14 组件可解析。
+- P6 关系 EvidenceRecord 检查现要求新建后的每条边都有稳定 evidence identity。父 overlay 原有两个外部身份参考边缺 EvidenceRecord，本次派生 bundle 中补齐后为 38,868 edges / 38,868 EvidenceRecords；没有覆盖父 bundle。BioCypher schema/离线翻译和 Neo4j importer 允许标签/关系单元测试通过。
+- AnalysisRun registration template 与 bundle/checksum/manifests 已生成；在隔离 SQLite 测试库调用真实 graph-build API，GraphBuild 快照登记和 38,868 条 EvidenceRecord 持久化测试通过。此验证不是主 PostgreSQL 注册或 Neo4j 导入。
+- 新增运维 CLI `backend/tools/register_analysis_run.py` 与 `rollback_graph_build.py`，分别支持哈希预检/显式 PostgreSQL 登记，以及按 GraphBuild ID 作用域删除关系、EvidenceRecord 和 DiseaseContext。默认 dry-run，实际写入需显式确认；回滚保留共享节点及 AnalysisRun。SQLite 与伪 Neo4j 单测验证范围，尚未进行实际双库回滚演练。
+- A/B/C/U 逐药机制证据等级已按方案 8.4 完成人工定向审阅：A 3、B 6、C 1、U 0。CSV 对正式 Top 10、靶点证据 dossier、ChEMBL mechanism 和疾病背景来源建立 SHA 输入清单；API 加载时校验 10 个 pert_id 与冻结榜单完全一致及等级枚举。等级不按关系条数生成，不代表疗效概率，亦非系统综述结论。

@@ -1,0 +1,54 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S1_RNASEQ:2daaba66-551d-4404-8a8e-0fb0f4f06d16",
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "run_type": "s1_rnaseq_edger_voom",
+  "status": "completed",
+  "parameters": {
+    "dataset_id": "cee35f8d-5079-4a46-ad59-1b7cf67be8d2",
+    "sample_metadata_dataset_id": "4f0e005f-8b20-4e12-a2a7-64cf591c7365",
+    "positive_group": "Tumor",
+    "negative_group": "Normal",
+    "contrast": "Tumor - Normal",
+    "fdr_threshold": 0.05,
+    "identifier_type": "symbol",
+    "measurement_type": "raw_integer_counts",
+    "input_features": 2,
+    "filtered_features": 0,
+    "tested_features": 2,
+    "significant_features": 2,
+    "up": 1,
+    "down": 1,
+    "sample_count": 6,
+    "group_counts": {
+      "Normal": 3,
+      "Tumor": 3
+    },
+    "method": "edgeR::filterByExpr + TMM normalization + limma::voom + lmFit + eBayes(robust=TRUE), BH adjustment",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "edgeR": "4.4.2",
+    "limma": "3.62.2",
+    "analysis_run_id": "ANALYSIS_RUN:S1_RNASEQ:2daaba66-551d-4404-8a8e-0fb0f4f06d16",
+    "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+    "input_hashes": {
+      "cee35f8d-5079-4a46-ad59-1b7cf67be8d2": "c9133e2ef0cfc91a3aa938a129a583bceb66d4d39bbdb0cc8266cc7f1e62706d",
+      "4f0e005f-8b20-4e12-a2a7-64cf591c7365": "55af057445787da81914a81302aeb2b2eed438a57f75ba6eaa16659b008672cb"
+    },
+    "output_sha256": "6c556a2535c93dc9ecf2192211c5616dd913744241e352df2e3ab3cd15b07ca1",
+    "test_only": true,
+    "unique_genes": 2,
+    "significant_genes": 2,
+    "gene_identifier_column": "gene_id",
+    "duplicate_rows_removed": 0,
+    "output_path": "data/processed/projects/89aa18d8-e1ca-4eb4-8046-634cd2911207/s1/2daaba66-551d-4404-8a8e-0fb0f4f06d16/limma_all_genes.csv"
+  },
+  "software_versions": {
+    "pipeline": "edgeR filterByExpr + TMM + limma-voom 1.0",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "edgeR": "4.4.2",
+    "limma": "3.62.2"
+  },
+  "input_hashes": {
+    "cee35f8d-5079-4a46-ad59-1b7cf67be8d2": "c9133e2ef0cfc91a3aa938a129a583bceb66d4d39bbdb0cc8266cc7f1e62706d",
+    "4f0e005f-8b20-4e12-a2a7-64cf591c7365": "55af057445787da81914a81302aeb2b2eed438a57f75ba6eaa16659b008672cb"
+  }
+}

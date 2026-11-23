@@ -1,0 +1,56 @@
+{
+  "source_name": "PrimeKG",
+  "source_url": "https://doi.org/10.7910/DVN/IXA7BM",
+  "official_download_url": "https://dataverse.harvard.edu/api/access/datafile/6180620",
+  "release_version": "Harvard Dataverse v2 (2022-05-02)",
+  "retrieved_at": "2026-11-22T08:31:48.879986+00:00",
+  "license": "CC0-1.0",
+  "species": "human",
+  "schema_version": "PrimeKG kg.csv header v2",
+  "local_path": "data/kg_enrichment/raw/primekg/2022-05/kg.csv",
+  "sha256": "0a5a010fcd88dcec572a573d98c26c1c244a11567092b6161d3ded611cfb5c69",
+  "official_md5": "aac8191d4fbc5bf09cdf8c3c78b4e75f",
+  "node_file": "data/kg_enrichment/raw/primekg/2022-05/nodes.tab",
+  "node_sha256": "301644c421b436fb6d5f548954a5d77749d87ff8ecbf27d42f41c07a075a2ad3",
+  "node_official_md5": "7f9ab4109c54049e819ecd14e15a6038",
+  "records_raw": 8100498,
+  "records_valid": 1026,
+  "records_rejected_or_out_of_scope": 8099472,
+  "selection": "Top10 exact canonical/alias drug name; significant mapped S1 genes (FDR<0.05); breast cancer disease labels; selected native PrimeKG relations; no fuzzy drug matching",
+  "counts": {
+    "raw_records": 8100498,
+    "candidate_exact_name_matches": {
+      "BRD-K92093830": [
+        "14275"
+      ],
+      "BRD-K44227013": [
+        "15030"
+      ],
+      "BRD-A00147595": [
+        "15695"
+      ],
+      "BRD-K11153516": [
+        "19031"
+      ],
+      "BRD-K16485616": [
+        "19283"
+      ],
+      "BRD-K76694128": [
+        "21741"
+      ]
+    },
+    "candidate_identity_coverage": "6/10",
+    "breast_neoplasm_nodes": 7,
+    "s1_significant_gene_nodes_matched": 6087,
+    "candidate_target_gene_nodes": 52,
+    "subset_edges": 1026,
+    "subset_relations": {
+      "disease_protein": 414,
+      "drug_protein": 58,
+      "protein_protein": 554
+    }
+  },
+  "normalized_nodes": "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_nodes.csv",
+  "normalized_edges": "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_edges.csv",
+  "warning": "PrimeKG relations are association-level for this project; no causal sign or ER+ specificity is inferred. PrimeKG is excluded from S1/S2 model inputs and only used as an external knowledge/evidence layer."
+}

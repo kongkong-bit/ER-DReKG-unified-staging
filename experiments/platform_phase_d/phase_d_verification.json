@@ -1,0 +1,255 @@
+{
+  "status": "PASS",
+  "scope": "Read-only local Vite proxy and project API integration; not a visual desktop-browser test.",
+  "checked_at_utc": "2026-11-14T09:44:09.626187+00:00",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "checks": {
+    "vite_home": {
+      "status": 200,
+      "html_bytes": 577
+    },
+    "vite_react_module": {
+      "status": 200,
+      "page_modules_http_200": [
+        "DashboardPage",
+        "RunComparisonPage",
+        "S1Page",
+        "S2Page",
+        "GraphPage",
+        "DrugPage"
+      ],
+      "project_dialog_module_http_200": 200,
+      "route_code_split": true,
+      "shell_avoids_static_antd_import": true,
+      "project_dialogs_load_on_demand": true,
+      "drug_detail_components_present": true,
+      "independent_cohort_validation_page_present": true,
+      "analysis_run_comparison_page_present": true,
+      "run_status_dashboard_present": true,
+      "direct_vs_context_edge_filter_present": true,
+      "graph_edge_evidence_dialog_present": true,
+      "live_build_counts_separated_from_snapshot": true
+    },
+    "project_list_proxy": {
+      "status": 200,
+      "project_found": true,
+      "status_label": "active"
+    },
+    "project_study_api": {
+      "status": 200,
+      "study_count": 1,
+      "study_accession": "GSE42568",
+      "datasets_linked_to_study": 2
+    },
+    "s1_summary": {
+      "status": 200,
+      "tested_genes": 21655
+    },
+    "external_s1_validation": {
+      "status": 200,
+      "source_dataset": "GSE139038",
+      "paired_patients": 14,
+      "total_conditions": 3715,
+      "summary_sha256": "ab6847a459f8b71d613151aa243eeb9b68b4e93a0b74941c4ee5c6707cfb60c3",
+      "ranking_sha256": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588"
+    },
+    "candidate_list": {
+      "status": 200,
+      "candidate_count": 50
+    },
+    "analysis_run_comparison": {
+      "status": 200,
+      "run_type": "kg_graph_bundle",
+      "run_a_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+      "run_b_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:39f13a70-03b7-4b05-bfb9-294898974973",
+      "identical_input_hashes": false
+    },
+    "run_status": {
+      "status": 200,
+      "job_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:54530b3e-efcd-4629-9345-d61f5c4363f7",
+      "state": "completed",
+      "progress": 100,
+      "description": "同步 AnalysisRun 状态；任务队列未启用。"
+    },
+    "integrated_evidence_matrix": {
+      "status": 200,
+      "total": 819,
+      "page_rows": 100
+    },
+    "phase_f_candidate_evidence": {
+      "status": 200,
+      "total": 819,
+      "unique_perturbagens": 819,
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "source_sha256": "adbf617d6b79a6f1d2f8e0ee3b78677600d6a2695bef0a9d2e5f3236e1322363"
+    },
+    "condition_pages": {
+      "status": 200,
+      "rows": 240,
+      "unique_condition_keys": 240
+    },
+    "dose_stability": {
+      "status": 200,
+      "candidate_rows": 50,
+      "top_n": 10
+    },
+    "graph_summary": {
+      "status": 200,
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+      "node_count": 6850,
+      "edge_count": 38657,
+      "disease_contexts": 1
+    },
+    "graph_build_evidence_records": {
+      "status": 200,
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+      "record_count": 38998,
+      "source_sha256": "4a1a3a5cf7ece3a8ef43cf3b950b2aa6a18442938e940f19ab263e8142ed91c6"
+    },
+    "graph_build_disease_contexts": {
+      "status": "PASS",
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+      "context_count": 1,
+      "source_sha256": "16d3fdf3aae73e094811f3f9eea8f81ea930d026e772906892f7e14de09f23dc"
+    },
+    "mechanism_routes": {
+      "status": 200,
+      "pert_id": "BRD-A00147595",
+      "route_count": 82
+    },
+    "graph_edge_evidence": {
+      "status": 200,
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+      "evidence_id": "8ebcc95977b0455a88b112f8fd873d6567d73e18cb123dd030fd8449876f327f",
+      "source_release": "Project S1 pathway enrichment",
+      "assertion_sha256": "28e1b5b78db722f27974cbb66047cbee46385a3fc50138226242ed12065a8616"
+    },
+    "historical_graph_evidence": {
+      "status": 200,
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+      "evidence_id": "2cfeaaa2b83e494b63fd450c4e19efaeb2cd350d6ad8375feeb725beb6866684",
+      "source_release": "Project S2 LINCS results"
+    },
+    "frontend_bundle_sizes": {
+      "entry_file": "index-G_hT0aHS.js",
+      "entry_bytes": 313957,
+      "initial_static_dependency_files": [
+        "index-G_hT0aHS.js"
+      ],
+      "initial_static_dependency_bytes": 313957,
+      "route_chunk_count": 6,
+      "largest_route_chunk_bytes": 20502,
+      "chart_chunk_bytes": 573891,
+      "cytoscape_chunk_bytes": 451171,
+      "chart_chunk_sha256": "a857935ea602e117604e92c743d149a8e82501b394fbabb97bd055de362e8af7"
+    }
+  },
+  "frontend_js_assets": [
+    {
+      "file": "frontend/dist/assets/ChartRenderer-DQ8LBpqy.js",
+      "bytes": 573891,
+      "sha256": "a857935ea602e117604e92c743d149a8e82501b394fbabb97bd055de362e8af7"
+    },
+    {
+      "file": "frontend/dist/assets/cytoscape.esm-LkGdbv2U.js",
+      "bytes": 451171,
+      "sha256": "e7476f1a7476424cfc12445b26744919ab5bb2d791a38dedd2c28c62e77aa860"
+    },
+    {
+      "file": "frontend/dist/assets/DashboardPage-BfVHz0FI.js",
+      "bytes": 5625,
+      "sha256": "7c6a459e3d9867b00bcd395a0e76cf9f8cd3d2a27758943c524dc7929a2898d5"
+    },
+    {
+      "file": "frontend/dist/assets/DrugPage-CoS1RVXa.js",
+      "bytes": 6208,
+      "sha256": "5297764dde7c94b8921b89db07b4da8de1d273486705288cd1eab141c43ee10c"
+    },
+    {
+      "file": "frontend/dist/assets/GraphPage-C02jUqd0.js",
+      "bytes": 13592,
+      "sha256": "dcccd20f7d601df635079aa9e15a6a251ac3f105e606f1f29bdb076a74c026e3"
+    },
+    {
+      "file": "frontend/dist/assets/index-C9IGmXmG.js",
+      "bytes": 23350,
+      "sha256": "2660fc20cf78cf3260e55018756907c5c6b54fc57978c7588644a3428f2740fb"
+    },
+    {
+      "file": "frontend/dist/assets/index-CUFejaeZ.js",
+      "bytes": 9018,
+      "sha256": "a63e63656e9fe35f20cdcd3855162cadebb0e647a0a0f9e58a165f31ff7edfb8"
+    },
+    {
+      "file": "frontend/dist/assets/index-DthysN39.js",
+      "bytes": 100002,
+      "sha256": "714623a6bc0c85e9d224b42993dfb81288e4dd563bae9b9d23abdaaf1f0ba799"
+    },
+    {
+      "file": "frontend/dist/assets/index-DWzKWsnn.js",
+      "bytes": 45414,
+      "sha256": "9d55b4c5f033509d107e747a1c11ef5c63f30487b4a1933893980730155568b9"
+    },
+    {
+      "file": "frontend/dist/assets/index-G_hT0aHS.js",
+      "bytes": 313957,
+      "sha256": "3d47a45d37d913aee1c91cc2524e4429fb745852fd9a15a4d4948d77870a8cec"
+    },
+    {
+      "file": "frontend/dist/assets/index-nuRl4oyf.js",
+      "bytes": 30504,
+      "sha256": "0dbe20eddfff86794e04464c22efc27fada0be16b3a7bcba591f54ddebe0673b"
+    },
+    {
+      "file": "frontend/dist/assets/index-xmAONOtc.js",
+      "bytes": 4390,
+      "sha256": "8093365e854bb48b1585cfafe1d4749c90743e0dffac15a8e94b2455bca8808a"
+    },
+    {
+      "file": "frontend/dist/assets/ProjectDialogs-BbMTVf9a.js",
+      "bytes": 29842,
+      "sha256": "99d06612ce467b67f8cd48256fad078ddc3af7a28227beab1ced20ff9567d574"
+    },
+    {
+      "file": "frontend/dist/assets/RunComparisonPage-BnQQgZRN.js",
+      "bytes": 6276,
+      "sha256": "604f68a9cdfdcfcc8a0bed02e6a10674773e4e0d93a27a10f628fa1a3c44812e"
+    },
+    {
+      "file": "frontend/dist/assets/S1Page-B3HV88Bp.js",
+      "bytes": 20502,
+      "sha256": "334a197296fb40e91ef6cc05f37e1fdaa68699d8e4cb9a89745b5c2b9b129b39"
+    },
+    {
+      "file": "frontend/dist/assets/S2Page-FKrX_kgq.js",
+      "bytes": 11105,
+      "sha256": "bfb278141cfbb39e819f2d4e2d619b1d12f77f7d2a7db23ce94172ac9a638a82"
+    },
+    {
+      "file": "frontend/dist/assets/Table-D6QJ-45R.js",
+      "bytes": 232774,
+      "sha256": "586b77c88c9a28f217809f1742ff65d383f7f228404e70a4de62280d68e4184b"
+    },
+    {
+      "file": "frontend/dist/assets/TextArea-gUH633hv.js",
+      "bytes": 369590,
+      "sha256": "7c095368faa4325ffd117960a0184e51acc22983f61a98f397585c8f6a28273e"
+    },
+    {
+      "file": "frontend/dist/assets/useClosable-LdDWomgX.js",
+      "bytes": 1191,
+      "sha256": "d9ea9d76fc35e8b4a5b4f7d88c78179cfb1cd441793bf311453e8ca5f68ee837"
+    },
+    {
+      "file": "frontend/dist/assets/useForm-BS-h1gUY.js",
+      "bytes": 7425,
+      "sha256": "95c53473d2ec3f56cf20eff59d6b864f4228bb8195df75d291ff5557590b13a9"
+    }
+  ],
+  "limitations": [
+    "Desktop browser visual interaction was not verified in this run.",
+    "Production authentication/authorization and deployment hardening remain incomplete.",
+    "API checks validate data contracts and live responses, not every user interaction or responsive layout."
+  ]
+}

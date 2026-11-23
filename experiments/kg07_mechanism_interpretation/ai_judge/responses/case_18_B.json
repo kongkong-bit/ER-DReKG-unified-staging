@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "8dd51ce16d97c292a8f8a63a04d882c07201b687bc54b304bb68ba12268f458c",
+  "evidence_input_sha256": "0c06119dc9e458c4fd213f9be9058f320d51ff05e8e024a000603f0147a45b60",
+  "latency_seconds": 8.62811689999944,
+  "usage": {
+    "completion_tokens": 497,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2800,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3297
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两条S2条件（MCF7|trt_cp|10.0um|24h与3.33um|24h）均有evidence_id且verified_in_postgres=true，支持'2条分条件观测'；WTCS为表达逆转关联分数与关系'association'一致，不涉方向性因果声明。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "4f87922b43048c6ae8c120ffcd81ec0a31bc426c12c9e6f08a359b06f347a132",
+        "supports_claim": true,
+        "reason": "对应MCF7 10.0um|24h条件，verified_in_postgres=true，支持2条S2条件观测之一。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "571683257c3149b5597db97b179e7b1eff6f03e33ef600bbfd935bbb3114a68c",
+        "supports_claim": true,
+        "reason": "对应MCF7 3.33um|24h条件，verified_in_postgres=true，支持2条S2条件观测之一。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 2,
+        "accurate": true,
+        "reason": "coverage显示direct_target_path_count=0、public_pathway_path_count=0、path_count=0，evidence_gaps确认无靶点断言与通路路径，'机制证据不足'表述与包内覆盖一致。"
+      }
+    ],
+    "limitations": [
+      "化合物无精确InChIKey映射（mapping_status=unmatched_no_exact_inchikey），compound_id为空",
+      "每个S2条件仅n_signatures=1，QC敏感性范围0.256，stability_grade=low",
+      "3.33um剂量条件WTCS=0.0且quality_cc_median=0.28、TAS较低，观测质量受限",
+      "该候选为auto评审：本审阅为AI自动评审，非人工评审"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:11:38.372297+00:00"
+}

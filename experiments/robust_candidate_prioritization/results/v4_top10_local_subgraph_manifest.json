@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "schema_version": "robust-top10-local-subgraph-v1",
+  "generated_utc": "2026-11-22T14:52:41.434792+00:00",
+  "generator_sha256": "28a6856f2ce204e6afb0c713b4cd1441e3a9b0b8cc13e65ad61ba02544a01445",
+  "ranking_manifest_created_utc": "2026-11-22T13:48:06.857153+00:00",
+  "inputs": {
+    "v4_manifest.json": "42c8b48d6ad798d09b3f476a2acb0531443a61ce1ec67a39a9597c3bab5b52f6",
+    "v4_mechanism_top10.csv": "ba57ac7b793509351c2dc9c2117388b915e0ada718b301765906e9183455a0ae",
+    "v4_chains.csv": "90227364329acbbd01cf5e40727a22d2cb4dc23aa674e001ad7da82ea4782794",
+    "graph_bundle_manifest.json": "c2c9f0f54782af88fabbeb9cd1311d7643a4fa43cdd9aa0f583ba872eb860704",
+    "subgraph_nodes.csv": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee",
+    "subgraph_edges.csv": "10a345da91c9e462c8f561d439162194f306575f6d9ee514fe57c2c1049938f8",
+    "evidence_records.csv": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70",
+    "candidate_mapping_audit.csv": "f7291330df06eead8e53bcc588dedb8e964ed9371f81aec494ae148ba5502525"
+  },
+  "outputs": {
+    "experiments/robust_candidate_prioritization/results/v4_top10_local_subgraph.json": "cf5716a448f162b19c2450c30cb7025bb2eb8a689dbb48d7209293d2cb9cdd5c",
+    "frontend/public/robust-top10-subgraph.json": "cf5716a448f162b19c2450c30cb7025bb2eb8a689dbb48d7209293d2cb9cdd5c"
+  },
+  "counts": {
+    "candidate_count": 10,
+    "candidate_nodes": 10,
+    "mapped_graph_drugs": 10,
+    "target_nodes": 18,
+    "pathway_nodes": 163,
+    "edge_count": 323,
+    "missing_routes": []
+  }
+}

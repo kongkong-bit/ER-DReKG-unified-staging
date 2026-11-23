@@ -1,0 +1,185 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K69932463",
+    "drug_name": "AZD-8055",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1801204",
+    "rank": "42"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 1,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 3,
+    "verified_evidence_count": 3,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "AZD-8055 (BRD-K69932463, CHEMBL1801204) 在 S2 LINCS 分析中整体 WTCS 得分为 -0.3895（6 个条件，排名 42），候选由分析运行 ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57 产生；逆转分数仅为数据关联信号，不构成临床疗效证据。",
+        "relation": "association",
+        "evidence_ids": [
+          "1d787de51e69743cc66fa871a13b255cd65622c77544efa2f494a7d6cc2b2958",
+          "f820bf76ae5a05567d6be32ccd90cd1186eaa7415ecdaea4cde5612ba17c3305"
+        ],
+        "path_ids": [
+          "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "在 MCF7 细胞（trt_cp，24 h）中，随剂量升高 WTCS 负值加深：0.04 µm WTCS=-0.190（rank 1246）、0.12 µm WTCS=-0.271（rank 826）、0.37 µm WTCS=-0.261（rank 898）、1.11 µm WTCS=-0.368（rank 248）、3.33 µm WTCS=-0.253（rank 969）、10.0 µm WTCS=-0.390（rank 169）；各条件均有已验证 EvidenceRecord。",
+        "relation": "association",
+        "evidence_ids": [
+          "5353d9933dea1b0e71338adf01f770b07f970fd255e9663586998f68285b256a",
+          "975263e7791a2fb78798eaeeb9583343605cc7d3b710c8156df17dd236316978",
+          "e58be23fc0ef130a6c4503520c20195c70b5332278bb93fdb410ed6df3c06d31",
+          "505c6b2dec87c4807a0cca7224eb7eba77658c4f1aff0e8432765f8dab7291fd",
+          "578aedbad50c7c6b49739b368e70624f02462cea1f3828e4a8639c70ce74e425",
+          "839e052de85240d5025e45c4de21c1257eb533747147c89f57719e5c57d64b25"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "OptimusKG 3.2（来源 OPEN_TARGETS，PMID 20028854）断言 CHEMBL1801204（AZD-8055）为 ENSG00000198793（mTOR，丝氨酸/苏氨酸蛋白激酶）的 INHIBITOR，机制注释为 'Serine/threonine-protein kinase mTOR inhibitor'；该条路径无关系冲突，且来源明确写出抑制动作。",
+        "relation": "inhibition",
+        "evidence_ids": [
+          "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0"
+        ],
+        "path_ids": [
+          "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "假设（非结论）：AZD-8055 通过抑制 mTOR（ENSG00000198793）在 MCF7 中产生逆转信号，且该信号随剂量增强（WTCS 从 -0.190 降至 -0.390）；但输入数据中无 mTOR 到公开通路或 S1 富集/DEG 的路径支持该机制链条，故仅为基于直接靶点断言与筛选信号的假设。",
+        "relation": "association",
+        "evidence_ids": [
+          "2490f0c5aeeda583c9f9fc675e6d814995015f5fc14151e3a777111a9fb6c1c0",
+          "839e052de85240d5025e45c4de21c1257eb533747147c89f57719e5c57d64b25"
+        ],
+        "path_ids": [
+          "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f"
+      }
+    ],
+    "limitations": [
+      "逆转分数（WTCS）、PRISM 敏感性和图谱路径均为计算性关联信号，不构成临床疗效证据。",
+      "仅单一细胞系（MCF7，24 h，6 个剂量）的 S2 条件证据，且每条件 n_signatures=1，样本量极小。",
+      "部分上游断言缺少 source URL，仅保留 source_record_id 与 source_release。",
+      "无靶点-通路或靶点-疾病机制链条路径（public_pathway_path_count=0，S1 重叠均为 0）。",
+      "Exp006 与 Phase F/PRISM 数据因缺少可引用 ID 被排除，独立验证维度证据不足。"
+    ],
+    "uncited_or_uncertain": [
+      "输入中提及 Exp006 汇总与 Phase F/PRISM 数值，但未提供可核验 EvidenceRecord/Path ID，未据此作任何机制或疗效断言。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 22.895,
+  "usage": {
+    "completion_tokens": 1698,
+    "completion_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "prompt_tokens": 10490,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 12188
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true
+}

@@ -1,0 +1,31 @@
+{
+  "source_formal_qc_summary": [
+    {
+      "stage": "MCF7_trt_cp_all",
+      "signatures": "12737",
+      "drugs": "1785"
+    },
+    {
+      "stage": "24h",
+      "signatures": "11850",
+      "drugs": "1750"
+    },
+    {
+      "stage": "24h_cc_q75_ge_0.2",
+      "signatures": "4761",
+      "drugs": "1191"
+    }
+  ],
+  "source_eligible_signatures": 4761,
+  "source_eligible_perturbagens": 1191,
+  "project_seed_perturbagens": 50,
+  "project_seed_signatures": 315,
+  "project_seed_condition_rows": 240,
+  "scheme": "B",
+  "cell_id": "MCF7",
+  "pert_type": "trt_cp",
+  "time": "24 h",
+  "quality_threshold": "distil_cc_q75 >= 0.2",
+  "seed_rule": "Exp006 candidate_drugs_top50.csv: 50 unique perturbagens; retain all scheme-B dose-specific condition rows; no per-drug best-dose selection",
+  "historical_import": true
+}

@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-22T08:32:21.622232+00:00",
+  "git_commit": "be7f8579dfe4ca09d84fd08d4e9ee2f364549b58",
+  "frozen_source": "experiments\\final_results\\results\\final_top10.csv",
+  "frozen_source_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "graph_runtime": {
+    "status": "UNAVAILABLE",
+    "reason": "Docker daemon API denied; no live Neo4j socket verified"
+  },
+  "offline_source": "OptimusKG 3.2 + versioned Top 10 GraphBundles",
+  "offline_graph_counts": [
+    {
+      "path": "reports\\top10_kg\\top10_graph_bundle\\3928c54d",
+      "status": "validated",
+      "run_id": "ANALYSIS_RUN:KG_TOP10_BUNDLE:3928c54d-dd66-4f0a-b346-a798c1f70890",
+      "nodes": 6639,
+      "edges": 38388,
+      "manifest_sha256": "341806e6ecfe004381617148a4c61af5daf114e319a1eb32f629c2d32bf389a2"
+    },
+    {
+      "path": "reports\\top10_kg\\top10_graph_bundle\\3928c54d_external_v1",
+      "status": "validated_with_external_evidence_overlay",
+      "run_id": "ANALYSIS_RUN:KG_TOP10_BUNDLE:3928c54d-dd66-4f0a-b346-a798c1f70890:EXTERNAL_EVIDENCE_V1",
+      "nodes": 6643,
+      "edges": 38394,
+      "manifest_sha256": "30ae77db16435419ea5aa9c4d4e4c9bb224e79d4cd9c15927668b6b183cb1821"
+    }
+  ],
+  "top10": [
+    {
+      "rank": 1,
+      "pert_id": "BRD-K44227013",
+      "pert_iname": "ponatinib",
+      "sig_id": "LJP009_MCF7_24H:E19",
+      "wtcs": -0.5166541987270137,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.63,
+        "TAS_median": 0.54376,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K44227013",
+      "standard_drug_id": "CHEMBL1171837",
+      "target_assertion_rows": 21,
+      "target_relation_counts": {
+        "ENZYME": 4,
+        "INHIBITOR": 2,
+        "TARGET": 13,
+        "TRANSPORTER": 2
+      },
+      "target_symbols": [
+        "FGFR2",
+        "FGFR3",
+        "FGFR1",
+        "ABCB1",
+        "ABL1",
+        "CYP2D6",
+        "CYP3A5",
+        "ABCG2",
+        "TEK",
+        "FLT3",
+        "KDR",
+        "PDGFRA",
+        "CYP2C8",
+        "KIT",
+        "FGFR4",
+        "CYP3A4",
+        "RET",
+        "LCK",
+        "BCR",
+        "SRC",
+        "LYN"
+      ],
+      "target_node_count": 21,
+      "traceable_target_evidence_records": 21
+    },
+    {
+      "rank": 2,
+      "pert_id": "BRD-K16485616",
+      "pert_iname": "mocetinostat",
+      "sig_id": "LJP008_MCF7_24H:I07",
+      "wtcs": -0.5059000597374851,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.74,
+        "TAS_median": 0.600766,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K16485616",
+      "standard_drug_id": "CHEMBL272980",
+      "target_assertion_rows": 5,
+      "target_relation_counts": {
+        "INHIBITOR": 5
+      },
+      "target_symbols": [
+        "HDAC1",
+        "HDAC8",
+        "HDAC11",
+        "HDAC3",
+        "HDAC2"
+      ],
+      "target_node_count": 5,
+      "traceable_target_evidence_records": 5
+    },
+    {
+      "rank": 3,
+      "pert_id": "BRD-K56405753",
+      "pert_iname": "MK-2461",
+      "sig_id": "REP.A015_MCF7_24H:D19",
+      "wtcs": -0.48409208472176235,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.6,
+        "TAS_median": 0.530655,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K56405753",
+      "standard_drug_id": "CHEMBL1822792",
+      "target_assertion_rows": 1,
+      "target_relation_counts": {
+        "INHIBITOR": 1
+      },
+      "target_symbols": [
+        "MET"
+      ],
+      "target_node_count": 1,
+      "traceable_target_evidence_records": 1
+    },
+    {
+      "rank": 4,
+      "pert_id": "BRD-K92093830",
+      "pert_iname": "doxorubicin",
+      "sig_id": "REP.A026_MCF7_24H:L19",
+      "wtcs": -0.46716938932002616,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.58,
+        "TAS_median": 0.616557,
+        "replicates_median": 2
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K92093830",
+      "standard_drug_id": "CHEMBL53463",
+      "target_assertion_rows": 31,
+      "target_relation_counts": {
+        "CARRIER": 1,
+        "ENZYME": 17,
+        "INHIBITOR": 1,
+        "TARGET": 1,
+        "TRANSPORTER": 11
+      },
+      "target_symbols": [
+        "SLC22A16",
+        "NOS2",
+        "RALBP1",
+        "ABCC2",
+        "ABCB11",
+        "ABCB1",
+        "NOS1",
+        "ABCC6",
+        "CYP2D6",
+        "ABCC1",
+        "ABCC3",
+        "NDUFS7",
+        "AKR1A1",
+        "ABCG2",
+        "ABCC10",
+        "POR",
+        "TOP2A",
+        "CYP1B1",
+        "XDH",
+        "NDUFS2",
+        "CBR1",
+        "CBR3",
+        "CYP3A4",
+        "ALB",
+        "NOS3",
+        "NOLC1",
+        "NQO1",
+        "AKR1C3",
+        "ABCB8",
+        "CYP2B6",
+        "NDUFS3"
+      ],
+      "target_node_count": 31,
+      "traceable_target_evidence_records": 31
+    },
+    {
+      "rank": 5,
+      "pert_id": "BRD-K76694128",
+      "pert_iname": "rebastinib",
+      "sig_id": "LJP007_MCF7_24H:I19",
+      "wtcs": -0.4578457223071144,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.77,
+        "TAS_median": 0.73008,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+      "standard_drug_id": "CHEMBL1738757",
+      "target_assertion_rows": 1,
+      "target_relation_counts": {
+        "INHIBITOR": 1
+      },
+      "target_symbols": [
+        "ABL1"
+      ],
+      "target_node_count": 1,
+      "traceable_target_evidence_records": 1
+    },
+    {
+      "rank": 6,
+      "pert_id": "BRD-K50000283",
+      "pert_iname": "PHA-767491",
+      "sig_id": "LJP007_MCF7_24H:J01",
+      "wtcs": -0.45641915537856553,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.69,
+        "TAS_median": 0.639689,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K50000283",
+      "standard_drug_id": "CHEMBL225519",
+      "target_assertion_rows": 2,
+      "target_relation_counts": {
+        "INHIBITOR": 2
+      },
+      "target_symbols": [
+        "CDC7",
+        "CDK9"
+      ],
+      "target_node_count": 2,
+      "traceable_target_evidence_records": 2
+    },
+    {
+      "rank": 7,
+      "pert_id": "BRD-K11153516",
+      "pert_iname": "iniparib",
+      "sig_id": "REP.A005_MCF7_24H:P01",
+      "wtcs": -0.4552728740394625,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.42,
+        "TAS_median": 0.529961,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K11153516",
+      "standard_drug_id": "CHEMBL1170047",
+      "target_assertion_rows": 1,
+      "target_relation_counts": {
+        "TARGET": 1
+      },
+      "target_symbols": [
+        "PARP1"
+      ],
+      "target_node_count": 1,
+      "traceable_target_evidence_records": 1
+    },
+    {
+      "rank": 8,
+      "pert_id": "BRD-A00147595",
+      "pert_iname": "balaglitazone",
+      "sig_id": "REP.A012_MCF7_24H:B07",
+      "wtcs": -0.45273824135333623,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.28,
+        "TAS_median": 0.219313,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-A00147595",
+      "standard_drug_id": "CHEMBL2103991",
+      "target_assertion_rows": 3,
+      "target_relation_counts": {
+        "ENZYME": 2,
+        "PARTIAL_AGONIST": 1
+      },
+      "target_symbols": [
+        "PPARG",
+        "CYP2C8",
+        "CYP3A4"
+      ],
+      "target_node_count": 3,
+      "traceable_target_evidence_records": 3
+    },
+    {
+      "rank": 9,
+      "pert_id": "BRD-K13094524",
+      "pert_iname": "PFI-1",
+      "sig_id": "LJP008_MCF7_24H:G01",
+      "wtcs": -0.45137618549292147,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.6,
+        "TAS_median": 0.453345,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K13094524",
+      "standard_drug_id": "CHEMBL2179387",
+      "target_assertion_rows": 2,
+      "target_relation_counts": {
+        "INHIBITOR": 2
+      },
+      "target_symbols": [
+        "BRD2",
+        "BRD4"
+      ],
+      "target_node_count": 2,
+      "traceable_target_evidence_records": 2
+    },
+    {
+      "rank": 10,
+      "pert_id": "BRD-K83837640",
+      "pert_iname": "JNJ-26481585",
+      "sig_id": "REP.A021_MCF7_24H:J07",
+      "wtcs": -0.4466023835944845,
+      "cell_line": "MCF7",
+      "dose": "10.0 um",
+      "treatment_time": "24 h",
+      "n_signatures": 1,
+      "qc_metrics": {
+        "CC_median": 0.83,
+        "TAS_median": 0.773507,
+        "replicates_median": 3
+      },
+      "analysis_version": "final_results_manifest 2026-11-15; WTCS protocol recorded in source manifest",
+      "candidate_node_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K83837640",
+      "standard_drug_id": "CHEMBL2105763",
+      "target_assertion_rows": 11,
+      "target_relation_counts": {
+        "INHIBITOR": 11
+      },
+      "target_symbols": [
+        "HDAC9",
+        "HDAC7",
+        "HDAC4",
+        "HDAC6",
+        "HDAC10",
+        "HDAC5",
+        "HDAC1",
+        "HDAC8",
+        "HDAC11",
+        "HDAC3",
+        "HDAC2"
+      ],
+      "target_node_count": 11,
+      "traceable_target_evidence_records": 11
+    }
+  ]
+}

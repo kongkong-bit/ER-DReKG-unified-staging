@@ -1,0 +1,87 @@
+{
+  "status": "offline_sources_normalized_subgraphs_built_and_two_staging_graphbuilds_validated",
+  "generic_tsv_normalizer_tests": "kg/tests/test_kg_enrichment.py",
+  "reactome_current_2026_10": {
+    "license": "CC0 1.0 Universal",
+    "human_pathway_nodes": 2889,
+    "raw_hierarchy_records": 23762,
+    "human_hierarchy_records": 2905,
+    "rejected_nonhuman_or_unmapped_hierarchy_records": 20857,
+    "direction_semantics": "child SUBPATHWAY_OF parent; sign unknown; hierarchy only"
+  },
+  "signor_oct2026": {
+    "license": "CC BY 4.0",
+    "records_raw": 43727,
+    "records_valid": 18286,
+    "records_rejected": 25441,
+    "filters": [
+      "Homo sapiens taxon 9606",
+      "protein-protein",
+      "UniProt-UniProt",
+      "DIRECT=t",
+      "explicit up/down regulation"
+    ],
+    "source_sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd092e5fae511ef9d06"
+  },
+  "omnipath_current_2026_11_22": {
+    "license_filter": "academic; per-resource license and URL retained",
+    "raw_interaction_rows": 86189,
+    "signed_source_assertions": 73915,
+    "positive_assertions": 65627,
+    "negative_assertions": 8288,
+    "rejected_rows": 15650,
+    "source_sha256": "1092e4ee04f02bac0da89d0ea8d93570b2c54178be69656bf2a6780f8d6977e5"
+  },
+  "uniprot_gene_crosswalk": {
+    "source": "OptimusKG 3.2 gene associated_proteins",
+    "unique_accessions": 27895,
+    "unique_gene_targets": 27895,
+    "ambiguous_accessions": 0
+  },
+  "drugmechdb_independent_evaluation": {
+    "release": "2.0.1",
+    "license": "CC0 1.0 Universal",
+    "raw_path_records": 4846,
+    "strict_exact_name_breast_neoplasm_matches": 1,
+    "mapped_direct_target_overlap": "1/1",
+    "scope": "independent reference only; not inserted into predictive KG; broad MeSH breast-neoplasm category, not ER+"
+  },
+  "candidate_network_filter": {
+    "mapped_assertions_before_hub_filter": 7306,
+    "excluded_hub_sources": 5,
+    "excluded_hub_assertions": 1032,
+    "assertions_after_hub_filter": 6274,
+    "conflict_or_potential_conflict_pairs": 107,
+    "top10_signed_paths": 349,
+    "top10_path_coverage": "9/10"
+  },
+  "interpretation": "Normalization remains a reproducible offline process; pathway annotation is noncausal; S1 transcript direction is not protein activity; unknown/conflicting regulation propagates as unknown. The path-supporting Top10 assertion subset was separately packaged and imported through a registered GraphBundle into isolated staging; the full normalized networks remain in source files.",
+  "primekg_dataverse_v2": {
+    "license": "CC0-1.0",
+    "official_md5_verified": true,
+    "raw_rows": 8100498,
+    "records_valid_in_top10_subset": 1026,
+    "candidate_identity_coverage": "6/10",
+    "relationships": {
+      "drug_protein": 58,
+      "protein_protein": 554,
+      "disease_protein": 414
+    },
+    "sign": "unknown",
+    "direction": "undirected_or_unspecified",
+    "status": "target_subset_imported_to_isolated_staging_association_layer",
+    "records_imported": 978,
+    "records_mapping_rejected": 48,
+    "gene_node_mapping_rejects": 44
+  },
+  "reactome_current_gene_pathways": {
+    "release": "current-2026-10",
+    "records_raw": 946459,
+    "human_rows": 162642,
+    "records_valid": 54361,
+    "records_rejected": 108281,
+    "mapping": "exact unique UniProt to OptimusKG gene",
+    "status": "imported_as_unsigned_graphbuild_annotation_layer_and_annotated_in_offline_candidate_paths",
+    "signed_regulation": false
+  }
+}

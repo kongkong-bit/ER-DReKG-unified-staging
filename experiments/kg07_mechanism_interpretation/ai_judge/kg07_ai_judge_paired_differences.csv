@@ -1,0 +1,10 @@
+﻿contrast,metric,n_paired,mean_paired_difference
+KG 规则模板 minus Direct LLM,supported_claim_fraction,20,0.4630952380952381
+KG 规则模板 minus Direct LLM,citation_precision,0,
+KG 规则模板 minus Direct LLM,uncertainty_accuracy,6,0.0
+KG + LLM minus Direct LLM,supported_claim_fraction,20,0.4303174603174603
+KG + LLM minus Direct LLM,citation_precision,0,
+KG + LLM minus Direct LLM,uncertainty_accuracy,20,0.3458333333333334
+KG + LLM minus KG 规则模板,supported_claim_fraction,20,-0.03277777777777778
+KG + LLM minus KG 规则模板,citation_precision,20,-0.06936507936507937
+KG + LLM minus KG 规则模板,uncertainty_accuracy,6,0.0

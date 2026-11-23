@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "formal_source": "../../s2_lincs/results/formal_signature_scores.csv",
+  "dose_selection_rule": "Q2 exact dose with maximum unique pert_id coverage; tie-break lexical dose string",
+  "primary_dose": "10.0 um",
+  "qc_thresholds": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "quality_filter": "MCF7,trt_cp,24 h, distil_cc_q75 >= threshold; -666 treated missing",
+  "drug_condition_key": [
+    "pert_id",
+    "cell_id",
+    "dose",
+    "time"
+  ],
+  "drug_condition_aggregation": "median WTCS; retain mean, SD, MAD, n_signatures",
+  "stability_grade_rules": {
+    "high": "n_signatures>=3 at primary dose; >=3 doses; negative dose fraction>=0.75; no sign flip; QC median range<0.15; rank_A<=50",
+    "medium": "n_signatures>=2; >=2 doses; negative dose fraction>=0.5; rank_A<=100",
+    "low": "one signature or fewer than two doses",
+    "insufficient": "otherwise"
+  },
+  "random_seed": 42,
+  "outputs": [
+    "00_condition_coverage.csv",
+    "candidate_drugs_all.csv",
+    "candidate_drugs_top50.csv",
+    "candidate_evidence_matrix.csv",
+    "drug_rank_changes.csv",
+    "E01_AB_rank_comparison.csv",
+    "E01_topk_metrics.csv",
+    "E02_dose_examples.csv",
+    "E02_dose_stability.csv",
+    "E03_q1_incremental_scores.csv",
+    "E03_qc_overlap_metrics.csv",
+    "E03_qc_sensitivity.csv"
+  ]
+}

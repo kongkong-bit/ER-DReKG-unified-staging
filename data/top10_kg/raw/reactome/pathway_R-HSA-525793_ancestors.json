@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.873986+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-525793/ancestors",
+    "response_sha256": "52005fb1e617f305b46ccc096a59ae8d991b96afd88693401e7783545667868f",
+    "response_bytes": 754
+  },
+  "payload": [
+    [
+      {
+        "dbId": 525793,
+        "displayName": "Myogenesis",
+        "stId": "R-HSA-525793",
+        "name": [
+          "Myogenesis"
+        ],
+        "stIdVersion": "R-HSA-525793.4",
+        "oldStId": "REACT_21303",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_21303.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2010-03-16",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1400,
+        "diagramHeight": 631,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

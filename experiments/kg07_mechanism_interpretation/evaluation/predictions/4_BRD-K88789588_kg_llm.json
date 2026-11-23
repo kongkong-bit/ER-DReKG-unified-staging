@@ -1,0 +1,170 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88789588",
+    "drug_name": "letrozole",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1444",
+    "rank": "39"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 7,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 9,
+    "verified_evidence_count": 9,
+    "s2_condition_evidence_count": 1,
+    "verified_s2_condition_evidence_count": 1,
+    "s2_condition_count": 1,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF-7细胞10μM处理24h，WTCS为-0.39",
+        "relation": "association",
+        "evidence_ids": [
+          "12d47921701d7b7eca5c0adea32efafcefb636a78748a4510c4e6b4edf898729"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱路径显示与酶类靶点ENSG00000171234相关",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "1cf5f3f9ecc222a3b1911d95328265a485199a776129a41888a0225d5722a0bc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "ENSG00000137869路径报告酶及抑制剂作用",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "a9d8f7b6ea92e3bcb0137d79ecbef789321d56cb7d833017a27a9c313cfbaa01"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：与转运蛋白ENSG00000085563存在关联",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "ebb0ff8f4d3722a29bb908b8667de1e741e6f60e117dab9b0691b0127c1b3f3d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b"
+      }
+    ],
+    "limitations": [
+      "WTCS为计算逆转分数，非临床疗效证据",
+      "直接靶点路径未连接到通路注释",
+      "部分来源记录缺少来源URL"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 0,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 7.148,
+  "usage": {
+    "completion_tokens": 471,
+    "completion_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "prompt_tokens": 2004,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2475
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

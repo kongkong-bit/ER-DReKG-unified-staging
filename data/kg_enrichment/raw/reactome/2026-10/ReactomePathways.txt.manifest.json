@@ -1,0 +1,16 @@
+{
+  "source_name": "Reactome",
+  "source_url": "https://reactome.org/download/current/ReactomePathways.txt",
+  "release_version": "current-2026-10",
+  "retrieved_at": "2026-11-22T06:15:51.802521+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\reactome\\2026-10\\ReactomePathways.txt",
+  "license": "CC0 1.0 Universal",
+  "species": "Homo sapiens",
+  "schema_version": "Reactome pathways tab-separated export",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "content_length_header": null,
+  "status": "downloaded",
+  "bytes": 1596703,
+  "sha256": "b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f"
+}

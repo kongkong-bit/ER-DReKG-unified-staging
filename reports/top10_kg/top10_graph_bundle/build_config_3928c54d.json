@@ -1,0 +1,21 @@
+{
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568-top10",
+  "project_name": "ER-positive breast cancer formal Top 10 mechanism subset",
+  "disease_id": "MONDO:0007254",
+  "analysis_run_id": "ANALYSIS_RUN:KG_TOP10_BUNDLE:3928c54d-dd66-4f0a-b346-a798c1f70890",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5",
+  "enrichment_analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+  "test_only": false,
+  "s1_fdr_threshold": 0.05,
+  "s1_source_release": "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+  "s1_table": "D:\\CLASS\\syh\\reports\\top10_kg\\input_snapshot\\limma_all_genes.csv",
+  "s1_mapping_audit": "D:\\CLASS\\syh\\reports\\top10_kg\\input_snapshot\\gene_mapping_audit.csv",
+  "s2_conditions": "D:\\CLASS\\syh\\reports\\top10_kg\\input_snapshot\\top10_conditions.csv",
+  "pert_info_path": "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz",
+  "enrichment_dir": "D:\\CLASS\\syh\\reports\\top10_kg\\input_snapshot",
+  "public_kg_dir": "D:\\CLASS\\syh\\data\\optimuskg\\3.2",
+  "output_dir": "D:\\CLASS\\syh\\reports\\top10_kg\\top10_graph_bundle\\3928c54d",
+  "config_path": "D:\\CLASS\\syh\\reports\\top10_kg\\top10_graph_bundle\\build_config_3928c54d.json"
+}

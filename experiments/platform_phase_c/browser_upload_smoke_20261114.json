@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-11-14T08:52:00Z",
+  "status": "PASS",
+  "browser": "Microsoft Edge headless, DevTools Protocol",
+  "application_origin": "http://127.0.0.1:5173",
+  "project_id": "c493efde-981a-511c-9409-0fac7021b096",
+  "project_status": "test_only",
+  "dataset_type": "precomputed_deg",
+  "fixture": "synthetic_deg.csv",
+  "fixture_sha256": "f50483c6c4491bdf9a98179ea7f3030a814b7ad2b16c6bd75f50561bf296895b",
+  "dataset_id": "0327a50b-fd0a-44fa-beee-70ae9980986c",
+  "dataset_state": "validation_pending",
+  "validation": {
+    "detected_format": "csv",
+    "row_count": 1,
+    "column_count": 4,
+    "sample_annotation_required": false
+  },
+  "uploaded_file_exists": true,
+  "uploaded_file_sha256_matches": true,
+  "analysis_runs_before": 4,
+  "analysis_runs_after": 4,
+  "analysis_started": false,
+  "ui_steps": [
+    "Selected the existing test_only project in the project selector",
+    "Opened the upload modal",
+    "Selected precomputed DEG from the dataset-type control",
+    "Assigned the synthetic fixture to the browser file input",
+    "Confirmed the selected-file label and clicked Upload and Validate",
+    "Observed the success toast and verified the persisted dataset through the Vite proxy"
+  ],
+  "native_os_file_dialog": "not exercised by the original headless run; separately exercised in native_picker_supplement",
+  "native_picker_supplement": {
+    "status": "PASS",
+    "browser_mode": "Microsoft Edge Guest window",
+    "native_os_file_dialog": "Windows Open dialog was opened and used",
+    "project_id": "c493efde-981a-511c-9409-0fac7021b096",
+    "project_status": "test_only",
+    "dataset_id": "e4ca951b-3ad8-4cee-bf10-b34d6702323c",
+    "fixture": "native_picker_expression.csv",
+    "fixture_bytes": 64,
+    "fixture_sha256": "988bd2f625f11f63860f51189f107337cc8d4df8469107cbc4dcd0a310aca9ce",
+    "dataset_state": "validation_pending",
+    "dataset_type": "expression_matrix",
+    "validation": {
+      "row_count": 1,
+      "column_count": 3,
+      "sample_count": 2,
+      "sample_annotation_required": true
+    },
+    "analysis_runs_before": 4,
+    "analysis_runs_after": 4,
+    "analysis_started": false
+  },
+  "post_upload_api_verification": {
+    "state": "validation_pending",
+    "dataset_type": "precomputed_deg",
+    "stored_file_sha256_matches_database": true,
+    "analysis_run_count_unchanged": true
+  },
+  "tests": {
+    "backend_pytest": "47 passed",
+    "frontend_build": "PASS",
+    "browser_upload_e2e": "PASS"
+  }
+}

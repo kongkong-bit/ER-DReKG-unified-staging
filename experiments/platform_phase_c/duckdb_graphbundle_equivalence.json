@@ -1,0 +1,77 @@
+{
+  "started_at_utc": "2026-11-14T09:33:55.155968+00:00",
+  "finished_at_utc": "2026-11-14T09:34:13.906631+00:00",
+  "status": "PASS",
+  "reference_graphbundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:8eda9601-2fd3-48cc-9a45-74809870a480",
+  "duckdb_version": "1.5.6",
+  "software_versions": {
+    "python": "3.12.11",
+    "duckdb": "1.5.6",
+    "polars": "2.1.0",
+    "pyarrow": "26.0.1",
+    "biocypher": "0.17.0"
+  },
+  "software_versions_complete": true,
+  "projected_node_fields": {
+    "Drug": [
+      "name",
+      "inchi_key",
+      "canonical_smiles",
+      "source_ids",
+      "synonyms",
+      "sources"
+    ],
+    "Gene": [
+      "symbol",
+      "name",
+      "biotype",
+      "xrefs",
+      "symbol_synonyms",
+      "obsolete_symbols",
+      "sources"
+    ],
+    "Pathway": [
+      "name",
+      "sources"
+    ]
+  },
+  "counts_equal": true,
+  "counts": {
+    "nodes": 7032,
+    "edges": 38998,
+    "s1_significant_genes": 7066,
+    "s1_unique_ensembl_mapped": 6707,
+    "s1_ambiguous_or_unmatched": 359,
+    "pathway_gene_links": 31991,
+    "pathway_gene_unique_mapped": 30350,
+    "candidate_perturbagens": 50,
+    "exact_inchikey_mapped_drugs": 30,
+    "s2_condition_rows": 240,
+    "candidate_target_pathway_routes": 1494,
+    "relation_conflicts": 0,
+    "unmatched_entities": 2020
+  },
+  "csv_outputs_byte_identical": {
+    "subgraph_nodes.csv": true,
+    "subgraph_edges.csv": true,
+    "candidate_mapping_audit.csv": true,
+    "s1_gene_mapping_audit.csv": true,
+    "pathway_gene_mapping_audit.csv": true,
+    "unmatched_entities.csv": true,
+    "relation_conflicts.csv": true,
+    "evidence_records.csv": true,
+    "candidate_target_pathway_routes.csv": true
+  },
+  "output_sha256": {
+    "subgraph_nodes.csv": "36e6e928ef86be8b2678f0287997e109d1ef5d88b13396915fd9c45f8a193c07",
+    "subgraph_edges.csv": "989a9bb93d2f4cff1fe7be7d2291a274b2216c15511d3ac0ac84a83a880443dd",
+    "candidate_mapping_audit.csv": "3b30f7cf6b7082f381dffc03dc1ae40aa235bb1df5034b7999e9dbf75a3eda89",
+    "s1_gene_mapping_audit.csv": "a7613ab0b74ed8fc6a934e3f5e17612e6ab186b8cf34aa42a3fe55d050312d35",
+    "pathway_gene_mapping_audit.csv": "d1bad56bb1497899ee872e12cd4ef1146c55e166e9be87c049d07b9f269489d8",
+    "unmatched_entities.csv": "6b0a3dd39ea92eacb0b884315afdcd19cdd4b8afa0c907c5f5f1233c080ecb25",
+    "relation_conflicts.csv": "2378daad2198408411034354fce5854ce0727fdd7a2198f4c1ce765ba13c8108",
+    "evidence_records.csv": "e71f21bfb45a92ed8c88c8c4106da3c9af4a4f656d6783cd00dca45855c03313",
+    "candidate_target_pathway_routes.csv": "3d8693eaae5a5c99b0ea13752a92f6d68e1fc1871302d5467e5e6f7575c8e64e"
+  },
+  "temporary_output_removed": true
+}

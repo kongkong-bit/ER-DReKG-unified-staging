@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "adff340a43c8538083718898226f6e51724bce39bbd3617bcd8baaa309275289",
+  "evidence_input_sha256": "1416b8f4163580beecf81e729885184af95ad1f0831982b3e1adc3be7eec3b11",
+  "latency_seconds": 23.85668639999949,
+  "usage": {
+    "completion_tokens": 1512,
+    "completion_tokens_details": {
+      "reasoning_tokens": 177
+    },
+    "prompt_tokens": 19915,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 21427
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.12/10.0 μM MCF7 24h 条件的 WTCS_median 均为负值（约-0.439/-0.441），证据ID存在并经postgres验证"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.12 μM WTCS=-0.4386，0.37 μM WTCS=-0.4372，与claim数值一致，来源快照匹配"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.04 μM 条件 WTCS_median/mean 均为 0.0，来源直接支持"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "两个路径的 TARGETS 边均有 relation_assertions INHIBITOR（OPEN_TARGETS），predicate=INHIBITOR，抑制方向有来源支持"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "ENSG00000008018 边 reported_actions 为 [INHIBITOR, TARGET]，relation_assertions 分别来自 OPEN_TARGETS 与 DRUG_BANK"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "ENSG00000085563 边 reported_actions=[TRANSPORTER]（DRUG_BANK），claim已按关联表述且未断言方向，无方向错误"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984",
+        "supports_claim": true,
+        "reason": "对应0.12 μM条件，WTCS为负，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "894a7deb920bdfb2dfdf33c53151df5836a9b755898887fdb63779e705ac6507",
+        "supports_claim": true,
+        "reason": "对应10.0 μM条件，WTCS=-0.4413，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984",
+        "supports_claim": true,
+        "reason": "0.12 μM WTCS=-0.4386，数值相符"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "8e9333a035c68d1814203d25b165c875f45827b325cc8ba56ea4686bdc3ab2c0",
+        "supports_claim": true,
+        "reason": "0.37 μM WTCS=-0.4372，数值相符"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "69d66c1d8195127fe569655b55a03b2cf3d89b117fd27cdaa58733204e114a93",
+        "supports_claim": true,
+        "reason": "0.04 μM WTCS=0.0，直接支持"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4",
+        "supports_claim": true,
+        "reason": "ENSG00000173692 边含 INHIBITOR relation_assertion 与来源URL"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "0410c9b9cad59697dd69416372763faaa7b1453a108c845f0c977fabb49cc034",
+        "supports_claim": true,
+        "reason": "ENSG00000161057 边含 INHIBITOR relation_assertion"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "05e26a0baa4428cab6e8fd8e68e3eb4633d0dd12f1c0793e57c6a8e90b481524",
+        "supports_claim": true,
+        "reason": "ENSG00000008018 reported_actions=[INHIBITOR, TARGET]，与claim完全一致"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "056c3c5b60d5d51a28fe2563fb392daa6c24c72309407165851aaee6afd0e365",
+        "supports_claim": true,
+        "reason": "ENSG00000085563 边 predicate=TRANSPORTER（DRUG_BANK），支持按关联表述的claim"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4",
+        "supports_claim": false,
+        "reason": "该路径含 PubMed source_ids(21606441) 与 DailyMed/EuropePMC source_urls，'无文献证据'的说法不被支持；仅'无基因符号'部分成立"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 7,
+        "accurate": false,
+        "reason": "'无文献证据'不准确：来源含PubMed记录与DailyMed/EuropePMC链接；仅'缺基因符号'部分属实"
+      }
+    ],
+    "limitations": [
+      "部分上游断言缺source URL（package evidence_gaps已注明），仅保留source_record_id与source_release",
+      "S2筛选证据基于单签名（single signature, n_signatures=1），剂量稳定性grade为low",
+      "筛选证据仅限MCF7 24h单一细胞系条件，外推性有限",
+      "known_targets的关系为source-reported，包内不做方向推断，claims 4-6的方向依赖OptimusKG relation_assertions"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:07:27.800988+00:00"
+}

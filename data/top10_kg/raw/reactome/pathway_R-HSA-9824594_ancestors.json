@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:07.286480+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9824594/ancestors",
+    "response_sha256": "39f9efd1444555296a869069af8e936a7246de343274dd2f1b0b78cff4bf46a0",
+    "response_bytes": 1548
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9824594,
+        "displayName": "Regulation of MITF-M-dependent genes involved in apoptosis",
+        "stId": "R-HSA-9824594",
+        "name": [
+          "Regulation of MITF-M-dependent genes involved in apoptosis"
+        ],
+        "stIdVersion": "R-HSA-9824594.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9856651,
+        "displayName": "MITF-M-dependent gene expression",
+        "stId": "R-HSA-9856651",
+        "name": [
+          "MITF-M-dependent gene expression"
+        ],
+        "stIdVersion": "R-HSA-9856651.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4094,
+        "diagramHeight": 3037,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9730414,
+        "displayName": "MITF-M-regulated melanocyte development",
+        "stId": "R-HSA-9730414",
+        "name": [
+          "MITF-M-regulated melanocyte development"
+        ],
+        "stIdVersion": "R-HSA-9730414.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9730414.4",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-03-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 664,
+        "diagramHeight": 356,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

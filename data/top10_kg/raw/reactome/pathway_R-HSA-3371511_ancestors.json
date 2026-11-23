@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:51.769589+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-3371511/ancestors",
+    "response_sha256": "9b3015a2c89b4748eda761db6d6877ed6e1d4f1f521fa33157a2435c675ed9c8",
+    "response_bytes": 1479
+  },
+  "payload": [
+    [
+      {
+        "dbId": 3371511,
+        "displayName": "HSF1 activation",
+        "stId": "R-HSA-3371511",
+        "name": [
+          "HSF1 activation"
+        ],
+        "stIdVersion": "R-HSA-3371511.4",
+        "oldStId": "REACT_264071",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 3371556,
+        "displayName": "Cellular response to heat stress",
+        "stId": "R-HSA-3371556",
+        "name": [
+          "Cellular response to heat stress"
+        ],
+        "stIdVersion": "R-HSA-3371556.3",
+        "oldStId": "REACT_263897",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_200819.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1742,
+        "diagramHeight": 1265,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2262752,
+        "displayName": "Cellular responses to stress",
+        "stId": "R-HSA-2262752",
+        "name": [
+          "Cellular responses to stress"
+        ],
+        "stIdVersion": "R-HSA-2262752.13",
+        "oldStId": "REACT_120956",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-06-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 481,
+        "diagramHeight": 561,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8953897,
+        "displayName": "Cellular responses to stimuli",
+        "stId": "R-HSA-8953897",
+        "name": [
+          "Cellular responses to stimuli"
+        ],
+        "stIdVersion": "R-HSA-8953897.9",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-03-27",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 639,
+        "diagramHeight": 132,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

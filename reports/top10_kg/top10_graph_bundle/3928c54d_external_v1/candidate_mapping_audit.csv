@@ -1,0 +1,11 @@
+﻿pert_id,pert_iname,inchi_key,graph_drug_id,mapping_status,mapping_method,condition_rows
+BRD-A00147595,balaglitazone,IETKPTYAGKZLKY-UHFFFAOYSA-N,CHEMBL2103991,matched_exact_inchikey,exact InChIKey,3
+BRD-K11153516,iniparib,MDOJTZQKHMAPBK-UHFFFAOYSA-N,CHEMBL1170047,matched_exact_inchikey,exact InChIKey,4
+BRD-K13094524,PFI-1,TXZPMHLMPKIUGK-UHFFFAOYSA-N,CHEMBL2179387,matched_external_exact_inchikey,external exact InChIKey; overlay only,4
+BRD-K16485616,mocetinostat,HRNLUBSXIHFDHP-UHFFFAOYSA-N,CHEMBL272980,matched_exact_inchikey,exact InChIKey,6
+BRD-K44227013,ponatinib,PHXJVRSECIGDHY-UHFFFAOYSA-N,CHEMBL1171837,matched_exact_inchikey,exact InChIKey,5
+BRD-K50000283,PHA-767491,DKXHSOUZPMHNIZ-UHFFFAOYSA-N,CHEMBL225519,matched_external_exact_inchikey,external exact InChIKey; overlay only,6
+BRD-K56405753,MK-2461,JGEBLDKNWBUGRZ-HXUWFJFHSA-N,CHEMBL1822792,matched_exact_inchikey,exact InChIKey,5
+BRD-K76694128,rebastinib,WVXNSAVVKYZVOE-UHFFFAOYSA-N,CHEMBL1738757,matched_exact_inchikey,exact InChIKey,6
+BRD-K83837640,JNJ-26481585,PAWIYAYFNXQGAP-UHFFFAOYSA-N,CHEMBL2105763,matched_exact_inchikey,exact InChIKey,6
+BRD-K92093830,doxorubicin,AOJJSUZBOXZQNB-TZSSRYMLSA-N,CHEMBL53463,matched_exact_inchikey,exact InChIKey,6

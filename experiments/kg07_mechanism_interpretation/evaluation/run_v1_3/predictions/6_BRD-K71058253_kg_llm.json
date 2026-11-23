@@ -1,0 +1,210 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K71058253",
+    "drug_name": "luliconazole",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2105689",
+    "rank": "48"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 2,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 4,
+    "verified_evidence_count": 4,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "luliconazole (BRD-K71058253) 在 Project S2 LINCS 分析中获得 WTCS 总分 -0.3874（候选排名 48，覆盖 3 个条件）。",
+        "relation": "association",
+        "evidence_ids": [
+          "a285d2282f072ea7471ee958f345a398a40d327b01c939a3271e062827552113"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞、0.04 µM、24 h 条件下 WTCS_median 为 0.0（n_signatures=1，TAS_median 0.199），即该条件未显示明显逆转信号。",
+        "relation": "association",
+        "evidence_ids": [
+          "75333b9169b80988e881a1d32a9edf846b1b9cd08933db0d5c006ee61979b78c"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞、0.12 µM、24 h 条件下 WTCS_median 为 -0.2122（n_signatures=1，TAS_median 0.156）。",
+        "relation": "association",
+        "evidence_ids": [
+          "836181ae9a28b8883a6b114c81f296139437e6060bf3c58316c5007f2827f9c7"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 细胞、10.0 µM、24 h 条件下 WTCS_median 为 -0.3874（n_signatures=1，TAS_median 0.171，条件内排名 180），是三个条件中逆转分数最强者；该分数为数据关联，不构成临床疗效证据。",
+        "relation": "association",
+        "evidence_ids": [
+          "e68ed31e73db3bac11a2bc4574e1e2a7d770f496bc03a279ac179c15b3d9413f"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选化合物通过精确 InChIKey 匹配到 CHEMBL2105689（luliconazole），来源为 GSE70138 Broad LINCS Level 5 扰动元数据（2017-03-06）。",
+        "relation": "association",
+        "evidence_ids": [
+          "8a438c3fce89341abef9f8ca30fbf9c1cad2a90f11797822a49eb690e82f0691"
+        ],
+        "path_ids": [
+          "b0d2f079d810557236cb17305ea6691fd6eee26e40167010924582568d0377fe"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "数据库断言（OptimusKG 3.2，直接来源 DRUG_BANK）：CHEMBL2105689 对 ENSG00000165841 报告 ENZYME 关系；来源仅报告关系，未给出抑制或激活方向。",
+        "relation": "association",
+        "evidence_ids": [
+          "6748d0bdbaab627585abe2a12ea18f900c7909539971ea13616b6b9819008f96"
+        ],
+        "path_ids": [
+          "b0d2f079d810557236cb17305ea6691fd6eee26e40167010924582568d0377fe"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "数据库断言（OptimusKG 3.2，直接来源 DRUG_BANK）：CHEMBL2105689 对 ENSG00000160868 报告 ENZYME 关系；来源仅报告关系，未给出抑制或激活方向。",
+        "relation": "association",
+        "evidence_ids": [
+          "b732800b698ebc167272f31ec9e59b0772bc290322d5a100bc1f561a8bca4722"
+        ],
+        "path_ids": [
+          "be6f2cd6488788161e39721a0ae4a0ac31237a3c78362fbc77b5b0bd064ee8b4"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc"
+      }
+    ],
+    "limitations": [
+      "S2 条件仅覆盖 MCF7 一个细胞系、24 h、三个剂量（0.04/0.12/10.0 µM），每个条件 n_signatures=1，且部分条件 TAS_median 和 quality_cc_median 偏低，逆转分数可靠性有限。",
+      "WTCS 逆转分数为计算信号，不是临床或细胞存活率疗效证据。",
+      "两个靶点断言的 reported_actions 为泛化的 ENZYME 关系，来源未给出抑制/激活方向（source_reported_relation_only），不能推断药理作用方向。",
+      "两个直接靶点路径均无 pathway_id（pathway_label 为空），无通路富集支持。",
+      "部分上游断言无 source URL，仅保留 source_record_id 与 source_release。",
+      "证据记录均通过 Postgres 校验（verified_in_postgres=true，4/4），无关系冲突，但验证仅限数据完整性而非生物学正确性。"
+    ],
+    "uncited_or_uncertain": [
+      "两个靶点基因（ENSG00000165841、ENSG00000160868）在输入数据中未提供基因符号注释。",
+      "候选排名 48 的具体阈值或显著性判定标准在输入数据中未说明。",
+      "数据未说明疾病适应症背景（DISEASE_CONTEXT 节点未附疾病标签），候选与具体疾病的关联语义不明。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 21.722,
+  "usage": {
+    "completion_tokens": 1657,
+    "completion_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "prompt_tokens": 8894,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 10551
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

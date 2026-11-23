@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "status": "read_only_staging_audit_complete",
+  "audited_at": "2026-11-22T08:03:44.165157+00:00",
+  "endpoint": "bolt://127.0.0.1:17687",
+  "database": "neo4j",
+  "write_queries_executed": false,
+  "components": [
+    {
+      "name": "Neo4j Kernel",
+      "versions": [
+        "5.26.33"
+      ],
+      "edition": "community"
+    }
+  ],
+  "databases": [
+    {
+      "name": "neo4j",
+      "currentStatus": "online"
+    },
+    {
+      "name": "system",
+      "currentStatus": "online"
+    }
+  ],
+  "node_counts_by_label": [
+    {
+      "label": "Candidate",
+      "count": 10
+    },
+    {
+      "label": "ChEMBLTarget",
+      "count": 9
+    },
+    {
+      "label": "Disease",
+      "count": 1
+    },
+    {
+      "label": "DiseaseContext",
+      "count": 1
+    },
+    {
+      "label": "DiseaseEvidence",
+      "count": 11
+    },
+    {
+      "label": "Drug",
+      "count": 10
+    },
+    {
+      "label": "Gene",
+      "count": 5832
+    },
+    {
+      "label": "GeneSet",
+      "count": 29
+    },
+    {
+      "label": "Pathway",
+      "count": 898
+    },
+    {
+      "label": "Protein",
+      "count": 133
+    },
+    {
+      "label": "S2Condition",
+      "count": 51
+    }
+  ],
+  "unlabeled_node_count": 0,
+  "relationship_counts_by_type": [
+    {
+      "type": "ABOUT_DISEASE",
+      "count": 2
+    },
+    {
+      "type": "CONCERNS_DISEASE",
+      "count": 22
+    },
+    {
+      "type": "CONTAINS_GENE",
+      "count": 2916
+    },
+    {
+      "type": "ENCODED_BY",
+      "count": 161
+    },
+    {
+      "type": "HAS_CANDIDATE",
+      "count": 20
+    },
+    {
+      "type": "HAS_COMPONENT",
+      "count": 38
+    },
+    {
+      "type": "HAS_DEG",
+      "count": 11396
+    },
+    {
+      "type": "HAS_DIRECT_TARGET",
+      "count": 18
+    },
+    {
+      "type": "HAS_DISEASE_CONTEXT_EVIDENCE",
+      "count": 22
+    },
+    {
+      "type": "HAS_ENRICHED_GENE",
+      "count": 60700
+    },
+    {
+      "type": "HAS_ENRICHED_PATHWAY",
+      "count": 1476
+    },
+    {
+      "type": "HAS_S2_CONDITION",
+      "count": 102
+    },
+    {
+      "type": "PARTICIPATES_IN",
+      "count": 410
+    },
+    {
+      "type": "REFERENCES_DRUG",
+      "count": 40
+    },
+    {
+      "type": "REGULATES",
+      "count": 328
+    },
+    {
+      "type": "SUBPATHWAY_OF",
+      "count": 434
+    },
+    {
+      "type": "TARGETS",
+      "count": 156
+    }
+  ],
+  "graph_build_inventory": [
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:5bb1e749e1caa6e2",
+      "unique_relationships": 38890
+    },
+    {
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+      "unique_relationships": 39351
+    }
+  ],
+  "candidate_inventory": [
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-A00147595",
+      "pert_id": "BRD-A00147595",
+      "label": "balaglitazone"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K11153516",
+      "pert_id": "BRD-K11153516",
+      "label": "iniparib"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K13094524",
+      "pert_id": "BRD-K13094524",
+      "label": "PFI-1"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K16485616",
+      "pert_id": "BRD-K16485616",
+      "label": "mocetinostat"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K44227013",
+      "pert_id": "BRD-K44227013",
+      "label": "ponatinib"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K50000283",
+      "pert_id": "BRD-K50000283",
+      "label": "PHA-767491"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K56405753",
+      "pert_id": "BRD-K56405753",
+      "label": "MK-2461"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K76694128",
+      "pert_id": "BRD-K76694128",
+      "label": "rebastinib"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K83837640",
+      "pert_id": "BRD-K83837640",
+      "label": "JNJ-26481585"
+    },
+    {
+      "id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K92093830",
+      "pert_id": "BRD-K92093830",
+      "label": "doxorubicin"
+    }
+  ],
+  "node_duplicate_id_sample": [],
+  "relationship_duplicate_id_sample": [],
+  "constraints": [
+    {
+      "name": "candidate_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Candidate"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "candidate_id_unique"
+    },
+    {
+      "name": "chembltarget_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "ChEMBLTarget"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "chembltarget_id_unique"
+    },
+    {
+      "name": "disease_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Disease"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "disease_id_unique"
+    },
+    {
+      "name": "diseasecontext_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "DiseaseContext"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "diseasecontext_id_unique"
+    },
+    {
+      "name": "diseaseevidence_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "DiseaseEvidence"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "diseaseevidence_id_unique"
+    },
+    {
+      "name": "drug_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Drug"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "drug_id_unique"
+    },
+    {
+      "name": "gene_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Gene"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "gene_id_unique"
+    },
+    {
+      "name": "geneset_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "GeneSet"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "geneset_id_unique"
+    },
+    {
+      "name": "pathway_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Pathway"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "pathway_id_unique"
+    },
+    {
+      "name": "protein_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Protein"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "protein_id_unique"
+    },
+    {
+      "name": "s2condition_id_unique",
+      "type": "UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "S2Condition"
+      ],
+      "properties": [
+        "id"
+      ],
+      "ownedIndex": "s2condition_id_unique"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "candidate_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Candidate"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "chembltarget_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "ChEMBLTarget"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "disease_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Disease"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "diseasecontext_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "DiseaseContext"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "diseaseevidence_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "DiseaseEvidence"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "drug_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Drug"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "gene_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Gene"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "geneset_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "GeneSet"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_343aff4e",
+      "type": "LOOKUP",
+      "entityType": "NODE",
+      "labelsOrTypes": null,
+      "properties": null,
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_f7700477",
+      "type": "LOOKUP",
+      "entityType": "RELATIONSHIP",
+      "labelsOrTypes": null,
+      "properties": null,
+      "state": "ONLINE"
+    },
+    {
+      "name": "pathway_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Pathway"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "protein_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "Protein"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    },
+    {
+      "name": "s2condition_id_unique",
+      "type": "RANGE",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "S2Condition"
+      ],
+      "properties": [
+        "id"
+      ],
+      "state": "ONLINE"
+    }
+  ],
+  "relationship_provenance_inventory": {
+    "relationships": 78241,
+    "missing_id": 0,
+    "missing_source_release": 0,
+    "missing_source_assertion_and_evidence": 0,
+    "graphbuild_scoped": 78241
+  },
+  "safe_for_import_preflight": true,
+  "not_performed": [
+    "backup",
+    "restore rehearsal",
+    "import",
+    "rollback rehearsal"
+  ]
+}

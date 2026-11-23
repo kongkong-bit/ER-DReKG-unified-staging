@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:54.975127+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-5663213/ancestors",
+    "response_sha256": "69cf371b7bf1e8658816949b1c05c9cc7f970f2d92f19d7c56d10b3c0c07fa78",
+    "response_bytes": 1920
+  },
+  "payload": [
+    [
+      {
+        "dbId": 5663213,
+        "displayName": "RHO GTPases Activate WASPs and WAVEs",
+        "stId": "R-HSA-5663213",
+        "name": [
+          "RHO GTPases Activate WASPs and WAVEs"
+        ],
+        "stIdVersion": "R-HSA-5663213.3",
+        "oldStId": "REACT_355372",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2015-03-19",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1170,
+        "diagramHeight": 743,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 195258,
+        "displayName": "RHO GTPase Effectors",
+        "stId": "R-HSA-195258",
+        "name": [
+          "RHO GTPase Effectors"
+        ],
+        "stIdVersion": "R-HSA-195258.6",
+        "oldStId": "REACT_355474",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_355444.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2015-03-19",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 300,
+        "diagramHeight": 766,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 194315,
+        "displayName": "Signaling by Rho GTPases",
+        "stId": "R-HSA-194315",
+        "name": [
+          "Signaling by Rho GTPases"
+        ],
+        "stIdVersion": "R-HSA-194315.9",
+        "oldStId": "REACT_11044",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2005-09-26",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 688,
+        "diagramHeight": 277,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9716542,
+        "displayName": "Signaling by Rho GTPases, Miro GTPases and RHOBTB3",
+        "stId": "R-HSA-9716542",
+        "name": [
+          "Signaling by Rho GTPases, Miro GTPases and RHOBTB3"
+        ],
+        "stIdVersion": "R-HSA-9716542.4",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2021-03-23",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 667,
+        "diagramHeight": 434,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

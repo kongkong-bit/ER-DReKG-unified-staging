@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "4d48c4f86dfd337318f880864bac75d85da88e88e47a047821cd84182fb14e5f",
+  "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+  "latency_seconds": 12.084487199999785,
+  "usage": {
+    "completion_tokens": 813,
+    "completion_tokens_details": {
+      "reasoning_tokens": 215
+    },
+    "prompt_tokens": 2819,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3632
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "包内s2_candidate显示rank=6、WTCS=-0.4445168193756497、condition_count=6，与claim一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006快照直接列出primary_dose=10.0um、MCF7、24h、wtcs_median_B=-0.4445、rank_B=6、rank_A=4、n_signatures=5、negative_dose_fraction=1.0，全部吻合"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006显示stability_grade=high、dose_stability=multi_dose_negative、source_dataset=GSE70138，直接支持"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无任何S1验证数据（S1 overlap path计数为0，gap列表亦确认），B200 median rank 34.5、Q2 24.0、S1 median rank 267.5均无来源依据"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内未出现PRISM端点定义（-log2 fold change）或任何PRISM数据，该说明无来源支持"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "包内确实不含PRISM敏感性数值，'未提供'表述准确；但PRISM端点定义本身亦无来源支持"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "coverage显示path_count=0、无靶点/通路路径，evidence_gaps明确列出无策展靶点断言与通路重叠，表述与包一致"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "包内无PRISM数据、无ER状态信息，'未提供'准确"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "candidate显示mapping_status=unmatched_no_exact_inchikey、compound_id=null，与claim一致"
+      },
+      {
+        "claim_index": 9,
+        "accurate": true,
+        "reason": "包内仅有细胞系层面S2表达逆转与条件证据，无临床数据，该保留意见准确"
+      }
+    ],
+    "limitations": [
+      "化合物无精确InChIKey匹配，身份映射不完整",
+      "无策展Drug-to-Gene靶点断言",
+      "无任何图谱路径、公共通路或S1重叠证据",
+      "无PRISM敏感性数据及端点定义来源",
+      "独立验证类声明（claim 4、5）完全缺乏包内证据",
+      "全部S2证据仅基于MCF7单一细胞系，泛化性受限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:10:43.894683+00:00"
+}

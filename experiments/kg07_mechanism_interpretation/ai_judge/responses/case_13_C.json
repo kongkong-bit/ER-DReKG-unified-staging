@@ -1,0 +1,574 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "cc1afb2f1e7c996ef4f040b1eb51728c699d9d6a6bed48512f16548d9fb5a44b",
+  "evidence_input_sha256": "00728e394e18d13b81b29040ccc00b4c77c55050a8976b24a54d62fa21de1e60",
+  "latency_seconds": 59.795638899999176,
+  "usage": {
+    "completion_tokens": 5056,
+    "completion_tokens_details": {
+      "reasoning_tokens": 262
+    },
+    "prompt_tokens": 86488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 91544
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6个S2条件证据ID均存在且verified，覆盖MCF7|trt_cp六个剂量24h条件；WTCS为关联分数的表述与来源一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在且TARGETS边指向ENSG00000127948（DRUG_BANK ENZYME）；声明为association未做方向推断，与来源一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000160868（ENZYME）"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000158864（ENZYME）"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000115286（ENZYME）"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000166197（TARGET）"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000004809（TRANSPORTER）"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000085563（TRANSPORTER）"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000158125（ENZYME）"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000196139（ENZYME）"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000100197（ENZYME）"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000108846（TRANSPORTER）"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000181019（ENZYME）"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000117448（ENZYME）"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000017797（TRANSPORTER）"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000007171（ENZYME）"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000164867（ENZYME）"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000023839（TRANSPORTER）"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000138061（ENZYME）"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000089250（ENZYME）"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000091262（TRANSPORTER）"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000103222（TRANSPORTER）"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000213619（ENZYME）"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000159231（ENZYME）"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000163631（CARRIER）"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000197408（ENZYME）"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "来源OptimusKG报告INHIBITOR及机制'DNA topoisomerase II alpha inhibitor'（OPEN_TARGETS/DRUG_BANK），支持inhibition表述"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000159228（ENZYME）"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000124574（TRANSPORTER）"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000118777（TRANSPORTER）"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000197150（TRANSPORTER）"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，TARGETS指向ENSG00000073734（TRANSPORTER）"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，pathway_label为SUMOylation of DNA replication proteins（REACT:R-HSA-4615885），声明为关联，与来源一致"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，GO:0000266 mitochondrial fission，S1富集adjusted_p≈0.00715，声明为关联"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，GO:0010562 positive regulation of phosphorus metabolic process，adjusted_p≈0.00715"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径存在，GO:0072593 reactive oxygen species metabolic process，adjusted_p≈0.0308"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "25a46968cd9aa3719f6238bda071b6e427b6ab8366d824397aed37e0e35eebcb",
+        "supports_claim": true,
+        "reason": "MCF7|0.12um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "58ed5c65b7dedf5d2ebf8025ff449145a9a8a61a63d069c556f10e844ba1676e",
+        "supports_claim": true,
+        "reason": "MCF7|10.0um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "61eed19887e48743713b3ab1026d46dcfcd2a0938fbfc2c94fd4123642660c29",
+        "supports_claim": true,
+        "reason": "MCF7|3.33um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8910096f89a9ddcb6a28b1cf34a6627a6d9f23d5136c75dd9afc6e65cd9e04bc",
+        "supports_claim": true,
+        "reason": "MCF7|0.04um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "e78e8685cd888ee4c4ac102b48de2ebb99f87a76ef7cf619c0dc9061a191a611",
+        "supports_claim": true,
+        "reason": "MCF7|0.37um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "ea57a2811747ed33a9879ab21f9fcae0116b9e8dc80ab618346dbd1ff23b993e",
+        "supports_claim": true,
+        "reason": "MCF7|1.11um|24h条件记录存在且verified"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "059c0f51e15d2bc753adab4a797fabec2e751de255811a3d3d540c0ac1973737",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000127948，TARGETS边verified"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "0b7a20664e4eb4c03c61332076fa874fe07083f441be07cd3d85582df94f55be",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000160868"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "126746ca68d011523377b9332a9df329ff670949de261072b6132eb962d7318d",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000158864"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "1a450f46e5911c29dbc2cf11bfedf07929f5eb63362dd2b05a87c618829a585c",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000115286"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "2467f2beddaf5913172e4732eb49c1013abb5dd1fbb881f3604375ce83e7057b",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000166197"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "29dae4621502c1a1ff32444f63a978e4d0c0b97e0760f9f1d45dad4b67b3822b",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000004809"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "378f1b78aadf225e641cf4afef3d2c60a317936680d0b0555a7f028b094e8bf4",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000085563"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "3995974d2b42e3644dd6143be94938d7eaddffb775d9d85344461f1763a382a4",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000158125"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "3db9464d78f190fe5a0c6e5805f934dc870d4646e7ed5b05a077aa9c896a376e",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000196139"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "3e77eb8f2d49e88eaa89d9147def508993eff39fe0727aa74eb35e609b1bacaa",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000100197"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "3eb899e40a396be189a401bf54a7f295dd4e623092d5a1d9290a4f123b6bdc86",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000108846"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "45a7f200c1dee4df092fee69ea10ad08e78850465fe26d3b7498e6e024823423",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000181019"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "5724fc6cb67b5772d0313b09332d25e3cfd432a6ef518af65a19f61dab235441",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000117448"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "59aea355aea2bb6876082b5c69dd1e3c04f4f8914c0aa356c312dd1263ada93e",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000017797"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "64006dd81d68fa1b025f8c26686143439638a3e02611715c0f49d802db85afad",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000007171"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "6607f9120af8a06533775c35dfb5174595df25f6cd0ec8368f5dbd79efe56f1d",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000164867"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "6fb47635094185b3026a52224ca8c0133b993615a285b583f4b4876cb457f45f",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000023839"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "7532645bd7800c37757786bb50b51ddb09e2067c6b15cd2ccef8905c76c97f6a",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000138061"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "794302c28e207f034f4094e8f7e22921b554936ade32b5de94c9eed2526e407a",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000089250"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "7bb8aeedbbbdf941b3d51d34bd35e42b09ff90dfa5f120efb6f9d575fff8b11a",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000091262"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "81d1b6a958720e60b95d8b8f83677a706b1892339a4dac8e8bee0bfcd561990b",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000103222"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "a1a11c27c106124f370c17526e697c04dd5af4986e46b32644ea44aebdeee35c",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000213619"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "ad9b76289d98b82ae978a8a28f931ce53d0f943f93f0d061eaf268000c9eb95c",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000159231"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "b42576a50decf2b94730f9c5179ba3fe885984d70767c2355c73d2f5846e0003",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000163631"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "c184e1c399a2cb4e97c5acb88acd7908d32418485d7b9560ff74317e33c9c2aa",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000197408"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "d692fc8c3adb70aba0c87157076dfe871bafb1343191217df43187ea45c97bb7",
+        "supports_claim": true,
+        "reason": "路径含INHIBITOR/TARGET关系及topoisomerase II inhibitor机制，支持inhibition"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "de3efa68eca868182242b31704259d1b6fcb85cfa51d3a84accec23d82748593",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000159228"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "f1b12370354863c83a2deb525504cfac91138d9d3bb9f3babc445a6cb58afae7",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000124574"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "f417a83871d419f525014db5c11b0f99b3600c3436bae6d9c390e0f548de6159",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000118777"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "f8a3445ce220bc4c355d4b6486da56090ebdb6b020a1a702b28b42faaf33a2c1",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000197150"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "fda975565a41e21170cd5cb7ab2e5536068d89583474d364fa25626110a603c0",
+        "supports_claim": true,
+        "reason": "direct_target路径含ENSG00000073734"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "0193592ab3694ab6bb1778a1e3ee4c10656bf31f4dd0aa272d63357da0a49084",
+        "supports_claim": true,
+        "reason": "public_pathway路径含REACT:R-HSA-4615885及CONTAINS_GENE边"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "03a577bcb34854a467e91e3c3a0de5bcc3c22e80ff718c3901021b5504c3d71f",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径含GO:0000266及HAS_ENRICHED_GENE/PATHWAY边"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "05d56a3eaae3c1d017c65fbd059130cc09d89f4096026f6d9878279895e484ee",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径含GO:0010562"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "0882ab8f2ab31d37557499356955882ed65b8b73b5b4725d265d278fd81141e7",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径含GO:0072593"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "部分上游断言缺少source URL，仅保留source_record_id和source_release",
+      "S2证据仅覆盖MCF7单细胞系trt_cp条件，且每个条件n_signatures=1，单一签名稳定性有限",
+      "多数靶点来源仅报告DRUG_BANK的ENZYME/TRANSPORTER/CARRIER等通用关系，无方向/机制细节，声明中'association'方向表述与来源一致但机制信息薄弱",
+      "本审阅为AI自动评审，非人工评审；仅基于所提供的证据包快照"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:05:23.796682+00:00"
+}

@@ -1,0 +1,20 @@
+# Environment and code-identity hashes (computed read-only)
+# core.autocrlf: true
+
+## GraphBundle builder
+HEAD blob (LF):                 e15e5ea2fbe3afbe42d63f7917aafd84181e788165fd2c989acd230d26f23a06
+HEAD blob + CRLF (worktree):    191a506d331e9fa17f7d16af5748b41b929323886ae270f8183b1419f59f0c83
+bundle_manifest expected:       191a506d331e9fa17f7d16af5748b41b929323886ae270f8183b1419f59f0c83
+
+## Neo4j importer
+HEAD blob (LF):                 9c4b6609c69810a8e276efd90703db24a148dddfdbddd628880ef0f73801256d
+HEAD blob + CRLF:               72953d3c3c35d38fda9e23e836ad39b10cbd630084d0de176ba93f2b5ee61cb2
+recorded in formal build:       72953d3c3c35d38fda9e23e836ad39b10cbd630084d0de176ba93f2b5ee61cb2
+current worktree (delivered):   9fae6da68bb3309c01ed80345c966937242f5785c9640429c5b91736d4af969d
+current worktree LF-normalized: 7e90b016c31edc3c26b29f3b70575994d253d893cef4cc3ef9b6537f2a59d275
+
+## Interpretation
+- The formal GraphBuild d570eb8deb3e5eea recorded importer sha256 = 72953d3c...
+  This equals the ORIGINAL (HEAD) importer serialized with CRLF.
+- The delivered importer 9fae6da6... is the improved version (versioned relationship IDs,
+  build_key, preflight, fail-closed). It did NOT produce the formal graph.

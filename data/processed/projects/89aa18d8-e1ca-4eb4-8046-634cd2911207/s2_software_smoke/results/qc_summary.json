@@ -1,0 +1,21 @@
+{
+  "mcf7_trt_cp_signatures": 12737,
+  "requested_time_signatures": 11850,
+  "quality_pass_signatures": 5861,
+  "quality_pass_with_gctx_id": 5861,
+  "scored_signatures": 5,
+  "scored_drugs": 2,
+  "dose_time_condition_rows": 5,
+  "quality_missing_or_below_threshold": 5989,
+  "quality_threshold": 0.2,
+  "cell_id": "MCF7",
+  "pert_type": "trt_cp",
+  "time": "24 h",
+  "dose_policy": "retain each dose stratum; never select a per-drug best dose",
+  "aggregation_policy": "median WTCS across eligible signatures within exact pert_id/cell/type/dose/time; MAD retained",
+  "rank_policy": "rank condition rows only within exact cell/type/dose/time",
+  "s1_up_selected": 1,
+  "s1_down_selected": 1,
+  "s1_up_measured_in_gctx": 1,
+  "s1_down_measured_in_gctx": 1
+}

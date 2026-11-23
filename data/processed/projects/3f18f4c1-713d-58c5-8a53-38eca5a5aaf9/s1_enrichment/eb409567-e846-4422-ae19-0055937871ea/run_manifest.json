@@ -1,0 +1,87 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "run_type": "s1_pathway_enrichment",
+  "status": "completed",
+  "parameters": {
+    "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "identifier_type": "symbol",
+    "fdr_threshold": 0.05,
+    "contrast": "Tumor - Normal",
+    "test_only": false,
+    "input_genes": 21653,
+    "mapped_rows": 17649,
+    "mapped_universe": 17649,
+    "unmapped_genes": 4007,
+    "one_to_many_genes": 6,
+    "unique_ensembl_genes": 15977,
+    "ambiguous_ensembl_genes": 1148,
+    "unmapped_ensembl_genes": 4531,
+    "up_genes": 2991,
+    "down_genes": 3164,
+    "go_up_significant": 206,
+    "go_down_significant": 343,
+    "reactome_up_significant": 135,
+    "reactome_down_significant": 26,
+    "hallmark_significant": 29,
+    "r_version": "R version 4.4.3 (2025-02-28 ucrt)",
+    "packages": {
+      "clusterProfiler": "4.14.6",
+      "ReactomePA": "1.50.0",
+      "org.Hs.eg.db": "3.20.0",
+      "fgsea": "1.32.4",
+      "ggplot2": "4.0.3"
+    },
+    "significant_pathway_counts": {
+      "go_up": 206,
+      "go_down": 343,
+      "reactome_up": 135,
+      "reactome_down": 26,
+      "hallmark_gsea": 29
+    },
+    "output_dir": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea",
+    "output_hashes": {
+      "gene_mapping_audit.csv": "77d4fc11341a5a824c2a514ab042e2404c53a672b7c0e6d8dc6b7444c0ec5a48",
+      "s1_up_genes.csv": "61858cb82af15d25191f7c3819b212d057068dff6c9af1f22bc7d27da977a7a6",
+      "s1_down_genes.csv": "5b7bdeca648c3f82844b9c24757671db2dc335f2e88566a3ee1c4c7201d7c999",
+      "go_up.csv": "6dc3ee2ace7792d8b9bcb17c91a851e1961246561501c83701a1fdf4db9d758d",
+      "go_down.csv": "677652aaf7ef8eb525500f6f04c819d5ea1b7c9418584595acc5a8ae48954756",
+      "reactome_up.csv": "8ef2b30e45015f5395a154502c00c8a4d6e768920c8257916257eefb4fefd2fa",
+      "reactome_down.csv": "06d5d9852801a691cf71fc842290d9fac1d83631a06553702784c2e3d889ab57",
+      "hallmark_gsea.csv": "34ac4c1cbb92495eb2afaea262e992f9d3da72aa26c4fe1b57256d84d56ff3da",
+      "pathway_gene_links.csv": "986daaa1573f2f54df3dda9ff9dcce42a904ab5d6f256e42c53ab85b31b04117",
+      "summary.json": "f34a8e33a45468a0c5f48bd932694b0dbcd7a7fd8b7bd93ab9695aa2410d9a3a",
+      "enrichment_report.md": "1eed50ba46c4e2956d07345e98ba8aac04663d63384ac6202d7d64ce629b5ed4"
+    },
+    "figures": [
+      "go_down.png",
+      "go_up.png",
+      "hallmark_curve_HALLMARK_ADIPOGENESIS.png",
+      "hallmark_curve_HALLMARK_E2F_TARGETS.png",
+      "hallmark_curve_HALLMARK_ESTROGEN_RESPONSE_EARLY.png",
+      "hallmark_curve_HALLMARK_FATTY_ACID_METABOLISM.png",
+      "hallmark_curve_HALLMARK_G2M_CHECKPOINT.png",
+      "hallmark_curve_HALLMARK_OXIDATIVE_PHOSPHORYLATION.png",
+      "hallmark_gsea_overview.png",
+      "pathway_gene_links.png",
+      "reactome_down.png",
+      "reactome_up.png"
+    ],
+    "report_path": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea/enrichment_report.md"
+  },
+  "software_versions": {
+    "pipeline": "DiseaseGraph project S1 pathway enrichment 1.0",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "clusterProfiler": "4.14.6",
+    "ReactomePA": "1.50.0",
+    "org.Hs.eg.db": "3.20.0",
+    "fgsea": "1.32.4",
+    "ggplot2": "4.0.3"
+  },
+  "input_hashes": {
+    "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+    "pipeline_script_sha256": "30122cf1997a872f7ec3d7b3f853868105d28982c987380b3bfcdea2f7770169",
+    "hallmark_gmt_sha256": "fcf3a5471f973874f3c37996dc93a45a9c84edf7d7828bba54a7eb95af53bc45"
+  }
+}

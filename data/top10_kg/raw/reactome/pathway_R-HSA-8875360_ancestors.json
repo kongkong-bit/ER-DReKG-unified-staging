@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:58.560557+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-8875360/ancestors",
+    "response_sha256": "8182814c7b1ba9d3ad34ae70ad13d145b4a01cd3968f1d48caef7b30571e0b3a",
+    "response_bytes": 1896
+  },
+  "payload": [
+    [
+      {
+        "dbId": 8875360,
+        "displayName": "InlB-mediated entry of Listeria monocytogenes into host cell",
+        "stId": "R-HSA-8875360",
+        "name": [
+          "InlB-mediated entry of Listeria monocytogenes into host cell"
+        ],
+        "stIdVersion": "R-HSA-8875360.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-8875360.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2016-12-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 8876384,
+        "displayName": "Listeria monocytogenes entry into host cells",
+        "stId": "R-HSA-8876384",
+        "name": [
+          "Listeria monocytogenes entry into host cells"
+        ],
+        "stIdVersion": "R-HSA-8876384.4",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2016-12-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2203,
+        "diagramHeight": 591,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9824439,
+        "displayName": "Bacterial Infection Pathways",
+        "stId": "R-HSA-9824439",
+        "name": [
+          "Bacterial Infection Pathways"
+        ],
+        "stIdVersion": "R-HSA-9824439.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2023-03-29",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 366,
+        "diagramHeight": 268,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 5663205,
+        "displayName": "Infectious disease",
+        "stId": "R-HSA-5663205",
+        "name": [
+          "Infectious disease"
+        ],
+        "stIdVersion": "R-HSA-5663205.14",
+        "oldStId": "REACT_355497",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 276,
+        "diagramHeight": 203,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 1643685,
+        "displayName": "Disease",
+        "stId": "R-HSA-1643685",
+        "name": [
+          "Disease"
+        ],
+        "stIdVersion": "R-HSA-1643685.19",
+        "oldStId": "REACT_116125",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 817,
+        "diagramHeight": 361,
+        "inferred": false,
+        "inDisease": true
+      }
+    ]
+  ]
+}

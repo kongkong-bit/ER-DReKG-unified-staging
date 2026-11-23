@@ -1,0 +1,219 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A00147595",
+    "drug_name": "balaglitazone",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2103991",
+    "rank": "5"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 3,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 82,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 170,
+    "verified_evidence_count": 170,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "balaglitazone (BRD-A00147595) 在 S2 表达逆转筛选中排名 5（WTCS = -0.4527），基于 3 个条件，来自 GraphBundle 的 S2 AnalysisRun。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "exp006 数据集（GSE70138）显示 balaglitazone 在 MCF7 细胞、10.0 µM、24 h 条件下 wtcs_median_B = -0.4527（rank_B = 5），wtcs_median_A = -0.4693（rank_A = 3），n_signatures = 1，stability_grade = low，evidence_limitations 注明 'single signature'。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "外部 S1 中位排名为 1187.0（B200 中位排名 1970.5，3 个条件），Q2_condition_median_rank = 2482.0（3 个条件），与 S2 排名 5 相比一致性不足；这些排名基于与表达逆转不同的独立端点。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM 细胞敏感性数据（端点为细胞活力下降的 -log2 倍数变化，与 S2 表达逆转不同）：ER 阳性 9 株细胞系 mean sensitivity = 0.1155、median = 0.0452；ER 阴性 13 株 mean = -0.0634；MCF7（1 个条件）= -0.0180；sensitivity_rank_erpos = 270，sensitivity_rank_mcf7 = 435。注意：PRISM 细胞敏感性不是临床疗效证据，且两个端点不一致本身不能否定任一测定。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无已知的 balaglitazone 靶点结合或抑制/激活断言；输入未提供知识图谱路径、整理的靶点断言或疾病通路重叠。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "剂量稳定性有限（negative_dose_fraction = 0.333，dose_stability = 'mixed_or_limited'，qc_sensitivity_range = 0.0，stability_grade = 'low'），且仅有单一签名支持 S2 逆转观察。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "外部验证排名（S1 = 1187.0，B200 = 1970.5，Q2 = 2482.0）显著弱于 S2 排名，逆转分数排名不能作为临床或机制疗效证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "输入未提供任何知识图谱路径或整理的靶点/通路断言，无法做出机制结论。",
+      "S2 逆转观察基于单一签名（n_signatures = 1）、单一细胞系（MCF7）、单次实验（GSE70138），stability_grade 为 low。",
+      "PRISM 端点（细胞活力）与 S2 表达逆转端点不同；二者不一致本身不使任一测定失效。",
+      "逆转分数、PRISM 敏感性和外部排名均不是临床疗效证据。",
+      "条件数仅为 3（S2 与外部验证均为 3 个条件），证据覆盖面窄。"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A00147595"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-A00147595",
+        "GSE70138"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-A00147595"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-A00147595"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-A00147595",
+        "GSE70138"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-A00147595"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 14.373,
+  "usage": {
+    "completion_tokens": 1031,
+    "completion_tokens_details": {
+      "reasoning_tokens": 11
+    },
+    "prompt_tokens": 963,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1994
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

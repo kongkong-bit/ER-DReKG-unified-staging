@@ -1,0 +1,226 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-A00147595",
+    "drug_name": "balaglitazone",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL2103991",
+    "rank": "5"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 3,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 82,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 170,
+    "verified_evidence_count": 170,
+    "s2_condition_evidence_count": 3,
+    "verified_s2_condition_evidence_count": 3,
+    "s2_condition_count": 3,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "balaglitazone在MCF7 10 μM 24h的WTCS为-0.4527",
+        "relation": "association",
+        "evidence_ids": [
+          "6c7a3fc288c334e225bbefa8eda50131e7b59b4113dc86ea7053169ab40d142c"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7三个剂量条件下均有转录特征签名记录",
+        "relation": "association",
+        "evidence_ids": [
+          "2cfeaaa2b83e494b63fd450c4e19efaeb2cd350d6ad8375feeb725beb6866684",
+          "d6e4ae2bab249983481e566ab1d9e42077ae3cb40c3c5a2f3c8319bf3b102050"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录ENSG00000132170为部分激动剂靶点",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "c36d64800e4881122c756af86b5d328878fadff713bf0e3dd4361174f40e72ed"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录ENSG00000160868为酶类靶点关系",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "5ee466a47cc5ec996c0b7922eb03390bb20419e7c6b6d2650caf382b3442a309"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱记录ENSG00000138115为酶类靶点关系",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7a685a6606e4554e2cec8efe3157588636878064afbd4fc76e0f5a01c8dadbaf"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "富集通路：脂质运输的正调控(GO:0032370)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "01e80a21fa049306aad14ad78979585b159fd9c43d8feb0499d07346f732f4cc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "富集通路：细胞对胰岛素刺激的响应(GO:0032869)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "13d9770e449e141f28c416c6ac5c69bb0463e05add9937ddbb6d437652798a0b"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "富集通路：胆固醇外流(GO:0033344)",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0884051951f24caa6f249fba9a53afea5f5145a93a910b9ca4c7a0e5e31adb30"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "ENSG00000132170部分激动或与脂质储存调控富集相关",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "040c4c8acaf0d3b466eb924884b9d1ef2d71e89519717e8f3bbcb13124167627",
+          "c36d64800e4881122c756af86b5d328878fadff713bf0e3dd4361174f40e72ed"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "脂肪细胞分化正调控通路与靶点路径重叠",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "08fc6da435015fd370c8a15488a6f1a1a42314d4542208b49625db548e06bb27"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438"
+      }
+    ],
+    "limitations": [
+      "S2筛选仅限MCF7单一细胞系，且三个剂量中两个WTCS为0",
+      "部分上游断言缺少source URL，仅保留source_record_id与release"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 0,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "activation"
+    },
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 11.926,
+  "usage": {
+    "completion_tokens": 1236,
+    "completion_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "prompt_tokens": 3103,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4339
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

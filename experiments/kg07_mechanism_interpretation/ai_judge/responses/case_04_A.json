@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "a40d14f1860197134397a1e396987c79664d445e5402d72ddc955bf7f1ed80e7",
+  "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b",
+  "latency_seconds": 18.80222849999973,
+  "usage": {
+    "completion_tokens": 1022,
+    "completion_tokens_details": {
+      "reasoning_tokens": 394
+    },
+    "prompt_tokens": 2825,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3847
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "screening_evidence.s2_candidate 给出 rank 39、WTCS -0.39019682，conditions_source 与声明一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 字段（MCF7、10.0 um、24 h、median_B -0.390/rank 39、median_A -0.420/rank 22、GSE70138、单剂量单特征、stability_grade low）逐项匹配。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无任何 S1 外部验证数据或证据ID，median rank 2000.5/B200 162.0 无来源支持。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中不存在 Q2 条件相关数据或证据ID，339.0 无法核实。"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无 PRISM 敏感性数据、证据ID或来源快照，所有数值（0.184、0.0296、-0.192、0.00208、排名等）均无依据。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 6,
+        "accurate": false,
+        "reason": "与覆盖数据矛盾：包内有 7 条 direct_target 路径，reported_actions 含 TARGET/INHIBITOR/ENZYME 等靶点断言；evidence_gaps 仅说明无公共通路/S1 重叠路径。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "exp006 确为 single_dose、n_signatures 1、qc_sensitivity_range 0.1078、stability_grade low，'S2 信号稳健性不足'与包内 evidence_limitations 一致。"
+      },
+      {
+        "claim_index": 8,
+        "accurate": false,
+        "reason": "S1/Q2 验证数值本身不在包内，无法核实；coverage 也未提供相应验证结果，此'证据不足'表述引用了无依据的数据。"
+      },
+      {
+        "claim_index": 9,
+        "accurate": false,
+        "reason": "PRISM 数据与 ER 分组数值均不在包内，无法核实其存在及含义；该保留意见基于无依据数据。"
+      }
+    ],
+    "limitations": [
+      "S1 外部验证、Q2 条件与 PRISM 敏感性数据在来源快照中完全缺失，claims 3–5 及 uncertainty 8–9 无法核实",
+      "claim 6 与包内 7 条直接靶点路径的覆盖记录相矛盾",
+      "包内快照未提供引用ID对（citation_reference_pairs 为空），无逐引用核对材料",
+      "证据缺口中注明部分上游断言缺少 source URL，可追溯性受限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:47:35.620377+00:00"
+}

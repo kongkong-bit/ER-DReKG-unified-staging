@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:06.497981+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9725371/ancestors",
+    "response_sha256": "70e93a49fa048607d42d67f0ee7ec2e165425ee545c7f3ff748ac3b9d468f00e",
+    "response_bytes": 1991
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9725371,
+        "displayName": "Nuclear events stimulated by ALK signaling in cancer",
+        "stId": "R-HSA-9725371",
+        "name": [
+          "Nuclear events stimulated by ALK signaling in cancer"
+        ],
+        "stIdVersion": "R-HSA-9725371.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2021-06-09",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9725370,
+        "displayName": "Signaling by ALK fusions and activated point mutants",
+        "stId": "R-HSA-9725370",
+        "name": [
+          "Signaling by ALK fusions and activated point mutants"
+        ],
+        "stIdVersion": "R-HSA-9725370.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2021-06-09",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3234,
+        "diagramHeight": 3631,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9700206,
+        "displayName": "Signaling by ALK in cancer",
+        "stId": "R-HSA-9700206",
+        "name": [
+          "Signaling by ALK in cancer"
+        ],
+        "stIdVersion": "R-HSA-9700206.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9700206.4",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2021-06-09",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 493,
+        "diagramHeight": 201,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 5663202,
+        "displayName": "Diseases of signal transduction by growth factor receptors and second messengers",
+        "stId": "R-HSA-5663202",
+        "name": [
+          "Diseases of signal transduction by growth factor receptors and second messengers"
+        ],
+        "stIdVersion": "R-HSA-5663202.13",
+        "oldStId": "REACT_355457",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 637,
+        "diagramHeight": 428,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 1643685,
+        "displayName": "Disease",
+        "stId": "R-HSA-1643685",
+        "name": [
+          "Disease"
+        ],
+        "stIdVersion": "R-HSA-1643685.19",
+        "oldStId": "REACT_116125",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 817,
+        "diagramHeight": 361,
+        "inferred": false,
+        "inDisease": true
+      }
+    ]
+  ]
+}

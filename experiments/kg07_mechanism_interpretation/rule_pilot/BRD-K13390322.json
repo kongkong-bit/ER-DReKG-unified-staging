@@ -1,0 +1,385 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K13390322",
+    "drug_name": "AT-7519",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL445813",
+    "rank": "16"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "7a62716d4550dfd55765feda47a45d641a25c9948b9ce1654b80782d30208b0d",
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 20,
+    "public_pathway_path_count": 7,
+    "s1_enrichment_overlap_path_count": 134,
+    "s1_deg_overlap_path_count": 8,
+    "unique_evidence_count": 282,
+    "verified_evidence_count": 282,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 6 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "39153ae3858a2636634eaccd5c01bf4eeeb2e7eec1c28c7c7927663faf3b3d10",
+          "4e13cf7c6b63a3a6e3bb5d5d39188ffc4642afef7b76480287226c2c08815b17",
+          "683fd64d0005f3710b87faa40130b5ac688f422b23490c471d88d7bb89432520",
+          "c48f7bd6c9af94936561c7ffd45655dc599daeffe650e4306455fd4a89485dad",
+          "c965ea5bb6458571ca65edfb4d324dce401135ec91b12d27f26251446d391d67",
+          "d9e5d9ea3db8aba96c567ca1a8a75f765c13f73bb811e0b80c28cb35c21cffed"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录药物与基因 ENSG00000248333 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "04651b1c3dcb9741e57b6292f2c775a54191da30191eb2e81a3008fb84435ec6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000065883 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "0b858c9cee00784af5802bac2b7758589b4018125e8c8723694db41d087ddf4b"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000132964 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "1d9ecb2a265c0ea22a9b286d995dd169c441e4152c4b69d332a9262c4ddada5e"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000136807 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "20ad6f21ba93f6030a12016cc31f57c296ee16f7edcc51799be79a534eb5d403"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000156345 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "231edd0f3eeb4bc99049265e52558f213c98ea933bfa114ef02f4397a0a6223c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000135446 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "421264feada3340c667eb3875c7bcb65bc2d03ce63873a0cd69a27ac37c40beb"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000155111 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "45da5222bcefd545b80d9cc2b176d936154d7394bad4e65db1249a464e704012"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000102225 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "600646a77c39265c6cae41ba39ae81d0757ef1cea95e201879b5650da3a02d3a"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000117266 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "686b5446c5e29472d4273bfddc36ee89ee0dd8716963afa7b44f3dd624163b40"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000058091 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7b3bcf6224cf3600e5a9d5de3024a65bd82f00675aa5a23ef093e093422b1bac"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000250506 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7ceb73ccec6bec4d9792f2ee9292574da7124079568762adb31f98fc1330881c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000185324 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7eb860533eb996a39a76f13935bdcc950c732d9aec6461d00ac3abc3a152cd5c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000123374 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "7fdef2ad8cb7446693d3728a3466e2678e42c6b01d7506207510c57e148d9ff6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000105810 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "9a5d468227fbc35cb89e9a47d30aeaf99971bd79a54a6c58625a55b04c6aa073"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000167258 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "a5509811b3fffd7bdc7b21da5a10744bf11bd9a3b1145619371152fc3a3d0919"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000059758 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "aa02487d91183d272417022e866dc1e640416f0032db842865e2cafbe2a2fb9f"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000134058 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "b2939db1000e229b3896a187d7cc32f03d14981a230d041549061495d703cb37"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000164885 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "b3c3bb7cef2651e1aa74abe7e586d53b43eeb74383d5f148ec33193b39b2600c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000170312 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "b939373ac1b4f8e5ff6dd1b5dd62b073ec8a108adf5753097683687ad6ef0ee3"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000138395 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "fb90dfb3ced60530cfc04626927395c34a05caf6863eb9565e7691634715804d"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "该路径连接到通路 Resolution of Sister Chromatid Cohesion；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "22fb58ddab91a6baed7a4cd0abf3eea68839aeeeabca5285eb7ca332cc0cf43d"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "4e6f8d4d0d9363083015492df08d20f867bf686ffcd9c9385c64c39366d36177"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Cyclin A/B1/B2 associated events during G2/M transition；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "570f9874d4b1dad686b8b60f05226e3b1146b7d8cda25d2b6a03973e7fce93e2"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Mitotic Prophase；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "7f87334a041713f427601e9ae89c2d2dcd94d28ca92a8db616596ba7cd7a68df"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 PKR-mediated signaling；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e919cb50f846bffd8bae07181bf34109acf0c5f204e29f39de943d569541c7b8"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Estrogen-dependent gene expression；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "f2ff8f76ac4fefde46a789fcd4ddab52e03853dd0757d1f3be549c8509900b10"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "f8e1f9cdd328e28987d8fcf0f07104afd905eb261fbff8284e7c5339febc37ba"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 nuclear chromosome segregation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "01679011425e655825608da755213286ee1511e5ef16dbe1823436cbe23e0332"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 tube closure；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "03cc44c364089f2b8abb4bdf385c9e521000b0009021dc030dfe45b39c3a29c6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 viral process；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0608dc652b94078d397f7c1b5bcf7fd729ab4f6cd29b10041642a91400a3c55f"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 morphogenesis of embryonic epithelium；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "070e2ec5623b06d2c2b9618df2e846719280f4ccfe745f68a8b351b122a996e0"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 attachment of spindle microtubules to kinetochore；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0d91735f11b7c1c05ae5a90da01d576b2a8d25d387bb1738b558c8fc5ae63d0c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 G2/M Transition；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0f31c292f759e034ce252d3791b869c0edd908c12d15a7bf9e69491fe76239f2"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of sister chromatid segregation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "1110ad722dd1bfa39748eb9316ee3850fa60ef6fdc061eb5b306dd55326f2d2c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of cell cycle phase transition；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "13adee88064a780fdf1eb6aa7ad599a614e197afd3e7aec307f4f030cd7958f9"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [],
+    "limitations": [
+      "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

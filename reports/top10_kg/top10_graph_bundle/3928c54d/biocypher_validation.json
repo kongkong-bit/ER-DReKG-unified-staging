@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "biocypher_version": "0.17.0",
+  "schema_config": "kg/config/biocypher_schema.yaml",
+  "schema_config_sha256": "afc752901535de5f82e8dea141a788564d9af567424a017bb8ffbcf1a3cff8c6",
+  "biocypher_config_sha256": "f833efca0a3f5901e0a1b85422361d312fd827797190bb1097660d4b0bc75f4f",
+  "kg_pyproject_sha256": "799da5f3bab572b6e1fe2bc11cee5439fdbf0dd33981c7c555ec517ca3ad5406",
+  "kg_lock_sha256": "4c7b49e1e63531af89e8b45a632d1890a09debf6cdfccb8daaa8ccf21228c954",
+  "adapter_code_sha256": "6c59f3bad070ceb0055329240f856d38859347579058668c7e1362f88b9ab645",
+  "neo4j_driver_version": "6.4.1",
+  "translation_mode": "offline schema translation; no BioCypher database connection",
+  "neo4j_persistence": "GraphBuild-scoped MERGE importer consumes BioCypher translated entities",
+  "node_count": 6639,
+  "edge_count": 38388,
+  "node_types": {
+    "Candidate": 10,
+    "Disease": 1,
+    "DiseaseContext": 1,
+    "Drug": 8,
+    "Gene": 5830,
+    "GeneSet": 29,
+    "Pathway": 709,
+    "S2Condition": 51
+  },
+  "input_edge_types": {
+    "DRG-GEN": 74,
+    "PROJECT-ABOUT_DISEASE": 1,
+    "PROJECT-HAS_CANDIDATE": 10,
+    "PROJECT-HAS_DEG": 5698,
+    "PROJECT-HAS_S2_CONDITION": 51,
+    "PROJECT-REFERENCES_DRUG": 8,
+    "PWY-GEN": 1458,
+    "S1-ENRICHED-GENE": 30350,
+    "S1-ENRICHED-PATHWAY": 738
+  },
+  "normalized_edge_types": {
+    "ABOUT_DISEASE": 1,
+    "CONTAINS_GENE": 1458,
+    "HAS_CANDIDATE": 10,
+    "HAS_DEG": 5698,
+    "HAS_ENRICHED_GENE": 30350,
+    "HAS_ENRICHED_PATHWAY": 738,
+    "HAS_S2_CONDITION": 51,
+    "REFERENCES_DRUG": 8,
+    "TARGETS": 74
+  },
+  "stable_node_ids_preserved": true,
+  "stable_edge_ids_and_endpoints_preserved": true,
+  "source_properties_preserved_by_translator": true
+}

@@ -1,0 +1,17 @@
+{
+  "environment": "D:/CLASS/syh/experiments/s1_pathway_enrichment/r-env",
+  "r_version": "4.4.3 (2025-02-28 ucrt)",
+  "bioconductor_version": "3.20",
+  "packages": {
+    "limma": "3.62.2",
+    "edgeR": "4.4.2",
+    "locfit": "1.5-9.12",
+    "BiocManager": "1.30.27"
+  },
+  "edgeR_binary_source": "https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/edgeR_4.4.2.zip",
+  "dependency_binary_source": "https://cloud.r-project.org/bin/windows/contrib/4.4/locfit_1.5-9.12.zip",
+  "analysis_method": "edgeR::filterByExpr + edgeR::calcNormFactors(method='TMM') + limma::voom + limma::lmFit + contrasts.fit + eBayes(robust=TRUE)",
+  "input_contract": "raw non-negative integer read counts; matched sample metadata; two selected groups with at least two samples each",
+  "output_contract": "per-feature logFC, AveExpr, t, P.Value, BH-adjusted adj.P.Val, B, direction and AnalysisRun provenance",
+  "scope": "project-specific RNA-seq plugin; historical S1/S2 and Exp006–Exp011 outputs were not changed"
+}

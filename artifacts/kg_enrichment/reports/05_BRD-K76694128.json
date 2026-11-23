@@ -1,0 +1,830 @@
+{
+  "schema_version": 1,
+  "rank": 5,
+  "pert_id": "BRD-K76694128",
+  "drug": "rebastinib",
+  "identity": {
+    "status": "REBASTINIB",
+    "candidate_mapping_status": "see exact mapping in source GraphBundle"
+  },
+  "s2_overall": {
+    "wtcs": -0.4578457223071144,
+    "sig_id": "LJP007_MCF7_24H:I19",
+    "cell_line": "MCF7",
+    "dose": "10.0 um",
+    "time": "24 h",
+    "n_signatures": 1,
+    "interpretation": "whole-signature expression reversal association; not efficacy or target engagement"
+  },
+  "known_graph_assertions_by_relation": {
+    "INHIBITOR": [
+      "ENSG00000097007"
+    ],
+    "HAS_DIRECT_TARGET": [
+      "CHEMBL_TARGET:CHEMBL1862"
+    ]
+  },
+  "gene_level_s1_s2": {
+    "rows": 0,
+    "s1_directional_target_rows": 0,
+    "same_expression_direction_rows": 0,
+    "opposite_expression_direction_rows": 0,
+    "caveat": "COMPZ is transcript response, not target binding/activity; expression direction alone does not determine protein activity"
+  },
+  "candidate_mechanism_paths": [],
+  "candidate_context_paths": [
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-2029482"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "c64a0f965f2e4ce513c8295754107af0cdb7c28065696ff521dc59c702034e04",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-2029482:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-2029482",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-2029482:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-2029482\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-428890"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "d1be956de810663074fb3bef91e6979ea680d456639f344a8624c3191884fe7c",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-428890:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-428890",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-428890:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-428890\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-525793"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "5ab54dddabbe4d9a1d47f48b6faf64ec7137f610782aeca65129daf0e22eac42",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-525793:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-525793",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-525793:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-525793\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5663213"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "9a9e15db31efd015955b88b0fba3e62182d67b89c8c3b2f3a4c7e0ac43021dba",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-5663213:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-5663213",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-5663213:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5663213\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5685938"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "f8a4bb9e7966a48081d8ed721d21b87211c06fdd36005cae0830dd3aa5bf0fc2",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-5685938:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-5685938",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-5685938:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5685938\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-5693565"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "6acc8d7e458a4d9dd3b9102979b11dafc90b9afadb7c2b4aa548fe71f8dee4f1",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-5693565:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-5693565",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-5693565:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-5693565\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-69231"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "e5e564455b34e9972d7daf0f4760cb30be6e8e9a2dd9c610136542e67a7f2b73",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-69231:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-69231",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-69231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-69231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-8939236"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "43c4241e8d571646ea46f1d0a9ac47fe172a8e406fd55bb59b384f6f9d24d584",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-8939236:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-8939236",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-8939236:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8939236\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-8940973"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "917f2e7b14ef5fcdea8b105de9044559a07294950519a7006c337a1c8457b96c",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-8940973:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-8940973",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-8940973:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-8940973\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9664422"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "fe5db7ef0fe310f2f46433096fc21150ffa8648ddaa5599a5dcd7a5cfca5bb8e",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-9664422:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-9664422",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-9664422:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9664422\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-983231"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "dcde476e1f57241cabd76aae6d03fb52cf8857b30d39f4d30bea839d3a9c906a",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-983231:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-983231",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-983231:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-983231\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9841922"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "a50a23e2b5ffc852e8b0e18dd3fe3c0d0098694c6a89aa0b326c1f56664b826b",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-9841922:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-9841922",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-9841922:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9841922\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "CHEMBL1738757",
+        "CHEMBL_TARGET:CHEMBL1862",
+        "UNIPROT:P00519",
+        "REACT:R-HSA-9860927"
+      ],
+      "edge_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7"
+      ],
+      "path_kind": "drug-target-protein-pathway context",
+      "causal": false,
+      "direction": "unknown",
+      "interpretation": "ChEMBL direct mechanism plus Reactome protein participation; not an asserted causal downstream chain or ER+ effect",
+      "evidence_ids": [
+        "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+        "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+        "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "54d31e8c48356497700dbcba508c619d796c19e60672d5fe1d37b8ae7f808b77",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR",
+          "subject_id": "CHEMBL1738757",
+          "predicate": "HAS_DIRECT_TARGET",
+          "object_id": "CHEMBL_TARGET:CHEMBL1862",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:mechanism:CHEMBL1738757:CHEMBL1862:INHIBITOR\", \"action_type\": \"INHIBITOR\", \"mechanism_of_action\": \"Tyrosine-protein kinase ABL inhibitor\", \"direct_interaction\": true, \"source_release\": \"ChEMBL existing project snapshot\"}"
+        },
+        {
+          "evidence_id": "5f72a87d76bcfd5b298385efc27190a0f3eb4678c4d113c64d34c7018c007a70",
+          "source_release": "ChEMBL existing project snapshot",
+          "source_record_id": "ChEMBL:target_component:CHEMBL1862:P00519",
+          "subject_id": "CHEMBL_TARGET:CHEMBL1862",
+          "predicate": "HAS_COMPONENT",
+          "object_id": "UNIPROT:P00519",
+          "source_assertion_json": "{\"source_record_id\": \"ChEMBL:target_component:CHEMBL1862:P00519\", \"component_relationship\": \"SINGLE PROTEIN\", \"source_url\": \"https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1862.json\"}"
+        },
+        {
+          "evidence_id": "c123607802ae7cbdc6465b7945c802a073c16e591cf0c94a6651547da13230a7",
+          "source_release": "Reactome 98",
+          "source_record_id": "R-HSA-9860927:P00519",
+          "subject_id": "UNIPROT:P00519",
+          "predicate": "PARTICIPATES_IN",
+          "object_id": "REACT:R-HSA-9860927",
+          "source_assertion_json": "{\"source_record_id\": \"R-HSA-9860927:P00519\", \"source_url\": \"https://reactome.org/content/detail/R-HSA-9860927\", \"interpretation\": \"UniProt protein-to-pathway mapping; participation only, no activation/inhibition or ER+ disease claim.\", \"direction\": \"unknown\"}"
+        }
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "rank": "5",
+      "pert_id": "BRD-K76694128",
+      "pert_iname": "rebastinib",
+      "evidence_scope": "HER2_negative_mixed_subtype_clinical",
+      "claim_type": "trial_context",
+      "context": "Phase Ib rebastinib plus paclitaxel or eribulin in metastatic breast cancer",
+      "curated_finding": "Phase Ib trial enrolled HER2-negative metastatic breast-cancer patients and reported pharmacodynamic evidence consistent with TIE2 inhibition; HR-positive patients could be eligible, while the described individual response was in TNBC.",
+      "direction": "mixed_subtype_clinical_context",
+      "source_type": "primary_clinical_study",
+      "source_id": "PMID:39531537",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39531537/",
+      "limitations": "Combination trial; no ER-positive-specific efficacy estimate or randomized efficacy conclusion.",
+      "review_status": "reviewed"
+    }
+  ],
+  "literature_review_status": "manual focused review records only; not systematic review",
+  "human_mechanism_grade": {
+    "rank": "5",
+    "pert_id": "BRD-K76694128",
+    "drug_name": "rebastinib",
+    "grade": "B",
+    "grade_label": "部分",
+    "grade_rationale": "ChEMBL reports a direct ABL inhibitory mechanism and a phase Ib study provides breast-cancer clinical pharmacodynamic context.",
+    "target_evidence_basis": "审阅 03_drug_target_report.md、冻结 bundle 与 external identity/mechanism claims；未按关系条数打分。",
+    "target_evidence_ids": "aeb6a673dcdf95f1e7925487f9faded53cca246ac34bf56acaa28797c7bb31b0",
+    "target_source_records": "OptimusKG 3.2:drug_gene:CHEMBL1738757:ENSG00000097007",
+    "target_source_urls": "",
+    "disease_evidence_scope": "HER2_negative_mixed_subtype_clinical",
+    "disease_evidence_summary": "Phase Ib trial enrolled HER2-negative metastatic breast-cancer patients and reported pharmacodynamic evidence consistent with TIE2 inhibition; HR-positive patients could be eligible, while the described individual response was in TNBC.",
+    "disease_source_id": "PMID:39531537",
+    "disease_source_url": "https://pubmed.ncbi.nlm.nih.gov/39531537/",
+    "limitations": "The study included mixed HER2-negative subtypes; it does not establish ER-positive-specific efficacy. 定向检索不是系统综述；等级描述机制证据，不表示疗效概率。原始疾病记录限制：Combination trial; no ER-positive-specific efficacy estimate or randomized efficacy conclusion.",
+    "mechanism_source_refs": "21481795",
+    "assessment_type": "human_curated_focused_review_v1"
+  },
+  "rule_based_dimensions": {
+    "EvidenceQuality": {
+      "value": "B",
+      "basis": "existing human-curated A/B/C/U mechanism evidence grade",
+      "missing": false
+    },
+    "DirectionConsistency": {
+      "value": "not_assessable_no_signed_target_to_S1_path",
+      "basis": "signed path effect is retained, but S1 mRNA direction alone is not treated as protein activity or drug action direction",
+      "missing": true
+    },
+    "DiseaseRelevance": {
+      "value": "S1 DEG endpoints and/or ER+ literature present",
+      "record_count": 1,
+      "s1_terminal_path_count": 0,
+      "missing": false
+    },
+    "DrugPerturbationSupport": {
+      "value": "WTCS available; gene-level target response is descriptive and does not validate a signed regulatory path",
+      "wtcs": -0.4578457223071144,
+      "gene_response_rows": 0,
+      "path_terminal_S2_response_rows": 0,
+      "missing": true
+    },
+    "ContextMatch": {
+      "value": "MCF7 perturbation; regulatory context unavailable",
+      "cell_line": "MCF7",
+      "er_positive_literature_records": 0,
+      "missing": true
+    },
+    "PathSpecificity": {
+      "value": "not_assessable",
+      "basis": "path edges are directed regulatory assertions; exact UniProt-to-gene mappings and drug target assertions remain separately evidenced",
+      "missing": true
+    },
+    "ContradictionPenalty": {
+      "value": "review required",
+      "limitation_or_conflict_record_count": 1,
+      "regulatory_conflict_pair_count": 0,
+      "missing": false
+    },
+    "ranking_policy": "No aggregate score is emitted: key dimensions are missing or not comparable; WTCS and literature context remain separate evidence channels."
+  },
+  "historical_external_reproducibility": {
+    "rank": "5",
+    "pert_id": "BRD-K76694128",
+    "drug_name": "rebastinib",
+    "main_condition": "MCF7 trt_cp 10.0 um 24 h",
+    "WTCS_median": "-0.4578457223071144",
+    "n_signatures": "1",
+    "CC_median": "0.77",
+    "TAS_median": "0.73008",
+    "exp006_dose_count": "",
+    "exp006_negative_dose_fraction": "",
+    "exp006_dose_stability": "",
+    "exp006_qc_sensitivity_range": "",
+    "exp006_stability_grade": "",
+    "exp006_limitations": "",
+    "exp007_rank_A_original": "",
+    "exp007_rank_B100": "",
+    "exp007_rank_B150": "",
+    "exp007_rank_B200": "",
+    "exp007_rank_B300": "",
+    "exp007_rank_B_matched125": "",
+    "exp008_empirical_pvalue_B200_historical": "",
+    "exp008_BH_FDR_B200_historical": "",
+    "exp008_permutation_count_B200_historical": "",
+    "exp008_scope": "Historical Exp008 B200 permutation table (2,000 permutations); NA means this pert_id-condition was not tested there; not recomputed for the corrected 5,861-signature set.",
+    "exp009_status": "not_in_exp009_candidate_quality_output",
+    "exp009_rank_CC02": "",
+    "exp009_rank_CC01": "",
+    "exp009_rank_CC03": "",
+    "exp009_rank_CC02_TAS02": "",
+    "exp010_status": "not_matched_in_exp010_output",
+    "exp010_external_S1_rank": "",
+    "exp010_external_S1_WTCS": "",
+    "exp011_status": "not_matched_in_exp011_prism_output",
+    "exp011_ERpos_mean_sensitivity": "",
+    "exp011_ERpos_median_sensitivity": "",
+    "exp011_ERpos_cell_lines": "",
+    "exp011_ERneg_mean_sensitivity": "",
+    "exp011_ERneg_median_sensitivity": "",
+    "exp011_ERneg_cell_lines": "",
+    "exp011_MCF7_sensitivity": "",
+    "exp011_ERpos_minus_ERneg": "",
+    "interpretation_limits": "Historical sensitivity analyses are not re-estimates of the frozen primary result. PRISM viability sensitivity is a different endpoint from WTCS; missing candidate rows mean unavailable/unmatched in that experiment output, not a negative result."
+  },
+  "evidence_gaps": [
+    "no_directional_regulatory_path_to_S1_disease_gene",
+    "directional_mechanisms_require_context_compatibility_review",
+    "path_search_is_offline_bundle_derived"
+  ],
+  "interpretation": "The current local bundle supports source-traceable drug-target/pathway assertions and disease-context records. ChEMBL direct mechanism, target components, and Reactome protein participation are contextual annotation only, not a causal chain or ER+ effect. It does not contain the signed directed regulatory layer required to infer a causal molecular path. ER+ literature context and LINCS WTCS remain separate evidence channels."
+}

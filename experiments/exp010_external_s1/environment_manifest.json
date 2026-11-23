@@ -1,0 +1,27 @@
+{
+  "R": {
+    "version": "4.4.3",
+    "installation": "existing project virtual environment; R_HOME/PATH configured by run_exp010.ps1",
+    "packages": {
+      "limma": "3.62.2",
+      "hgu133plus2.db": "3.13.0",
+      "AnnotationDbi": "1.68.0",
+      "org.Hs.eg.db": "3.20.0",
+      "clusterProfiler": "4.14.6",
+      "ReactomePA": "1.50.0"
+    },
+    "startup_note": "R emits locale C.UTF-8 warnings in this Windows environment; analysis runs successfully."
+  },
+  "Python": {
+    "version": "3.12.10",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2",
+      "pytest": "9.2.0"
+    }
+  },
+  "random_seed": 42
+}

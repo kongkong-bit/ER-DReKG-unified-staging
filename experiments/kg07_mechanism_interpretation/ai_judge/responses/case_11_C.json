@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "b4735182b7dcf375d74cf532d3ed52c07d6a2056e23c7a40e8cf05ff8ca3fa9e",
+  "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56",
+  "latency_seconds": 17.305800700000873,
+  "usage": {
+    "completion_tokens": 922,
+    "completion_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "prompt_tokens": 4520,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 5442
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "rank 11、WTCS -0.4244、条件数6、CHEMBL460291、精确InChIKey匹配均在coverage与s2_candidate中有直接对应数据；'负相关'表述为关联性描述，与数值方向一致且明确声明非疗效证据。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006字段逐项吻合：MCF7、10.0um、24h、WTCS median B -0.4244290597436198、rank_B 11、rank_A 2（-0.4745）、GSE70138、n_signatures=1、negative_dose_fraction=1.0、multi_dose_negative、stability_grade=low。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中不存在任何S1 median rank 54.5、B200 138.0或Q2 482.5的数据；coverage仅有s1_enrichment/s1_deg_overlap路径计数（各2），无外部排名数值，该声明无证据支持。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中无任何PRISM细胞敏感性数据（ER+ n=9、ER- n=13、0.601/0.632/0.352/0.952等数值均未出现），独立_validation内容无包内来源支持。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "supported": false,
+        "accurate": false,
+        "reason": "表述与包内容明显不符：coverage显示12条direct_target路径、2条s1_enrichment_overlap路径（含GO:0072659、GO:1990778通路）与20条证据，'无知识图谱路径、无靶点断言、无通路重叠'是错误陈述。"
+      },
+      {
+        "claim_index": 6,
+        "supported": false,
+        "accurate": true,
+        "reason": "exp006确实标注n_signatures=1、stability_grade=low、qc_sensitivity_range=0.0，'稳健性证据不足'的保留意见与包内coverage/limitations（single signature）一致。"
+      },
+      {
+        "claim_index": 7,
+        "supported": false,
+        "accurate": false,
+        "reason": "'外部S1/Q2排名较低'依赖claim 3的数值，而快照中不存在S1/Q2排名数据；PRISM数据亦不在包内，该跨终点不一致性论断基于无证据前提，保留意见不准确。"
+      }
+    ],
+    "limitations": [
+      "claim 3与claim 4（S1/Q2排名与PRISM敏感性）在来源快照中完全没有对应数据，无法核实",
+      "uncertainty claim 5与包内容矛盾：快照实际提供12条直接靶点路径与2条通路重叠路径",
+      "部分来源记录在上游断言中缺少source URL（仅保留source_record_id与source_release），可追溯性受限",
+      "EXP006为单一特征（n_signatures=1）且stability_grade=low，转录逆转分数稳健性有限",
+      "S2筛选仅在MCF7单一细胞系、6个剂量条件下进行，泛化性受限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:01:04.110506+00:00"
+}

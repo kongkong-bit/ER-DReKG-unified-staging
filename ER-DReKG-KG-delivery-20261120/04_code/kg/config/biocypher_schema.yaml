@@ -1,0 +1,60 @@
+Drug:
+  represented_as: node
+  input_label: Drug
+Gene:
+  represented_as: node
+  input_label: Gene
+Pathway:
+  represented_as: node
+  input_label: Pathway
+GeneSet:
+  represented_as: node
+  input_label: GeneSet
+Candidate:
+  represented_as: node
+  input_label: Candidate
+DiseaseContext:
+  represented_as: node
+  input_label: DiseaseContext
+Disease:
+  represented_as: node
+  input_label: Disease
+S2Condition:
+  represented_as: node
+  input_label: S2Condition
+DRG-GEN:
+  represented_as: edge
+  input_label: DRG-GEN
+  label_as_edge: TARGETS
+PWY-GEN:
+  represented_as: edge
+  input_label: PWY-GEN
+  label_as_edge: CONTAINS_GENE
+PROJECT-HAS_CANDIDATE:
+  represented_as: edge
+  input_label: PROJECT-HAS_CANDIDATE
+  label_as_edge: HAS_CANDIDATE
+PROJECT-REFERENCES_DRUG:
+  represented_as: edge
+  input_label: PROJECT-REFERENCES_DRUG
+  label_as_edge: REFERENCES_DRUG
+PROJECT-HAS_DEG:
+  represented_as: edge
+  input_label: PROJECT-HAS_DEG
+  label_as_edge: HAS_DEG
+S1-ENRICHED-PATHWAY:
+  represented_as: edge
+  input_label: S1-ENRICHED-PATHWAY
+  label_as_edge: HAS_ENRICHED_PATHWAY
+S1-ENRICHED-GENE:
+  represented_as: edge
+  input_label: S1-ENRICHED-GENE
+  label_as_edge: HAS_ENRICHED_GENE
+PROJECT-ABOUT_DISEASE:
+  represented_as: edge
+  input_label: PROJECT-ABOUT_DISEASE
+  label_as_edge: ABOUT_DISEASE
+PROJECT-HAS_S2_CONDITION:
+  represented_as: edge
+  input_label: PROJECT-HAS_S2_CONDITION
+  label_as_edge: HAS_S2_CONDITION

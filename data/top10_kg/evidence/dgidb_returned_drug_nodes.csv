@@ -1,0 +1,16 @@
+returned_drug_name,dgidb_drug_id,exact_pert_id_match,identity_status,interaction_count
+PHA-767491,drugbank:DB17043,BRD-K50000283,exact_name,3
+MK-2461,iuphar.ligand:7962,BRD-K56405753,exact_name,22
+DOXORUBICIN-ELUTING BEADS,ncit:C82419,,unresolved_returned_name,1
+INIPARIB,ncit:C62526,BRD-K11153516,exact_name,2
+PONATINIB,rxcui:1364347,BRD-K44227013,exact_name,41
+MOCETINOSTAT,ncit:C62521,BRD-K16485616,exact_name,13
+DOXORUBICIN LIPOSOME,rxcui:214525,,unresolved_returned_name,3
+PFI-1,iuphar.ligand:7523,BRD-K13094524,exact_name,6
+DOXORUBICIN-MAGNETIC TARGETED CARRIER COMPLEX,ncit:C2644,,unresolved_returned_name,1
+DOXORUBICIN-HPMA CONJUGATE,ncit:C1366,,unresolved_returned_name,1
+BALAGLITAZONE,chembl:CHEMBL2103991,BRD-A00147595,exact_name,1
+DOXORUBICIN HYDROCHLORIDE,rxcui:142433,,unresolved_returned_name,170
+BALAGLITAZONE,ncit:C78125,BRD-A00147595,exact_name,2
+PONATINIB HYDROCHLORIDE,chembl:CHEMBL2105708,,unresolved_returned_name,2
+REBASTINIB,ncit:C152162,BRD-K76694128,exact_name,10

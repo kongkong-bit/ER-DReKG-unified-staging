@@ -1,0 +1,107 @@
+{
+  "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:e0bc64a29f974f1285c30f7dcc72cb57",
+  "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:115ad849-145b-468f-8131-5b46414be0fc",
+  "s1_input_path": "data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s1\\115ad849-145b-468f-8131-5b46414be0fc\\limma_all_genes.csv",
+  "s1_input_sha256": "2f55823f58bc7a997cb7822ecdebfaeb7ef4b83ef8e11eef16d74595ca848cb0",
+  "status": "completed",
+  "test_only": true,
+  "created_at_utc": "2026-11-13T13:09:15.792531+00:00",
+  "software_versions": {
+    "python": "3.12.10",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "h5py": "3.16.0"
+  },
+  "method": "CMap-style two-sided weighted KS/WTCS over BING genes; signature scores retain original WTCS and reversal_score=-WTCS",
+  "parameters": {
+    "identifier_type": "symbol",
+    "fdr_threshold": 0.05,
+    "top_n_per_direction": 1,
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "min_distil_cc_q75": 0.2,
+    "max_signatures": 5,
+    "dose_policy": "retain each dose stratum; never select a per-drug best dose",
+    "aggregation_policy": "median WTCS across eligible signatures within exact pert_id/cell/type/dose/time; MAD retained"
+  },
+  "mapping_summary": {
+    "s1_rows": 2,
+    "unique_bing_ids_mapped": 2,
+    "mapping_rate_all_s1": 1.0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "up_query_genes": 1,
+    "down_query_genes": 1,
+    "up_selected_gene_ids": [
+      "2"
+    ],
+    "down_selected_gene_ids": [
+      "53947"
+    ]
+  },
+  "qc_summary": {
+    "mcf7_trt_cp_signatures": 12737,
+    "requested_time_signatures": 11850,
+    "quality_pass_signatures": 5861,
+    "quality_pass_with_gctx_id": 5861,
+    "scored_signatures": 5,
+    "scored_drugs": 2,
+    "dose_time_condition_rows": 5,
+    "quality_missing_or_below_threshold": 5989,
+    "quality_threshold": 0.2,
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "dose_policy": "retain each dose stratum; never select a per-drug best dose",
+    "aggregation_policy": "median WTCS across eligible signatures within exact pert_id/cell/type/dose/time; MAD retained",
+    "rank_policy": "rank condition rows only within exact cell/type/dose/time",
+    "s1_up_selected": 1,
+    "s1_down_selected": 1,
+    "s1_up_measured_in_gctx": 1,
+    "s1_down_measured_in_gctx": 1
+  },
+  "inputs": {
+    "data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s1\\115ad849-145b-468f-8131-5b46414be0fc\\limma_all_genes.csv": {
+      "bytes": 113,
+      "sha256": "2f55823f58bc7a997cb7822ecdebfaeb7ef4b83ef8e11eef16d74595ca848cb0"
+    },
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_gene_info_2017-03-06.txt.gz": {
+      "bytes": 216692,
+      "sha256": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a"
+    },
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_info_2017-03-06.txt.gz": {
+      "bytes": 1943865,
+      "sha256": "b78284478d62029f600d4397334c538d363123110affd2454bf0055bd0678e01"
+    },
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_sig_metrics_2017-03-06.txt.gz": {
+      "bytes": 3137083,
+      "sha256": "05dd9139f7db1caef03b534611c0bcf97dd071a764445688eaa7e6c47e50b04c"
+    },
+    "s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx": {
+      "bytes": 5824120558,
+      "sha256": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e"
+    }
+  },
+  "outputs": {
+    "signature_scores.csv": {
+      "bytes": 1164,
+      "sha256": "e69d79d7bdac0c44f4d591331edff5c3c320112876a5b3e0e2a6c27b4575e1dd"
+    },
+    "drug_condition_summary.csv": {
+      "bytes": 742,
+      "sha256": "75ff5198111689a04a4aff605075585bc1dbb2477ae3d091327827b8a6c5af57"
+    },
+    "s1_gene_mapping_audit.csv": {
+      "bytes": 276,
+      "sha256": "1c0aed705617f5c6ea22e44c70475a20aa5834542fe5d31f150c4f834d752d66"
+    },
+    "qc_summary.json": {
+      "bytes": 776,
+      "sha256": "b4d9221eb780f58e26e18e1382097926762698f9d836d96c19a2a3ff6aa845f6"
+    }
+  },
+  "interpretation": "WTCS is an expression association score, not a treatment efficacy claim. Different doses and times are not pooled.",
+  "result_directory": "D:\\CLASS\\syh\\data\\processed\\projects\\89aa18d8-e1ca-4eb4-8046-634cd2911207\\s2\\e0bc64a29f974f1285c30f7dcc72cb57"
+}

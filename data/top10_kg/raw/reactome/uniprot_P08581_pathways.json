@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:32.274260+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/P08581/pathways?species=Homo%20sapiens",
+    "response_sha256": "f1367e29cc145a00c427e49a9e2deb4cf39658b50903e0b1768faccd47fe2d06",
+    "response_bytes": 7388
+  },
+  "payload": [
+    {
+      "dbId": 1257604,
+      "displayName": "PIP3 activates AKT signaling",
+      "stId": "R-HSA-1257604",
+      "stIdVersion": "R-HSA-1257604.14",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 5,
+      "name": [
+        "PIP3 activates AKT signaling",
+        "PI3K/AKT Signaling"
+      ],
+      "releaseDate": "2011-06-14",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-1257604.14",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2023-06-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2219530,
+      "displayName": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "stId": "R-HSA-2219530",
+      "stIdVersion": "R-HSA-2219530.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer"
+      ],
+      "releaseDate": "2012-09-18",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-03-23",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 416550,
+      "displayName": "Sema4D mediated inhibition of cell attachment and migration",
+      "stId": "R-HSA-416550",
+      "stIdVersion": "R-HSA-416550.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Sema4D mediated inhibition of cell attachment and migration"
+      ],
+      "releaseDate": "2009-09-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2017-12-18",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 5673001,
+      "displayName": "RAF/MAP kinase cascade",
+      "stId": "R-HSA-5673001",
+      "stIdVersion": "R-HSA-5673001.12",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 4,
+      "name": [
+        "RAF/MAP kinase cascade"
+      ],
+      "releaseDate": "2015-06-17",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-5673001.9",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2023-06-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 6806942,
+      "displayName": "MET Receptor Activation",
+      "stId": "R-HSA-6806942",
+      "stIdVersion": "R-HSA-6806942.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET Receptor Activation"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-6806942.2",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 6807004,
+      "displayName": "Negative regulation of MET activity",
+      "stId": "R-HSA-6807004",
+      "stIdVersion": "R-HSA-6807004.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Negative regulation of MET activity"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 6811558,
+      "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "stId": "R-HSA-6811558",
+      "stIdVersion": "R-HSA-6811558.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+      ],
+      "releaseDate": "2016-03-23",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/r-hsa-6811558.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2017-06-22",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8851805,
+      "displayName": "MET activates RAS signaling",
+      "stId": "R-HSA-8851805",
+      "stIdVersion": "R-HSA-8851805.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates RAS signaling"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8851907,
+      "displayName": "MET activates PI3K/AKT signaling",
+      "stId": "R-HSA-8851907",
+      "stIdVersion": "R-HSA-8851907.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates PI3K/AKT signaling"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8865999,
+      "displayName": "MET activates PTPN11",
+      "stId": "R-HSA-8865999",
+      "stIdVersion": "R-HSA-8865999.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates PTPN11"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8874081,
+      "displayName": "MET activates PTK2 signaling",
+      "stId": "R-HSA-8874081",
+      "stIdVersion": "R-HSA-8874081.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates PTK2 signaling"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2016-12-21",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8875360,
+      "displayName": "InlB-mediated entry of Listeria monocytogenes into host cell",
+      "stId": "R-HSA-8875360",
+      "stIdVersion": "R-HSA-8875360.5",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "InlB-mediated entry of Listeria monocytogenes into host cell"
+      ],
+      "releaseDate": "2016-12-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-8875360.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8875513,
+      "displayName": "MET interacts with TNS proteins",
+      "stId": "R-HSA-8875513",
+      "stIdVersion": "R-HSA-8875513.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET interacts with TNS proteins"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8875555,
+      "displayName": "MET activates RAP1 and RAC1",
+      "stId": "R-HSA-8875555",
+      "stIdVersion": "R-HSA-8875555.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates RAP1 and RAC1"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8875656,
+      "displayName": "MET receptor recycling",
+      "stId": "R-HSA-8875656",
+      "stIdVersion": "R-HSA-8875656.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET receptor recycling"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8875791,
+      "displayName": "MET activates STAT3",
+      "stId": "R-HSA-8875791",
+      "stIdVersion": "R-HSA-8875791.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MET activates STAT3"
+      ],
+      "releaseDate": "2016-09-19",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9022699,
+      "displayName": "MECP2 regulates neuronal receptors and channels",
+      "stId": "R-HSA-9022699",
+      "stIdVersion": "R-HSA-9022699.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MECP2 regulates neuronal receptors and channels"
+      ],
+      "releaseDate": "2018-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9734091,
+      "displayName": "Drug-mediated inhibition of MET activation",
+      "stId": "R-HSA-9734091",
+      "stIdVersion": "R-HSA-9734091.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Drug-mediated inhibition of MET activation"
+      ],
+      "releaseDate": "2021-09-15",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9734091.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9825892,
+      "displayName": "Regulation of MITF-M-dependent genes involved in cell cycle and proliferation",
+      "stId": "R-HSA-9825892",
+      "stIdVersion": "R-HSA-9825892.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of MITF-M-dependent genes involved in cell cycle and proliferation"
+      ],
+      "releaseDate": "2024-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

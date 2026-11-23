@@ -1,0 +1,13 @@
+{
+  "status": "LLM_CALLS_COMPLETED_HUMAN_REVIEW_PENDING",
+  "phase": "evaluation",
+  "created_at_utc": "2026-11-15T00:30:37.994260+00:00",
+  "n_cases": 20,
+  "n_model_calls_expected": 40,
+  "n_errors": 0,
+  "model": "configured Zhipu model",
+  "api_key_recorded": false,
+  "errors": [],
+  "output_csv_sha256": "52305b0f2ef459023c66d6a26a47241db0c4448757f8e58e45119fab513812c9",
+  "citation_flags_recomputed_locally": true
+}

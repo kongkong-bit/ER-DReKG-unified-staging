@@ -1,0 +1,16 @@
+{
+  "source_name": "OmniPath",
+  "source_url": "https://omnipathdb.org/interactions?genesymbols=no&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort,evidences&license=academic",
+  "release_version": "API-current-2026-11-22",
+  "retrieved_at": "2026-11-22T06:41:29.043598+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\omnipath\\2026-11-22\\interactions.tsv",
+  "license": "Academic-use filtered; per-row upstream source licenses retained in sources/evidences",
+  "species": "Homo sapiens",
+  "schema_version": "OmniPath interactions API; TSV; response header inspected after download",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "content_length_header": null,
+  "status": "downloaded",
+  "bytes": 53095387,
+  "sha256": "1092e4ee04f02bac0da89d0ea8d93570b2c54178be69656bf2a6780f8d6977e5"
+}

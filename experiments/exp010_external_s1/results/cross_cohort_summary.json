@@ -1,0 +1,16 @@
+{
+  "n_common_genes": 13973,
+  "spearman_logFC": 0.31422803482773665,
+  "overall_direction_concordance": 0.5755385386101768,
+  "S1_significant_common_n": 5100,
+  "external_significant_common_n": 490,
+  "both_significant_n": 333,
+  "both_significant_direction_concordance": 0.972972972972973,
+  "S2_Q2_signature_n": 4761,
+  "external_query_up_n": 11,
+  "external_query_down_n": 100,
+  "external_drug_conditions_n": 3715,
+  "ranking_common_conditions": 3715,
+  "ranking_spearman": 0.5444888559200086,
+  "top10_overlap_unique_pert_id": 1
+}

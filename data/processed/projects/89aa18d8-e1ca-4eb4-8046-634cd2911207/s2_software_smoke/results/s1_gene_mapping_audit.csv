@@ -1,0 +1,3 @@
+gene_id,logFC,adj.P.Val,t,identifier_type,lincs_gene_id,lincs_gene_symbol,mapping_status,selected_for_query,direction
+A2M,2.0,0.001,5.0,symbol,2,A2M,mapped_unique_bing,True,up
+A4GALT,-2.0,0.001,-5.0,symbol,53947,A4GALT,mapped_unique_bing,True,down

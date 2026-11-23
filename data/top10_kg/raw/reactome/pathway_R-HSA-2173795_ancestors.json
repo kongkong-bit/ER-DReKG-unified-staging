@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:50.167863+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2173795/ancestors",
+    "response_sha256": "3f18eff007be6746d06cbce8c233e8968059793a6935c45a8c3df24006241c44",
+    "response_bytes": 4225
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2173795,
+        "displayName": "Downregulation of SMAD2/3:SMAD4 transcriptional activity",
+        "stId": "R-HSA-2173795",
+        "name": [
+          "Downregulation of SMAD2/3:SMAD4 transcriptional activity"
+        ],
+        "stIdVersion": "R-HSA-2173795.6",
+        "oldStId": "REACT_121111",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-06-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2173793,
+        "displayName": "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",
+        "stId": "R-HSA-2173793",
+        "name": [
+          "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer"
+        ],
+        "stIdVersion": "R-HSA-2173793.6",
+        "oldStId": "REACT_121061",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-2173793.3",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-06-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2405,
+        "diagramHeight": 1936,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212436,
+        "displayName": "Generic Transcription Pathway",
+        "stId": "R-HSA-212436",
+        "name": [
+          "Generic Transcription Pathway"
+        ],
+        "stIdVersion": "R-HSA-212436.15",
+        "oldStId": "REACT_12627",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_12627.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2027,
+        "diagramHeight": 1176,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73857,
+        "displayName": "RNA Polymerase II Transcription",
+        "stId": "R-HSA-73857",
+        "name": [
+          "RNA Polymerase II Transcription"
+        ],
+        "stIdVersion": "R-HSA-73857.7",
+        "oldStId": "REACT_1366",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1366.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2900,
+        "diagramHeight": 1308,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ],
+    [
+      {
+        "dbId": 2173795,
+        "displayName": "Downregulation of SMAD2/3:SMAD4 transcriptional activity",
+        "stId": "R-HSA-2173795",
+        "name": [
+          "Downregulation of SMAD2/3:SMAD4 transcriptional activity"
+        ],
+        "stIdVersion": "R-HSA-2173795.6",
+        "oldStId": "REACT_121111",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-06-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2173793,
+        "displayName": "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",
+        "stId": "R-HSA-2173793",
+        "name": [
+          "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer"
+        ],
+        "stIdVersion": "R-HSA-2173793.6",
+        "oldStId": "REACT_121061",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-2173793.3",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-06-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2405,
+        "diagramHeight": 1936,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 170834,
+        "displayName": "Signaling by TGF-beta Receptor Complex",
+        "stId": "R-HSA-170834",
+        "name": [
+          "Signaling by TGF-beta Receptor Complex",
+          "Transforming Growth Factor (TGF) beta signaling"
+        ],
+        "stIdVersion": "R-HSA-170834.4",
+        "oldStId": "REACT_6844",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2006-04-24",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2189,
+        "diagramHeight": 1502,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006936,
+        "displayName": "Signaling by TGFB family members",
+        "stId": "R-HSA-9006936",
+        "name": [
+          "Signaling by TGFB family members"
+        ],
+        "stIdVersion": "R-HSA-9006936.9",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 735,
+        "diagramHeight": 146,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

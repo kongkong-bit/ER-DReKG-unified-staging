@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:02:54.482469+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL1822792&limit=1000&offset=0",
+    "response_sha256": "6309c4fed06ba458c8784dd38b7f8521bc46597eb014c1a2bc3362dc530b3ad2",
+    "response_bytes": 811
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4766,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Hepatocyte growth factor receptor inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "21608528",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21608528"
+          },
+          {
+            "ref_id": "25806189",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25806189"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1822792",
+        "parent_molecule_chembl_id": "CHEMBL1822792",
+        "record_id": 2472736,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3717",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  }
+}

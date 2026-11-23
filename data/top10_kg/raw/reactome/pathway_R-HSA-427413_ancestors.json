@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.664685+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-427413/ancestors",
+    "response_sha256": "f69a6c449f49e321900b57d5edd4bfe789b7055c0365750112b44341905a97e5",
+    "response_bytes": 1727
+  },
+  "payload": [
+    [
+      {
+        "dbId": 427413,
+        "displayName": "NoRC negatively regulates rRNA expression",
+        "stId": "R-HSA-427413",
+        "name": [
+          "NoRC negatively regulates rRNA expression",
+          "Methylation of histones and DNA negatively regulates rRNA expression"
+        ],
+        "stIdVersion": "R-HSA-427413.4",
+        "oldStId": "REACT_263965",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_200856.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1102,
+        "diagramHeight": 820,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 5250941,
+        "displayName": "Negative epigenetic regulation of rRNA expression",
+        "stId": "R-HSA-5250941",
+        "name": [
+          "Negative epigenetic regulation of rRNA expression"
+        ],
+        "stIdVersion": "R-HSA-5250941.4",
+        "oldStId": "REACT_264000",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 629,
+        "diagramHeight": 395,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212165,
+        "displayName": "Epigenetic regulation of gene expression",
+        "stId": "R-HSA-212165",
+        "name": [
+          "Epigenetic regulation of gene expression"
+        ],
+        "stIdVersion": "R-HSA-212165.8",
+        "oldStId": "REACT_264098",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 813,
+        "diagramHeight": 619,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

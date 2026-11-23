@@ -1,0 +1,59 @@
+# Python
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.py[cod]
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+data/raw/uploads/
+data/raw/**
+data/optimuskg/**
+
+# Local datasets, extracted matrices, and bulky scientific intermediates
+s1_初步_gse42568_limma/data/
+s2_lincs/data/
+s2_lincs/work/
+s2_lincs/.tmp/
+experiments/**/data/
+experiments/**/raw/
+experiments/**/cache/
+experiments/**/r-env/
+experiments/exp011_prism_validation/results/*sensitivity_matrix.csv
+**/*.gctx
+**/*.gctx.gz
+**/*.h5
+**/*.h5ad
+**/*.parquet
+**/*.tar
+**/*.tar.gz
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+frontend/.vite/
+
+# Local secrets and caches
+.env
+backend/.env
+.uv-cache/
+**/.cache/
+**/logs/
+*.log
+biocypher-log/
+outputs/tmp/
+experiments/kg07_mechanism_interpretation/cache/
+experiments/kg07_mechanism_interpretation/predictions/
+experiments/kg07_mechanism_interpretation/top50_llm/
+
+
+# Local agent tooling
+.agents/
+
+
+# Large local knowledge graph sources and generated bundles
+data/kg_enrichment/raw/omnipath/2026-11-22/interactions.tsv
+data/kg_enrichment/raw/primekg/2022-05/kg.csv
+data/kg_enrichment/raw/reactome/2026-10/UniProt2Reactome_All_Levels.txt
+data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/

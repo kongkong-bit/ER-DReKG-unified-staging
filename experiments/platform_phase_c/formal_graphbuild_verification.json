@@ -1,0 +1,85 @@
+{
+  "checked_at_utc": "2026-11-14T09:37:51.875898+00:00",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+  "status": "PASS",
+  "analysis_run_ids": {
+    "s1": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s2": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+    "enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+    "graph_bundle": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:8eda9601-2fd3-48cc-9a45-74809870a480"
+  },
+  "neo4j_summary": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+    "node_count": 6850,
+    "edge_count": 38657,
+    "nodes_by_type": {
+      "DiseaseContext": 1,
+      "Disease": 1,
+      "Pathway": 709,
+      "Gene": 5790,
+      "GeneSet": 29,
+      "Drug": 30,
+      "Candidate": 50,
+      "S2Condition": 240
+    },
+    "source": "neo4j"
+  },
+  "bundle": {
+    "directory": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/8eda9601-2fd3-48cc-9a45-74809870a480",
+    "manifest_sha256": "609b3fd34f061f928db3d4cef9e3389f9ce506510a0c08b5554db5ed8faf17b6",
+    "nodes": 7032,
+    "stable_pathway_gene_set_ids": 738,
+    "pathway_gene_links": 31991,
+    "unique_ensembl_mapped_pathway_links": 30350,
+    "candidates": 50,
+    "exact_inchikey_mapped_drugs": 30,
+    "s2_condition_rows": 240,
+    "candidate_target_pathway_routes": 1494
+  },
+  "api_checks": {
+    "graph_summary": "PASS",
+    "mechanism_routes": {
+      "pert_id": "BRD-A00147595",
+      "count": 82
+    },
+    "evidence_status": 200,
+    "go_up_total": 206,
+    "s2_condition_total": 240
+  },
+  "graph_build_scope_check": {
+    "disease_contexts_in_selected_build": 1,
+    "status": "PASS"
+  },
+  "graph_build_recorded_summary": {
+    "node_count": 6853,
+    "edge_count": 38657,
+    "nodes_by_type": {
+      "DiseaseContext": 4,
+      "Disease": 1,
+      "Pathway": 709,
+      "Gene": 5790,
+      "GeneSet": 29,
+      "Drug": 30,
+      "Candidate": 50,
+      "S2Condition": 240
+    },
+    "source": "neo4j",
+    "snapshot_kind": "按 GraphBuild ID 标记的 Neo4j 图谱版本",
+    "neo4j_membership": "registered",
+    "import_status": "PASS",
+    "test_only": false,
+    "neo4j_importer_sha256": "9ddb7497a0612c03a730949542469b3f123ab4d1c3a896470abbdbfa768faced",
+    "evidence_record_count": 38998,
+    "evidence_records_sha256": "e71f21bfb45a92ed8c88c8c4106da3c9af4a4f656d6783cd00dca45855c03313",
+    "evidence_records_status": "persisted",
+    "disease_context_count": 1,
+    "disease_contexts_sha256": "36e6e928ef86be8b2678f0287997e109d1ef5d88b13396915fd9c45f8a193c07",
+    "disease_contexts_status": "persisted"
+  },
+  "superseded_graph_builds": [
+    "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:92ccf8669de7c697",
+    "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:89efd9796240c910"
+  ]
+}

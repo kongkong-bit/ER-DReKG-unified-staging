@@ -1,0 +1,230 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88560311",
+    "drug_name": "rucaparib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1173055",
+    "rank": "9"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 23,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 53,
+    "s1_deg_overlap_path_count": 3,
+    "unique_evidence_count": 134,
+    "verified_evidence_count": 134,
+    "s2_condition_evidence_count": 4,
+    "verified_s2_condition_evidence_count": 4,
+    "s2_condition_count": 4,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1ade673cf4abf7412616a2092a89131cfaaad4a32ddcefcfd32349c8a92f3bdc",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "Rucaparib(BRD-K88560311)在S2分析中以WTCS评分-0.4287排名9(4个条件,GSE70138,MCF7,10 µM,24 h)",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "EXP006中BRD-K88560311的WTCS median B为-0.4287,rank 9;仅1个签名可用,4个剂量中75%为阴性剂量,剂量稳定性等级为low",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "外部S1验证中位排名为755(4个条件),B200子集中位排名161.5;Q2条件中位排名158,排名明显劣于S2",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM细胞敏感性为独立终点:ER+ mean 0.0587(9株)、ER- mean 0.4886(12株)、MCF7敏感性-0.3068(1个条件);这是细胞活力下降数据,不是临床疗效证据,且与S2表达逆转终点不一致",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无知识图谱路径、无数据库靶点断言、无疾病通路重叠数据,故无法给出任何已知靶点或机制断言",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "unknown",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "独立验证排名(755/161.5/158)明显差于S2筛选排名(9),且QC敏感性范围0.033、stability_grade为low、仅单签名,表达逆转结果的可靠性不足",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "unknown",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "PRISM敏感性分数与WTCS终点不同且未显示一致方向,不能作为疗效或机制支持",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "unknown",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "仅1个签名可用(n_signatures=1),证据有限",
+      "stability_grade为low,剂量间稳定性差",
+      "无知识图谱路径、靶点断言或通路重叠数据",
+      "独立验证排名显著劣于筛选排名",
+      "PRISM为细胞活力终点,不能推断临床疗效",
+      "非客观解释字段不适用"
+    ],
+    "uncited_or_uncertain": [
+      "drug_name、mapping_status、CHEMBL ID等元数据来源于候选记录本身,未附独立证据ID"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88560311"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "BRD-K88560311"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank:755.0",
+        "external_s1_B200_median_rank:161.5",
+        "Q2_condition_median_rank:158.0"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "erpos_mean_sensitivity:0.05871304091622223",
+        "erneg_mean_sensitivity:0.4886055984144417",
+        "mcf7_sensitivity:-0.306763795542"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "qc_sensitivity_range:0.03317629379073406",
+        "stability_grade:low"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "PRISM_endpoint",
+        "WTCS_PRISM_agreement_interpretation"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 11.911,
+  "usage": {
+    "completion_tokens": 746,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 963,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1709
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true,
+  "citation_reference_status": "no_or_invalid_retained_claim_citations"
+}

@@ -1,0 +1,16 @@
+{
+  "source_name": "OmniPath resource metadata",
+  "source_url": "https://omnipathdb.org/resources?format=tsv",
+  "release_version": "API-current-2026-11-22",
+  "retrieved_at": "2026-11-22T06:43:26.928036+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\omnipath\\2026-11-22\\resources.tsv",
+  "license": "OmniPath resource-specific license metadata",
+  "species": "Homo sapiens and all represented resources",
+  "schema_version": "OmniPath resources endpoint TSV; inspect header after download",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "content_length_header": null,
+  "status": "downloaded",
+  "bytes": 88433,
+  "sha256": "b750c02864512e5556e6195a7842f237ee9dab386c452c063a436941df7da471"
+}

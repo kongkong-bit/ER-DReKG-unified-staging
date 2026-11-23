@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-11-14T11:54:22.177874+00:00",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "n_candidates": 5,
+  "model_calls": 0,
+  "external_data_sent": false,
+  "cases": [
+    {
+      "pert_id": "BRD-K44227013",
+      "drug_name": "ponatinib",
+      "http_status": 200,
+      "path_count": 157,
+      "s2_condition_count": 5,
+      "target_claims": 21,
+      "pathway_claims": 14,
+      "screening_claims": 1,
+      "citation_reference_validation_pass": true,
+      "all_refs_match_package": true,
+      "evidence_gaps": [
+        "no target-to-public-pathway route was found",
+        "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+      ],
+      "input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+      "output_sha256": "da790d2ad6ec770d536be0014f53f2c6b8480e368456c47174efd321d7987c54"
+    },
+    {
+      "pert_id": "BRD-K13390322",
+      "drug_name": "AT-7519",
+      "http_status": 200,
+      "path_count": 169,
+      "s2_condition_count": 6,
+      "target_claims": 20,
+      "pathway_claims": 15,
+      "screening_claims": 1,
+      "citation_reference_validation_pass": true,
+      "all_refs_match_package": true,
+      "evidence_gaps": [
+        "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+      ],
+      "input_sha256": "7a62716d4550dfd55765feda47a45d641a25c9948b9ce1654b80782d30208b0d",
+      "output_sha256": "80adf434a3ecb9f9bdaa5cae26211c2c263caf65c51455c9520369b5daab70eb"
+    },
+    {
+      "pert_id": "BRD-K28822270",
+      "drug_name": "resminostat",
+      "http_status": 200,
+      "path_count": 0,
+      "s2_condition_count": 5,
+      "target_claims": 0,
+      "pathway_claims": 0,
+      "screening_claims": 1,
+      "citation_reference_validation_pass": true,
+      "all_refs_match_package": true,
+      "evidence_gaps": [
+        "no curated Drug-to-Gene target assertion was found",
+        "no target-to-public-pathway route was found",
+        "no target-to-S1-enriched-pathway overlap was found",
+        "no target-to-S1-DEG overlap was found"
+      ],
+      "input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03",
+      "output_sha256": "b864fd5c95575993c7f508c87ed5b8e0458f616ae2b91e2271529d46c86722b9"
+    },
+    {
+      "pert_id": "BRD-K79090631",
+      "drug_name": "CGP-60474",
+      "http_status": 200,
+      "path_count": 0,
+      "s2_condition_count": 6,
+      "target_claims": 0,
+      "pathway_claims": 0,
+      "screening_claims": 1,
+      "citation_reference_validation_pass": true,
+      "all_refs_match_package": true,
+      "evidence_gaps": [
+        "perturbagen has no exact compound mapping in this GraphBuild",
+        "no curated Drug-to-Gene target assertion was found",
+        "no target-to-public-pathway route was found",
+        "no target-to-S1-enriched-pathway overlap was found",
+        "no target-to-S1-DEG overlap was found"
+      ],
+      "input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+      "output_sha256": "cb1057659e189a277fd1b7a8f0123f53e7e8515f8784bf4cd9d922a6f41615d8"
+    },
+    {
+      "pert_id": "BRD-A00147595",
+      "drug_name": "balaglitazone",
+      "http_status": 200,
+      "path_count": 86,
+      "s2_condition_count": 3,
+      "target_claims": 3,
+      "pathway_claims": 32,
+      "screening_claims": 1,
+      "citation_reference_validation_pass": true,
+      "all_refs_match_package": true,
+      "evidence_gaps": [
+        "no target-to-public-pathway route was found",
+        "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+      ],
+      "input_sha256": "38434e1fda4b43761a422eaba037ab61e4697b87fcd65d795642c4e88a0a2438",
+      "output_sha256": "485fabbfe68848bccdc1be56189715a15f6b33228548a659de9f7ac56a518ac8"
+    }
+  ]
+}

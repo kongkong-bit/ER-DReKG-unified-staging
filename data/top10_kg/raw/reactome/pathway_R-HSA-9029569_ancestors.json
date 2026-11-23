@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:04.108114+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9029569/ancestors",
+    "response_sha256": "24a55ea2f8fa420f024221f3c2f4c6a4a26d6c258cd91271b703ef1cd531c359",
+    "response_bytes": 1694
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9029569,
+        "displayName": "NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux",
+        "stId": "R-HSA-9029569",
+        "name": [
+          "NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux",
+          "LXRs regulate gene expression linked to cholesterol transport and efflux"
+        ],
+        "stIdVersion": "R-HSA-9029569.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2019-09-10",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9024446,
+        "displayName": "NR1H2 and NR1H3-mediated signaling",
+        "stId": "R-HSA-9024446",
+        "name": [
+          "NR1H2 and NR1H3-mediated signaling",
+          "LXR-mediated signaling"
+        ],
+        "stIdVersion": "R-HSA-9024446.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9024446.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2019-09-10",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2154,
+        "diagramHeight": 2605,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006931,
+        "displayName": "Signaling by Nuclear Receptors",
+        "stId": "R-HSA-9006931",
+        "name": [
+          "Signaling by Nuclear Receptors"
+        ],
+        "stIdVersion": "R-HSA-9006931.7",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 548,
+        "diagramHeight": 287,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

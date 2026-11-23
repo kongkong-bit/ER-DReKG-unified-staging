@@ -1,0 +1,2 @@
+candidate_set,n_compounds,ER_positive_cell_lines,ER_negative_TNBC_lines,observed_mean_ERpos_minus_TNBC_sensitivity,bootstrap_95ci_low,bootstrap_95ci_high,matched_line_coverage_strata,randomization_replicates,one_sided_empirical_p_candidate_more_ERpos_selective
+Exp006 Top50 exact structure overlap,37,9,13,-0.3266352789691635,-0.5170175200547982,-0.14509818622503687,"{""(8, 12)"": 2, ""(9, 12)"": 1, ""(9, 13)"": 34}",10000,0.9998000199980002

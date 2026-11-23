@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-14",
+  "status": "local_preflight_pass_formal_database_update_pending",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "original_s1_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "historical_inventory": {
+    "checked": 22,
+    "sha256_matches": 22,
+    "mismatches": 0
+  },
+  "r_environment": {
+    "status": "loaded",
+    "R": "R version 4.4.3 (2025-02-28 ucrt)",
+    "packages": {
+      "clusterProfiler": "4.14.6",
+      "ReactomePA": "1.50.0",
+      "org.Hs.eg.db": "3.20.0",
+      "fgsea": "1.32.4",
+      "ggplot2": "4.0.3"
+    }
+  },
+  "project_enrichment_preflight": {
+    "output_directory": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/repair-preflight-50ae049d-52a3-4edf-9659-e64ce1d2f686",
+    "input": "project-standardized copy of historical limma table; no limma rerun",
+    "input_genes": 21653,
+    "mapped_entrez_rows": 17649,
+    "mapped_entrez_universe": 17649,
+    "unmapped_symbols": 4007,
+    "one_to_many_symbols": 6,
+    "unique_ensembl_genes": 15977,
+    "ambiguous_ensembl_genes": 1148,
+    "unmapped_ensembl_genes": 4531,
+    "significant_pathways": {
+      "go_up": 206,
+      "go_down": 343,
+      "reactome_up": 135,
+      "reactome_down": 26,
+      "hallmark_gsea": 29
+    }
+  },
+  "graphbundle_local_preflight": {
+    "output_directory": "experiments/platform_phase_c/.tmp/formal_bundle_mapping_50c300c1-7ffd-42cf-8554-47cae399ee79",
+    "status": "validated",
+    "nodes": 7740,
+    "edges": 38240,
+    "s1_significant_genes": 7066,
+    "s1_unique_ensembl_mapped": 6707,
+    "s1_ambiguous_or_unmatched": 359,
+    "pathway_gene_links": 31991,
+    "pathway_gene_unique_mapped": 30350,
+    "candidate_perturbagens": 50,
+    "exact_inchikey_mapped_drugs": 30,
+    "s2_condition_rows": 240,
+    "candidate_target_pathway_routes": 1494,
+    "relation_conflicts": 0,
+    "unmatched_entities": 2020
+  },
+  "stable_identifier_formal_build": {
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+    "bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:8eda9601-2fd3-48cc-9a45-74809870a480",
+    "bundle_nodes": 7032,
+    "bundle_edges": 38998,
+    "stable_pathway_gene_set_nodes": 738,
+    "pathway_gene_unique_mapped": 30350,
+    "candidate_target_pathway_routes": 1494,
+    "neo4j_nodes": 6853,
+    "neo4j_relationships": 38657,
+    "api_mechanism_example_routes": 82,
+    "api_evidence_http_status": 200,
+    "verification_status": "PASS"
+  },
+  "fail_closed_mapping_gate": {
+    "implemented": true,
+    "behavior": "If pathway-gene links exist but zero map uniquely to Ensembl, GraphBundle construction raises an error instead of returning validated.",
+    "kg_tests": "7 passed, including a regression test for absent Ensembl crosswalks"
+  },
+  "previous_registered_build_review": {
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:92ccf8669de7c697",
+    "finding": "The historical enrichment CSV lacked Ensembl IDs; the first formal GraphBundle had 0 uniquely mapped pathway-gene rows and 0 target-pathway routes.",
+    "action": "Retained as immutable history; do not treat as the corrected pathway-connected build."
+  },
+  "formal_database_update": {
+    "status": "completed_and_verified",
+    "approval_history": "The first retry request returned automatic-review Bad Request; after the user confirmed retry, the registered formal GraphBundle and GraphBuild completed and passed read-only API verification.",
+    "final_report": "experiments/platform_phase_c/formal_graphbuild_verification.md"
+  }
+}

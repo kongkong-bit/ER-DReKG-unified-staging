@@ -1,0 +1,5 @@
+field,n_nonmissing,n_missing,min,q25,median,q75,max,interpretation
+distil_cc_q75,11819,31,0.0,0.11,0.19,0.36,0.9,released LINCS field; distribution summarized without redefining metric
+distil_ss,11850,0,1.69891,3.0680925,3.530255,4.4140175,19.6371,released LINCS field; distribution summarized without redefining metric
+tas,11850,0,0.00452216,0.105085,0.15184599999999998,0.263064,0.844651,released LINCS field; distribution summarized without redefining metric
+distil_nsample,11850,0,1.0,3.0,3.0,3.0,4.0,released LINCS field; distribution summarized without redefining metric

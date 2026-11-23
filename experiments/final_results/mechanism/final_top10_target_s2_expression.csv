@@ -1,0 +1,67 @@
+rank,pert_id,drug_name,signature_count,target_gene_id,target_symbol,mapping_status,s1_direction,s1_logFC,s1_FDR,sig_id,COMPZ,S2_directional_relation
+1,BRD-K44227013,ponatinib,1,ENSG00000118777,ABCG2,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.125054955482483,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000100197,CYP2D6,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.1106010675430298,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000077782,FGFR1,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,0.6278222799301147,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000197122,SRC,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,2.1208043098449707,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000254087,LYN,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,4.409085273742676,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000134853,PDGFRA,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.159759521484375,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000160867,FGFR4,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,0.8718909025192261,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000182866,LCK,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.1617425680160522,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000122025,FLT3,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,-0.4671580493450165,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000160868,CYP3A4,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.016152024269104,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000085563,ABCB1,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,1.020952582359314,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000138115,CYP2C8,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,0.5121878385543823,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000157404,KIT,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,0.48562854528427124,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000066468,FGFR2,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,0.11993531882762909,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000186716,BCR,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,-0.4177658259868622,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000097007,ABL1,mapped by exact LINCS gene symbol,,,,LJP009_MCF7_24H:E19,-3.561141014099121,neutral or no S1 DEG
+1,BRD-K44227013,ponatinib,1,ENSG00000165731,RET,mapped by exact LINCS gene symbol,UP,0.879766560654955,0.0258332428159049,LJP009_MCF7_24H:E19,-0.9537631273269653,opposite expression direction (descriptive)
+1,BRD-K44227013,ponatinib,1,ENSG00000128052,KDR,mapped by exact LINCS gene symbol,DOWN,-0.716671250126428,0.0147828263081773,LJP009_MCF7_24H:E19,1.1763029098510742,opposite expression direction (descriptive)
+1,BRD-K44227013,ponatinib,1,ENSG00000120156,TEK,mapped by exact LINCS gene symbol,DOWN,-0.785058197008346,2.09464622896285e-09,LJP009_MCF7_24H:E19,1.4203757047653198,opposite expression direction (descriptive)
+1,BRD-K44227013,ponatinib,1,ENSG00000106258,CYP3A5,mapped by exact LINCS gene symbol,DOWN,-0.462650972945128,2.98774963817148e-05,LJP009_MCF7_24H:E19,1.518023133277893,opposite expression direction (descriptive)
+1,BRD-K44227013,ponatinib,1,ENSG00000068078,FGFR3,mapped by exact LINCS gene symbol,UP,1.63864339549385,1.19199778396194e-07,LJP009_MCF7_24H:E19,1.9309005737304688,same expression direction (descriptive)
+2,BRD-K16485616,mocetinostat,1,ENSG00000196591,HDAC2,mapped by exact LINCS gene symbol,,,,LJP008_MCF7_24H:I07,0.2963915467262268,neutral or no S1 DEG
+2,BRD-K16485616,mocetinostat,1,ENSG00000163517,HDAC11,mapped by exact LINCS gene symbol,,,,LJP008_MCF7_24H:I07,-0.7693380117416382,neutral or no S1 DEG
+2,BRD-K16485616,mocetinostat,1,ENSG00000147099,HDAC8,target not measured in GSE70138 Level 5,,,,,,not assessable
+2,BRD-K16485616,mocetinostat,1,ENSG00000171720,HDAC3,mapped by exact LINCS gene symbol,,,,LJP008_MCF7_24H:I07,0.09639105200767517,neutral or no S1 DEG
+2,BRD-K16485616,mocetinostat,1,ENSG00000116478,HDAC1,mapped by exact LINCS gene symbol,UP,1.09654237112642,0.000132622994771007,LJP008_MCF7_24H:I07,0.6393493413925171,same expression direction (descriptive)
+3,BRD-K56405753,MK-2461,1,,,no direct target in current GraphBuild,,,,,,not assessable
+4,BRD-K92093830,doxorubicin,1,ENSG00000164867,NOS3,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.7244501113891602,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000158864,NDUFS2,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-1.1427500247955322,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000159231,CBR3,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-1.9824000597000122,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000197408,CYP2B6,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,3.4847002029418945,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000115286,NDUFS7,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.027599990367889404,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000023839,ABCC2,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,0.871999979019165,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000166197,NOLC1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.3107999861240387,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000017797,RALBP1,mapped by exact LINCS gene symbol,DOWN,-0.362185609424063,0.0456006619394288,REP.A026_MCF7_24H:L19,-0.46415001153945923,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000073734,ABCB11,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,2.6297500133514404,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000213619,NDUFS3,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.42339998483657837,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000117448,AKR1A1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.466249942779541,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000138061,CYP1B1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.11360001564025879,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000160868,CYP3A4,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,2.400750160217285,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000089250,NOS1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.0750499963760376,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000103222,ABCC1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.08559998869895935,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000007171,NOS2,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.7507500648498535,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000091262,ABCC6,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.857200026512146,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000158125,XDH,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,2.7139501571655273,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000118777,ABCG2,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,-0.7483500242233276,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000127948,POR,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,0.8430500030517578,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000163631,ALB,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.1582000255584717,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000100197,CYP2D6,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,2.9661998748779297,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000085563,ABCB1,mapped by exact LINCS gene symbol,,,,REP.A026_MCF7_24H:L19,1.992799997329712,neutral or no S1 DEG
+4,BRD-K92093830,doxorubicin,1,ENSG00000159228,CBR1,mapped by exact LINCS gene symbol,DOWN,-0.511930094405622,0.0349474024219736,REP.A026_MCF7_24H:L19,-0.9207500219345093,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000108846,ABCC3,mapped by exact LINCS gene symbol,UP,0.572919850064967,0.0454610728291714,REP.A026_MCF7_24H:L19,0.6383000016212463,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000181019,NQO1,mapped by exact LINCS gene symbol,DOWN,-1.36032427323881,0.0166341746791992,REP.A026_MCF7_24H:L19,-0.6477999687194824,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000197150,ABCB8,mapped by exact LINCS gene symbol,UP,0.213174702876205,0.013315363828234,REP.A026_MCF7_24H:L19,1.1534500122070312,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000131747,TOP2A,mapped by exact LINCS gene symbol,UP,3.22949300583669,2.53520344380651e-11,REP.A026_MCF7_24H:L19,-10.0,opposite expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000124574,ABCC10,mapped by exact LINCS gene symbol,UP,0.983047520388054,1.4038400990993e-06,REP.A026_MCF7_24H:L19,1.152750015258789,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000196139,AKR1C3,mapped by exact LINCS gene symbol,DOWN,-4.38397153274013,1.02275341457333e-10,REP.A026_MCF7_24H:L19,-0.034999996423721313,same expression direction (descriptive)
+4,BRD-K92093830,doxorubicin,1,ENSG00000004809,SLC22A16,target not measured in GSE70138 Level 5,DOWN,-0.227708378482443,0.00320497052334189,,,not assessable
+5,BRD-K76694128,rebastinib,1,,,no direct target in current GraphBuild,,,,,,not assessable
+6,BRD-K50000283,PHA-767491,1,,,no direct target in current GraphBuild,,,,,,not assessable
+7,BRD-K11153516,iniparib,1,ENSG00000143799,PARP1,mapped by exact LINCS gene symbol,UP,0.61397228441878,0.010940789219611,REP.A005_MCF7_24H:P01,1.3206859827041626,same expression direction (descriptive)
+8,BRD-A00147595,balaglitazone,1,ENSG00000160868,CYP3A4,mapped by exact LINCS gene symbol,,,,REP.A012_MCF7_24H:B07,0.5776824355125427,neutral or no S1 DEG
+8,BRD-A00147595,balaglitazone,1,ENSG00000138115,CYP2C8,mapped by exact LINCS gene symbol,,,,REP.A012_MCF7_24H:B07,0.19768784940242767,neutral or no S1 DEG
+8,BRD-A00147595,balaglitazone,1,ENSG00000132170,PPARG,mapped by exact LINCS gene symbol,DOWN,-4.84089870604829,4.71136367105938e-21,REP.A012_MCF7_24H:B07,-0.4902311861515045,same expression direction (descriptive)
+9,BRD-K13094524,PFI-1,1,,,no direct target in current GraphBuild,,,,,,not assessable
+10,BRD-K83837640,JNJ-26481585,1,,,no direct target in current GraphBuild,,,,,,not assessable

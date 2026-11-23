@@ -1,0 +1,190 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K16485616",
+    "drug_name": "mocetinostat",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL272980",
+    "rank": "2"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 5,
+    "public_pathway_path_count": 12,
+    "s1_enrichment_overlap_path_count": 37,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 94,
+    "verified_evidence_count": 94,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 10.0uM/24h时WTCS为-0.506，条件n=1",
+        "relation": "association",
+        "evidence_ids": [
+          "4850906e71e5dcb6e7cdefc888a449d835573de2e6abe956af9808b5d4229865"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 3.33uM/24h时WTCS为-0.349，质量cc中位数0.76",
+        "relation": "association",
+        "evidence_ids": [
+          "c01cc13324a8fc15f30200d46afbef2e680550527b8cde03ed4b331a51be21fa"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 1.11uM/24h时WTCS为-0.471，质量cc中位数0.2",
+        "relation": "association",
+        "evidence_ids": [
+          "c1455ff36d191ae981da1c4c1305cff91a36bbbf79891ce521576c201f43711b"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录mocetinostat为ENSG00000116478的抑制剂的靶点",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "2b51056a3e04756a465df8e7ec723295f403b997162fa1c07810a53a93963aab"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录该药抑制ENSG00000196591，报告动作含INHIBITOR",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "6afbf70007a7b421a2343e4401740456dfa1be0889b8274cc8a7cb86616d772d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录该药抑制ENSG00000163517，报告动作INHIBITOR",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "2c1e35bad07c41e125f882cbd365cdb16ff18ae971d84b2ee60b52d96f406ccd"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "图谱路径将靶基因关联到HDACs组蛋白去乙酰化通路",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "520d74c1d12a6b5294cf686cd848136093db37faab8a069c39134dbce645808e"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱路径关联雌激素依赖性基因表达通路",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "74852be6a223ffd24b85d16bf4638ac887c6cd7299a17dd92043fba74658305e"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱路径关联RNA聚合酶I转录起始通路",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "71475f8a99755e4f3c39e3623895afaa9719245908649948a1e2378dee8ea2a1"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064"
+      }
+    ],
+    "limitations": [
+      "部分上游断言缺少source URL，仅有source_record_id和source_release",
+      "S2各条件n_signatures均为1，单一特征支持有限",
+      "WTCS方向在不同剂量间不一致，浓度-响应关系不明确"
+    ],
+    "uncited_or_uncertain": [
+      "ENSG00000147099和ENSG00000171720的抑制关系仅见图谱断言，未见对应证据记录ID",
+      "图谱路径evidence_ids为空，仅能以path_id引用"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 14.215,
+  "usage": {
+    "completion_tokens": 987,
+    "completion_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "prompt_tokens": 3534,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4521
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

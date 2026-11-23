@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-11-22T13:48:06.857153+00:00",
+  "protocol": "v4 discovery (reports/protocol_v4_discovery.md)",
+  "manifest_status": "PASS",
+  "protocol_sha256": "ffa4fe9bfcf0d9208e5ca68710c401d05969276ac7d05b2d1e0595a262f8558f",
+  "input_sha256": {
+    "method_signature_scores.csv": "677627cfe8e691b1cfe2d62717a50b6900eef6b2f6c528d79f2e3c2fd3660860",
+    "final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+    "candidate_sensitivity_results.csv": "ead042bc5c7c44a65e01b39f4fee4e1eefb1a27fedce9f3db7d79d163ce6362e",
+    "limma_significant_genes_FDR05.csv": "6f7952a1dfb0dad6e5493cc559ca983707fa0abe402cab3e9ce0dca2262814f1",
+    "limma_all_genes.csv": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "pathway_gene_links.csv": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+    "graph_bundle_manifest.json": "c2c9f0f54782af88fabbeb9cd1311d7643a4fa43cdd9aa0f583ba872eb860704",
+    "graph_subgraph_nodes.csv": "0e20f5cca9daa945b168e8452e96a3465bcf1d786fc2272a830cbd18b70423ee",
+    "graph_subgraph_edges.csv": "10a345da91c9e462c8f561d439162194f306575f6d9ee514fe57c2c1049938f8",
+    "graph_evidence_records.csv": "72ca7079a096c88628f8648dd423ce15bdb0cf70ded3061bc0359a3170b80a70",
+    "graph_candidate_mapping_audit.csv": "f7291330df06eead8e53bcc588dedb8e964ed9371f81aec494ae148ba5502525"
+  },
+  "funnel": [
+    {
+      "step": "发现队列药物",
+      "n": 1471
+    },
+    {
+      "step": "四算法可评分",
+      "n": 1191
+    },
+    {
+      "step": "剂量数 ≥3",
+      "n": 652
+    },
+    {
+      "step": "过剂量门槛",
+      "n": 91
+    },
+    {
+      "step": "过 3/4 算法共识",
+      "n": 84
+    },
+    {
+      "step": "有方向一致机制链",
+      "n": 0
+    },
+    {
+      "step": "机制可解释 Top10",
+      "n": 10
+    }
+  ],
+  "top20": [
+    {
+      "rank": 1,
+      "drug": "CGP-60474",
+      "pert_id": "BRD-K79090631",
+      "S_disc": 0.9976958525345623,
+      "stability": 1.0,
+      "doses": 6,
+      "chains": 0,
+      "prism": "missing"
+    },
+    {
+      "rank": 2,
+      "drug": "romidepsin",
+      "pert_id": "BRD-K61397605",
+      "S_disc": 0.9969278033794162,
+      "stability": 1.0,
+      "doses": 5,
+      "chains": 0,
+      "prism": "missing"
+    },
+    {
+      "rank": 3,
+      "drug": "alvocidib",
+      "pert_id": "BRD-K87909389",
+      "S_disc": 0.9938556067588326,
+      "stability": 0.897,
+      "doses": 6,
+      "chains": 2,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 4,
+      "drug": "WZ-3105",
+      "pert_id": "BRD-K92571446",
+      "S_disc": 0.9884792626728112,
+      "stability": 1.0,
+      "doses": 6,
+      "chains": 0,
+      "prism": "missing"
+    },
+    {
+      "rank": 5,
+      "drug": "carfilzomib",
+      "pert_id": "BRD-K15179879",
+      "S_disc": 0.9877112135176651,
+      "stability": 1.0,
+      "doses": 6,
+      "chains": 4,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 6,
+      "drug": "pentobarbital",
+      "pert_id": "BRD-A44448661",
+      "S_disc": 0.9877112135176651,
+      "stability": 0.871,
+      "doses": 6,
+      "chains": 0,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 7,
+      "drug": "bortezomib",
+      "pert_id": "BRD-K88510285",
+      "S_disc": 0.9877112135176651,
+      "stability": 0.865,
+      "doses": 6,
+      "chains": 4,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 8,
+      "drug": "rucaparib",
+      "pert_id": "BRD-K88560311",
+      "S_disc": 0.9861751152073732,
+      "stability": 0.64,
+      "doses": 4,
+      "chains": 1,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 9,
+      "drug": "triptolide",
+      "pert_id": "BRD-K81258678",
+      "S_disc": 0.9846390168970814,
+      "stability": 0.944,
+      "doses": 5,
+      "chains": 0,
+      "prism": "missing"
+    },
+    {
+      "rank": 10,
+      "drug": "emedastine",
+      "pert_id": "BRD-K15010214",
+      "S_disc": 0.9838709677419355,
+      "stability": 1.0,
+      "doses": 4,
+      "chains": 0,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 11,
+      "drug": "TPCA-1",
+      "pert_id": "BRD-K51575138",
+      "S_disc": 0.9800307219662059,
+      "stability": 0.643,
+      "doses": 6,
+      "chains": 0,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 12,
+      "drug": "dacinostat",
+      "pert_id": "BRD-K56957086",
+      "S_disc": 0.9792626728110598,
+      "stability": 0.835,
+      "doses": 6,
+      "chains": 0,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 13,
+      "drug": "lacidipine",
+      "pert_id": "BRD-K43586850",
+      "S_disc": 0.9738863287250383,
+      "stability": 0.805,
+      "doses": 6,
+      "chains": 0,
+      "prism": "support"
+    },
+    {
+      "rank": 14,
+      "drug": "tioconazole",
+      "pert_id": "BRD-A33084557",
+      "S_disc": 0.9738863287250383,
+      "stability": 0.668,
+      "doses": 5,
+      "chains": 0,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 15,
+      "drug": "RG-108",
+      "pert_id": "BRD-K89391146",
+      "S_disc": 0.967741935483871,
+      "stability": 0.628,
+      "doses": 5,
+      "chains": 0,
+      "prism": "missing"
+    },
+    {
+      "rank": 16,
+      "drug": "doxepin",
+      "pert_id": "BRD-K37694030",
+      "S_disc": 0.9646697388632872,
+      "stability": 0.591,
+      "doses": 3,
+      "chains": 0,
+      "prism": "support"
+    },
+    {
+      "rank": 17,
+      "drug": "GDC-0879",
+      "pert_id": "BRD-K67578145",
+      "S_disc": 0.9639016897081414,
+      "stability": 0.576,
+      "doses": 5,
+      "chains": 0,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 18,
+      "drug": "lestaurtinib",
+      "pert_id": "BRD-A27376179",
+      "S_disc": 0.956989247311828,
+      "stability": 0.358,
+      "doses": 5,
+      "chains": 0,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 19,
+      "drug": "midostaurin",
+      "pert_id": "BRD-K13646352",
+      "S_disc": 0.9546850998463903,
+      "stability": 0.329,
+      "doses": 3,
+      "chains": 2,
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 20,
+      "drug": "HG-5-113-01",
+      "pert_id": "BRD-K93747373",
+      "S_disc": 0.9531490015360984,
+      "stability": 0.385,
+      "doses": 5,
+      "chains": 0,
+      "prism": "missing"
+    }
+  ],
+  "mechanism_top10": [
+    {
+      "rank": 1,
+      "drug": "alvocidib",
+      "pert_id": "BRD-K87909389",
+      "rank_v4": 3,
+      "S_disc": 0.9938556067588326,
+      "chains": 2,
+      "er_chains": 1,
+      "targets": "CDK1; CDK9",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 2,
+      "drug": "carfilzomib",
+      "pert_id": "BRD-K15179879",
+      "rank_v4": 5,
+      "S_disc": 0.9877112135176651,
+      "chains": 4,
+      "er_chains": 0,
+      "targets": "PSMA3; PSMA5; PSMB7; PSMD3",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 3,
+      "drug": "bortezomib",
+      "pert_id": "BRD-K88510285",
+      "rank_v4": 7,
+      "S_disc": 0.9877112135176651,
+      "chains": 4,
+      "er_chains": 0,
+      "targets": "PSMA3; PSMA5; PSMB7; PSMD3",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 4,
+      "drug": "rucaparib",
+      "pert_id": "BRD-K88560311",
+      "rank_v4": 8,
+      "S_disc": 0.9861751152073732,
+      "chains": 1,
+      "er_chains": 0,
+      "targets": "PARP1",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 5,
+      "drug": "midostaurin",
+      "pert_id": "BRD-K13646352",
+      "rank_v4": 19,
+      "S_disc": 0.9546850998463903,
+      "chains": 2,
+      "er_chains": 0,
+      "targets": "PRKCI; PRKCZ",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 6,
+      "drug": "mitoxantrone",
+      "pert_id": "BRD-K21680192",
+      "rank_v4": 21,
+      "S_disc": 0.9523809523809523,
+      "chains": 1,
+      "er_chains": 1,
+      "targets": "TOP2A",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 7,
+      "drug": "acetazolamide",
+      "pert_id": "BRD-K43457670",
+      "rank_v4": 27,
+      "S_disc": 0.9278033794162827,
+      "chains": 1,
+      "er_chains": 1,
+      "targets": "CA12",
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 8,
+      "drug": "azacitidine",
+      "pert_id": "BRD-K03406345",
+      "rank_v4": 30,
+      "S_disc": 0.9162826420890937,
+      "chains": 2,
+      "er_chains": 0,
+      "targets": "DNMT1; DNMT3A",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 9,
+      "drug": "pilaralisib",
+      "pert_id": "BRD-K49456274",
+      "rank_v4": 33,
+      "S_disc": 0.9055299539170507,
+      "chains": 1,
+      "er_chains": 0,
+      "targets": "PIK3R3",
+      "prism": "anti_er_positive"
+    },
+    {
+      "rank": 10,
+      "drug": "AT-7519",
+      "pert_id": "BRD-K13390322",
+      "rank_v4": 36,
+      "S_disc": 0.8993855606758833,
+      "chains": 6,
+      "er_chains": 1,
+      "targets": "CDK1; CDK10; CDK12; CDK17; CDK20; CDK9",
+      "prism": "anti_er_positive"
+    }
+  ],
+  "core_c": [
+    {
+      "rank": 1,
+      "drug": "acetazolamide",
+      "pert_id": "BRD-K43457670",
+      "rank_v4": 27,
+      "S_disc": 0.9278033794162827,
+      "chains": 1,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 2,
+      "drug": "pindolol",
+      "pert_id": "BRD-A97701745",
+      "rank_v4": 38,
+      "S_disc": 0.8963133640552996,
+      "chains": 2,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 3,
+      "drug": "iguratimod",
+      "pert_id": "BRD-K15426076",
+      "rank_v4": 45,
+      "S_disc": 0.8763440860215054,
+      "chains": 1,
+      "prism": "no_clear_direction"
+    },
+    {
+      "rank": 4,
+      "drug": "palbociclib",
+      "pert_id": "BRD-K51313569",
+      "rank_v4": 50,
+      "S_disc": 0.8648233486943164,
+      "chains": 1,
+      "prism": "support"
+    },
+    {
+      "rank": 5,
+      "drug": "belinostat",
+      "pert_id": "BRD-K17743125",
+      "rank_v4": 59,
+      "S_disc": 0.8463901689708141,
+      "chains": 2,
+      "prism": "support"
+    },
+    {
+      "rank": 6,
+      "drug": "quizartinib",
+      "pert_id": "BRD-K93918653",
+      "rank_v4": 62,
+      "S_disc": 0.8379416282642089,
+      "chains": 1,
+      "prism": "no_clear_direction"
+    }
+  ],
+  "caveats": [
+    "这是计算优先级与机制假设，不是疗效、适应证或临床结论。",
+    "S1 为 GSE42568 肿瘤(67) vs 正常(17)，不是 ER+ vs ER−；签名包含增殖、基质等非 ER 成分。",
+    "四算法共享同一排序基因列表：WTCS/KS/Zhang 两两相关 0.85–0.91，XSum 相对独立（0.40–0.52）。",
+    "Top20 中 9 个药物无图谱节点；数据前 10 中的 CGP-60474、romidepsin、WZ-3105、triptolide 因此无法进入机制名单。",
+    "稳定性 ≥0.70 的只有 11 个；Top20 中 9 个位次在剂量重采样下不稳。",
+    "外部 S1 与 PRISM 只作标签，不参与 v4 排序。"
+  ]
+}

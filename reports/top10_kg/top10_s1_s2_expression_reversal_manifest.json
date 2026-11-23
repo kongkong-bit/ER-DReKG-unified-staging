@@ -1,0 +1,20 @@
+{
+  "status": "validated_exact_frozen_signature_expression_join",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "record_count": 123280,
+  "candidate_count": 10,
+  "gctx_signature_count": 10,
+  "gctx_gene_count": 12328,
+  "source_hashes": {
+    "reports\\top10_kg\\02_top10_frozen_manifest.json": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+    "reports\\top10_kg\\input_snapshot\\limma_all_genes.csv": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+    "reports\\top10_kg\\input_snapshot\\gene_mapping_audit.csv": "2b3b879ea13bd755d9f05d2864370dfc0663b95cf878ba0bebc96d9642c769fd",
+    "s2_lincs\\data\\GSE70138_Broad_LINCS_gene_info_2017-03-06.txt.gz": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a",
+    "s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e"
+  },
+  "outputs": {
+    "top10_s1_s2_expression_reversal.csv": "af34ec51be2c6e0fdcea545c39b7554f896f495c96fb6722b0d6ea33764a736e",
+    "top10_s1_s2_expression_reversal_summary.csv": "0360ecde2526e2f2d7e1157c9a27b11085575e5ba7c155000791ec4a6b22066f"
+  },
+  "policy": "Exact frozen sig_id only; no dose or time aggregation; direction opposite is descriptive and not causality or efficacy."
+}

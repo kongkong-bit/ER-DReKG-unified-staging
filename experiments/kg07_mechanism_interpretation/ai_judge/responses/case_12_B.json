@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "72226c1ec0a94f19f25a22c4d56e4e35ef4ef6dc9a4bf3982581321ac7b7c2d6",
+  "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064",
+  "latency_seconds": 25.517183699999805,
+  "usage": {
+    "completion_tokens": 1685,
+    "completion_tokens_details": {
+      "reasoning_tokens": 261
+    },
+    "prompt_tokens": 23514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 25199
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照显示MCF7|trt_cp|10.0um|24h WTCS_median=-0.5059，n_signatures=1，与声明一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照显示3.33um/24h WTCS_median=-0.3490，quality_cc_median=0.76，一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "快照显示1.11um/24h WTCS_median=-0.4708，quality_cc_median=0.2，一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "声明称ENSG00000116478，但引用路径2b51056a...的靶基因为ENSG00000171720，基因ID不匹配；且声明表述含糊（'抑制剂的靶点'）"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "声明称ENSG00000196591，但引用路径6afbf700...的靶基因为ENSG00000116478，基因ID不匹配"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径2c1e35ba...靶基因ENSG00000163517，reported_actions含INHIBITOR，OptimusKG断言predicate=INHIBITOR，一致"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径520d74c1...含CONTAINS_GENE至ENSG00000116478，通路REACT:R-HSA-3214815 'HDACs deacetylate histones'，一致"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径74852be6...关联REACT:R-HSA-9018519 'Estrogen-dependent gene expression'，一致"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径71475f8a...关联REACT:R-HSA-73762 'RNA Polymerase I Transcription Initiation'，一致"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "4850906e71e5dcb6e7cdefc888a449d835573de2e6abe956af9808b5d4229865",
+        "supports_claim": true,
+        "reason": "S2条件快照直接给出WTCS=-0.5059与n_signatures=1"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "c01cc13324a8fc15f30200d46afbef2e680550527b8cde03ed4b331a51be21fa",
+        "supports_claim": true,
+        "reason": "快照给出WTCS=-0.3490与quality_cc_median=0.76"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "c1455ff36d191ae981da1c4c1305cff91a36bbbf79891ce521576c201f43711b",
+        "supports_claim": true,
+        "reason": "快照给出WTCS=-0.4708与quality_cc_median=0.2"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "2b51056a3e04756a465df8e7ec723295f403b997162fa1c07810a53a93963aab",
+        "supports_claim": false,
+        "reason": "该路径靶基因为ENSG00000171720，与声明中的ENSG00000116478不符"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "6afbf70007a7b421a2343e4401740456dfa1be0889b8274cc8a7cb86616d772d",
+        "supports_claim": false,
+        "reason": "该路径靶基因为ENSG00000116478，与声明中的ENSG00000196591不符"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "2c1e35bad07c41e125f882cbd365cdb16ff18ae971d84b2ee60b52d96f406ccd",
+        "supports_claim": true,
+        "reason": "路径靶基因ENSG00000163517，reported_actions=[INHIBITOR]，直接支持"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "520d74c1d12a6b5294cf686cd848136093db37faab8a069c39134dbce645808e",
+        "supports_claim": true,
+        "reason": "路径含HDACs deacetylate histones通路与CONTAINS_GENE边"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "74852be6a223ffd24b85d16bf4638ac887c6cd7299a17dd92043fba74658305e",
+        "supports_claim": true,
+        "reason": "路径含Estrogen-dependent gene expression通路"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "71475f8a99755e4f3c39e3623895afaa9719245908649948a1e2378dee8ea2a1",
+        "supports_claim": true,
+        "reason": "路径含RNA Polymerase I Transcription Initiation通路"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 10,
+        "accurate": true,
+        "reason": "与coverage.evidence_gaps中记录的限制原文一致，即部分上游断言无source URL但保留source_record_id和source_release"
+      }
+    ],
+    "limitations": [
+      "claims 4和5存在靶基因ID与引用路径不匹配的问题，声明文本疑似拼接错误",
+      "pathway关联为CONTAINS_GENE级别的成员关系，仅表明基因属于通路，不构成药物对通路的因果作用",
+      "部分来源记录缺少source URL，溯源依赖source_record_id/source_release",
+      "S2筛选证据来自单细胞系MCF7、单签名，dose_stability为direction_flip且stability_grade为low，跨剂量方向不稳定",
+      "exp006数据集为GSE70138，未提供独立实验验证证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:04:10.380168+00:00"
+}

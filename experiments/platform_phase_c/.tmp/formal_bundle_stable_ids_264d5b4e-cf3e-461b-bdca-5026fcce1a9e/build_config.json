@@ -1,0 +1,21 @@
+{
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568",
+  "project_name": "ER-positive breast cancer",
+  "disease_id": "MONDO:0007254",
+  "analysis_run_id": "LOCAL_PREFLIGHT_STABLE_IDS",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+  "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+  "enrichment_analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+  "test_only": false,
+  "s1_fdr_threshold": 0.05,
+  "s1_source_release": "GSE42568 historical limma; standardized project copy",
+  "s1_table": "D:\\CLASS\\syh\\data\\processed\\projects\\3f18f4c1-713d-58c5-8a53-38eca5a5aaf9\\s1\\9ebd6c43-9342-487e-a052-ae901461b58c\\limma_all_genes.csv",
+  "s1_mapping_audit": "D:\\CLASS\\syh\\data\\processed\\projects\\3f18f4c1-713d-58c5-8a53-38eca5a5aaf9\\s1_enrichment\\eb409567-e846-4422-ae19-0055937871ea\\gene_mapping_audit.csv",
+  "s2_conditions": "D:\\CLASS\\syh\\data\\processed\\projects\\3f18f4c1-713d-58c5-8a53-38eca5a5aaf9\\s2\\c922f2b0-242e-5991-9f76-dcbc8f66ce57\\drug_condition_summary.csv",
+  "pert_info_path": "D:\\CLASS\\syh\\s2_lincs\\data\\GSE70138_Broad_LINCS_pert_info_2017-03-06.txt.gz",
+  "enrichment_dir": "D:\\CLASS\\syh\\data\\processed\\projects\\3f18f4c1-713d-58c5-8a53-38eca5a5aaf9\\s1_enrichment\\eb409567-e846-4422-ae19-0055937871ea",
+  "public_kg_dir": "D:\\CLASS\\syh\\data\\optimuskg\\3.2",
+  "output_dir": "D:\\CLASS\\syh\\experiments\\platform_phase_c\\.tmp\\formal_bundle_stable_ids_264d5b4e-cf3e-461b-bdca-5026fcce1a9e",
+  "config_path": "D:\\CLASS\\syh\\experiments\\platform_phase_c\\.tmp\\formal_bundle_stable_ids_264d5b4e-cf3e-461b-bdca-5026fcce1a9e\\build_config.json"
+}

@@ -1,0 +1,131 @@
+{
+  "generated": "2026-11-18T12:31:11.524023+00:00",
+  "rule": "按 (pert_id, cell_id, pert_type, dose, time) 过滤 Final01 final_signature_scores.csv，不重算 WTCS",
+  "source": "e:\\生物医学信息\\ER-DReKG\\experiments\\final_results\\results\\final_signature_scores.csv",
+  "source_sha256": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+  "source_schema": [
+    "sig_id",
+    "pert_id",
+    "drug_name",
+    "cell_id",
+    "pert_type",
+    "dose",
+    "time",
+    "distil_cc_q75",
+    "distil_ss",
+    "tas",
+    "distil_nsample",
+    "ES_UP",
+    "ES_DOWN",
+    "WTCS",
+    "reversal_score",
+    "effective_background_genes",
+    "n_up",
+    "n_down"
+  ],
+  "output_schema_equals_source": [
+    "sig_id",
+    "pert_id",
+    "drug_name",
+    "cell_id",
+    "pert_type",
+    "dose",
+    "time",
+    "distil_cc_q75",
+    "distil_ss",
+    "tas",
+    "distil_nsample",
+    "ES_UP",
+    "ES_DOWN",
+    "WTCS",
+    "reversal_score",
+    "effective_background_genes",
+    "n_up",
+    "n_down"
+  ],
+  "counts": {
+    "aplus_conditions": 3943,
+    "aplus_unique_condition_keys": 3943,
+    "final01_signature_rows": 5861,
+    "filtered_signature_rows": 4385,
+    "unique_sig_id": 4385,
+    "covered_candidates": 1032,
+    "covered_conditions": 3943
+  },
+  "checks": {
+    "filtered_rows_equals_4385": true,
+    "all_condition_keys_have_signature": true,
+    "n_signatures_sum_matches": true,
+    "sig_id_unique": true,
+    "candidate_coverage_1032": true
+  },
+  "nulls": {
+    "distil_cc_q75": 0,
+    "distil_ss": 0,
+    "tas": 0,
+    "distil_nsample": 0,
+    "ES_UP": 0,
+    "ES_DOWN": 0,
+    "WTCS": 0,
+    "reversal_score": 0,
+    "effective_background_genes": 0,
+    "n_up": 0,
+    "n_down": 0
+  },
+  "numeric_ranges": {
+    "distil_cc_q75": [
+      0.2,
+      0.89
+    ],
+    "distil_ss": [
+      1.77943,
+      18.1413
+    ],
+    "tas": [
+      0.0936643,
+      0.844651
+    ],
+    "distil_nsample": [
+      2.0,
+      4.0
+    ],
+    "ES_UP": [
+      -0.6481010739405937,
+      0.563348446727015
+    ],
+    "ES_DOWN": [
+      -0.5915093054682629,
+      0.6254435152084687
+    ],
+    "WTCS": [
+      -0.5166541987270137,
+      0.49647624980079774
+    ],
+    "reversal_score": [
+      -0.49647624980079774,
+      0.5166541987270137
+    ],
+    "effective_background_genes": [
+      10174.0,
+      10174.0
+    ],
+    "n_up": [
+      100.0,
+      100.0
+    ],
+    "n_down": [
+      100.0,
+      100.0
+    ]
+  },
+  "outputs": {
+    "signature_scores.csv": {
+      "rows": 4385,
+      "sha256": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e"
+    },
+    "signature_provenance.csv": {
+      "rows": 4385,
+      "sha256": "80592579eef8ed6d34d1485c89da9f9700e4b262507a95f5a35d897451871168"
+    }
+  }
+}

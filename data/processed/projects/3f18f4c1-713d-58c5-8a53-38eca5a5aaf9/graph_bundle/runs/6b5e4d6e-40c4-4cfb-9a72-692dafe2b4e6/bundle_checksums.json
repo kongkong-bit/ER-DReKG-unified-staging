@@ -1,0 +1,9 @@
+{
+  "subgraph_nodes.csv": "91de7918f65bc312f89a9c5035d09a42fb69be7e9f743bf4e450eaf6e81cbc52",
+  "subgraph_edges.csv": "ab96fb54ba92fe7b8841866d66b4fe226b64356bb22147218ba3aa894fd114d5",
+  "evidence_records.csv": "48409e024825d5d70cb995f54b3f8ce73525b63580a8e52883ccb7c8c9bc8b50",
+  "biocypher_validation.json": "c56f2d8e82aaa4101023624ad3ab2a3625e23aabac90b0fceb64650fc9d95ae1",
+  "external_mapping_rejects.csv": "53d72d8cc7324cb10594ccda27374a4f0ac3cf711f7de73e48517159617204e2",
+  "bundle_manifest.json": "b5eca21376002a13bef159dab20440388c6c48999ada5b5f5aecf125a8c1a036",
+  "analysis_run_manifest.json": "45fc426f5f79e5f368d85578d182b7edcbb345f82b5d111cef24fee749b9e74e"
+}

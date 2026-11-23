@@ -1,0 +1,142 @@
+{
+  "started_at_utc": "2026-11-14T05:59:11.647277+00:00",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "project_slug": "erpos-gse42568",
+  "provenance_kind": "historical_output_import",
+  "source_s1_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "source_hashes": {
+    "s1_初步_gse42568_limma/limma_all_genes.csv": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "experiments/s1_pathway_enrichment/environment_manifest.json": "d18598c47dbe86a3253ca9aaadefdca68b03fabef981e146dd8b73382037f0e1",
+    "experiments/s1_pathway_enrichment/gene_mapping_audit.csv": "1e1364350420c35b27916cafc90e6f31ecb76689d9b20b15d090d0dba85c22b4",
+    "experiments/s1_pathway_enrichment/pathway_gene_links.csv": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+    "experiments/s1_pathway_enrichment/go_up.csv": "5ff57459b7b9c77788c1928602c791300979276aa52e930691515c5482e6be00",
+    "experiments/s1_pathway_enrichment/go_down.csv": "dc278f4fc43ca32a3712479b5dc85af15da6df5e86e76aeca92cd6d0d30f445b",
+    "experiments/s1_pathway_enrichment/reactome_up.csv": "cc391aa8a1fef7da334f9afd892df4c6a7e2fb6ccb0278cf7523da1979d7483c",
+    "experiments/s1_pathway_enrichment/reactome_down.csv": "c989dff6d0a05677bed157d17f36238fe3ca22a99da4515a9590db6855d44271",
+    "experiments/s1_pathway_enrichment/hallmark_gsea.csv": "234c73603d8f6e0168230ea4944b2ff50d9e36acea989ef2584e0af529d02b22",
+    "s2_lincs/results/formal_signature_scores.csv": "1556f7cbd51a58e47007dfc3963e97424e5699889b6a920dc0ef600574d09327",
+    "s2_lincs/results/formal_drug_condition_ranking.csv": "db389f1c3b30965c394d8d677cac79fe61755f52f08fabca1ddf93fc8a5984cc",
+    "s2_lincs/results/gene_mapping_audit.csv": "01bc040fd6031512536879c878c2f45f0ef127a08a63c7dcbddb487f21bbf7cf",
+    "s2_lincs/results/formal_qc_summary.csv": "e0a41af76af3c0d19cd2eb3b4fcebcf050b05730d73c7786bc0f0a29c2c7655d",
+    "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0"
+  },
+  "status": "completed",
+  "steps": {
+    "s1": {
+      "status": "completed",
+      "dataset_id": "8a9693aa-aeb6-4b94-a87d-ea466f1a54a0",
+      "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "source_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+      "standardized_output_sha256": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888",
+      "contrast": "Tumor - Normal",
+      "input_rows": 21655,
+      "unique_genes": 21653,
+      "significant_genes": 7066,
+      "up": 3422,
+      "down": 3644,
+      "historical_import": true,
+      "limma_rerun": false
+    },
+    "enrichment": {
+      "status": "completed",
+      "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+      "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+      "output_dir": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/s1_enrichment/eb409567-e846-4422-ae19-0055937871ea",
+      "output_hashes": {
+        "gene_mapping_audit.csv": "77d4fc11341a5a824c2a514ab042e2404c53a672b7c0e6d8dc6b7444c0ec5a48",
+        "s1_up_genes.csv": "61858cb82af15d25191f7c3819b212d057068dff6c9af1f22bc7d27da977a7a6",
+        "s1_down_genes.csv": "5b7bdeca648c3f82844b9c24757671db2dc335f2e88566a3ee1c4c7201d7c999",
+        "go_up.csv": "6dc3ee2ace7792d8b9bcb17c91a851e1961246561501c83701a1fdf4db9d758d",
+        "go_down.csv": "677652aaf7ef8eb525500f6f04c819d5ea1b7c9418584595acc5a8ae48954756",
+        "reactome_up.csv": "8ef2b30e45015f5395a154502c00c8a4d6e768920c8257916257eefb4fefd2fa",
+        "reactome_down.csv": "06d5d9852801a691cf71fc842290d9fac1d83631a06553702784c2e3d889ab57",
+        "hallmark_gsea.csv": "34ac4c1cbb92495eb2afaea262e992f9d3da72aa26c4fe1b57256d84d56ff3da",
+        "pathway_gene_links.csv": "986daaa1573f2f54df3dda9ff9dcce42a904ab5d6f256e42c53ab85b31b04117",
+        "summary.json": "f34a8e33a45468a0c5f48bd932694b0dbcd7a7fd8b7bd93ab9695aa2410d9a3a",
+        "enrichment_report.md": "1eed50ba46c4e2956d07345e98ba8aac04663d63384ac6202d7d64ce629b5ed4"
+      },
+      "historical_import_available": true,
+      "active_run_is_recalculated_from_standardized_s1": true,
+      "significant_pathway_counts": {
+        "go_up": 206,
+        "go_down": 343,
+        "reactome_up": 135,
+        "reactome_down": 26,
+        "hallmark_gsea": 29
+      },
+      "pathway_gene_link_rows": 31991,
+      "pathway_gene_links_include_ensembl_mapping": true
+    },
+    "s2_import": {
+      "status": "completed",
+      "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57",
+      "persisted_condition_count": 240,
+      "project_seed_signatures": 315,
+      "project_seed_perturbagens": 50,
+      "dose_condition_rows": 240,
+      "historical_import": true,
+      "source_s1_hash_verified_against_project_upload": true
+    },
+    "graph_bundle": {
+      "status": "completed",
+      "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:d2a9cb1e-9853-4e41-88e6-70fb3c465ab3",
+      "bundle_dir": "data/processed/projects/3f18f4c1-713d-58c5-8a53-38eca5a5aaf9/graph_bundle/runs/d2a9cb1e-9853-4e41-88e6-70fb3c465ab3",
+      "counts": {
+        "nodes": 7032,
+        "edges": 38998,
+        "s1_significant_genes": 7066,
+        "s1_unique_ensembl_mapped": 6707,
+        "s1_ambiguous_or_unmatched": 359,
+        "pathway_gene_links": 31991,
+        "pathway_gene_unique_mapped": 30350,
+        "candidate_perturbagens": 50,
+        "exact_inchikey_mapped_drugs": 30,
+        "s2_condition_rows": 240,
+        "candidate_target_pathway_routes": 1494,
+        "relation_conflicts": 0,
+        "unmatched_entities": 2020
+      },
+      "mapping_policy": "exact InChIKey for compounds; unique Ensembl gene mapping; unresolved or ambiguous entities are retained in audit only",
+      "cross_dose_policy": "retain every exact dose/time condition as its own S2Condition node; no per-drug best score or cross-condition rank"
+    },
+    "graph_build": {
+      "status": "materialized",
+      "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:b874641cdb628d4e",
+      "summary": {
+        "node_count": 6850,
+        "edge_count": 38657,
+        "nodes_by_type": {
+          "DiseaseContext": 1,
+          "Disease": 1,
+          "Pathway": 709,
+          "Gene": 5790,
+          "GeneSet": 29,
+          "Drug": 30,
+          "Candidate": 50,
+          "S2Condition": 240
+        },
+        "source": "neo4j",
+        "snapshot_kind": "按 GraphBuild ID 标记的 Neo4j 图谱版本",
+        "neo4j_membership": "registered",
+        "import_status": "PASS",
+        "test_only": false,
+        "neo4j_importer_sha256": "9ddb7497a0612c03a730949542469b3f123ab4d1c3a896470abbdbfa768faced"
+      },
+      "idempotent": true
+    },
+    "superseded_graph_build_audit": {
+      "retained_legacy_versions": [
+        {
+          "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:92ccf8669de7c697",
+          "reason_not_canonical": "旧通路链接无 Ensembl crosswalk；31,991 条链接唯一映射 0 条，交汇路径 0 条。"
+        },
+        {
+          "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:89efd9796240c910",
+          "reason_not_canonical": "虽有 30,350 条唯一映射和 1,494 条交汇路径，但曾把通路显示名称误作节点 ID；本次 stable-ID 修复后另建版本。"
+        }
+      ],
+      "action": "旧版本均保留供审计；新版本采用 GO、Reactome、MSigDB 稳定标识。"
+    }
+  },
+  "finished_at_utc": "2026-11-14T06:00:20.825696+00:00"
+}

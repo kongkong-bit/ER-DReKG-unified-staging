@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:04.973321+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9619665/ancestors",
+    "response_sha256": "8771d2f3a98a3f6254d0ccb6a0707031cf5f6bb6df698d9a92f8bdca1d87e479",
+    "response_bytes": 1180
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9619665,
+        "displayName": "EGR2 and SOX10-mediated initiation of Schwann cell myelination",
+        "stId": "R-HSA-9619665",
+        "name": [
+          "EGR2 and SOX10-mediated initiation of Schwann cell myelination"
+        ],
+        "stIdVersion": "R-HSA-9619665.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9619665.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2355,
+        "diagramHeight": 2023,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9675108,
+        "displayName": "Nervous system development",
+        "stId": "R-HSA-9675108",
+        "name": [
+          "Nervous system development"
+        ],
+        "stIdVersion": "R-HSA-9675108.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 438,
+        "diagramHeight": 158,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

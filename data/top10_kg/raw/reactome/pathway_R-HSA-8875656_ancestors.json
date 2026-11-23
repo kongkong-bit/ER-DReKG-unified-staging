@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:59.027738+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-8875656/ancestors",
+    "response_sha256": "b13d153f204aad6a7acfb3c6e759bf6db79123010b03b0616c2671f771e5d9b0",
+    "response_bytes": 1456
+  },
+  "payload": [
+    [
+      {
+        "dbId": 8875656,
+        "displayName": "MET receptor recycling",
+        "stId": "R-HSA-8875656",
+        "name": [
+          "MET receptor recycling"
+        ],
+        "stIdVersion": "R-HSA-8875656.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2016-09-19",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 6806834,
+        "displayName": "Signaling by MET",
+        "stId": "R-HSA-6806834",
+        "name": [
+          "Signaling by MET"
+        ],
+        "stIdVersion": "R-HSA-6806834.4",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-6806834.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2016-09-19",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1850,
+        "diagramHeight": 1592,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006934,
+        "displayName": "Signaling by Receptor Tyrosine Kinases",
+        "stId": "R-HSA-9006934",
+        "name": [
+          "Signaling by Receptor Tyrosine Kinases"
+        ],
+        "stIdVersion": "R-HSA-9006934.8",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 629,
+        "diagramHeight": 500,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

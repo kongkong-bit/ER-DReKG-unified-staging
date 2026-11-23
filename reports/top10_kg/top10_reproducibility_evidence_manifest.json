@@ -1,0 +1,24 @@
+{
+  "status": "extracted_from_existing_historical_experiment_outputs",
+  "record_count": 10,
+  "candidate_count": 10,
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "source_hashes": {
+    "reports\\top10_kg\\02_top10_frozen_manifest.json": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+    "experiments\\final_results\\results\\final_top10_evidence_matrix.csv": "61cc59de60e88b3696758b1de7aa3b4e7912132e7c5d11c9024ab517515c8338",
+    "experiments\\exp009_lincs_quality\\results\\candidate_quality_comparison.csv": "684b6f21497934f8cb7ee62b5bfcc37295da19bbb52c90e57cf789c3968022df",
+    "experiments\\exp010_external_s1\\results\\external_s1_drug_ranking.csv": "4a7ce1bc4fc72298a71facfb5dcb163c51593a53c2dd203c2790821a96563588",
+    "experiments\\exp011_prism_validation\\results\\er_specificity_candidate_summary.csv": "b0ffdb68025f5266c7a0a60d6b9700bc8b67d4067139eac31daaedcb13964189"
+  },
+  "output_sha256": "50dea159c6beb43223da401c54ceac66443333ea3e453b5353db8aad2dea47d7",
+  "coverage": {
+    "Exp009_candidate_quality_rows": 5,
+    "Exp010_external_S1_rows": 5,
+    "Exp011_PRISM_rows": 5
+  },
+  "limits": [
+    "Exp006/Exp007/Exp008 values retain their original historical analysis conditions and are not recomputed on the corrected frozen-signature set.",
+    "Exp009/Exp010/Exp011 coverage is incomplete; missing rows are not negative evidence.",
+    "PRISM sensitivity is a viability endpoint and is not directly comparable to LINCS WTCS."
+  ]
+}

@@ -1,0 +1,196 @@
+Drug:
+  represented_as: node
+  input_label: Drug
+Gene:
+  represented_as: node
+  input_label: Gene
+Pathway:
+  represented_as: node
+  input_label: Pathway
+GeneSet:
+  represented_as: node
+  input_label: GeneSet
+Candidate:
+  represented_as: node
+  input_label: Candidate
+DiseaseContext:
+  represented_as: node
+  input_label: DiseaseContext
+Disease:
+  represented_as: node
+  input_label: Disease
+DiseaseEvidence:
+  represented_as: node
+  input_label: DiseaseEvidence
+  properties:
+    pert_id: str
+    evidence_scope: str
+    claim_type: str
+    context: str
+    curated_finding: str
+    direction: str
+    source_type: str
+    source_id: str
+    source_url: str
+    limitations: str
+    review_status: str
+S2Condition:
+  represented_as: node
+  input_label: S2Condition
+Protein:
+  is_a: protein
+  represented_as: node
+  namespace: uniprot
+  input_label: Protein
+  properties:
+    uniprot_accession: str
+    organism: str
+    gene_symbols: str[]
+    component_type: str
+    component_synonyms_json: str
+    associated_gene_ids: str[]
+    source_database: str
+    source_record_id: str
+    source_release: str
+    source_file_sha256: str
+    source_url: str
+ChEMBLTarget:
+  is_a: molecular entity
+  represented_as: node
+  input_label: ChEMBLTarget
+  properties:
+    chembl_target_id: str
+    target_type: str
+    organism: str
+    direct_interaction: bool
+    mechanism_of_action: str[]
+    action_types: str[]
+    component_accessions: str[]
+    source_database: str
+    source_record_ids: str[]
+DRG-GEN:
+  represented_as: edge
+  input_label: DRG-GEN
+  label_as_edge: TARGETS
+PWY-GEN:
+  represented_as: edge
+  input_label: PWY-GEN
+  label_as_edge: CONTAINS_GENE
+PROJECT-HAS_CANDIDATE:
+  represented_as: edge
+  input_label: PROJECT-HAS_CANDIDATE
+  label_as_edge: HAS_CANDIDATE
+PROJECT-REFERENCES_DRUG:
+  represented_as: edge
+  input_label: PROJECT-REFERENCES_DRUG
+  label_as_edge: REFERENCES_DRUG
+PROJECT-HAS_DEG:
+  represented_as: edge
+  input_label: PROJECT-HAS_DEG
+  label_as_edge: HAS_DEG
+S1-ENRICHED-PATHWAY:
+  represented_as: edge
+  input_label: S1-ENRICHED-PATHWAY
+  label_as_edge: HAS_ENRICHED_PATHWAY
+S1-ENRICHED-GENE:
+  represented_as: edge
+  input_label: S1-ENRICHED-GENE
+  label_as_edge: HAS_ENRICHED_GENE
+PROJECT-ABOUT_DISEASE:
+  represented_as: edge
+  input_label: PROJECT-ABOUT_DISEASE
+  label_as_edge: ABOUT_DISEASE
+PROJECT-HAS_S2_CONDITION:
+  represented_as: edge
+  input_label: PROJECT-HAS_S2_CONDITION
+  label_as_edge: HAS_S2_CONDITION
+DRG-DISEASE-EVIDENCE:
+  represented_as: edge
+  input_label: DRG-DISEASE-EVIDENCE
+  label_as_edge: HAS_DISEASE_CONTEXT_EVIDENCE
+DISEASE-EVIDENCE-ABOUT:
+  represented_as: edge
+  input_label: DISEASE-EVIDENCE-ABOUT
+  label_as_edge: CONCERNS_DISEASE
+DRG-TARGET:
+  is_a: targets
+  represented_as: edge
+  input_label: DRG-TARGET
+  label_as_edge: HAS_DIRECT_TARGET
+TARGET-COMPONENT:
+  is_a: has part
+  represented_as: edge
+  input_label: TARGET-COMPONENT
+  label_as_edge: HAS_COMPONENT
+PROTEIN-GENE:
+  is_a: encoded by
+  represented_as: edge
+  input_label: PROTEIN-GENE
+  label_as_edge: ENCODED_BY
+  properties:
+    assertion_id: str
+    source_record_id: str
+    source_database: str
+    source_release: str
+    source_file_sha256: str
+    mapping_method: str
+    gene_symbol: str
+    source_url: str
+    uniprot_accession: str
+PROTEIN-PATHWAY:
+  is_a: participates in
+  represented_as: edge
+  input_label: PROTEIN-PATHWAY
+  label_as_edge: PARTICIPATES_IN
+REGULATES:
+  represented_as: edge
+  input_label: REGULATES
+  label_as_edge: REGULATES
+  properties:
+    assertion_id: str
+    sign: str
+    organism: str
+    cell_context: str
+    tissue_context: str
+    mechanism: str
+    source_database: str
+    source_record_id: str
+    source_release: str
+    evidence_ids: str
+    license: str
+    source_file_sha256: str
+    source_assertion_json: str
+    conflict_status: str
+PATHWAY-PARENT:
+  is_a: part of
+  represented_as: edge
+  input_label: PATHWAY-PARENT
+  label_as_edge: SUBPATHWAY_OF
+REACTOME-CURRENT-PWY-GEN:
+  represented_as: edge
+  input_label: REACTOME-CURRENT-PWY-GEN
+  label_as_edge: CONTAINS_GENE
+  properties:
+    source_database: str
+    source_record_ids_json: str
+    evidence_record_count: int
+    source_release: str
+    license: str
+    source_file_sha256: str
+    organism: str
+    sign: str
+PRIMEKG-ASSOCIATION:
+  represented_as: edge
+  input_label: PRIMEKG-ASSOCIATION
+  label_as_edge: ASSOCIATED_WITH
+  properties:
+    source_database: str
+    source_record_id: str
+    primekg_relation: str
+    native_x_id: str
+    native_y_id: str
+    source_release: str
+    license: str
+    source_file_sha256: str
+    sign: str
+    direction: str

@@ -1,0 +1,13 @@
+{
+  "status": "LLM_TOP50_GENERATED_PENDING_HUMAN_REVIEW",
+  "n_candidates": 50,
+  "n_package_hashes_validated": 50,
+  "n_with_paths": 28,
+  "n_with_complete_path_evidence": 28,
+  "n_exact_compound_mapped": 30,
+  "n_llm_interpretations_generated": 50,
+  "llm_manifest_sha256": "4412b4a642972bdd201e7604f95d805bfe2074ec201f54ea7c743ed8377e63a6",
+  "package_manifest_sha256": "b5744731724577fee09cc402ef2f99cfc57e929c08a21f82d4ee0a3e7c349d42",
+  "input_index_sha256": "548ea5a4421bc3764375b6b2ab1cc2795e9dedf65cf25b4e369ea36704a687f4",
+  "output_sha256": "36302c640062f5961cdec3160807fbc3ac9a845759a7db1ffd40c4d71f837db0"
+}

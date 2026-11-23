@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "ba75653250977c770974dc097e7758b665ab252500676d8034f429bdce322445",
+  "evidence_input_sha256": "00728e394e18d13b81b29040ccc00b4c77c55050a8976b24a54d62fa21de1e60",
+  "latency_seconds": 29.08506859999943,
+  "usage": {
+    "completion_tokens": 1732,
+    "completion_tokens_details": {
+      "reasoning_tokens": 688
+    },
+    "prompt_tokens": 13604,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 15336
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "evidence 58ed5c65对应MCF7|trt_cp|10.0 um|24 h，WTCS_median=-0.4671693893，为6个剂量中最负值，支持'多剂量负分、10uM最强-0.467'"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "排名3与总WTCS=-0.467在package_context的s2_candidate与exp006中直接记录（rank '3'、score_value -0.4671693893）；但所引evidence_id本身不覆盖rank"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 059c0f51存在TARGETS关系且reported_actions=[ENZYME]（DRUG_BANK来源），与claim中的'按关联降级'限定一致；'直接靶向'的方向性由来源明确标注为未推断方向，claim已自我降级"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 0b7a2066存在TARGETS关系且reported_actions=[ENZYME]，claim含降级限定，与source_reported_relation_only一致"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 29dae462存在TARGETS关系且reported_actions=[TRANSPORTER]，claim含降级限定；来源未给出转运方向但claim已按关联处理"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "58ed5c65b7dedf5d2ebf8025ff449145a9a8a61a63d069c556f10e844ba1676e",
+        "supports_claim": true,
+        "reason": "该证据即MCF7|10.0 um|24 h条件，WTCS=-0.4671693893，直接支持claim 1"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "8910096f89a9ddcb6a28b1cf34a6627a6d9f23d5136c75dd9afc6e65cd9e04bc",
+        "supports_claim": false,
+        "reason": "该证据对应0.04 um条件（WTCS=-0.2737），不包含排名3或总得分-0.467；排名信息在package_context的s2_candidate/exp006中，所引ID错位"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "059c0f51e15d2bc753adab4a797fabec2e751de255811a3d3d540c0ac1973737",
+        "supports_claim": true,
+        "reason": "路径记录CHEMBL53463→ENSG00000127948 TARGETS，reported_actions=[ENZYME]，支持图谱存在该靶点记录（方向按降级限定处理）"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "0b7a20664e4eb4c03c61332076fa874fe07083f441be07cd3d85582df94f55be",
+        "supports_claim": true,
+        "reason": "路径记录CHEMBL53463→ENSG00000160868 TARGETS，reported_actions=[ENZYME]，支持该图谱记录"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "29dae4621502c1a1ff32444f63a978e4d0c0b97e0760f9f1d45dad4b67b3822b",
+        "supports_claim": true,
+        "reason": "路径记录CHEMBL53463→ENSG00000004809 TARGETS，reported_actions=[TRANSPORTER]，支持该图谱记录"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "该表述与package_context的evidence_gaps完全一致：部分上游assertion无source URL，但保留source_record_id与source_release；快照中多处source_urls:null可佐证"
+      }
+    ],
+    "limitations": [
+      "来源对TARGET/ENZYME/TRANSPORTER仅记录关系类型，不推断方向性，故'直接靶向'类表述只能按关联降级处理",
+      "部分上游记录缺少source URL，仅凭source_record_id与source_release追溯",
+      "S2筛选基于单一signature（n_signatures=1），exp006标注stability_grade=low",
+      "0.12 um剂量WTCS=0.0，剂量响应不完全单调",
+      "本审阅为AI自动评审，仅基于包内快照，未引入外部知识"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:05:53.086275+00:00"
+}

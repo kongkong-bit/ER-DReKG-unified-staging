@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "2ad4dc7aa103438639f99d41e7ec0dfda4ab9b1aa45ae3d4377be78dc5cc81e1",
+  "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+  "latency_seconds": 17.0480665999994,
+  "usage": {
+    "completion_tokens": 1170,
+    "completion_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "prompt_tokens": 15277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 16447
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "MCF7|trt_cp|10.0 um|24 h 条件 WTCS_median=-0.516654198727056，与声明数值一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "MCF7 3.33µM 条件 WTCS_median=0.33162609…，与声明一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "共5个MCF7条件，其中10µM为负值(-0.5167)、其余为正值，方向不一致；两个引用条件数据均吻合"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径reported_actions含INHIBITOR，OptimusKG来源predicate为INHIBITOR（OPEN_TARGETS），方向为药→基因抑制，与声明一致"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径确实报告ENSG00000066468为TARGET（DrugBank）；声明已按关联降级，与来源source_reported_relation_only一致"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径确实报告ENSG00000160867为TARGET（DrugBank）；声明已按关联降级，无越界方向表述"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "b0cb5d8d92fc8e2b711af13e14214cbde9f8b7d89efb25e2189059898fceef68",
+        "supports_claim": true,
+        "reason": "该evidence对应10µM条件记录，WTCS_median=-0.516654198727056"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "09966d956c90e3178ab35318acf81ec4509654735aae4d1a94cf5c09ed91d4e6",
+        "supports_claim": true,
+        "reason": "该evidence对应3.33µM条件，WTCS_median=+0.33162609"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "16a277154473300b4d1057f35494cfd0624c8fb5c325a8a13009c536931820e9",
+        "supports_claim": true,
+        "reason": "0.12µM条件WTCS为正，支持方向不一致的判断"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "969d18312d44915f65afbfbdc96647b294294a9b23b2dcfea941dda8f4cb51fb",
+        "supports_claim": true,
+        "reason": "1.11µM条件WTCS为正，支持方向不一致的判断"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "04e454c03d43153f617422cda58483118d98b2da0fdf025116b6dcd24f77d929",
+        "supports_claim": true,
+        "reason": "路径目标为ENSG00000097007，reported_actions含INHIBITOR，来源predicate为INHIBITOR"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "0604f6bf265551157f2f7138bd50398af4e032bfddc96c750db9c8814a3c0f29",
+        "supports_claim": true,
+        "reason": "路径目标为ENSG00000066468，来源predicate为TARGET（DrugBank）"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "089240dba8a0d9c45d2bbe417aa1ac053a82fbda648257bf6401857af2be20fe",
+        "supports_claim": true,
+        "reason": "路径目标为ENSG00000160867，来源predicate为TARGET（DrugBank）"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "coverage显示public_pathway_path_count=0且evidence_gaps列明该缺口，表述与包内一致"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "evidence_gaps中列出部分来源记录无source_url但保留source_record_id与source_release，表述一致"
+      }
+    ],
+    "limitations": [
+      "筛选信号基于单一签名（single signature），5个剂量中仅10µM为负，负向分数方向稳定性低（dose_stability=direction_flip，stability_grade=low）",
+      "无靶点到公共通路的路由（public_pathway_path_count=0），机制通路解释缺乏直接通路证据",
+      "部分上游断言无source_url，可追溯性依赖source_record_id/source_release"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:54:24.782378+00:00"
+}

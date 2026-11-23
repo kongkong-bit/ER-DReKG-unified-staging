@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:06.852963+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9764725/ancestors",
+    "response_sha256": "6e4517944e89f8e7965448553e2e6bbf8152efe29e51e3a270d832985595cddc",
+    "response_bytes": 3441
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9764725,
+        "displayName": "Negative Regulation of CDH1 Gene Transcription",
+        "stId": "R-HSA-9764725",
+        "name": [
+          "Negative Regulation of CDH1 Gene Transcription"
+        ],
+        "stIdVersion": "R-HSA-9764725.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-06-18",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9764560,
+        "displayName": "Regulation of CDH1 Gene Transcription",
+        "stId": "R-HSA-9764560",
+        "name": [
+          "Regulation of CDH1 Gene Transcription"
+        ],
+        "stIdVersion": "R-HSA-9764560.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-06-18",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9764265,
+        "displayName": "Regulation of CDH1 Expression and Function",
+        "stId": "R-HSA-9764265",
+        "name": [
+          "Regulation of CDH1 Expression and Function"
+        ],
+        "stIdVersion": "R-HSA-9764265.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-06-18",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4022,
+        "diagramHeight": 1906,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9764274,
+        "displayName": "Regulation of Expression and Function of Type I Classical Cadherins",
+        "stId": "R-HSA-9764274",
+        "name": [
+          "Regulation of Expression and Function of Type I Classical Cadherins"
+        ],
+        "stIdVersion": "R-HSA-9764274.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2025-06-18",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 299,
+        "diagramHeight": 142,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9759476,
+        "displayName": "Regulation of Homotypic Cell-Cell Adhesion",
+        "stId": "R-HSA-9759476",
+        "name": [
+          "Regulation of Homotypic Cell-Cell Adhesion"
+        ],
+        "stIdVersion": "R-HSA-9759476.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2023-06-07",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 655,
+        "diagramHeight": 220,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 418990,
+        "displayName": "Adherens junctions interactions",
+        "stId": "R-HSA-418990",
+        "name": [
+          "Adherens junctions interactions"
+        ],
+        "stIdVersion": "R-HSA-418990.7",
+        "oldStId": "REACT_19195",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 421270,
+        "displayName": "Cell-cell junction organization",
+        "stId": "R-HSA-421270",
+        "name": [
+          "Cell-cell junction organization"
+        ],
+        "stIdVersion": "R-HSA-421270.8",
+        "oldStId": "REACT_19331",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_23419.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 446728,
+        "displayName": "Cell junction organization",
+        "stId": "R-HSA-446728",
+        "name": [
+          "Cell junction organization"
+        ],
+        "stIdVersion": "R-HSA-446728.4",
+        "oldStId": "REACT_20676",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_20676.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-12-15",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3772,
+        "diagramHeight": 1644,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1500931,
+        "displayName": "Cell-Cell communication",
+        "stId": "R-HSA-1500931",
+        "name": [
+          "Cell-Cell communication"
+        ],
+        "stIdVersion": "R-HSA-1500931.11",
+        "oldStId": "REACT_111155",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 497,
+        "diagramHeight": 97,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

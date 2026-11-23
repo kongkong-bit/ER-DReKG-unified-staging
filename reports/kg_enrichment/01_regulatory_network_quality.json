@@ -1,0 +1,28 @@
+{
+  "status": "offline_signed_network_integrated",
+  "mapped_assertions_before_hub_filter": 7306,
+  "hub_outdegree_cutoff": 100,
+  "hub_sources_excluded": 5,
+  "hub_assertions_excluded": 1032,
+  "assertions_after_hub_filter": 6274,
+  "conflicting_or_potential_conflict_pairs": 107,
+  "mapping_reject_counts": {
+    "source_hub_outdegree_over_100": 1032,
+    "unmapped_or_ambiguous_endpoint": 84895
+  },
+  "normalization_manifests": [
+    "data/kg_enrichment/normalized/omnipath/2026-11-22/omnipath_human_core_signed.csv.manifest.json",
+    "data/kg_enrichment/normalized/optimuskg/3.2/uniprot_gene_crosswalk.manifest.json",
+    "data/kg_enrichment/normalized/reactome/2026-10/reactome_gene_pathways.manifest.json",
+    "data/kg_enrichment/normalized/signor/2026-10/signor_human_protein_regulation.csv.manifest.json"
+  ],
+  "import_extension": {
+    "bundle_dir": "artifacts/kg_enrichment/regulatory_extension",
+    "nodes": 297,
+    "unique_regulatory_assertions": 328,
+    "protein_gene_mapping_assertions": 133,
+    "edges": 461,
+    "biocypher_validation": "PASS",
+    "manifest_sha256": "ad980cb670920dbaf5c368c471eeb111d8b60d3194e345a37ff57b83799aec99"
+  }
+}

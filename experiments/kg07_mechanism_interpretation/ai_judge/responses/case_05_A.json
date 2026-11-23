@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "3a501f08483582ebd121f929b8c27bccc9ba863265355e90e7531b4d676cbd34",
+  "evidence_input_sha256": "c325403af6b15074c097fe964ee6baeb351da6fd1bc92cc1d76af2987f25d92f",
+  "latency_seconds": 11.165410600000541,
+  "usage": {
+    "completion_tokens": 748,
+    "completion_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "prompt_tokens": 7951,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 8699
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6条s2_condition证据ID均在包内且对应MCF7各剂量24h观测；claim未声称疗效，仅描述关联分数"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path含TARGETS边CHEMBL1801204→ENSG00000198793，reported_actions为INHIBITOR（OptimusKG/OPEN_TARGETS），支持inhibition方向；claim未据此推断疗效"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "505c6b2dec87c4807a0cca7224eb7eba77658c4f1aff0e8432765f8dab7291fd",
+        "supports_claim": true,
+        "reason": "对应1.11um条件记录，支持6条件计数"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "5353d9933dea1b0e71338adf01f770b07f970fd255e9663586998f68285b256a",
+        "supports_claim": true,
+        "reason": "对应0.04um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "578aedbad50c7c6b49739b368e70624f02462cea1f3828e4a8639c70ce74e425",
+        "supports_claim": true,
+        "reason": "对应3.33um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "839e052de85240d5025e45c4de21c1257eb533747147c89f57719e5c57d64b25",
+        "supports_claim": true,
+        "reason": "对应10.0um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "975263e7791a2fb78798eaeeb9583343605cc7d3b710c8156df17dd236316978",
+        "supports_claim": true,
+        "reason": "对应0.12um条件记录"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "e58be23fc0ef130a6c4503520c20195c70b5332278bb93fdb410ed6df3c06d31",
+        "supports_claim": true,
+        "reason": "对应0.37um条件记录"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "299ead0b6bbe33a300221f118ab07dc5648a072022840ab5c3f493acbec8658d",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS边与INHIBITOR动作，直接支持靶点及方向"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "仅单一细胞系MCF7、单一时间点24h且n_signatures=1，筛选证据覆盖有限",
+      "无public pathway、S1重叠路径，机制解释证据链薄弱",
+      "部分上游断言缺source URL，仅保留source_record_id/release"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:48:36.597519+00:00"
+}

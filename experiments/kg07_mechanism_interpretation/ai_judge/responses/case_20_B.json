@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "e76de1a75e87ed0ade7cef4776801eae0a65cd8a496c009503c4308887b2ef6f",
+  "evidence_input_sha256": "08db8777d6064679151abdbc6ff9bf10c6974bc513da0e57040ebd11b4ee7c72",
+  "latency_seconds": 10.568688600000314,
+  "usage": {
+    "completion_tokens": 727,
+    "completion_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "prompt_tokens": 4357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 5084
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "来源快照MCF7|10.0um|24h WTCS_median=-0.4141898207121921，rank 23（exp006），数值与条件完全一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "3.33um条件WTCS=-0.2794553368500564，与claim一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "0.04um条件WTCS=-0.2604029927051481；中间剂量0.12/0.37/1.11um WTCS=0.0，'中间剂量为0'有依据"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "263a0e77a199727624b3fc963d8a85bb665e1b18d5582bbe1d826d7400a50874",
+        "supports_claim": true,
+        "reason": "该evidence对应10.0um条件，verified_in_postgres=true，WTCS与rank支持claim 1"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "evidence",
+        "reference_id": "bbb7780cc6bc08e8f501337cb8554afff7e37c33109c82cc38da4384e2b5936f",
+        "supports_claim": true,
+        "reason": "对应3.33um条件快照，WTCS值一致"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "evidence",
+        "reference_id": "f54cc256708085f4137b11f4b92f72e0a38af73ca4ea1c45dbfe95df6d354b08",
+        "supports_claim": true,
+        "reason": "对应0.04um条件快照，WTCS=-0.2604，支持claim 3的0.04um部分"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 4,
+        "accurate": true,
+        "reason": "coverage.compound_mapped=false且mapping_status=unmatched_no_exact_inchikey，一致"
+      },
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "evidence_gaps明确列出no curated Drug-to-Gene target assertion"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "direct_target_path_count=0且gap声明no target-to-public-pathway route"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "s1_enrichment_overlap_path_count=0，gap一致"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "s1_deg_overlap_path_count=0，gap一致"
+      }
+    ],
+    "limitations": [
+      "化合物未精确映射（unmatched_no_exact_inchikey），机制解释缺乏靶点与通路层面的支持",
+      "仅S2条件级证据（6条件），无独立验证或known_targets支持",
+      "单一签名（n_signatures=1）、stability_grade=low、dose_stability=mixed_or_limited",
+      "quality_cc_median在最低剂量仅0.63，TAS 0.5057，数据质量偏低",
+      "WTCS符号解释依赖方向假设，包内未提供方向证据"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:13:19.644316+00:00"
+}

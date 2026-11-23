@@ -1,0 +1,9 @@
+setting,n_common,rank_spearman,top10_overlap_count,median_abs_score_difference,parameter_group
+B_matched125,3715,1.0,10,0.0,S1 signature scheme vs A_original
+B100,3715,0.9220323031320327,8,0.011861711218860482,S1 signature scheme vs A_original
+B150,3715,0.9355273227708176,7,0.009628945610806794,S1 signature scheme vs A_original
+B200,3715,0.8940096070988466,4,0.020385387892846385,S1 signature scheme vs A_original
+B300,3715,0.8530833142892262,3,0.03495864020393674,S1 signature scheme vs A_original
+CC>=0.2 vs CC>=0.1,4748,0.993037316830775,10,,LINCS quality filter
+CC>=0.2 vs CC>=0.3,2743,0.989346137435684,10,,LINCS quality filter
+CC>=0.2 vs CC>=0.2 and TAS>=0.2,3019,0.9925194779654866,10,,LINCS quality filter

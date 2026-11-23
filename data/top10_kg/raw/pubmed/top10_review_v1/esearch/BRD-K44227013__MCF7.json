@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"5","retmax":"5","retstart":"0","idlist":["37445655","35332794","35195941","38704688","29899872"],"translationset":[],"querytranslation":"(\"ponatinib\"[Title/Abstract] OR \"AP24534\"[Title/Abstract]) AND (\"MCF7\"[Title/Abstract] OR \"MCF-7\"[Title/Abstract])"}}

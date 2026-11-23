@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "query_time_utc": "2026-11-15T03:07:34.944520+00:00",
+  "connection": "local Neo4j read-only MATCH queries; exact LINCS InChIKey only",
+  "project_slug": "erpos-gse42568",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a6aabb2147cb5f5e",
+  "top10": 10,
+  "exact_graph_drug_mappings": 5,
+  "candidates_with_direct_targets": 5,
+  "candidates_with_s1_pathways": 5,
+  "direct_target_rows": 61,
+  "target_pathway_link_rows": 395,
+  "ppi_expansion": "not used; current Neo4j relationship type audit has no supported PPI relation",
+  "mapping_rows": [
+    {
+      "rank": "1",
+      "pert_id": "BRD-K44227013",
+      "drug_name": "ponatinib",
+      "inchi_key": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+      "neo4j_mapping": "exact InChIKey",
+      "graph_drug_ids": "CHEMBL1171837",
+      "graph_names": "PONATINIB"
+    },
+    {
+      "rank": "2",
+      "pert_id": "BRD-K16485616",
+      "drug_name": "mocetinostat",
+      "inchi_key": "HRNLUBSXIHFDHP-UHFFFAOYSA-N",
+      "neo4j_mapping": "exact InChIKey",
+      "graph_drug_ids": "CHEMBL272980",
+      "graph_names": "MOCETINOSTAT"
+    },
+    {
+      "rank": "3",
+      "pert_id": "BRD-K56405753",
+      "drug_name": "MK-2461",
+      "inchi_key": "JGEBLDKNWBUGRZ-HXUWFJFHSA-N",
+      "neo4j_mapping": "no exact InChIKey node in current graph"
+    },
+    {
+      "rank": "4",
+      "pert_id": "BRD-K92093830",
+      "drug_name": "doxorubicin",
+      "inchi_key": "AOJJSUZBOXZQNB-TZSSRYMLSA-N",
+      "neo4j_mapping": "exact InChIKey",
+      "graph_drug_ids": "CHEMBL53463",
+      "graph_names": "DOXORUBICIN"
+    },
+    {
+      "rank": "5",
+      "pert_id": "BRD-K76694128",
+      "drug_name": "rebastinib",
+      "inchi_key": "WVXNSAVVKYZVOE-UHFFFAOYSA-N",
+      "neo4j_mapping": "no exact InChIKey node in current graph"
+    },
+    {
+      "rank": "6",
+      "pert_id": "BRD-K50000283",
+      "drug_name": "PHA-767491",
+      "inchi_key": "DKXHSOUZPMHNIZ-UHFFFAOYSA-N",
+      "neo4j_mapping": "no exact InChIKey node in current graph"
+    },
+    {
+      "rank": "7",
+      "pert_id": "BRD-K11153516",
+      "drug_name": "iniparib",
+      "inchi_key": "MDOJTZQKHMAPBK-UHFFFAOYSA-N",
+      "neo4j_mapping": "exact InChIKey",
+      "graph_drug_ids": "CHEMBL1170047",
+      "graph_names": "INIPARIB"
+    },
+    {
+      "rank": "8",
+      "pert_id": "BRD-A00147595",
+      "drug_name": "balaglitazone",
+      "inchi_key": "IETKPTYAGKZLKY-UHFFFAOYSA-N",
+      "neo4j_mapping": "exact InChIKey",
+      "graph_drug_ids": "CHEMBL2103991",
+      "graph_names": "BALAGLITAZONE"
+    },
+    {
+      "rank": "9",
+      "pert_id": "BRD-K13094524",
+      "drug_name": "PFI-1",
+      "inchi_key": "TXZPMHLMPKIUGK-UHFFFAOYSA-N",
+      "neo4j_mapping": "no exact InChIKey node in current graph"
+    },
+    {
+      "rank": "10",
+      "pert_id": "BRD-K83837640",
+      "drug_name": "JNJ-26481585",
+      "inchi_key": "PAWIYAYFNXQGAP-UHFFFAOYSA-N",
+      "neo4j_mapping": "no exact InChIKey node in current graph"
+    }
+  ]
+}

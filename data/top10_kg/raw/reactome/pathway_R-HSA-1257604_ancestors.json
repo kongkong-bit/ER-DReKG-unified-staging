@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:47.843735+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-1257604/ancestors",
+    "response_sha256": "25b54780c01deaf4fda772d8b7769404a9e4246c03465f99f070d0eda733842e",
+    "response_bytes": 1209
+  },
+  "payload": [
+    [
+      {
+        "dbId": 1257604,
+        "displayName": "PIP3 activates AKT signaling",
+        "stId": "R-HSA-1257604",
+        "name": [
+          "PIP3 activates AKT signaling",
+          "PI3K/AKT Signaling"
+        ],
+        "stIdVersion": "R-HSA-1257604.14",
+        "oldStId": "REACT_75829",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-1257604.14",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-06-14",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2501,
+        "diagramHeight": 1479,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006925,
+        "displayName": "Intracellular signaling by second messengers",
+        "stId": "R-HSA-9006925",
+        "name": [
+          "Intracellular signaling by second messengers"
+        ],
+        "stIdVersion": "R-HSA-9006925.6",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 291,
+        "diagramHeight": 209,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

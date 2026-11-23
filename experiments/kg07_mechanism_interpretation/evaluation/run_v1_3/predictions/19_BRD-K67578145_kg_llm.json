@@ -1,0 +1,195 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K67578145",
+    "drug_name": "GDC-0879",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "20"
+  },
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "GDC-0879 (BRD-K67578145) 在 MCF7 0.12 µM 24h 条件下 WTCS 中位数为 -0.3505（rank 334，n_signatures=1，quality_cc_median=0.34，TAS_median=0.212）",
+        "relation": "association",
+        "evidence_ids": [
+          "fb9336a684891cdea12069438e31fa85f4f10bab654e1bc2d7c6b96cf2a48884"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "GDC-0879 (BRD-K67578145) 在 MCF7 10.0 µM 24h 条件下 WTCS 中位数为 -0.4155（rank 84，n_signatures=1，quality_cc_median=0.52，TAS_median=0.511）",
+        "relation": "association",
+        "evidence_ids": [
+          "11af886293d736ccdd5c2e80489ef367b39375299444bf619faa00d7d4b507fb"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "GDC-0879 (BRD-K67578145) 在 MCF7 3.33 µM 24h 条件下 WTCS 中位数为 -0.3944（rank 142，n_signatures=1，quality_cc_median=0.56，TAS_median=0.338）",
+        "relation": "association",
+        "evidence_ids": [
+          "48964cd4efe4d0be93cd8dae8bf1640b39040ff68851db7a0a4377b33ab522b3"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "GDC-0879 (BRD-K67578145) 在 MCF7 0.37 µM 与 1.11 µM 24h 条件下 WTCS 中位数为 0.0（即无方向性连接分数），两条件 rank 均为 1970.5",
+        "relation": "association",
+        "evidence_ids": [
+          "dd23df05a0c3653443e06b40aa0e62bc6e77dadd5a0466f995c2c1b86758788c",
+          "d3def38b6f16d1a5d16067151bc0829d238e8d20431c3129eb9d9558e3cd51b5"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "汇总：候选药物在 S2 LINCS 分析中总 WTCS 得分为 -0.4155（5 个条件），排名 20",
+        "relation": "association",
+        "evidence_ids": [
+          "fb9336a684891cdea12069438e31fa85f4f10bab654e1bc2d7c6b96cf2a48884",
+          "11af886293d736ccdd5c2e80489ef367b39375299444bf619faa00d7d4b507fb",
+          "48964cd4efe4d0be93cd8dae8bf1640b39040ff68851db7a0a4377b33ab522b3",
+          "dd23df05a0c3653443e06b40aa0e62bc6e77dadd5a0466f995c2c1b86758788c",
+          "d3def38b6f16d1a5d16067151bc0829d238e8d20431c3129eb9d9558e3cd51b5"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "perturbagen has no exact compound mapping in this GraphBuild",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7"
+      },
+      {
+        "text": "no curated Drug-to-Gene target assertion was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7"
+      },
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7"
+      }
+    ],
+    "limitations": [
+      "候选化合物未匹配到精确 InChIKey（mapping_status: unmatched_no_exact_inchikey），compound_id 为 null，身份确认仅基于 pert_id BRD-K67578145 与名称 GDC-0879",
+      "所有 S2 条件 n_signatures=1（每条件仅一条签名），WTCS_mad=0.0，缺乏重复签名的稳健性评估",
+      "两个剂量（0.37 µM、1.11 µM）WTCS 为 0，负向信号仅出现在 0.12/3.33/10.0 µM，剂量-反应不一致",
+      "direct_target_path_count、public_pathway_path_count、S1 重叠路径计数均为 0",
+      "PRISM 细胞敏感性与 Exp006 摘要因缺少可核验 ID 被排除，本报告未引用其数值"
+    ],
+    "uncited_or_uncertain": [
+      "Exp006 摘要（无可引用 EvidenceRecord/Path ID）未纳入任何 claim",
+      "Phase F/PRISM 独立验证数值（无可引用 EvidenceRecord/Path ID）未纳入任何 claim"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 16.794,
+  "usage": {
+    "completion_tokens": 1312,
+    "completion_tokens_details": {
+      "reasoning_tokens": 12
+    },
+    "prompt_tokens": 7026,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 8338
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

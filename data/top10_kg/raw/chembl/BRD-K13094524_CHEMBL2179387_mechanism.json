@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:03:24.692813+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL2179387&limit=1000&offset=0",
+    "response_sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd",
+    "response_bytes": 111
+  },
+  "payload": {
+    "mechanisms": [],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  }
+}

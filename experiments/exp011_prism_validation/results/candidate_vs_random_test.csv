@@ -1,0 +1,2 @@
+candidate_set,n_candidates,background_pool_unique_structures,matched_erpos_line_coverage_counts,statistic,observed_mean_sensitivity,randomization_replicates,seed,one_sided_empirical_p_candidates_more_sensitive,null_mean,null_95ci_low,null_95ci_high
+Exp006 Top50 exact structure overlap,37,647,"{""9"": 35, ""8"": 2}","mean sensitivity (-logFC), ER-positive PRISM lines",1.0581556152038034,10000,20261112,9.999000099990002e-05,0.17272971258900602,0.007303675242687774,0.3718478892904988

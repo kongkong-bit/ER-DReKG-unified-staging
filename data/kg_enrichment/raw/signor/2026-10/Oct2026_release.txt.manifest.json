@@ -1,0 +1,16 @@
+{
+  "source_name": "SIGNOR",
+  "source_url": "https://signor.uniroma2.it/releases/Oct2026_release.txt",
+  "release_version": "Oct2026",
+  "retrieved_at": "2026-11-22T06:34:03.357614+00:00",
+  "local_path": "data\\kg_enrichment\\raw\\signor\\2026-10\\Oct2026_release.txt",
+  "license": "CC BY 4.0",
+  "species": "Homo sapiens and mixed-species rows filtered at normalization",
+  "schema_version": "SIGNOR 4.0 Oct2026 release TSV; inspect header before normalization",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "content_length_header": "21425930",
+  "status": "downloaded",
+  "bytes": 21425930,
+  "sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06"
+}

@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:50.192743+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2467813/ancestors",
+    "response_sha256": "b840de61563176a121d59678f4563ea0253f23c1b1f6fea3ebd823da0329d3ba",
+    "response_bytes": 2510
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2467813,
+        "displayName": "Separation of Sister Chromatids",
+        "stId": "R-HSA-2467813",
+        "name": [
+          "Separation of Sister Chromatids"
+        ],
+        "stIdVersion": "R-HSA-2467813.4",
+        "oldStId": "REACT_150471",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-12-04",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 68882,
+        "displayName": "Mitotic Anaphase",
+        "stId": "R-HSA-68882",
+        "name": [
+          "Mitotic Anaphase"
+        ],
+        "stIdVersion": "R-HSA-68882.5",
+        "oldStId": "REACT_1275",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "definition": "The stage of mitosis during which the two sets of chromosomes separate and move away from each other. definition_",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2555396,
+        "displayName": "Mitotic Metaphase and Anaphase",
+        "stId": "R-HSA-2555396",
+        "name": [
+          "Mitotic Metaphase and Anaphase"
+        ],
+        "stIdVersion": "R-HSA-2555396.4",
+        "oldStId": "REACT_150314",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-09-18",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2288,
+        "diagramHeight": 1430,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 68886,
+        "displayName": "M Phase",
+        "stId": "R-HSA-68886",
+        "name": [
+          "M Phase"
+        ],
+        "stIdVersion": "R-HSA-68886.5",
+        "oldStId": "REACT_910",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_910.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 288,
+        "diagramHeight": 364,
+        "definition": "The part of a standard cell cycle during which mitosis and cytokinesis take place.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 69278,
+        "displayName": "Cell Cycle, Mitotic",
+        "stId": "R-HSA-69278",
+        "name": [
+          "Cell Cycle, Mitotic"
+        ],
+        "stIdVersion": "R-HSA-69278.6",
+        "oldStId": "REACT_152",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 515,
+        "diagramHeight": 441,
+        "definition": "The most common eukaryotic cell cycle, in which a cell is duplicated without changing ploidy; comprises four successive phases called G1, S, G2, and M.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1640170,
+        "displayName": "Cell Cycle",
+        "stId": "R-HSA-1640170",
+        "name": [
+          "Cell Cycle"
+        ],
+        "stIdVersion": "R-HSA-1640170.5",
+        "oldStId": "REACT_115566",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 651,
+        "diagramHeight": 136,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

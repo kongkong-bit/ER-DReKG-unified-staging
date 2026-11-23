@@ -1,0 +1,99 @@
+{
+  "status": "retrieved_with_recorded_source_call_status",
+  "retrieved_at_utc": "2026-11-21T04:08:17.596137+00:00",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "identity_mapping_sha256": "e070480b7008a50acc5f004ce4c29d3e0a487dc124643b3892d2ad0ca047f1c4",
+  "chembl_api_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "dgidb_api_endpoint": "https://dgidb.org/api/graphql",
+  "activity_per_molecule_cap": 1000,
+  "activity_coverage": {
+    "BRD-K44227013": {
+      "status": "partial_at_1000_cap",
+      "records": 1000,
+      "total_count": 1536,
+      "truncated": true
+    },
+    "BRD-K16485616": {
+      "status": "complete_for_endpoint_query",
+      "records": 351,
+      "total_count": 351,
+      "truncated": false
+    },
+    "BRD-K56405753": {
+      "status": "complete_for_endpoint_query",
+      "records": 386,
+      "total_count": 386,
+      "truncated": false
+    },
+    "BRD-K92093830": {
+      "status": "partial_at_1000_cap",
+      "records": 1000,
+      "total_count": 15388,
+      "truncated": true
+    },
+    "BRD-K76694128": {
+      "status": "partial_at_1000_cap",
+      "records": 1000,
+      "total_count": 1420,
+      "truncated": true
+    },
+    "BRD-K50000283": {
+      "status": "complete_for_endpoint_query",
+      "records": 458,
+      "total_count": 458,
+      "truncated": false
+    },
+    "BRD-K11153516": {
+      "status": "complete_for_endpoint_query",
+      "records": 46,
+      "total_count": 46,
+      "truncated": false
+    },
+    "BRD-A00147595": {
+      "status": "complete_for_endpoint_query",
+      "records": 7,
+      "total_count": 7,
+      "truncated": false
+    },
+    "BRD-K13094524": {
+      "status": "complete_for_endpoint_query",
+      "records": 339,
+      "total_count": 339,
+      "truncated": false
+    },
+    "BRD-K83837640": {
+      "status": "complete_for_endpoint_query",
+      "records": 265,
+      "total_count": 265,
+      "truncated": false
+    }
+  },
+  "chembl_mechanism_rows": 10,
+  "chembl_activity_rows": 4852,
+  "dgidb_interaction_rows": 278,
+  "chembl_mechanism_target_component_rows": 19,
+  "dgidb_exact_name_candidate_coverage": 8,
+  "dgidb_exact_name_pert_ids": [
+    "BRD-A00147595",
+    "BRD-K11153516",
+    "BRD-K13094524",
+    "BRD-K16485616",
+    "BRD-K44227013",
+    "BRD-K50000283",
+    "BRD-K56405753",
+    "BRD-K76694128"
+  ],
+  "dgidb_unresolved_interaction_rows": 178,
+  "api_call_count": 30,
+  "api_error_count": 0,
+  "outputs_sha256": {
+    "data\\top10_kg\\evidence\\chembl_mechanisms.csv": "6a01d18ef53f8627040a0ed0a6f6152530b33442f7edfe2fda0a614860a90a50",
+    "data\\top10_kg\\evidence\\chembl_mechanism_targets.csv": "b7fc3579333a49464a1c654fd498fb2f4db0b2845853d1e867b3ad714fd062f2",
+    "data\\top10_kg\\evidence\\chembl_activities.csv": "6f36c4eacd2e67f219d67246ee4fd731fe3d04f84f0cb79928c1f7a672f7f4bc",
+    "data\\top10_kg\\evidence\\dgidb_interactions.csv": "4ed740a025d0f43d61d197531898d7d256defa5a3fd7bf92a4c67ba76570cffc",
+    "data\\top10_kg\\evidence\\dgidb_returned_drug_nodes.csv": "53b5b6e02e722f4bb03e5cc85f08f59446a3f9b869e93fd62fd49175ee87d20e",
+    "data\\top10_kg\\evidence\\top10_source_api_calls.json": "eecc29d65e4a03c331f1f30b16293a321fed6bc423dbe92a99908699306cc848",
+    "data\\top10_kg\\evidence\\top10_source_evidence_summary.csv": "7042fd50a3d5010f5950b23710e55c9b69d04cdaf6f00e82317af3a48619450b"
+  },
+  "policy": "Raw responses retained. No API errors or truncated results are interpreted as no known relationship. ChEMBL activities and DGIdb interactions are not promoted automatically to direct targets."
+}

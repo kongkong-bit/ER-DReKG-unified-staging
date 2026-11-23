@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "biocypher_version": "0.17.0",
+  "schema_config": "kg/config/biocypher_schema.yaml",
+  "schema_config_sha256": "eb1705bd45a7331dbd3ebdbdecd3446925e30801d877e22b7e6486f9884bfb04",
+  "biocypher_config_sha256": "f833efca0a3f5901e0a1b85422361d312fd827797190bb1097660d4b0bc75f4f",
+  "kg_pyproject_sha256": "b32d410ec6feb82f9833586cddc4ba006ac8e72a388c49ef9092db7769c0741c",
+  "kg_lock_sha256": "6c594985010bae5e9912a64420949e29cb648bb1f6893d7cb9a76bb4fcc27572",
+  "adapter_code_sha256": "7efc325deb1631edd09ae54820548af3b2453da5974409a2b70e3eab555a6769",
+  "neo4j_driver_version": "6.4.1",
+  "translation_mode": "offline schema translation; no BioCypher database connection",
+  "neo4j_persistence": "GraphBuild-scoped MERGE importer consumes BioCypher translated entities",
+  "node_count": 297,
+  "edge_count": 461,
+  "node_types": {
+    "Gene": 164,
+    "Protein": 133
+  },
+  "input_edge_types": {
+    "PROTEIN-GENE": 133,
+    "REGULATES": 328
+  },
+  "normalized_edge_types": {
+    "ENCODED_BY": 133,
+    "REGULATES": 328
+  },
+  "stable_node_ids_preserved": true,
+  "stable_edge_ids_and_endpoints_preserved": true,
+  "source_properties_preserved_by_translator": true
+}

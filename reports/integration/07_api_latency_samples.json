@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "top10_api",
+    "environment": "isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache",
+    "samples": 5,
+    "p50_ms": 50.51,
+    "p95_ms": 56.08,
+    "status": "measured",
+    "notes": "Five sequential warm-cache API requests; local same-process TestClient, not browser/network latency or a load test."
+  },
+  {
+    "feature": "kg_subgraph_api",
+    "environment": "isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache",
+    "samples": 5,
+    "p50_ms": 1269.0,
+    "p95_ms": 1371.86,
+    "status": "measured",
+    "notes": "Five sequential warm-cache API requests; local same-process TestClient, not browser/network latency or a load test."
+  },
+  {
+    "feature": "kg06_evidence_package_api",
+    "environment": "isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache",
+    "samples": 5,
+    "p50_ms": 418.07,
+    "p95_ms": 729.85,
+    "status": "measured",
+    "notes": "Five sequential warm-cache API requests; local same-process TestClient, not browser/network latency or a load test."
+  },
+  {
+    "feature": "kg07_rule_api",
+    "environment": "isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache",
+    "samples": 5,
+    "p50_ms": 440.2,
+    "p95_ms": 548.98,
+    "status": "measured",
+    "notes": "Five sequential warm-cache API requests; local same-process TestClient, not browser/network latency or a load test."
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "ee5170f772b2b14b7e712e257a00c3353b14b863e75dc9919801dc91bc564ea4",
+  "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064",
+  "latency_seconds": 21.345886500000233,
+  "usage": {
+    "completion_tokens": 1083,
+    "completion_tokens_details": {
+      "reasoning_tokens": 509
+    },
+    "prompt_tokens": 8256,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 9339
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "screening_evidence.exp006与S2条件数据直接支持：rank 2、WTCS -0.5059000597、6个条件、MCF7 10.0 um 24 h、source_dataset GSE70138，数值完全一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006字段显示stability_grade=low、dose_stability=direction_flip、negative_dose_fraction≈0.667、n_signatures=1、wtcs A=-0.4526/B=-0.5059，全部与claim一致。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中不存在任何PRISM数据（S1 median rank 499、B200 381、Q2 205.5均无出处），claim也未提供证据ID；按无依据处理。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中无PRISM敏感性数据（MCF7 3.971/rank 23、ER+/ER-均值与细胞系数均未出现），claim无证据ID；按无依据处理。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "accurate": false,
+        "reason": "包内存在5条direct_target路径（含ENSG00000116478等，reported_actions为INHIBITOR/TARGET），已知靶点与抑制关系数据是可得的，'无靶点断言'与覆盖不符。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": false,
+        "reason": "包内含12条public_pathway路径、37条s1_enrichment_overlap路径及具体通路ID（如REACT:R-HSA-3214815），通路重叠数据明确存在，该'不足'表述与覆盖不符。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "S2逆转分数（表达相关）和PRISM敏感性（细胞活力相关）确实均不构成临床疗效证据，该保留意见准确。"
+      }
+    ],
+    "limitations": [
+      "部分上游来源记录缺少source URL，仅保留source_record_id与source_release",
+      "S2证据为单signature（single signature），stability_grade=low且存在direction_flip，逆转信号对剂量/QC敏感",
+      "s1_enrichment_overlap通路（如病毒过程相关GO条目）与化合物已知药理机制的关联性需谨慎解释",
+      "PRISM相关声明（claim 3、4）在本快照中无对应来源数据，无法核验"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:02:14.357429+00:00"
+}

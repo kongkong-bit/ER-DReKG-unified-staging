@@ -1,0 +1,21 @@
+{
+  "input_features": 200,
+  "filtered_features": 20,
+  "tested_features": 180,
+  "significant_features": 2,
+  "up": 1,
+  "down": 1,
+  "contrast": "Tumor - Normal",
+  "positive_group": "Tumor",
+  "negative_group": "Normal",
+  "sample_count": 6,
+  "group_counts": {
+    "Normal": 3,
+    "Tumor": 3
+  },
+  "identifier_type": "symbol",
+  "method": "edgeR::filterByExpr + TMM normalization + limma::voom + lmFit + eBayes(robust=TRUE), BH adjustment",
+  "R": "R version 4.4.3 (2025-02-28 ucrt)",
+  "edgeR": "4.4.2",
+  "limma": "3.62.2"
+}

@@ -1,0 +1,54 @@
+{
+  "seed": 42,
+  "S1_source": "D:\\CLASS\\syh\\s1_初步_gse42568_limma\\limma_all_genes.csv",
+  "S1_sha256": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+  "GCTX": "D:\\CLASS\\syh\\s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx",
+  "GCTX_sha256": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e",
+  "signature_count": 4761,
+  "signature_ids_sha256": "9e6ff0bda2a3a5241ddbf557f8017a6462d6ca7ad034fb30d176bdd618c3e00c",
+  "gene_background": "unique BING symbols mapped from GCTX row IDs; lexicographic tie-break for equal expression",
+  "FDR_cutoff": 0.05,
+  "B_rule": "BING intersection, FDR<0.05; direction-specific; FDR ascending, abs(logFC) descending, symbol ascending",
+  "aggregation": "median WTCS per pert_id x cell x dose x time; no across-condition mixing",
+  "missing_signatures": [],
+  "runtime_seconds": 33.97,
+  "outputs": {
+    "condition_rankings.csv": "dae4ed2e466faf9593a4c8be68650f78a9f5cc61301b11c04ae261bcab280fa9",
+    "ranking_comparison.csv": "853d43ac2283d7d9967dd8a0c7f772c3a6def1fea48f5573252dd9082e2cc1f8",
+    "signature_scores.csv": "711ac7eae3afe506f7bc82294b9d7032d3d10e59714b09225303779b31876e52"
+  },
+  "historical_reproduction_check": {
+    "file": "historical_reproduction_check.csv",
+    "status": "PASS",
+    "rows": [
+      {
+        "historical_scheme": "A",
+        "recomputed_scheme": "A_original",
+        "historical_signatures": 4761,
+        "recomputed_signatures": 4761,
+        "exact_id_matches": 4761,
+        "missing_or_unmatched": 0,
+        "max_abs_WTCS_difference": 5.823119764158946e-14,
+        "max_abs_ES_UP_difference": 9.869882688917642e-14,
+        "max_abs_ES_DOWN_difference": 9.50350909079134e-14,
+        "mismatches_over_1e_10": 0,
+        "historical_sha256": "1556f7cbd51a58e47007dfc3963e97424e5699889b6a920dc0ef600574d09327",
+        "recomputed_sha256": "711ac7eae3afe506f7bc82294b9d7032d3d10e59714b09225303779b31876e52"
+      },
+      {
+        "historical_scheme": "B",
+        "recomputed_scheme": "B200",
+        "historical_signatures": 4761,
+        "recomputed_signatures": 4761,
+        "exact_id_matches": 4761,
+        "missing_or_unmatched": 0,
+        "max_abs_WTCS_difference": 6.650235917504688e-14,
+        "max_abs_ES_UP_difference": 1.2989609388114332e-13,
+        "max_abs_ES_DOWN_difference": 1.0180745135812685e-13,
+        "mismatches_over_1e_10": 0,
+        "historical_sha256": "1556f7cbd51a58e47007dfc3963e97424e5699889b6a920dc0ef600574d09327",
+        "recomputed_sha256": "711ac7eae3afe506f7bc82294b9d7032d3d10e59714b09225303779b31876e52"
+      }
+    ]
+  }
+}

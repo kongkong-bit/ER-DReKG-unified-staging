@@ -1,0 +1,8 @@
+feature,environment,samples,p50_ms,p95_ms,status,notes
+top10_api,isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache,5,50.51,56.08,measured,"Sequential local same-process API requests; not browser/network latency or a load test"
+kg_subgraph_api,isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache,5,1269.00,1371.86,measured,"DiseaseContext two-hop summary; sequential local API requests"
+kg06_evidence_package_api,isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache,5,418.07,729.85,measured,"First Top10 candidate; sequential local API requests"
+kg07_rule_api,isolated PostgreSQL 17 + Neo4j 5; FastAPI TestClient; warm cache,5,440.20,548.98,measured,"kg_rule mode; no external model request"
+frontend_production_build,local staging build,1,,,measured_duration_only,"TypeScript and Vite production build; 3826 modules; 18.75 s build time; not browser load latency"
+backend_startup_and_frontend_load,browser staging,1,,,qualitative_only,"Uvicorn health and Edge app rendered; no reliable startup-to-first-render timing captured"
+memory_stability,local staging,0,,,not_measured,"No sustained load or memory profile"

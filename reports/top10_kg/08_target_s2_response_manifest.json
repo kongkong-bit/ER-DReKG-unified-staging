@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "method": "extract exact frozen Top10 sig_id row from GSE70138 Level 5 COMPZ GCTX; median values across LINCS gene rows mapping to each target symbol",
+  "gctx_file": "s2_lincs\\work\\GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx",
+  "gctx_sha256": "1f31891cc7138205688f9d1f2282004517c9e61a14c1c3d64a241b7582976a2e",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "frozen_manifest_sha256": "fb1ed231e147fb03b219c8fd3ed41f8ec6e3f003b918809fab486d22fa99187e",
+  "external_bundle_manifest_sha256": "30ae77db16435419ea5aa9c4d4e4c9bb224e79d4cd9c15927668b6b183cb1821",
+  "response_file": "reports\\top10_kg\\08_target_s2_response.csv",
+  "response_sha256": "1d3fd2cd2baab7db7cf5a5fba07dae83df22b2f50da9dab7530f408d9f058ac6",
+  "response_rows": 41,
+  "target_universe": "source-supported target assertion whitelist from overlay; enzyme/transporter-only claims excluded",
+  "caveat": "COMPZ target transcript response is not binding, target activity, causality, or treatment efficacy."
+}

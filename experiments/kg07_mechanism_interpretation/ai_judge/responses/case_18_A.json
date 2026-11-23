@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "2281366c7f50ad7cb2c12eda80c8e31575ed19be9838a919cd0a1b1cf2c6c271",
+  "evidence_input_sha256": "0c06119dc9e458c4fd213f9be9058f320d51ff05e8e024a000603f0147a45b60",
+  "latency_seconds": 10.116587100001198,
+  "usage": {
+    "completion_tokens": 582,
+    "completion_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "prompt_tokens": 2136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2718
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "coverage/screening_evidence 确认 rank=18，WTCS B=-0.4159，condition_count=2。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 字段与声明逐项一致：MCF7、10 µM、24h、WTCS B/A、rank_A=15、rank_B=18、n_signatures=1、dose 2、负剂量比例0.5、GSE70138。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "S1 中位排名 1286.25、B200 1025.75、Q2 378.0 等外部验证数据在包内无对应字段，coverage 显示 public_pathway_path_count 等均为0，无独立验证证据支持。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 4,
+        "accurate": true,
+        "reason": "确实无路径/靶点断言/通路重叠，coverage 与 evidence_gaps 支持。"
+      },
+      {
+        "claim_index": 5,
+        "accurate": true,
+        "reason": "快照中未提供任何 PRISM 敏感性字段，'无数据/无法评估'与包内覆盖一致。"
+      },
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "mapping_status=unmatched_no_exact_inchikey、compound_id=null 在快照中原样出现。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "exp006 字段 n_signatures=1、stability_grade=low、dose_stability=mixed_or_limited、evidence_limitations 提到 QC 阈值敏感性，声明准确。"
+      }
+    ],
+    "limitations": [
+      "化合物无精确 InChIKey 匹配，compound_id=null，身份确认不完整",
+      "仅 1 个 signature、低稳定性等级，QC 阈值敏感性/阈值结果缺失，排名稳健性有限",
+      "负剂量比例仅 0.5 且 3.33 µM 条件 WTCS=0（quality_cc_median 仅 0.28），剂量响应证据弱",
+      "无知识图谱路径、靶点、通路或独立验证证据，机制解释不可支持"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:11:29.541719+00:00"
+}

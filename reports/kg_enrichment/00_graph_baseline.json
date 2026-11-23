@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-22T08:32:21.622232+00:00",
+  "git_commit": "be7f8579dfe4ca09d84fd08d4e9ee2f364549b58",
+  "frozen_source": "experiments\\final_results\\results\\final_top10.csv",
+  "frozen_source_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "graph_runtime": {
+    "status": "UNAVAILABLE",
+    "reason": "Docker daemon API denied; no live Neo4j socket verified"
+  },
+  "offline_source": "OptimusKG 3.2 + versioned Top 10 GraphBundles",
+  "offline_graph_counts": [
+    {
+      "path": "reports\\top10_kg\\top10_graph_bundle\\3928c54d",
+      "status": "validated",
+      "run_id": "ANALYSIS_RUN:KG_TOP10_BUNDLE:3928c54d-dd66-4f0a-b346-a798c1f70890",
+      "nodes": 6639,
+      "edges": 38388,
+      "manifest_sha256": "341806e6ecfe004381617148a4c61af5daf114e319a1eb32f629c2d32bf389a2"
+    },
+    {
+      "path": "reports\\top10_kg\\top10_graph_bundle\\3928c54d_external_v1",
+      "status": "validated_with_external_evidence_overlay",
+      "run_id": "ANALYSIS_RUN:KG_TOP10_BUNDLE:3928c54d-dd66-4f0a-b346-a798c1f70890:EXTERNAL_EVIDENCE_V1",
+      "nodes": 6643,
+      "edges": 38394,
+      "manifest_sha256": "30ae77db16435419ea5aa9c4d4e4c9bb224e79d4cd9c15927668b6b183cb1821"
+    }
+  ]
+}

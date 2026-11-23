@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:e0421796-2aff-47e2-9228-d683eab05fa9",
+  "s2_import": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5",
+    "status": "completed",
+    "idempotent": false,
+    "backfilled": false,
+    "condition_count": 3943,
+    "test_only": false,
+    "persisted_condition_count": 3943
+  },
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22",
+  "graph_summary": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22",
+    "node_count": 12171,
+    "edge_count": 44932,
+    "nodes_by_type": {
+      "DiseaseContext": 1,
+      "Pathway": 709,
+      "Gene": 5790,
+      "GeneSet": 29,
+      "Drug": 666,
+      "Candidate": 1032,
+      "S2Condition": 3943,
+      "Disease": 1
+    },
+    "source": "neo4j"
+  },
+  "top10_count": 10,
+  "top10_kg06_available": 10,
+  "top10_first_pert_id": "BRD-K44227013",
+  "top10_artifact_status": "validated_offline_bundle_not_registered_or_imported",
+  "evidence_package_id": "KG06:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:06aabcb9af9d1e22:BRD-K44227013:fc4a92159faaf455",
+  "path_count": 157,
+  "unique_evidence_count": 258,
+  "s2_condition_count": 5,
+  "explanation_candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:eab2f02a-2bdf-53c8-833b-fedab03070c5:BRD-K44227013",
+  "explanation_status": "rule_template",
+  "explanation_citation_validation": true,
+  "glm_without_key_status": 503,
+  "glm_without_key_message": "Zhipu API key is not configured (ZHIPU_API_KEY)"
+}

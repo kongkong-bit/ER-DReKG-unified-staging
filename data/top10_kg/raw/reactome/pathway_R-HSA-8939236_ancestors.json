@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:01.013148+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-8939236/ancestors",
+    "response_sha256": "c6a9e73363579a374633aa25dd5e2ca29fef5e1f6e08a44e90b23eb0cf79ca08",
+    "response_bytes": 2109
+  },
+  "payload": [
+    [
+      {
+        "dbId": 8939236,
+        "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+        "stId": "R-HSA-8939236",
+        "name": [
+          "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+        ],
+        "stIdVersion": "R-HSA-8939236.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-06-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8878171,
+        "displayName": "Transcriptional regulation by RUNX1",
+        "stId": "R-HSA-8878171",
+        "name": [
+          "Transcriptional regulation by RUNX1"
+        ],
+        "stIdVersion": "R-HSA-8878171.6",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-8878171.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-06-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2077,
+        "diagramHeight": 1612,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212436,
+        "displayName": "Generic Transcription Pathway",
+        "stId": "R-HSA-212436",
+        "name": [
+          "Generic Transcription Pathway"
+        ],
+        "stIdVersion": "R-HSA-212436.15",
+        "oldStId": "REACT_12627",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_12627.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2027,
+        "diagramHeight": 1176,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 73857,
+        "displayName": "RNA Polymerase II Transcription",
+        "stId": "R-HSA-73857",
+        "name": [
+          "RNA Polymerase II Transcription"
+        ],
+        "stIdVersion": "R-HSA-73857.7",
+        "oldStId": "REACT_1366",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1366.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2900,
+        "diagramHeight": 1308,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

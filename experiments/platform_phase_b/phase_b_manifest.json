@@ -1,0 +1,41 @@
+{
+  "experiment": "Phase B bounded seed-driven subgraph extraction",
+  "run_utc": "2026-11-13T07:31:25.664717+00:00",
+  "project_id": "ERPOS_GSE42568",
+  "analysis_run_id": "ANALYSIS_RUN:PHASEB_OPTIMUSKG32_20261113",
+  "graph_source": "OptimusKG 3.2",
+  "license": "CC BY-NC-SA 4.0",
+  "disease_specific_pathway_seed": "NOT_AVAILABLE: S1 GO/Reactome/Hallmark CSV results absent in current workspace; routes use S1 DEG seeds only and are not described as ER+ specific pathways.",
+  "input_sha256": {
+    "s1_初步_gse42568_limma/limma_significant_genes_FDR05.csv": "6f7952a1dfb0dad6e5493cc559ca983707fa0abe402cab3e9ce0dca2262814f1",
+    "experiments/exp006_ranking_reliability/results/candidate_drugs_top50.csv": "848c6d6d260de36e735cb553e5fe5c6e3aa47aca06c23fe65f6eb73694ad37a0",
+    "experiments/exp011_prism_validation/results/candidate_mapping_audit_top50.csv": "9f453e54f34fa8b4aba56c7539b398079830e68e8ed988406fb658e7e3e0d705",
+    "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71"
+  },
+  "output_sha256": {
+    "experiments/platform_phase_b/candidate_mapping_audit.csv": "7029b612307fc86e2f71c693b4d1339a89e33768bceb6986254086b4493f23d4",
+    "experiments/platform_phase_b/s1_gene_mapping_audit.csv": "c7feb9fe8e4895031f768b8a38ca55af3304621a27ef2b8ae9233c1896454303",
+    "experiments/platform_phase_b/unmatched_entities.csv": "8bc7bbf16dd9c74b97a6d7791801bc4cbba2481f25308fd1cdbb9734ee888709",
+    "experiments/platform_phase_b/subgraph_nodes.csv": "bd8e30b6ed5ce71311253e4aecdc182733787472cb754571b4c836947f44e81e",
+    "experiments/platform_phase_b/subgraph_edges.csv": "1a07db430ae84d3454eeba7f87d173aa09768b1d7cf51ef9cff242685d8466e3",
+    "experiments/platform_phase_b/candidate_target_pathway_routes.csv": "d648c195316043471ef59b211c078f0468c5389cf19db94748b768c8aa062ff2"
+  },
+  "counts": {
+    "candidate_drugs": 50,
+    "candidate_drugs_exact_inchikey_mapped": 30,
+    "candidate_drug_nodes_in_subgraph": 30,
+    "s1_fdr05_genes": 7066,
+    "s1_genes_unique_symbol_or_alias_mapped": 6192,
+    "s1_genes_ambiguous_or_unmatched": 874,
+    "target_gene_pathway_routes": 1801,
+    "unique_target_genes_in_routes": 45,
+    "unique_pathways_in_routes": 233,
+    "subgraph_nodes": 6502,
+    "subgraph_edges": 8152
+  },
+  "notes": [
+    "Drug mapping uses exact InChIKey only; salts/stereoisomers are not fuzzy merged.",
+    "All edge properties retain source assertions and relation conflict metadata.",
+    "No drug effect or therapeutic efficacy is inferred from graph paths."
+  ]
+}

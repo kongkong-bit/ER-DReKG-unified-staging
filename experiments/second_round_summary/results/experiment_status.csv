@@ -1,0 +1,7 @@
+experiment,status,what_it_means,remaining
+Exp006,PASS,原有排序可靠性、质量阈值与剂量敏感性结果已作为基线复核；旧结果保持只读。,单药证据仍以计算结果为主。
+Exp007,PASS,"比较六种 S1 签名大小/组成，4,761 signatures 成对重算并复现历史 WTCS。",稳定性不是疗效验证。
+Exp008,PARTIAL,算法排名比较及随机基因集置换状态：completed。NCS/Tau 按官方定义审计为不可用。,Zhang/XSum 用 COMPZ 做输入适配，非原始 logFC 论文输入的逐字复刻；NCS/Tau 未计算。
+Exp009,PASS,正式 ID 联结后比较 CC/TAS 质量门槛；门槛间整体排名高度相关。,项目阈值敏感性，不是普适筛选标准。
+Exp010,PASS,独立 GSE139038 14 个 ER+ 肿瘤/配对正常样本完成外部 S1 和 S2 排名对照。,外部药物 Top10 重合很低，外推支持有限。
+Exp011,PASS,PRISM Primary 与 DepMap 模型表按结构/ACH ID 对齐，完成候选敏感性、ER 特异性和覆盖匹配随机背景对照。,Top50 有37个结构匹配；体外细胞活力不等同患者获益。

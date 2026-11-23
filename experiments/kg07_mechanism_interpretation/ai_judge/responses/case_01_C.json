@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "f1f613460c67ed1b6de412525575acd9000db644a4b06805ae772cea4e99a0b3",
+  "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03",
+  "latency_seconds": 12.090403300000617,
+  "usage": {
+    "completion_tokens": 729,
+    "completion_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "prompt_tokens": 2620,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3349
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "screening_evidence.s2_candidate 给出 WTCS -0.42391028653557394、rank 12、condition_count 5、source_dataset GSE70138，与声明一致；关于'表达逆转分数非临床疗效'是对分数性质的定性，与包内一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "exp006 字段逐项吻合：MCF7、10.0 um、24 h、wtcs_median_B -0.4239、rank_B 12、n_signatures 1、negative_dose_fraction 0.6、dose_stability mixed_or_limited。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "快照中无任何 S1 验证数据：coverage 显示 s1_enrichment/deg_overlap_path_count 为 0、unique_evidence_count 与 verified_evidence_count 为 0，未见中位排名 350.0 或 B200 530.0 的来源记录。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "Q2 条件中位排名 2482.0 在快照中无对应来源；coverage 未提供 Q2 相关证据计数或记录。"
+      },
+      {
+        "claim_index": 5,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "PRISM 敏感性数值（ER+ 0.895/9 株、ER- 1.052/13 株、MCF7 2.314）在快照中无任何来源或证据 ID 支持。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 6,
+        "accurate": true,
+        "reason": "coverage.direct_target_path_count=0 且 evidence_gaps 明示 'no curated Drug-to-Gene target assertion was found'，靶点结论确无证据支持。"
+      },
+      {
+        "claim_index": 7,
+        "accurate": true,
+        "reason": "public_pathway_path_count=0，evidence_gaps 注明无 target-to-public-pathway 路由及 S1 重叠，通路重叠证据不足的表述准确。"
+      },
+      {
+        "claim_index": 8,
+        "accurate": true,
+        "reason": "包内仅有 S2 表达分数（WTCS）类筛选数据，无任何体外/体内/临床疗效证据；'均非疗效证据'的限定与包内容一致。"
+      }
+    ],
+    "limitations": [
+      "S1 验证与 PRISM 数据在快照中完全缺失，相应声明无法核实",
+      "S2 证据为单一 signature、剂量稳定性 low、QC 阈值敏感，信号强度有限",
+      "三个条件（0.12/1.11 µM 等）WTCS 为 0，负向剂量比例仅 0.6，排名稳健性弱",
+      "无引用 ID 需逐条核对，引用核对项为空"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:45:12.788865+00:00"
+}

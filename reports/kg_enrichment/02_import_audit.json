@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "status": "PASS_SIGNOR_OMNIPATH_REACTOME_PRIMEKG_STAGING_IMPORTS",
+  "pre_import_audit": "reports/kg_enrichment/02_live_neo4j_audit.json",
+  "backup_manifest": "data/kg_enrichment/backups/backup_manifest.json",
+  "restore_and_rollback_rehearsal": "reports/kg_enrichment/02_rollback_rehearsal.json",
+  "post_import_audit": "reports/kg_enrichment/02_live_neo4j_post_import_audit.json",
+  "post_import_validation": "reports/kg_enrichment/02_registered_import_verification.json",
+  "import": {
+    "status": "PASS",
+    "method": "existing project GraphBuild API and importer",
+    "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:634be378-67ba-4b0c-b649-d61761b5b4dc",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+    "nodes": 6985,
+    "edges": 39351,
+    "signed_regulatory_assertions": 328,
+    "source_evidence_records": 39218,
+    "pathway_gene_relations_remain_unsigned": true
+  },
+  "idempotency_and_exact_inventory": {
+    "status": "PASS",
+    "importer_runs": [
+      "PASS",
+      "PASS"
+    ],
+    "exact_inventory_problem_count": 0,
+    "missing_source_release_or_assertion_or_evidence": 0,
+    "unversioned_relationship_members": 0,
+    "duplicate_node_ids_after_import": 0,
+    "duplicate_relationship_ids_after_import": 0
+  },
+  "post_import_runtime": {
+    "endpoint": "bolt://127.0.0.1:17687",
+    "neo4j": "5.26.33 Community",
+    "database": "task-specific isolated staging",
+    "old_graph_build_preserved": true,
+    "new_graph_build_registered_in_postgres": true,
+    "main_project_database_touched": false
+  },
+  "rollback_scope_note": "The rollback drill ran only on restored temporary copies. The helper removed all 39,351 build relationships and 39,218 evidence plus one context row; it deliberately retains node rows, leaving 119 isolated new Protein nodes in the disposable clone. The original staging copy retains the enhanced GraphBuild.",
+  "additional_external_layers": {
+    "Reactome_current_gene_pathways": {
+      "status": "PASS_imported_to_staging_GraphBuild",
+      "release": "current-2026-10",
+      "source_records": 54361,
+      "unique_gene_pathway_assertions_imported": 48709,
+      "hierarchy_assertions_imported": 2905,
+      "top10_path_annotation_rows": 17504,
+      "sign": "unknown",
+      "interpretation": "pathway membership and hierarchy annotation; not causal regulation"
+    },
+    "PrimeKG": {
+      "status": "PASS_imported_to_staging_as_unsigned_associations",
+      "release": "Harvard Dataverse v2 (2022-05-02)",
+      "license": "CC0-1.0",
+      "exact_candidate_coverage": "6/10",
+      "normalized_subset_edges": 1026,
+      "imported_associations": 978,
+      "mapping_rejects": 92,
+      "sign": "unknown",
+      "interpretation": "native association evidence only; excluded from signed paths and scoring",
+      "source_manifest": "data/kg_enrichment/normalized/primekg/2022-05/primekg_top10_manifest.json"
+    }
+  },
+  "external_import": {
+    "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:6b5e4d6e-40c4-4cfb-9a72-692dafe2b4e6",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:6ea657f0a3a95099",
+    "nodes": 9526,
+    "relationships": 91943,
+    "evidence_records": 91810,
+    "preflight": "PASS",
+    "import_status": "PASS",
+    "import_runs": [
+      "PASS",
+      "PASS"
+    ],
+    "exact_inventory_problems": 0
+  },
+  "external_layer_audit": "reports/kg_enrichment/09_external_layer_import_audit.json",
+  "external_preflight": "reports/kg_enrichment/09_full_external_bundle_preflight.json",
+  "external_verification": "reports/kg_enrichment/09_registered_external_import_verification.json",
+  "external_post_import_audit": "reports/kg_enrichment/10_live_neo4j_post_external_audit.json",
+  "external_rollback_rehearsal": {
+    "status": "PASS",
+    "target": "fresh temporary DB clone restored from the pre-import backup pair",
+    "restored_pre_import_relationships": 78241,
+    "cloned_graphbuild_import": "PASS",
+    "rollback_preview": {
+      "relationships": 91943,
+      "evidence_records": 91810,
+      "disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "rollback_applied": {
+      "deleted_relationships": 91943,
+      "deleted_evidence_records": 91810,
+      "deleted_disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "old_graphbuild_relationships_after_rollback": {
+      "5bb1e749e1caa6e2": 38890,
+      "c48926d9a9983865": 39351
+    },
+    "new_graphbuild_relationships_after_rollback": 0,
+    "analysis_run_preserved": true,
+    "temporary_containers_and_volumes_cleaned": true
+  }
+}

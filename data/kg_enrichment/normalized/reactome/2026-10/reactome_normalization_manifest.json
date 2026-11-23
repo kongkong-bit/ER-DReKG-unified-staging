@@ -1,0 +1,21 @@
+{
+  "source": "Reactome",
+  "release": "current-2026-10",
+  "license": "CC0 1.0 Universal",
+  "retrieved_at": "2026-11-22",
+  "species": "Homo sapiens",
+  "pathway_file": "data\\kg_enrichment\\raw\\reactome\\2026-10\\ReactomePathways.txt",
+  "pathway_file_sha256": "b8103a50d625ffb6acd18cddffcce0ceb0fdf36b19392d104c32bb1fcc7e2f9f",
+  "pathway_records_raw": 23652,
+  "human_pathways": 2889,
+  "hierarchy_file": "data\\kg_enrichment\\raw\\reactome\\2026-10\\ReactomePathwaysRelation.txt",
+  "hierarchy_file_sha256": "aa3609ee852442899b400bf4817b36311d820883ecd75259ed77531d93d8f1dc",
+  "hierarchy_records_raw": 23762,
+  "hierarchy_records_valid": 2905,
+  "hierarchy_records_rejected": 20857,
+  "outputs": {
+    "reactome_pathway_nodes.csv": "21a1b8c6e696f86b52f807250c793bf9943934acf9277db4a395a6ae7bf4edb3",
+    "reactome_pathway_hierarchy.csv": "8072c9bb21bde5c33a55faa20c0680e27448036278a037e4abddf90431b7aa4d",
+    "reactome_rejected_rows.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  }
+}

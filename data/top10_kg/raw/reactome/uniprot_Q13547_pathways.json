@@ -1,0 +1,818 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:39.224368+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/Q13547/pathways?species=Homo%20sapiens",
+    "response_sha256": "a081a5a3bc67cf0747a82319941a698b7ee3cb1462daf422f14fc5e16f378d02",
+    "response_bytes": 18079
+  },
+  "payload": [
+    {
+      "dbId": 1362277,
+      "displayName": "Transcription of E2F targets under negative control by DREAM complex",
+      "stId": "R-HSA-1362277",
+      "stIdVersion": "R-HSA-1362277.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Transcription of E2F targets under negative control by DREAM complex"
+      ],
+      "releaseDate": "2011-09-20",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 1362300,
+      "displayName": "Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1",
+      "stId": "R-HSA-1362300",
+      "stIdVersion": "R-HSA-1362300.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1"
+      ],
+      "releaseDate": "2011-09-20",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 1538133,
+      "displayName": "G0 and Early G1",
+      "stId": "R-HSA-1538133",
+      "stIdVersion": "R-HSA-1538133.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "G0 and Early G1"
+      ],
+      "releaseDate": "2011-09-20",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2012-03-31",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 193670,
+      "displayName": "p75NTR negatively regulates cell cycle via SC1",
+      "stId": "R-HSA-193670",
+      "stIdVersion": "R-HSA-193670.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "p75NTR negatively regulates cell cycle via SC1"
+      ],
+      "releaseDate": "2008-06-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 201722,
+      "displayName": "Formation of the beta-catenin:TCF transactivating complex",
+      "stId": "R-HSA-201722",
+      "stIdVersion": "R-HSA-201722.8",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Formation of the beta-catenin:TCF transactivating complex"
+      ],
+      "releaseDate": "2014-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2018-03-26",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2122947,
+      "displayName": "NOTCH1 Intracellular Domain Regulates Transcription",
+      "stId": "R-HSA-2122947",
+      "stIdVersion": "R-HSA-2122947.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH1 Intracellular Domain Regulates Transcription"
+      ],
+      "releaseDate": "2012-03-13",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2020-03-16",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2173795,
+      "displayName": "Downregulation of SMAD2/3:SMAD4 transcriptional activity",
+      "stId": "R-HSA-2173795",
+      "stIdVersion": "R-HSA-2173795.6",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Downregulation of SMAD2/3:SMAD4 transcriptional activity"
+      ],
+      "releaseDate": "2012-06-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-06-09",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2173796,
+      "displayName": "SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",
+      "stId": "R-HSA-2173796",
+      "stIdVersion": "R-HSA-2173796.6",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription"
+      ],
+      "releaseDate": "2012-06-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-06-09",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2644606,
+      "displayName": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+      "stId": "R-HSA-2644606",
+      "stIdVersion": "R-HSA-2644606.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2894862,
+      "displayName": "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",
+      "stId": "R-HSA-2894862",
+      "stIdVersion": "R-HSA-2894862.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 3214815,
+      "displayName": "HDACs deacetylate histones",
+      "stId": "R-HSA-3214815",
+      "stIdVersion": "R-HSA-3214815.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "HDACs deacetylate histones"
+      ],
+      "releaseDate": "2014-06-10",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/REACT_228222.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 350054,
+      "displayName": "Notch-HLH transcription pathway",
+      "stId": "R-HSA-350054",
+      "stIdVersion": "R-HSA-350054.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Notch-HLH transcription pathway"
+      ],
+      "releaseDate": "2008-06-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 3769402,
+      "displayName": "Deactivation of the beta-catenin transactivating complex",
+      "stId": "R-HSA-3769402",
+      "stIdVersion": "R-HSA-3769402.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Deactivation of the beta-catenin transactivating complex"
+      ],
+      "releaseDate": "2014-03-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/r-hsa-3769402.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-03-23",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 427389,
+      "displayName": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
+      "stId": "R-HSA-427389",
+      "stIdVersion": "R-HSA-427389.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
+        "Activation of rRNA Expression by ERCC6 (CSB) and EHMT2 (G9a)",
+        "Activation of rRNA Expression by Cockayne Syndrome Protein CSB and Histone Methyltransferase G9a"
+      ],
+      "releaseDate": "2016-03-23",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/r-hsa-427389.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 427413,
+      "displayName": "NoRC negatively regulates rRNA expression",
+      "stId": "R-HSA-427413",
+      "stIdVersion": "R-HSA-427413.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NoRC negatively regulates rRNA expression",
+        "Methylation of histones and DNA negatively regulates rRNA expression"
+      ],
+      "releaseDate": "2014-03-12",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/REACT_200856.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2018-12-13",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 4551638,
+      "displayName": "SUMOylation of chromatin organization proteins",
+      "stId": "R-HSA-4551638",
+      "stIdVersion": "R-HSA-4551638.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "SUMOylation of chromatin organization proteins"
+      ],
+      "releaseDate": "2015-12-15",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-4551638.4",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-04-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 4641265,
+      "displayName": "Repression of WNT target genes",
+      "stId": "R-HSA-4641265",
+      "stIdVersion": "R-HSA-4641265.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Repression of WNT target genes"
+      ],
+      "releaseDate": "2014-06-10",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/REACT_228106.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2016-12-21",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 6804758,
+      "displayName": "Regulation of TP53 Activity through Acetylation",
+      "stId": "R-HSA-6804758",
+      "stIdVersion": "R-HSA-6804758.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Regulation of TP53 Activity through Acetylation"
+      ],
+      "releaseDate": "2016-03-23",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2016-10-05",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 69205,
+      "displayName": "G1/S-Specific Transcription",
+      "stId": "R-HSA-69205",
+      "stIdVersion": "R-HSA-69205.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "G1/S-Specific Transcription"
+      ],
+      "releaseDate": "2009-09-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 73762,
+      "displayName": "RNA Polymerase I Transcription Initiation",
+      "stId": "R-HSA-73762",
+      "stIdVersion": "R-HSA-73762.6",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RNA Polymerase I Transcription Initiation"
+      ],
+      "releaseDate": "2004-07-06",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8936459,
+      "displayName": "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function",
+      "stId": "R-HSA-8936459",
+      "stIdVersion": "R-HSA-8936459.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function"
+      ],
+      "releaseDate": "2017-06-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 8943724,
+      "displayName": "Regulation of PTEN gene transcription",
+      "stId": "R-HSA-8943724",
+      "stIdVersion": "R-HSA-8943724.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of PTEN gene transcription"
+      ],
+      "releaseDate": "2017-06-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9018519,
+      "displayName": "Estrogen-dependent gene expression",
+      "stId": "R-HSA-9018519",
+      "stIdVersion": "R-HSA-9018519.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Estrogen-dependent gene expression"
+      ],
+      "releaseDate": "2018-03-21",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-04-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9022538,
+      "displayName": "Loss of MECP2 binding ability to 5mC-DNA",
+      "stId": "R-HSA-9022538",
+      "stIdVersion": "R-HSA-9022538.2",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Loss of MECP2 binding ability to 5mC-DNA"
+      ],
+      "releaseDate": "2018-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9022692,
+      "displayName": "Regulation of MECP2 expression and activity",
+      "stId": "R-HSA-9022692",
+      "stIdVersion": "R-HSA-9022692.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of MECP2 expression and activity"
+      ],
+      "releaseDate": "2018-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9022699,
+      "displayName": "MECP2 regulates neuronal receptors and channels",
+      "stId": "R-HSA-9022699",
+      "stIdVersion": "R-HSA-9022699.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MECP2 regulates neuronal receptors and channels"
+      ],
+      "releaseDate": "2018-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9022702,
+      "displayName": "MECP2 regulates transcription of neuronal ligands",
+      "stId": "R-HSA-9022702",
+      "stIdVersion": "R-HSA-9022702.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "MECP2 regulates transcription of neuronal ligands"
+      ],
+      "releaseDate": "2018-09-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9615017,
+      "displayName": "FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes",
+      "stId": "R-HSA-9615017",
+      "stIdVersion": "R-HSA-9615017.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes"
+      ],
+      "releaseDate": "2018-12-13",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9679191,
+      "displayName": "Potential therapeutics for SARS",
+      "stId": "R-HSA-9679191",
+      "stIdVersion": "R-HSA-9679191.6",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Potential therapeutics for SARS"
+      ],
+      "releaseDate": "2020-06-10",
+      "releaseStatus": "UPDATED",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9679191.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2023-03-29",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9701898,
+      "displayName": "STAT3 nuclear events downstream of ALK signaling",
+      "stId": "R-HSA-9701898",
+      "stIdVersion": "R-HSA-9701898.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "STAT3 nuclear events downstream of ALK signaling"
+      ],
+      "releaseDate": "2021-06-09",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9725371,
+      "displayName": "Nuclear events stimulated by ALK signaling in cancer",
+      "stId": "R-HSA-9725371",
+      "stIdVersion": "R-HSA-9725371.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Nuclear events stimulated by ALK signaling in cancer"
+      ],
+      "releaseDate": "2021-06-09",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9764725,
+      "displayName": "Negative Regulation of CDH1 Gene Transcription",
+      "stId": "R-HSA-9764725",
+      "stIdVersion": "R-HSA-9764725.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Negative Regulation of CDH1 Gene Transcription"
+      ],
+      "releaseDate": "2025-06-18",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9824594,
+      "displayName": "Regulation of MITF-M-dependent genes involved in apoptosis",
+      "stId": "R-HSA-9824594",
+      "stIdVersion": "R-HSA-9824594.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of MITF-M-dependent genes involved in apoptosis"
+      ],
+      "releaseDate": "2024-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9825892,
+      "displayName": "Regulation of MITF-M-dependent genes involved in cell cycle and proliferation",
+      "stId": "R-HSA-9825892",
+      "stIdVersion": "R-HSA-9825892.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of MITF-M-dependent genes involved in cell cycle and proliferation"
+      ],
+      "releaseDate": "2024-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 983231,
+      "displayName": "Factors involved in megakaryocyte development and platelet production",
+      "stId": "R-HSA-983231",
+      "stIdVersion": "R-HSA-983231.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "Factors involved in megakaryocyte development and platelet production"
+      ],
+      "releaseDate": "2010-12-14",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2018-06-13",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9843940,
+      "displayName": "Regulation of endogenous retroelements by KRAB-ZFP proteins",
+      "stId": "R-HSA-9843940",
+      "stIdVersion": "R-HSA-9843940.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of endogenous retroelements by KRAB-ZFP proteins"
+      ],
+      "releaseDate": "2024-06-15",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9844594,
+      "displayName": "Transcriptional regulation of brown and beige adipocyte differentiation by EBF2",
+      "stId": "R-HSA-9844594",
+      "stIdVersion": "R-HSA-9844594.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Transcriptional regulation of brown and beige adipocyte differentiation by EBF2"
+      ],
+      "releaseDate": "2024-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9845323,
+      "displayName": "Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs)",
+      "stId": "R-HSA-9845323",
+      "stIdVersion": "R-HSA-9845323.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs)"
+      ],
+      "releaseDate": "2024-06-15",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9856649,
+      "displayName": "Transcriptional and post-translational regulation of MITF-M expression and activity",
+      "stId": "R-HSA-9856649",
+      "stIdVersion": "R-HSA-9856649.3",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Transcriptional and post-translational regulation of MITF-M expression and activity"
+      ],
+      "releaseDate": "2024-03-27",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9937850,
+      "displayName": "NuRD complex assembly",
+      "stId": "R-HSA-9937850",
+      "stIdVersion": "R-HSA-9937850.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 3,
+      "name": [
+        "NuRD complex assembly"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9940951,
+      "displayName": "Interaction of NuRD complexes with transcription factors",
+      "stId": "R-HSA-9940951",
+      "stIdVersion": "R-HSA-9940951.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Interaction of NuRD complexes with transcription factors"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9976102,
+      "displayName": "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)",
+      "stId": "R-HSA-9976102",
+      "stIdVersion": "R-HSA-9976102.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9976102.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9981845,
+      "displayName": "NOTCH signaling regulates gene expression in endothelial stalk cells",
+      "stId": "R-HSA-9981845",
+      "stIdVersion": "R-HSA-9981845.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH signaling regulates gene expression in endothelial stalk cells"
+      ],
+      "releaseDate": "2026-09-16",
+      "releaseStatus": "NEW",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

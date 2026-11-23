@@ -1,0 +1,140 @@
+{
+  "report_type": "formal_graphbuild_readonly_verification",
+  "report_version": "1.0",
+  "generated_at_utc": "2026-11-20T04:47:41Z",
+  "scope": {
+    "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+    "project_slug": "erpos-gse42568",
+    "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:9ebd6c43-9342-487e-a052-ae901461b58c",
+    "s2_analysis_run_id": "ANALYSIS_RUN:S2_LINCS:eab2f02a-2bdf-53c8-833b-fedab03070c5",
+    "enrichment_analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:eb409567-e846-4422-ae19-0055937871ea",
+    "graph_bundle_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:e0421796-2aff-47e2-9228-d683eab05fa9",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:d570eb8deb3e5eea",
+    "build_key": "d570eb8deb3e5eea94d4f939e7b4c2cb15ca418b1e1b1a13284322229ba4e3f7",
+    "status": "materialized",
+    "graph_source": "neo4j",
+    "registered_at_utc": "2026-11-19T10:44:37.228794+00:00"
+  },
+  "method": {
+    "mode": "read_only",
+    "rebuilt_bundle": false,
+    "reimported_neo4j": false,
+    "wrote_postgres": false,
+    "wrote_neo4j": false,
+    "database_values": "transcribed from read-only queries executed during the 2026-11-20 audit; no database connection was opened during packaging",
+    "hash_verification_inputs": [
+      "bundle_checksums.json",
+      "analysis_run_manifest.json",
+      "bundle_manifest.json",
+      "postgres.graph_builds.input_hashes",
+      "sha256 of delivered files"
+    ]
+  },
+  "status": "PASS",
+  "checks": {
+    "bundle_manifest_status_validated": true,
+    "biocypher_validation_status": "PASS",
+    "bundle_files_matched": 14,
+    "bundle_files_total": 14,
+    "bundle_inputs_matched": 14,
+    "bundle_inputs_external_not_included": 7,
+    "bundle_inputs_mismatched": 0,
+    "postgres_import_status": "PASS",
+    "evidence_records_persisted": true,
+    "disease_contexts_persisted": true,
+    "registration_log_http_200": true
+  },
+  "counts": {
+    "full_graph_bundle_and_build_tagged": {
+      "nodes": 12899,
+      "relationships": 48729,
+      "evidence_records": 48729,
+      "disease_contexts": 1,
+      "nodes_by_type": {
+        "Gene": 6518,
+        "S2Condition": 3943,
+        "Candidate": 1032,
+        "Pathway": 709,
+        "Drug": 666,
+        "GeneSet": 29,
+        "DiseaseContext": 1,
+        "Disease": 1
+      }
+    },
+    "api_2hop_from_disease_context": {
+      "nodes": 12171,
+      "relationships": 44932,
+      "nodes_by_type": {
+        "DiseaseContext": 1,
+        "Pathway": 709,
+        "Gene": 5790,
+        "GeneSet": 29,
+        "Drug": 666,
+        "Candidate": 1032,
+        "S2Condition": 3943,
+        "Disease": 1
+      },
+      "note": "Different query scope from the full bundle counts; do not mix."
+    }
+  },
+  "importer_provenance": {
+    "recorded_in_formal_build": "72953d3c3c35d38fda9e23e836ad39b10cbd630084d0de176ba93f2b5ee61cb2",
+    "head_original_import_lf": "9c4b6609c69810a8e276efd90703db24a148dddfdbddd628880ef0f73801256d",
+    "head_original_import_crlf": "72953d3c3c35d38fda9e23e836ad39b10cbd630084d0de176ba93f2b5ee61cb2",
+    "current_improved_import_worktree": "9fae6da68bb3309c01ed80345c966937242f5785c9640429c5b91736d4af969d",
+    "current_improved_import_lf": "7e90b016c31edc3c26b29f3b70575994d253d893cef4cc3ef9b6537f2a59d275",
+    "formal_build_used": "original_HEAD_importer",
+    "improved_importer_applied_to_formal_graph": false,
+    "improved_importer_status": "code_improvement_completed_not_yet_applied_to_formal_graph",
+    "neo4j_corroboration": {
+      "relationship_ids_include_graph_build_suffix": false,
+      "sample_relationship_build_key": null,
+      "membership_stored_in": "graph_build_ids array"
+    }
+  },
+  "aplus_lineage": {
+    "candidates": 1032,
+    "conditions": 3943,
+    "signatures": 4385,
+    "exact_inchikey_mapped_drugs": 668,
+    "candidate_target_pathway_routes": 17324,
+    "relation_conflicts": 0,
+    "hashes": {
+      "final_corrected_condition_ranking.csv": "66e970195564d2945d57c111c57cdfed61b56a136181b59b8acec0a2764fffe8",
+      "final_drug_condition_summary.csv": "5be0cdb02abbb011314b61927837077c29765f230f3822fcc00e1a650d7ba8f2",
+      "final_signature_scores.csv": "efd1d5167751160006e6129515ac51db445068a5b1e25b7e1f97b2d9dc758911",
+      "Aplus_candidate_drugs.csv": "814581b92d01cc48c6a80080c02bd3a3da35fb405d32514aab56d11e056ac106",
+      "Aplus_condition_records.csv": "c87dfe92648025fd038d32ecc76d32f05d8c65e0a9e0473f7d8663955707b74f",
+      "adapted_drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+      "s2_drug_condition_summary.csv": "0973fd446e707f1f695cb8a422216ea78a38aeb6cfe67c267c9c7b36e4be7745",
+      "aplus_signature_scores.csv": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e",
+      "s2_signature_scores.csv": "bbb9a5b74690420dc30f1cab56d9d8b7270aa28042f66e15c9d531c802b0992e"
+    }
+  },
+  "not_performed": [
+    "rebuild GraphBundle",
+    "re-import Neo4j",
+    "clear or modify database",
+    "write PostgreSQL or Neo4j",
+    "rerun S1/S2 or recompute WTCS",
+    "apply improved importer to the formal graph"
+  ],
+  "limitations": [
+    "No API endpoint smoke test was run during packaging.",
+    "The old report experiments/platform_phase_c/formal_graphbuild_verification.* covers build a6aabb2147cb5f5e and is not applicable.",
+    "Graph relationships are traceable database assertions and evidence intersections, not causal or clinical evidence.",
+    "External licensed inputs (OptimusKG parquet, LINCS GCTX/pert_info) are not included in the delivery package."
+  ],
+  "attachments": [
+    "postgres_graphbuild_record.txt",
+    "postgres_counts.txt",
+    "neo4j_counts.txt",
+    "bundle_file_hash_verification.tsv",
+    "bundle_input_hash_verification.tsv",
+    "environment_hashes.txt",
+    "git_state_at_delivery.txt",
+    "uvicorn_graphbuild.log",
+    "uvicorn_graphbundle.log",
+    "uvicorn_part3_step5.log"
+  ]
+}

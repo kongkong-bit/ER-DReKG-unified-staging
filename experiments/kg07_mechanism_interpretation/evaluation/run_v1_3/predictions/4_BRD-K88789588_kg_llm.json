@@ -1,0 +1,226 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88789588",
+    "drug_name": "letrozole",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1444",
+    "rank": "39"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 7,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 9,
+    "verified_evidence_count": 9,
+    "s2_condition_evidence_count": 1,
+    "verified_s2_condition_evidence_count": 1,
+    "s2_condition_count": 1,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "23c0e0cba9c40c30a3f705be796175a7a09627b3f0a025167069b4bbfacb8b2b",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "来曲唑(BRD-K88789588, CHEMBL1444)在S2 LINCS分析中于MCF7细胞、10 μM、24 h条件下WTCS=-0.39,排名39,条件内排名162;n_signatures=1,quality_cc_median=0.33,TAS_median=0.24。该分数为计算得出的转录组逆转/相似性分数,不构成临床疗效证据。",
+        "relation": "association",
+        "evidence_ids": [
+          "12d47921701d7b7eca5c0adea32efafcefb636a78748a4510c4e6b4edf898729"
+        ],
+        "path_ids": [
+          "09eb273f160859b3bd12e73b3470f208d2a187acffb19762ff923ffe834797ae"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选药物与化合物CHEMBL1444通过精确InChIKey匹配(mapping_method='exact InChIKey',inchi_key=HPJKCIUCZWXJDR-UHFFFAOYSA-N),来源为GSE70138 Broad LINCS Level 5 perturbagen元数据。",
+        "relation": "association",
+        "evidence_ids": [
+          "b0c91db3dd63666f04d376547dee8449beaf66250bba6542d8b6acd30681a665"
+        ],
+        "path_ids": [
+          "09eb273f160859b3bd12e73b3470f208d2a187acffb19762ff923ffe834797ae"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "CHEMBL1444(来曲唑)对ENSG00000137869(CYP19A1/细胞色素P450 19A1)的关系:DRUG_BANK报告ENZYME/TARGET,OPEN_TARGETS报告INHIBITOR,DAILY_MED来源机制注释为'Cytochrome P450 19A1 inhibitor',无关系冲突。来源明确支持抑制关系。",
+        "relation": "inhibition",
+        "evidence_ids": [
+          "9a00b384e81f52f283a109c9c36f05d265f7d42f239e006b3e8ad0b57599fd6a"
+        ],
+        "path_ids": [
+          "a9d8f7b6ea92e3bcb0137d79ecbef789321d56cb7d833017a27a9c313cfbaa01"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000171234的关系为DRUG_BANK报告的ENZYME,来源仅报告关系类型,未给出抑制或激活方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "97554d9a6a5448dc52f4d107b10f6e6ec2353c6908d768afd9c22091562c9993"
+        ],
+        "path_ids": [
+          "1cf5f3f9ecc222a3b1911d95328265a485199a776129a41888a0225d5722a0bc"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000160868的关系为DRUG_BANK报告的ENZYME,来源仅报告关系类型,未给出方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "e52ff9855fe7bdf250106b86cd2d9ea247af46169177ee040f37a7cc0098d94b"
+        ],
+        "path_ids": [
+          "3d506107cf17eeb21027cc094d7ae96badc28053f00594d675cf742098b0f50e"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000255974的关系为DRUG_BANK报告的ENZYME,来源仅报告关系类型,未给出方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "cf73b6c7df32634e04b35e28462622be8abb0a7329d5d8de988babd39d03f85d"
+        ],
+        "path_ids": [
+          "9ce878d0641b159419bcd6b946a043addb5779e51d3b543b69cd4fce6979eb1e"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000165841的关系为DRUG_BANK报告的ENZYME,来源仅报告关系类型,未给出方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "3ab613a38ab671dc9f1cab6092b9a64dd027c164315e7aa13b6c9b980f91b6bf"
+        ],
+        "path_ids": [
+          "dd6c68674dc562f7a6810959660899f76ee52d03cdead83fcdb8eb6775397a2f"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000085563的关系为DRUG_BANK报告的TRANSPORTER,来源仅报告关系类型,未给出方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "6ffe12f4d3fb81a658f944bafbe68f4a62ec77bced86f15eda58fe458e58805b"
+        ],
+        "path_ids": [
+          "ebb0ff8f4d3722a29bb908b8667de1e741e6f60e117dab9b0691b0127c1b3f3d"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "CHEMBL1444对ENSG00000163631的关系为DRUG_BANK报告的CARRIER,来源仅报告关系类型,未给出方向。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "dbf6b391991b25c32450478eec8a8f3ebcd134c0f2000f469f7d81626dd80222"
+        ],
+        "path_ids": [
+          "09eb273f160859b3bd12e73b3470f208d2a187acffb19762ff923ffe834797ae"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [
+      {
+        "text": "假设(仅基于来源注释):来曲唑通过抑制CYP19A1(芳香化酶,ENSG00000137869)发挥作用;该抑制关系由OPEN_TARGETS的INHIBITOR断言及DAILY_MED的'Cytochrome P450 19A1 inhibitor'机制注释明确支持。此为数据库靶点断言,并非在本数据集中验证的因果机制。",
+        "relation": "inhibition",
+        "evidence_ids": [
+          "9a00b384e81f52f283a109c9c36f05d265f7d42f239e006b3e8ad0b57599fd6a"
+        ],
+        "path_ids": [
+          "a9d8f7b6ea92e3bcb0137d79ecbef789321d56cb7d833017a27a9c313cfbaa01"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "insufficient_evidence": [
+      {
+        "text": "S2条件仅1个(MCF7),n_signatures=1且WTCS_mad=0,逆转分数为计算关联而非临床疗效证据。",
+        "relation": "unknown",
+        "evidence_ids": [
+          "12d47921701d7b7eca5c0adea32efafcefb636a78748a4510c4e6b4edf898729"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "WTCS逆转分数、PRISM细胞敏感性数值和图谱路径均不是临床疗效证据。",
+      "S2筛选证据仅覆盖单一细胞系(MCF7)、单一剂量和时间点,signature数量为1,证据强度有限。",
+      "多数靶点关系(ENZYME/CARRIER/TRANSPORTER)仅报告关系类型,无方向性动作信息,不能断言抑制或激活。",
+      "部分上游断言无source URL,仅保留source_record_id与source_release。",
+      "无靶点-通路或靶点-DEG重叠路径,通路层面证据缺失。"
+    ],
+    "uncited_or_uncertain": [
+      "7条direct_target路径除CYP19A1(ENSG00000137869,INHIBITOR)外,其余6个基因的方向性动作均为'source_reported_relation_only',不能推断抑制/激活。",
+      "DAILY_MED来源URL仅在CYP19A1路径提供;其余OptimusKG断言无source_url,不确定性较高。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 27.11,
+  "usage": {
+    "completion_tokens": 2105,
+    "completion_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "prompt_tokens": 17363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 19468
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true
+}

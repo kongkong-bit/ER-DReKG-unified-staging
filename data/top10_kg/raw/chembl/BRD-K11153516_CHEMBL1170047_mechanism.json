@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:03:16.678337+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL1170047&limit=1000&offset=0",
+    "response_sha256": "37dacc1ba8f75b3f15dd7852a0f225124bcb55e76aee12ce3f3abe8eec7a8ad9",
+    "response_bytes": 1425
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": null,
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 8284,
+        "mechanism_comment": "Initially proposed to be a PARP inhibitor but was found not to inhibit PARP at relevant concentrations. Iniparib is a prodrug that yields and nitro radical ion that can bind to cysteine residues in RedOx enzymes.",
+        "mechanism_of_action": "Reactive nitro radical",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://ascopost.com/issues/february-25-2015/iniparib-the-fairy-tale-dream-comes-to-an-end/",
+            "ref_type": "Other",
+            "ref_url": "https://ascopost.com/issues/february-25-2015/iniparib-the-fairy-tale-dream-comes-to-an-end/"
+          },
+          {
+            "ref_id": "22128301",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22128301"
+          },
+          {
+            "ref_id": "24402426",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24402426"
+          },
+          {
+            "ref_id": "26285766",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26285766"
+          },
+          {
+            "ref_id": "30131387",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/30131387"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1170047",
+        "parent_molecule_chembl_id": "CHEMBL1170047",
+        "record_id": 1706065,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": null,
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  }
+}

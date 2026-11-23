@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "run_at_utc": "2026-11-14T05:18:18.937930+00:00",
+  "scope": "Neo4j 与 PostgreSQL 中的数据库级多项目软件验收；非科研结果",
+  "source_project": {
+    "project_id": "89aa18d8-e1ca-4eb4-8046-634cd2911207",
+    "slug": "software-test-graph-isolation",
+    "status": "test_only",
+    "graph_build_id": "GRAPH_BUILD:89aa18d8-e1ca-4eb4-8046-634cd2911207:52b0590ca225433b",
+    "graph_summary": {
+      "node_count": 7283,
+      "edge_count": 37538,
+      "source": "neo4j"
+    }
+  },
+  "second_project": {
+    "project_id": "c493efde-981a-511c-9409-0fac7021b096",
+    "slug": "phase-e-neo4j-second-project",
+    "status": "test_only",
+    "graph_build_id": "GRAPH_BUILD:c493efde-981a-511c-9409-0fac7021b096:phasee-multi-project",
+    "analysis_run_ids": {
+      "s1": "ANALYSIS_RUN:S1:PHASEE_NEO4J_SECOND_PROJECT",
+      "s2": "ANALYSIS_RUN:S2:PHASEE_NEO4J_SECOND_PROJECT",
+      "enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:PHASEE_NEO4J_SECOND_PROJECT",
+      "bundle": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:PHASEE_NEO4J_SECOND_PROJECT"
+    },
+    "analysis_run_statuses": {
+      "s1": "fixture_only",
+      "s2": "fixture_only",
+      "enrichment": "fixture_only",
+      "bundle": "completed"
+    },
+    "fixture_nodes": 6,
+    "fixture_edges": 7,
+    "graph_summary": {
+      "node_count": 6,
+      "edge_count": 7,
+      "source": "neo4j"
+    }
+  },
+  "reused_public_entities": [
+    {
+      "id": "CHEMBL2103991",
+      "copies_in_neo4j": 1,
+      "labels": [
+        [
+          "Drug"
+        ]
+      ]
+    },
+    {
+      "id": "ENSG00000132170",
+      "copies_in_neo4j": 1,
+      "labels": [
+        [
+          "Gene"
+        ]
+      ]
+    },
+    {
+      "id": "MSIGDB:HALLMARK_ADIPOGENESIS",
+      "copies_in_neo4j": 1,
+      "labels": [
+        [
+          "GeneSet"
+        ]
+      ]
+    }
+  ],
+  "api_checks": {
+    "both_graph_summaries_200": true,
+    "second_project_s1_and_s2_results_not_fabricated": {
+      "s1_summary_available": false,
+      "s2_summary_available": false
+    },
+    "second_project_sentinel_only_visible_in_second_project": true,
+    "second_project_subgraph_contains_only_its_project_context": true,
+    "second_project_mechanism_has_test_fixture_route_only_in_second_project": true,
+    "cross_project_graph_build_requests_return_404": [
+      404,
+      404
+    ]
+  },
+  "limitations": [
+    "第二项目的 Candidate、S1/S2 运行关联和项目边均为 test_only 软件夹具，不是实际实验数据。",
+    "结果验证项目/GraphBuild 隔离和公共实体 ID 复用，不证明多疾病科研结论。"
+  ]
+}

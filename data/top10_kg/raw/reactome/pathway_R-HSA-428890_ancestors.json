@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.675584+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-428890/ancestors",
+    "response_sha256": "1404f00059535d9e3d42eebe6f9eab25c978f979506befca1002a21d17cddd02",
+    "response_bytes": 1870
+  },
+  "payload": [
+    [
+      {
+        "dbId": 428890,
+        "displayName": "Role of ABL in ROBO-SLIT signaling",
+        "stId": "R-HSA-428890",
+        "name": [
+          "Role of ABL in ROBO-SLIT signaling"
+        ],
+        "stIdVersion": "R-HSA-428890.4",
+        "oldStId": "REACT_19230",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 376176,
+        "displayName": "Signaling by ROBO receptors",
+        "stId": "R-HSA-376176",
+        "name": [
+          "Signaling by ROBO receptors"
+        ],
+        "stIdVersion": "R-HSA-376176.7",
+        "oldStId": "REACT_19351",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-376176.3",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3007,
+        "diagramHeight": 1513,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 422475,
+        "displayName": "Axon guidance",
+        "stId": "R-HSA-422475",
+        "name": [
+          "Axon guidance"
+        ],
+        "stIdVersion": "R-HSA-422475.8",
+        "oldStId": "REACT_18266",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_18266.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-06-24",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 733,
+        "diagramHeight": 200,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9675108,
+        "displayName": "Nervous system development",
+        "stId": "R-HSA-9675108",
+        "name": [
+          "Nervous system development"
+        ],
+        "stIdVersion": "R-HSA-9675108.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 438,
+        "diagramHeight": 158,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1266738,
+        "displayName": "Developmental Biology",
+        "stId": "R-HSA-1266738",
+        "name": [
+          "Developmental Biology"
+        ],
+        "stIdVersion": "R-HSA-1266738.20",
+        "oldStId": "REACT_111045",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 848,
+        "diagramHeight": 448,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

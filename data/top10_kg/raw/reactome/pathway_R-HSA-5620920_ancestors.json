@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:54.826617+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-5620920/ancestors",
+    "response_sha256": "8852767053b8735876d1730bd2fecb177b9e59ddee846a82c0b02a1bb403a267",
+    "response_bytes": 1532
+  },
+  "payload": [
+    [
+      {
+        "dbId": 5620920,
+        "displayName": "Cargo trafficking to the periciliary membrane",
+        "stId": "R-HSA-5620920",
+        "name": [
+          "Cargo trafficking to the periciliary membrane"
+        ],
+        "stIdVersion": "R-HSA-5620920.6",
+        "oldStId": "REACT_267624",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3297,
+        "diagramHeight": 1962,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9975921,
+        "displayName": "Assembly of the 9+0 primary cilium",
+        "stId": "R-HSA-9975921",
+        "name": [
+          "Assembly of the 9+0 primary cilium"
+        ],
+        "stIdVersion": "R-HSA-9975921.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 249,
+        "diagramHeight": 303,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 5617833,
+        "displayName": "Cilium Assembly",
+        "stId": "R-HSA-5617833",
+        "name": [
+          "Cilium Assembly"
+        ],
+        "stIdVersion": "R-HSA-5617833.8",
+        "oldStId": "REACT_268265",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_268265.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 258,
+        "diagramHeight": 258,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1852241,
+        "displayName": "Organelle biogenesis and maintenance",
+        "stId": "R-HSA-1852241",
+        "name": [
+          "Organelle biogenesis and maintenance"
+        ],
+        "stIdVersion": "R-HSA-1852241.7",
+        "oldStId": "REACT_264135",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 264,
+        "diagramHeight": 253,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

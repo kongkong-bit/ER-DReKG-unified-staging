@@ -1,0 +1,358 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K21680192",
+    "drug_name": "mitoxantrone",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL58",
+    "rank": "8"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 7,
+    "public_pathway_path_count": 1,
+    "s1_enrichment_overlap_path_count": 24,
+    "s1_deg_overlap_path_count": 1,
+    "unique_evidence_count": 59,
+    "verified_evidence_count": 59,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 6 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07",
+          "7c62b9d7a2e4bbd590d7401233f4ee29c383cf6d63f27b5a48d9ddfb64a7c425",
+          "81ac147cd7b8c252c9fcb95e14986ce680934c1a5b8a430faa1e5693df2a68dd",
+          "c6f53d07c855e78e44d9133603ad9f7328e94b0603deb4f7fe93fe2b2897ab86",
+          "d4752d997a9f9c82799a2eb5f5e5322e4d195448fcba0c1fca71b9f3b9b04a05",
+          "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录药物与基因 ENSG00000138061 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000130649 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "059d86d1e8dd5cab89b92b798ac9ef4c75f267399ab520142f6a1c730ce727cd"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000160868 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "9b85b542abbcc67eca79e82186668c7a923773097bb09e392cf168c6af5f86fd"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000131747 存在靶点关系；作用方向为 inhibition，不据此推断临床疗效。",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000118777 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000103222 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "图谱记录药物与基因 ENSG00000085563 存在靶点关系；作用方向为 association，不据此推断临床疗效。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [
+      {
+        "text": "该路径连接到通路 SUMOylation of DNA replication proteins；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 nuclear division；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "051fd5b7999bd81a3e66a1a59e9b1934ecf8ce3f12ada4305d7ea378e49a6e9e"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 Cell Cycle, Mitotic；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "16b9299e2947bb7f4e3327e9f5974581f756a2929a3071138957dd8c79d3cd87"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 organelle fission；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "18bf87941fbac34709b3536164c6923366019222ed298021a6e8d0e02e59456b"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 chromosome segregation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "20061e1acee2ec22fa9fcb4c2a5acd7d124488e0d4d5060df5637a39a4e00a91"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 meiotic cell cycle；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "32219e9cb0a3413e21f057e0b3ddc049c4d9b8b26c06f0018f32b1d9cd35d2b0"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 meiotic cell cycle process；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "33fbcb2b8ba167d7acadf1461032720791cbd26c0d78d3d1324e9f26c2375eb6"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA geometric change；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "3f3a1cff69d0ffb11448d8b2915b142ddbb8d6620693e0e14ed52b8d34cbb19c"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 HALLMARK_G2M_CHECKPOINT；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "44c93876fd4d8d32c365756a87cc8de06a5d8bde3684c8a920ff1a47f2fcc7d1"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 nuclear chromosome segregation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "48ce8eb43b9bbe8cd5e917cc18d7c63f2f2aa2c302dd31a317b2af3ebcf842ab"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA recombination；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "563964aaf55e0cdd0cec63692030b4b7793b42862375ef5b32b4489f63fb46fc"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA duplex unwinding；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "81f7b7e20c3c4cd606cba62e813bfbb4a24e6dd960c94195c3567b5ea2bb96e0"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 DNA conformation change；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "91efc9be1fa8083c18d92b6fd162e49a1afa591197468d910eb5c1c39bf17661"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 viral process；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "9bbaf4ec7ba89a1b7b3fdcf2d9bdb77308decf19ec9f4e7bfd6d4a3bce6e37c7"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 SUMO E3 ligases SUMOylate target proteins；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "abce2a7290bf25137c9d223ef91710396f85cc233ef4e7e04aee289248d3ebae"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 sister chromatid segregation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "ac0cc6a63cc422ce073639a5a503051113905d13d00d756353138236278da59f"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 SUMOylation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "bbd18c53b3dd4b96b31a2838ac60840a9c13b48e926d4e9d5bb503839d5fd58b"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 chromosome condensation；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "c3e609e5eb0fdc5e60c7d02f046c72d9cfff008b6c0305fab292453a8af7f212"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 SUMOylation of DNA replication proteins；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e4e5dd5df227535f740d2c5792365083bcfcf9081d126e5b6279fa440207b909"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 HALLMARK_ESTROGEN_RESPONSE_LATE；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "e503f43bf97b41ddfbd02990349dcf2504f117b2dbb392b706cc7f49ef7a5d35"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 HALLMARK_MITOTIC_SPINDLE；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "ee4984d3aa1ba8049a55d2fd903675a32ee4fce66af9f970c80fa4fee27e8021"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 negative regulation of chromosome organization；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "f62b2ac5a26e19437b924608843b9ad9b96305bf2580678473bbafe9e0772646"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 regulation of chromosome organization；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "f7848dac4b4a51022a5181ce97adfeb63ff785fe9c0d4819faafe607f97ac9de"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 HALLMARK_E2F_TARGETS；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "fc72136647850141a7aa7f9609380c1da427aa284a08e3f62f691247e2f96eb5"
+        ],
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "该路径连接到通路 viral RNA genome replication；这是关联/证据交汇。",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "ffc33035ca04d61cbad0d832e8f49a8eeaa70377a8c1e0789c3e9b3fb3511cb3"
+        ],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [],
+    "limitations": [
+      "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

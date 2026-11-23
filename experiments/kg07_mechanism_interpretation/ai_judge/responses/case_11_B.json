@@ -1,0 +1,281 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "d771b4f33c5336844586d26e91158c2634433ccf4143347c8c64a1e6ea18aa39",
+  "evidence_input_sha256": "4e3de02cee5be130f739466f47675d8a2ccad21b40b47a0ff3841f958fa67b56",
+  "latency_seconds": 33.58943050000016,
+  "usage": {
+    "completion_tokens": 2576,
+    "completion_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "prompt_tokens": 39565,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 42141
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "包内s2_conditions恰好列出6条MCF7分条件记录及WTCS中位数，所有evidence_id均验证；claim仅作关联描述并明确不推断疗效，与来源一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 26c0b94f记录CHEMBL460291-TARGETS-ENSG00000165995（DRUG_BANK），claim仅称关联"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 29044760记录TARGETS-ENSG00000182389（DRUG_BANK），一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 83d180ad记录TARGETS/BLOCKER-ENSG00000157388，claim仅称关联，无方向夸大"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 8b3ad7cb记录TARGETS-ENSG00000141837，一致"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 9232d05d记录TARGETS-ENSG00000067191，一致"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path a793b41b记录TARGETS-ENSG00000167535，一致"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path afc1d866记录TARGETS-ENSG00000229314（CARRIER），claim仅称靶点/关联"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path b2d6557c记录TARGETS/BLOCKER-ENSG00000151067，一致"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path bdf532ee记录TARGETS/BLOCKER-ENSG00000102001，一致"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path c833d33b记录TARGETS-ENSG00000160868（ENZYME），claim仅称关联"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path e3df63f5记录TARGETS/BLOCKER-ENSG00000081248，一致"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path f84757fb记录TARGETS-ENSG00000163631（CARRIER），一致"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 294de3a9为s1_enrichment_overlap至GO:0072659 protein localization to plasma membrane，claim表述为关联/证据交汇，无因果"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 3611147e为s1_enrichment_overlap至GO:1990778 protein localization to cell periphery，claim表述为关联/证据交汇，无因果"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "328da260e856c343615e769b326cf239c17ded104a7cc98fb906fe8eee30635a",
+        "supports_claim": true,
+        "reason": "MCF7|3.33um|24h条件记录，verified_in_postgres=true"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "5cff9329ae11c22ef1abaceeca29b6a3fb3b3c8d4053365b5bd2b767a9f2530a",
+        "supports_claim": true,
+        "reason": "MCF7|0.04um|24h条件记录，已验证"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "61616302afd09aa3d5a540395cafbb154100164673a341f752f47a964c739402",
+        "supports_claim": true,
+        "reason": "MCF7|0.12um|24h条件记录，已验证"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "61e8b0750f1b0783e6fbef97fed2327acf7a8ca1732d4c31c7439c71840f620e",
+        "supports_claim": true,
+        "reason": "MCF7|1.11um|24h条件记录，已验证"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "a2c20c8536d974a0ea5dbd17b697508b808c01eccc81e20ac8bb008f45656d2a",
+        "supports_claim": true,
+        "reason": "MCF7|0.37um|24h条件记录，已验证"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "e9dcaf35428f0d0d61a53ff123bae41c9db4e36fba0bb16006d1221a2188754a",
+        "supports_claim": true,
+        "reason": "MCF7|10um|24h条件记录，已验证"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "26c0b94f08b1b95e9b25de6b029bd946ad1a83fdce84d9bed6cb4375fdd10bbe",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000165995，evidence_complete"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "290447609253b43204fe85a6b18cb2c56f5d0657d8636ec64e6917e281f05b27",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000182389"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "83d180ad4b430d470ead5dcda35f95ae7152c6cfbeaa325011d705065f99244d",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000157388"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "8b3ad7cb0e8190f8d6072f3a253c5e4d3c9db86f2ba2e790fbecd52d9b00db61",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000141837"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "9232d05d5cf3f8c10ead10bb6bd4e87637f10fd2fc0c000ca86f591184b92248",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000067191"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "a793b41b19045a35fa9bc6c2e15441c2c01c16fa7cd982aee0f2b4d73f2885e2",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000167535"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "afc1d866291258bf9c00537e10a0ca776f0dd41dac7e0e587287e4c9ac37d1bc",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000229314（CARRIER）"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "b2d6557c3a2117eac70fe3b442560c491ac774b1c517348f90fe50457644e0d6",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000151067"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "bdf532ee0a266a0ad4a89b581d9fe4685d1386ed88802cd8778449aea28f8f61",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000102001"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "c833d33bf510e7e160d8bca172c0f938e8839c62fb97b4a61dcbac597c3884f7",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000160868"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "e3df63f5772fc8168a6e09b428ca7be889fcfe9d2aff3d8f3c4b43cb722fa4f4",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000081248"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "f84757fbfba2907d7712999f2df3a9c6c339d955a372fb6f9eeb00e9c52f5ced",
+        "supports_claim": true,
+        "reason": "direct_target路径含TARGETS-ENSG00000163631"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "294de3a99ea8ae12061381c8d33c1658957a9f232580c9259b53f1e94fa2d69b",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径含HAS_ENRICHED_PATHWAY GO:0072659，adjusted_p≈0.017"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "3611147e2504cb07fc013fca6273e0a64303a83f9813c694762e19c542d4104b",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap路径含HAS_ENRICHED_PATHWAY GO:1990778，adjusted_p≈0.025"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "未找到靶点到公共通路的路线（public_pathway_path_count=0），通路支持仅来自S1富集交汇",
+      "部分上游断言缺少source URL，仅保留source_record_id与source_release",
+      "S2证据仅MCF7细胞系、单签名（single signature），条件级WTCS中位数基于n_signatures=1",
+      "exp006稳定性等级为low，剂量稳定性证据有限",
+      "无独立的independent_validation类证据，机制层面仅有已知靶点与富集交汇"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:01:37.909366+00:00"
+}

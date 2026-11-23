@@ -1,0 +1,532 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "71de6e2b900001a68a1625856e5da44f560fc7e2b7681dee6e32af30652db9b9",
+  "evidence_input_sha256": "810244a5f7c886aeb58d741f510f3c65bd0c90034e125ba4ee79da277067904b",
+  "latency_seconds": 58.869501399999535,
+  "usage": {
+    "completion_tokens": 4880,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 123683,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 128563
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6条MCF7|trt_cp|24h分条件S2记录均在包内，各条件有WTCS值与evidence_id；WTCS为逆转分数且不代表临床疗效的定性表述与来源一致。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 036e…存在CHEMBL58→ENSG00000138061 TARGETS(ENZYME, DrugBank)记录；claim仅声明关联，方向表述与action_interpretation一致。"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 059d…记录CHEMBL58→ENSG00000130649 TARGETS(ENZYME)；claim为关联表述，方向一致。"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 9b85…记录CHEMBL58→ENSG00000160868 TARGETS(ENZYME)；claim为关联表述，方向一致。"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path ae11…记录CHEMBL58→ENSG00000131747，reported_actions含INHIBITOR（Open Targets）及MoA 'DNA topoisomerase II alpha inhibitor'；inhibition方向有来源支持。"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path db99…记录CHEMBL58→ENSG00000118777 TARGETS(TRANSPORTER)；claim为关联表述。"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path e4b1…记录CHEMBL58→ENSG00000103222 TARGETS(TRANSPORTER)；claim为关联表述。"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path fd6b…记录CHEMBL58→ENSG00000085563 TARGETS(TRANSPORTER)；claim为关联表述。"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 42fc…(public_pathway)含REACT:R-HSA-4615885 CONTAINS_GENE ENSG00000131747；claim声明关联/证据交汇，方向一致。"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 051f…为S1富集重叠路径，GO:0000280 nuclear division有HAS_ENRICHED_GENE(adjusted_p≈4.1e-7)与HAS_ENRICHED_PATHWAY记录。"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 16b9…含REACT:R-HSA-69278 Cell Cycle, Mitotic富集记录(adjusted_p≈4.5e-10)。"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 18bf…含GO:0048285 organelle fission富集记录。"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 2006…含GO:0007059 chromosome segregation富集记录。"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 3221…含GO:0051321 meiotic cell cycle富集记录(adjusted_p≈0.025)。"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 33fb…含GO:1903046 meiotic cell cycle process富集记录。"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 3f3a…含GO:0032392 DNA geometric change富集记录。"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 44c9…含HALLMARK_G2M_CHECKPOINT富集记录(NES 2.597, adjusted_p=1e-9)。"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 48ce…含GO:0098813 nuclear chromosome segregation富集记录。"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 5639…含GO:0006310 DNA recombination富集记录。"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 81f7…含GO:0032508 DNA duplex unwinding富集记录。"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 91ef…含GO:0071103 DNA conformation change富集记录。"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path 9bba…含GO:0016032 viral process富集记录。"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path abce…含REACT:R-HSA-3108232 SUMO E3 ligases富集记录。"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path ac0c…含GO:0000819 sister chromatid segregation富集记录。"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path bbd1…含REACT:R-HSA-2990846 SUMOylation富集记录。"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path c3e6…含GO:0030261 chromosome condensation富集记录。"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path e4e5…含REACT:R-HSA-4615885富集记录。"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path e503…含HALLMARK_ESTROGEN_RESPONSE_LATE富集记录(NES≈1.80)。"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path ee49…含HALLMARK_MITOTIC_SPINDLE富集记录(NES≈1.77)。"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path f62b…含GO:2001251 negative regulation of chromosome organization富集记录。"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path f784…含GO:0033044 regulation of chromosome organization富集记录。"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path fc72…含HALLMARK_E2F_TARGETS富集记录(NES≈2.77)。"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path ffc3…含GO:0039694 viral RNA genome replication富集记录(adjusted_p≈0.033)。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "66e05c4caf5193e598c7b6f4d1dd2d59a359cf3ae5d57b356ef3f24e1a92ff07",
+        "supports_claim": true,
+        "reason": "MCF7|10.0um|24h S2条件记录，WTCS_median=-0.4377。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "7c62b9d7a2e4bbd590d7401233f4ee29c383cf6d63f27b5a48d9ddfb64a7c425",
+        "supports_claim": true,
+        "reason": "MCF7|0.37um|24h S2条件记录存在。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "81ac147cd7b8c252c9fcb95e14986ce680934c1a5b8a430faa1e5693df2a68dd",
+        "supports_claim": true,
+        "reason": "MCF7|0.12um|24h S2条件记录存在。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c6f53d07c855e78e44d9133603ad9f7328e94b0603deb4f7fe93fe2b2897ab86",
+        "supports_claim": true,
+        "reason": "MCF7|1.11um|24h S2条件记录存在。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "d4752d997a9f9c82799a2eb5f5e5322e4d195448fcba0c1fca71b9f3b9b04a05",
+        "supports_claim": true,
+        "reason": "MCF7|3.33um|24h S2条件记录存在。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "f1705601b8a11843887e728b47b7bf975f06b27302b790ffa1e21a463315ce68",
+        "supports_claim": true,
+        "reason": "MCF7|0.04um|24h S2条件记录存在。"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "036e0ccbe739532ffd19b7b4fc47363fb26fe077dd077f68fc340747f3aade15",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000138061 ENZYME记录。"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "059d86d1e8dd5cab89b92b798ac9ef4c75f267399ab520142f6a1c730ce727cd",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000130649 ENZYME记录。"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "9b85b542abbcc67eca79e82186668c7a923773097bb09e392cf168c6af5f86fd",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000160868 ENZYME记录。"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "ae11a8688e8cee7cc9bdd8306e88a4921030dc88b77fe30adefbc3451298d3a0",
+        "supports_claim": true,
+        "reason": "路径含CHEMBL58→ENSG00000131747 INHIBITOR/TARGET记录。"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "db995d0b2f5def302460ea91afd34883a3a0979eaed15a0a06bcb7ca0f1e9769",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000118777 TRANSPORTER记录。"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "e4b19dcd3dc19de7fe0bd9bb1fa96d0af0a22da9f6693b7f21e6d52d5db66482",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000103222 TRANSPORTER记录。"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "fd6b8b6d9a02442e73510e0298d6f5fe9fa2fcc0cbb332e71fc30b30d3e3dcd1",
+        "supports_claim": true,
+        "reason": "direct_target路径含CHEMBL58→ENSG00000085563 TRANSPORTER记录。"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "42fca6cebfab000869a2aeb2907a8e98f1d60e9f1ee0ccf1e89c900615264c42",
+        "supports_claim": true,
+        "reason": "public_pathway路径含REACT:R-HSA-4615885 CONTAINS_GENE。"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "051fd5b7999bd81a3e66a1a59e9b1934ecf8ce3f12ada4305d7ea378e49a6e9e",
+        "supports_claim": true,
+        "reason": "路径含GO:0000280富集与TOP2A记录。"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "16b9299e2947bb7f4e3327e9f5974581f756a2929a3071138957dd8c79d3cd87",
+        "supports_claim": true,
+        "reason": "路径含REACT:R-HSA-69278富集记录。"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "18bf87941fbac34709b3536164c6923366019222ed298021a6e8d0e02e59456b",
+        "supports_claim": true,
+        "reason": "路径含GO:0048285富集记录。"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "20061e1acee2ec22fa9fcb4c2a5acd7d124488e0d4d5060df5637a39a4e00a91",
+        "supports_claim": true,
+        "reason": "路径含GO:0007059富集记录。"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "32219e9cb0a3413e21f057e0b3ddc049c4d9b8b26c06f0018f32b1d9cd35d2b0",
+        "supports_claim": true,
+        "reason": "路径含GO:0051321富集记录。"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "33fbcb2b8ba167d7acadf1461032720791cbd26c0d78d3d1324e9f26c2375eb6",
+        "supports_claim": true,
+        "reason": "路径含GO:1903046富集记录。"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "3f3a1cff69d0ffb11448d8b2915b142ddbb8d6620693e0e14ed52b8d34cbb19c",
+        "supports_claim": true,
+        "reason": "路径含GO:0032392富集记录。"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "44c93876fd4d8d32c365756a87cc8de06a5d8bde3684c8a920ff1a47f2fcc7d1",
+        "supports_claim": true,
+        "reason": "路径含HALLMARK_G2M_CHECKPOINT富集记录。"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "48ce8eb43b9bbe8cd5e917cc18d7c63f2f2aa2c302dd31a317b2af3ebcf842ab",
+        "supports_claim": true,
+        "reason": "路径含GO:0098813富集记录。"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "563964aaf55e0cdd0cec63692030b4b7793b42862375ef5b32b4489f63fb46fc",
+        "supports_claim": true,
+        "reason": "路径含GO:0006310富集记录。"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "81f7b7e20c3c4cd606cba62e813bfbb4a24e6dd960c94195c3567b5ea2bb96e0",
+        "supports_claim": true,
+        "reason": "路径含GO:0032508富集记录。"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "91efc9be1fa8083c18d92b6fd162e49a1afa591197468d910eb5c1c39bf17661",
+        "supports_claim": true,
+        "reason": "路径含GO:0071103富集记录。"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "9bbaf4ec7ba89a1b7b3fdcf2d9bdb77308decf19ec9f4e7bfd6d4a3bce6e37c7",
+        "supports_claim": true,
+        "reason": "路径含GO:0016032富集记录。"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "abce2a7290bf25137c9d223ef91710396f85cc233ef4e7e04aee289248d3ebae",
+        "supports_claim": true,
+        "reason": "路径含REACT:R-HSA-3108232富集记录。"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "ac0cc6a63cc422ce073639a5a503051113905d13d00d756353138236278da59f",
+        "supports_claim": true,
+        "reason": "路径含GO:0000819富集记录。"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "bbd18c53b3dd4b96b31a2838ac60840a9c13b48e926d4e9d5bb503839d5fd58b",
+        "supports_claim": true,
+        "reason": "路径含REACT:R-HSA-2990846富集记录。"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "c3e609e5eb0fdc5e60c7d02f046c72d9cfff008b6c0305fab292453a8af7f212",
+        "supports_claim": true,
+        "reason": "路径含GO:0030261富集记录。"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "e4e5dd5df227535f740d2c5792365083bcfcf9081d126e5b6279fa440207b909",
+        "supports_claim": true,
+        "reason": "路径含REACT:R-HSA-4615885富集记录。"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "e503f43bf97b41ddfbd02990349dcf2504f117b2dbb392b706cc7f49ef7a5d35",
+        "supports_claim": true,
+        "reason": "路径含HALLMARK_ESTROGEN_RESPONSE_LATE富集记录。"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "ee4984d3aa1ba8049a55d2fd903675a32ee4fce66af9f970c80fa4fee27e8021",
+        "supports_claim": true,
+        "reason": "路径含HALLMARK_MITOTIC_SPINDLE富集记录。"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "f62b2ac5a26e19437b924608843b9ad9b96305bf2580678473bbafe9e0772646",
+        "supports_claim": true,
+        "reason": "路径含GO:2001251富集记录。"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "f7848dac4b4a51022a5181ce97adfeb63ff785fe9c0d4819faafe607f97ac9de",
+        "supports_claim": true,
+        "reason": "路径含GO:0033044富集记录。"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "fc72136647850141a7aa7f9609380c1da427aa284a08e3f62f691247e2f96eb5",
+        "supports_claim": true,
+        "reason": "路径含HALLMARK_E2F_TARGETS富集记录。"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "ffc33035ca04d61cbad0d832e8f49a8eeaa70377a8c1e0789c3e9b3fb3511cb3",
+        "supports_claim": true,
+        "reason": "路径含GO:0039694富集记录。"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "部分来源断言缺少source URL（仅保留source_record_id与source_release），溯源可复核性受限。",
+      "S2观测仅覆盖MCF7单细胞系6个剂量、24h，条件范围有限；两剂量WTCS≈0，dose_stability标记为mixed_or_limited。",
+      "部分通路富集adjusted_p值较弱（如GO:0051321≈0.025、GO:0039694≈0.033），关联强度差异较大。",
+      "enrichment关联多为TOP2A单一基因驱动的证据交汇，不代表药物对全通路的直接因果作用。"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:08:44.396370+00:00"
+}

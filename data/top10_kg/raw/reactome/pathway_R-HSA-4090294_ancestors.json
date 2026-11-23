@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:53.439766+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-4090294/ancestors",
+    "response_sha256": "ddb07e765290aa28157003093ab4cf5ab0575cad515a19a812696d0f7d79e236",
+    "response_bytes": 1938
+  },
+  "payload": [
+    [
+      {
+        "dbId": 4090294,
+        "displayName": "SUMOylation of intracellular receptors",
+        "stId": "R-HSA-4090294",
+        "name": [
+          "SUMOylation of intracellular receptors"
+        ],
+        "stIdVersion": "R-HSA-4090294.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-4090294.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-06-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1259,
+        "diagramHeight": 1181,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 3108232,
+        "displayName": "SUMO E3 ligases SUMOylate target proteins",
+        "stId": "R-HSA-3108232",
+        "name": [
+          "SUMO E3 ligases SUMOylate target proteins"
+        ],
+        "stIdVersion": "R-HSA-3108232.8",
+        "oldStId": "REACT_355247",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2015-03-19",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1055,
+        "diagramHeight": 747,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 2990846,
+        "displayName": "SUMOylation",
+        "stId": "R-HSA-2990846",
+        "name": [
+          "SUMOylation"
+        ],
+        "stIdVersion": "R-HSA-2990846.7",
+        "oldStId": "REACT_163823",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-06-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 850,
+        "diagramHeight": 507,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 597592,
+        "displayName": "Post-translational protein modification",
+        "stId": "R-HSA-597592",
+        "name": [
+          "Post-translational protein modification"
+        ],
+        "stIdVersion": "R-HSA-597592.12",
+        "oldStId": "REACT_22161",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_1853.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2010-06-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 546,
+        "diagramHeight": 458,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 392499,
+        "displayName": "Metabolism of proteins",
+        "stId": "R-HSA-392499",
+        "name": [
+          "Metabolism of proteins"
+        ],
+        "stIdVersion": "R-HSA-392499.13",
+        "oldStId": "REACT_17015",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-04-01",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 571,
+        "diagramHeight": 322,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

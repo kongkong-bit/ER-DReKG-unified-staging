@@ -1,0 +1,216 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K79090631",
+    "drug_name": "CGP-60474",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "6"
+  },
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+  "prompt_version": "kg07-evidence-interpretation-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "CGP-60474 (BRD-K79090631) 在 S2 LINCS 分析 (ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57) 中总体 WTCS 评分为 -0.4445，rank 6，覆盖 6 个条件，均集中于 MCF7 细胞（trt_cp，24 h）。WTCS 为转录组相似性/逆转分数，仅表示数据关联，不构成临床疗效证据。",
+        "relation": "association",
+        "evidence_ids": [
+          "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb",
+          "423299986e31428cfe5d7b87612e99cd3cf6560ed495f5953e488bae4b30c13c",
+          "928542581b37d2fd1bebc275c945c7a92bfb9051cd4846928f2ed339419a3700",
+          "a0acf6f72112e6f19a5928b5c8c2e7f3278873c8c023cfca1420e2b816da67d4",
+          "b332d6ca7acfc4699e5314b1220bb32ec80c15097e92fdb1a22e182fdfc03315",
+          "b853b680c69e61ec1dfa13c93c41cc2357d8fe236873ef39dece468399ed25d4"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|0.04 um|24 h 条件：WTCS_mean -0.4004，WTCS_median -0.4467，n_signatures 5，quality_cc_median 0.65，rank_within_condition 24。",
+        "relation": "association",
+        "evidence_ids": [
+          "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|0.12 um|24 h 条件：WTCS_mean -0.4141，WTCS_median -0.4302，quality_cc_median 0.76，rank_within_condition 50。",
+        "relation": "association",
+        "evidence_ids": [
+          "423299986e31428cfe5d7b87612e99cd3cf6560ed495f5953e488bae4b30c13c"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|0.37 um|24 h 条件：WTCS_mean -0.4319，WTCS_median -0.4360，quality_cc_median 0.71，rank_within_condition 41。",
+        "relation": "association",
+        "evidence_ids": [
+          "928542581b37d2fd1bebc275c945c7a92bfb9051cd4846928f2ed339419a3700"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|1.11 um|24 h 条件：WTCS_mean -0.4365，WTCS_median -0.4452，quality_cc_median 0.74，rank_within_condition 27。",
+        "relation": "association",
+        "evidence_ids": [
+          "a0acf6f72112e6f19a5928b5c8c2e7f3278873c8c023cfca1420e2b816da67d4"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|10.0 um|24 h 条件：WTCS_mean -0.4404，WTCS_median -0.4445（WTCS_mad 最低 0.0059），quality_cc_median 0.74，rank_within_condition 28。",
+        "relation": "association",
+        "evidence_ids": [
+          "b332d6ca7acfc4699e5314b1220bb32ec80c15097e92fdb1a22e182fdfc03315"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7|trt_cp|3.33 um|24 h 条件：WTCS_mean -0.4309，WTCS_median -0.4109，quality_cc_median 0.76，rank_within_condition 102。",
+        "relation": "association",
+        "evidence_ids": [
+          "b853b680c69e61ec1dfa13c93c41cc2357d8fe236873ef39dece468399ed25d4"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "perturbagen has no exact compound mapping in this GraphBuild",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59"
+      },
+      {
+        "text": "no curated Drug-to-Gene target assertion was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59"
+      },
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59"
+      },
+      {
+        "text": "no target-to-S1-enriched-pathway overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59"
+      },
+      {
+        "text": "no target-to-S1-DEG overlap was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59"
+      }
+    ],
+    "limitations": [
+      "证据仅限 S2 LINCS 转录组逆转分数（WTCS），全部来自单一分析运行（ANALYSIS_RUN:S2_LINCS:c922f2b0-242e-5991-9f76-dcbc8f66ce57）且仅覆盖 MCF7 细胞 24 h 处理，外推性有限。",
+      "WTCS 为计算关联分数，不能证明药物作用机制或临床疗效。",
+      "化合物未映射到精确 InChIKey，身份确认依赖 BRD-K79090631 标识符。",
+      "无直接靶点、通路或独立验证证据；unique_evidence_count 与 verified_pathway/target 证据为 0。"
+    ],
+    "uncited_or_uncertain": []
+  },
+  "citation_validation_issues": [
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 3,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 4,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 14.861,
+  "usage": {
+    "completion_tokens": 1680,
+    "completion_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "prompt_tokens": 8660,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 10340
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false
+}

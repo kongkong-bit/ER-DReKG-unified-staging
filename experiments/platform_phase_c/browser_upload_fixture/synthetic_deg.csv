@@ -1,0 +1,2 @@
+gene_symbol,logFC,adj.P.Val,t
+SYNTH_TEST_GENE,1.2,0.01,3.5

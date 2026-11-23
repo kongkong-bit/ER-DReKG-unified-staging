@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:07.588372+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9841922/ancestors",
+    "response_sha256": "eb5c8602ecd0f0da55b89270b9a5c9054e6c9dfe6f304dc9c2f846a5a108fc22",
+    "response_bytes": 2652
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9841922,
+        "displayName": "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis",
+        "stId": "R-HSA-9841922",
+        "name": [
+          "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis"
+        ],
+        "stIdVersion": "R-HSA-9841922.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9851695,
+        "displayName": "Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes",
+        "stId": "R-HSA-9851695",
+        "name": [
+          "Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes"
+        ],
+        "stIdVersion": "R-HSA-9851695.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9851695.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9818564,
+        "displayName": "Epigenetic regulation of gene expression by MLL3 and MLL4 complexes",
+        "stId": "R-HSA-9818564",
+        "name": [
+          "Epigenetic regulation of gene expression by MLL3 and MLL4 complexes"
+        ],
+        "stIdVersion": "R-HSA-9818564.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9818564.2",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 6621,
+        "diagramHeight": 2217,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9917777,
+        "displayName": "Epigenetic regulation by WDR5-containing histone modifying complexes",
+        "stId": "R-HSA-9917777",
+        "name": [
+          "Epigenetic regulation by WDR5-containing histone modifying complexes"
+        ],
+        "stIdVersion": "R-HSA-9917777.1",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2024-09-11",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 507,
+        "diagramHeight": 162,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 212165,
+        "displayName": "Epigenetic regulation of gene expression",
+        "stId": "R-HSA-212165",
+        "name": [
+          "Epigenetic regulation of gene expression"
+        ],
+        "stIdVersion": "R-HSA-212165.8",
+        "oldStId": "REACT_264098",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-03-12",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 813,
+        "diagramHeight": 619,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 74160,
+        "displayName": "Gene expression (Transcription)",
+        "stId": "R-HSA-74160",
+        "name": [
+          "Gene expression (Transcription)"
+        ],
+        "stIdVersion": "R-HSA-74160.11",
+        "oldStId": "REACT_71",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 1046,
+        "diagramHeight": 355,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

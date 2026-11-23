@@ -1,0 +1,168 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K88510285",
+    "drug_name": "bortezomib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL325041",
+    "rank": "7"
+  },
+  "evidence_gaps": [
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 45,
+    "public_pathway_path_count": 8,
+    "s1_enrichment_overlap_path_count": 55,
+    "s1_deg_overlap_path_count": 9,
+    "unique_evidence_count": 134,
+    "verified_evidence_count": 134,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "1416b8f4163580beecf81e729885184af95ad1f0831982b3e1adc3be7eec3b11",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 多剂量24h处理WTCS为负值，转录特征与疾病签名逆转相关",
+        "relation": "association",
+        "evidence_ids": [
+          "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984",
+          "894a7deb920bdfb2dfdf33c53151df5836a9b755898887fdb63779e705ac6507"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "0.12–0.37 μM剂量WTCS约-0.44，为较强负相关条件",
+        "relation": "association",
+        "evidence_ids": [
+          "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984",
+          "8e9333a035c68d1814203d25b165c875f45827b325cc8ba56ea4686bdc3ab2c0"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "0.04 μM剂量WTCS为0，低剂量无特征信号",
+        "relation": "association",
+        "evidence_ids": [
+          "69d66c1d8195127fe569655b55a03b2cf3d89b117fd27cdaa58733204e114a93"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱记录硼替佐米抑制多个直接靶点基因",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4",
+          "0410c9b9cad59697dd69416372763faaa7b1453a108c845f0c977fabb49cc034"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "ENSG00000008018标注为INHIBITOR与TARGET",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "05e26a0baa4428cab6e8fd8e68e3eb4633d0dd12f1c0793e57c6a8e90b481524"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：ENSG00000085563标注为TRANSPORTER相互作用",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "056c3c5b60d5d51a28fe2563fb392daa6c24c72309407165851aaee6afd0e365"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "靶点基因仅提供ENSG ID，无基因符号与文献证据",
+        "relation": "unknown",
+        "evidence_ids": [],
+        "path_ids": [
+          "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "筛选分数与逆转关系为计算关联，非临床疗效证据",
+      "直接靶点关系来自图谱标注，未附文献级证据ID"
+    ],
+    "uncited_or_uncertain": [
+      "部分上游断言缺少source URL，仅保留source_record_id与source_release"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "associated_pathways",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 11.73,
+  "usage": {
+    "completion_tokens": 838,
+    "completion_tokens_details": {
+      "reasoning_tokens": 12
+    },
+    "prompt_tokens": 3326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4164
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": false,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

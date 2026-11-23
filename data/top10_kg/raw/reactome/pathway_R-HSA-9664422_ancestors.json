@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:05.831622+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9664422/ancestors",
+    "response_sha256": "3e0fbf43e3da5d41deda2bdfb45fcb97f5ab9272d25341a672962c66ba9f70bb",
+    "response_bytes": 2442
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9664422,
+        "displayName": "FCGR3A-mediated phagocytosis",
+        "stId": "R-HSA-9664422",
+        "name": [
+          "FCGR3A-mediated phagocytosis"
+        ],
+        "stIdVersion": "R-HSA-9664422.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3228,
+        "diagramHeight": 1429,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9664417,
+        "displayName": "Leishmania phagocytosis",
+        "stId": "R-HSA-9664417",
+        "name": [
+          "Leishmania phagocytosis"
+        ],
+        "stIdVersion": "R-HSA-9664417.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 191,
+        "diagramHeight": 96,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9664407,
+        "displayName": "Parasite infection",
+        "stId": "R-HSA-9664407",
+        "name": [
+          "Parasite infection"
+        ],
+        "stIdVersion": "R-HSA-9664407.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 174,
+        "diagramHeight": 97,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9658195,
+        "displayName": "Leishmania infection",
+        "stId": "R-HSA-9658195",
+        "name": [
+          "Leishmania infection"
+        ],
+        "stIdVersion": "R-HSA-9658195.3",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-9658195.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2020-03-17",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 681,
+        "diagramHeight": 119,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 9824443,
+        "displayName": "Parasitic Infection Pathways",
+        "stId": "R-HSA-9824443",
+        "name": [
+          "Parasitic Infection Pathways"
+        ],
+        "stIdVersion": "R-HSA-9824443.2",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2023-03-29",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 220,
+        "diagramHeight": 133,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 5663205,
+        "displayName": "Infectious disease",
+        "stId": "R-HSA-5663205",
+        "name": [
+          "Infectious disease"
+        ],
+        "stIdVersion": "R-HSA-5663205.14",
+        "oldStId": "REACT_355497",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 276,
+        "diagramHeight": 203,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 1643685,
+        "displayName": "Disease",
+        "stId": "R-HSA-1643685",
+        "name": [
+          "Disease"
+        ],
+        "stIdVersion": "R-HSA-1643685.19",
+        "oldStId": "REACT_116125",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 817,
+        "diagramHeight": 361,
+        "inferred": false,
+        "inDisease": true
+      }
+    ]
+  ]
+}

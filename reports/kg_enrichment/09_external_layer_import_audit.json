@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "PASS_STAGING_IMPORT_AND_ROLLBACK_REHEARSAL",
+  "created_at_utc": "2026-11-22T09:30:00Z",
+  "target": "task-specific isolated staging Neo4j 5.26.33 and PostgreSQL 17",
+  "production_touched": false,
+  "source_layers": {
+    "Reactome_current_2026_10": {
+      "license": "CC0 1.0 Universal",
+      "source_sha256": "b56bdfeeece937ff12de31ad637fe4b5443ec091915776044850f4c0f31235fb",
+      "human_gene_pathway_source_rows": 54361,
+      "unique_gene_pathway_assertions_imported": 48709,
+      "source_records_preserved_in_assertion_payload": 54361,
+      "hierarchy_assertions_imported": 2905,
+      "sign": "unknown",
+      "interpretation": "pathway membership/hierarchy annotation; not causal regulation"
+    },
+    "PrimeKG_Dataverse_v2": {
+      "license": "CC0-1.0",
+      "official_md5_verified": true,
+      "source_sha256": "0a5a010fcd88dcec572a573d98c26c1c244a11567092b6161d3ded611cfb5c69",
+      "exact_candidate_identity_coverage": "6/10",
+      "normalized_target_subset_edges": 1026,
+      "imported_associations": 978,
+      "imported_by_native_relation": {
+        "drug_protein": 58,
+        "disease_protein": 392,
+        "protein_protein": 528
+      },
+      "mapping_rejects": {
+        "unmapped_or_ambiguous_gene_nodes": 44,
+        "edges_with_unmapped_endpoints": 48
+      },
+      "sign": "unknown",
+      "interpretation": "association evidence only; not used as signed path or score input"
+    }
+  },
+  "bundle": {
+    "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:6b5e4d6e-40c4-4cfb-9a72-692dafe2b4e6",
+    "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:6ea657f0a3a95099",
+    "nodes": 9526,
+    "relationships": 91943,
+    "evidence_records": 91810,
+    "preflight": "PASS",
+    "import_status": "PASS",
+    "import_runs": [
+      "PASS",
+      "PASS"
+    ],
+    "exact_inventory_problems": 0
+  },
+  "post_import_read_audit": {
+    "status": "read_only_staging_audit_complete",
+    "relationship_types": 18,
+    "duplicate_node_ids": 0,
+    "duplicate_relationship_ids": 0,
+    "graph_build_inventory": [
+      {
+        "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:5bb1e749e1caa6e2",
+        "unique_relationships": 38890
+      },
+      {
+        "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:6ea657f0a3a95099",
+        "unique_relationships": 91943
+      },
+      {
+        "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c48926d9a9983865",
+        "unique_relationships": 39351
+      }
+    ],
+    "write_queries_executed": false
+  },
+  "backup_snapshot": {
+    "neo4j_archive": "data/kg_enrichment/backups/top10kg-staging-neo4j-pre-external-20261122.tar.gz",
+    "neo4j_sha256": "b971caa9bf10dd7a326f0e01ca1c352cd3682ad2e2e212201c7740612ee907a3",
+    "neo4j_bytes": 63916646,
+    "postgres_archive": "data/kg_enrichment/backups/top10kg-staging-postgres-pre-external-20261122.tar.gz",
+    "postgres_sha256": "21c9cddaf74dce81e4eb64d3d2c696c5ab67b475a4649999113ab4b14759bfda",
+    "postgres_bytes": 53653000,
+    "archive_format": "tar.gz; cold archive from stopped staging volumes"
+  },
+  "restore_rollback_rehearsal": {
+    "status": "PASS",
+    "target": "fresh temporary DB clone restored from the pre-import backup pair",
+    "restored_pre_import_relationships": 78241,
+    "cloned_graphbuild_import": "PASS",
+    "rollback_preview": {
+      "relationships": 91943,
+      "evidence_records": 91810,
+      "disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "rollback_applied": {
+      "deleted_relationships": 91943,
+      "deleted_evidence_records": 91810,
+      "deleted_disease_contexts": 1,
+      "shared_nodes_deleted": 0
+    },
+    "old_graphbuild_relationships_after_rollback": {
+      "5bb1e749e1caa6e2": 38890,
+      "c48926d9a9983865": 39351
+    },
+    "new_graphbuild_relationships_after_rollback": 0,
+    "analysis_run_preserved": true,
+    "temporary_containers_and_volumes_cleaned": true
+  },
+  "limits": [
+    "PrimeKG target subset is exact-name/alias coverage 6/10; unresolved source entities remain rejected.",
+    "Current Reactome gene membership is imported and unsigned; its membership does not establish drug-to-pathway causality.",
+    "PrimeKG is imported as ASSOCIATED_WITH with native relation retained; it is excluded from signed mechanism propagation.",
+    "The staging graph is not production; deployment/promotion has not been done."
+  ]
+}

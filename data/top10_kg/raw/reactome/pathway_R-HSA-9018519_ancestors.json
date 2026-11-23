@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:26:02.240366+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-9018519/ancestors",
+    "response_sha256": "6e4a42ba6b337759e22522ddbd2eae39aeb2c4b13541aef72b66b39e719e7092",
+    "response_bytes": 1476
+  },
+  "payload": [
+    [
+      {
+        "dbId": 9018519,
+        "displayName": "Estrogen-dependent gene expression",
+        "stId": "R-HSA-9018519",
+        "name": [
+          "Estrogen-dependent gene expression"
+        ],
+        "stIdVersion": "R-HSA-9018519.3",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-03-21",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 8939211,
+        "displayName": "ESR-mediated signaling",
+        "stId": "R-HSA-8939211",
+        "name": [
+          "ESR-mediated signaling"
+        ],
+        "stIdVersion": "R-HSA-8939211.6",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-8939211.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2018-03-21",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 4749,
+        "diagramHeight": 3175,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006931,
+        "displayName": "Signaling by Nuclear Receptors",
+        "stId": "R-HSA-9006931",
+        "name": [
+          "Signaling by Nuclear Receptors"
+        ],
+        "stIdVersion": "R-HSA-9006931.7",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 548,
+        "diagramHeight": 287,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

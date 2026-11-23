@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:50.322530+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-2644606/ancestors",
+    "response_sha256": "74a3780588234ee8ad28663cf93b26466d2c7d5bfd22fae303cc918ccc848712",
+    "response_bytes": 2065
+  },
+  "payload": [
+    [
+      {
+        "dbId": 2644606,
+        "displayName": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+        "stId": "R-HSA-2644606",
+        "name": [
+          "Constitutive Signaling by NOTCH1 PEST Domain Mutants"
+        ],
+        "stIdVersion": "R-HSA-2644606.3",
+        "oldStId": "REACT_160243",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 2644602,
+        "displayName": "Signaling by NOTCH1 PEST Domain Mutants in Cancer",
+        "stId": "R-HSA-2644602",
+        "name": [
+          "Signaling by NOTCH1 PEST Domain Mutants in Cancer"
+        ],
+        "stIdVersion": "R-HSA-2644602.3",
+        "oldStId": "REACT_160301",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2012-03-12",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1845,
+        "diagramHeight": 1555,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 2644603,
+        "displayName": "Signaling by NOTCH1 in Cancer",
+        "stId": "R-HSA-2644603",
+        "name": [
+          "Signaling by NOTCH1 in Cancer"
+        ],
+        "stIdVersion": "R-HSA-2644603.5",
+        "oldStId": "REACT_160214",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/REACT_160214.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2013-03-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 417,
+        "diagramHeight": 368,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 5663202,
+        "displayName": "Diseases of signal transduction by growth factor receptors and second messengers",
+        "stId": "R-HSA-5663202",
+        "name": [
+          "Diseases of signal transduction by growth factor receptors and second messengers"
+        ],
+        "stIdVersion": "R-HSA-5663202.13",
+        "oldStId": "REACT_355457",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2014-12-11",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 637,
+        "diagramHeight": 428,
+        "inferred": false,
+        "inDisease": true
+      },
+      {
+        "dbId": 1643685,
+        "displayName": "Disease",
+        "stId": "R-HSA-1643685",
+        "name": [
+          "Disease"
+        ],
+        "stIdVersion": "R-HSA-1643685.19",
+        "oldStId": "REACT_116125",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 817,
+        "diagramHeight": 361,
+        "inferred": false,
+        "inDisease": true
+      }
+    ]
+  ]
+}

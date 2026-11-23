@@ -1,0 +1,82 @@
+{
+  "status": "rule_template",
+  "mode": "kg_rule",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K79090631",
+    "drug_name": "CGP-60474",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "6"
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "fecb7aa8a83414d6c528b338877cb904103bd7e5e218d8bb218eedda8cf72c59",
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 6,
+    "verified_s2_condition_evidence_count": 6,
+    "s2_condition_count": 6,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "template text maps source fields; human review required",
+  "prompt_version": "kg07-rule-template-v1.1",
+  "model": null,
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "LINCS/S2 为该候选记录了 6 条分条件观测；WTCS 是表达逆转关联分数，不代表临床疗效。",
+        "relation": "association",
+        "evidence_ids": [
+          "423299986e31428cfe5d7b87612e99cd3cf6560ed495f5953e488bae4b30c13c",
+          "928542581b37d2fd1bebc275c945c7a92bfb9051cd4846928f2ed339419a3700",
+          "a0acf6f72112e6f19a5928b5c8c2e7f3278873c8c023cfca1420e2b816da67d4",
+          "b332d6ca7acfc4699e5314b1220bb32ec80c15097e92fdb1a22e182fdfc03315",
+          "b853b680c69e61ec1dfa13c93c41cc2357d8fe236873ef39dece468399ed25d4",
+          "f5ec95b6ef5de531bb5e8f2cce0f7cdf2e7afaed3c002beec44fa2f2c8f5f4bb"
+        ],
+        "path_ids": [],
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "当前 GraphBuild 未检索到可用的药物靶点或疾病通路路径，机制证据不足。",
+        "evidence_ids": [],
+        "path_ids": []
+      }
+    ],
+    "limitations": [
+      "perturbagen has no exact compound mapping in this GraphBuild",
+      "no curated Drug-to-Gene target assertion was found",
+      "no target-to-public-pathway route was found",
+      "no target-to-S1-enriched-pathway overlap was found",
+      "no target-to-S1-DEG overlap was found",
+      "PRISM/Phase F 数值在完整证据包中保留，但当前缺少可引用的 EvidenceRecord/Path ID，因此未进入机制断言。",
+      "规则模板不判断生物学因果或临床疗效。"
+    ]
+  },
+  "latency_seconds": 0.0,
+  "usage": {},
+  "provider_cost": null,
+  "human_review_required": true
+}

@@ -1,0 +1,71 @@
+{
+  "experiment": "Phase B2: attach S1 enriched pathways to the bounded OptimusKG seed subgraph",
+  "run_utc": "2026-11-13T10:57:11.273667+00:00",
+  "graph_build_id": "GRAPH_BUILD:ERPOS_S1_PATHWAY_20261113",
+  "analysis_run_id": "ANALYSIS_RUN:S1_PATHWAY_ENRICHMENT_20261112",
+  "source_graph_build": "PHASEB_OPTIMUSKG32_20261113",
+  "source_release": "OptimusKG 3.2",
+  "license": "CC BY-NC-SA 4.0 for OptimusKG-derived gene entities; S1 enrichment outputs are cited by input and output hashes",
+  "context_node_id": "DISEASE_CONTEXT:GSE42568_ERPOS_TUMOR_VS_NORMAL",
+  "input_sha256": {
+    "s1_初步_gse42568_limma/limma_all_genes.csv": "b3dafdae855a0f44cbe80dbc40d17693ed01f4b31d899acbabc60e5485ed21c4",
+    "experiments/s1_pathway_enrichment/environment_manifest.json": "d18598c47dbe86a3253ca9aaadefdca68b03fabef981e146dd8b73382037f0e1",
+    "experiments/s1_pathway_enrichment/gene_mapping_audit.csv": "1e1364350420c35b27916cafc90e6f31ecb76689d9b20b15d090d0dba85c22b4",
+    "experiments/s1_pathway_enrichment/go_up.csv": "5ff57459b7b9c77788c1928602c791300979276aa52e930691515c5482e6be00",
+    "experiments/s1_pathway_enrichment/go_down.csv": "dc278f4fc43ca32a3712479b5dc85af15da6df5e86e76aeca92cd6d0d30f445b",
+    "experiments/s1_pathway_enrichment/reactome_up.csv": "cc391aa8a1fef7da334f9afd892df4c6a7e2fb6ccb0278cf7523da1979d7483c",
+    "experiments/s1_pathway_enrichment/reactome_down.csv": "c989dff6d0a05677bed157d17f36238fe3ca22a99da4515a9590db6855d44271",
+    "experiments/s1_pathway_enrichment/hallmark_gsea.csv": "234c73603d8f6e0168230ea4944b2ff50d9e36acea989ef2584e0af529d02b22",
+    "experiments/s1_pathway_enrichment/pathway_gene_links.csv": "e2ee3c5aed002e4262506fc55a27c2087fb7675b3860690d56701647601fa34b",
+    "experiments/platform_phase_b/s1_gene_mapping_audit.csv": "c7feb9fe8e4895031f768b8a38ca55af3304621a27ef2b8ae9233c1896454303",
+    "experiments/platform_phase_b/subgraph_nodes.csv": "bd8e30b6ed5ce71311253e4aecdc182733787472cb754571b4c836947f44e81e",
+    "experiments/platform_phase_b/subgraph_edges.csv": "1a07db430ae84d3454eeba7f87d173aa09768b1d7cf51ef9cff242685d8466e3",
+    "data/optimuskg/3.2/source_manifest.json": "63a3d0767941affbe59500f1240dfcc69ade2be75b012076438b414a037e5e71",
+    "data/optimuskg/3.2/nodes/gene.parquet": "d025d05491f742b82456d60379503fad794575dccc136d96836daf7fc882006a"
+  },
+  "output_sha256": {
+    "pathway_nodes.csv": "d5feff38168e1ba42553e1e6d41f9e872155d2cccdd1288d6a38488505889af5",
+    "gene_nodes.csv": "ae81bdf9c43a12040378cc3f73faaa2b9a71c74146f480de1f7d4affb1575587",
+    "pathway_edges.csv": "447ecddd68605de806475482060b8f6480330a406ccbbaa37eaf61abd47affc4",
+    "pathway_gene_mapping_audit.csv": "c9b166720874833872886d3350b5adc3e190cf43b10b109eaea6aad5ed70d425",
+    "evidence_records.csv": "69dd91174d073e7a57da93e276300f0e6ca6c208e6db3857d15ba5cf6e66d627",
+    "relation_conflicts.csv": "35ee4962a3c3fcb9a2bbd7ba6e0115c9e8265adf7b3610e66136eb4961288be4",
+    "unmatched_entities.csv": "1167791dbce3c3865a14199a332e530b943c775075d23ceee6c459a2b735a603",
+    "neo4j_import_validation.json": "e2be709b01427464d81642e0161586330867dc51d3bcb4b81ed6febdcde01fab",
+    "phase_b2_report.md": "fc2efff3bf1bd0acd8781dc36a7d183e82f8341ac4d3c872aafde4d3186182be"
+  },
+  "counts": {
+    "enriched_pathway_or_geneset_nodes": 738,
+    "additional_gene_nodes": 95,
+    "context_to_enriched_pathway_edges": 738,
+    "enriched_pathway_to_gene_edges": 29441,
+    "pathway_gene_link_rows": 31991,
+    "mapped_link_rows": 29441,
+    "ambiguous_link_rows": 2550,
+    "unmatched_link_rows": 0,
+    "mapped_link_symbol_count": 3282,
+    "unmapped_or_ambiguous_symbol_count": 262,
+    "evidence_records": 38331,
+    "relation_conflict_records": 0,
+    "unmatched_entity_records": 3444
+  },
+  "candidate_target_pathway_overlap": {
+    "base_candidate_with_mapped_drug_count": 30,
+    "candidate_count_with_s1_pathway_target_overlap": 22,
+    "drug_count_with_s1_pathway_target_overlap": 22,
+    "unique_candidate_drug_target_pathway_rows": 1422,
+    "unique_target_gene_count_in_overlap": 41,
+    "interpretation": "Exact Ensembl ID overlap between OptimusKG candidate-drug target edges and uniquely mapped S1-enriched pathway-gene edges; association evidence only."
+  },
+  "mapping_policy": "Exact primary symbol/symbol_synonyms/obsolete_symbols in OptimusKG gene nodes; create a gene edge only for a unique Ensembl match; keep ambiguous/unmatched rows in the audit.",
+  "analysis_policy": "GO/Reactome direction and Hallmark NES sign are retained as analysis assertions; no efficacy score is inferred.",
+  "verification": {
+    "csv_generation": "PASS",
+    "backend_graph_repository_tests": {
+      "status": "PASS",
+      "passed": 11,
+      "run_date": "2026-11-13"
+    },
+    "neo4j_import": "PASS"
+  }
+}

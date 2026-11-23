@@ -1,0 +1,309 @@
+{
+  "manifest_version": 1,
+  "status": "retrieved_candidate_scoped_pubmed_search_with_existing_curated_reference_cache_not_manually_screened",
+  "retrieved_at_utc": "2026-11-21T06:44:05.681149+00:00",
+  "api": "NCBI PubMed E-utilities esearch.fcgi + efetch.fcgi",
+  "api_base": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+  "frozen_top10_sha256": "c1f414d20e98923471a461e1ce6c3bf5b59002d4e5309cadf89be22492c08baf",
+  "candidate_count": 10,
+  "query_groups": [
+    "mechanism",
+    "direct_target",
+    "breast_cancer",
+    "er_positive",
+    "MCF7",
+    "T47D",
+    "pathway"
+  ],
+  "alias_map": {
+    "BRD-K44227013": [
+      "ponatinib",
+      "AP24534"
+    ],
+    "BRD-K16485616": [
+      "mocetinostat",
+      "MGCD0103"
+    ],
+    "BRD-K56405753": [
+      "MK-2461",
+      "MK2461"
+    ],
+    "BRD-K92093830": [
+      "doxorubicin",
+      "Adriamycin"
+    ],
+    "BRD-K76694128": [
+      "rebastinib",
+      "DCC-2036"
+    ],
+    "BRD-K50000283": [
+      "PHA-767491",
+      "PHA767491"
+    ],
+    "BRD-K11153516": [
+      "iniparib",
+      "BSI-201"
+    ],
+    "BRD-A00147595": [
+      "balaglitazone",
+      "DRF-2593"
+    ],
+    "BRD-K13094524": [
+      "PFI-1"
+    ],
+    "BRD-K83837640": [
+      "JNJ-26481585",
+      "quisinostat",
+      "J&J-26481585"
+    ]
+  },
+  "search_count": 70,
+  "esearch_retmax_per_query": 100,
+  "truncated_search_groups": [
+    {
+      "pert_id": "BRD-K44227013",
+      "query_group": "mechanism",
+      "total_matching_records": 723,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K44227013",
+      "query_group": "direct_target",
+      "total_matching_records": 343,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K44227013",
+      "query_group": "pathway",
+      "total_matching_records": 235,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K16485616",
+      "query_group": "mechanism",
+      "total_matching_records": 124,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "mechanism",
+      "total_matching_records": 7486,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "direct_target",
+      "total_matching_records": 14464,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "breast_cancer",
+      "total_matching_records": 12163,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "er_positive",
+      "total_matching_records": 4657,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "MCF7",
+      "total_matching_records": 4819,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "T47D",
+      "total_matching_records": 225,
+      "records_returned": 100
+    },
+    {
+      "pert_id": "BRD-K92093830",
+      "query_group": "pathway",
+      "total_matching_records": 7940,
+      "records_returned": 100
+    }
+  ],
+  "live_search_call_count": 0,
+  "cached_response_count": 90,
+  "api_call_count": 0,
+  "request_record_count": 90,
+  "search_result_count": 1314,
+  "metadata_coverage": {
+    "records_with_title": 1314,
+    "records_without_title": 0,
+    "records_with_abstract": 1290,
+    "records_without_abstract": 24,
+    "pubmed_book_articles": 3
+  },
+  "existing_curated_pmids_by_pert_id": {
+    "BRD-K44227013": [
+      "22238366",
+      "33732370"
+    ],
+    "BRD-K16485616": [
+      "18413790",
+      "27551526",
+      "42464636"
+    ],
+    "BRD-K56405753": [
+      "20145145",
+      "21608528",
+      "25806189"
+    ],
+    "BRD-K92093830": [
+      "22964943"
+    ],
+    "BRD-K76694128": [
+      "21481795",
+      "39531537"
+    ],
+    "BRD-K50000283": [
+      "18469809",
+      "31262335"
+    ],
+    "BRD-K11153516": [
+      "22128301",
+      "24402426",
+      "25349301",
+      "26285766",
+      "30131387"
+    ],
+    "BRD-A00147595": [
+      "22404217"
+    ],
+    "BRD-K13094524": [
+      "23576556"
+    ],
+    "BRD-K83837640": [
+      "19861438",
+      "25085711"
+    ]
+  },
+  "curated_reference_pmids_fetched_outside_query_hits": [
+    "22964943",
+    "25806189",
+    "26285766",
+    "30131387",
+    "42464636"
+  ],
+  "unique_pmids_by_pert_id": {
+    "BRD-K44227013": 270,
+    "BRD-K16485616": 135,
+    "BRD-K56405753": 11,
+    "BRD-K92093830": 611,
+    "BRD-K76694128": 51,
+    "BRD-K50000283": 26,
+    "BRD-K11153516": 76,
+    "BRD-A00147595": 8,
+    "BRD-K13094524": 22,
+    "BRD-K83837640": 99
+  },
+  "output_file": "data/top10_kg/evidence/top10_pubmed_search_results.csv",
+  "output_sha256": "92a9c552a86ee049c0c4a6a168a01bc503552d6004cd364af1ddce2ccdbae9a0",
+  "api_calls_file": "data/top10_kg/raw/pubmed/top10_review_v1/pubmed_api_calls.json",
+  "api_calls_sha256": "f060c8fb161705486ef6029b59a9e9d922b03546e7780e78e393eeac77853d1d",
+  "raw_snapshots_sha256": {
+    "esearch/BRD-K44227013__mechanism.json": "4b194e479fe3ffc7d4e9fd30cccc4c02c06274d5b879f9538ffd7a7c38cf71b8",
+    "esearch/BRD-K44227013__direct_target.json": "0bf6244f107aba8286dbc3283b29a5777353e0564b1146a495ddf0e5c8c72bd7",
+    "esearch/BRD-K44227013__breast_cancer.json": "269e8437645ad00c464d1fc7b5d309faf18401ad0e81495a8773a1460d99b4b4",
+    "esearch/BRD-K44227013__er_positive.json": "3e324efacf1a6f1676b95126c30f767048ca64a3de47d514b03da76b0b01eadf",
+    "esearch/BRD-K44227013__MCF7.json": "1ae5ca308a29006737b945f8c3fd072bd423457d9f575beded4f7c0d19472673",
+    "esearch/BRD-K44227013__T47D.json": "89a7a12b3e4bd089ddaf12db55483704ca2c36c1e2eef52c50bd29ee8c1868d7",
+    "esearch/BRD-K44227013__pathway.json": "85006904957e56a536bf1aed0050f335211716fc8dbc974d2614c15af4a37c93",
+    "esearch/BRD-K16485616__mechanism.json": "5541f404bcb41a71bdbbcc2dda859c42b18c584ee903fe92d89e719a6c288d4b",
+    "esearch/BRD-K16485616__direct_target.json": "3fbf8a04b0153fe6ea0d44e92a91d2ae9a3931edafff6d276aefde3cb2d06512",
+    "esearch/BRD-K16485616__breast_cancer.json": "71a79d41f6350a014599b9c3371c4094e59c76da1e69dc40012cc7e8ea207700",
+    "esearch/BRD-K16485616__er_positive.json": "a2fbd587970b38f833b976a3063f69c203f7340d161df97a8e6848ed0d47c0e6",
+    "esearch/BRD-K16485616__MCF7.json": "c6deb32f6c993c45994dfd7bad5cf02e82bcc2ed94afd9fdbd573ec7615adb90",
+    "esearch/BRD-K16485616__T47D.json": "86d5b6997661583658da80ae41f9de8ecc5259bd37db41f5b17bef4bb1b6d3f8",
+    "esearch/BRD-K16485616__pathway.json": "9fc1b180963934cf198f19ef0c4ba5210798f36ad67244e30d37c244230edbdd",
+    "esearch/BRD-K56405753__mechanism.json": "9189e9a45073c956cb1ccaff867aa9cedf39ecb8cbfa81e1bc16cb0789fcbfdc",
+    "esearch/BRD-K56405753__direct_target.json": "d26db6295c3bb959d34d4204d457d73807eea5d5a15d85ca025f8d05a79adae6",
+    "esearch/BRD-K56405753__breast_cancer.json": "cc79400dda398c53919ea2cb49a761ae70a10555804be58eb6e5ac5377f5e397",
+    "esearch/BRD-K56405753__er_positive.json": "c2bde985fdf29cd67fc55499c0261bdaff61c494d9425526ff08332b7fe005e7",
+    "esearch/BRD-K56405753__MCF7.json": "3daf63f688ff728dc52b11244758075e0c6f0fe8813a5c51cc8ffe5f694f3f3b",
+    "esearch/BRD-K56405753__T47D.json": "dbc2608103d2b5c36e81525ed5a940449023d5afc05e7b96fd71c28fc079476c",
+    "esearch/BRD-K56405753__pathway.json": "2af6435d49ac921df509776a37a4dacfe4084750aadcce5085f3c15440eb07b1",
+    "esearch/BRD-K92093830__mechanism.json": "ddca5b05f6408f9718d56e1ac447ac916c69ee4520c454862081fe1229d1a1bf",
+    "esearch/BRD-K92093830__direct_target.json": "6d5fd9ce63d335a38fa5f6fe0323a4daea5c3b6d31653c1b793e172b27d2a8fe",
+    "esearch/BRD-K92093830__breast_cancer.json": "93a5363783e0717b3d9a885faf1f3b1fb67fadd9a73492f46e1bee083e57bcfd",
+    "esearch/BRD-K92093830__er_positive.json": "d4bc1956db38cbfef7d7f8a7f280507247cf919ef8a066d6e6b27f1a2b357d31",
+    "esearch/BRD-K92093830__MCF7.json": "63ca553f57b4e96c99fa0b9a7fa1a2470fc74ef8c4428b89823780934c4ce1ac",
+    "esearch/BRD-K92093830__T47D.json": "f10510b9d36c6f02611b28824f28222f0fe360290f3b189a3275150ec6cc587a",
+    "esearch/BRD-K92093830__pathway.json": "69ed5b223ca7a4f42b9cec8a361212cb780ec190f054b7d1f189729e18984104",
+    "esearch/BRD-K76694128__mechanism.json": "b748a87f3e99a9065b9733703f134742788910c767232ac263cfedd936125528",
+    "esearch/BRD-K76694128__direct_target.json": "8c5a64b88fa30aa75bae399658504693b1589df2c4fb65420e13efb76808d188",
+    "esearch/BRD-K76694128__breast_cancer.json": "75b24a043ab3605a298885b5e2fe06b062d759cfffb34ea9ccc0d76430a5c2fb",
+    "esearch/BRD-K76694128__er_positive.json": "bf6c8f52bc9d8cc86ca352d9de2d9e1410c894f5961439ed46b5376689f9f62b",
+    "esearch/BRD-K76694128__MCF7.json": "61c377983a18e51a7eb9e374f97f1de12a2524c4cccdac5527dc20c99a7be5dd",
+    "esearch/BRD-K76694128__T47D.json": "21b651c2b69819a1d11d561c592cabb7f7c79448f9c37f454d000cdf2b7b1167",
+    "esearch/BRD-K76694128__pathway.json": "e8569b6966ae0506562c594c6800a3ee5ee4f6c5387aa85b695336bd6ec46b63",
+    "esearch/BRD-K50000283__mechanism.json": "50a58cb32644c890ffba2399dccc09d1e3d54c95310d82b3cb578d4ce3dca4d0",
+    "esearch/BRD-K50000283__direct_target.json": "290f1631c1fb0b9f5894591dfbe96a7211427fe554ae0641210f7bbf94c160c6",
+    "esearch/BRD-K50000283__breast_cancer.json": "bb3205ecfb134195e6d4cd082839cff96045b1fec1a67222a2001ce4d27fab10",
+    "esearch/BRD-K50000283__er_positive.json": "d509dcd6996cec4c75d4e671625191e8658f039378bbe20eb4345f22eea0c30b",
+    "esearch/BRD-K50000283__MCF7.json": "13cbac279f52e739269356542a97b221fea26f309c3f99952c7e79d5a84b32cf",
+    "esearch/BRD-K50000283__T47D.json": "6a046d9c76039d9c29ee488b44641ba3e11da17ecc4cb9148c86ad5a2a30d855",
+    "esearch/BRD-K50000283__pathway.json": "b15119c0f44d462d3ed8a3590cb92876a8f41a24d29790d4295c48514c22910c",
+    "esearch/BRD-K11153516__mechanism.json": "2c719cb7036b17a1b2beaa7134a2a3dccc0e327f1256aed5a7d1940db7628e4d",
+    "esearch/BRD-K11153516__direct_target.json": "09c883089472c669d48cbe504c24825c37e7d0bc6686aec6830785f210c4c277",
+    "esearch/BRD-K11153516__breast_cancer.json": "2cfe2a646dc9db62330a50ab3b24c4b2dd7ae5b277ab51937024cf8d28a25d85",
+    "esearch/BRD-K11153516__er_positive.json": "2408fc66d9de9e807c77bf43d82e8687d80e9439e905a1b1e6bdd985f0b838f7",
+    "esearch/BRD-K11153516__MCF7.json": "edc8fa4ee5e1efca6075697804e10e224ea65b9774ba517a00bbbade6c9bc97e",
+    "esearch/BRD-K11153516__T47D.json": "a33ab52ec84ee2cdb9e052885cf9937d61820f87db78610a7f11adc0f97cc99a",
+    "esearch/BRD-K11153516__pathway.json": "2c96569537d9d15dbc705535f2b868ae9c2c352a4b1d97d426f2fd571c47b044",
+    "esearch/BRD-A00147595__mechanism.json": "e6fe1b78d5267c1f6f0d87dc026c025b024c979e86e86c61b1b8b5c952e330b4",
+    "esearch/BRD-A00147595__direct_target.json": "bf37199add6b4014bddef2407efdd6921868fc6494629a73cf47f28f8dad8893",
+    "esearch/BRD-A00147595__breast_cancer.json": "16cd7e0ac78916e459e9cb4d2b8c2aa122b3b1fa245137f3c46f6b32f67a3a6d",
+    "esearch/BRD-A00147595__er_positive.json": "1577b6d9cd5872cd21db3b509daa26d003d1b5fa6e2729f194ae77e75dbe4b08",
+    "esearch/BRD-A00147595__MCF7.json": "455baec230eebabddf7a3b79df47fed4adedab142997bfb19778772f563cc778",
+    "esearch/BRD-A00147595__T47D.json": "45b91fab01a7f21addf222bb1b0686d145b92af817e1d8ffa3788203965fe584",
+    "esearch/BRD-A00147595__pathway.json": "ce6415ded50c1e46eac94089db5954426e997af11790137cfb0e3c5e14ca012d",
+    "esearch/BRD-K13094524__mechanism.json": "ef1b84f7281f892365553255c1dba75a5e4e956e7add29de6792afdc653003b3",
+    "esearch/BRD-K13094524__direct_target.json": "f95e2dd197ed6da2cb528198950ad9fc1354f0a67593f9494644b257ff7f10d4",
+    "esearch/BRD-K13094524__breast_cancer.json": "17ccee7cc234afd0f6d61cea2772b9209e7bfc696a990fef161d810bffaebb94",
+    "esearch/BRD-K13094524__er_positive.json": "a1628c8062f557acb2d6197296dd0779007f570fb3596eb3465e35e2ad84803a",
+    "esearch/BRD-K13094524__MCF7.json": "e6b7c958ec3e612fb227a8d551278afcca494c065c420eb360e585eb47d04a7d",
+    "esearch/BRD-K13094524__T47D.json": "506f0f2fe35378a6ed3e087e33e963f1f249c1a5d5e9cb6e420aa4401b252eb7",
+    "esearch/BRD-K13094524__pathway.json": "c8ea590dae2c3854d7f1d3b7c7988d9be07279975e2e9bfd88e881743a6e2ec1",
+    "esearch/BRD-K83837640__mechanism.json": "ad9eeb0820744a923ac0781fde5667721dfffc768b4ddf481c1164b24da70927",
+    "esearch/BRD-K83837640__direct_target.json": "4c0c51dfac65744abfd9cf5d125b9fc3cf98bb9ba4841e92ca933f677d81383d",
+    "esearch/BRD-K83837640__breast_cancer.json": "e99de437fd39b0d5ee2358896fc2a541de53eb85688ea3013e7bb2824a3be035",
+    "esearch/BRD-K83837640__er_positive.json": "aa2ad6442dc06c4271bde26d86a6fc5f487293a62f73368c5d876c438b5f00ed",
+    "esearch/BRD-K83837640__MCF7.json": "49c7fab15b65c5d33d14b5d6da7ee8f30d07d2f0a144b13174965959ba8d92ed",
+    "esearch/BRD-K83837640__T47D.json": "f60531b2ac64aa02e86dfce9182083b70a22c59fa0c2356b7c96bb505f98eac8",
+    "esearch/BRD-K83837640__pathway.json": "739481985bcc57be36a06fb6ecab2b5b0487f003b2a0e5d3d3af538f1215f179",
+    "efetch/BRD-K44227013__000.xml": "b33f4b370f6099671276d92146c9314959e1a3e8ff6702b43a2808fbfb5377f8",
+    "efetch/BRD-K44227013__001.xml": "4917d80b64521751e10099d95f4fd5dea4a9038143ae77115430515b7f1f5231",
+    "efetch/BRD-K44227013__002.xml": "75eb09b618a7ec60f0c6d4cd16cae5cc7531a8e053e62acfa0d8ab13b54f2137",
+    "efetch/BRD-K16485616__000.xml": "cbbe6b3021ae7998a8078535223bbea497edfa7f851e5a7ee1ce2ddb64f9b04a",
+    "efetch/BRD-K16485616__001.xml": "2f63f44d32ff26af7e95d46157aa2a7a042a10902af63304bf25165d4e7b6190",
+    "efetch/BRD-K56405753__000.xml": "e6f044114775da5efbd2a78b7028a4ea4fd7195be338756f282dc9ab8426b3ef",
+    "efetch/BRD-K92093830__000.xml": "14d5e1c078911bc300ac7e1ea06d5d8fdc72e9ca9f686f05c0e3031178b5ac62",
+    "efetch/BRD-K92093830__001.xml": "97ebbf2b728e5963aa71a0fb7f4e8540d4540dfad6fdc2ead4cdbb9df6f4d410",
+    "efetch/BRD-K92093830__002.xml": "0334b31e83be54be07863848726ca316669a995018756d601a0e9ec4bc4fb825",
+    "efetch/BRD-K92093830__003.xml": "8af4f966e49431ede4395681e60d0519962cf6b25474a33c6d937ad430472dc6",
+    "efetch/BRD-K92093830__004.xml": "c6a29dc9437d78b4d2209ec3d7945e488871c0fe58fda1477e1ac1838a212e5a",
+    "efetch/BRD-K92093830__005.xml": "03545bc5eea1c74b2b1744066ca147a2541c87298aa74011dc6cfa02a0fe859f",
+    "efetch/BRD-K92093830__006.xml": "92fe136a90cc55ac8c957f402421f8a026a2fb9e3545aefa2506b789d7e33a21",
+    "efetch/BRD-K76694128__000.xml": "b74c9cb3dd4706fc25d53bc1e276bef0d4f1c7c47cb858fc5209d62ac4d643ba",
+    "efetch/BRD-K50000283__000.xml": "7c8da7905526b6aacc0871248072f456bf005427e4f1adad9d150ba798bd5301",
+    "efetch/BRD-K11153516__000.xml": "57985ece130010936cdf8cee39ef42553c5986ff43b4548bbccff80d05d72616",
+    "efetch/BRD-A00147595__000.xml": "6d0919c5a0c00022e129d79f9fef45ea44fe0ec14e0ea14a846ec8d03bfaa572",
+    "efetch/BRD-K13094524__000.xml": "9fc3865b951911bb857c192df55f357949ac449d780208d120f02cf100c0683f",
+    "efetch/BRD-K83837640__000.xml": "ca48fdf5765c8ee87cb6fe5f69065d18f53c916ec08717b52f3d1fa7256930b2",
+    "efetch/direct_curated_references__000_963ac771917c.xml": "749f05609923dd833edf0d5a8b8b15d6891019bbfdf659e373c63f450d51781f",
+    "pubmed_api_calls.json": "f060c8fb161705486ef6029b59a9e9d922b03546e7780e78e393eeac77853d1d"
+  },
+  "screening_policy": "Search result retrieval is not manual study screening. Do not convert search hits into graph assertions without source review.",
+  "limitations": [
+    "Each of the seven title/abstract query groups returns at most 100 ranked PMID IDs; groups with more matches are listed in truncated_search_groups, so retrieval is not exhaustive.",
+    "Title/abstract query aliases may miss records using unindexed names or full text only.",
+    "Searches are candidate-scoped and reproducible but are not a registered systematic review.",
+    "Results are not manually screened and do not imply support or contradiction."
+  ]
+}

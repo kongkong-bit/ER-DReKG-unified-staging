@@ -1,0 +1,2 @@
+audit,status,reason,diagnostic_n,distil_ss_median,formula_implied_SS_median,implied_SS_near_integer_fraction
+TAS recalculation,NOT_PERFORMED,Released distil_ss could not be verified as the raw integer signature strength used in the cited TAS formula; supplied TAS retained unchanged.,11606,3.532035,130.999344816115,1.0

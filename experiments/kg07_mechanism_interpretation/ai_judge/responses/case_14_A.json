@@ -1,0 +1,573 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "102f4055ec8aaba8a59bfb445bd7a7d6cd80d24b47296eaabb9b07170984484e",
+  "evidence_input_sha256": "1416b8f4163580beecf81e729885184af95ad1f0831982b3e1adc3be7eec3b11",
+  "latency_seconds": 55.73579130000053,
+  "usage": {
+    "completion_tokens": 4655,
+    "completion_tokens_details": {
+      "reasoning_tokens": 132
+    },
+    "prompt_tokens": 85666,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 90321
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6条S2条件证据ID均在包内且verified；WTCS为关联分数且claim明确不推临床疗效"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，OptimusKG记录INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，reported_actions=INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录TRANSPORTER关系；claim仅称association且不推断方向，无方向性错误"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，reported_actions含INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录TRANSPORTER；claim称association且不推断方向，可接受"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录ENZYME；claim仅称association"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录ENZYME；claim仅称association"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录ENZYME；claim仅称association"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，来源记录ENZYME；claim仅称association"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，INHIBITOR，方向一致"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "path存在，reported_actions含INHIBITOR，方向一致"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "69d66c1d8195127fe569655b55a03b2cf3d89b117fd27cdaa58733204e114a93",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "7d8d634b4228b7a21104645b3781f513487a10d30e20bc8ee0f0e3968f79ac21",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "894a7deb920bdfb2dfdf33c53151df5836a9b755898887fdb63779e705ac6507",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "8e9333a035c68d1814203d25b165c875f45827b325cc8ba56ea4686bdc3ab2c0",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "ced766a8076a7ff047e229106a3d327006e182d2a45b6c59cbe3946943b529de",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "fbd4f663c708fd5d8c8b68abd520f5222d4364efd01ddc2a2e4d528038e10984",
+        "supports_claim": true,
+        "reason": "S2条件记录存在且verified"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "027baf111ee58f1c7334febdacdf78542bda3824b067fca110eae51dd820ffe4",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000173692的TARGETS/INHIBITOR"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "0410c9b9cad59697dd69416372763faaa7b1453a108c845f0c977fabb49cc034",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000161057的INHIBITOR"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "056c3c5b60d5d51a28fe2563fb392daa6c24c72309407165851aaee6afd0e365",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000085563的TARGETS/TRANSPORTER关系"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "05e26a0baa4428cab6e8fd8e68e3eb4633d0dd12f1c0793e57c6a8e90b481524",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000008018的INHIBITOR"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "1092ea3f71e07a6076ed6955e26e26912f7540fd2d88161f36ab27b30381f442",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100567的INHIBITOR"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "14b091f98622f4af2728d3c59131200dfe1c3832bfdc4b891d98a09b46afb0f1",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000013275的INHIBITOR"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "14d1e2b25a8944d600e277e91bdd3453485d5b9dfdf3b0b2f3d51f904a5a37e1",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000099341的INHIBITOR"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "14fc3fe33dbab3b35afc2bac78931c21f85b77b13e6f73d5175f14a84e43a7ce",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000222028的INHIBITOR"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "18529d8ad97008881119edd64b319d4a4d03e7667bf605204f23c55f35a92a00",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000101182的INHIBITOR"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "1cbdac070815c32d58ef254ec1a1cc8ff0f26b2e7e6e5c1acc4b9c99a2ae306d",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000115233的INHIBITOR"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "1d64acd4599ffc6f93343b3229b0726954c556689dd66a78c7b0f97494880184",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000142507的INHIBITOR"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "1e01f663a2e1a1661a26d0c4f4634be02477d57132577604e323ba879dfcfd99",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000159352的INHIBITOR"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "215bc302200f988f924166aa5f33abe1e4e47c27f7d8b44ba55064dfac9f7d95",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000159377的INHIBITOR"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "2495378d870f3f37cbd6fb6f61489d48b0e0730538149306b529e4862e80ed48",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000175166的INHIBITOR"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "2e28bb0c7373586db262d21250a27175c8ad71281a7f39214e71dee479095684",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000106588的INHIBITOR"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "2fabe9788cee379e4c7c094ff5a301f15d90444ff63ca3d973357f2fd495c7aa",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000111700的TARGETS/TRANSPORTER关系"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "339c987e02269969523f358e42485e831a7da9bd972b18f8aab7b629e009fea7",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000163636的INHIBITOR"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "367d4c1e495efc59ec03c9ab505d74f8882a6c61259c2a7c2d984a8fdf2872f4",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000160868的TARGETS/ENZYME关系"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "3b2301bede90c2caa474b8320c1f626b245a9ff3cb1835ad75115f25a2dce164",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000108671的INHIBITOR"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "3ce7a78b48eb509acbd1a3fc3876c5fd2f8dd003a806c7fc8d1e20761b741820",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000138109的TARGETS/ENZYME关系"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "44caa9c3edf6602bdd6e7b8b0b1bcf6746fc9bd3fc7e2a3f9c636aebeef54825",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100197的TARGETS/ENZYME关系"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "454a0eb85a13b1828d585789875a7273b6fa831ed9a0a96964b3faf6ac77b9bb",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100519的INHIBITOR"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "60897efe8f53d2ac1a9eabb07e39c93efde840ce1d0aea22ab81de1f4391a03c",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000129084的INHIBITOR"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "64fb5f551da8870dd3f96a3363627737fb4590db1a6633197a7363f0495adbca",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100764的INHIBITOR"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "6851ba0b3924b71488daaba18f07bda122b3063c47eabf029bbacd2909425f30",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000205220的INHIBITOR"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "6d77068d698f6edf2d0e4882728bec94099eb7f75637473e370c903dc216493d",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000140505的TARGETS/ENZYME关系"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "7207eb7c97e3c274e10b3b9958c3aa4c01533b0fcd8ca9e1644af7876a7478b2",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000165916的INHIBITOR"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "768bfea2d8430a67b9a0bdd13e42ce8763f4d078f2844140e0df9c5ede1dd969",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000108344的INHIBITOR"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "7a2c8c2d6fd0b97a906e48fad11ac90bdb1ad0546ca3ad2b0b191d966e0623df",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000127922的INHIBITOR"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "7c007a1b72af48b68c5f705939b16d7bc9c94d8f74f6355d3457b69fbedb8b4a",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000204264的INHIBITOR"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "89b3fa3d65f19a9409f2064b28d960df590914f5e5b71d92c2caaf0371143a06",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100902的INHIBITOR"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "8f3f285ca9c07b87d73b264accb723129425e96645ddee26b90e0c2397f7c803",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000240065的INHIBITOR"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "904e2f1a1ddcfa0392f9fba4bef68c2c17c150f3c3b65acfd8a21b5959de7604",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000197170的INHIBITOR"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "9e8285a66ddb4a0aae780698a5b775640f1954144f3996a0ba68b021232b4660",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000136930的INHIBITOR"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "a1d70abbaa14a934168fc20520fc4a9d3e8b1f89d225654075d1dc119b0a6bcc",
+        "supports_claim": true,
+        "reason": "path记录ENSG00000100804的INHIBITOR/TARGET"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "部分上游assertion缺source URL（包内evidence_gaps已说明），可追溯性依赖source_record_id与source_release",
+      "S2筛选证据仅基于MCF7单细胞系、24h、每条件n_signatures=1（single signature），代表性与稳健性有限",
+      "known_targets中TRANSPORTER/ENZYME类关系仅为来源报告的关联，不能据此推断作用方向或疗效"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:07:03.739171+00:00"
+}

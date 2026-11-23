@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "f1b401c2c5ca6380d8393bc263f844c4f5bca22884019914c66d13a2c79bbf45",
+  "evidence_input_sha256": "1e1e82c962b11d52e400c5b66c62a9aeed873ca199adba68c6822e899b5cd7cc",
+  "latency_seconds": 12.038442000000032,
+  "usage": {
+    "completion_tokens": 788,
+    "completion_tokens_details": {
+      "reasoning_tokens": 190
+    },
+    "prompt_tokens": 2502,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3290
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "与screening_evidence.s2_candidate一致：rank=48，WTCS=-0.3873704，condition_count=3。"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "与exp006字段逐项一致：MCF7、10.0 um、24h、WTCS B=-0.38737、A=-0.41488、rank A=27/B=48、n_signatures=1、3剂量、负剂量比例0.667、stability_grade=low、GSE70138。"
+      },
+      {
+        "claim_index": 3,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无任何S1 median rank（2000.5/1175.0/2482.0）数据；coverage显示s1重叠路径计数均为0，仅能说明无通路重叠，不能支持这些rank数字。"
+      },
+      {
+        "claim_index": 4,
+        "supported": false,
+        "unsupported": true,
+        "direction_error": false,
+        "reason": "包内无PRISM敏感性数据（ER+/ER-谱系计数、平均/中位敏感性、MCF7 -0.822均无来源）；该claim无证据ID且package_context中不存在对应数据。"
+      }
+    ],
+    "citation_reviews": [],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 5,
+        "supported": false,
+        "accurate": false,
+        "reason": "不准确：包内存在2条direct_target路径（ENSG00000160868、ENSG00000165841，reported_actions=ENZYME），因此'无知识图谱路径、无整理的靶点断言'与coverage矛盾；但'无公共通路/S1重叠'部分属实，且确无方向性机制结论依据。"
+      },
+      {
+        "claim_index": 6,
+        "supported": false,
+        "accurate": true,
+        "reason": "与exp006.evidence_limitations及screening数据一致：single signature、QC threshold sensitivity or missing threshold result、dose_stability=mixed_or_limited、stability_grade=low。"
+      },
+      {
+        "claim_index": 7,
+        "supported": false,
+        "accurate": true,
+        "reason": "WTCS（S2表达逆转）与PRISM敏感性在本包中无重叠数据来源，将其仅作解释性说明而非机制断言的保留意见与包内容不矛盾。"
+      }
+    ],
+    "limitations": [
+      "claim 3和4引用的S1 rank与PRISM数据在包内完全缺失，属无依据事实性声明",
+      "uncertainty claim 5错误地称无知识图谱路径，而包内存在2条direct_target路径",
+      "claims均未携带evidence_ids/path_ids，依赖快照字段核对",
+      "无citation_reference_pairs，引用层面无可核对项",
+      "部分上游source记录缺source URL，可追溯性受限"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:53:18.242617+00:00"
+}

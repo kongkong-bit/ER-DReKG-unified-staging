@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:56.201689+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-6811558/ancestors",
+    "response_sha256": "5dd58cbe68527015b6809a89609407405e73daf785f3c1a4e66b80592b5e6883",
+    "response_bytes": 2014
+  },
+  "payload": [
+    [
+      {
+        "dbId": 6811558,
+        "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "stId": "R-HSA-6811558",
+        "name": [
+          "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+        ],
+        "stIdVersion": "R-HSA-6811558.5",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/r-hsa-6811558.1",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2016-03-23",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 199418,
+        "displayName": "Negative regulation of the PI3K/AKT network",
+        "stId": "R-HSA-199418",
+        "name": [
+          "Negative regulation of the PI3K/AKT network"
+        ],
+        "stIdVersion": "R-HSA-199418.5",
+        "oldStId": "REACT_12447",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2008-03-12",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1257604,
+        "displayName": "PIP3 activates AKT signaling",
+        "stId": "R-HSA-1257604",
+        "name": [
+          "PIP3 activates AKT signaling",
+          "PI3K/AKT Signaling"
+        ],
+        "stIdVersion": "R-HSA-1257604.14",
+        "oldStId": "REACT_75829",
+        "schemaClass": "Pathway",
+        "doi": "10.3180/R-HSA-1257604.14",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-06-14",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 2501,
+        "diagramHeight": 1479,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 9006925,
+        "displayName": "Intracellular signaling by second messengers",
+        "stId": "R-HSA-9006925",
+        "name": [
+          "Intracellular signaling by second messengers"
+        ],
+        "stIdVersion": "R-HSA-9006925.6",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2017-09-12",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 291,
+        "diagramHeight": 209,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 162582,
+        "displayName": "Signal Transduction",
+        "stId": "R-HSA-162582",
+        "name": [
+          "Signal Transduction",
+          "Signaling Pathways"
+        ],
+        "stIdVersion": "R-HSA-162582.13",
+        "oldStId": "REACT_111102",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 631,
+        "diagramHeight": 589,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

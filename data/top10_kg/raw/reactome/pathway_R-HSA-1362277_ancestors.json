@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:47.844747+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-1362277/ancestors",
+    "response_sha256": "84d1854c1a9cea9ad3d88bc427ffdf6a63a25297d514a3d2443cae57e85fe8d7",
+    "response_bytes": 2025
+  },
+  "payload": [
+    [
+      {
+        "dbId": 1362277,
+        "displayName": "Transcription of E2F targets under negative control by DREAM complex",
+        "stId": "R-HSA-1362277",
+        "name": [
+          "Transcription of E2F targets under negative control by DREAM complex"
+        ],
+        "stIdVersion": "R-HSA-1362277.3",
+        "oldStId": "REACT_111167",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1538133,
+        "displayName": "G0 and Early G1",
+        "stId": "R-HSA-1538133",
+        "name": [
+          "G0 and Early G1"
+        ],
+        "stIdVersion": "R-HSA-1538133.5",
+        "oldStId": "REACT_111214",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "hasDiagram": false,
+        "hasEHLD": false,
+        "diagramWidth": 0,
+        "diagramHeight": 0,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 453279,
+        "displayName": "Mitotic G1 phase and G1/S transition",
+        "stId": "R-HSA-453279",
+        "name": [
+          "Mitotic G1 phase and G1/S transition"
+        ],
+        "stIdVersion": "R-HSA-453279.6",
+        "oldStId": "REACT_21267",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2010-03-16",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 3231,
+        "diagramHeight": 2517,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 69278,
+        "displayName": "Cell Cycle, Mitotic",
+        "stId": "R-HSA-69278",
+        "name": [
+          "Cell Cycle, Mitotic"
+        ],
+        "stIdVersion": "R-HSA-69278.6",
+        "oldStId": "REACT_152",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2004-07-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 515,
+        "diagramHeight": 441,
+        "definition": "The most common eukaryotic cell cycle, in which a cell is duplicated without changing ploidy; comprises four successive phases called G1, S, G2, and M.",
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1640170,
+        "displayName": "Cell Cycle",
+        "stId": "R-HSA-1640170",
+        "name": [
+          "Cell Cycle"
+        ],
+        "stIdVersion": "R-HSA-1640170.5",
+        "oldStId": "REACT_115566",
+        "schemaClass": "TopLevelPathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-12-06",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 651,
+        "diagramHeight": 136,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}

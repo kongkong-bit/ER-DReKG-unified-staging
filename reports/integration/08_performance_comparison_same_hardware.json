@@ -1,0 +1,114 @@
+[
+  {
+    "feature": "top10_api",
+    "environment": "syh_baseline",
+    "samples": 5,
+    "p50_ms": 87.82,
+    "p95_ms": 94.91,
+    "latencies_ms": [
+      80.53,
+      87.82,
+      94.91,
+      94.91,
+      55.52
+    ]
+  },
+  {
+    "feature": "top10_api",
+    "environment": "integrated_cleanroom",
+    "samples": 5,
+    "p50_ms": 65.94,
+    "p95_ms": 88.23,
+    "latencies_ms": [
+      72.72,
+      63.13,
+      57.46,
+      88.23,
+      65.94
+    ]
+  },
+  {
+    "feature": "graph_summary_api",
+    "environment": "syh_baseline",
+    "samples": 5,
+    "p50_ms": 477.61,
+    "p95_ms": 600.58,
+    "latencies_ms": [
+      529.05,
+      477.61,
+      467.5,
+      458.08,
+      600.58
+    ]
+  },
+  {
+    "feature": "graph_summary_api",
+    "environment": "integrated_cleanroom",
+    "samples": 5,
+    "p50_ms": 459.64,
+    "p95_ms": 553.46,
+    "latencies_ms": [
+      459.64,
+      432.95,
+      443.84,
+      505.79,
+      553.46
+    ]
+  },
+  {
+    "feature": "kg06_package_api",
+    "environment": "syh_baseline",
+    "samples": 5,
+    "p50_ms": 526.94,
+    "p95_ms": 676.93,
+    "latencies_ms": [
+      676.93,
+      519.79,
+      526.94,
+      633.6,
+      525.72
+    ]
+  },
+  {
+    "feature": "kg06_package_api",
+    "environment": "integrated_cleanroom",
+    "samples": 5,
+    "p50_ms": 433.38,
+    "p95_ms": 738.9,
+    "latencies_ms": [
+      433.38,
+      545.2,
+      738.9,
+      383.13,
+      400.44
+    ]
+  },
+  {
+    "feature": "kg07_rule_api",
+    "environment": "syh_baseline",
+    "samples": 5,
+    "p50_ms": 422.49,
+    "p95_ms": 713.5,
+    "latencies_ms": [
+      422.49,
+      415.1,
+      403.09,
+      454.47,
+      713.5
+    ]
+  },
+  {
+    "feature": "kg07_rule_api",
+    "environment": "integrated_cleanroom",
+    "samples": 5,
+    "p50_ms": 443.5,
+    "p95_ms": 611.35,
+    "latencies_ms": [
+      443.5,
+      470.46,
+      426.48,
+      442.97,
+      611.35
+    ]
+  }
+]

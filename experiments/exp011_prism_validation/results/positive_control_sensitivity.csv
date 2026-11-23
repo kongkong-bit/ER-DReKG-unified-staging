@@ -1,0 +1,4 @@
+inchi_key,broad_id,name,moa,target,erpos_mean_sensitivity,erpos_median_sensitivity,n_erpos_lines,mcf7_sensitivity,n_mcf7_conditions
+VWUXBMIQPBEWFH-WCCTWKNTSA-N,BRD-A85667082-001-12-7,fulvestrant,estrogen receptor antagonist,"ESR1, ESR2, GPER1",0.3756503670676667,0.249710732367,9,0.153823507154,1
+GZUITABIAKMVPG-UHFFFAOYSA-N,BRD-K63828191-003-32-1,raloxifene,"estrogen receptor antagonist, selective estrogen receptor modulator (SERM)","ESR1, ESR2",0.36023703505857774,0.354161865395,9,-0.147733526556,1
+NKANXQFJJICGDU-QPLCGJKRSA-N,BRD-K93754473-048-20-2,tamoxifen,"estrogen receptor antagonist, selective estrogen receptor modulator (SERM)","EBP, ESR1, ESR2, GPER1, PRKCA, PRKCB, PRKCD, PRKCE, PRKCG, PRKCI, PRKCQ, PRKCZ",-0.12365894923494108,-0.135576501111,9,-0.101043418097,1

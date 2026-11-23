@@ -1,0 +1,229 @@
+# Phase E GraphBundle 真实数据端到端验收报告
+
+运行时间：2026-11-14T09:04:24.876322+00:00
+
+本报告来自 PostgreSQL、GSE42568 全量 limma 结果、真实 LINCS MCF7 Level 5 子集、OptimusKG 3.2、Neo4j 及 FastAPI 的实际运行。所有本次新增 AnalysisRun 均位于 `test_only` 项目；S2 仅限 30 条 Signature，不构成正式药物排名。原始 S1/S2 输入文件保持只读。
+
+## 各阶段运行 ID 与结果
+
+### s1
+
+```json
+{
+  "status": "completed",
+  "analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:253cae29-a63b-4648-a06c-8fd3e3f7dcdb",
+  "dataset_id": "9b13a23a-d1b4-46a0-aec6-fc82e2c69ce2",
+  "tested_genes": 21653,
+  "significant_genes": 7066,
+  "test_only": true,
+  "output_sha256": "dc1e42d34a1f165dff936ad77dcaabc26c856c962724d5c8666bd88be2b15888"
+}
+```
+
+### enrichment
+
+```json
+{
+  "status": "completed",
+  "analysis_run_id": "ANALYSIS_RUN:S1_ENRICHMENT:148b37ae-1c40-471d-900c-a26b4bf76e80",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:253cae29-a63b-4648-a06c-8fd3e3f7dcdb",
+  "mapped_universe": 17649,
+  "significant_pathway_counts": {
+    "go_up": 206,
+    "go_down": 343,
+    "reactome_up": 135,
+    "reactome_down": 26,
+    "hallmark_gsea": 29
+  },
+  "test_only": true
+}
+```
+
+### s2
+
+```json
+{
+  "status": "completed",
+  "analysis_run_id": "ANALYSIS_RUN:S2_LINCS:86438aee-0fb6-4980-9eb2-7c96dbf5eb0a",
+  "s1_analysis_run_id": "ANALYSIS_RUN:S1_PRECOMPUTED:253cae29-a63b-4648-a06c-8fd3e3f7dcdb",
+  "test_only": true,
+  "condition_count": 30,
+  "qc_summary": {
+    "mcf7_trt_cp_signatures": 12737,
+    "requested_time_signatures": 11850,
+    "quality_pass_signatures": 5861,
+    "quality_pass_with_gctx_id": 5861,
+    "scored_signatures": 30,
+    "scored_drugs": 10,
+    "dose_time_condition_rows": 30,
+    "quality_missing_or_below_threshold": 5989,
+    "quality_threshold": 0.2,
+    "cell_id": "MCF7",
+    "pert_type": "trt_cp",
+    "time": "24 h",
+    "dose_policy": "retain each dose stratum; never select a per-drug best dose",
+    "aggregation_policy": "median WTCS across eligible signatures within exact pert_id/cell/type/dose/time; MAD retained",
+    "rank_policy": "rank condition rows only within exact cell/type/dose/time",
+    "s1_up_selected": 100,
+    "s1_down_selected": 100,
+    "s1_up_measured_in_gctx": 100,
+    "s1_down_measured_in_gctx": 100
+  }
+}
+```
+
+### graph_bundle
+
+```json
+{
+  "status": "completed",
+  "analysis_run_id": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:abcd527b-66c5-4b16-b5a9-4d9526f260ce",
+  "bundle_dir": "data/processed/projects/89aa18d8-e1ca-4eb4-8046-634cd2911207/graph_bundle/runs/abcd527b-66c5-4b16-b5a9-4d9526f260ce",
+  "counts": {
+    "nodes": 7299,
+    "edges": 37558,
+    "s1_significant_genes": 7066,
+    "s1_unique_ensembl_mapped": 6707,
+    "s1_ambiguous_or_unmatched": 359,
+    "pathway_gene_links": 31991,
+    "pathway_gene_unique_mapped": 30350,
+    "candidate_perturbagens": 10,
+    "exact_inchikey_mapped_drugs": 6,
+    "s2_condition_rows": 30,
+    "candidate_target_pathway_routes": 128,
+    "relation_conflicts": 0,
+    "unmatched_entities": 2004
+  },
+  "test_only": true,
+  "mapping_policy": "exact InChIKey for compounds; unique Ensembl gene mapping; unresolved or ambiguous entities are retained in audit only"
+}
+```
+
+### neo4j_graph_build
+
+```json
+{
+  "status": "materialized",
+  "graph_build_id": "GRAPH_BUILD:89aa18d8-e1ca-4eb4-8046-634cd2911207:43a6951304d9debc",
+  "summary": {
+    "node_count": 7283,
+    "edge_count": 37538,
+    "nodes_by_type": {
+      "DiseaseContext": 1,
+      "Pathway": 1417,
+      "Gene": 5790,
+      "GeneSet": 29,
+      "Drug": 6,
+      "Candidate": 10,
+      "S2Condition": 30
+    },
+    "source": "neo4j",
+    "snapshot_kind": "按 GraphBuild ID 标记的 Neo4j 图谱版本",
+    "neo4j_membership": "registered",
+    "import_status": "PASS",
+    "test_only": true,
+    "neo4j_importer_sha256": "9c4b6609c69810a8e276efd90703db24a148dddfdbddd628880ef0f73801256d",
+    "evidence_record_count": 37558,
+    "evidence_records_sha256": "1c1248a75c97a0192bff4bb7b4d0c2122a2af7c8f89eae995c7e707906a149a4",
+    "evidence_records_status": "persisted",
+    "disease_context_count": 1,
+    "disease_contexts_sha256": "23d44b33fdd909424f0be1744c705dd8d245cacf3a1b7c09327ad19b17e9238a",
+    "disease_contexts_status": "persisted"
+  },
+  "idempotent": true
+}
+```
+
+### fastapi_queries
+
+```json
+{
+  "summary": {
+    "status_code": 200,
+    "node_count": 7283,
+    "edge_count": 37538
+  },
+  "search": {
+    "status_code": 200,
+    "items": [
+      {
+        "id": "REACT:R-HSA-5633007",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity"
+      },
+      {
+        "id": "Regulation of TP53 Activity",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity"
+      },
+      {
+        "id": "Regulation of TP53 Activity through Acetylation",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity through Acetylation"
+      },
+      {
+        "id": "REACT:R-HSA-6804758",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity through Acetylation"
+      },
+      {
+        "id": "Regulation of TP53 Activity through Phosphorylation",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity through Phosphorylation"
+      },
+      {
+        "id": "REACT:R-HSA-6804756",
+        "type": "Pathway",
+        "label": "Regulation of TP53 Activity through Phosphorylation"
+      },
+      {
+        "id": "ENSG00000141510",
+        "type": "Gene",
+        "label": "TP53"
+      },
+      {
+        "id": "TP53 Regulates Transcription of Cell Cycle Genes",
+        "type": "Pathway",
+        "label": "TP53 Regulates Transcription of Cell Cycle Genes"
+      },
+      {
+        "id": "REACT:R-HSA-6791312",
+        "type": "Pathway",
+        "label": "TP53 Regulates Transcription of Cell Cycle Genes"
+      },
+      {
+        "id": "TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest",
+        "type": "Pathway",
+        "label": "TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest"
+      }
+    ]
+  },
+  "subgraph": {
+    "status_code": 200,
+    "node_count": 100,
+    "edge_count": 193,
+    "truncated": true
+  },
+  "mechanism": {
+    "status_code": 200,
+    "exact_inchikey_candidate_count": 6,
+    "queried_pert_id": "BRD-A00147595",
+    "route_count": 82,
+    "route_types": [
+      "s1_enrichment_overlap"
+    ]
+  },
+  "evidence": {
+    "status_code": 200,
+    "source_release": "GSE70138 Broad LINCS Level 5; perturbagen metadata 2017-03-06",
+    "evidence_id": "bc2a492faeb46a2a66aea5ae4875878df875b8ec4817c5d08db9d17451aa0cce"
+  },
+  "cross_project_graph_build_filter": {
+    "status_code": 404
+  }
+}
+```
+
+## 解释边界
+
+GraphBundle 和 API 路径只表示有来源记录的数据库关系与项目表达/富集证据交集，不证明因果、治疗效果或 ER 阳性特异性机制。Neo4j 中公共实体按稳定 ID 复用，项目关系按 GraphBuild ID 隔离。

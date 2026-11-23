@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "input_sha256": "51cbddbb69f3d503eb3f9103a19df1f964192161e35f455b415175946e1bbf65",
+  "evidence_input_sha256": "aaf335a8ded57ddeafda4f5b7fbfde349acfca9c2f0feb41b139169b1e5afb03",
+  "latency_seconds": 10.345079699999587,
+  "usage": {
+    "completion_tokens": 712,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 5084,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 5796
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "5条S2条件观测（MCF7 trt_cp 5个剂量24h）均有对应evidence_id且verified_in_postgres=true；WTCS为分数的表述与WTCS字段一致；未声称临床疗效，无方向错误。"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "4a66e9a33fb9f7760772c5dc70b37d6922075ac5811c54b22cc0eedd18a77550",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|3.33um|24h S2条件，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "7db2a60573a5d4eeefeb0af98995b419e2ea69ff5d0eea2c196291155ab4de7d",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|0.12um|24h S2条件，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "95de4c06031e6a2cc3e394c17bf9591e3b8389efa1f34e9ae7ac1527cdcd3ea8",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|0.37um|24h S2条件，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "ab366d7c75cd1aa0d6cf748b5f434d31a0c34e175c952e9e07fbd219315a6356",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|1.11um|24h S2条件，verified_in_postgres=true。"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c577c2e6d979518ad6028b6785768ade2c8a99e316c75dcb064e858143b507c3",
+        "supports_claim": true,
+        "reason": "对应MCF7|trt_cp|10.0um|24h S2条件，verified_in_postgres=true。"
+      }
+    ],
+    "uncertainty_reviews": [
+      {
+        "claim_index": 2,
+        "accurate": true,
+        "reason": "coverage显示direct_target_path_count、public_pathway_path_count、s1重叠路径数均为0，且evidence_gaps明确列出无靶点断言与通路路径，'机制证据不足'与包内覆盖一致。"
+      }
+    ],
+    "limitations": [
+      "仅5条S2条件观测，单一signature、MCF7单一细胞系24h，dose_stability为mixed_or_limited、stability_grade为low，QC阈值敏感性存在",
+      "无curated药物-靶点断言、无通路路径、无独立验证证据（unique/verified_evidence_count=0），仅screening_basis层面可评估",
+      "WTCS为表达逆转关联分数，不能外推为临床疗效或机制因果"
+    ]
+  },
+  "created_at_utc": "2026-11-15T01:45:23.403040+00:00"
+}

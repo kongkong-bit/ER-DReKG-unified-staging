@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:23:49.569284+00:00",
+    "request_url": "https://reactome.org/ContentService/data/mapping/UniProt/Q9BY41/pathways?species=Homo%20sapiens",
+    "response_sha256": "aaa8ad20d7dd41f82fde6550cea7af40a08926f03e7f883903e34fc79cf8af74",
+    "response_bytes": 3783
+  },
+  "payload": [
+    {
+      "dbId": 2122947,
+      "displayName": "NOTCH1 Intracellular Domain Regulates Transcription",
+      "stId": "R-HSA-2122947",
+      "stIdVersion": "R-HSA-2122947.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH1 Intracellular Domain Regulates Transcription"
+      ],
+      "releaseDate": "2012-03-13",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2020-03-16",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2467813,
+      "displayName": "Separation of Sister Chromatids",
+      "stId": "R-HSA-2467813",
+      "stIdVersion": "R-HSA-2467813.4",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Separation of Sister Chromatids"
+      ],
+      "releaseDate": "2012-12-04",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2022-04-07",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2500257,
+      "displayName": "Resolution of Sister Chromatid Cohesion",
+      "stId": "R-HSA-2500257",
+      "stIdVersion": "R-HSA-2500257.7",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Resolution of Sister Chromatid Cohesion"
+      ],
+      "releaseDate": "2012-12-04",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-2500257.6",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2013-03-31",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2644606,
+      "displayName": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+      "stId": "R-HSA-2644606",
+      "stIdVersion": "R-HSA-2644606.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 2894862,
+      "displayName": "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",
+      "stId": "R-HSA-2894862",
+      "stIdVersion": "R-HSA-2894862.3",
+      "isInDisease": true,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants"
+      ],
+      "releaseDate": "2012-03-12",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2015-09-30",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 3214815,
+      "displayName": "HDACs deacetylate histones",
+      "stId": "R-HSA-3214815",
+      "stIdVersion": "R-HSA-3214815.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "HDACs deacetylate histones"
+      ],
+      "releaseDate": "2014-06-10",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/REACT_228222.1",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2021-09-15",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 350054,
+      "displayName": "Notch-HLH transcription pathway",
+      "stId": "R-HSA-350054",
+      "stIdVersion": "R-HSA-350054.5",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Notch-HLH transcription pathway"
+      ],
+      "releaseDate": "2008-06-30",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "lastUpdatedDate": "2019-03-25",
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9976102,
+      "displayName": "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)",
+      "stId": "R-HSA-9976102",
+      "stIdVersion": "R-HSA-9976102.2",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "Differentiation of naive CD4+ T cells to T helper 2 cells (Th2 cells)"
+      ],
+      "releaseDate": "2026-03-25",
+      "speciesName": "Homo sapiens",
+      "doi": "10.3180/R-HSA-9976102.1",
+      "hasDiagram": true,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    },
+    {
+      "dbId": 9981845,
+      "displayName": "NOTCH signaling regulates gene expression in endothelial stalk cells",
+      "stId": "R-HSA-9981845",
+      "stIdVersion": "R-HSA-9981845.1",
+      "isInDisease": false,
+      "isInferred": false,
+      "maxDepth": 2,
+      "name": [
+        "NOTCH signaling regulates gene expression in endothelial stalk cells"
+      ],
+      "releaseDate": "2026-09-16",
+      "releaseStatus": "NEW",
+      "speciesName": "Homo sapiens",
+      "hasDiagram": false,
+      "hasEHLD": false,
+      "schemaClass": "Pathway",
+      "className": "Pathway"
+    }
+  ]
+}

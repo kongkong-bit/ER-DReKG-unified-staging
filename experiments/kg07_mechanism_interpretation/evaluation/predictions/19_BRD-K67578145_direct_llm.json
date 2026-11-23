@@ -1,0 +1,162 @@
+{
+  "status": "baseline_generated",
+  "mode": "direct_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K67578145",
+    "drug_name": "GDC-0879",
+    "mapping_status": "unmatched_no_exact_inchikey",
+    "compound_id": null,
+    "rank": "20"
+  },
+  "evidence_gaps": [
+    "perturbagen has no exact compound mapping in this GraphBuild",
+    "no curated Drug-to-Gene target assertion was found",
+    "no target-to-public-pathway route was found",
+    "no target-to-S1-enriched-pathway overlap was found",
+    "no target-to-S1-DEG overlap was found"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": false,
+    "direct_target_path_count": 0,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 0,
+    "s1_deg_overlap_path_count": 0,
+    "unique_evidence_count": 0,
+    "verified_evidence_count": 0,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "cc1d974a03e15f2858763ddad06e264cc7a97d3f75f753a9120ae23ae16f0bf7",
+  "prompt_version": "kg07-direct-baseline-v1.3",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "GDC-0879 (BRD-K67578145) 在 S2 表达逆转筛选中排名 20，WTCS 评分 -0.4155（5 个条件）；exp006 显示 MCF7 细胞、10 µM、24 h 的单签名结果（WTCS median A -0.4338 / B -0.4155），剂量稳定性评级为 low（negative_dose_fraction 0.6），证据有限性标注为单一签名且 QC 阈值敏感性或缺失阈值结果。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [],
+    "associated_pathways": [],
+    "independent_validation": [
+      {
+        "text": "独立验证端点为外部 S1 与 PRISM：external_s1_B200_median_rank 334.0（5 条件），Q2_condition_median_rank 747.0；PRISM ER+ 9 株平均敏感性 0.1993，MCF7 敏感性 -0.2358（1 条件，sensitivity_rank 559）。PRISM 端点为细胞活力降低，与 S2 表达逆转为独立端点，二者不一致不能单独否定任一检测。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "relation": "association",
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "无知识图谱路径、数据库靶点断言或疾病通路重叠数据，无法建立任何靶点或通路机制结论。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "S2 筛选结果基于单一签名（n_signatures=1）、剂量稳定性评级 low，且化合物 Inchikey 未匹配（mapping_status: unmatched_no_exact_inchikey），逆转分数仅为数据关联观察，不构成临床疗效或机制证据。",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_status": "unverified_direct_baseline",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "limitations": [
+      "无知识图谱路径、整理的靶点断言或疾病通路重叠数据（输入 note 明确说明）。",
+      "S2 结果仅单一签名，QC 阈值敏感性或缺失阈值结果；剂量稳定性评级 low。",
+      "PRISM 敏感性为细胞活力端点，非临床疗效证据；MCF7 仅 1 个条件。",
+      "化合物身份映射状态为 unmatched_no_exact_inchikey，compound_id 为 null。"
+    ],
+    "uncited_or_uncertain": [
+      "WTCS 评分的生物学含义（逆转了何种疾病签名）在输入中未给出具体签名来源描述，仅能引用 score_name/score_value。",
+      "外部 S1 与 Q2 端点的具体数据来源标签（external_s1_median_rank 等）作为字段 ID 引用，原始数据集详情未提供。"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K67578145",
+        "BRD-K67578145"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "screening_basis",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "external_s1_median_rank",
+        "Q2_condition_median_rank",
+        "erpos_mean_sensitivity",
+        "mcf7_sensitivity"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "independent_validation",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "unknown citation removed",
+      "invalid_evidence_ids": [
+        "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K67578145"
+      ],
+      "invalid_path_ids": []
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "direct baseline claim has no KG-verifiable citation; human review required"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": false,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 11.807,
+  "usage": {
+    "completion_tokens": 751,
+    "completion_tokens_details": {
+      "reasoning_tokens": 11
+    },
+    "prompt_tokens": 975,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1726
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true,
+  "citation_reference_status": "no_or_invalid_retained_claim_citations"
+}

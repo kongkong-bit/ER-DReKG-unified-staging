@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:03:04.945429+00:00",
+    "request_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?molecule_chembl_id=CHEMBL1738757&limit=1000&offset=0",
+    "response_sha256": "e066298796409d911eccf4d9d50e077e51de2c65b6c37b56c134a6e5cb666e2f",
+    "response_bytes": 778
+  },
+  "payload": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4704,
+        "mechanism_comment": "Also potent against other kinases (Src, LYN, FGR, and HCK, KDR, FLT3 and TIE2)",
+        "mechanism_of_action": "Tyrosine-protein kinase ABL inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "21481795",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21481795"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1738757",
+        "parent_molecule_chembl_id": "CHEMBL1738757",
+        "record_id": 1706451,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1862",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  }
+}

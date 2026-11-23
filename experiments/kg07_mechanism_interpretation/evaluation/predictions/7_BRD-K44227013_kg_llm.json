@@ -1,0 +1,180 @@
+{
+  "status": "generated",
+  "mode": "kg_llm",
+  "candidate": {
+    "candidate_id": "CANDIDATE:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:c922f2b0-242e-5991-9f76-dcbc8f66ce57:BRD-K44227013",
+    "drug_name": "ponatinib",
+    "mapping_status": "matched_exact_inchikey",
+    "compound_id": "CHEMBL1171837",
+    "rank": "1"
+  },
+  "evidence_gaps": [
+    "no target-to-public-pathway route was found",
+    "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained"
+  ],
+  "coverage": {
+    "candidate_present": true,
+    "compound_mapped": true,
+    "direct_target_path_count": 21,
+    "public_pathway_path_count": 0,
+    "s1_enrichment_overlap_path_count": 131,
+    "s1_deg_overlap_path_count": 5,
+    "unique_evidence_count": 258,
+    "verified_evidence_count": 258,
+    "s2_condition_evidence_count": 5,
+    "verified_s2_condition_evidence_count": 5,
+    "s2_condition_count": 5,
+    "evidence_integrity_pass": true,
+    "conflicted_path_count": 0
+  },
+  "project_id": "3f18f4c1-713d-58c5-8a53-38eca5a5aaf9",
+  "graph_build_id": "GRAPH_BUILD:3f18f4c1-713d-58c5-8a53-38eca5a5aaf9:a08001496a447f7f",
+  "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45",
+  "prompt_version": "kg07-evidence-interpretation-v1.5",
+  "model": "glm-5.3-flash",
+  "explanation": {
+    "screening_basis": [
+      {
+        "text": "MCF7 10µM 24h 条件 WTCS 为 -0.5167（反向相关信号）",
+        "relation": "association",
+        "evidence_ids": [
+          "b0cb5d8d92fc8e2b711af13e14214cbde9f8b7d89efb25e2189059898fceef68"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "MCF7 3.33µM 24h 条件 WTCS 为 +0.3316（同向信号）",
+        "relation": "association",
+        "evidence_ids": [
+          "09966d956c90e3178ab35318acf81ec4509654735aae4d1a94cf5c09ed91d4e6"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "候选总 WTCS 分数来自 5 个 MCF7 条件，其中剂量响应方向不一致",
+        "relation": "association",
+        "evidence_ids": [
+          "16a277154473300b4d1057f35494cfd0624c8fb5c325a8a13009c536931820e9",
+          "969d18312d44915f65afbfbdc96647b294294a9b23b2dcfea941dda8f4cb51fb"
+        ],
+        "path_ids": [],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "known_targets": [
+      {
+        "text": "图谱路径报告 ponatinib 为 ENSG00000097007 的抑制剂",
+        "relation": "inhibition",
+        "evidence_ids": [],
+        "path_ids": [
+          "04e454c03d43153f617422cda58483118d98b2da0fdf025116b6dcd24f77d929"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱路径报告 ENSG00000066468 为 ponatinib 靶点",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "0604f6bf265551157f2f7138bd50398af4e032bfddc96c750db9c8814a3c0f29"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      },
+      {
+        "text": "待审核方向性表述（来源未确认该方向，按关联/未知降级）：图谱路径报告 ENSG00000160867 为 ponatinib 靶点",
+        "relation": "association",
+        "evidence_ids": [],
+        "path_ids": [
+          "089240dba8a0d9c45d2bbe417aa1ac053a82fbda648257bf6401857af2be20fe"
+        ],
+        "citation_reference_status": "IDs_verified_in_current_EvidencePackage",
+        "semantic_support_status": "human_review_required"
+      }
+    ],
+    "associated_pathways": [],
+    "independent_validation": [],
+    "mechanism_hypotheses": [],
+    "insufficient_evidence": [
+      {
+        "text": "no target-to-public-pathway route was found",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45"
+      },
+      {
+        "text": "some source records have no source URL in the upstream assertion; source_record_id and source_release are retained",
+        "evidence_ids": [],
+        "path_ids": [],
+        "citation_reference_status": "verified_coverage_gap_from_EvidencePackage",
+        "semantic_support_status": "coverage_metadata_not_a_biological_claim",
+        "evidence_input_sha256": "d777d86ed9d4c10870517c5ddafe8b51e161979bae3a7d960db82fd037a16c45"
+      }
+    ],
+    "limitations": [
+      "WTCS 分数与图谱路径不构成临床疗效证据",
+      "部分源记录缺 source URL",
+      "未提供靶点基因符号注释"
+    ],
+    "uncited_or_uncertain": [
+      "其余 direct_target 路径（如 ENSG00000197122、ENSG00000157404）未逐一列出"
+    ]
+  },
+  "citation_validation_issues": [
+    {
+      "section": "known_targets",
+      "index": 1,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "known_targets",
+      "index": 2,
+      "issue": "relation direction not asserted by cited source; downgraded",
+      "relation": "binding"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 0,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 1,
+      "issue": "claim dropped: no verifiable citation"
+    },
+    {
+      "section": "insufficient_evidence",
+      "index": 2,
+      "issue": "claim dropped: no verifiable citation"
+    }
+  ],
+  "citation_validation_pass": false,
+  "citation_reference_validation_pass": true,
+  "semantic_entailment_status": "not_automatically_verified; human review required",
+  "human_review_required": true,
+  "latency_seconds": 10.291,
+  "usage": {
+    "completion_tokens": 739,
+    "completion_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "prompt_tokens": 3137,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3876
+  },
+  "provider_cost": null,
+  "provider_cost_status": "not reported by provider",
+  "cached": true,
+  "citation_reference_status": "retained_claims_cited_ids_verified"
+}

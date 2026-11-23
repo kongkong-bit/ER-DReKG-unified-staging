@@ -1,0 +1,7 @@
+# Phase 1 snapshot and recovery note
+
+Created `D:\CLASS\ER-DReKG-unified-staging` as a copy of the current `syh` tree, including its then-present modified and untracked work. Copy exclusions: `.git`, `.env`, `node_modules`, `.venv`, `__pycache__`, `.pytest_cache`, `.uv-cache`. `.env.example` was retained. The first recursive copy was incomplete at the time of an intermediate check; the copy completed afterward. A follow-up copy added root `scripts/` (11 files). Core-file SHA-256 spot checks for backend main/repository, frontend entry/API/Top10 page, KG importer/builder, S2 report and README matched the source at audit time.
+
+The source `syh` directory was not modified by the staging copy. The staging directory is a working copy, not a Git worktree and has no automatic rollback history. Recovery: preserve staging, create a fresh copy from the current recorded source state, then replay reviewed changes. Never restore over the original source. No database or Docker operation has yet been run; no database backup or migration is needed for this snapshot.
+
+Exclusion consequence: staging is code/data snapshot rather than complete developer environment; local dependencies and secrets must be installed/configured from documented templates. Full-size data presence and manifest hashes still require verification. Disk usage is large (source tree was about 22.3 GB at audit); confirm available storage before additional duplicated data copies.

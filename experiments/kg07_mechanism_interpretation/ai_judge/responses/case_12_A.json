@@ -1,0 +1,576 @@
+{
+  "status": "PASS",
+  "review_type": "AI-as-judge; not human review",
+  "prompt_version": "kg07-blinded-ai-judge-v1.0",
+  "model": "glm-5.3-flash",
+  "completion_token_cap": 6000,
+  "input_sha256": "13a79c196e3e3579726e5ef6d8a8ce6936aae6e1533a3976457ee680a36fe325",
+  "evidence_input_sha256": "2a5b47838e60bd1bca89a764c398a49ddec56d3926027094b1cec58961d56064",
+  "latency_seconds": 57.52055720000135,
+  "request_count": 1,
+  "usage": {
+    "completion_tokens": 5142,
+    "completion_tokens_details": {
+      "reasoning_tokens": 187
+    },
+    "prompt_tokens": 123527,
+    "prompt_tokens_details": {
+      "cached_tokens": 123520
+    },
+    "total_tokens": 128669
+  },
+  "parsed_review": {
+    "claim_reviews": [
+      {
+        "claim_index": 1,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "6条S2条件观测均有对应evidence_id且verified；WTCS为关联分数的表述与来源一致"
+      },
+      {
+        "claim_index": 2,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径2b5105...记录TARGETS且reported_actions含INHIBITOR，OptimusKG显示HDAC3 inhibitor"
+      },
+      {
+        "claim_index": 3,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径2c1e35...记录TARGETS/INHIBITOR（HDAC11 inhibitor）"
+      },
+      {
+        "claim_index": 4,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径6afbf7...记录TARGETS/INHIBITOR（HDAC1 inhibitor）"
+      },
+      {
+        "claim_index": 5,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径94912b...记录TARGETS/INHIBITOR（HDAC2 inhibitor）"
+      },
+      {
+        "claim_index": 6,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径c31f04...记录TARGETS/INHIBITOR（HDAC8 inhibitor）"
+      },
+      {
+        "claim_index": 7,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径347ec1...为public_pathway连接REACT:R-HSA-9843940，标签一致，claim表述为关联"
+      },
+      {
+        "claim_index": 8,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径3e11cd...连接REACT:R-HSA-9845323，标签一致"
+      },
+      {
+        "claim_index": 9,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径520d74...连接REACT:R-HSA-3214815 'HDACs deacetylate histones'"
+      },
+      {
+        "claim_index": 10,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径66e207...连接REACT:R-HSA-4551638"
+      },
+      {
+        "claim_index": 11,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径71475f...连接REACT:R-HSA-73762"
+      },
+      {
+        "claim_index": 12,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径74852b...连接REACT:R-HSA-9018519"
+      },
+      {
+        "claim_index": 13,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径7e98ab...连接REACT:R-HSA-427389，标签一致"
+      },
+      {
+        "claim_index": 14,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径9dedea...连接REACT:R-HSA-8936459，标签一致"
+      },
+      {
+        "claim_index": 15,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径bb5a0c...连接REACT:R-HSA-201722，标签一致"
+      },
+      {
+        "claim_index": 16,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径d1fbf4...连接REACT:R-HSA-983231，标签一致"
+      },
+      {
+        "claim_index": 17,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径dbdc6c...连接REACT:R-HSA-6804758，标签一致"
+      },
+      {
+        "claim_index": 18,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径f7ecfd...连接REACT:R-HSA-427413，标签一致"
+      },
+      {
+        "claim_index": 19,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径0caba8...为s1_enrichment_overlap连接REACT:R-HSA-9842860，含HAS_ENRICHED_GENE/PATHWAY"
+      },
+      {
+        "claim_index": 20,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径169e9d...连接REACT:R-HSA-8939211 'ESR-mediated signaling'"
+      },
+      {
+        "claim_index": 21,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径1c3ab8...连接GO:0016032 'viral process'，有富集p值"
+      },
+      {
+        "claim_index": 22,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径23c580...连接GO:0019080 'viral gene expression'"
+      },
+      {
+        "claim_index": 23,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径24c4f5...连接REACT:R-HSA-9843940，标签一致"
+      },
+      {
+        "claim_index": 24,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径2a1e7a...连接REACT:R-HSA-193704，标签一致"
+      },
+      {
+        "claim_index": 25,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径3e069e...连接REACT:R-HSA-2990846 'SUMOylation'"
+      },
+      {
+        "claim_index": 26,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径40a191...连接REACT:R-HSA-212165，标签一致"
+      },
+      {
+        "claim_index": 27,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径492dfd...连接REACT:R-HSA-983231，标签一致"
+      },
+      {
+        "claim_index": 28,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径4f76c2...连接REACT:R-HSA-5250913，标签一致"
+      },
+      {
+        "claim_index": 29,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径52c0d9...连接REACT:R-HSA-69278 'Cell Cycle, Mitotic'"
+      },
+      {
+        "claim_index": 30,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径52cff0...连接REACT:R-HSA-6804758，标签一致"
+      },
+      {
+        "claim_index": 31,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径5b472f...连接REACT:R-HSA-9845323，标签一致"
+      },
+      {
+        "claim_index": 32,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径5c2feb...连接GO:0019083 'viral transcription'"
+      },
+      {
+        "claim_index": 33,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径60590a...连接REACT:R-HSA-4551638，标签一致"
+      },
+      {
+        "claim_index": 34,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径60df38...连接REACT:R-HSA-73864 'RNA Polymerase I Transcription'"
+      },
+      {
+        "claim_index": 35,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径678260...连接REACT:R-HSA-8936459，标签一致"
+      },
+      {
+        "claim_index": 36,
+        "supported": true,
+        "unsupported": false,
+        "direction_error": false,
+        "reason": "路径6eea95...连接REACT:R-HSA-5633007 'Regulation of TP53 Activity'"
+      }
+    ],
+    "citation_reviews": [
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "4850906e71e5dcb6e7cdefc888a449d835573de2e6abe956af9808b5d4229865",
+        "supports_claim": true,
+        "reason": "MCF7 10.0um 24h条件记录，WTCS_median=-0.5059，verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "70357558fa323a58ae1c9418eda3d9179f2407e7916153d1a56a89119c856050",
+        "supports_claim": true,
+        "reason": "MCF7 0.04um条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "bac795b951e353fcbd7e499e457a23d479a0495fb36ad09693a032b328eeb1ec",
+        "supports_claim": true,
+        "reason": "MCF7 0.12um条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c01cc13324a8fc15f30200d46afbef2e680550527b8cde03ed4b331a51be21fa",
+        "supports_claim": true,
+        "reason": "MCF7 3.33um条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "c1455ff36d191ae981da1c4c1305cff91a36bbbf79891ce521576c201f43711b",
+        "supports_claim": true,
+        "reason": "MCF7 1.11um条件记录存在且verified"
+      },
+      {
+        "claim_index": 1,
+        "reference_type": "evidence",
+        "reference_id": "dec7a5ed2e59ae1a0a0020f64e0c13936baf6c4df7016761dd619e8c9aa6e42a",
+        "supports_claim": true,
+        "reason": "MCF7 0.37um条件记录存在且verified"
+      },
+      {
+        "claim_index": 2,
+        "reference_type": "path",
+        "reference_id": "2b51056a3e04756a465df8e7ec723295f403b997162fa1c07810a53a93963aab",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000171720，含INHIBITOR动作"
+      },
+      {
+        "claim_index": 3,
+        "reference_type": "path",
+        "reference_id": "2c1e35bad07c41e125f882cbd365cdb16ff18ae971d84b2ee60b52d96f406ccd",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000163517，含INHIBITOR动作"
+      },
+      {
+        "claim_index": 4,
+        "reference_type": "path",
+        "reference_id": "6afbf70007a7b421a2343e4401740456dfa1be0889b8274cc8a7cb86616d772d",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000116478，含INHIBITOR动作"
+      },
+      {
+        "claim_index": 5,
+        "reference_type": "path",
+        "reference_id": "94912bb08e65381276dfd89ae35eab0adc51ea8208f3762a252d058a0efb666b",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000196591，含INHIBITOR动作"
+      },
+      {
+        "claim_index": 6,
+        "reference_type": "path",
+        "reference_id": "c31f0477cd291d5cc6772546be11f4d94481966c89d2ae5bebc10d2f095b29c1",
+        "supports_claim": true,
+        "reason": "direct_target路径至ENSG00000147099，含INHIBITOR动作"
+      },
+      {
+        "claim_index": 7,
+        "reference_type": "path",
+        "reference_id": "347ec1cb364c313c4e1540d6dc830fa91a6552143d98b3d327c99e7b568f9c19",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-9843940"
+      },
+      {
+        "claim_index": 8,
+        "reference_type": "path",
+        "reference_id": "3e11cd1dc3e33950b07b5f87686242ded8a96ff3923db12ac329560fc60feeed",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-9845323"
+      },
+      {
+        "claim_index": 9,
+        "reference_type": "path",
+        "reference_id": "520d74c1d12a6b5294cf686cd848136093db37faab8a069c39134dbce645808e",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-3214815"
+      },
+      {
+        "claim_index": 10,
+        "reference_type": "path",
+        "reference_id": "66e207fe4ae6a166027c3f1bca1ebba243115b339ada50a7aa9c9f9c19ce3b26",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-4551638"
+      },
+      {
+        "claim_index": 11,
+        "reference_type": "path",
+        "reference_id": "71475f8a99755e4f3c39e3623895afaa9719245908649948a1e2378dee8ea2a1",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-73762"
+      },
+      {
+        "claim_index": 12,
+        "reference_type": "path",
+        "reference_id": "74852be6a223ffd24b85d16bf4638ac887c6cd7299a17dd92043fba74658305e",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-9018519"
+      },
+      {
+        "claim_index": 13,
+        "reference_type": "path",
+        "reference_id": "7e98aba78122d0dc39fe428652361d10b1c101d322a1192ddb6dbbb3598f649d",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-427389"
+      },
+      {
+        "claim_index": 14,
+        "reference_type": "path",
+        "reference_id": "9dedea85b6dabbbe91ab4e2fe51f34dc8ff828fa07d78fe79b36613feb983bcd",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-8936459"
+      },
+      {
+        "claim_index": 15,
+        "reference_type": "path",
+        "reference_id": "bb5a0c00e169981ede6181f905684bce00d8b85569cad7417a3a745c1619d4c5",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-201722"
+      },
+      {
+        "claim_index": 16,
+        "reference_type": "path",
+        "reference_id": "d1fbf4f14059bf57ff6554b34ece1827b28f871895d6c4f12099ba9d00eb86d6",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-983231"
+      },
+      {
+        "claim_index": 17,
+        "reference_type": "path",
+        "reference_id": "dbdc6cb3236b85b7316f13a94aa72c087b23aefdcacc99745f21f4c4fdf4b810",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-6804758"
+      },
+      {
+        "claim_index": 18,
+        "reference_type": "path",
+        "reference_id": "f7ecfd1ebb27c618490f5e993aa2d1dc097d1b51241bc88be2ca2f3030904ad0",
+        "supports_claim": true,
+        "reason": "public_pathway连接R-HSA-427413"
+      },
+      {
+        "claim_index": 19,
+        "reference_type": "path",
+        "reference_id": "0caba8006e3d9c87f6a2f4780a3fe8f03ab89dc2dc81e1e7f5da1323b9868c32",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-9842860，含HAS_ENRICHED_*关系"
+      },
+      {
+        "claim_index": 20,
+        "reference_type": "path",
+        "reference_id": "169e9d33d633f07f07b9c986ac5fd05dd7d340da2f780fe414eaba1a5312f262",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-8939211"
+      },
+      {
+        "claim_index": 21,
+        "reference_type": "path",
+        "reference_id": "1c3ab8e3cbd6f78284a42f339390d96f0e284fd1f88c1eb7c3a3dffe6bb6c86e",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接GO:0016032"
+      },
+      {
+        "claim_index": 22,
+        "reference_type": "path",
+        "reference_id": "23c5804c5adb96fc51b926ed8874db8936aca29eb9c02bbc956a0b60068bb5e7",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接GO:0019080"
+      },
+      {
+        "claim_index": 23,
+        "reference_type": "path",
+        "reference_id": "24c4f5fab4af72f71e19b8a74eea06b9910f3fbfd9f349e7b67d4f01d45e86de",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-9843940"
+      },
+      {
+        "claim_index": 24,
+        "reference_type": "path",
+        "reference_id": "2a1e7a597e86005ef50d8fdafa90a91f700e77c554b514c07d9bf2d39ed28bb0",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-193704"
+      },
+      {
+        "claim_index": 25,
+        "reference_type": "path",
+        "reference_id": "3e069e14003d67ad3825518d57b28b6747b18713bd6f7d6f6210f8b787156901",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-2990846"
+      },
+      {
+        "claim_index": 26,
+        "reference_type": "path",
+        "reference_id": "40a191a5a5bed84e7b317cc3745da8b94237de9fea7c84fdaa3bd3ab90988dc5",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-212165"
+      },
+      {
+        "claim_index": 27,
+        "reference_type": "path",
+        "reference_id": "492dfd8847b287415049b1fddc077c1ac981a1960e97bc64bbebf096676a79c4",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-983231"
+      },
+      {
+        "claim_index": 28,
+        "reference_type": "path",
+        "reference_id": "4f76c2148941a34cd989f181db301f133e50ea80fbd0a032cc97712834b22fd7",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-5250913"
+      },
+      {
+        "claim_index": 29,
+        "reference_type": "path",
+        "reference_id": "52c0d95be9105404a622dcff0a91c5ea07f4ea2897eae8cd7eab9bb2be523b58",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-69278"
+      },
+      {
+        "claim_index": 30,
+        "reference_type": "path",
+        "reference_id": "52cff0b0fb328418058d44dec4b6112631a3777d08454063ca1e51a6d278e074",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-6804758"
+      },
+      {
+        "claim_index": 31,
+        "reference_type": "path",
+        "reference_id": "5b472f44eaccbd16cbbea33fd6317fbe2800c2187db156e1daa2d60c39b8e718",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-9845323"
+      },
+      {
+        "claim_index": 32,
+        "reference_type": "path",
+        "reference_id": "5c2febd14de1af79463d48b9a3221c75a6df7a339afdff4691a44a64a1797572",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接GO:0019083"
+      },
+      {
+        "claim_index": 33,
+        "reference_type": "path",
+        "reference_id": "60590a1dd055c4ca5af811ce82ae0c3672616db289ae1625051e5c5ac0c76a27",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-4551638"
+      },
+      {
+        "claim_index": 34,
+        "reference_type": "path",
+        "reference_id": "60df3871d97963d7e78931eb6f36b8b27c57359e927a614583f7fe480c3b296f",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-73864"
+      },
+      {
+        "claim_index": 35,
+        "reference_type": "path",
+        "reference_id": "678260c7f5c364789fdc05cc29982b4655ea1851208c1c0e8a49541145759b67",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-8936459"
+      },
+      {
+        "claim_index": 36,
+        "reference_type": "path",
+        "reference_id": "6eea95f16067d657f33e4e11769390f761c18147a6c0b6dd04c883c3f9d285fa",
+        "supports_claim": true,
+        "reason": "s1_enrichment_overlap连接R-HSA-5633007"
+      }
+    ],
+    "uncertainty_reviews": [],
+    "limitations": [
+      "部分上游source record缺少source URL（仅保留source_record_id与source_release）",
+      "S2条件均为单签名（n_signatures=1），且6个条件中WTCS方向翻转（direction_flip），稳定性等级为low",
+      "S2条件仅来自MCF7细胞系（trt_cp）单一实验条件（GSE70138），覆盖范围有限",
+      "所有claims均为来源记录层面的关联/报告关系，无独立实验验证的因果证据",
+      "通路关联claim未指明富集方向（部分REACTOME_UP记录NES为null）"
+    ]
+  },
+  "created_at_utc": "2026-11-15T02:17:23.255013+00:00"
+}

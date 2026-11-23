@@ -1,0 +1,37 @@
+schema_version: 1
+sources:
+  - source_name: Reactome
+    source_url: https://reactome.org/download/current/
+    license: CC0 1.0 Universal for Reactome data; record the release manifest and cite the Reactome release
+    species: Homo sapiens
+    schema_version: Current pathway names and pathway-parent hierarchy; ReactomePathways.txt and ReactomePathwaysRelation.txt are headerless TSV
+    suggested_file: ReactomePathways.txt + ReactomePathwaysRelation.txt + UniProt2Reactome_All_Levels.txt
+    mode: streamed local-file import; do not infer regulation direction from pathway participation
+  - source_name: SIGNOR
+    source_url: https://signor.uniroma2.it/downloads.php
+    license: CC BY 4.0 for SIGNOR 4.0; include attribution and release citation
+    species: Homo sapiens
+    schema_version: SIGNOR 4.0 Oct2026 release TSV; header verified as ENTITYA...SIGNOR_ID
+    suggested_file: Oct2026_release.txt
+    mode: streamed release download; source-specific parser keeps direct human UniProt protein-to-protein signed assertions
+  - source_name: OmniPath
+    source_url: https://omnipathdb.org/
+    license: academic-use-filtered interactions; each evidence assertion keeps the per-resource license and URL from the OmniPath resources endpoint
+    species: Homo sapiens
+    schema_version: OmniPath interactions TSV with row-level evidences JSON; release API-current-2026-11-22
+    suggested_file: human academic-filtered core interaction export + resources metadata JSON
+    mode: API export; expand positive/negative core evidence into separate assertions and preserve source resources, references and license metadata individually
+  - source_name: DrugMechDB
+    source_url: https://github.com/SuLab/DrugMechDB
+    license: CC0 1.0; official 2.0.1 LICENSE text retained with the pinned dataset
+    species: human disease mechanisms; source-specific context
+    schema_version: versioned YAML mechanism paths; inspect current repository files
+    suggested_file: release archive
+    mode: independent evaluation only; exact-name and identifier match, no insertion into predictive training subgraph
+  - source_name: PrimeKG
+    source_url: https://github.com/mims-harvard/PrimeKG
+    license: CC0-1.0 (Harvard Dataverse dataset version 2; dataset metadata and source files pinned locally)
+    species: human
+    schema_version: versioned CSV/TSV graph tables; inspect actual headers
+    suggested_file: targeted drug/gene/disease edge subset
+    mode: target-only subset; preserve original relation labels and provenance

@@ -1,0 +1,22 @@
+{
+  "status": "validated",
+  "project_id": "c493efde-981a-511c-9409-0fac7021b096",
+  "test_only": true,
+  "fixture_kind": "software_validation_only",
+  "source_graph_build_id": "GRAPH_BUILD:89aa18d8-e1ca-4eb4-8046-634cd2911207:52b0590ca225433b",
+  "analysis_run_ids": {
+    "s1": "ANALYSIS_RUN:S1:PHASEE_NEO4J_SECOND_PROJECT",
+    "s2": "ANALYSIS_RUN:S2:PHASEE_NEO4J_SECOND_PROJECT",
+    "enrichment": "ANALYSIS_RUN:S1_ENRICHMENT:PHASEE_NEO4J_SECOND_PROJECT",
+    "bundle": "ANALYSIS_RUN:KG_GRAPH_BUNDLE:PHASEE_NEO4J_SECOND_PROJECT"
+  },
+  "reused_public_ids": [
+    "CHEMBL2103991",
+    "ENSG00000132170",
+    "MSIGDB:HALLMARK_ADIPOGENESIS"
+  ],
+  "output_hashes": {
+    "subgraph_nodes.csv": "7ed416b7dd8f3cd963e653e17f7c9af3862108bfc1a027d063d591811515968a",
+    "subgraph_edges.csv": "8d5eff722ca76c783915ff61c6c3aeb1f0361d0cfb9380537f19c3bced0f1d92"
+  }
+}

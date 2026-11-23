@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "status": "ok",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-21T04:25:52.075224+00:00",
+    "request_url": "https://reactome.org/ContentService/data/event/R-HSA-400206/ancestors",
+    "response_sha256": "062d8bbc2304318a41e2f6e77244da54b50e220a62a6c6706cd332e60c4edbbe",
+    "response_bytes": 1248
+  },
+  "payload": [
+    [
+      {
+        "dbId": 400206,
+        "displayName": "Regulation of lipid metabolism by PPARalpha",
+        "stId": "R-HSA-400206",
+        "name": [
+          "Regulation of lipid metabolism by PPARalpha",
+          "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+        ],
+        "stIdVersion": "R-HSA-400206.8",
+        "oldStId": "REACT_19241",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2009-09-30",
+        "hasDiagram": true,
+        "hasEHLD": false,
+        "diagramWidth": 1572,
+        "diagramHeight": 1973,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 556833,
+        "displayName": "Metabolism of lipids",
+        "stId": "R-HSA-556833",
+        "name": [
+          "Metabolism of lipids"
+        ],
+        "stIdVersion": "R-HSA-556833.9",
+        "oldStId": "REACT_22258",
+        "schemaClass": "Pathway",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2010-06-15",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 676,
+        "diagramHeight": 336,
+        "inferred": false,
+        "inDisease": false
+      },
+      {
+        "dbId": 1430728,
+        "displayName": "Metabolism",
+        "stId": "R-HSA-1430728",
+        "name": [
+          "Metabolism"
+        ],
+        "stIdVersion": "R-HSA-1430728.16",
+        "oldStId": "REACT_111217",
+        "schemaClass": "TopLevelPathway",
+        "doi": "10.3180/R-HSA-1430728.15",
+        "speciesName": "Homo sapiens",
+        "releaseDate": "2011-09-20",
+        "releaseStatus": "UPDATED",
+        "hasDiagram": true,
+        "hasEHLD": true,
+        "diagramWidth": 558,
+        "diagramHeight": 584,
+        "inferred": false,
+        "inDisease": false
+      }
+    ]
+  ]
+}
