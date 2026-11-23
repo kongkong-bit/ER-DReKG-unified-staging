@@ -27,6 +27,18 @@ ER-DReKG 将疾病差异表达（S1）、LINCS 药物扰动表达（S2）和知�
 | `docs/` | 架构、数据许可与项目文档 |
 | `data/` | 原始及处理数据；大文件、数据库和本地上传按忽略规则处理 |
 
+## 数据集获取与本地配置
+
+GitHub 仓库包含代码、审计记录和部分精选结果，不包含所有原始数据集或大型图谱文件。克隆后如需重跑完整分析，请按以下方式准备数据：
+
+1. **先阅读数据清单和许可**：查看[运行与复现说明](docs/REPRODUCIBILITY.md#数据准备)、[`docs/audit/source_license_audit.md`](docs/audit/source_license_audit.md) 及各实验报告。不同数据源有各自的下载地址、版本、引用和使用许可要求。
+2. **S1 疾病表达数据**：GSE42568 输入及已生成的 limma 结果见 `s1_初步_gse42568_limma/` 和 `experiments/s1_pathway_enrichment/`。若需从原始数据重新分析，按相关报告从 GEO 获取 GSE42568 数据。
+3. **S2 LINCS 数据**：GSE70138 Level 5 GCTX 文件体积很大，需按 `s2_lincs/reports/00_data_audit.md` 和 `s2_lincs/reports/formal_s2_screen_report.md` 中记录的文件与元数据清单从 GEO 获取。不要把 GCTX 提交到 Git。
+4. **知识图谱源数据**：PrimeKG、Reactome、OmniPath 等原始文件和生成的图谱证据矩阵因体积限制未上传。下载地址、版本及许可见 `kg/config/enrichment_sources.yaml`、`docs/audit/source_license_audit.md` 和 `data/kg_enrichment/` 下的来源清单（如有）。将文件放回清单指定的 `data/` 相对路径，再运行对应 `kg/scripts/` 构建脚本。
+5. **外部验证数据**：Exp010/Exp011 的输入来源和字段要求见 `experiments/exp010_external_s1/`、`experiments/exp011_prism_validation/` 及相关报告。
+
+大型或本地生成的数据通过 `.gitignore` 排除。缺少原始数据时，应用和代码仍可查看，但依赖这些输入的完整重算、图谱重建或验证步骤无法执行；已有精选结果和报告不代表原始数据已随仓库提供。数据准备完成后，按上面的 Windows 启动步骤运行平台。请勿将本机 `.env`、数据库文件、密钥或未获许可的数据上传到 GitHub。
+
 ## Windows 单项目启动
 
 从本项目根目录启动即可；不要从 `ER-DReKG-KG-delivery-20261120\04_code\backend\app\main.py` 启动整个平台。该嵌套目录是 KG 改动审阅包，按其交付说明刻意只放派生 `main.py` 和相关补丁，不含完整 `app.*` 后端或前端依赖。**可运行的完整后端和前端分别位于根目录 `backend/` 与 `frontend/`。**
